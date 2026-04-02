@@ -1,4 +1,8 @@
-"""HTTP fetcher with local file caching for CollegePravesh pages."""
+"""HTTP fetcher with local file caching for CollegePravesh pages.
+
+Uses Scrapling's Fetcher for stealth HTTP requests that bypass Cloudflare
+and other anti-bot protections — no API key required.
+"""
 
 from __future__ import annotations
 
@@ -6,9 +10,9 @@ import random
 import time
 from pathlib import Path
 
-import cloudscraper
 from bs4 import BeautifulSoup
 from loguru import logger
+from scrapling.fetchers import Fetcher
 from tenacity import (
     retry,
     stop_after_attempt,
@@ -20,14 +24,7 @@ from config.settings import CACHE_DIR, CP_BASE_URL, HEADERS
 
 
 class RateLimitError(Exception):
-    """Raised on HTTP 429."""
-
-
-# Use cloudscraper to bypass Cloudflare protection
-_scraper = cloudscraper.create_scraper(
-    browser={"browser": "chrome", "platform": "darwin", "mobile": False},
-)
-_scraper.headers.update(HEADERS)
+    """Raised on HTTP 429 / 403."""
 
 
 @retry(
@@ -37,12 +34,12 @@ _scraper.headers.update(HEADERS)
     reraise=True,
 )
 def _fetch_with_retry(url: str):
-    """GET with tenacity retry on 429/403."""
-    resp = _scraper.get(url, timeout=30)
-    if resp.status_code == 429:
+    """GET with tenacity retry on 429/403 using Scrapling's stealth fetcher."""
+    resp = Fetcher.get(url, timeout=30, stealthy_headers=True)
+    if resp.status == 429:
         logger.warning(f"429 rate-limited on {url} — backing off")
         raise RateLimitError(f"429 for {url}")
-    if resp.status_code == 403:
+    if resp.status == 403:
         logger.warning(f"403 on {url} — retrying with backoff")
         raise RateLimitError(f"403 for {url}")
     return resp
@@ -83,26 +80,26 @@ def fetch_page(
     try:
         resp = _fetch_with_retry(url)
     except RateLimitError:
-        logger.error(f"[{slug}] Still 429 after retries — giving up")
+        logger.error(f"[{slug}] Still 429/403 after retries — giving up")
         return None
-    except requests.RequestException as e:
+    except Exception as e:
         logger.error(f"[{slug}] Request failed: {e}")
         return None
 
-    if resp.status_code == 404:
+    if resp.status == 404:
         logger.warning(f"[{slug}] 404 — wrong slug or page removed")
         return None
 
-    if resp.status_code != 200:
-        logger.error(f"[{slug}] HTTP {resp.status_code}")
+    if resp.status != 200:
+        logger.error(f"[{slug}] HTTP {resp.status}")
         return None
 
     # ── Save to cache ────────────────────────────────────────
-    html = resp.text
-    if not html or not html.strip().startswith("<!") and not html.strip().startswith("<html"):
-        # Fallback: try decoding content manually
+    html = str(resp.html_content)
+    if not html or (not html.strip().startswith("<!") and not html.strip().startswith("<html")):
+        # Fallback: try decoding raw bytes
         try:
-            html = resp.content.decode("utf-8")
+            html = resp.body.decode("utf-8")
         except Exception:
             logger.error(f"[{slug}] Response is not valid HTML text")
             return None

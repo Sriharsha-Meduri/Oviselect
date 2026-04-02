@@ -1,4 +1,8 @@
-"""Fetcher for official college websites with local HTML caching."""
+"""Fetcher for official college websites with local HTML caching.
+
+Uses Scrapling's Fetcher for stealth HTTP requests that bypass Cloudflare
+and other anti-bot protections — no API key required.
+"""
 
 from __future__ import annotations
 
@@ -8,33 +12,13 @@ import time
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
-import cloudscraper
-import requests
 from bs4 import BeautifulSoup
 from loguru import logger
+from scrapling.fetchers import Fetcher
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 from config.settings import OFFICIAL_CACHE_DIR
 from config.official_urls import SECTION_PATHS
-
-# ── HTTP client ───────────────────────────────────────────────────────────────
-
-_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "identity",
-    "Connection": "keep-alive",
-}
-
-_scraper = cloudscraper.create_scraper(
-    browser={"browser": "chrome", "platform": "darwin", "mobile": False},
-)
-_scraper.headers.update(_HEADERS)
 
 
 class FetchError(Exception):
@@ -62,17 +46,17 @@ def _cache_path(url: str, slug: str) -> Path:
 def _fetch_url(url: str) -> str | None:
     """Fetch a URL and return the HTML text, or None on failure."""
     try:
-        resp = _scraper.get(url, timeout=25, allow_redirects=True)
-        if resp.status_code == 429:
+        resp = Fetcher.get(url, timeout=25, stealthy_headers=True)
+        if resp.status == 429:
             raise FetchError(f"429 rate-limited: {url}")
-        if resp.status_code in (403, 503):
-            raise FetchError(f"HTTP {resp.status_code}: {url}")
-        if resp.status_code == 404:
+        if resp.status in (403, 503):
+            raise FetchError(f"HTTP {resp.status}: {url}")
+        if resp.status == 404:
             return None
-        if resp.status_code != 200:
-            logger.debug(f"HTTP {resp.status_code} for {url}")
+        if resp.status != 200:
+            logger.debug(f"HTTP {resp.status} for {url}")
             return None
-        return resp.text
+        return str(resp.html_content)
     except FetchError:
         raise
     except Exception as e:
@@ -169,10 +153,11 @@ def discover_section_url(
         if from_cache:
             continue
         try:
-            resp = _scraper.get(candidate, timeout=15, allow_redirects=True)
-            if resp.status_code == 200 and len(resp.text) > 500:
+            resp = Fetcher.get(candidate, timeout=15, stealthy_headers=True)
+            html = str(resp.html_content)
+            if resp.status == 200 and len(html) > 500:
                 # Save to cache and return
-                cache_file.write_text(resp.text, encoding="utf-8")
+                cache_file.write_text(html, encoding="utf-8")
                 logger.debug(f"[{slug}] Found {section} at: {candidate}")
                 time.sleep(random.uniform(1, 2))
                 return candidate
