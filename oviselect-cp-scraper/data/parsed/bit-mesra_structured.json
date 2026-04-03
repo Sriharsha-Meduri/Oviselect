@@ -1,0 +1,2483 @@
+{
+  "institute": "BIT, Mesra, Ranchi",
+  "institute_type": "GFTI",
+  "also_known_as": "BIT Mesra",
+  "established_year": 1955,
+  "city": "Ranchi",
+  "state": "Jharkhand",
+  "address": "Birla Institute of Technology, Mesra, Ranchi, Jharkhand – 835215",
+  "nearest_airport": "Birsa Munda Airport, Ranchi",
+  "nearest_airport_km": 20.5,
+  "nearest_railway_station": "Ranchi Junction Railway Station",
+  "nearest_railway_km": 14.5,
+  "nirf_overall_rank": 101,
+  "nirf_engineering_rank": 51,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": "11-50 (2024)",
+  "qs_world_rank": null,
+  "qs_asia_rank": "463 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": 4,
+  "the_week_rank": 21,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years",
+    "Integrated M.Sc. - 5 Years"
+  ],
+  "tuition_fee_per_sem": 153000,
+  "hostel_fee_per_sem": 21000,
+  "mess_advance_per_sem": 30000,
+  "one_time_fees": 85000,
+  "caution_money": 10000,
+  "annual_fees": null,
+  "total_institute_fee": 266500,
+  "total_hostel_fee": 56000,
+  "fee_waivers": null,
+  "overall_placement_pct": 84.42,
+  "avg_package_lpa": 11.47,
+  "median_package_lpa": 9.72,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": null,
+  "branch_wise_median_ctc": {
+    "Bio Technology": 8.95,
+    "Chemical Engineering": 8.1,
+    "Chemical Engineering (Plastic and Polymer)": 7.5,
+    "Civil Engineering": 6.5,
+    "Computer Science and Engineering": 16.0,
+    "Electrical and Electronics Engineering": 8.13,
+    "Electronics and Communication Engineering": 11.0,
+    "Information Technology": 16.0,
+    "Mechanical Engineering": 8.01,
+    "Production Engineering": 7.5,
+    "Overall (B.Tech.)": 9.22
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Bio Technology": 9.49,
+    "Chemical Engineering": 8.44,
+    "Chemical Engineering (Plastic and Polymer)": 7.64,
+    "Civil Engineering": 7.09,
+    "Computer Science and Engineering": 19.28,
+    "Electrical and Electronics Engineering": 11.91,
+    "Electronics and Communication Engineering": 13.13,
+    "Information Technology": 20.59,
+    "Mechanical Engineering": 8.06,
+    "Production Engineering": 7.52,
+    "Overall (B.Tech.)": 13.01
+  },
+  "top_recruiters": null,
+  "placement_year": 2022,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Architecture and Planning",
+      "faculty": [
+        {
+          "name": "Dr. Satyaki Sarkar",
+          "designation": "Professor and Head",
+          "email": "satyakisarkar@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Urban and regional planning Conservation and heritage management Disaster mitigation Rural facility planning"
+          ]
+        },
+        {
+          "name": "Dr. Manjari Chakraborty",
+          "designation": "Professor",
+          "email": "dr_manjari@bitmesra.ac.in",
+          "phone": "9431175057",
+          "qualification": null,
+          "research_interests": [
+            "Architectural Education Building Science and Technology Sustainability and Green Architecture Circular Economy"
+          ]
+        },
+        {
+          "name": "Dr. Smriti Mishra",
+          "designation": "Associate Professor",
+          "email": "smriti151@yahoo.com",
+          "phone": "8084825903",
+          "qualification": null,
+          "research_interests": [
+            "Urban and Regional Planning Riverfront Planning Vernacular Architecture Perception studies Planning and development of Peri Urban Areas Development Management UHI Mitigation Strategies",
+            "Urban Environmental Management",
+            "Abandoned Mines and Landscaping Strategies."
+          ]
+        },
+        {
+          "name": "Dr. Rizwan Kazmi",
+          "designation": "Assistant Professor",
+          "email": "rizwan@bitmesra.ac.in",
+          "phone": "7856042537",
+          "qualification": null,
+          "research_interests": [
+            "Circular Economy in Construction",
+            "Sustainable Architecture",
+            "Urban Regeneration",
+            "Universal Design",
+            "and Building Services."
+          ]
+        },
+        {
+          "name": "Dr. Shama Parween",
+          "designation": "Assistant Professor",
+          "email": "ar_shama@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Urban Water Supply Planning and Management | Water Security & Conservation | Nature-Based Solutions | Urban Blue-Green-Grey Infrastructure | Urban Floods and Mitigation | Urban Regeneration | Urban Design | Environmental Planning | Vernacular & Climate Responsive Architecture"
+          ]
+        },
+        {
+          "name": "Dr. Tiwari Pavan Kumar",
+          "designation": null,
+          "email": "pavan@bitmesra.ac.in",
+          "phone": "8826816224",
+          "qualification": null,
+          "research_interests": [
+            "Urban Water and Sanitation Urban Wastewater Reuse Low-Carbon Urban Infrastructure Urban Environmental History Urban Geography Colonial housing and sanitation Sustainable Architecture."
+          ]
+        }
+      ],
+      "faculty_count": 6
+    },
+    {
+      "name": "Civil and Environmental Engineering",
+      "faculty": [
+        {
+          "name": "Dr. R. Naresh Kumar",
+          "designation": "Associate Professor and Head",
+          "email": "rnaresh@bitmesra.ac.in",
+          "phone": "9801160279",
+          "qualification": null,
+          "research_interests": [
+            "Water and Wastewater Treatment (Coagulation-flocculation",
+            "Electrochemical Techniques",
+            "Filtration",
+            "Sequential Processes). Water Quality Monitoring Atmospheric Chemistry Air Quality Monitoring"
+          ]
+        },
+        {
+          "name": "Dr. Prasanta Roy",
+          "designation": null,
+          "email": "doip@bimesra.ac.in",
+          "phone": "8637241511",
+          "qualification": null,
+          "research_interests": [
+            "Project Management",
+            "Construction Management",
+            "Geotechnical Engineering"
+          ]
+        },
+        {
+          "name": "Dr. Bindhu Lal",
+          "designation": "Professor",
+          "email": "bindhu_63@yahoo.co.in",
+          "phone": "9431596494",
+          "qualification": null,
+          "research_interests": [
+            "Environmental Engineering Soil Mechanics"
+          ]
+        },
+        {
+          "name": "Dr. Anand Kumar Sinha",
+          "designation": "Professor",
+          "email": "aksinha@bitmesra.ac.in",
+          "phone": "9431382733",
+          "qualification": null,
+          "research_interests": [
+            "Groundwater Modelling",
+            "Open Channel Flow",
+            "Water Quality",
+            "Applied Hydrology",
+            "Water Sustainability",
+            "Hydraulic Structures",
+            "Minewater Management",
+            "Climate Change"
+          ]
+        },
+        {
+          "name": "Dr. Tanushree Bhattacharya",
+          "designation": "Associate Professor",
+          "email": "tbhattacharya@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Biochar and applications",
+            "air pollution monitoring and modelling",
+            "health risk assessment",
+            "groundwater pollution and remediation",
+            "microplastics and remediation",
+            "environmental pollution monitoring and remediation",
+            "heavy metal pollution and treatment",
+            "phytoremediation"
+          ]
+        },
+        {
+          "name": "Dr. Siddhartha Sengupta",
+          "designation": "Associate Professor",
+          "email": "siddhartha@bitmesra.ac.in",
+          "phone": "9471502436",
+          "qualification": null,
+          "research_interests": [
+            "Slope stability Geotechnical earthquake engineering Numerical techniques in geotechnical engineering Eco-friendly construction materials"
+          ]
+        },
+        {
+          "name": "Dr. Ashes Banerjee",
+          "designation": "Assistant Professor",
+          "email": "ashes742@bitmesra.ac.in",
+          "phone": "8877801831",
+          "qualification": null,
+          "research_interests": [
+            "Characteristic length problem in Porous-media flow ; AI/ML for Porous media flow and groundwater quality assessment; social hydrology and basin-scale water resources; remote sensing & GIS for water resources."
+          ]
+        },
+        {
+          "name": "Dr. Anupam Das",
+          "designation": "Assistant Professor",
+          "email": "das_anupam@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Structural Vibration Control Mass and Liquid Dampers Offshore Renewable Energy Infrastructure"
+          ]
+        },
+        {
+          "name": "Dr. Jawed Iqbal",
+          "designation": "Assistant Professor",
+          "email": "jawed@bitmesra.ac.in",
+          "phone": "9771835389",
+          "qualification": null,
+          "research_interests": [
+            "<ul> <li>Water pollution&nbsp;</li> <li>Wastewater Treatment&nbsp;</li> <li>&nbsp;Environemntal Problem Optimization</li> <li>&nbsp;Air Pollution</li> </ul>"
+          ]
+        },
+        {
+          "name": "Dr. Saptarshi Kumar Lahiri",
+          "designation": "Assistant Professor",
+          "email": "sklahiri@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Structural Engineering; Computational Mechanics; Smoothed Particle Hydrodynamics; Earthquake Engineering; Fracture Mechanics; Computatioanl Fluid Dynamics"
+          ]
+        },
+        {
+          "name": "Dr. Mani Mohan",
+          "designation": "Assistant Professor",
+          "email": "mani.mohan@bitmesra.ac.in",
+          "phone": "8340456125",
+          "qualification": null,
+          "research_interests": [
+            "Structural Design Structural Dynamics Finite element method Concrete"
+          ]
+        },
+        {
+          "name": "Dr. Prodip Kumar Sarkar",
+          "designation": "Assistant Professor",
+          "email": "prodipkumar.sarkar@bitmesra.ac.in",
+          "phone": "8017774496",
+          "qualification": null,
+          "research_interests": [
+            "Civil and Structural Engineering Computational Material Science Molecular Dynamics Simulation Cement and Ceramic Thermal Energy Storage Earthquake Engineering"
+          ]
+        }
+      ],
+      "faculty_count": 12
+    },
+    {
+      "name": "Bioengineering and Biotechnology",
+      "faculty": [
+        {
+          "name": "Dr. Kunal Mukhopadhyay",
+          "designation": "Professor and Head",
+          "email": "kmukhopadhyay@bitmesra.ac.in",
+          "phone": "9431382720",
+          "qualification": null,
+          "research_interests": [
+            "Plant Molecular Biology Plant Tissue Culture"
+          ]
+        },
+        {
+          "name": "Dr. Manish Kumar",
+          "designation": null,
+          "email": "manish@bitmesra.ac.in",
+          "phone": "9431173860",
+          "qualification": null,
+          "research_interests": [
+            "Chromatography Plant-Pathogen Interactions Environmental Biotechnology"
+          ]
+        },
+        {
+          "name": "Dr. Raju Poddar",
+          "designation": null,
+          "email": "rpoddar@bitmesra.ac.in",
+          "phone": "9934447663",
+          "qualification": null,
+          "research_interests": [
+            "Nanobiotechnology Biophotonics Bioinformatics AI (CNN & RNN)",
+            "Digital Signal and Image processing"
+          ]
+        },
+        {
+          "name": "Dr. Ramesh Chandra",
+          "designation": "Professor",
+          "email": "rameshchandra@bitmesra.ac.in",
+          "phone": "9973511700",
+          "qualification": null,
+          "research_interests": [
+            "Pharmaceutical Biotechnology"
+          ]
+        },
+        {
+          "name": "Dr. Vinod Kumar Nigam",
+          "designation": "Professor",
+          "email": "vknigam@bitmesra.ac.in",
+          "phone": "8987627142",
+          "qualification": null,
+          "research_interests": [
+            "Bioprocess Technology and Biochemical Engineering"
+          ]
+        },
+        {
+          "name": "Dr. Padmini Padmanabhan",
+          "designation": "Professor",
+          "email": "padmini@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Nanobiotechnology Nano Heat transfer fluids Rheology of biosystems Bioreaction kinetics & modelling Renewable energy - Experimental & Computer-aided bio process design for conversion of agro - renewable resources to value added products & process integration for economic analysis of the processes."
+          ]
+        },
+        {
+          "name": "Dr. Dev Mani Pandey",
+          "designation": "Professor",
+          "email": "dmpandey@bitmesra.ac.in",
+          "phone": "9431900315",
+          "qualification": null,
+          "research_interests": [
+            "Plant Molecular Physiology and Biochemistry"
+          ]
+        },
+        {
+          "name": "Dr. Rakesh Kumar Sinha",
+          "designation": "Professor",
+          "email": "rakeshsinha@bitmesra.ac.in",
+          "phone": "9431382724",
+          "qualification": null,
+          "research_interests": [
+            "Electrophysiology; Biosignal Analysis; Biomedical Instrumentation"
+          ]
+        },
+        {
+          "name": "Dr. Sheela Chandra",
+          "designation": "Associate Professor",
+          "email": "schandra@bitmesra.ac.in",
+          "phone": "8002326866",
+          "qualification": null,
+          "research_interests": [
+            "Plant Tissue Culture"
+          ]
+        },
+        {
+          "name": "Dr. Shashwati Ghosh Sachan",
+          "designation": "Associate Professor",
+          "email": "ssachan@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Microbial Biotechnology"
+          ]
+        },
+        {
+          "name": "Dr. Soham Chattopadhyay",
+          "designation": "Assistant Professor",
+          "email": "soham@bitmesra.ac.in",
+          "phone": "9475175152",
+          "qualification": null,
+          "research_interests": [
+            "Bioprocess Engineering Production of Industrially important proteins Biosensor",
+            "Bioremediation Wellcome to My Lab"
+          ]
+        },
+        {
+          "name": "Dr. Anjana Dwivedi",
+          "designation": "Assistant Professor",
+          "email": "anjana.dwivedi@bitmesra.ac.in",
+          "phone": "7761827875",
+          "qualification": null,
+          "research_interests": [
+            "Systems Biology Modeling of gene regulatory networks Lifestyle medicine Biomedical signals/ Biomedical Instrumentation"
+          ]
+        },
+        {
+          "name": "Dr. Alok Jain",
+          "designation": "Assistant Professor",
+          "email": "alokjain@bitmesra.ac.in",
+          "phone": "9582175991",
+          "qualification": null,
+          "research_interests": [
+            "Cancer Intervention Therapeutics for Alzheimer’s Nano-Biomaterials Design Webpage: Advanced Biocomputing Lab"
+          ]
+        },
+        {
+          "name": "Dr. Koel Mukherjee",
+          "designation": "Assistant Professor",
+          "email": "koelmukherjee@bitmesra.ac.in",
+          "phone": "7739252809",
+          "qualification": null,
+          "research_interests": [
+            "Bioinformatics Nanobiotechnology Enzyme-informatics"
+          ]
+        },
+        {
+          "name": "Dr. Dinesh Prasad",
+          "designation": "Assistant Professor",
+          "email": "dinesh@bitmesra.ac.in",
+          "phone": "9471559188",
+          "qualification": null,
+          "research_interests": [
+            "Biomolecular Engineering"
+          ]
+        },
+        {
+          "name": "Dr. Sneha Singh",
+          "designation": "Assistant Professor",
+          "email": "snehasingh@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Nanobiotechnology Functional Biomaterials Tissue Engineering & Regenerative Medicine Bioprospecting Webpage: NanoBio Labs"
+          ]
+        }
+      ],
+      "faculty_count": 16
+    },
+    {
+      "name": "Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. G.T. Mohanraj",
+          "designation": "Associate Professor and Head",
+          "email": "gtmohanraj@bitmesra.ac.in",
+          "phone": "7250167615",
+          "qualification": null,
+          "research_interests": [
+            "Polymeric sensors & actuators",
+            "Organic bistable memory device",
+            "conducting polymer",
+            "EMI Shielding",
+            "Nanocomposites",
+            "Biomass pyrolysis",
+            "Adsorption",
+            "Alternative fuels."
+          ]
+        },
+        {
+          "name": "Dr. Sudipta Goswami",
+          "designation": "Professor",
+          "email": "sdptgoswami@bitmesra.ac.in",
+          "phone": "9431991789",
+          "qualification": null,
+          "research_interests": [
+            "Specialty Polymer (Synthesis & characterization)",
+            "Polymer Blends and IPNs",
+            "Composites and Polymers for Biomedical application."
+          ]
+        },
+        {
+          "name": "Dr. Gautam Sarkhel",
+          "designation": "Professor",
+          "email": "gautamsarkhel@bitmesra.ac.in",
+          "phone": "09431382629",
+          "qualification": null,
+          "research_interests": [
+            "Polymer Blends & Composites",
+            "Membrane Science and Technology",
+            "Fuel Cell Technology",
+            "Natural Resin Based Surface Coating",
+            "Thermoplastic Elastomer",
+            "Ionomer based Polymer",
+            "Nano-composite"
+          ]
+        },
+        {
+          "name": "Dr. Akhil Kumar Sen",
+          "designation": "Professor",
+          "email": "akhilsen@bitmesra.ac.in",
+          "phone": "9431597273",
+          "qualification": null,
+          "research_interests": [
+            "Smart polymer synthesis and applications",
+            "Environment-friendly fire retardant material",
+            "Paints and adhesives",
+            "Heterogeneous catalysis",
+            "Solid waste management",
+            "Food waste recycling"
+          ]
+        },
+        {
+          "name": "Dr. Arup Choudhury",
+          "designation": "Associate Professor",
+          "email": "arup@bitmesra.ac.in",
+          "phone": "9973277473",
+          "qualification": null,
+          "research_interests": [
+            "Supercapacitor materials",
+            "Biosensors and Chemical sensors",
+            "Dielectric materials",
+            "Polymer recycling"
+          ]
+        },
+        {
+          "name": "Dr. Anand Bharti",
+          "designation": "Assistant Professor",
+          "email": "abharti@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Separations",
+            "Energy and Environmental Engineering",
+            "Thermodynamics",
+            "Quantum Chemsitry and Molecular Simulation",
+            "Machine Learning",
+            "Materials",
+            "Reaction Engineering and Catalysis."
+          ]
+        },
+        {
+          "name": "Dr. Pulak Datta",
+          "designation": "Assistant Professor",
+          "email": "pulakdatta@bitmesra.ac.in",
+          "phone": "7979914311",
+          "qualification": null,
+          "research_interests": [
+            "Advanced Energy Storage Materials",
+            "Polymer Blends & Alloys",
+            "Polymer Processing and Rheology",
+            "Nanocomposites",
+            "Food packaging"
+          ]
+        },
+        {
+          "name": "Dr. Aniruddha Deb",
+          "designation": "Assistant Professor",
+          "email": "aniruddha.deb@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Biosensors & Healthcare Portable Noise induced Gel electrophoretic platform Functionalized Micro/Nano patterning (Soft Lithography)"
+          ]
+        },
+        {
+          "name": "Dr. Debasree Ghosh",
+          "designation": "Assistant Professor",
+          "email": "dghosh@bitmesra.ac.in",
+          "phone": "9430114482",
+          "qualification": null,
+          "research_interests": [
+            "Process Control",
+            "Heat Transfer",
+            "Chemical Reaction Engineering",
+            "CFD"
+          ]
+        },
+        {
+          "name": "Dr. Sumit K. Jana",
+          "designation": "Assistant Professor",
+          "email": "sumitkrjana@bitmesra.ac.in",
+          "phone": "9572635441",
+          "qualification": null,
+          "research_interests": [
+            "Fluid Mechanics",
+            "Mass Transfer",
+            "Mechanical Operation",
+            "Process Calculation",
+            "Industrial Chemical Processing",
+            "Petrochemical and petroleum refinery Engg.",
+            "Transport phenomena"
+          ]
+        },
+        {
+          "name": "Dr. Arnab Karmakar",
+          "designation": "Assistant Professor",
+          "email": "arnabkarmakar@bitmesra.ac.in",
+          "phone": "9934582286",
+          "qualification": null,
+          "research_interests": [
+            "Boiling Flow; Thermal Fluid; Heat Pipe; Thermal Desalination; Transient Simulation"
+          ]
+        },
+        {
+          "name": "Dr. Amarnath Mishra",
+          "designation": "Assistant Professor",
+          "email": "Amar.mishra20@yahoo.co.in",
+          "phone": "9431178308",
+          "qualification": null,
+          "research_interests": [
+            "Polymer",
+            "Water Pollution and Food Technology"
+          ]
+        },
+        {
+          "name": "Dr. Abhijit Mondal",
+          "designation": "Assistant Professor",
+          "email": "abhijitbit21@bitmesra.ac.in",
+          "phone": "9612625248",
+          "qualification": null,
+          "research_interests": [
+            "Process Intensification",
+            "Advanced Separation Process",
+            "Bio-Chemical Process",
+            "Water and wastewater treatment",
+            "Electro-chemical process."
+          ]
+        },
+        {
+          "name": "Dr. Kona Mondal",
+          "designation": "Assistant Professor",
+          "email": "konamondal@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Bionanomaterials",
+            "Biomass utilization",
+            "Edible coating",
+            "Active and smart packaging",
+            "Biopolymer-based Packaging",
+            "Shelf life study of food"
+          ]
+        },
+        {
+          "name": "Dr. Aparna Patel",
+          "designation": "Assistant Professor",
+          "email": "aparnapatel@bitmesra.ac.in",
+          "phone": "8109977505",
+          "qualification": null,
+          "research_interests": [
+            "Chemical and Bio-process Engineering",
+            "Environmental Engineering"
+          ]
+        },
+        {
+          "name": "Dr. Bidhan Chandra Ruidas",
+          "designation": null,
+          "email": "sroy@bitmesra.ac.in",
+          "phone": "7589216760",
+          "qualification": null,
+          "research_interests": [
+            "Process Intensification for sustainable development",
+            "Multiphase Reaction Engineering"
+          ]
+        },
+        {
+          "name": "Dr. Chayan Sarkar",
+          "designation": "Assistant Professor",
+          "email": "c.sarkar@bitmesra.ac.in",
+          "phone": "9735404236",
+          "qualification": null,
+          "research_interests": [
+            "Energy and Environment",
+            "Electrochemical Engineering",
+            "Photocatalysis",
+            "Nanomaterials",
+            "ML"
+          ]
+        },
+        {
+          "name": "Dr. Iman Sengupta",
+          "designation": "Assistant Professor",
+          "email": "iman.sengupta@bitmesra.ac.in",
+          "phone": "9955121140",
+          "qualification": null,
+          "research_interests": [
+            "Carbon Nanomaterials",
+            "Nanomaterials Synthesis",
+            "2D materials"
+          ]
+        }
+      ],
+      "faculty_count": 18
+    },
+    {
+      "name": "Computer Science and Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Abhijit Mustafi",
+          "designation": "Professor and Head",
+          "email": "abhijit@bitmesra.ac.in",
+          "phone": "9431382747",
+          "qualification": null,
+          "research_interests": [
+            "Digital Image Processing Machine Learning Deep Learning"
+          ]
+        },
+        {
+          "name": "Dr. Sandip Dutta",
+          "designation": "Professor",
+          "email": "sandipdutta@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Network Security",
+            "Cryptography",
+            "Blockchain",
+            "Cyber Security",
+            "Digital Forensics",
+            "Security in Cloud Computing",
+            "Biometric",
+            "Security in MANET"
+          ]
+        },
+        {
+          "name": "Dr. Vijay Kumar Jha",
+          "designation": "Professor",
+          "email": "vkjha@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Network Security Big data Analytics Data Mining"
+          ]
+        },
+        {
+          "name": "Dr. Subrajeet Mohapatra",
+          "designation": "Associate Professor",
+          "email": "subrajeets@gmail.com",
+          "phone": "8809202074",
+          "qualification": null,
+          "research_interests": [
+            "Image Processing Pattern Recognition Soft Computing Cognitive Psychology"
+          ]
+        },
+        {
+          "name": "Dr. Indrajit Mukherjee",
+          "designation": "Associate Professor",
+          "email": "imukherjee@bitmesra.ac.in",
+          "phone": "9431182820",
+          "qualification": null,
+          "research_interests": [
+            "Compiler Design Algorithm Design & Analysis Evolutionary Algorithms Data Mining Information Retrieval Web Mining"
+          ]
+        },
+        {
+          "name": "Dr. K.Sridhar Patnaik",
+          "designation": "Associate Professor",
+          "email": "kspatnaik@bitmesra.ac.in",
+          "phone": "9431187489",
+          "qualification": null,
+          "research_interests": [
+            "Software Engineering. Software Testing Machine Learning IoT",
+            "CPS Blockchain XAI"
+          ]
+        },
+        {
+          "name": "Dr. Shashank Pushkar",
+          "designation": "Associate Professor",
+          "email": "shashank@bitmesra.ac.in",
+          "phone": "9470141130",
+          "qualification": null,
+          "research_interests": [
+            "OptimizationTheory and Applications",
+            "Machine Learinng and Deep Learning Database Systems Remote Sensing Data Analytics Data Mining Techniques Software Engineering"
+          ]
+        },
+        {
+          "name": "Dr. Kumar Rajnish",
+          "designation": "Associate Professor",
+          "email": "krajnish@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Software Metrics Programming languages Object-Oriented Software Engineering Cognitive Approach in Software Engineering Data Mining Database Systems Database Metrics. Machine Learning"
+          ]
+        },
+        {
+          "name": "Dr. Bikash Kanti Sarkar",
+          "designation": "Associate Professor",
+          "email": "bksarkar@bitmesra.ac.in",
+          "phone": "9431382752",
+          "qualification": null,
+          "research_interests": [
+            "Algorithm Design (Sequential & Parallel) Automata Theory Graph Theory Compiler Design Coding Theory [ For CODING THEORY LAB.",
+            "click the link: https://github.com/BK-Sarkar ]"
+          ]
+        },
+        {
+          "name": "Dr. Kishore Kumar Senapati",
+          "designation": "Associate Professor",
+          "email": "kksenapati@bitmesra.ac.in",
+          "phone": "9431768348",
+          "qualification": null,
+          "research_interests": [
+            "Algorithm Design Cyber Security Image Processing"
+          ]
+        },
+        {
+          "name": "Dr. Itu Snigdh",
+          "designation": "Associate Professor",
+          "email": "itusnigdh@bitmesra.ac.in",
+          "phone": "9431584043",
+          "qualification": null,
+          "research_interests": [
+            "Internet of Things Cyber physical systems Wireless sensor networks Software design and Testing Database management systems"
+          ]
+        },
+        {
+          "name": "Dr. Amritanjali",
+          "designation": "Assistant Professor",
+          "email": "amritanjali@bitmesra.ac.in",
+          "phone": "9631769117",
+          "qualification": null,
+          "research_interests": [
+            "Parallel and Distributed Computing Wireless Networks Bioinformatics Machine Learning"
+          ]
+        },
+        {
+          "name": "Dr. Shamama Anwar",
+          "designation": "Assistant Professor",
+          "email": "shamama@bitmesra.ac.in",
+          "phone": "9431103880",
+          "qualification": null,
+          "research_interests": [
+            "Image Processing Medical Image Analysis Machine Learning Deep Learning Cryptography Blockchain"
+          ]
+        },
+        {
+          "name": "Dr. Jamimamul Bakas",
+          "designation": "Assistant Professor",
+          "email": "jamimamul.bakas@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Multimedia Forensics Machine Learning Image and Video Processing Computer Vision"
+          ]
+        },
+        {
+          "name": "Dr. Monu Bhagat",
+          "designation": "Assistant Professor",
+          "email": "drmbhagat@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Machine Learning Internet of Things Computer Vision Generative AI Image Processing Quantum Computing"
+          ]
+        },
+        {
+          "name": "Dr. Saikat Chakraborty",
+          "designation": "Assistant Professor",
+          "email": "saikat.chakraborty@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Pattern Recognition",
+            "Machine Learning",
+            "Clinical Gait Analysis"
+          ]
+        },
+        {
+          "name": "Dr. Rathindra Nath Dutta",
+          "designation": "Assistant Professor",
+          "email": "rathin@bitmesra.ac.in",
+          "phone": "7003681942",
+          "qualification": null,
+          "research_interests": [
+            "Computer Networks Mobile Computing Distributed Systems Algorithms Design"
+          ]
+        },
+        {
+          "name": "Dr. Md Shah Fahad",
+          "designation": "Assistant Professor",
+          "email": "fahad8siddiqui@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Speech Processing",
+            "Machine Learning",
+            "Deep Learning",
+            "Emotion Recognition",
+            "Computational Biology and Disease Modeling"
+          ]
+        },
+        {
+          "name": "Dr. Shruti Garg",
+          "designation": "Assistant Professor",
+          "email": "gshruti@bitmesra.ac.in",
+          "phone": "9430730791",
+          "qualification": null,
+          "research_interests": [
+            "Biomedical Signal Processing Machine Learning Natural Language Processing"
+          ]
+        },
+        {
+          "name": "Dr. Sandip Ghosal",
+          "designation": "Assistant Professor",
+          "email": "sandip.ghosal@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Language-based Information Flow Control",
+            "Programming Language Security",
+            "Synthesizing Program Contracts",
+            "Symbolic Execution"
+          ]
+        },
+        {
+          "name": "Dr. Lopamudra Hota",
+          "designation": "Assistant Professor",
+          "email": "lhota@bitmesra.ac.in",
+          "phone": "8108836004",
+          "qualification": null,
+          "research_interests": [
+            "Wireless Sensor Networks",
+            "Vehicular Ad-hoc Networks",
+            "Internet of Things",
+            "Machine Learning"
+          ]
+        },
+        {
+          "name": "Dr. Kanchan Jha",
+          "designation": "Assistant Professor",
+          "email": "jha.kanchan15@bitmesra.ac.in",
+          "phone": "8351968798",
+          "qualification": null,
+          "research_interests": [
+            "Computational Biology Machine Learning Deep Learning Large Language Model"
+          ]
+        },
+        {
+          "name": "Dr. Ritesh Jha",
+          "designation": "Assistant Professor",
+          "email": "riteshjha@bitmesra.ac.in",
+          "phone": "9973110854",
+          "qualification": null,
+          "research_interests": [
+            "Alogorithm Analysis Data mining"
+          ]
+        },
+        {
+          "name": "Dr. Supreeti Kamilya",
+          "designation": "Assistant Professor",
+          "email": "supreeti.kamilya17@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Cellular Automata",
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        {
+          "name": "Dr. Suvendu Kanungo",
+          "designation": "Assistant Professor",
+          "email": "s.kanungo@bitmesra.ac.in",
+          "phone": "8756037671",
+          "qualification": null,
+          "research_interests": [
+            "Data Mining",
+            "Image Processing",
+            "Bio-informatics",
+            "Content Based Image Retrieval",
+            "Pattern Recognition"
+          ]
+        },
+        {
+          "name": "Dr. Anup Kumar Keshri",
+          "designation": "Assistant Professor",
+          "email": "anup_keshri@bitmesra.ac.in",
+          "phone": "9431596818",
+          "qualification": null,
+          "research_interests": [
+            "Theory of Computation Compiler Design Parallel Computing Soft Computing"
+          ]
+        },
+        {
+          "name": "Dr. Ravishankar Mehta",
+          "designation": "Assistant Professor",
+          "email": "Ravimehta@bitmesra.ac.in",
+          "phone": "9749434897",
+          "qualification": null,
+          "research_interests": [
+            "Computer Vision",
+            "Deep Learning",
+            "Image Processing"
+          ]
+        },
+        {
+          "name": "Dr. Jit Mukherjee",
+          "designation": "Assistant Professor",
+          "email": "jit.mukherjee@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Image Processing Remote Sensing Machine Learning Deep Learning Pattern Recognition"
+          ]
+        },
+        {
+          "name": "Dr. Debjani Mustafi",
+          "designation": "Assistant Professor",
+          "email": "debjani.mustafi@bitmesra.ac.in",
+          "phone": "09955450060",
+          "qualification": null,
+          "research_interests": [
+            "Machine Learning Deep Learning Evolutionary Algorithms Data Analysis and Visualization"
+          ]
+        },
+        {
+          "name": "Dr. Komal Naaz",
+          "designation": "Assistant Professor",
+          "email": "k.naaz@bitmesra.ac.in",
+          "phone": "7643976474",
+          "qualification": null,
+          "research_interests": [
+            "Data Analytics",
+            "Computational Linguistics"
+          ]
+        },
+        {
+          "name": "Dr. Akriti Nigam",
+          "designation": "Assistant Professor",
+          "email": "akriti@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Image Processing Medical Imaging Pattern Recognition Machine Learning Audio & Speech Processing"
+          ]
+        },
+        {
+          "name": "Dr. Aditi Panda",
+          "designation": "Assistant Professor",
+          "email": "aditip@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Digital Image Processing",
+            "Deep Learning & Neural Network Architectures",
+            "Computational Metallurgy / AI for Materials Science",
+            "Deepfake Detection & Image Forensics"
+          ]
+        },
+        {
+          "name": "Dr. Prashant Pranav",
+          "designation": "Assistant Professor",
+          "email": "prashantpranav@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Cryptography",
+            "Algorithm Analysis",
+            "Random Numbers",
+            "Computational Musicology",
+            "Cloud Computing",
+            "Integer Factorization",
+            "Cyber Security",
+            "Digital Forensics",
+            "Network Security",
+            "Intrusion Detection System"
+          ]
+        },
+        {
+          "name": "Dr. Richa",
+          "designation": "Assistant Professor",
+          "email": "richasingh@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Information Retrieval",
+            "Recommender Systems",
+            "Deep Learning"
+          ]
+        },
+        {
+          "name": "Dr. Niraj Kumar Singh",
+          "designation": "Assistant Professor",
+          "email": "niraj_2027@yahoo.co.in",
+          "phone": "9102316332",
+          "qualification": null,
+          "research_interests": [
+            "Data Structures Design and Analysis of Algorithms Formal Languages and Automata Theory"
+          ]
+        },
+        {
+          "name": "Dr. S.P. Singh",
+          "designation": "Assistant Professor",
+          "email": "sp.singh@bitmesra.ac.in",
+          "phone": "9873119229",
+          "qualification": null,
+          "research_interests": [
+            "Database Management System",
+            "Big Database",
+            "Machine Learning",
+            "Image Processing",
+            "Software Engineering",
+            "Cloud Computing",
+            "."
+          ]
+        },
+        {
+          "name": "Dr. Sumit Srivastava",
+          "designation": "Assistant Professor",
+          "email": "sumit@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Computer Network Information & Network Security Computer Architecture Speech Technology"
+          ]
+        },
+        {
+          "name": "Prof. Supratim Biswas",
+          "designation": null,
+          "email": "sb@cse.iitb.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Programming Languages",
+            "Compiler Optimization",
+            "Parallelizing Compilers",
+            "Parallel and Distributed computing",
+            "Combinatorial Optimization"
+          ]
+        },
+        {
+          "name": "Dr. Chandrashekhar Lavania",
+          "designation": "Associate Professor of Practice",
+          "email": "clavania@bitmesra.ac.in",
+          "phone": "9931314508",
+          "qualification": null,
+          "research_interests": [
+            "Artificial Intelligence and Machine Learning",
+            "Data subset selection",
+            "Multimodal learning and generation",
+            "Generative AI",
+            "Agentic AI and Planning"
+          ]
+        }
+      ],
+      "faculty_count": 39
+    },
+    {
+      "name": "Electrical and Electronics Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Sudhansu Kumar Mishra",
+          "designation": "Associate Professor and Head",
+          "email": "sudhansumishra@bitmesra.ac.in",
+          "phone": "8986822135",
+          "qualification": null,
+          "research_interests": [
+            "Signal",
+            "Image and Video Processing Control System Bio-Medical Image Processing Computational Finance Soft and Evolutionary Computing Area of Interest: Overall : Signal",
+            "Image and Video Processing Bio-Medical Image Processing AI based Visual Control of Autonomous Ground Vehicle AI in Smart Agriculture. AI in Health Care. Area of Interest: Specific : Development of Nature Inspired Neural Network based Adaptive Filters for Denoising Medical Images Development of Artificial Intelligence Techniques in Vision based obstacle Avoidance in Autonomous Ground vehicles"
+          ]
+        },
+        {
+          "name": "Dr. Mohammad Junaid Akhtar",
+          "designation": "Assistant Professor",
+          "email": "junaid@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Power Electronics and Drives",
+            "Electrical Machine Design",
+            "Electric Vehicles."
+          ]
+        },
+        {
+          "name": "Dr. Chaman Lal Dewangan",
+          "designation": "Assistant Professor",
+          "email": "chamanlal@bitmesra.ac.in",
+          "phone": "8527069184",
+          "qualification": null,
+          "research_interests": [
+            "Power systems",
+            "renewable energy",
+            "machine learning",
+            "optimization",
+            "smart grid"
+          ]
+        },
+        {
+          "name": "Dr. Gauri Shanker Gupta",
+          "designation": "Assistant Professor",
+          "email": "gaurishankergupta@bitmesra.ac.in",
+          "phone": "9471301045",
+          "qualification": null,
+          "research_interests": [
+            "Control System Digital Signal Processing Signal & System Communication"
+          ]
+        },
+        {
+          "name": "Dr. Sushma S. Kamlu",
+          "designation": "Assistant Professor",
+          "email": "sushma.kamlu@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Electrical Drives",
+            "Control System",
+            "Soft computing applications",
+            "Maintenance and Reliability."
+          ]
+        },
+        {
+          "name": "Dr. Brajesh Kumar",
+          "designation": "Assistant Professor",
+          "email": "brajesh27@bitmesra.ac.in",
+          "phone": "9993412399",
+          "qualification": null,
+          "research_interests": [
+            "Autonomous Vehicle",
+            "Maglev",
+            "UAV",
+            "AOCS"
+          ]
+        },
+        {
+          "name": "Dr. Sanjeev Kumar",
+          "designation": "Assistant Professor",
+          "email": "sanjeev.kumar@bitmesra.ac.in",
+          "phone": "7277572282",
+          "qualification": null,
+          "research_interests": [
+            "System modelling & identification; AI applications in Engineering Systems; Equivalent electrical circuits; Fractional-order models; Voltammetric sensor systems; Regression analysis and pattern recognition; E-Tongue application; Electrical load forecasting"
+          ]
+        },
+        {
+          "name": "Dr. Pankaj Mishra",
+          "designation": "Assistant Professor",
+          "email": "pankajmishra@bitmesra.ac.in",
+          "phone": "8210525515",
+          "qualification": null,
+          "research_interests": [
+            "Voltage stability",
+            "Power Quality",
+            "Small-Signal Stability of Power System",
+            "Reactive power management"
+          ]
+        },
+        {
+          "name": "Dr. Sourabh Paitandi",
+          "designation": "Assistant Professor",
+          "email": "sourabh_paitandi@bitmesra.ac.in",
+          "phone": "7001132557",
+          "qualification": null,
+          "research_interests": [
+            "Power Electronics",
+            "Machines and Drive"
+          ]
+        },
+        {
+          "name": "Dr. Prateem Pan",
+          "designation": "Assistant Professor",
+          "email": "prateempan@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "System Modeling and Grid Integration Studies for Renewable Systems Cybersecurity in Power Systems Application of Power Electronics in Power Systems Microgrid Protection Signal Processing Techniques in Power System Protection AI and Machine Learning Applications in Electrical Engineering Power Systems Protection with Renewables and Microgrids"
+          ]
+        },
+        {
+          "name": "Dr. Prem Prakash",
+          "designation": "Assistant Professor",
+          "email": "pprakash@bitmesra.ac.in",
+          "phone": "7667061651",
+          "qualification": null,
+          "research_interests": [
+            "Renewable Energy Integration High Voltage Engineering Smart Grid"
+          ]
+        },
+        {
+          "name": "Dr. Subrat Kumar Swain",
+          "designation": "Assistant Professor",
+          "email": "subratkumarswain@bitmesra.ac.in",
+          "phone": "9556662987",
+          "qualification": null,
+          "research_interests": [
+            "Shared Control for Autonomous Vehicles",
+            "Fractional Order Controller Design for Linear Systems",
+            "Robust Controller Design for Stable and Multivariable Plants"
+          ]
+        },
+        {
+          "name": "Dr. Prabhat Kumar Upadhyay",
+          "designation": "Assistant Professor",
+          "email": "pkupadhyay@bitmesra.ac.in",
+          "phone": "7070128145",
+          "qualification": null,
+          "research_interests": [
+            "Biomedical Physics",
+            "Brain Signals",
+            "Cloud Computing",
+            "Deep Learning"
+          ]
+        }
+      ],
+      "faculty_count": 13
+    },
+    {
+      "name": "Electronics and Communication Engineering",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Hotel Management and Catering Technology",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Mechanical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Apurba Kumar Roy",
+          "designation": "Associate Professor and Head",
+          "email": "akroy@bitmesra.ac.in",
+          "phone": "9431382609",
+          "qualification": null,
+          "research_interests": [
+            "Fluid Mechanics Mutiphase Flow CFD Turbo Machines"
+          ]
+        },
+        {
+          "name": "Dr. Kaushik Kumar",
+          "designation": "Professor",
+          "email": "kkumar@bitmesra.ac.in",
+          "phone": "9431597463",
+          "qualification": null,
+          "research_interests": [
+            "Virtual Manufacturing",
+            "Non Conventional Machining",
+            "CAD CAM",
+            "Rapid Prototyping",
+            "Composites",
+            "Functionally Graded Materials",
+            "Optimization",
+            "Quality Management System"
+          ]
+        },
+        {
+          "name": "Dr. Lakhbir Singh Brar",
+          "designation": "Assistant Professor",
+          "email": "brarls@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Fluid mechanics Swirling flows Heat exchangers Hydrokinetic turbines Optimization techniques"
+          ]
+        },
+        {
+          "name": "Dr. Saurav Chakraborty",
+          "designation": "Assistant Professor",
+          "email": "sauravc.mech@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Continuous Casting Production of Steel Billets and Slabs",
+            "Sessile Droplet Evaporation",
+            "Convective Drying",
+            "Reheat Furnace",
+            "Lubrication and Cooling in Machining/Grinding",
+            "PCM based Heat Exchangers"
+          ]
+        },
+        {
+          "name": "Dr. Sushil Kumar Dhiman",
+          "designation": "Assistant Professor",
+          "email": "skdhiman@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Thermal Engineering Fluid Dynamics"
+          ]
+        },
+        {
+          "name": "Dr. Sushanta Ghuku",
+          "designation": "Assistant Professor",
+          "email": "sushanta.ghuku@bitmesra.ac.in",
+          "phone": "7890649116",
+          "qualification": null,
+          "research_interests": [
+            "Architected materials (Metamaterials) Soft continuum robotics Multi-physical Mechanics Non-linear Solid Mechanics Non-linear Vibrations Large Deformation Design"
+          ]
+        },
+        {
+          "name": "Dr. Paritosh Mahata",
+          "designation": "Assistant Professor",
+          "email": "pmahata@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Solid Mechanics and Design Applied Mechanics Nonlinear Vibration"
+          ]
+        },
+        {
+          "name": "Dr. Anil Chandra Mahato",
+          "designation": "Assistant Professor",
+          "email": "anilmahato@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Dynamical system modeling and control Fluid Power & Control Robotics Wind energy Bond Graph modeling FEA Analysis"
+          ]
+        },
+        {
+          "name": "Dr. Ritwik Maiti",
+          "designation": "Assistant Professor",
+          "email": "ritwik.maiti@bitmesra.ac.in",
+          "phone": "9431327060",
+          "qualification": null,
+          "research_interests": [
+            "Experimental Fluid Dynamics Granular Flows; Granular Mixing & Segregation; Geophysical Flows Impact Crater Discrete Element Model (DEM)"
+          ]
+        },
+        {
+          "name": "Dr. Abhijit Nag",
+          "designation": "Assistant Professor",
+          "email": "abhijitnag@bitmesra.ac.in",
+          "phone": "9431382592",
+          "qualification": null,
+          "research_interests": [
+            "Design of Machine Elelment Fluid Power and Control"
+          ]
+        },
+        {
+          "name": "Dr. Ankur Chattopadhyay",
+          "designation": null,
+          "email": "ankur.chattopadhyay@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Thermal and Fluids"
+          ]
+        },
+        {
+          "name": "Dr. Abhishek Kumar Kashyap",
+          "designation": null,
+          "email": "akkashyap@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Robotics Artificial Intelligence Machine Learning"
+          ]
+        }
+      ],
+      "faculty_count": 12
+    },
+    {
+      "name": "Management Studies",
+      "faculty": [
+        {
+          "name": "Dr. Sanjay Kumar Jha",
+          "designation": "Professor and Head",
+          "email": "sanjayjha@bitmesra.ac.in",
+          "phone": "9431173491",
+          "qualification": null,
+          "research_interests": [
+            "Manufacturing technology Industrial Engineering"
+          ]
+        },
+        {
+          "name": "Dr. Manju Bhagat",
+          "designation": "Professor",
+          "email": "mbhagat@bitmesra.ac.in",
+          "phone": "9431106340",
+          "qualification": null,
+          "research_interests": [
+            "Human Resource & Industrial Relation"
+          ]
+        },
+        {
+          "name": "Dr. R.N. Bhagat",
+          "designation": "Professor",
+          "email": "rnbhagat@gmail.com",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Agro Marketing"
+          ]
+        },
+        {
+          "name": "Dr. A.N Jha",
+          "designation": "Professor",
+          "email": "anjha@bitmesra.ac.in",
+          "phone": "9431389467",
+          "qualification": null,
+          "research_interests": [
+            "Finance"
+          ]
+        },
+        {
+          "name": "Dr. Kumar Sanjay Sawarni",
+          "designation": "Professor",
+          "email": "sanjay.sawarni@bitmesra.ac.in",
+          "phone": "8986880524",
+          "qualification": null,
+          "research_interests": [
+            "Corporate Finance",
+            "Investment Banking",
+            "Mergers & Acquisitions",
+            "Project Finance"
+          ]
+        },
+        {
+          "name": "Dr. Bhaskar Karn",
+          "designation": "Associate Professor",
+          "email": "bhaskar@bitmesra.ac.in",
+          "phone": "09431382601",
+          "qualification": null,
+          "research_interests": [
+            "Fuzzy Logic Information Retrieval System Machine Learning Soft Computing Information Architecture Knowledge Management Cyber Laws Right To Information"
+          ]
+        },
+        {
+          "name": "Dr. Praveen Srivastava",
+          "designation": "Associate Professor",
+          "email": "psrivastava@bitmesra.ac.in",
+          "phone": "8987479515",
+          "qualification": null,
+          "research_interests": [
+            "Consumer Behavior",
+            "Education Technology Marketing CRM"
+          ]
+        },
+        {
+          "name": "Dr. Abhisek Jana",
+          "designation": "Assistant Professor",
+          "email": "abhisekjana@bitmesra.ac.in",
+          "phone": "9973862078",
+          "qualification": null,
+          "research_interests": [
+            "Sustainable Marketing Business Statistics Operations Management & Control in Hospitality Industry"
+          ]
+        },
+        {
+          "name": "Dr. Anand Kumar",
+          "designation": "Assistant Professor",
+          "email": "anandkumar1971@bitmesra.ac.in",
+          "phone": "8709067172",
+          "qualification": null,
+          "research_interests": [
+            "Human Resource Management Human Resources and Industrial Psychology Organizational Behaviour Business Ethics Human Resource Planning Compensation Management Constitution of India"
+          ]
+        },
+        {
+          "name": "Dr. Nishikant Kumar",
+          "designation": "Assistant Professor",
+          "email": "nkumar@bitmesra.ac.in",
+          "phone": "9939738784",
+          "qualification": null,
+          "research_interests": [
+            "Tourism Hospitality Marketing Entrepreneurship Human Resource"
+          ]
+        },
+        {
+          "name": "Dr. Pranjal Kumar",
+          "designation": "Assistant Professor",
+          "email": "pranjal@bitmesra.ac.in",
+          "phone": "9431382768",
+          "qualification": null,
+          "research_interests": [
+            "HRM Marketing Tourism Front office"
+          ]
+        },
+        {
+          "name": "Dr. Tanushree Mahato",
+          "designation": "Assistant Professor",
+          "email": "tanushree@bitmesra.ac.in",
+          "phone": "9871768849",
+          "qualification": null,
+          "research_interests": [
+            "Microfinance",
+            "Tribal",
+            "Women empowerment",
+            "Financial Inclusion",
+            "Self-help groups",
+            "Policy studies"
+          ]
+        },
+        {
+          "name": "Dr. Namrata Nigam",
+          "designation": "Assistant Professor",
+          "email": "namratanigam@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "-"
+          ]
+        },
+        {
+          "name": "Dr. Sanjiv Kumar Srivastava PhD",
+          "designation": "Assistant Professor",
+          "email": "sanjiv@bitmesra.ac.in",
+          "phone": "9771348976",
+          "qualification": null,
+          "research_interests": [
+            "F & B Service",
+            "Service Quality and Service Marketing",
+            "Hospitality Marketing",
+            "CRM"
+          ]
+        },
+        {
+          "name": "Dr. Amit Saran",
+          "designation": "Assistant Professor",
+          "email": "amitsaran@bitmesra.ac.in",
+          "phone": "9431039700",
+          "qualification": null,
+          "research_interests": [
+            "F&B Service",
+            "Hotel Law"
+          ]
+        },
+        {
+          "name": "Dr. Gautam Shandilya",
+          "designation": "Assistant Professor",
+          "email": "gautam@bitmesra.ac.in",
+          "phone": "9835127919",
+          "qualification": null,
+          "research_interests": [
+            "Food and Beverage HRM"
+          ]
+        },
+        {
+          "name": "Dr. Satyajit Mahato",
+          "designation": null,
+          "email": "satyajitm@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Supply Chain Management",
+            "Operations",
+            "and Quality Management with a focus on integrating advanced Machine Learning techniques to optimize supply chain networks",
+            "improve process efficiency",
+            "and enhance predictive analytics for quality control. Data-driven models aid in better decision-making for logistics",
+            "production planning",
+            "and process management",
+            "ensuring resilience and operational excellence in industrial environments."
+          ]
+        }
+      ],
+      "faculty_count": 17
+    },
+    {
+      "name": "Production and Industrial Engineering",
+      "faculty": [
+        {
+          "name": "Dr. L. N. Pattanaik",
+          "designation": "Associate Professor and Head",
+          "email": "lnpattanaik@bitmesra.ac.in",
+          "phone": "7857826787",
+          "qualification": null,
+          "research_interests": [
+            "Lean Manufacturing",
+            "RMS Logistics and Supply Chains Soft Computation Applications Optimization",
+            "Simulation"
+          ]
+        },
+        {
+          "name": "Dr. Sanjay Kumar Jha",
+          "designation": "Professor",
+          "email": "sanjayjha@bitmesra.ac.in",
+          "phone": "9431173491",
+          "qualification": null,
+          "research_interests": [
+            "Manufacturing technology Industrial Engineering"
+          ]
+        },
+        {
+          "name": "Dr. Bappa Acherjee",
+          "designation": "Associate Professor",
+          "email": "bappa.rana@bitmesra.ac.in",
+          "phone": "8294270873",
+          "qualification": null,
+          "research_interests": [
+            "Advanced Manufacturing Welding and µ- Machining Modeling and Simulation Decision Engineering"
+          ]
+        },
+        {
+          "name": "Dr. Joyjeet Ghose",
+          "designation": "Associate Professor",
+          "email": "joyjeet@bitmesra.ac.in",
+          "phone": "9431927425",
+          "qualification": null,
+          "research_interests": [
+            "Aluminium nano composites",
+            "Multi functional hybrid nano composites",
+            "Metal Foams",
+            "Stir casting",
+            "Squeeze casting",
+            "Ultrasonic -stir casting"
+          ]
+        },
+        {
+          "name": "Dr. Ritesh Kumar Singh",
+          "designation": "Associate Professor",
+          "email": "riteshsingh@bitmesra.ac.in",
+          "phone": "9572160424",
+          "qualification": null,
+          "research_interests": [
+            "Industrial Engineering"
+          ]
+        },
+        {
+          "name": "Dr. Gayatri Paul",
+          "designation": "Assistant Professor",
+          "email": "gayatri@bitmesra.ac.in",
+          "phone": "9674923164",
+          "qualification": null,
+          "research_interests": [
+            "Nannofluids",
+            "Ferrofluids",
+            "Nanolubricants",
+            "Tribology",
+            "Boiling",
+            "Rewetting Phenomenon",
+            "Materials Characterization",
+            "Nanoparticle synthesis"
+          ]
+        }
+      ],
+      "faculty_count": 6
+    },
+    {
+      "name": "Pharmaceutical Sciences and Technology",
+      "faculty": [
+        {
+          "name": "Dr. Animesh Ghosh",
+          "designation": "Professor",
+          "email": "aghosh@bitmesra.ac.in",
+          "phone": "9007175618",
+          "qualification": null,
+          "research_interests": [
+            "Pharmaceutics Solid State Pharmaceutics Pharmaceutical Cocrystal"
+          ]
+        },
+        {
+          "name": "Dr. Manik Ghosh",
+          "designation": "Associate Professor",
+          "email": "manik@bitmesra.ac.in",
+          "phone": "8709528004",
+          "qualification": null,
+          "research_interests": [
+            "Natural Products (CADD",
+            "Antiviral and Anticancer Research) Quality Assurance Education Technology"
+          ]
+        },
+        {
+          "name": "Dr. Biswatrish Sarkar",
+          "designation": "Associate Professor",
+          "email": "biswatrishsarkar@bitmesra.ac.in",
+          "phone": "09431327053",
+          "qualification": null,
+          "research_interests": [
+            "Oxidative Stress and Antioxidants Biological Activity of Polyphenols"
+          ]
+        },
+        {
+          "name": "Dr. Santanu Ghosh",
+          "designation": "Assistant Professor",
+          "email": "santanughosh@bitmesra.ac.in",
+          "phone": "8820302723",
+          "qualification": null,
+          "research_interests": [
+            "Biomaterials",
+            "Functinal polymer",
+            "Polymer nanocomposite",
+            "Hydrogel"
+          ]
+        },
+        {
+          "name": "Dr. Bapi Gorain",
+          "designation": "Assistant Professor",
+          "email": "bapi.gorain@bitmesra.ac.in",
+          "phone": "9088585676",
+          "qualification": null,
+          "research_interests": [
+            "Pharmacology"
+          ]
+        },
+        {
+          "name": "Dr. Sudeshna Kundu",
+          "designation": "Assistant Professor",
+          "email": "sudeshnakundu@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Molecular Pharmaceutics",
+            "Formulation and drug delivery"
+          ]
+        },
+        {
+          "name": "Dr. Kishanta Kumar Pradhan",
+          "designation": "Assistant Professor",
+          "email": "kkpradhan@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Analytical & Bioanalytical Studies of Drug and Drug Products as per ICH Guidelines Natural Product Chemistry"
+          ]
+        },
+        {
+          "name": "Dr. Shubadeep Roy",
+          "designation": "Assistant Professor",
+          "email": "subhadeeproy.good@gmail.com",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Field of Interest → Assistant Professor Dr. (Mrs.) Neelima Sharma : nsharma@bitmesra.ac.in Qualification → Ph.D. Area of Interest → Biochemical Pharmacology and Toxicology"
+          ]
+        }
+      ],
+      "faculty_count": 8
+    },
+    {
+      "name": "Remote Sensing and Geoinformatics",
+      "faculty": [
+        {
+          "name": "Dr. Akhouri Pramod Krishna",
+          "designation": "Professor and Head",
+          "email": "apkrishna@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Climate Change",
+            "Snow Cover",
+            "Glacier Dynamics Natural Hazards & Disaster Management Natural Resources and Basin Hydrology Planetary Remote Sensing",
+            "Satellite Geodesy",
+            "Geo-sciences Urban and Built Environment"
+          ]
+        },
+        {
+          "name": "Dr. Nilanchal Patel",
+          "designation": "Professor",
+          "email": "npatel@bitmesra.ac.in",
+          "phone": "8294934737",
+          "qualification": null,
+          "research_interests": [
+            "Digital Image Processing Geospatial Analysis Environmental Remote Sensing"
+          ]
+        },
+        {
+          "name": "Dr. Swagata Payra",
+          "designation": "Associate Professor",
+          "email": "mili@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Environmental Modeling Atmospheric Monitoring Planetary Science"
+          ]
+        },
+        {
+          "name": "Dr. Virendra Singh Rathore",
+          "designation": "Associate Professor",
+          "email": "vsrathore@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Water Resources Natural Hazards Climate change Natural resources"
+          ]
+        },
+        {
+          "name": "Mr. Nitish Kumar Sinha",
+          "designation": null,
+          "email": "nitish@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Networking SDSS Spatial Analysis"
+          ]
+        }
+      ],
+      "faculty_count": 5
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [
+        {
+          "name": "Dr. Sumit Mishra",
+          "designation": "Professor and Head",
+          "email": "smishra@bitmesra.ac.in",
+          "phone": "8210629045",
+          "qualification": null,
+          "research_interests": [
+            "Biomaterials and Material Research",
+            "Metal organic frameworks",
+            "Water remediation",
+            "Nutrient and drug release",
+            "adhesives",
+            "Engineering materials"
+          ]
+        },
+        {
+          "name": "Dr. Ashoke Sharon",
+          "designation": null,
+          "email": "asharon@bitmesra.ac.in",
+          "phone": "9470959291",
+          "qualification": null,
+          "research_interests": [
+            "Organic / Medicinal Chemistry Computational Chemistry",
+            "Drug Design & Molecular Modeling Visit My Page: www.dder.in"
+          ]
+        },
+        {
+          "name": "Prof. Pratim Kumar Chattaraj",
+          "designation": "Professor",
+          "email": "pkc@chem.iitkgp.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "density functional theory",
+            "ab-initio calculations",
+            "nonlinear dynamics",
+            "aromaticity in metal clusters",
+            "hydrogen storage",
+            "noble gas compounds",
+            "machine learning",
+            "confinement",
+            "fluxionality",
+            "chemical reactivity and quantum trajectories"
+          ]
+        },
+        {
+          "name": "Dr. Subhendu Naskar",
+          "designation": "Professor",
+          "email": "subhendu@bitmesra.ac.in",
+          "phone": "9470162183",
+          "qualification": null,
+          "research_interests": [
+            "Renewable Energy Research: Photosynthetic Water Oxidation",
+            "Hydrogen Evolution",
+            "CO2 Reduction Reaction; Photoelectrochemical Solar Cell Biocoordination Chemistry: Study on metalloenzymatic mimics"
+          ]
+        },
+        {
+          "name": "Dr. Debdutta Chakraborty",
+          "designation": "Associate Professor",
+          "email": "deepshikha@bitmesra.ac.in",
+          "phone": "9955989189",
+          "qualification": null,
+          "research_interests": [
+            "Biomaterials",
+            "Corrosion",
+            "Characterization of Materials."
+          ]
+        },
+        {
+          "name": "Dr. Joydeep Dhar",
+          "designation": "Assistant Professor",
+          "email": "joydeepdhar@bitmesra.ac.in",
+          "phone": "6200717236",
+          "qualification": null,
+          "research_interests": [
+            "Physical Chemistry",
+            "Macromolecular Chemistry."
+          ]
+        },
+        {
+          "name": "Dr. Atul Kumar",
+          "designation": "Assistant Professor",
+          "email": "atulkumar@bitmesra.ac.in",
+          "phone": "9611281461",
+          "qualification": null,
+          "research_interests": [
+            "Inorganic and supramolecular chemistry: Self-assembly of supramolecular cages and its potential applications in host-guest chemistry",
+            "light-harvesting",
+            "catalysis and molecular recognition."
+          ]
+        },
+        {
+          "name": "Dr. Anirban Pradhan",
+          "designation": "Assistant Professor",
+          "email": "anirbanpradhan@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Optimal utilization of carbon resources",
+            "Chemical energy storage and conversion",
+            "Renewable energy production and storage",
+            "Hydrogen fuel production Personal Web page: https://sites.google.com/view/pradhan-research-group-the-nov/home?authuser=0"
+          ]
+        },
+        {
+          "name": "Dr. Monochura Saha",
+          "designation": "Assistant Professor",
+          "email": "monochura9@gmail.com",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "My research focuses on developing smart",
+            "biodegradable organic devices that can detect diseases such as cancer and diabetes at very early stages while offering safer",
+            "drug-free therapeutic options. By integrating chemistry and biology at the device level",
+            "I aim to sense biomolecules within the microenvironment and reprogram them to restore healthy functions. To achieve this",
+            "my work involves the synthesis of organic and nanomaterials",
+            "validation through in vitro cell culture",
+            "and subsequent testing in preclinical animal models. The ultimate goal is to deliver affordable",
+            "eco-friendly solutions for diagnostics and therapies that reduce mortality",
+            "improve quality of life",
+            "and address global healthcare challenges."
+          ]
+        },
+        {
+          "name": "Dr. Barnali Dasgupta Ghosh",
+          "designation": "Assistant Professor (senior grade)",
+          "email": "barnali.iitkgp@gmail.com",
+          "phone": "8340619698",
+          "qualification": null,
+          "research_interests": [
+            "Polymer Nanocomposites Nanotechnology Energy harvesting materials"
+          ]
+        },
+        {
+          "name": "Dr. Gautam Sen",
+          "designation": "Assistant Professor (senior grade)",
+          "email": "gautamsen@bitmesra.ac.in",
+          "phone": "9973718613",
+          "qualification": null,
+          "research_interests": [
+            "Synthesis",
+            "characterization and applications of graft copolymers Biopolymers – modifications and applications Polymer chemistry"
+          ]
+        }
+      ],
+      "faculty_count": 11
+    },
+    {
+      "name": "Space Engineering and Rocketry",
+      "faculty": [
+        {
+          "name": "Dr. Priyank Kumar",
+          "designation": "Associate Professor and Head",
+          "email": "priyankkumar@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Fluid dynamics Wind Tunnel testing LinkedIn Profile My webpage"
+          ]
+        },
+        {
+          "name": "Dr. Arun Kumar P.",
+          "designation": "Professor of Practice",
+          "email": "arun_uthradom@yahoo.co.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Liquid Propulsion"
+          ]
+        },
+        {
+          "name": "Dr. Shelly Biswas",
+          "designation": "Assistant Professor",
+          "email": "shellybiswas@bitmesra.ac.in",
+          "phone": "09958067120",
+          "qualification": null,
+          "research_interests": [
+            "Fuels Combustion Thermal Analysis Green Propellants"
+          ]
+        },
+        {
+          "name": "Dr. Abha Gupta",
+          "designation": "Assistant Professor",
+          "email": "abhagupta@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Isogeometric analysis",
+            "Finite element analysis",
+            "Linear and Nonlinear analysis",
+            "Composite material",
+            "Structural analysis: Static",
+            "Vibration",
+            "Transient"
+          ]
+        },
+        {
+          "name": "Dr. Rajiv Kumar",
+          "designation": "Assistant Professor",
+          "email": "rajiv@bitmesra.ac.in",
+          "phone": "7091323300",
+          "qualification": null,
+          "research_interests": [
+            "Jet Propulsion; Combustion; Rocket Propulsion; and Propellant Technology"
+          ]
+        },
+        {
+          "name": "Dr. B. N. Suresh",
+          "designation": null,
+          "email": "byranasuresh@gmail.com",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "launch vehicle design",
+            "aerospace navigation",
+            "control and actuation systems",
+            "vehicle electronics",
+            "modelling and simulation"
+          ]
+        }
+      ],
+      "faculty_count": 6
+    },
+    {
+      "name": "Mathematics",
+      "faculty": [
+        {
+          "name": "Dr. Soubhik Chakraborty",
+          "designation": "Professor",
+          "email": "soubhik@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Algorithm Analysis Music Analysis Statistical Computing"
+          ]
+        },
+        {
+          "name": "Dr. Abhinav Chakraborty",
+          "designation": "Assistant Professor",
+          "email": "abhinavchakraborty@bitmesra.ac.in",
+          "phone": "9903210316",
+          "qualification": null,
+          "research_interests": [
+            "Swarm Robotics Distributed Algorithms for Multi Robots Coordination Theoretical Computer Science Distributed Network Algorithms Graph Theory Graph Algorithms."
+          ]
+        },
+        {
+          "name": "Dr. Ayan Chanda",
+          "designation": "Assistant Professor",
+          "email": "ayanchanda@bitmesra.ac.in",
+          "phone": "9957985160",
+          "qualification": null,
+          "research_interests": [
+            "Mathematical Modelling",
+            "Wave-Structure Interaction",
+            "Fluid Dynamics",
+            "Integral Equation"
+          ]
+        },
+        {
+          "name": "Dr. Payel Das",
+          "designation": "Assistant Professor",
+          "email": "pdas07@bitmesra.ac.in",
+          "phone": "7003118651",
+          "qualification": null,
+          "research_interests": [
+            "Numerical Functional Analysis Approximation Theory Intergal Equations"
+          ]
+        },
+        {
+          "name": "Dr. Prabal Datta",
+          "designation": "Assistant Professor",
+          "email": "prabal@bitmesra.ac.in",
+          "phone": "6290856884",
+          "qualification": null,
+          "research_interests": [
+            "Numerical Solution of Boundary Layer Flow"
+          ]
+        },
+        {
+          "name": "Dr. Koushik Garain",
+          "designation": "Assistant Professor",
+          "email": "koushikgarain@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Stochastic Modeling",
+            "Empirical Dynamic Modeling",
+            "Early Warning Signal"
+          ]
+        },
+        {
+          "name": "Dr. Prabjot Kaur",
+          "designation": "Assistant Professor",
+          "email": "prabjotkaur@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Operations Research:Decision Sciences Econometric Model Medical Diagnosis Machine Learning& MCDM"
+          ]
+        },
+        {
+          "name": "Dr. Dinesh Kumar",
+          "designation": "Assistant Professor",
+          "email": "dineshkumar@bitmesra.ac.in",
+          "phone": "9999759280",
+          "qualification": null,
+          "research_interests": [
+            "Complex Dynamics(Complex Analysis)",
+            "Iteration of transcendental entire functions"
+          ]
+        },
+        {
+          "name": "Dr. Partha Sarathi Majee",
+          "designation": "Assistant Professor",
+          "email": "psmajee@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Computational Fluid Dynamics",
+            "Electrokinetics",
+            "Nanofluidics",
+            "Computational Microfluidics"
+          ]
+        },
+        {
+          "name": "Dr. Aniruddha Samanta",
+          "designation": "Assistant Professor",
+          "email": "aniruddha@bitmesra.ac.in",
+          "phone": "9932199922",
+          "qualification": null,
+          "research_interests": [
+            "Spectral Graph Theory",
+            "Graph Theory",
+            "Combinatorics",
+            "Matrix Theory"
+          ]
+        },
+        {
+          "name": "Dr. Pawan Kumar Shaw",
+          "designation": "Assistant Professor",
+          "email": "pkshaw@bitmesra.ac.in",
+          "phone": "8013657987",
+          "qualification": null,
+          "research_interests": [
+            "Fractional Calculus Numerical Analysis Differential Equation Nonlinear Dynamics Mathematical Modeling"
+          ]
+        },
+        {
+          "name": "Dr. Manpreet Singh",
+          "designation": "Assistant Professor",
+          "email": "manpreetsingh@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Low-dimensional topology",
+            "Combinatorial group theory",
+            "Mapping class groups"
+          ]
+        },
+        {
+          "name": "Dr. Randhir Singh",
+          "designation": "Assistant Professor",
+          "email": "randhirsingh@bitmesra.ac.in",
+          "phone": "9955524672",
+          "qualification": null,
+          "research_interests": [
+            "Nonlinear Local/ Nonlocal Boundary Value Problems Numerical Methods for Singular Boundary Value Problems Wavelet Methods Compact Finite Difference Methods Population Balances"
+          ]
+        },
+        {
+          "name": "Dr. Abhinav Tandon",
+          "designation": "Assistant Professor",
+          "email": "abhinavtandon@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "Differential Equations and its applications in Ecology",
+            "Environment and Biology"
+          ]
+        }
+      ],
+      "faculty_count": 14
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "Dr. S. K. Sinha",
+          "designation": "Professor",
+          "email": "sksinha@bitmesra.ac.in",
+          "phone": "9470522811",
+          "qualification": null,
+          "research_interests": [
+            "Material Science Surface & Interface Physics Thin Film Ion beam Mixing Biomaterials"
+          ]
+        },
+        {
+          "name": "Dr. R. K. Dewanjee",
+          "designation": "Assistant Professor",
+          "email": "ramkrishna.dewanjee@bitmesra.ac.in",
+          "phone": "9818388035",
+          "qualification": null,
+          "research_interests": [
+            "Experimental Particle Physics",
+            "Collider phenomenology",
+            "Higgs Searches",
+            "Hadronic Tau lepton reconstruction at CMS experiment at LHC",
+            "CERN"
+          ]
+        },
+        {
+          "name": "Dr. Suman Ghosh",
+          "designation": "Assistant Professor",
+          "email": "suman.ghosh@bitmesra.ac.in",
+          "phone": "9433907900",
+          "qualification": null,
+          "research_interests": [
+            "Theoretical physics",
+            "Gravitation",
+            "Cosmology",
+            "Quantum fields in curved space..."
+          ]
+        },
+        {
+          "name": "Dr. Anupam Roy",
+          "designation": "Assistant Professor",
+          "email": "royanupam@bitmesra.ac.in",
+          "phone": "8130610762",
+          "qualification": null,
+          "research_interests": [
+            "Two-dimensional Layered Materials",
+            "Epitaxy",
+            "Thin Films and Nanostructures",
+            "Surface Physics and Materials Science",
+            "Experimental Condensed Matter Physics"
+          ]
+        },
+        {
+          "name": "Dr. Nishi Srivastava",
+          "designation": "Assistant Professor",
+          "email": "nsrivastava@bitmesra.ac.in",
+          "phone": "9523931461",
+          "qualification": null,
+          "research_interests": [
+            "Remote sensing of aerosols Atmospheric Physics Numerical Modeling Artificial Neural Network Air Pollution Studies Chemical Transport Modeling Aerosol Characterization"
+          ]
+        }
+      ],
+      "faculty_count": 5
+    },
+    {
+      "name": "Quantitative Economics and Data Science",
+      "faculty": [
+        {
+          "name": "Dr. Shrimoyee Ganguly",
+          "designation": "Assistant Professor",
+          "email": "shrimoyee@bitmesra.ac.in",
+          "phone": "8777611522",
+          "qualification": null,
+          "research_interests": [
+            "International Trade policy",
+            "CBAM Product Quality & Export promotion Labour market Monetary policy & Infrastructure development Panel data analysis"
+          ]
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Food Engineering and Technology",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Humanities and Social Sciences",
+      "faculty": [
+        {
+          "name": "Dr. Dharmendra Kumar Chand",
+          "designation": null,
+          "email": "bhaskarkarn@bitmesra.ac.in",
+          "phone": "9006534797",
+          "qualification": null,
+          "research_interests": [
+            "Fuzzy Logic and Its Applications AIML Information Systems Information Architecture Information Psychology"
+          ]
+        },
+        {
+          "name": "Dr. Rohit Kumar Pandey",
+          "designation": "Assistant Professor",
+          "email": "rkpande@bitmesra.ac.in",
+          "phone": "9955119468",
+          "qualification": null,
+          "research_interests": [
+            "Marketing and English Language"
+          ]
+        },
+        {
+          "name": "Dr. Ananya Saha",
+          "designation": "Assistant Professor",
+          "email": "ananya.saha@bitmesra.ac.in",
+          "phone": "8860671126",
+          "qualification": null,
+          "research_interests": [
+            "Culture Studies and Popular Culture Manga/Comics Studies/Graphic Narratives Soft Power and Globalization Translation Studies Digital Humanities AI and Ethics"
+          ]
+        },
+        {
+          "name": "Dr. Shailendra Kumar Singh",
+          "designation": "Assistant Professor",
+          "email": "shailendra@bitmesra.ac.in",
+          "phone": null,
+          "qualification": null,
+          "research_interests": [
+            "German Language & Literature Language teaching & learning General Management",
+            "Sustainability Green Supply Chain Management"
+          ]
+        }
+      ],
+      "faculty_count": 4
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": null,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "active_projects": null,
+    "funding_agencies": [
+      "DST",
+      "DRDO",
+      "ISRO",
+      "DBT",
+      "CSIR"
+    ],
+    "total_funding_crores": null,
+    "consultancy_projects": null,
+    "patents_filed": null,
+    "patents_granted": null,
+    "publications_per_year": null,
+    "phd_students_enrolled": null,
+    "phds_awarded": null,
+    "research_centres": [
+      "Central Animal Facility",
+      "Central Animal Facility"
+    ],
+    "international_collaborations": null
+  },
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.bitmesra.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 71,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/bit-mesra",
+  "last_scraped_at": "2026-03-31T16:24:00.157989",
+  "department_count": 20,
+  "total_faculty": 193
+}

@@ -1,0 +1,83 @@
+{
+  "institute": "IIIT, Allahabad",
+  "also_known_as": "IIITA",
+  "institute_type": "IIIT",
+  "established_year": 1999,
+  "city": "Allahabad",
+  "state": "Uttar Pradesh",
+  "address": "Indian Institute of Information Technology Allahabad, Devghat, Jhalwa, Prayagraj, Uttar Pradesh - 211012",
+  "nearest_airport": "Prayagraj Airport",
+  "nearest_airport_km": 4.5,
+  "nearest_railway_station": "Prayagraj Junction Railway Station",
+  "nearest_railway_km": 8.5,
+  "qs_world_rank": "1401+ (2026)",
+  "qs_asia_rank": "509 (2026)",
+  "nirf_engineering_rank": 101,
+  "outlook_rank": 19,
+  "india_today_rank": 12,
+  "caution_money": 4840,
+  "one_time_fees": 18360,
+  "tuition_fee_per_sem": 81000,
+  "annual_fees": 3710,
+  "total_institute_fee": 115600,
+  "hostel_fee_per_sem": 7990,
+  "mess_advance_per_sem": 24300,
+  "total_hostel_fee": 36180,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students."
+  ],
+  "overall_placement_pct": 90.16,
+  "branch_wise_placement_pct": {
+    "Electronics and Communication Engineering": 84.11,
+    "Information Technology": 92.15,
+    "Information Technology-Business Informatics": 94.59,
+    "Overall": 90.16
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Electronics and Communication Engineering": 23.75,
+    "Information Technology": 30.0,
+    "Information Technology-Business Informatics": 31.0
+  },
+  "median_package_lpa": 28.25,
+  "branch_wise_avg_ctc": {
+    "Electronics and Communication Engineering": 29.11,
+    "Information Technology": 34.66,
+    "Information Technology-Business Informatics": 32.66
+  },
+  "avg_package_lpa": 32.14,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-allahabad",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-allahabad",
+  "last_scraped_at": "2026-03-31T16:12:42.594116",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiita.ac.in",
+  "placement_officer": {
+    "email": "placements@iiita.ac.in",
+    "phone": "+91-9899364673"
+  },
+  "top_recruiters": [
+    "logo",
+    "About",
+    "Recruiters",
+    "Statistics",
+    "Procedure and Policies",
+    "Our Recruiters",
+    "Brochure",
+    "Contact Us Administration Team",
+    "Reach Us",
+    "IIIT Allahabad",
+    "library",
+    "Useful Links"
+  ],
+  "phd_available": false,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  }
+}

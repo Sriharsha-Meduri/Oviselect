@@ -1,0 +1,751 @@
+{
+  "institute": "NIT Karnataka, Surathkal",
+  "institute_type": "NIT",
+  "also_known_as": "NITK",
+  "established_year": 1960,
+  "city": "Mangalore",
+  "state": "Karnataka",
+  "address": "National Institute of Technology Karnataka, Srinivasnagar PO, Surathkal, Mangalore, Karnataka - 575025",
+  "nearest_airport": "Mangalore International Airport",
+  "nearest_airport_km": 19.0,
+  "nearest_railway_station": "Surathkal Railway Station",
+  "nearest_railway_km": 5.0,
+  "nirf_overall_rank": 13,
+  "nirf_engineering_rank": 17,
+  "nirf_research_rank": 42,
+  "nirf_innovation_rank": "151-300 (2023)",
+  "qs_world_rank": null,
+  "qs_asia_rank": "443 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": 8,
+  "the_week_rank": 10,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 8400,
+  "mess_advance_per_sem": 22000,
+  "one_time_fees": 9990,
+  "caution_money": 6390,
+  "annual_fees": 15430,
+  "total_institute_fee": 96870,
+  "total_hostel_fee": 43710,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 74.29,
+  "avg_package_lpa": 17.07,
+  "median_package_lpa": 15.12,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 85.71,
+    "Civil Engineering": 47.01,
+    "Computer Science and Engineering": 83.59,
+    "Electrical and Electronics Engineering": 68.8,
+    "Electronics and Communication Engineering": 74.22,
+    "Information Technology": 81.75,
+    "Mechanical Engineering": 79.1,
+    "Metallurgical and Materials Engineering": 83.67,
+    "Mining Engineering": 69.77,
+    "Overall (B.Tech.)": 74.29
+  },
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 12.0,
+    "Civil Engineering": 12.0,
+    "Computer Science and Engineering": 28.19,
+    "Electrical and Electronics Engineering": 15.0,
+    "Electronics and Communication Engineering": 16.0,
+    "Information Technology": 20.0,
+    "Mechanical Engineering": 12.0,
+    "Metallurgical and Materials Engineering": 9.0,
+    "Mining Engineering": 12.0,
+    "Overall (B.Tech.)": 15.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 13.24,
+    "Civil Engineering": 11.93,
+    "Computer Science and Engineering": 27.68,
+    "Electrical and Electronics Engineering": 18.62,
+    "Electronics and Communication Engineering": 20.62,
+    "Information Technology": 24.97,
+    "Mechanical Engineering": 13.0,
+    "Metallurgical and Materials Engineering": 10.76,
+    "Mining Engineering": 11.62,
+    "Overall (B.Tech.)": 18.26
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Maheswata Lenka",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Shipra Verma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Manisha Bal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. G Dhivakar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. J. S. S. Allwin Ebinesar",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 5
+    },
+    {
+      "name": "Civil Engineering"
+    },
+    {
+      "name": "Computer Science & Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Yogananda Jeppu (Former)",
+          "designation": "Faculty",
+          "profile_url": "http://cse.nitk.ac.in/faculty/dr-yogananda-jeppu-former"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Electrical & Electronics Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Jora M. Gonda",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/JMG"
+        },
+        {
+          "name": "Dr. Shashidhara Mecha Kotian",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/shashidhara-mecha-kotian"
+        },
+        {
+          "name": "Dr.A.Karthikeyan",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/AK"
+        },
+        {
+          "name": "Dr. Udaykumar R Yaragatti",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/URY"
+        },
+        {
+          "name": "Dr. B Dastagiri Reddy",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/b-dastagiri-reddy"
+        },
+        {
+          "name": "Dr. Parthiban P",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/PP"
+        },
+        {
+          "name": "Dr.Dharavath Kishan",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/dharavath-kishan"
+        },
+        {
+          "name": "Dr. Dattatraya N Gaonkar",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/DNG"
+        },
+        {
+          "name": "Dr. Nagendrappa H",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/HN"
+        },
+        {
+          "name": "Dr. B Venkatesa Perumal",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/BVP"
+        },
+        {
+          "name": "Dr. Prajof P",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/prajof-p"
+        },
+        {
+          "name": "Dr. Dharavath Kishan",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/dharavath-kishan"
+        },
+        {
+          "name": "Dr. R Kalpana",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/RK"
+        },
+        {
+          "name": "Dr. Vinatha U.",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/UV"
+        },
+        {
+          "name": "Dr. Yashwant Kashyap",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/yashwant-kashyap"
+        },
+        {
+          "name": "Dr. Ravi Raushan",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/ravi-raushan"
+        },
+        {
+          "name": "Dr.Y.Suresh",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/YS"
+        },
+        {
+          "name": "Dr. Debashisha Jena",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/DJ"
+        },
+        {
+          "name": "Dr. A Karthikeyan",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/AK"
+        },
+        {
+          "name": "Dr. K Manjunath Sharma",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/KMS"
+        },
+        {
+          "name": "Dr.B.Dastagiri Reddy",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/b-dastagiri-reddy"
+        },
+        {
+          "name": "Dr. P. Parthiban",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/PP"
+        },
+        {
+          "name": "Dr. Manjunatha Sharma K",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/KMS"
+        },
+        {
+          "name": "Dr. Yellasiri Suresh",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/YS"
+        },
+        {
+          "name": "Dr. B. Venkatesaperumal",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/BVP"
+        },
+        {
+          "name": "Dr. B. Dastagiri Reddy",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/b-dastagiri-reddy"
+        },
+        {
+          "name": "Dr. Vinatha U",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/UV"
+        },
+        {
+          "name": "Dr. A. Karthikeyan",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/AK"
+        },
+        {
+          "name": "Dr. Debashisha jena",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/DJ"
+        },
+        {
+          "name": "Dr. Md Waseem Ahmad",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/md-waseem-ahmad"
+        },
+        {
+          "name": "Dr. Y Suresh",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/YS"
+        },
+        {
+          "name": "Dr. Gururaj S Punekar",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/GSP"
+        },
+        {
+          "name": "Dr. Panduranga Vittal K P",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/KPV"
+        },
+        {
+          "name": "Dr. Arun Dominic",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/arun-dominic"
+        },
+        {
+          "name": "Dr. Prajof P.",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/prajof-p"
+        },
+        {
+          "name": "Dr. R. Kalpana",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/RK"
+        },
+        {
+          "name": "Dr.R .Kalpana",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/RK"
+        },
+        {
+          "name": "Dr.B. Dastagiri Reddy",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/faculty/b-dastagiri-reddy"
+        },
+        {
+          "name": "Dr. Jora M Gonda",
+          "designation": "Faculty",
+          "profile_url": "https://eee.nitk.ac.in/professor/JMG"
+        }
+      ],
+      "faculty_count": 39
+    },
+    {
+      "name": "Electronics & Communication Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Sandeep Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Late Prof. K. M. Hebbar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Late Prof. M. K. Parasuram",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. K. R. Kamath",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. C. G. Reddi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Late Prof. V. M. Joshi",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 6
+    },
+    {
+      "name": "Information Technology"
+    },
+    {
+      "name": "Mathematical & Computational Sciences"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "faculty": [
+        {
+          "name": "Prof. S. Kattimani",
+          "designation": "Professor"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Metallurgical & Materials Engineering",
+      "faculty": [
+        {
+          "name": "Faculty Co-ordinator: Dr. Shashi Bhushan Arya",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Mining Engineering",
+      "faculty": [
+        {
+          "name": "Dr. MARUTIRAM KAZA",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. PIJUSH PAL ROY",
+          "designation": "Professor"
+        },
+        {
+          "name": "Ms. Gyana B. C.",
+          "designation": "Faculty",
+          "profile_url": "http://mining.nitk.ac.in/researchscholars/ms-gyana-b-c"
+        }
+      ],
+      "faculty_count": 3
+    },
+    {
+      "name": "Physics"
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [
+        {
+          "name": "Mr. Bratin K. Das",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-bratin-k-das"
+        },
+        {
+          "name": "Mr. Dilip H. N.",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-dilip-h-n"
+        },
+        {
+          "name": "Mr. G P Syed Ibrahim",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-g-p-syed-ibrahim"
+        },
+        {
+          "name": "Mr. Gururaj Acharya M",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-gururaj-acharya-m"
+        },
+        {
+          "name": "Mr. Harsha B",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-harsha-b"
+        },
+        {
+          "name": "Mr. Kalinganayak S H",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-kalinganayak-s-h"
+        },
+        {
+          "name": "Mr. Madhu N Nimbalkar",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-madhu-n-nimbalkar"
+        },
+        {
+          "name": "Mr. Madhukara Acharya",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-madhukara-acharya"
+        },
+        {
+          "name": "Mr. Nagaraj K",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-nagaraj-k"
+        },
+        {
+          "name": "Mr. Omkar Singh",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-omkar-singh"
+        },
+        {
+          "name": "Mr. Pavan Kumar S",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-pavan-kumar-s"
+        },
+        {
+          "name": "Mr. S. S.Sudhanva Prasad",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-s-ssudhanva-prasad"
+        },
+        {
+          "name": "Mr. Sathyanarayana D.S",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-sathyanarayana-ds"
+        },
+        {
+          "name": "Mr. Shivarama B",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-shivarama-b"
+        },
+        {
+          "name": "Mr. Sivaprakash R. R",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-sivaprakash-r-r"
+        },
+        {
+          "name": "Mr. Yathish Rai T",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/mr-yathish-rai-t"
+        },
+        {
+          "name": "Ms. Anjana A. V.",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-anjana-v"
+        },
+        {
+          "name": "Ms. Cindrella Nishmitha Gonsalves",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-cindrella-nishmitha-gonsalves"
+        },
+        {
+          "name": "Ms. Fiona Joyline Mascarenhas",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-fiona-joyline-mascarenhas"
+        },
+        {
+          "name": "Ms. Harshini Sai G.",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-harshini-sai-g"
+        },
+        {
+          "name": "Ms. Harshitha N Anchan",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-harshitha-n-anchan"
+        },
+        {
+          "name": "Ms. J. E. Madhusree",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-j-e-madhusree"
+        },
+        {
+          "name": "Ms. Kavya S. Keremane",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-kavya-s-keremane"
+        },
+        {
+          "name": "Ms. Lavanya Rao V. R",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-lavanya-rao-v-r"
+        },
+        {
+          "name": "Ms. Navya Subray Bhat",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-navya-subray-bhat"
+        },
+        {
+          "name": "Ms. Neethu Raveendran M",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-neethu-raveendran-m"
+        },
+        {
+          "name": "Ms. Nivedha Vinod",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-nivedha-vinod"
+        },
+        {
+          "name": "Ms. Pallavi K.C",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-pallavi-kc"
+        },
+        {
+          "name": "Ms. Panchami H. R",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-panchami-h-r"
+        },
+        {
+          "name": "Ms. Pushyaraga Pv",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-pushyaraga-pv"
+        },
+        {
+          "name": "Ms. Rasmi Bhaskaran P.",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-rasmi-bhaskaran-p"
+        },
+        {
+          "name": "Ms. Sreelekha K. M.",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-sreelekha-k-m"
+        },
+        {
+          "name": "Ms. Sruthi H.",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-sruthi-h"
+        },
+        {
+          "name": "Ms. Vishrutha K S",
+          "designation": "Faculty",
+          "profile_url": "http://chemistry.nitk.ac.in/researchscholar/ms-vishrutha-k-s"
+        },
+        {
+          "name": "Dr. Saikat Dutta, Associate Professor and Head",
+          "designation": "Associate Professor"
+        }
+      ],
+      "faculty_count": 35
+    },
+    {
+      "name": "Humanities, Social Sciences & Management"
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "active_projects": null,
+    "funding_agencies": [
+      "MHRD"
+    ],
+    "total_funding_crores": 66.0,
+    "consultancy_projects": null,
+    "patents_filed": null,
+    "patents_granted": null,
+    "publications_per_year": null,
+    "phd_students_enrolled": null,
+    "phds_awarded": null,
+    "research_centres": null,
+    "international_collaborations": null
+  },
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": null,
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": false,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": {
+    "clubs": [
+      "Best Paper Award to Dr. Mahendra Pratap Singh and the CSRL team",
+      "Prof. Prasanna Belur & Team received a project grant of ₹ 1.39 Crore",
+      "Dr. Shyam Lal and Team published a research Paper in Scientific Reports",
+      "Dr.Mahendra Pratap Singh & his team received Best Paper Award at MANIT",
+      "Dr. Partha P Das and team conferred Best Poster Award at IIT Guwahati",
+      "Best Paper Award to Dr. Sowmya Kamath & Team",
+      "Best Paper Award to Dr Biswajit R Bhowmik & Team",
+      "Dr. Mandeep Singh & team have got the Best Paper Award",
+      "Indian Patent Granted to Prof. M. S. Bhat and & team",
+      "Students Group Medical Insurance Circular",
+      "Notification for Ongoing Group A staff recruitment",
+      "Rebuttal Notification - Recruitment for Group A Staff posts",
+      "Results of final selection - Group B&C positions",
+      "Cancellation Notice - Group 'A' Non-teaching positions",
+      "Final list of Shortlisted, Prov Shortlisted&Not Shortlisted-Group A Post",
+      "Provisionally shortlisted & not shortlisted candidates for Group A posts",
+      "Advertisement for the post of JRF Position in PEM Fuel Cell Research",
+      "Recruitment Cancellation Notice for Group 'B' posts - refund of fee",
+      "Cancellation Notice of Group ‘A’ positions at NITK, Surathkal",
+      "Notification regarding recruitment cancellation of Group B & C posts",
+      "Notification regarding recruitment cancellation of Group A posts",
+      "Hearty Congratulations to NITK racing Team Formula Bharat 2021 winners",
+      "JRF Position in PEM Fuel Cell Research in the Dept of Mechanical Engg.",
+      "Tender Notifications for Group Medical Insurance Scheme",
+      "Dept of Mech: Two JRF Positions in PEM Fuel Cell Research"
+    ],
+    "technical_societies": null,
+    "technical_fests": [
+      "Research Overview Research Areas Centres Centre for Continuing Education Central Research Facility Industry Institute Partnership Centre for Disaster Management STEP Center for Sustainable Development Centre for System Design Centre of Excellence in Smart Grid Technologies Sponsored Research Visvesvaraya PhD Scheme Publications Research Facility Institutional Relations Technologies for Transfer",
+      "Centres Centre for Continuing Education Central Research Facility Industry Institute Partnership Centre for Disaster Management STEP Center for Sustainable Development Centre for System Design Centre of Excellence in Smart Grid Technologies",
+      "Centre of Excellence in Smart Grid Technologies",
+      "Technologies for Transfer",
+      "Make up exam Circular - Information Technology department",
+      "Advanced Treatment Technologies for Fluoride Removal in Water",
+      "First Workshop on Speech & Language Technologies for Dravidian Language",
+      "MakeUp Exam Even Sem 2019-20 - Dept. of Information Technology"
+    ],
+    "cultural_fests": null,
+    "has_nss": true,
+    "has_ncc": true,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Institute Brochure",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Newsletter Institute Newsletter",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Newsletter",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Industry Institute Partnership",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Brochure",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Newsletter Institute Newsletter",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Newsletter",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Industry Institute Partnership",
+        "country": null,
+        "focus_area": null
+      }
+    ],
+    "mou_count": null,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.nitk.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 83,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-surathkal",
+  "last_scraped_at": "2026-03-31T16:01:56.784562",
+  "department_count": 13,
+  "total_faculty": 91
+}

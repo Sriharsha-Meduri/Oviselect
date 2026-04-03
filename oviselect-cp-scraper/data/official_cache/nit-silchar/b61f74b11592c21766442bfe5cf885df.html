@@ -1,0 +1,2090 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="NIT Silchar" />
+    <meta name="description" content="    
+">
+    <meta name="keywords" content="    
+">
+    <meta property="og:site_name" content="NIT Silchar">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="    
+">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://physics.nits.ac.in">
+    <meta property="og:image" content="">
+
+    <link href="https://physics.nits.ac.in/css/department/bootstrap.min.css" rel="stylesheet" />
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+
+    <link rel="stylesheet" href="https://physics.nits.ac.in/css/department/owl.theme.default.css" />
+
+
+    <link rel="stylesheet" href="https://physics.nits.ac.in/css/department/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://physics.nits.ac.in/css/lightbox.min.css" />
+
+    <link rel="stylesheet" href="https://physics.nits.ac.in/css/department/hover.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet" />
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="https://physics.nits.ac.in/css/department/style.css" />
+    <link rel="stylesheet" href="https://physics.nits.ac.in/css/department/style2.css" />
+    <link rel="stylesheet" href="https://physics.nits.ac.in/css/department/department.css" />
+    <!-- Responsive CSS link -->
+    <link rel="stylesheet" href="https://physics.nits.ac.in/css/department/responsive.css" />
+    <link rel="stylesheet" href="https://physics.nits.ac.in/css/department/responsive2.css" />
+    <link href="https://physics.nits.ac.in/main/images/favicon.ico" type="image/x-icon" rel="icon" />
+    <link href="https://physics.nits.ac.in/main/images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+
+    <title>    
+</title>
+        <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+    <!-- Chart code -->
+    <script>
+        am5.ready(function() {
+
+
+            // Create root element
+            // https://www.amcharts.com/docs/v5/getting-started/#Root_element
+            var root = am5.Root.new("chartdiv");
+
+
+            // Set themes
+            // https://www.amcharts.com/docs/v5/concepts/themes/
+            root.setThemes([
+                am5themes_Animated.new(root)
+            ]);
+
+
+            // Create chart
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/
+            var chart = root.container.children.push(am5xy.XYChart.new(root, {
+                panX: false,
+                panY: false,
+                paddingLeft: 0,
+                wheelX: "panX",
+                wheelY: "zoomX",
+                layout: root.verticalLayout
+            }));
+
+
+            // Add legend
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/legend-xy-series/
+            var legend = chart.children.push(
+                am5.Legend.new(root, {
+                    centerX: am5.p50,
+                    x: am5.p50
+                })
+            );
+
+            // var data = [{
+            //     "year": "2021",
+            //     "M-tech": 2.5,
+            //     "Btech": 2.5,
+
+
+            // }, {
+            //     "year": "2022",
+            //     "M-tech": 2.6,
+            //     "Btech": 2.7,
+
+
+            // }, {
+            //     "year": "2023",
+            //     "M-tech": 2.8,
+            //     "Btech": 2.9,
+
+
+            // }]
+
+            var data = [];
+
+
+
+            //console.log(data);
+            // Create axes
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+            var xRenderer = am5xy.AxisRendererX.new(root, {
+                cellStartLocation: 0.1,
+                cellEndLocation: 0.9,
+                minorGridEnabled: true
+            })
+
+            var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+                categoryField: "year",
+                renderer: xRenderer,
+                tooltip: am5.Tooltip.new(root, {})
+            }));
+
+            xRenderer.grid.template.setAll({
+                location: 1
+            })
+
+            xAxis.data.setAll(data);
+
+            var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+                renderer: am5xy.AxisRendererY.new(root, {
+                    strokeOpacity: 0.1
+                })
+            }));
+
+
+            // Add series
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+            function makeSeries(name, fieldName) {
+                var series = chart.series.push(am5xy.ColumnSeries.new(root, {
+                    name: name,
+                    xAxis: xAxis,
+                    yAxis: yAxis,
+                    valueYField: fieldName,
+                    categoryXField: "year"
+                }));
+
+                series.columns.template.setAll({
+                    tooltipText: "{name}, {categoryX}:{valueY}",
+                    width: am5.percent(90),
+                    tooltipY: 0,
+                    strokeOpacity: 0
+                });
+
+                series.data.setAll(data);
+
+                // Make stuff animate on load
+                // https://www.amcharts.com/docs/v5/concepts/animations/
+                series.appear();
+
+                series.bullets.push(function() {
+                    return am5.Bullet.new(root, {
+                        locationY: 0,
+                        sprite: am5.Label.new(root, {
+                            text: "{valueY}",
+                            fill: root.interfaceColors.get("alternativeText"),
+                            centerY: 0,
+                            centerX: am5.p50,
+                            populateText: true
+                        })
+                    });
+                });
+
+                legend.data.push(series);
+            }
+
+
+            const keys = Object.keys(data[0]);
+
+            keys.forEach((key, index) => {
+                if (key !== "year") {
+                    makeSeries(key, key);
+                }
+            });
+            //makeSeries("Ph.D", "Ph.D");
+            //makeSeries("M.Tech./M.Sc", "M.Tech./M.Sc");
+
+
+
+            chart.appear(1000, 100);
+
+        }); // end am5.ready()
+    </script>
+    
+</head>
+
+
+<body>
+    <div class="main">
+
+        <header>
+            <div class="top-header">
+                <div class="container-fluid container-lg container-md">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="left">
+                                <!-- <span> <i class="fas fa-award"></i> 34 year's of excellence </span> -->
+                                <span><i class="fa-solid fa-calendar-days"></i></span>
+                                <span id="spanDate"> </span>
+                                <span>|</span>
+                                <span id="time"> </span>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="right">
+                                <span><a href="https://www.nits.ac.in/" target="_blank"><i
+                                            class="fa-solid fa-home"></i></a></span>
+                                <span class="skip"><a href="#">Skip to Main Content</a></span>
+                                <span class="color-change-btn">
+                                    Select Theme <input class="light" id="radio1" value="1" type="radio"
+                                        name="radio-btn" checked="" /> <input class="dark" id="radio2"
+                                        value="2" type="radio" name="radio-btn" />
+                                </span>
+
+                                <span class="screen-reader"><a href="https://physics.nits.ac.in/screen-reader-access" target="_blank">Screen Reader Access</a></span>
+                                <div class="font-change">
+                                    <div id="chcp_font_size" class="input-group">
+                                        <span class="input-group-btn">
+                                            <button id="btn-increase" class="btn btn-default btn-default2"
+                                                type="button"><i class="fa-solid fa-a"></i>+</button>
+                                            <button id="btn-orig" class="btn btn-default btn-default2"
+                                                type="button"><i class="fa-solid fa-a"></i></button>
+                                            <button id="btn-decrease" class="btn btn-default btn-default2"
+                                                type="button"><i class="fa-solid fa-a"></i>-</button>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="language">
+                                    <li>
+                                        <span><a href="https://physics.nits.ac.in/hi"> हिन्दी </a></span>
+                                        <span><a href="https://physics.nits.ac.in"> Eng </a></span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle-header">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-6">
+                            <div class="header-logo d-flex">
+                                <a href="https://physics.nits.ac.in"><img src="https://physics.nits.ac.in/images/logo-small.png"
+                                        alt="logo NIT Silchar" /></a>
+
+                                <div class="px-3">
+                                    <h1>
+                                                                                                                                    <span class="changetext activetext">Department of
+                                                Physics</span>
+                                                                                    
+
+                                        
+                                        
+                                        
+                                    </h1>
+                                    
+                                    <p class="mb-0">National Institute of Technology Silchar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="right">
+                                <div class="search">
+                                    <form action="https://physics.nits.ac.in/search" role="search" method="get">
+                                                                                    <input type="hidden" name="sbuID" value="13">
+                                                                                <input type="text" name="search" id="" class="form-control"
+                                            placeholder="Search Here..." />
+                                        <button class="search-btn" type="submit"><i
+                                                class="fa-solid fa-magnifying-glass"></i></button>
+                                    </form>
+                                </div>
+
+                                <div id="menuArea">
+                                    <input type="checkbox" id="menuToggle" class="input" />
+                                    <label for="menuToggle" class="menuOpen">
+                                        <div class="open"></div>
+                                    </label>
+                                    <div class="menu-animation menuEffects">
+                                        <label for="menuToggle"></label>
+                                        <div class="menuContent">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="menu-list">
+                                                            <h5>Home</h5>
+                                                        </div>
+
+                                                        <div class="menu-list mt-5">
+                                                            <h5>About Us</h5>
+                                                            <ul>
+                                                                <li><a href="about-department.html">About the
+                                                                        Department</a></li>
+                                                                <li><a href="our-mission-vision.html">Our Mission and
+                                                                        Vision</a></li>
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="menu-list mt-5">
+                                                            <h5><a> Academics </a></h5>
+                                                            <ul>
+                                                                <li><a href="admision.html">Admission</a></li>
+                                                                <li><a href="academic-programs.html">Academic
+                                                                        Programs</a></li>
+                                                                <li><a href="curriculum.html">Curriculum & Syllabus</a>
+                                                                </li>
+                                                                <li><a href="lab-facility.html">Laboratory &
+                                                                        Facilities</a></li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="menu-list">
+                                                            <h5>Research</h5>
+                                                            <ul>
+                                                                <li><a href="academic-rs-group.html">s</a></li>
+                                                                <li><a href="sponsored-projects.html">Sponsored
+                                                                        Projects</a></li>
+                                                                <li><a href="continu-education.html">Continuing
+                                                                        Education</a></li>
+                                                                <li><a href="re-publication.html">Research
+                                                                        Publications</a></li>
+                                                                <li><a href="department-patent.html">Patents</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="menu-list mt-5">
+                                                            <h5>Events</h5>
+                                                            <ul>
+                                                                <li><a
+                                                                        href="department-conference.html">Conferences</a>
+                                                                </li>
+                                                                <li><a href="department-seminer.html">Seminars</a></li>
+                                                                <li><a href="department-workshop.html">Workshops</a>
+                                                                </li>
+                                                            </ul>
+
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <div class="menu-list">
+                                                            <h5>People</h5>
+                                                            <ul>
+                                                                <li><a href="department-faculty.html">Faculty</a></li>
+                                                                <li><a href="officers-staff.html">Officers and
+                                                                        Staff</a>
+                                                                </li>
+                                                                <li><a href="deapartment-research-sholars.html">Research
+                                                                        Scholars</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-header">
+                <!-- ````````````````````````````````````````````````````````````````` -->
+
+                <!-- Start Mega Menu HTML -->
+                <div class="container-fluid container-lg container-md">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbar-content">
+                                <div class="hamburger-toggle">
+                                    <div class="hamburger">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbar-content">
+                                <ul class="navbar-nav mr-auto mb-2 mb-lg-0 w-100">
+                                                                        <li class="nav-item">
+                 <a class="nav-link active" aria-current="page"
+                     href="https://physics.nits.ac.in/"
+                     target="">Home</a>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="#"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">About Us<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-about-us/about-the-department"
+                                                     target="">About the Department</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-about-us/why-us"
+                                                     target="">Why Us</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-about-us/pos"
+                                                     target="">POs</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-about-us/peos"
+                                                     target="">PEOs</a>
+
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="#"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">Academics<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-academics/admission"
+                                                     target="">Admission</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-academics/academic-programs"
+                                                     target="">Academic Programs</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-academics/curriculum-and-syllabus"
+                                                     target="">Curriculum &amp; Syllabus</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-research/research-physics/laboratory-and-facilities"
+                                                     target="">Laboratory &amp; Facilities</a>
+
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="https://physics.nits.ac.in/physics-research"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">Research<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group position-relative">
+                                                 <a href="#"
+                                                     target="">Research <i
+                                                         class="fa-solid fa-caret-right"></i></a>
+                                                 <ul class="department-subchlid">
+                                                     <li>
+                                                                                                                      <a href="https://physics.nits.ac.in/physics-research/research-physics/physics-consultancy-project"
+                                                                 target="">Research Consultancy Projects</a>
+                                                                                                                      <a href="https://physics.nits.ac.in/physics-research/research-physics/research-funded-project"
+                                                                 target="">Research Funded Projects</a>
+                                                                                                              </li>
+                                                 </ul>
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group position-relative">
+                                                 <a href="#"
+                                                     target="">Publications <i
+                                                         class="fa-solid fa-caret-right"></i></a>
+                                                 <ul class="department-subchlid">
+                                                     <li>
+                                                                                                                      <a href="https://physics.nits.ac.in/physics-research/physics-publication/journal-publications"
+                                                                 target="">Journal</a>
+                                                                                                                      <a href="https://physics.nits.ac.in/physics-research/physics-publication/patents"
+                                                                 target="">Patents</a>
+                                                                                                                      <a href="https://physics.nits.ac.in/physics-research/physics-publication/physics-conferences"
+                                                                 target="">Conferences</a>
+                                                                                                                      <a href="https://physics.nits.ac.in/physics-research/physics-publication/book-chapters"
+                                                                 target="">Book Chapter</a>
+                                                                                                                      <a href="https://physics.nits.ac.in/physics-research/physics-publication/physcis-book"
+                                                                 target="">Book</a>
+                                                                                                              </li>
+                                                 </ul>
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                    <li class="nav-item">
+                 <a class="nav-link active" aria-current="page"
+                     href="https://physics.nits.ac.in/physics-achievements"
+                     target="">Achievements</a>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="#"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">People<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-people/faculty"
+                                                     target="">Faculty</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-people/officers-and-staff"
+                                                     target="">Officers and Staff</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-people/hods-list"
+                                                     target="">HODs list</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-people/retired-professor"
+                                                     target="">Retired Professor</a>
+
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="#"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">Events<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-events/conferences"
+                                                     target="">Conferences</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-events/seminars-workshops"
+                                                     target="">Seminars / Workshops</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-events/others"
+                                                     target="">Others</a>
+
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="#"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">Student Zone<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-msc-students"
+                                                     target="">M.Sc. Scholars</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-people/physics-phd-scholar"
+                                                     target="">PhD Scholars</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://physics.nits.ac.in/physics-important-links"
+                                                     target="">Important Links</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="#"
+                                                     target="">Placement Statistics</a>
+
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                               </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- END Mega Menu HTML -->
+
+                <!-- ``````````````````````````````````````````````````````````````` -->
+            </div>
+        </header>
+            <main>
+        <section class="banner-area">
+                                        <div class="all-banner-slide owl-carousel">
+                                            <div class="single-banner-slide"
+                            style="background-image: url('https://physics.nits.ac.in/storage/sbuBanners/13/banner_1739367428_Department_of_Physics_banner_02.jpg');">
+                            
+                            
+                        </div>
+                                            <div class="single-banner-slide"
+                            style="background-image: url('https://physics.nits.ac.in/storage/sbuBanners/13/banner_1739367395_Department_of_Physics_banner_01.jpg');">
+                            
+                            
+                        </div>
+                                    </div>
+                    </section>
+
+                    <section class="about space-ptb">
+<div class="container">
+<div class="align-items-center justify-content-md-center row">
+<div class="col-md-6">
+<div class="about__content position-relative">
+<h2>About the Department</h2>
+
+<div class="stroke__text v__1">EST. 1977</div>
+<a class="rts-nbg-btn btn-arrow" href="/physics-about-us/about-the-department">About Us <span class="fa-arrow-right fas"></span></a></div>
+</div>
+
+<div class="col-md-6">
+<div class="about__content text-justify">
+<p>Established in 1967 as part of the Regional Engineering College, NIT Silchar’s Department of Physics has remained a cornerstone of the institute’s academic landscape. Offering postgraduate (M.Sc.) and doctoral (Ph.D.) programs, alongside foundational&nbsp;courses for B.Tech. 1st year students, the department is committed to delivering quality education and fostering cutting-edge research across various branches of physics. Led by a team of highly qualified and experienced faculty members, the department covers a wide array of research areas, including Theoretical and Experimental Condensed Matter Physics, Theoretical Nuclear and Particle Physics, Photonics and Optoelectronics, High Energy Physics, and Nanoscience and Nanotechnology.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+        
+
+        <div class="rts-funfact v__2 mb-5" id="counter">
+            <!--                <div class="item">
+<div class="single-cta-item">
+<h2><span class="count percent"> </span><span class="count percent"> </span><span class="count percent"> 31</span></h2>
+
+<p>PG Students</p>
+
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="item">
+<div class="single-cta-item">
+<h2><span class="count percent"> 20</span></h2>
+
+<p>PhD Students</p>
+</div>
+</div>
+            -->
+            <!---09-04-25-->
+        <div class="container">
+            <div class="justify-content-center row">
+                <div class="col-lg-10">
+                    <div class="rts-funfact-wrapper">
+                        <div class="counting-slider owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="single-cta-item">
+                                    <h2><span class="count percent"> 337 </span></h2>
+
+                                    
+                                    <p>Journals</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="single-cta-item">
+                                    <h2><span class="count percent"> 11 </span></h2>
+
+                                    <p>Projects</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="single-cta-item">
+                                    <h2><span class="count percent"> 9 </span></h2>
+
+                                    
+                                    <p>Patents</p>
+                                </div>
+                            </div>
+
+
+                            <div class="item">
+                                <div class="single-cta-item">
+                                    <h2><span class="count percent"> 60 </span></h2>
+
+                                    
+                                    <p>Conference</p>
+                                </div>
+                            </div>
+
+                                                            <div class="item">
+<div class="single-cta-item">
+<h2><span class="count percent"> </span><span class="count percent"> </span><span class="count percent"> 31</span></h2>
+
+<p>PG Students</p>
+
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="item">
+<div class="single-cta-item">
+<h2><span class="count percent"> 20</span></h2>
+
+<p>PhD Students</p>
+</div>
+</div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--end-->
+        </div>
+        <section class="rts-about-university rts-section-padding  mb-5">
+            <div class="container">
+                <div class="row">
+
+                                            <div class="col-md-8">
+<div class="rts-section">
+<div class="col-lg-4 col-md-5">
+<h3 class="rts-section-title">Our Vision</h3>
+</div>
+
+<div class="col-lg-8 col-md-7">
+<p>The vision of the Department of Physics, National Institute of Technology Silchar is as follows: Our vision is to be a model of excellence in multidisciplinary branches of science and research by producing world class graduates prepared for lifelong engagements in the rapidly changing field of science and related field.Our Department should be remembered in providing excellent Mathematical skills to its UG, PG and Ph. D. students.Department is to create a platform for encouraging outcome based research environment.</p>
+</div>
+</div>
+
+<div class="rts-section">
+<div class="col-lg-8 col-md-7">
+<p>Our mission is to impart quality education to students and provide a comprehensive understanding of Physics, built upon basic fundamental of science and technology and to provide quality manpower to meet the future challenges.To provide in significant research.To attend the mathematical needs of the institute and the community.To provide students (UG/PG) with a wide spectrum of valuable courses with rigorous training/tutorials that enables them to pursue their future.</p>
+</div>
+
+<div class="col-lg-4 col-md-5">
+<h3 class="rts-section-title text-right">Our Mission</h3>
+</div>
+</div>
+</div>
+                                        <div class="col-md-4">
+                        <div class="top-features-box h-100 text-center bg-gradient-16">
+                            <h5 class="rts-section-title text-white">Important Notice
+                            </h5>
+                                                        <marquee width="100%" direction="up" height="100%" scrollamount="4">
+                                                            </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="program rts-section-padding mb-5">
+                            <div class="container">
+<div class="row rt-center">
+<div class="col-sm-12">
+<div class="rts__section--wrapper v__5">
+<h2>Academics &amp; Program</h2>
+</div>
+</div>
+</div>
+
+<div class="g-0 justify-content-md-center row">
+<div class="col-lg-4 col-md-10">
+<div class="program__single--item v__2">
+<div class="program__single--item--bg"><img alt="" src="images/about-banner01.jpg" /></div>
+
+<h5><a href="https://physics.nits.ac.in/physics-academics/academic-programs">DOCTOR OF PHILOSOPHY&nbsp;(Ph.D.)</a></h5>
+
+<p>Department of Physics at National Institute of Technology Silchar offers a doctorate program both in experimental as well as theoretical physics. Students in this program are trained through rigorous course work covering basic as well as advanced level courses before starting their research work. The major research areas in the department are Condensed Matter Physics (Theory and Experiment) and High Energy Physics (Theory and Phenomenology). At present, the strength of research scholars is about 16 who are working under the supervision of 10 faculty members of the department. The admission advertisement usually appears twice in a year, in April/May and September/October of each year in newspapers as well as institute web page. The selection test is usually held in July/December every year followed by an interview.</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-10">
+<div class="program__single--item">
+<div class="program__single--item--bg"><img alt="" src="images/about-banner02.jpg" /></div>
+
+<h5><a href="https://physics.nits.ac.in/physics-academics/academic-programs">POST-GRADUATE (PG) PROGRAM</a></h5>
+
+<p>Department runs a two-years PG program (M.Sc. in Physics).&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+                    </section>
+        <section class="bg-light py-4 faculty-advisory-committee">
+            <div class="container">
+                            </div>
+        </section>
+
+
+        <section class="rts-notice py-5">
+
+            <div class="container">
+                                                    <div class="row">
+<div class="rts__section--wrapper v__8">
+<h2>Sponsored Projects</h2>
+
+<div class="rts__section--link"><a class="rts-nbg-btn btn-arrow" href="/physics-research/research-physics/research-funded-project">View All <span class="fa-arrow-right fas"></span></a></div>
+</div>
+</div>
+                                                    <div class="g-0 justify-content-md-center row">
+                        <div class="col-lg-7 col-md-11">
+                            <div class="rts-event-section">
+                                <div class="rts-event-section-content">
+                                    <ul class="list-unstyled rts-counter">
+                                                                                    <li>
+                                                <div class="single-event-counter">
+                                                    <div class="count-number rt-clip-text">&nbsp;</div>
+                                                </div>
+
+                                                <div class="single-event-content">
+                                                    <h5>Type ABO₃ based high entropy ceramics for next generation energy storage applications</h5>
+
+                                                    <div class="single-event-content-meta">
+                                                        <p>Sponsored by ANRF</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                                                                    <li>
+                                                <div class="single-event-counter">
+                                                    <div class="count-number rt-clip-text">&nbsp;</div>
+                                                </div>
+
+                                                <div class="single-event-content">
+                                                    <h5>Indo Portugese research collaboration DST-FCT</h5>
+
+                                                    <div class="single-event-content-meta">
+                                                        <p>Sponsored by DST-FCT</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                                                                    <li>
+                                                <div class="single-event-counter">
+                                                    <div class="count-number rt-clip-text">&nbsp;</div>
+                                                </div>
+
+                                                <div class="single-event-content">
+                                                    <h5>Studies on the optical and mechanical properties of ZnO nanofilms- CSIR</h5>
+
+                                                    <div class="single-event-content-meta">
+                                                        <p>Sponsored by CSIR</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-11">
+                            <div class="event__background"><img alt="" class="h-100"
+                                    src="https://physics.nits.ac.in/storage/files/civil-mat.jpg" /></div>
+                        </div>
+                    </div>
+                            </div>
+        </section>
+        <section class="rts__section bg-light py-5">
+            <div class="container">
+                                    <div class="row">
+<div class="rts__section--wrapper">
+<h2>Faculty Members</h2>
+
+<div class="rts__section--link"><a class="rts-nbg-bssstn btn-arrow" href="https://physics.nits.ac.in/physics-people/faculty">Find More Professor<span><span class="fa-arrow-right fa-regular fas"></span> </span></a></div>
+</div>
+</div>
+                
+                <div class="owl-carousel owl-theme profesor-carousel">
+                                                                                            <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://physics.nits.ac.in/faculties/asim-roy">
+                                                <img src="https://physics.nits.ac.in/storage/FacultyDetails/IMG_177323790369b1768faa300.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://physics.nits.ac.in/faculties/asim-roy">Prof. Asim Roy</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://physics.nits.ac.in/faculties/subrat-kumar-barik">
+                                                <img src="https://physics.nits.ac.in/storage/FacultyDetails/IMG_1745585712680b8630e42e3.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://physics.nits.ac.in/faculties/subrat-kumar-barik">Dr. Subrat Kumar Barik</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Associate Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://physics.nits.ac.in/faculties/ranjith-g-nair">
+                                                <img src="https://physics.nits.ac.in/storage/FacultyDetails/IMG_174160975967cedb1f53459.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://physics.nits.ac.in/faculties/ranjith-g-nair">Dr. Ranjith G. Nair</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Associate Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://physics.nits.ac.in/faculties/rupak-dutta">
+                                                <img src="https://physics.nits.ac.in/storage/FacultyDetails/IMG_174298495667e3d6fcc9b73.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://physics.nits.ac.in/faculties/rupak-dutta">Dr. Rupak Dutta</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Associate Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://physics.nits.ac.in/faculties/saumya-r-mohapatra">
+                                                <img src="https://physics.nits.ac.in/storage/FacultyDetails/IMG_1755178602689de66abcc36.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://physics.nits.ac.in/faculties/saumya-r-mohapatra">Dr. Saumya R. Mohapatra</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Associate Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://physics.nits.ac.in/faculties/subhasis-panda">
+                                                <img src="https://physics.nits.ac.in/storage/FacultyDetails/IMG_17516232596867a65bb9b2a.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://physics.nits.ac.in/faculties/subhasis-panda">Dr. Subhasis Panda</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Associate Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://physics.nits.ac.in/faculties/p-srinivasan">
+                                                <img src="https://physics.nits.ac.in/storage/FacultyDetails/IMG_1753971289688b7a59e3580.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://physics.nits.ac.in/faculties/p-srinivasan">Dr. P. Srinivasan</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Associate Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://physics.nits.ac.in/faculties/pankaj-chaturvedi">
+                                                <img src="https://physics.nits.ac.in/storage/FacultyDetails/IMG_67d121fd69225.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://physics.nits.ac.in/faculties/pankaj-chaturvedi">Dr. Pankaj Chaturvedi</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Assistant Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://physics.nits.ac.in/faculties/susmita-rabha">
+                                                <img src="https://physics.nits.ac.in/storage/FacultyDetails/IMG_174853293268387ec4619da.JPG"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://physics.nits.ac.in/faculties/susmita-rabha">Dr. Susmita Rabha</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Assistant Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://physics.nits.ac.in/faculties/snehasish-nandy">
+                                                <img src="https://physics.nits.ac.in/storage/FacultyDetails/IMG_1751348756686376142020e.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://physics.nits.ac.in/faculties/snehasish-nandy">Dr. Snehasish Nandy</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Assistant Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                            </div>
+
+            </div>
+        </section>
+                        <div class="rts-campus pt--100 rts-campus-bg mobile-padding moving">
+                            <div class="container">
+<div class="justify-content-lg-start justify-content-sm-center row">
+<div class="col-lg-6 col-md-10 col-sm-11 col-xl-5">
+<div class="rts-left-section">
+<h2>Head of the Department</h2>
+
+<p>Graduates from the Physics department at NIT Silchar are well-positioned for diverse career opportunities, spanning research institutes, industries, government organizations, and academia, owing to the comprehensive education and training they receive during their tenure at the institute. Overall, the Department of Physics at NIT Silchar continues to uphold its legacy of excellence in education, research, and innovation, making significant contributions to the advancement of physics knowledge and societal development.</p>
+
+<address>Dr. Saumya R. Mohapatra<br />
+HoD, Department of Physics<br />
+Email: hod@phy.nits.ac.in</address>
+
+<address>&nbsp;</address>
+</div>
+</div>
+</div>
+
+<div class="rt-shape">&nbsp;</div>
+
+<div class="rt-shape"><img alt="" class="rt-shape__1" src="/storage/files/01.png" /></div>
+</div>
+                    </div>
+        <section class="mt-5 mb-3">
+
+            <div class="container">
+
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6">
+                                                    <h2 class="mb-3 mb-lg-0 rts-section-title">News and Updates</h2>
+                                            </div>
+                                            <div class="col-lg-6 text-lg-end">
+<div class="rts__section--link"><a class="rts-nbg-btn btn-arrow" href="physics-events/others">View All <span> </span></a></div>
+
+<div class="rts__section--link" style="text-align:justify">
+<p>Our passing out research scholar Dr.&nbsp;Kintali Manohor Prasad is joining Parul University as Assiatnt Professor.</p>
+
+<p>Dr. Snehasish Nandy has received an&nbsp;Indo-Russia Joint Research Grant, in collaboration with ITMO University (Russia) and SRM University (India) with the project title&nbsp;"Harnessing 2D van der Waals Semiconducting Heterostructures for Quantum Optoelectronic Devices."&nbsp;</p>
+</div>
+
+<div class="rts__section--link" style="text-align:justify">Dr. Rajesh Deb's work "<a href="https://pubs.acs.org/doi/10.1021/acsaelm.5c00529">Bias Sweep-Induced Analog Memristor Behavior, Using a Cuprous Iodide Thin Film, for Neuromorphic Computing</a>" published online in ACS Applied Electronic Materials.&nbsp;</div>
+
+<div class="rts__section--link" style="text-align:justify">&nbsp;</div>
+
+<div class="rts__section--link" style="text-align:justify">Dr. Subhasis Panda and Dr. Snehasish Nandy's recent work entitled "<a href="https://journals.aps.org/prb/accepted/3607fYd1Jb11fd7f697617a59963cadf0c2067e22#:~:text=Fingerprint%20of%20non%2DHermiticity%20in%20a%20%F0%9D%91%91%20%2Dwave%20altermagnet&amp;text=By%20attaching%20a%20ferromagnetic%20lead,of%20the%20non%2DHermitian%20topology.">Fingerprint of non-Hermiticity in a&nbsp;𝑑-wave altermagnet</a>" accepted for publication in Physical Review B.</div>
+
+<div class="rts__section--link" style="text-align:justify">&nbsp;</div>
+
+<div class="rts__section--link" style="text-align:justify">Dr. Ranjith G. Nair's work&nbsp;<strong>"</strong><a href="https://www.sciencedirect.com/science/article/pii/S0169433225008748?via%3Dihub">High aspect ratio ZnO nanorods for improved photoelectrochemical (PEC) water splitting performances and efficient photocatalytic hydrogen evolution: an integrated experimental and DFT studies</a>" published in Applied Surface Science.</div>
+</div>
+                                    </div>
+                                            </div>
+        </section>
+    </main>
+        <div class="logo-img-scroll">
+            <div class="container">
+
+                <div class="owl-carousel owl-theme owl-carousel-4">
+                    <div class="item"> <img src="https://physics.nits.ac.in/images/Ministry-of-education.jpg"
+                            alt="Ministry-of-education" /></div>
+                    <div class="item"> <img src="https://physics.nits.ac.in/images/Skill-India.jpg" alt="Skill-India" /></div>
+                    <div class="item"> <img src="https://physics.nits.ac.in/images/Digital-India.jpg" alt="Digital-India" />
+                    </div>
+                    <div class="item"><img src="https://physics.nits.ac.in/images/India.gov.in.jpg" alt="India.gov.in" />
+                    </div>
+                    <div class="item"><img src="https://physics.nits.ac.in/images/Swachh-Bharat.jpg" alt="Swachh-Bharat" />
+                    </div>
+                    <div class="item"><img src="https://physics.nits.ac.in/images/Data-gov.in.jpg" alt="Data-gov.in" /></div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <footer>
+            <!-- Top Footer Start -->
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="logo-desc">
+                                <div class="logo">
+                                    <img src="https://physics.nits.ac.in/images/nit_silchar_logo02.png"
+                                        alt="institute-logo NIT silchar" />
+                                </div>
+                                <div class="desc">
+                                    <!-- from Facebook page -->
+                                    <p>National Institute of Technology Silchar, Cachar, Silchar, Assam ,India</p>
+                                    <!-- from Facebook page -->
+                                    <p><a href="#"> Tel : +91 3842-224-797 </a></p>
+                                    <!-- from Facebook page -->
+                                    <p><a href="#">Contact: director@nits.ac.in </a></p>
+                                </div>
+                            </div>
+                            <div class="footer-links social-links mt-4">
+                                <!-- <h5>Social Links</h5> -->
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/NITSilcharofficial/" class="facebook"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <!-- <li><a href="https://x.com/IITISM_DHANBAD" class="twitter"><i class="fa-brands fa-twitter"></i></a></li> -->
+                                    <li>
+                                        <a href="https://www.linkedin.com/school/national-institute-of-technology-silchar/"
+                                            class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                    <!-- <li><a href="https://www.youtube.com/channel/UCt9UKgRsW3EMM9eCrERTTAA" class="youtube"><i class="fa-brands fa-youtube"></i></a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                            <div class="footer-links hover-links">
+                                <h5>Academic</h5>
+                                                                                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/academic/academic-calendar"
+                        >Academic Calendar</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/academic/academic-notices"
+                        >Academics Notices</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/conferences-event"
+                        >Conferences</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/academic/results"
+                        >Results</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://www.nits.ac.in/ranking?rank=Mw=="
+                        >NIRF Documents</a>
+    </li>
+</ul>
+                                                                                                </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                            <div class="footer-links hover-links">
+                                <h5>Explore NITS</h5>
+                                                                                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/campus-life/gymkhana"
+                        >Gymkhana</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/campus-life/gyansagar"
+                        >Gyansagar</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/campus-life/health-centre"
+                        >Health Centre</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/campus-life/hostels"
+                        >Hostels</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/campus-life/campus-facilities"
+                        >Campus Facilities</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/campus-life/festivals"
+                        >Festivals</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/campus-life/societies"
+                        >Societies</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/admission-details/scholarship-details"
+                        >Scholarships</a>
+    </li>
+</ul>
+                                                                                                </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                            <div class="footer-links hover-links">
+                                <h5>Other Links</h5>
+                                                                                                                                            <ul>
+    <li> <a href="https://alumni.nits.ac.in"
+             target="_blank" rel="noopener noreferrer"             >Alumni</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/more/annual-reports"
+                        >Annual Reports / Annual Accounts</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/more/anti-ragging-policies"
+                        >Anti-Ragging Policies / Committee</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/more/grievance-cell"
+                        >Grievance Cell</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://forms.gle/a74Sg4NSyWQ4Htb2A"
+                        >Online Electrical Complaint</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/internet-related-complaints"
+                        >Internet related complaints</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://physics.nits.ac.in/more/nba-cell"
+                        >NBA Cell</a>
+    </li>
+</ul>
+                                                                                                </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-links">
+                                <h5>Website Statistics:</h5>
+                                <div class="count">
+                                    
+                                    <script type="text/javascript" src="https://counter.websiteout.com/js/7/7/1283551/0"></script>
+                                </div>
+                            </div>
+                            <div class="footer-links last-update-section">
+                                                                <h6>Last Update : 31/03/2026
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex pt-5">
+                        <div class="btn-3 btn-three">
+                            <a href="https://www.nits.ac.in/faculty/login" target="_blank">Faculty
+                                Login</a>
+                        </div>
+                        <div class="btn-3 btn-three">
+                            <a href="https://nitsilchar.samarth.ac.in/index.php/site/login" target="_blank">NITS
+                                ERP</a>
+                        </div>
+                        <div class="btn-3 btn-three">
+                            <a href="https://www.nits.ac.in/ranking?rank=Mw=="
+                                target="_blank">Ranking</a>
+                        </div>
+                        <div class="btn-3 btn-three">
+                            <a href="https://www.nits.ac.in/academic/results"
+                                target="_blank">Results</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Footer End -->
+
+            <!-- Bottom Footer Start -->
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="text">
+                        <p>Copyright © 2026 National Institute of Technology Silchar</p>
+                        <p>All rights reserved || Designed & Developed by - <a href="https://www.webstep.in/"
+                                target="_blank"> WEBSTEP TECHNOLOGIES PRIVATE LIMITED </a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom Footer End -->
+        </footer>
+    </div>
+
+
+    <!-- Jquery CDN link -->
+    <script src="https://physics.nits.ac.in/js/department/jquery.min.js"></script>
+    <script src="https://physics.nits.ac.in/js/department/owl.carousel.js"></script>
+    <script src="https://physics.nits.ac.in/js/lightbox.min.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://physics.nits.ac.in/js/department/bootstrap.bundle.min.js"></script>
+
+    <!-- homepage latest news -->
+    <script src="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/breaking-news-ticker.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $("#newsTicker1").breakingNews();
+        });
+    </script>
+
+    <!-- partner carousel -->
+    <script src="https://physics.nits.ac.in/js/department/partner_carousel.js"></script>
+
+    <!-- owl carousel Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Scroll Animation JS link -->
+    <!-- <script src="js/scroll-animation.js"></script> -->
+
+    <!-- Typed JS link -->
+    <script src="https://physics.nits.ac.in/js/department/typed.min.js"></script>
+
+    <!-- custom js -->
+    <script src="https://physics.nits.ac.in/js/department/custom.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+    <!-- Chart code -->
+    <script>
+        am5.ready(function() {
+
+
+            // Create root element
+            // https://www.amcharts.com/docs/v5/getting-started/#Root_element
+            var root = am5.Root.new("chartdiv");
+
+
+            // Set themes
+            // https://www.amcharts.com/docs/v5/concepts/themes/
+            root.setThemes([
+                am5themes_Animated.new(root)
+            ]);
+
+
+            // Create chart
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/
+            var chart = root.container.children.push(am5xy.XYChart.new(root, {
+                panX: false,
+                panY: false,
+                paddingLeft: 0,
+                wheelX: "panX",
+                wheelY: "zoomX",
+                layout: root.verticalLayout
+            }));
+
+
+            // Add legend
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/legend-xy-series/
+            var legend = chart.children.push(
+                am5.Legend.new(root, {
+                    centerX: am5.p50,
+                    x: am5.p50
+                })
+            );
+
+            // var data = [{
+            //     "year": "2021",
+            //     "M-tech": 2.5,
+            //     "Btech": 2.5,
+
+
+            // }, {
+            //     "year": "2022",
+            //     "M-tech": 2.6,
+            //     "Btech": 2.7,
+
+
+            // }, {
+            //     "year": "2023",
+            //     "M-tech": 2.8,
+            //     "Btech": 2.9,
+
+
+            // }]
+
+            var data = [];
+
+
+
+            //console.log(data);
+            // Create axes
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+            var xRenderer = am5xy.AxisRendererX.new(root, {
+                cellStartLocation: 0.1,
+                cellEndLocation: 0.9,
+                minorGridEnabled: true
+            })
+
+            var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+                categoryField: "year",
+                renderer: xRenderer,
+                tooltip: am5.Tooltip.new(root, {})
+            }));
+
+            xRenderer.grid.template.setAll({
+                location: 1
+            })
+
+            xAxis.data.setAll(data);
+
+            var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+                renderer: am5xy.AxisRendererY.new(root, {
+                    strokeOpacity: 0.1
+                })
+            }));
+
+
+            // Add series
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+            function makeSeries(name, fieldName) {
+                var series = chart.series.push(am5xy.ColumnSeries.new(root, {
+                    name: name,
+                    xAxis: xAxis,
+                    yAxis: yAxis,
+                    valueYField: fieldName,
+                    categoryXField: "year"
+                }));
+
+                series.columns.template.setAll({
+                    tooltipText: "{name}, {categoryX}:{valueY}",
+                    width: am5.percent(90),
+                    tooltipY: 0,
+                    strokeOpacity: 0
+                });
+
+                series.data.setAll(data);
+
+                // Make stuff animate on load
+                // https://www.amcharts.com/docs/v5/concepts/animations/
+                series.appear();
+
+                series.bullets.push(function() {
+                    return am5.Bullet.new(root, {
+                        locationY: 0,
+                        sprite: am5.Label.new(root, {
+                            text: "{valueY}",
+                            fill: root.interfaceColors.get("alternativeText"),
+                            centerY: 0,
+                            centerX: am5.p50,
+                            populateText: true
+                        })
+                    });
+                });
+
+                legend.data.push(series);
+            }
+
+
+            const keys = Object.keys(data[0]);
+
+            keys.forEach((key, index) => {
+                if (key !== "year") {
+                    makeSeries(key, key);
+                }
+            });
+            //makeSeries("Ph.D", "Ph.D");
+            //makeSeries("M.Tech./M.Sc", "M.Tech./M.Sc");
+
+
+
+            chart.appear(1000, 100);
+
+        }); // end am5.ready()
+    </script>
+    <script>
+        function updateDateTime() {
+            const date = new Date();
+            const formattedDate = date.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            }).replace(',', '');
+
+            const currentTime = date.toLocaleTimeString('en-US', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: true
+            });
+            //alert(currentTime)
+
+            document.getElementById('spanDate').innerText = formattedDate;
+            document.getElementById('time').innerText = currentTime + " IST";
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 60000);
+    </script>
+    <script>
+        /* owl carousel */
+        $(".owl-carousel-4").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            // autoplay: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav:false,
+                },
+                600: {
+                    items: 3,
+                     nav:false,
+                },
+                1000: {
+                    items: 6,
+                },
+            },
+        });
+    </script>
+    <script>
+        var $affectedElements = $("p, h1, h2, h3, h4, h5, h6");
+
+        $affectedElements.each(function() {
+            var $this = $(this);
+            $this.data("orig-size", $this.css("font-size"));
+        });
+
+        $("#btn-increase").click(function() {
+            changeFontSize(1);
+        });
+
+        $("#btn-decrease").click(function() {
+            changeFontSize(-1);
+        });
+
+        $("#btn-orig").click(function() {
+            $affectedElements.each(function() {
+                var $this = $(this);
+                $this.css("font-size", $this.data("orig-size"));
+            });
+        });
+
+        function changeFontSize(direction) {
+            $affectedElements.each(function() {
+                var $this = $(this);
+                $this.css("font-size", parseInt($this.css("font-size")) + direction);
+            });
+        }
+    </script>
+    <script>
+        $('body').toggleClass(localStorage.toggled);
+ 
+        if (localStorage.toggled === 'background-black') {
+            $("#radio2").prop("checked", true);
+            $('body').addClass('background-black');
+        } else {
+            $("#radio1").prop("checked", true);
+            $('body').removeClass('background-black');
+        }
+ 
+        $("#radio1").on('change', function() {
+            if ($("#radio1").is(":checked")) {
+                $('body').removeClass('background-black');
+                localStorage.toggled = "";
+            }
+        });
+ 
+        $("#radio2").on('change', function() {
+            if ($("#radio2").is(":checked")) {
+                $('body').addClass('background-black');
+                localStorage.toggled = "background-black";
+            }
+        });
+ 
+ 
+        // $("#radio1").on("change", function() {
+        //     if ($("#radio1").is(":checked")) {
+        //         $(".main").removeClass("background-black");
+        //         $(".main").addClass("background-white");
+        //     }
+        // });
+ 
+        // $("#radio2").on("change", function() {
+        //     if ($("#radio2").is(":checked")) {
+        //         $(".main").removeClass("background-white");
+        //         $(".main").addClass("background-black");
+        //     }
+        // });
+</script>
+    <script>
+        $('.counting-slider').owlCarousel({
+            loop: true,
+            items: 4,
+            margin: 10,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+
+        $(".academic-slider").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 1,
+                },
+                1000: {
+                    items: 1,
+                },
+            },
+        });
+        $('.profesor-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+
+    <script type="text/javascript">
+        (function($) {
+            "use strict";
+            $(".event-news").owlCarousel({
+                loop: true,
+                margin: 15,
+                autoplay: true,
+                nav: false,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                },
+            });
+
+            jQuery(".event-news  .owl-prev").html('<i class="fas fa-arrow-left"></i>');
+
+            jQuery(".event-news  .owl-next").html('<i class="fas fa-arrow-right"></i>');
+        })(jQuery);
+    </script>
+
+    <!------- counter --------->
+
+    <script>
+        $(".about-me-img").hover(
+            function() {
+                $(".authorWindowWrapper").stop().fadeIn("fast").find("p").addClass("trans");
+            },
+            function() {
+                $(".authorWindowWrapper").stop().fadeOut("fast").find("p").removeClass("trans");
+            }
+        );
+    </script>
+
+    <!-- lightbox Start -->
+    <script>
+        $(document).ready(function() {
+            var itemSelector = ".grid-item";
+
+            var $container = $("#container").isotope({
+                itemSelector: itemSelector,
+                masonry: {
+                    columnWidth: itemSelector,
+                    isFitWidth: true,
+                },
+            });
+
+            //Ascending order
+            var responsiveIsotope = [
+                [480, 7],
+                [720, 10],
+            ];
+
+            var itemsPerPageDefault = 12;
+            var itemsPerPage = defineItemsPerPage();
+            var currentNumberPages = 1;
+            var currentPage = 1;
+            var currentFilter = "*";
+            var filterAtribute = "data-filter";
+            var pageAtribute = "data-page";
+            var pagerClass = "isotope-pager";
+
+            function changeFilter(selector) {
+                $container.isotope({
+                    filter: selector,
+                });
+            }
+
+            function goToPage(n) {
+                currentPage = n;
+
+                var selector = itemSelector;
+                selector += currentFilter != "*" ? "[" + filterAtribute + '="' + currentFilter + '"]' : "";
+                selector += "[" + pageAtribute + '="' + currentPage + '"]';
+
+                changeFilter(selector);
+            }
+
+            function defineItemsPerPage() {
+                var pages = itemsPerPageDefault;
+
+                for (var i = 0; i < responsiveIsotope.length; i++) {
+                    if ($(window).width() <= responsiveIsotope[i][0]) {
+                        pages = responsiveIsotope[i][1];
+                        break;
+                    }
+                }
+
+                return pages;
+            }
+
+            function setPagination() {
+                var SettingsPagesOnItems = (function() {
+                    var itemsLength = $container.children(itemSelector).length;
+
+                    var pages = Math.ceil(itemsLength / itemsPerPage);
+                    var item = 1;
+                    var page = 1;
+                    var selector = itemSelector;
+                    selector += currentFilter != "*" ? "[" + filterAtribute + '="' + currentFilter + '"]' :
+                        "";
+
+                    $container.children(selector).each(function() {
+                        if (item > itemsPerPage) {
+                            page++;
+                            item = 1;
+                        }
+                        $(this).attr(pageAtribute, page);
+                        item++;
+                    });
+
+                    currentNumberPages = page;
+                })();
+
+                var CreatePagers = (function() {
+                    var $isotopePager = $("." + pagerClass).length == 0 ? $('<div class="' + pagerClass +
+                        '"></div>') : $("." + pagerClass);
+
+                    $isotopePager.html("");
+
+                    for (var i = 0; i < currentNumberPages; i++) {
+                        var $pager = $('<a href="javascript:void(0);" class="pager" ' + pageAtribute +
+                            '="' + (i + 1) + '"></a>');
+                        $pager.html(i + 1);
+
+                        $pager.click(function() {
+                            var page = $(this).eq(0).attr(pageAtribute);
+                            goToPage(page);
+                        });
+
+                        $pager.appendTo($isotopePager);
+                    }
+
+                    $container.after($isotopePager);
+                })();
+            }
+
+            setPagination();
+            goToPage(1);
+
+            //Adicionando Event de Click para as categorias
+            $(".filters a").click(function() {
+                var filter = $(this).attr(filterAtribute);
+                currentFilter = filter;
+
+                setPagination();
+                goToPage(1);
+            });
+
+            //Evento Responsivo
+            $(window).resize(function() {
+                itemsPerPage = defineItemsPerPage();
+                setPagination();
+            });
+        });
+
+        $(document).ready(function() {
+            // filter items on button click
+            $(".filter-button-group").on("click", "li", function() {
+                var filterValue = $(this).attr("data-filter");
+                $(".grid").isotope({
+                    filter: filterValue
+                });
+                $(".filter-button-group li").removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+
+        $(document).ready(function() {
+            // filter items on button click
+            $(".isotope-pager").on("click", "a", function() {
+                var filterValue = $(this).attr("data-page");
+
+                $(".isotope-pager a").removeClass("active");
+                $(this).addClass("active");
+            });
+            $(".all-banner-slide").owlCarousel({
+                items: 1,
+                loop: true,
+                smartSpeed: 1000,
+                autoplay: true,
+                lazyLoad: true,
+                dots: false,
+                autoplayTimeout: 3000,
+            });
+        });
+
+        $(document).ready(function() {
+            $(".popupimg").magnificPopup({
+                type: "image",
+                mainClass: "mfp-with-zoom",
+                gallery: {
+                    enabled: true,
+                },
+
+                zoom: {
+                    enabled: true,
+
+                    duration: 300, // duration of the effect, in milliseconds
+                    easing: "ease-in-out", // CSS transition easing function
+
+                    opener: function(openerElement) {
+                        return openerElement.is("img") ? openerElement : openerElement.find("img");
+                    },
+                },
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+
+
+    <script>
+        $(".portfolio-menu ul li").click(function() {
+            $(".portfolio-menu ul li").removeClass("active");
+            $(this).addClass("active");
+
+            var selector = $(this).attr("data-filter");
+            $(".portfolio-item").isotope({
+                filter: selector,
+            });
+            return false;
+        });
+        $(document).ready(function() {
+            var popup_btn = $(".popup-btn");
+            popup_btn.magnificPopup({
+                type: "image",
+                gallery: {
+                    enabled: true,
+                },
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        (function($) {
+            "use strict";
+            $(".courses-slider").owlCarousel({
+                loop: true,
+                margin: 15,
+                nav: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 3,
+                    },
+                    1000: {
+                        items: 4,
+                    },
+                },
+            });
+        })(jQuery);
+    </script>
+
+    <script>
+        var counted = 0;
+        $(window).scroll(function() {
+
+            var oTop = $('#counter').offset().top - window.innerHeight;
+            if (counted == 0 && $(window).scrollTop() > oTop) {
+                $('.count').each(function() {
+                    var $this = $(this),
+                        countTo = $this.attr('data-count');
+                    $({
+                        countNum: $this.text()
+                    }).animate({
+                            countNum: countTo
+                        },
+
+                        {
+
+                            duration: 2000,
+                            easing: 'swing',
+                            step: function() {
+                                $this.text(Math.floor(this.countNum));
+                            },
+                            complete: function() {
+                                $this.text(this.countNum);
+                                //alert('finished');
+                            }
+
+                        });
+                });
+                counted = 1;
+            }
+
+        });
+    </script>
+
+    <!-- Resources -->
+    <!-- https://circletype.labwire.ca/ -->
+    <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+
+    <script>
+        const text = document.getElementById('text')
+        const rotate = new CircleType(text).radius(50)
+
+        window.addEventListener('scroll', function() {
+            text.style.transform = 'rotate(' + (window.scrollY * 0.15) + 'deg)'
+        })
+    </script>
+</body>
+
+</html>

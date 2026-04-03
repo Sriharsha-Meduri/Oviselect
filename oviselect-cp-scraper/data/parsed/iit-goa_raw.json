@@ -1,0 +1,63 @@
+{
+  "institute": "IIT Goa",
+  "also_known_as": "IIT Goa",
+  "institute_type": "IIT",
+  "established_year": 2016,
+  "city": "Ponda",
+  "state": "Goa",
+  "address": "IIT Goa, Goa Engineering College Campus (Bhausaheb Bandodkar Technical Education Complex), Farmagudi, Ponda, Goa - 403401",
+  "nearest_airport": "Goa International Airport",
+  "nearest_airport_km": 34.5,
+  "nearest_railway_station": "Madgaon Junction Railway Station",
+  "nearest_railway_km": 22.5,
+  "nirf_engineering_rank": 101,
+  "caution_money": 2000,
+  "one_time_fees": 5000,
+  "tuition_fee_per_sem": 100000,
+  "annual_fees": 1892,
+  "total_institute_fee": 113642,
+  "hostel_fee_per_sem": 500,
+  "mess_advance_per_sem": 18709,
+  "total_hostel_fee": 33709,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 90.74,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 93.94,
+    "Electrical Engineering": 96.3,
+    "Mathematics and Computing": 96.0,
+    "Mechanical Engineering": 73.91,
+    "Overall": 90.74
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 16.63,
+    "Electrical Engineering": 16.06,
+    "Mathematics and Computing": 13.0,
+    "Mechanical Engineering": 9.0,
+    "Overall": 15.0
+  },
+  "median_package_lpa": 13.94,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 21.22,
+    "Electrical Engineering": 16.99,
+    "Mathematics and Computing": 13.36,
+    "Mechanical Engineering": 14.76,
+    "Overall": 17.09
+  },
+  "avg_package_lpa": 16.68,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iit-goa",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-goa",
+  "last_scraped_at": "2026-03-31T16:01:16.197749",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitgoa.ac.in"
+}

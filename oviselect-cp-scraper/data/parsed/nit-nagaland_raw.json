@@ -1,0 +1,53 @@
+{
+  "institute": "NIT Nagaland",
+  "also_known_as": "NITN",
+  "institute_type": "NIT",
+  "established_year": 2010,
+  "city": "Dimapur",
+  "state": "Nagaland",
+  "address": "National Institute of Technology, Chumukedima, Dimapur, Nagaland - 797103",
+  "nearest_airport": "Dimapur Airport",
+  "nearest_airport_km": 13.0,
+  "nearest_railway_station": "Dimapur Railway Station",
+  "nearest_railway_km": 17.5,
+  "qs_asia_rank": "1001-1100 (2026)",
+  "nirf_engineering_rank": 101,
+  "caution_money": 3500,
+  "one_time_fees": 3800,
+  "tuition_fee_per_sem": 62500,
+  "total_institute_fee": 77000,
+  "hostel_fee_per_sem": 5000,
+  "mess_advance_per_sem": 21000,
+  "total_hostel_fee": 35500,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "placement_year": 2020,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 6.08,
+    "Electrical and Electronics Engineering": 5.25,
+    "Electronics and Instrumentation Engineering": 5.74,
+    "Mechanical Engineering": 4.56,
+    "Overall": 5.32
+  },
+  "avg_package_lpa": 5.39,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-nagaland",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-nagaland",
+  "last_scraped_at": "2026-03-31T16:06:29.152674",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitnagaland.ac.in",
+  "research": {
+    "research_centres": [
+      "Laboratory Facilities for Research Work"
+    ]
+  },
+  "phd_available": true
+}

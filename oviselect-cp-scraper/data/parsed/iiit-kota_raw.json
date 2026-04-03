@@ -1,0 +1,66 @@
+{
+  "institute": "IIIT (IIIT)Kota, Rajasthan",
+  "also_known_as": "IIITK",
+  "institute_type": "IIIT",
+  "established_year": 2013,
+  "city": "Kota",
+  "state": "Rajasthan",
+  "address": "Indian Institute of Information Technology, SPL-269, RIICO Industrial Area, Kuber Extension, Ranpur, Kota, Rajasthan \u2013 325003",
+  "nearest_airport": "Jaipur International Airport",
+  "nearest_airport_km": 262.0,
+  "nearest_railway_station": "Kota Junction Railway Station",
+  "nearest_railway_km": 24.0,
+  "caution_money": 10000,
+  "one_time_fees": 13625,
+  "tuition_fee_per_sem": 90000,
+  "annual_fees": 800,
+  "total_institute_fee": 135425,
+  "hostel_fee_per_sem": 12000,
+  "mess_advance_per_sem": 20000,
+  "total_hostel_fee": 53000,
+  "fee_waivers": [
+    "20% Tuition Fee waiver for SC/ST/PwD students."
+  ],
+  "overall_placement_pct": 75.93,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 77.06,
+    "Electronics and Communication Engineering": 73.58,
+    "Overall": 75.93
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 13.75,
+    "Electronics and Communication Engineering": 8.5,
+    "Overall": 12.5
+  },
+  "median_package_lpa": 11.58,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 15.76,
+    "Electronics and Communication Engineering": 11.31,
+    "Overall": 14.6
+  },
+  "avg_package_lpa": 13.89,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-kota",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-kota",
+  "last_scraped_at": "2026-03-31T16:17:25.491006",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitkota.ac.in",
+  "placement_officer": {
+    "phone": "0744-2667000"
+  },
+  "phd_available": false,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "has_nss": false,
+    "has_ncc": false
+  }
+}

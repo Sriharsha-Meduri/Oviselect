@@ -1,0 +1,173 @@
+{
+  "institute": "NIT, Jamshedpur",
+  "institute_type": "NIT",
+  "also_known_as": "NITJSR",
+  "established_year": 1960,
+  "city": "Jamshedpur",
+  "state": "Jharkhand",
+  "address": "National Institute of Technology, P.O. RIT Jamshedpur, Jharkhand - 831014",
+  "nearest_airport": "Birsa Munda Airport, Ranchi",
+  "nearest_airport_km": 130.0,
+  "nearest_railway_station": "Tatanagar Junction Railway Station",
+  "nearest_railway_km": 10.0,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": 82,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": 29,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 6000,
+  "mess_advance_per_sem": 18000,
+  "one_time_fees": 22000,
+  "caution_money": 10000,
+  "annual_fees": null,
+  "total_institute_fee": 106500,
+  "total_hostel_fee": 33000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 93.76,
+  "avg_package_lpa": 15.4,
+  "median_package_lpa": null,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 94.9,
+    "Computer Science and Engineering": 93.04,
+    "Electrical Engineering": 92.59,
+    "Electronics and Communication Engineering": 90.29,
+    "Mechanical Engineering": 91.51,
+    "Metallurgical and Materials Engineering": 100.0,
+    "Production and Industrial Engineering": 95.56,
+    "Overall (B.Tech)": 93.76
+  },
+  "branch_wise_median_ctc": null,
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 9.57,
+    "Computer Science and Engineering": 26.63,
+    "Electrical Engineering": 17.98,
+    "Electronics and Communication Engineering": 22.03,
+    "Mechanical Engineering": 10.25,
+    "Metallurgical and Materials Engineering": 9.42,
+    "Production and Industrial Engineering": 11.37,
+    "Overall (B.Tech)": 15.98
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Chemical Engineering"
+    },
+    {
+      "name": "Chemistry"
+    },
+    {
+      "name": "Civil Engineering"
+    },
+    {
+      "name": "Computer Science & Engineering"
+    },
+    {
+      "name": "Electrical Engineering"
+    },
+    {
+      "name": "Electronics & Communication Engineering"
+    },
+    {
+      "name": "Humanities & Social Sciences"
+    },
+    {
+      "name": "Mathematics"
+    },
+    {
+      "name": "Mechanical Engineering"
+    },
+    {
+      "name": "Metallurgical & Materials Engineering"
+    },
+    {
+      "name": "Physics"
+    },
+    {
+      "name": "Production & Industrial Engineering"
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": false,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": null,
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": false,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": {
+    "clubs": null,
+    "technical_societies": null,
+    "technical_fests": null,
+    "cultural_fests": null,
+    "has_nss": false,
+    "has_ncc": false,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.nitjsr.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 67,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-jamshedpur",
+  "last_scraped_at": "2026-03-31T16:02:26.884659",
+  "department_count": 12,
+  "total_faculty": 0
+}

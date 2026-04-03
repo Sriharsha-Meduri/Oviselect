@@ -1,0 +1,51 @@
+{
+  "institute": "IIIT(IIIT), Vadodara, Gujrat",
+  "also_known_as": "IIITV",
+  "institute_type": "IIIT",
+  "established_year": 2013,
+  "city": "Vadodara",
+  "state": "Gujarat",
+  "address": "Indian Institute Of Information Technology Vadodara, C/o, Block No.9 (IC Department), Government Engineering College, Sector-28, Gandhinagar, Gujarat - 382028",
+  "nearest_airport": "Sardar Vallabhbhai Patel International Airport, Ahmedabad",
+  "nearest_airport_km": 25.0,
+  "nearest_railway_station": "Sabarmati Junction Railway Station",
+  "nearest_railway_km": 27.5,
+  "caution_money": 15000,
+  "one_time_fees": 5100,
+  "tuition_fee_per_sem": 115000,
+  "hostel_fee_per_sem": 38572,
+  "annual_fees": 120,
+  "mess_advance_per_sem": 24800,
+  "total_institute_fee": 212342,
+  "branch_wise_placement_pct": {
+    "Total Students": 239.0,
+    "Eligible Students": 215.0,
+    "Placed Students": 132.0,
+    "Placement Percentage": 61.4
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 100.0,
+    "Information Technology": 100.0,
+    "Overall": 100.0
+  },
+  "median_package_lpa": 100.0,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 100.0,
+    "Information Technology": 100.0,
+    "Overall": 100.0
+  },
+  "avg_package_lpa": 100.0,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-vadodara",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-vadodara",
+  "last_scraped_at": "2026-03-31T16:19:26.882258",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitvadodara.ac.in",
+  "phd_available": true
+}

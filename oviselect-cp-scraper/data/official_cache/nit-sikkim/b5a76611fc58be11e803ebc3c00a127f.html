@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>CSE | NIT SIKKIM</title>
+
+        <!-- Favicon -->
+<link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+<!-- Fontawesome -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-4.5.3/css/bootstrap.min.css" />
+
+<!-- Custom -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/footer-style.css">
+
+<!-- aos css-->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <link rel="stylesheet" type="text/css" href="assets/css/announce-style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light pb-0" style="background:#006eb7;">
+    <div class="row ml-4 logo-wrapper">
+        <img src="assets/images/logo.png" class="img-size" width="100" height="100" alt="" loading="lazy">
+        <ul class="navbar-nav m-2">
+            <li>
+                <h4 class="font-size" style="color:White">संगणक विज्ञान एवं अभियांत्रिकी विभाग</h4>
+            </li>
+            <li>
+                <h4 class="font-size" style="color:White">Department of Computer Science & Engineering </h4>
+            </li>
+            <li>
+                <h5 class="font-size" style="color:White">National Institute of Technology Sikkim</h5>
+            </li>
+        </ul>
+    </div>
+</nav>
+<hr class="m-0" style="color:white;"/>
+
+<div  style="background:#006eb7;">
+
+<div class="container" >
+    <!-- TODO: Add active links -->
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light p-0" >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto order-0">
+                <li class="nav-item font">
+                    <a class="nav-link ml-4 mr-4 text-white" href="index.php" ><i class="fa fa-home"></i>Home<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item font">
+                    <a class="nav-link ml-4 mr-4 text-white" href="academics.php"><i class="fa fa-graduation-cap"></i> Academics  <span
+                            class="sr-only">(current)</span></a>
+                </li>
+              
+                                <!--Adding hover effect 
+                  <style>
+                  	.dropdown:hover .dropdown-menu {
+  						display: block;
+						}
+                  </style>
+                                Adding hover effect -->
+              
+                <li class="nav-item font dropdown">
+                    <a class="nav-link ml-4 mr-4 dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user"> </i> People
+                    </a>
+
+                    <div class="dropdown-menu p-0 animates slideIn" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item font" href="people.php">Faculty/Staff</a>
+                        <a class="dropdown-item font" href="researcher.php">Research Scholars</a>
+                        <a class="dropdown-item font"
+                            href="student.php?program=btech&department=1&batch=10">Students</a>
+                    </div>
+                </li>
+                <li class="nav-item font dropdown">
+                    <a class="nav-link ml-4 mr-4 dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-book"> </i> Facilities
+                    </a>
+                    <div class="dropdown-menu p-0 animates slideIn" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item font" href="labs.php?name=computer-networks-laboratory">Computer Networks Laboratory<a>
+                        <a class="dropdown-item font" href="labs.php?name=data-science-laboratory">Data Science Laboratory</a>
+                        <a class="dropdown-item font" href="labs.php?name=computing-laboratory">Computing Laboratory<a>
+                        <a class="dropdown-item font" href="labs.php?name=simulations-modeling-laboratory">Simulations & Modeling Laboratory</a>
+                        <a class="dropdown-item font" href="labs.php?name=cloud-computing-Laboratory">Cloud Computing Laboratory</a>
+                        <a class="dropdown-item font" href="labs.php?name=advanced-computing-laboratory">Advanced Computing Laboratory</a> 
+                    </div>
+                </li>
+                <li class="nav-item font">
+                    <a class="nav-link ml-4 mr-4 text-white" href="research.php"><i class="fa fa-search-plus"></i> Research <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item font">
+                    <a class="nav-link ml-4 mr-4 text-white" href="events.php"><i class="fa fa-calendar"></i> Events <span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+</div>
+</div>
+        <!-- feedback form -->
+        
+    <!----------------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------------------------->
+    <!--scroll-to-top-->
+    <div class="position-fixed p-3" style="margin-top: auto !important; bottom: 0; right: 0; z-index: 1;" data-aos="fade-up" data-aos-offset="200">
+        <div id="to-top" class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 20 20" height="60px" viewBox="0 0 20 20" width="60px" fill="#000000">
+                <g>
+                    <rect fill="none" height="20" width="20" />
+                    <path d="M10,4c3.31,0,6,2.69,6,6s-2.69,6-6,6s-6-2.69-6-6S6.69,4,10,
+                    4 M10,3c-3.87,0-7,3.13-7,7c0,3.87,3.13,7,7,7 c3.87,0,7-3.13,7-7C17,
+                    6.13,13.87,3,10,3L10,3z M9.5,10v3h1v-3H13l-3-3l-3,3H9.5z" />
+                </g>
+            </svg>
+        </div>
+    </div>
+    <!----------------------------------------------------------------------------------------------------------->
+      
+        <div class="container mt-3">
+            <div class="container mb-3">
+                <div class="row mobile-mode">
+                    <div class="col-md-8">
+                        <!-- home-page carousel -->
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                              	<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              	
+                              
+                                <div class="carousel-item active">
+                                    <img src="assets/images/slideshow-img-1.jpg" class="d-block w-100"  alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/slideshow-img-2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/slideshow-img-3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                              <div class="carousel-item">
+                                    <img src="assets/images/slideshow-img-4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                              <div class="carousel-item">
+                                    <img src="assets/images/slideshow-img-5.jpg" class="d-block w-100" alt="...">
+                                </div>
+                              <div class="carousel-item">
+                                    <img src="assets/images/slideshow-img-6.jpg" class="d-block w-100"  alt="...">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Announcement Section -->
+                    <div class="col-sm-4 mt-2">
+                        <div class="text-center">
+                          <h5 class="font-size"><b>ANNOUNCEMENTS</b></h5>
+                        </div><br>
+                       <!-- start -->
+      <div style='padding-bottom:20px;'><ul style='max-height:330px;overflow-y:auto;' ><li><a href='https://nitsikkim.ac.in/documents/results/2026_Jan/B.TECH. CSE 2022-26, 7TH SEM IITH GRADES.pdf'>Grades of B220108CS & B220141CS (7th semester/ IIT Hyderabad) </a></li><li><a href='https://nitsikkim.ac.in/documents/results/2025/July/PHD COURSE WORK RESULT CSE.pdf'>Grade Sheets of PhD Coursework</a></li><li><a href='https://nitsikkim.ac.in/documents/results/2025_sup_july/CSE HIGHER SEM JULY 2025 SUPPLEMENTARY GRADES.pdf'>B.Tech. CSE Supplementary Exam-July 2025 Result</a></li><li><a href='https://nitsikkim.ac.in/documents/results/2025/Jan/BTECH_CSE_SUPPLE_LAB_ODD 2024-25.pdf'>Grade Sheets of B.Tech. Supplementary Examination, Jan 2025 (LABORATORY)</a></li><li><a href='https://nitsikkim.ac.in/documents/results/2025/Jan/BTECH_CSE_SUPPLE_THEORY_ODD 2024-25.pdf'>Grade Sheets of B.Tech. Supplementary Examination, Jan 2025 (Theory)</a></li><li><a href='https://nitsikkim.ac.in/documents/results/2025/Jan/MTECH_CSE AIML_SUPPLE_THEORY_ODD 2024-25.pdf'>Grade Sheets of M.TECH. AIML 2024-2026 SUPPLEMENTARY EXAMINATION, JAN 2025 (THEORY)</a></li><li><a href='https://nitsikkim.ac.in/documents/results/2024_June/Backlog CSE.pdf'>B. Tech CSE Backlog Results<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2023_Dec/M.TECH. CSE 2023-25 1ST SEM.pdf'>Grade sheet of M.Tech. CSE (2023-25)  1st-semester <img src='assets/images/new.png' heigt=18px width=30px></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2024_Jan/B.TECH. CSE 2022-26, UPDATED 3RD SEM RESULT.pdf'>Grade sheet of  B.Tech. CSE  3rd semester<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2023_Dec/CSE 2020-24, 7TH SEM PENDING GRADES.pdf'>B.Tech. CSE 7th semester Pending Result<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2023_Dec/B.TECH. CSE 2021-25 5TH SEM.pdf'>B.Tech. CSE 5th semester Result<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2023_Dec/PHD COURSE WORK RESULT CSE DEPT.pdf'>PhD coursework results<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/workshop/CSE_ESDP_brochure.pdf'>One-Week Entrepreneurship and Skill Development Programme (ESDP) on Applications of Cloud, Fog, and Edge Computing in Business Analytics, 21st-25th February 2024<img src='assets/images/new.png' heigt=18px width=30px></a></li><li><a href='https://nitsikkim.ac.in/documents/workshop/Smart Healthcare Systems using IoT and AI-ML.pdf'>MSME funded One Week A-ESDP on Smart Healthcare Systems using IoT and AI/ML" - Last date of registration: 12/02/2024<img src='assets/images/new.png' heigt=18px width=30px></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2023_Dec/RESEARCH METHODOLOGY DEC 2023.pdf'>PhD Research Methodology Dec 2023 Result<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2023_Dec/B.TECH. CSE 3RD, 5TH _ 7TH  ODD SEM DEC 2023 RESULT.pdf'>B.Tech. CSE  3rd, 5th, 7th semester Result<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2023_July/B.TECH CSE JULY 2023, SUPPEMENTARY RESULT.pdf'>B.TECH CSE JULY 2023, SUPPEMENTARY RESULT<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2023_June/M.TECH CSE 4TH SEM 2023.pdf'>M.TECH CSE 4TH SEM 2023 Result<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2023_June/B.TECH CSE EVEN  2023 EVEN SEM.pdf'>B.Tech. CSE Even Semester 2023 Result<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2023_Jan/M.TECH CSE 2021-23 3RD SEM UPDATED.pdf'>Grade sheets/result of MTech (M210009CS, IW upgradation) <img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_Dec/AMAN KUMAR SAHANI PENDING RESULT.pdf'>Grade sheets/result of Mr. Aman Sahani (B180033CS) <img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_Dec/PhD COURSE WORK MATH CS.pdf'>Ph.D course work Probability Theory/Computation Mathematics Results<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_Dec/PHD RESEARCH METHODOLOGY DEC 2022.pdf'>PHD course work Research Methodology Results<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_Dec/PHD CSE COURSE WORK DEC 2022.pdf'>PhD Course Work Result<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_Dec/MTECH CSE 2021-23  3RD SEM.pdf'>M.Tech CSE 2021-23 3<sup>rd</sup>SEM Result<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_Dec/BTECH CSE 2019-23 7TH SEM.pdf'>B.Tech CSE 2019-23 7<sup>th</sup>SEM Result<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_Dec/BTECH CSE 2020-24 5TH SEM.pdf'>B.Tech CSE 2020-24 5<sup>th</sup>SEM Result<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_Dec/BTECH CSE 2021-25 3RD SEM.pdf'>B.Tech CSE 2021-25 3<sup>rd</sup>SEM Result<img src='assets/images/new.png' heigt=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/workshop/Computer Vision and Image processing Brochure.pdf'>Two week Faculty Development Program On  Computer Vision and Image Processing using Deep Learning: Research Issues and Applications during December, 19th-30th 2022</a></li><li><a href='https://nitsikkim.ac.in/documents/results/PHD_Aug_2022/PHD COURSE WORK  END SEM MAY, 2022, CSE DEPT.pdf'>PhD Course Work End-sem result<img src='assets/images/new.png' height=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/suppl_july_2022/CSE SUPPLE SUMMER PENDING 2020-24 4TH SEM.pdf'>CSE Supplementary Summer August 2022 Pending Results.</a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_june/B%20Tech%20CSE%202018-22%208th%20sem%20pending.pdf'>B.Tech 8th Semester 2018-22 (Pending result) <img src='assets/images/new.png' height=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/job%20opportunity/job_opportunity.php'>Applications are invited for One Post Doctoral Fellow under MeitY, Govt. of India funded R&D project in the Dept. of Computer Science and Engineering : Last date Extended till : 31 Aug 2022<img src='assets/images/new.png' height=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_june/BTech%20CSE%202018-22%208th%20Pending%202.pdf'>B.Tech 8th Semester 2020-22 (Pending result) <img src='assets/images/new.png' height=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_may/PHD COURSE WORK  END SEM MAY, 2022, CSE DEPT.pdf'>PhD coursework Result (May 2022) <img src='assets/images/new.png' height=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_may/CSE%20MTech%202020-22%204th%20sem.pdf'>M.Tech 4th Semester (2020-22) result <img src='assets/images/new.png' height=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_may/CSE%20BTech%202018-22%208th%20sem.PDF'>B.Tech  8th Semester (2018-22) result <img src='assets/images/new.png' height=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_may/CSE%20B.TECH_2019-23_6.pdf'>B.Tech 6th Semester (2019-23) result <img src='assets/images/new.png' height=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/results/2022_may/CSE%20B.TECH_2020-24_4.pdf'>B.Tech 4th Semester (2020-24)  result <img src='assets/images/new.png' height=18px width=30px><br></a></li><li><a href='https://nitsikkim.ac.in/documents/workshop/Information Brochure_Cyber Security_7-11.12.21.pdf'>Call for Participation in online FDP on "Cyber Security: Challenges and Evolving Solutions" to be held during December 7-11, 2021 at NIT Sikkim</a></li><li><a href='https://nitsikkim.ac.in/documents/workshop/Advances in Next Generation Cloud Computing Brochure.pdf'>Five days online Faculty Development Program On Advances in Fog and Edge Computing Challenges and Research Directions 26th-30th October 2021.</a></li><li><a href='https://cse.nitsikkim.ac.in/'>Dr. Pratyay Kuila has been listed as one of the Indian Researcher who were at the top 2% in 2019 - study by Stanford University, USA.</a></li><li><a href='https://cse.nitsikkim.ac.in/'>Dr. Sangram Ray has received an R&D Project grant  from DST, Govt. of India.</a></li></ul></div>                      <!-- end -->
+                    </div>
+                </div>
+            </div>
+<br>
+            <div class="row">
+                <div class="col-sx-1"></div>
+                <div class="col-xs-10 content  p-3 p-sm-0 pl-sm-4">
+                <p style="text-align: justify;"><i>“A computer would deserve to be called intelligent if it could deceive a human into believing that it was
+human.” ~ Alan Turing</i></p>
+          <p style="text-align: justify;">The Department of Computer Science and Engineering (CSE) at National Institute of Technology Sikkim
+has been functioning since the inception of the Institute in the year 2010. The Department provides an
+outstanding teaching environment complemented by excellence in research.</p>
+          <p style="text-align: justify;">The Department offers four years B. Tech degree, two years M. Tech degree and Ph. D in Computer
+Science and Engineering. The Department has a comprehensive curriculum on topics related to all aspects
+of Computer Science with special emphasis on applicability that is provided using latest techniques of
+engineering. The course structure is up-to-date and includes courses on state-of-the-art curriculum to equip
+the students and teachers with the latest developments in the field. The Department aspires to develop
+interdisciplinary and multidisciplinary projects based on the expertise of faculty members.</p>
+          <p style="text-align: justify;">The major areas of on-going research in the Department include Artificial Intelligence, Machine
+Learning, Cryptography, Network Security, Parallel-Distributed and High-Performance Computing,
+Algorithms, Cloud Computing, Wireless and Sensor Networks, etc. The department and the Institute
+collectively focus on building research groups and leverage the research activities in Sikkim in particular,
+and North-East region in general using a coordinated effort of various other organizations working in the
+field of community development using science and technology. The Department has state-of-the-art
+infrastructure supported by high-speed Ethernet and wireless network.</p>
+          <p style="text-align: justify;">The faculty and students often collaborate on projects, working side-by-side with researchers from other
+departments across the campus, colleges of North-East region in India and with institutes abroad. In
+addition to the available excellent environment and quality research opportunities in the Department, there
+is also a real sense of community and teamwork. The Department enjoys a rich culture of research through
+various projects under schemes such as Visvesvaraya Ph. D scheme, Research grants from DeitY and DST,
+National Mission on Himalayan Studies, specific developmental projects for North-East region, etc. The
+Department also contributes towards community developments through Unnat Bharat Abhiyan and
+scientific lifestyle development of local community (as per the scheme of the Department of Atomic
+Energy).</p>
+          <p style="text-align: justify;">The Department aims to become worthy in imparting high-quality knowledge and develop research attitude
+in Computer Science and Engineering domains as well as inter-disciplinary research with a purpose to
+serve humanity. These serviceable attitudes can be developed by imparting knowledge in cutting edge
+technologies keeping step with prevalent industrial standards, while at the same time instill societal
+responsibilities steeped in ethics for all professional activities.</p>
+          <p><b>Dr. Md. Sarfaraj Alam Ansari<br>Head of Computer Science & Engineering Department<br>e-mail: cse_hod@nitsikkim.ac.in</b></p>
+
+                    </b>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer" class="mt-5 pt-3">
+    <div class="container-fluid" id="inner-footer">
+        <div class="row">
+            <div class="col-md-2 row-col">
+                <ul>
+                    <h4>Explore</h4>
+                    <li><a href="https://nitsikkim.ac.in/">Homepage</a></li>
+                    <li><a href="https://www.nitsikkim.ac.in/TEQIP%20III/about.php">TEQIP III</a></li>
+                     <li><a href="https://kic.nitsikkim.ac.in/">KIC/Library</a></li>
+                    <li><a href="https://placement.nitsikkim.ac.in/">Training & Placements</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 row-col">
+                <ul>
+                    <h4>Departments</h4>
+                  <li><a href="https://ce.nitsikkim.ac.in/">Civil Engineering</a></li>
+                  <li><a href="https://eee.nitsikkim.ac.in/">Electrical and Electronics Engineering</a></li>
+                  <li><a href="https://ece.nitsikkim.ac.in/">Electronics and Communication Engineering</a></li>
+                  <li><a href="https://me.nitsikkim.ac.in/">Mechanical Engineering</a></li>
+                  <li><a href="https://math.nitsikkim.ac.in/">Mathematics</a></li>
+                  <li><a href="https://physics.nitsikkim.ac.in/">Physics</a></li>
+                    <li><a href="https://chemistry.nitsikkim.ac.in/">Chemistry</a></li>
+                  <li><a href="https://hss.nitsikkim.ac.in/">Humanities and Social Sciences</a></li>
+                        
+                </ul>
+            </div>
+            <div class="col-md-2 row-col">
+                <ul>
+                    <h4>People</h4>
+                    <li><a href="people.php">Faculty/Staff</a></li>
+                    <li><a href="researcher.php">Researchers</a></li>
+                    <li><a href="student.php">Student</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 row-col">
+                <ul>
+                    <h4>Syllabus</h4>
+                    <li><a href="https://cse.nitsikkim.ac.in/files/B.%20Tech_CSE_%20Syllabus%202019-20%20V7.0%20Final.pdf">B.Tech</a></li>
+                    <li><a href="https://cse.nitsikkim.ac.in/files/M.%20Tech_CSE_%20Syllabus%202019-20%20v7.0%20Final.pdf">M.Tech</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 row-col">
+                <ul>
+                    <h4>Contact Us</h4>
+                    <li>
+                        <a href="https://goo.gl/maps/y3ZwTV9u2sweudjA6" target="_blank">
+                            <table>
+                                <tbody>
+                                    <td class="align-top">
+                                        <i class="material-icons left-align">location_on</i>
+                                    </td>
+                                    <td>
+                                        <span>Computer science Engineering Department, National Institute of Technology
+                                            Sikkim, Ravangla, Sikkim, India - 737139</span>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </a>
+                    </li><br>
+                    <li><a href="tel:+91 9635027654"><span class="material-icons left-align">call</span><span>+91-9332342995</span></a></li><br>
+                    <li><a href="mailto:cse_hod@nitsikkim.ac.in"><span
+                                class="material-icons left-align">mail</span><span>cse_hod@nitsikkim.ac.in</span></a></li><br>
+                    <form id="feedback-form" method="POST" action="api/feedback_script.php">
+                        <div class="form-group">
+                            <label for="feedback-text">
+                                <h4>Feedback</h4>
+                            </label>
+                            <input type="hidden" name="rating" id="rating" value="0">
+                            <textarea id="feedback-text" class="feedback-box" name="anonymous-feedback"
+                                placeholder="Write your Feedback" rows="1" cols="50" required></textarea>
+                        </div>
+                        <button type="submit" id="feedback-submit-btn"
+                            name="submit-feedback"><span>Submit</span></button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyright mb-3">
+        <b>&copy; Web Development Cell, NIT Sikkim (2023)</b>
+    </div>
+</footer>
+
+        <!-- jQuery -->
+<script src="assets/vendor/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="assets/vendor/bootstrap-4.5.3/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom main -->
+<script src="assets/js/main.js"></script>
+
+<script src="assets/js/lab.js"></script>
+
+<!--aos script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+    document.querySelector("#to-top").addEventListener(
+        "click",
+        function () {
+            window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+            });
+        },
+        false
+    );
+</script>
+
+
+        <!-----<script src = "assets/js/feedback.js"></script>---->
+        <script src="assets/js/announce.js"></script>
+    </body>
+</html>

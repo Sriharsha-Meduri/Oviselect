@@ -1,0 +1,176 @@
+{
+  "institute": "ABV-IIITM Gwalior",
+  "institute_type": "IIIT",
+  "also_known_as": "ABV-IIITM",
+  "established_year": 1997,
+  "city": "Gwalior",
+  "state": "Madhya Pradesh",
+  "address": "ABV – Indian Institute of Information Technology and Management, Morena Link Road, Gwalior, Madhya Pradesh – 474015",
+  "nearest_airport": "Rajmata Vijayaraje Scindia Airport, Gwalior",
+  "nearest_airport_km": 10.5,
+  "nearest_railway_station": "Gwalior Junction Railway Station",
+  "nearest_railway_km": 5.0,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": 96,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "Integrated B.Tech + M.Tech/MBA - 5 Years"
+  ],
+  "tuition_fee_per_sem": 79000,
+  "hostel_fee_per_sem": 12000,
+  "mess_advance_per_sem": 18000,
+  "one_time_fees": 16750,
+  "caution_money": 10000,
+  "annual_fees": null,
+  "total_institute_fee": 114750,
+  "total_hostel_fee": 35500,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST students.",
+    "100% Tuition Fee waiver for PwD students in B.Tech. courses only."
+  ],
+  "overall_placement_pct": 90.0,
+  "avg_package_lpa": 21.16,
+  "median_package_lpa": 14.28,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": null,
+  "branch_wise_median_ctc": {
+    "B.Tech. Computer Science and Engineering": 15.0,
+    "Integrated B.Tech. (IT) and M.Tech. (IT)": 14.1,
+    "Integrated B.Tech. (IT) and MBA": 14.0,
+    "Overall": 14.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "B.Tech. Computer Science and Engineering": 22.2,
+    "Integrated B.Tech. (IT) and M.Tech. (IT)": 24.01,
+    "Integrated B.Tech. (IT) and MBA": 16.7,
+    "Overall": 21.72
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": 1,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "General",
+      "hod_name": null,
+      "hod_designation": null,
+      "faculty_count": 1,
+      "faculty": [
+        {
+          "name": "Dr. Pinku Ranjan Selected",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        }
+      ]
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "active_projects": null,
+    "funding_agencies": null,
+    "total_funding_crores": null,
+    "consultancy_projects": null,
+    "patents_filed": null,
+    "patents_granted": null,
+    "publications_per_year": null,
+    "phd_students_enrolled": null,
+    "phds_awarded": null,
+    "research_centres": [
+      "Centre for Bio-Medical Research (CBR)",
+      "Rekhi Centre of Excellence",
+      "Technology Innovation and Incubation Center (TIIC)",
+      "Resource center"
+    ],
+    "international_collaborations": null
+  },
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Vision and Mission Vision and Mission Objectives Institute's Logo Institute Flyer",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute's Logo",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Flyer",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Vision and Mission Vision and Mission Objectives Institute's Logo Institute Flyer",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute's Logo",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Flyer",
+        "country": null,
+        "focus_area": null
+      }
+    ],
+    "mou_count": null,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iiitm.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 75,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiitm-gwalior",
+  "last_scraped_at": "2026-03-31T16:12:29.063186",
+  "department_count": 1,
+  "total_faculty": 1
+}

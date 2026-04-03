@@ -1,0 +1,74 @@
+{
+  "institute": "IIIT(IIIT) Dharwad",
+  "also_known_as": "IIITDWD",
+  "institute_type": "IIIT",
+  "established_year": 2015,
+  "city": "Dharwad",
+  "state": "Karnataka",
+  "address": "Indian Institute of Information Technology, Ittigatti Road, Near Sattur Colony, Dharwad, Karnataka - 580009",
+  "nearest_airport": "Hubli Airport",
+  "nearest_airport_km": 11.5,
+  "nearest_railway_station": "Dharwad Railway Station",
+  "nearest_railway_km": 10.0,
+  "caution_money": 20000,
+  "one_time_fees": 10000,
+  "tuition_fee_per_sem": 167400,
+  "total_institute_fee": 197400,
+  "hostel_fee_per_sem": 25000,
+  "mess_advance_per_sem": 20000,
+  "total_hostel_fee": 55000,
+  "overall_placement_pct": 62.16,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 62.89,
+    "Data Science and Artificial Intelligence": 81.4,
+    "Electronics and Communication Engineering": 42.22,
+    "Overall": 62.16
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 8.0,
+    "Electronics and Communication Engineering": 12.47,
+    "Overall": 8.0
+  },
+  "median_package_lpa": 9.49,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 11.97,
+    "Electronics and Communication Engineering": 11.43,
+    "Overall": 11.42
+  },
+  "avg_package_lpa": 11.61,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-dharwad",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-dharwad",
+  "last_scraped_at": "2026-03-31T16:18:09.870203",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitdwd.ac.in",
+  "placement_officer": {
+    "email": "info@iiitdwd.ac.in",
+    "phone": "2023 2024 2025"
+  },
+  "top_recruiters": [
+    "IIIT Dharwad logo",
+    "WHY RECRUIT FROM US?",
+    "Director's Photo",
+    "Company Workflow",
+    "Company Details Submission",
+    "Campus Visit",
+    "Footer Background",
+    "IIIT Dharwad Logo"
+  ],
+  "phd_available": false,
+  "student_activities": {
+    "clubs": [
+      "Career Guidance Cell",
+      "Website Team"
+    ],
+    "has_nss": false,
+    "has_ncc": false
+  }
+}

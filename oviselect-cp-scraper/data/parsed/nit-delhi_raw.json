@@ -1,0 +1,108 @@
+{
+  "institute": "NIT Delhi",
+  "also_known_as": "NITD",
+  "institute_type": "NIT",
+  "established_year": 2010,
+  "city": "New Delhi",
+  "state": "Delhi",
+  "address": "National Institute of Technology, Plot No. FA7, Zone P1, GT Karnal Road, Delhi - 110036",
+  "nearest_airport": "Indira Gandhi International Airport, Delhi",
+  "nearest_airport_km": 42.5,
+  "nearest_railway_station": "New Delhi Railway Station",
+  "nearest_railway_km": 27.0,
+  "nirf_overall_rank": 101,
+  "nirf_engineering_rank": 65,
+  "outlook_rank": 25,
+  "india_today_rank": 21,
+  "caution_money": 20000,
+  "one_time_fees": 1200,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 1000,
+  "total_institute_fee": 101200,
+  "hostel_fee_per_sem": 18000,
+  "total_hostel_fee": 38000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 93.01,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 100.0,
+    "Electrical and Electronics Engineering": 78.79,
+    "Electronics and Communication Engineering": 94.12,
+    "Overall": 93.01
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 15.5,
+    "Electrical and Electronics Engineering": 15.5,
+    "Electronics and Communication Engineering": 15.5,
+    "Overall": 15.5
+  },
+  "median_package_lpa": 15.5,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 18.67,
+    "Electrical and Electronics Engineering": 17.47,
+    "Electronics and Communication Engineering": 16.21,
+    "Overall": 17.61
+  },
+  "avg_package_lpa": 17.49,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-delhi",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-delhi",
+  "last_scraped_at": "2026-03-31T16:09:23.716224",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitdelhi.ac.in",
+  "placement_officer": {
+    "email": "Email-secretary@nitdelhi.ac.in",
+    "phone": "011-33861005"
+  },
+  "top_recruiters": [
+    "Training & Placement",
+    "PAST RECRUITERS",
+    "PLACEMENT STATISTICS",
+    "Company Interest Form",
+    "RECRUITMENT PROCEDURE",
+    "FOR STUDENTS",
+    "TEAM",
+    "CONTACT US"
+  ],
+  "research": {
+    "funding_agencies": [
+      "DST",
+      "MoE"
+    ]
+  },
+  "phd_available": true,
+  "student_activities": {
+    "clubs": [
+      "Academic Team",
+      "SC/ST & OBC Cell",
+      "Cultural Club",
+      "Google Developer Students Club",
+      "Literary Club",
+      "Photography Club",
+      "Social Reform Club",
+      "Technical Club",
+      "Technical club Website",
+      "Sports Club",
+      "Hindi Cell",
+      "Scholarship cell",
+      "Swachh Bharat Abhiyan Cell",
+      "GIAN Cell",
+      "Faculty, Staff and Students Grievance Cell",
+      "Gender Sensitization Cell"
+    ],
+    "technical_fests": [
+      "National Institute of Technology Delhi, Plot No. FA7,Zone P1, GT Karnal Road, Delhi-110036"
+    ],
+    "has_nss": false,
+    "has_ncc": false
+  }
+}

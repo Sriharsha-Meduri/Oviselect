@@ -1,0 +1,229 @@
+{
+  "institute": "NIT Goa",
+  "institute_type": "NIT",
+  "also_known_as": "NITG",
+  "established_year": 2010,
+  "city": "Ponda",
+  "state": "Goa",
+  "address": "National Institute of Technology, Kottamoll Plateau, Cuncolim, Salcete, South Goa, Goa - 403703",
+  "nearest_airport": "Goa International Airport",
+  "nearest_airport_km": 40.0,
+  "nearest_railway_station": "Madgaon Junction Railway Station",
+  "nearest_railway_km": 13.5,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": 101,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 6000,
+  "mess_advance_per_sem": 21750,
+  "one_time_fees": 6000,
+  "caution_money": 4000,
+  "annual_fees": 10500,
+  "total_institute_fee": 84000,
+  "total_hostel_fee": 44250,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 88.24,
+  "avg_package_lpa": 10.94,
+  "median_package_lpa": null,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 75.0,
+    "Computer Science and Engineering": 96.0,
+    "Electrical and Electronics Engineering": 81.48,
+    "Electronics and Communication Engineering": 96.97,
+    "Mechanical Engineering": 85.71,
+    "Overall": 88.24
+  },
+  "branch_wise_median_ctc": null,
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 7.7,
+    "Computer Science and Engineering": 13.4,
+    "Electrical and Electronics Engineering": 12.74,
+    "Electronics and Communication Engineering": 12.45,
+    "Mechanical Engineering": 7.92,
+    "Overall": 11.45
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "General",
+      "faculty": [
+        {
+          "name": "Dr. Damodar Reddy Edla",
+          "profile_url": "https://www.nitgoa.ac.in/People/frontend/damodar_reddy.html",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Veena Thenkanidiyoor",
+          "profile_url": "https://www.nitgoa.ac.in/People/frontend/veena_thenkanidiyoor.html",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Mini",
+          "profile_url": "https://www.nitgoa.ac.in/People/frontend/mini.html",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Pravati Swain",
+          "profile_url": "https://www.nitgoa.ac.in/People/frontend/pravati.html",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Modi Chirag Navinchandra",
+          "profile_url": "https://www.nitgoa.ac.in/People/frontend/modi.html",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mrs. Sreedivya I.",
+          "profile_url": "https://www.nitgoa.ac.in/People/frontend/undercons.html",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Meenakshi Panda",
+          "profile_url": "https://www.nitgoa.ac.in/People/frontend/drmeenakshipanda.html",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Debojyoti Bhattacharya",
+          "profile_url": "https://www.nitgoa.ac.in/People/frontend/debojyoti.html",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Nikhil Gajbhiye",
+          "profile_url": "https://www.nitgoa.ac.in/People/frontend/nikhilgajbhiye.html",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 9
+    },
+    {
+      "name": "3",
+      "faculty": [
+        {
+          "name": "Dr. Keshavamurthy B.N.",
+          "profile_url": "https://www.nitgoa.ac.in/People/frontend/keshavmurthy.html",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "4",
+      "faculty": [
+        {
+          "name": "Dr. Venkatanareshbabu Kuppili",
+          "profile_url": "https://www.nitgoa.ac.in/People/frontend/venkatnareshbabu.html",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 1
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "active_projects": null,
+    "funding_agencies": [
+      "DST",
+      "SERB",
+      "MHRD"
+    ],
+    "total_funding_crores": 11.0,
+    "consultancy_projects": null,
+    "patents_filed": null,
+    "patents_granted": null,
+    "publications_per_year": null,
+    "phd_students_enrolled": null,
+    "phds_awarded": null,
+    "research_centres": null,
+    "international_collaborations": null
+  },
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": null,
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": false,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": {
+    "clubs": null,
+    "technical_societies": null,
+    "technical_fests": null,
+    "cultural_fests": null,
+    "has_nss": false,
+    "has_ncc": false,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": {
+    "mous": null,
+    "mou_count": null,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": 500,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.nitgoa.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 71,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-goa",
+  "last_scraped_at": "2026-03-31T16:06:39.877215",
+  "department_count": 3,
+  "total_faculty": 11
+}

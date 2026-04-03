@@ -1,0 +1,295 @@
+id,name,deg,yrs
+1,Abu Dhabi Campus - Chemical Engineering,BTech,4
+2,Abu Dhabi Campus - Computer Science and Engineering,BTech,4
+3,Abu Dhabi Campus - Energy Engineering,BTech,4
+4,Aeronautical Engineering,BTech,4
+5,Aerospace Engineering,BM.Tech,5
+6,Aerospace Engineering,BTech,4
+7,Agricultural Engineering,BTech,4
+8,Agricultural and Food Engineering,BTech,4
+9,Agricultural and Food Engineering with M.Tech. in any of the listed specializations,BM.Tech,5
+10,Animation and VFX,BTech,4
+11,Applied Geology,BS,4
+12,Applied Geology,IMTech,5
+13,Applied Geophysics,BS,4
+14,Applied Geophysics,IMTech,5
+15,Architecture,BArch,5
+16,Architecture and Planning,BArch,5
+17,Artificial Intelligence,BM.Tech,5
+18,Artificial Intelligence,BTech,4
+19,Artificial Intelligence and Data Analytics,BTech,4
+20,Artificial Intelligence and Data Engineering,BTech,4
+21,Artificial Intelligence and Data Science,BTech,4
+22,Artificial Intelligence and Machine Learning,BTech,4
+23,B. Tech in CE. - M. Tech.  in Geotechnical Engineering,BM.Tech,5
+24,B. Tech in CE. - M. Tech.  in Structural Engineering,BM.Tech,5
+25,B. Tech in CE. - M. Tech. in Geotechnical Engineering,BM.Tech,5
+26,B. Tech in CE. - M. Tech. in Structural Engineering,BM.Tech,5
+27,B. Tech in Electronics and Communication Engineering with minor in Wearable Electronics,BTech,4
+28,B. Tech. (CSE) and M.Tech in CSE,BM.Tech,5
+29,B. Tech. (ECE) -M. Tech. in VLSI,BM.Tech,5
+30,B. Tech. (EEE)-M. Tech. in (Power &. Control),BM.Tech,5
+31,B. Tech. (ME) - M. Tech. in Mechatronics,BM.Tech,5
+32,B. Tech. (ME) - MBA (NITIE),BT+MBA,5
+33,B. Tech. (Mathematics & Computing) M. Tech. in (Mathematics & Computing),BM.Tech,5
+34,B. Tech. and M. Tech. in Engineering and Computational Mechanics (Dual Degree),BM.Tech,5
+35,B.Tech (Artificial Intelligence and Data Science) - MBA in Digital Business Management (IIM Bodh Gaya),BT+MBA,5
+36,B.Tech (Chemical Engineering) - MBA in Hospital and Health Care Management (IIM Bodh Gaya),BT+MBA,5
+37,B.Tech (Chemical Science and Technology) - MBA in Hospital and Health Care Management (IIM Bodh Gaya),BT+MBA,5
+38,B.Tech (Civil Engineering) - MBA (IIM Bodh Gaya),BT+MBA,5
+39,B.Tech (Computer Science and Engineering) - MBA in Digital Business Management (IIM Bodh Gaya),BT+MBA,5
+40,B.Tech (Electrical and Electronics Engineering) - MBA (IIM Bodh Gaya),BT+MBA,5
+41,B.Tech (Electronics and Communication Engineering) - MBA in Hospital and Healthcare Management (IIM Bodh Gaya),BT+MBA,5
+42,B.Tech (Engineering Physics) - MBA (IIM Bodh Gaya),BT+MBA,5
+43,B.Tech (Mathematics and Computing) - MBA in Digital Business Management (IIM Bodh Gaya),BT+MBA,5
+44,B.Tech (Mechanical Engineering) - MBA (IIM Mumbai),BT+MBA,5
+45,B.Tech (Metallurgical and Materials Engineering) - MBA (IIM Bodh Gaya),BT+MBA,5
+46,B.Tech Mining Engineering and MBA in Logistic and Supply Chain Management (IIM Mumbai),BT+MBA,5
+47,B.Tech in Artificial Intelligenece and Data Science (Transportation and Logistics),BTech,4
+48,B.Tech in Aviation Engineering,BTech,4
+49,B.Tech in CSE (AI and ML),BTech,4
+50,B.Tech in Civil Engineering (Rail Engineering),BTech,4
+51,B.Tech in Electrical Engineering ( Rail  Engineering),BTech,4
+52,B.Tech in Electrical Engineering ( Rail Engineering),BTech,4
+53,B.Tech in Electronics & Communication Engineering (Rail Engineering),BTech,4
+54,B.Tech in General Engineering,BTech,4
+55,B.Tech in Materials Science and Engineering,BTech,4
+56,B.Tech in Mathematics and Computing,BTech,4
+57,B.Tech in Mechanical Engineering ( Rail  Engineering),BTech,4
+58,B.Tech in Mechanical Engineering ( Rail Engineering),BTech,4
+59,B.Tech in Mechanical Engineering and M.Tech in AI and Robotics,BM.Tech,5
+60,B.Tech in Microelectronics & VLSI,BTech,4
+61,B.Tech. (Civil Engineering) - MBA,BT+MBA,5
+62,B.Tech. (Computer Science and Engineering) - MBA,BT+MBA,5
+63,B.Tech. (Elctrical Engineering) - MBA,BT+MBA,5
+64,B.Tech. (Electronics and Communication Engineering) - MBA,BT+MBA,5
+65,B.Tech. (Food Engineering and Technology) - MBA,BT+MBA,5
+66,B.Tech. (Mechanical Engineering) - MBA,BT+MBA,5
+67,B.Tech. in Electronics and Communication Engineering and M.Tech. in Communication Systems,BM.Tech,5
+68,B.Tech. in Electronics and Communication Engineering and M.Tech. in Microelectronics and VLSI Systems,BM.Tech,5
+69,B.Tech. in Electronics and Communication Engineering and M.Tech. in VLSI Design,BM.Tech,5
+70,BS in Chemical Sciences,BS,4
+71,BS in Economics with MBA (IIM Bodh Gaya),BS+MBA,5
+72,BS in Mathematics,BS,4
+73,Bachelor of Design,BDes,4
+74,Bio Engineering,BTech,4
+75,Bio Medical Engineering,BTech,4
+76,Bio Technology,BTech,4
+77,Biochemical Engineering,BTech,4
+78,Biochemical Engineering with M.Tech. in Biochemical Engineering and Biotechnology,BM.Tech,5
+79,Bioengineering,BTech,4
+80,Bioengineering with M.Tech in Biomedical Technology,BM.Tech,5
+81,Biological Engineering,BTech,4
+82,Biological Science,BS,4
+83,Biological Sciences and Bioengineering,BTech,4
+84,Biomedical Engineering,BTech,4
+85,Biosciences and Bioengineering,BTech,4
+86,Biotechnology,BM.Tech,5
+87,Biotechnology and Biochemical Engineering,BM.Tech,5
+88,Biotechnology and Biochemical Engineering,BTech,4
+89,Biotechnology and Bioinformatics,BTech,4
+90,CSE ( Data Science & Analytics),BTech,4
+91,Carpet  and Textile Technology,BTech,4
+92,Carpet and Textile Technology,BTech,4
+93,Ceramic Engineering,BM.Tech,5
+94,Ceramic Engineering,BTech,4
+95,Ceramic Engineering and M.Tech Industrial Ceramic,BM.Tech,5
+96,Chemical Engineering,BM.Tech,5
+97,Chemical Engineering,BTech,4
+98,Chemical Engineering,IMTech,5
+99,Chemical Science,Integrated Bachelor of Science-Master of Science,5
+100,Chemical Science and Technology,BTech,4
+101,Chemical Sciences,BS+MS,5
+102,Chemical Technology,BM.Tech,5
+103,Chemical and Biochemical Engineering,BTech,4
+104,Chemistry,BS,4
+105,Chemistry,BS+MS,5
+106,Chemistry,IMS,5
+107,Chemistry with Specialization,BS,4
+108,Civil Engineering,BM.Tech,5
+109,Civil Engineering,BTech,4
+110,Civil Engineering and M. Tech. in Structural Engineering,BM.Tech,5
+111,Civil Engineering and M.Tech in Transportation Engineering,BM.Tech,5
+112,Civil Engineering and M.Tech. in Environmental Engineering,BM.Tech,5
+113,Civil Engineering with Specialization in Construction Technology and Management,BM.Tech,5
+114,Civil Engineering with any of the listed specialization,BM.Tech,5
+115,Civil and Environmental Engineering,BTech,4
+116,Civil and Infrastructure Engineering,BTech,4
+117,Computational Engineering,BTech,4
+118,Computational Engineering and Mechanics,BTech,4
+119,Computational Mathematics,BM.Tech,5
+120,Computational and Data Science,BTech,4
+121,Computer Engineering,BTech,4
+122,Computer Science,BTech,4
+123,Computer Science Engineering (Artificial Intelligence),BTech,4
+124,Computer Science Engineering (Artificial lntelligence and Machine Learning),BTech,4
+125,Computer Science Engineering (Data Science and Analytics),BTech,4
+126,Computer Science Engineering (Data Science),BTech,4
+127,Computer Science Engineering (Human Computer lnteraction and Gaming Technology),BTech,4
+128,Computer Science and Artificial Intelligence,BTech,4
+129,Computer Science and Business,BTech,4
+130,Computer Science and Engineering,BM.Tech,5
+131,Computer Science and Engineering,BTech,4
+132,Computer Science and Engineering ( Artificial Intelligence & Data Science),BTech,4
+133,Computer Science and Engineering (Artificial Intelligence and Machine Learning),BTech,4
+134,Computer Science and Engineering (Artificial Intelligence),BTech,4
+135,Computer Science and Engineering (Cyber Physical System),BTech,4
+136,Computer Science and Engineering (Cyber Security),BTech,4
+137,Computer Science and Engineering (Data Science),BTech,4
+138,"Computer Science and Engineering (Internet of Things, Cyber Security including Block Chain Technology )",BTech,4
+139,Computer Science and Engineering (with Specialization of Data Science and Artificial Intelligence),BTech,4
+140,Computer Science and Engineering with Major in Artificial Intelligence,BTech,4
+141,Computer Science and Engineering with Specialization in Cyber Security,BM.Tech,5
+142,Computer Science and Engineering with Specialization in Data Science,BM.Tech,5
+143,Computer Science and Engineering with minor in AI and ML,BTech,4
+144,Computer Science and Engineering with specialization in Artificial Intelligence and Data Science,BTech,4
+145,Computer Science and Engineering with specialization in Cyber Security,BTech,4
+146,Computer Science and Engineering with specialization in Quantum Technologies,BTech,4
+147,Dairy Engineering,BTech,4
+148,Data Science and Artificial Intelligence,BTech,4
+149,Data Science and Engineering,BTech,4
+150,Design,BTech,4
+151,Design Engineering,BTech,4
+152,Digital Agriculture,BTech,4
+153,Earth Sciences,BS,4
+154,Economics,BS,4
+155,Economics,BS+MS,5
+156,Electrical  Engineering and M.Tech Power Electronics and Drives,BM.Tech,5
+157,Electrical Engineering,BM.Tech,5
+158,Electrical Engineering,BTech,4
+159,Electrical Engineering (IC Design and Technology),BTech,4
+160,Electrical Engineering (Integrated Circuit Design and Technology),BTech,4
+161,Electrical Engineering (Power and Automation),BTech,4
+162,Electrical Engineering with M.Tech. in Power Electronics,BM.Tech,5
+163,Electrical Engineering with M.Tech. in any of the listed specializations,BM.Tech,5
+164,Electrical Engineering with Specialization In Power System Engineering,BM.Tech,5
+165,Electrical and Electronics Engineering,BTech,4
+166,Electronic Engineering,BTech,4
+167,Electronics Engineering,BTech,4
+168,Electronics Engineering (VLSI Design and Technology),BTech,4
+169,Electronics System Engineering,BTech,4
+170,Electronics and Communication Engineering,BM.Tech,5
+171,Electronics and Communication Engineering,BTech,4
+172,Electronics and Communication Engineering (Avionics),BTech,4
+173,Electronics and Communication Engineering (Internet of Things),BTech,4
+174,Electronics and Communication Engineering (VLSI Design and Technology),BTech,4
+175,Electronics and Communication Engineering (VLSI Design),BTech,4
+176,Electronics and Communication Engineering (with Specialization of Embedded Systems and Internet of Things),BTech,4
+177,Electronics and Communication Engineering with Specialization in Microelectronics and VLSI System Design,BM.Tech,5
+178,Electronics and Communication Engineering with specialization in Design and Manufacturing,BTech,4
+179,Electronics and Communication Engineering with specialization in VLSI and Embedded Systems,BTech,4
+180,Electronics and Electrical Communication Engineering,BTech,4
+181,Electronics and Electrical Communication Engineering with M.Tech. in any of the listed specializations,BM.Tech,5
+182,Electronics and Electrical Engineering,BTech,4
+183,Electronics and Instrumentation Engineering,BTech,4
+184,Electronics and Telecommunication Engineering,BTech,4
+185,Electronics and VLSI Engineering,BTech,4
+186,Energy Engineering,BTech,4
+187,Energy and Electrical Vehicle Engineering,BTech,4
+188,Engineering Design,BM.Tech,5
+189,Engineering Physics,BM.Tech,5
+190,Engineering Physics,BTech,4
+191,Engineering Science,BTech,4
+192,Engineering and Computational Mechanics,BTech,4
+193,Environmental Engineering,BTech,4
+194,Environmental Science and Engineering,BTech,4
+195,Exploration Geophysics,BS,4
+196,Fashion and Apparel Engineering,BTech,4
+197,Food Engineering  and Technology,BTech,4
+198,Food Engineering and Technology,BTech,4
+199,Food Process Engineering,BTech,4
+200,Food Technology,BTech,4
+201,Food Technology and Management,BTech,4
+202,Geological Technology,IMTech,5
+203,Geophysical Technology,IMTech,5
+204,Handloom and Textile Technology,BTech,4
+205,Industrial Chemistry,BM.Tech,5
+206,Industrial Chemistry,BTech,4
+207,Industrial Design,BTech,4
+208,Industrial Engineering and Operations Research,BTech,4
+209,Industrial Internet of Things,BTech,4
+210,Industrial and Production Engineering,BTech,4
+211,Industrial and Systems Engineering,BTech,4
+212,Industrial and Systems Engineering with M.Tech. in Industrial and Systems Engineering and Management,BM.Tech,5
+213,Information Technology,BTech,4
+214,Information Technology-Business Informatics,BTech,4
+215,Instrumentation Engineering,BTech,4
+216,Instrumentation and Biomedical Engineering,BTech,4
+217,Instrumentation and Control Engineering,BTech,4
+218,Integrated B. Tech. - M. Tech in Civil Engineering,BM.Tech,5
+219,Integrated B. Tech. - M. Tech in Computer Science & Engineering,BM.Tech,5
+220,Integrated B. Tech. - M. Tech in Electrical Engineering,BM.Tech,5
+221,Integrated B. Tech.(IT) and M. Tech (IT),BM.Tech,5
+222,Integrated B. Tech.(IT) and MBA,BT+MBA,5
+223,Integrated B. Tech.- M. Tech in Metallurgical & Materials Engineering,BM.Tech,5
+224,Integrated Circuit Design & Technology,BTech,4
+225,Interdisciplinary Sciences,BS+MS,5
+226,Life Science,IMS,5
+227,Manufacturing Science and Engineering,BTech,4
+228,Manufacturing Science and Engineering with M.Tech. in Industrial and Systems Engineering and Management,BM.Tech,5
+229,Material Science and Engineering,BM.Tech,5
+230,Materials Engineering,BTech,4
+231,Materials Engineering,IMTech,5
+232,Materials Science and Engineering,BTech,4
+233,Materials Science and Metallurgical Engineering,BTech,4
+234,Materials Science and Technology,BM.Tech,5
+235,Materials Science and Technology,BTech,4
+236,Mathematics,IMS,5
+237,Mathematics & Computing,BS+MS,5
+238,Mathematics and Computing,BM.Tech,5
+239,Mathematics and Computing,BS,4
+240,Mathematics and Computing,BTech,4
+241,Mathematics and Computing,IMS,5
+242,Mathematics and Computing,IMTech,5
+243,Mathematics and Computing Technology,BM.Tech,5
+244,Mathematics and Data Science,BM.Tech,5
+245,Mathematics and Scientific Computing,BS,4
+246,Mathematics and Scientific Computing,BTech,4
+247,Mechanical Engineering,BM.Tech,5
+248,Mechanical Engineering,BTech,4
+249,Mechanical Engineering and M. Tech. in Mechanical System Design,BM.Tech,5
+250,Mechanical Engineering and M. Tech. in Thermal Science & Engineering,BM.Tech,5
+251,Mechanical Engineering with M.Tech. in Manufacturing Engineering,BM.Tech,5
+252,Mechanical Engineering with M.Tech. in any of the listed specializations,BM.Tech,5
+253,Mechanical Engineering with Specialization in Manufacturing and Industrial Engineering,BM.Tech,5
+254,Mechanical Engineering with specialization in Design and Manufacturing,BTech,4
+255,Mechatronics Engineering,BTech,4
+256,Mechatronics and Automation Engineering,BTech,4
+257,Metallurgical Engineering,BM.Tech,5
+258,Metallurgical Engineering,BTech,4
+259,Metallurgical Engineering and Materials Science,BTech,4
+260,Metallurgical and Materials Engineering,BM.Tech,5
+261,Metallurgical and Materials Engineering,BTech,4
+262,Metallurgy and Materials Engineering,BTech,4
+263,Microelectronics & VLSI Engineering,BTech,4
+264,Mineral and Metallurgical Engineering,BTech,4
+265,Mining Engineering,BM.Tech,5
+266,Mining Engineering,BTech,4
+267,Mining Machinery Engineering,BTech,4
+268,Mining Safety Engineering,BM.Tech,5
+269,Naval Architecture and Ocean Engineering,BTech,4
+270,Ocean Engineering and Naval Architecture,BM.Tech,5
+271,Ocean Engineering and Naval Architecture,BTech,4
+272,Petroleum Engineering,BTech,4
+273,Pharmaceutical Engineering & Technology,BM.Tech,5
+274,Pharmaceutical Engineering & Technology,BTech,4
+275,Physical Science,Integrated Bachelor of Science-Master of Science,5
+276,Physics,BS,4
+277,Physics,BS+MS,5
+278,Physics,IMS,5
+279,Physics and Computational Engineering,BTech,4
+280,Physics with Specialization,BS,4
+281,Planning,BPlan,4
+282,Printing and Packaging Technology,BTech,4
+283,Production Engineering,BTech,4
+284,Production and Industrial Engineering,BTech,4
+285,Quantitative Economics & Data Science,IMS,5
+286,ROBOTICS & AUTOMATION,BTech,4
+287,Robotics and AI,BTech,4
+288,SUSTAINABLE ENERGY TECHNOLOGIES,BTech,4
+289,Smart Manufacturing,BTech,4
+290,Space Science and Engineering,BTech,4
+291,Space Sciences and Engineering,BTech,4
+292,Statistics and Data Science,BS,4
+293,Textile Technology,BTech,4
+294,VLSI Design and Technology,BTech,4

@@ -1,0 +1,96 @@
+{
+  "institute": "NIT Sikkim",
+  "also_known_as": "NITSKM",
+  "institute_type": "NIT",
+  "established_year": 2010,
+  "city": "Ravangla",
+  "state": "Sikkim",
+  "address": "National Institute of Technology, Barfung Block, Ravangla Sub-Division, Namchi, Sikkim - 737139",
+  "nearest_airport": "Pakyong Airport",
+  "nearest_airport_km": 72.0,
+  "nearest_railway_station": "New Jalpaiguri Junction Railway Station",
+  "nearest_railway_km": 124.0,
+  "nirf_engineering_rank": 151,
+  "caution_money": 7500,
+  "one_time_fees": 3427,
+  "tuition_fee_per_sem": 62500,
+  "total_institute_fee": 81872,
+  "hostel_fee_per_sem": 7500,
+  "total_hostel_fee": 16750,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 75.37,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 59.09,
+    "Computer Science and Engineering": 78.38,
+    "Electrical and Electronics Engineering": 79.17,
+    "Electronics and Communication Engineering": 70.37,
+    "Mechanical Engineering": 87.5,
+    "Overall": 75.37
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 6.0,
+    "Computer Science and Engineering": 11.52,
+    "Electrical and Electronics Engineering": 7.87,
+    "Electronics and Communication Engineering": 11.52,
+    "Mechanical Engineering": 7.6,
+    "Overall": 8.5
+  },
+  "median_package_lpa": 8.83,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 6.98,
+    "Computer Science and Engineering": 11.98,
+    "Electrical and Electronics Engineering": 7.95,
+    "Electronics and Communication Engineering": 11.56,
+    "Mechanical Engineering": 7.6,
+    "Overall": 9.88
+  },
+  "avg_package_lpa": 9.33,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-sikkim",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-sikkim",
+  "last_scraped_at": "2026-03-31T16:06:59.060748",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitsikkim.ac.in",
+  "placement_officer": {
+    "email": "tnpcell@nitsikkim.ac.in",
+    "phone": "+91\u00a086\u00a05300\u00a024"
+  },
+  "top_recruiters": [
+    "About Us NIT Sikkim T&P Objectives Council of NITs",
+    "Recruiters Login",
+    "Placement Calender",
+    "Placement Process",
+    "Placement Policy",
+    "Placement Brochure",
+    "Student Demography",
+    "Collaborations",
+    "Places to visit",
+    "Selection Process",
+    "Internships & Trainings",
+    "Area of Interests",
+    "All-round Development",
+    "Our Recruiters",
+    "Contact Us Reach Us Contacts"
+  ],
+  "research": {
+    "funding_agencies": [
+      "DST",
+      "CSIR",
+      "MoE"
+    ],
+    "research_centres": [
+      "National Institute Of Technology Sikkim",
+      "An Institute of National Importance"
+    ]
+  }
+}

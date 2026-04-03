@@ -1,0 +1,58 @@
+{
+  "institute": "IIT Bhilai",
+  "also_known_as": "IITBh",
+  "institute_type": "IIT",
+  "established_year": 2016,
+  "city": "Bhilai",
+  "state": "Chhattisgarh",
+  "address": "Indian Institute of Technology Bhilai, Kutelabhata, Durg, Chhattisgarh - 491002",
+  "nearest_airport": "Swami Vivekananda Airport, Raipur",
+  "nearest_airport_km": 54.0,
+  "nearest_railway_station": "Durg Junction Railway Station",
+  "nearest_railway_km": 7.0,
+  "nirf_engineering_rank": 72,
+  "caution_money": 7000,
+  "one_time_fees": 7000,
+  "tuition_fee_per_sem": 100000,
+  "hostel_fee_per_sem": 2475,
+  "annual_fees": 1000,
+  "mess_advance_per_sem": 23200,
+  "total_institute_fee": 163000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 72.22,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 84.09,
+    "Data Science and Artificial Intelligence": 93.75,
+    "Electrical Engineering": 50.0,
+    "Mechanical Engineering": 73.08,
+    "Overall": 72.22
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 17.0,
+    "Electrical Engineering": 14.85,
+    "Mechanical Engineering": 12.0
+  },
+  "median_package_lpa": 14.62,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 18.93,
+    "Electrical Engineering": 14.03,
+    "Mechanical Engineering": 12.57
+  },
+  "avg_package_lpa": 15.18,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iit-bhilai",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-bhilai",
+  "last_scraped_at": "2026-03-31T16:00:21.556096",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitbhilai.ac.in"
+}

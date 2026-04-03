@@ -1,0 +1,1664 @@
+{
+  "institute": "MNIT Jaipur",
+  "institute_type": "NIT",
+  "also_known_as": "MNIT",
+  "established_year": 1963,
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "address": "Malaviya National Institute of Technology, Jawaharlal Nehru Marg, Malviya Nagar, Jaipur, Rajasthan – 302017",
+  "nearest_airport": "Jaipur International Airport",
+  "nearest_airport_km": 6.5,
+  "nearest_railway_station": "Gandhinagar Jaipur Railway Station",
+  "nearest_railway_km": 3.5,
+  "nirf_overall_rank": 77,
+  "nirf_engineering_rank": 42,
+  "nirf_research_rank": 50,
+  "nirf_innovation_rank": "151-300 (2023)",
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": 23,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 6000,
+  "mess_advance_per_sem": 20000,
+  "one_time_fees": 1600,
+  "caution_money": 15000,
+  "annual_fees": 765,
+  "total_institute_fee": 102315,
+  "total_hostel_fee": 47000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 63.09,
+  "avg_package_lpa": 12.38,
+  "median_package_lpa": 10.92,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 62.5,
+    "Civil Engineering": 50.0,
+    "Computer Science and Engineering": 58.2,
+    "Electrical Engineering": 67.57,
+    "Electronics and Communication Engineering": 51.79,
+    "Mechanical Engineering": 79.81,
+    "Metallurgical and Materials Engineering": 72.92,
+    "Architecture": 64.62,
+    "Overall (UG)": 63.09
+  },
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 8.95,
+    "Civil Engineering": 8.1,
+    "Computer Science and Engineering": 18.0,
+    "Electrical Engineering": 14.1,
+    "Electronics and Communication Engineering": 15.0,
+    "Mechanical Engineering": 9.67,
+    "Metallurgical and Materials Engineering": 9.45,
+    "Architecture": 3.99,
+    "Overall (UG)": 11.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 10.23,
+    "Civil Engineering": 8.5,
+    "Computer Science and Engineering": 20.96,
+    "Electrical Engineering": 15.66,
+    "Electronics and Communication Engineering": 17.19,
+    "Mechanical Engineering": 10.74,
+    "Metallurgical and Materials Engineering": 10.18,
+    "Architecture": 4.75,
+    "Overall (UG)": 13.2
+  },
+  "top_recruiters": [
+    "Home",
+    "Our Team",
+    "Why MNIT",
+    "Placement Statistics",
+    "Recruitment Process",
+    "Our Recruiters",
+    "Contact Us",
+    "Sign In",
+    "Placement Procedure for Companies"
+  ],
+  "placement_year": 2023,
+  "placement_officer": {
+    "name": null,
+    "designation": null,
+    "email": null,
+    "phone": "1 2025-26 2 20"
+  },
+  "year_wise_placements": [
+    {
+      "year": 2025,
+      "overall_pct": null,
+      "avg_package_lpa": null,
+      "median_package_lpa": null,
+      "highest_package_lpa": null,
+      "total_offers": null,
+      "ppo_ppi_count": null,
+      "companies_visited": null
+    },
+    {
+      "year": 2024,
+      "overall_pct": null,
+      "avg_package_lpa": null,
+      "median_package_lpa": null,
+      "highest_package_lpa": null,
+      "total_offers": null,
+      "ppo_ppi_count": null,
+      "companies_visited": null
+    },
+    {
+      "year": 2023,
+      "overall_pct": null,
+      "avg_package_lpa": null,
+      "median_package_lpa": null,
+      "highest_package_lpa": null,
+      "total_offers": null,
+      "ppo_ppi_count": null,
+      "companies_visited": null
+    },
+    {
+      "year": 2022,
+      "overall_pct": null,
+      "avg_package_lpa": null,
+      "median_package_lpa": null,
+      "highest_package_lpa": null,
+      "total_offers": null,
+      "ppo_ppi_count": null,
+      "companies_visited": null
+    }
+  ],
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Architecture & Planning",
+      "faculty": [
+        {
+          "name": "Prof. RAJEEV SHRINGI",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Satish Pipralia",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Tarush Chandra",
+          "designation": "Professor"
+        },
+        {
+          "name": "Ms. Kalpana Pandit",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Ms. Meenu Varshney",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Nand Kumar",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Rina Surana",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Bhavna Shrivastava",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Gireendra Kumar",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Niruti Gupta",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Mr. Nischal Jain",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Pooja Nigam",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Mr. Sangeeth S Pillai",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Mr. Saurabh Kishore Ojha",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Mrs. Sunita M Doddamani",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sushmita Choudhary",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Tarun Verma",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Mr. Ujjal Halder",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Yash Kumar Mittal",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 19
+    },
+    {
+      "name": "Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Rajeev Kumar Dohare",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Prof. Satyendra Prasad Chaurasia",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Kailash Singh",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Madhu Agarwal",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Manish Vashishtha",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Raj Kumar Vyas",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Suja George",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Sushant Upadhyaya",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Dipaloy Datta",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Prabhat Pandit",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Subbaramaiah V",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. U. K. ARUN KUMAR",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Vikas Kumar Sangal",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Virendra Kumar Saharan",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Bikashbindu Das",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Hrushikesh M. Gade",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Lovjeet Singh",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Md Oayes Midda",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Neetu Kumari",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Pooja Jangir",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Ramdayal Panda",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Rohidas Gangaram Bhoi",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Shiv Om Meena",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Surajit Ghosh",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Vijayalakshmi Gosu",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Prof. Alok Gupta",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. SUSANTA KUMAR JANA",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Sonal",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Mr. S. K. Chaturvedi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Anish Yadav",
+          "designation": "Assistant B Tech. (S. A. D. T. M. Jaipur) anishku"
+        },
+        {
+          "name": "Mr. Peddapatla Baswaraj",
+          "designation": "Assistant B. Tech (Chemical Engineering) baswaraj"
+        },
+        {
+          "name": "Mr. S. N. Reddy Y",
+          "designation": "Assistant M. Tech. (NITK Surathkal)B Tech. (Bapat"
+        },
+        {
+          "name": "Mr. Uttam Singh",
+          "designation": "Assistant M. Tech (Chemical Engineering)"
+        },
+        {
+          "name": "Mr. Mohammad Ragib",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Ms. Babita Aithani",
+          "designation": "Assistant baithani@gmail.com"
+        }
+      ],
+      "faculty_count": 35
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [
+        {
+          "name": "Dr. Sumanta Kumar Meher",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Prof. Jyoti Joshi",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Ragini Gupta",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Abbas Raja Naziruddin",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Biman Bandyopadhyay",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Pradeep Kumar",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Raj Kumar Joshi",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Sudhir Kashyap",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Sumit Kumar Sonkar",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Abhineet Verma",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Barun Jana",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Manviri Rani",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Meena Nemiwal",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Mukesh Jain",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Pawan Rekha",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Rahul .",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. U. K. ARUN KUMAR",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Bhagwati Sharma",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Deepak Kumar",
+          "designation": "Assistant (SG-II) M.Sc."
+        },
+        {
+          "name": "Mr. Vikas Soni",
+          "designation": "Assistant (SG-II) M.Sc. M.Phil. Expertise :Chemis"
+        },
+        {
+          "name": "Mr. Anshuman Kholia",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Kamlesh Meena",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Deepak Saini",
+          "designation": "Assistant ITI"
+        },
+        {
+          "name": "Mr. Ganesh Narayan Meena",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 24
+    },
+    {
+      "name": "Civil Engineering",
+      "faculty": [
+        {
+          "name": "Prof. S. D. Bharti",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Akhilendra Bhushan Gupta",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Sudhir Kumar",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Sanjay Mathur",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Urmila Brighu",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Nivedita Kaul",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Amit Kumar",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Leelambar Singh",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Ruchi Sharma",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Prof. Suresh Kumar Tiwari",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Abhisekh Saha",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Dhiraj Raj",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Neha Shrivastava",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sanyam Dangayach",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Siddharth Mehndiratta",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Prof. M. K. Shrimali",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. R. C. Gupta",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. P. V. Ramana",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Rajesh Gupta",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Vinay Agrawal",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Anoop I. Shirkol",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Rameshwar J. Vishwakarma",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sushree Sunayana",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Prof. Arun Gaur",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Jinendra Kumar Jain",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Pawan Kalla",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Prof. Rohit Goyal",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Ajay Singh Jethoo",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Mahesh Kumar Jat",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Sumit Khandelwal",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Himanshu Arora",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Manoj Kumar Diwakar",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Uttam Singh",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Prof. Ashok Kumar Vyas",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. Sandeep Shrivastava",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Jagajyoti Panda",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Nishant Roy",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Prof. Biswajeet Pradhan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ramswaroop Mandolia",
+          "designation": "Assistant (SG-I) PhD MALAVIYA NATIONAL INSTITUTE"
+        },
+        {
+          "name": "Mr. Shashi Kant Pareek",
+          "designation": "Assistant Engineer (Civil) (SG-II) Diploma in civ"
+        },
+        {
+          "name": "Mr. Ramesh Khichi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Ansari Sadique Yasin",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. ARVIND YADAV",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Rajeev Pakad (on Lien)",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Ramji Lal Meena",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Rajveer Dotasara",
+          "designation": "Assistant MA (English Literature)"
+        }
+      ],
+      "faculty_count": 46
+    },
+    {
+      "name": "Computer Science & Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Mushtaq Ahmed",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Prof. Mahesh Chandra Govil (On Deputation)",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Manoj Singh Gaur (On Deputation)",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Girdhari Singh",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Namita Mittal",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Neeta Nain",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Pilli Emmanuel Shubhakar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Vijay Laxmi",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Arka Prokash Mazumdar",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Meenakshi Tripathi",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ramesh Babu Battula",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Yogesh Kumar Meena",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ashish Kumar Tripathi",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Deepak Ranjan Nayak",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Dinesh Kumar Tyagi",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Jyoti Grover",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Lavika Goel",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Mahipal Jadeja",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Nand Kumar Jyotish",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Prasanta Majumdar",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sadbhawna .",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Satyendra Singh Chouhan",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Smita Naval",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Vikash Kumar",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Prof. Virendra Singh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Vudutala China Venkata Rao",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. M.R. Choudhary",
+          "designation": "Assistant (SG-II) MSc (CS)"
+        },
+        {
+          "name": "Mr. Arun Kumar Sharma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Ms. Laxmi Meena",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Sanjay Kumar Bhaskar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Arun Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Devesh Kumar Sharma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Kautilya Bhardwaj",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Rohan Sharma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Sajjan Ram",
+          "designation": "Assistant Senior Secondary sajjanram.cse@mnit.ac."
+        }
+      ],
+      "faculty_count": 35
+    },
+    {
+      "name": "Electrical Engineering",
+      "faculty": [
+        {
+          "name": "Prof. Nikhil Gupta",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Khaleequr Rehman Niazi",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Manoj Fozdar",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Dipti Saxena",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Kusum Verma",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Prerna Jain",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Rajesh Kumar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Rajive Tiwari",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Rohit Bhakar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Anil Swarnkar",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Hemant Kumar Meena",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Mukesh Kumar Shah",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Nitin Gupta",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Praveen Kumar Agarwal",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Satyanarayana Neeli",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. V. P. Singh",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Akhilesh Mathur",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Ankit Sachan",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Gagan Deep Meena",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Kapil Shukla",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Man Mohan Garg",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sandeep N",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Satish Sharma",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Surender Hans",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Parul Mathuria",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Prof. R. A. Gupta",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. Chandra Mohan Arora",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Harpal Tiwari",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Mool Singh",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Vikas Gupta",
+          "designation": "Professor"
+        },
+        {
+          "name": "Mr. Ashok Kumar Agarwal",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Mrs. Nikita Jhajharia",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Mr. Vinod Sahai Pareek",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Mr. Vipin Kumar Jain",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Arun Kumar Verma",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Ravita Lamba",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Saravana Prakash P",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Vijayakumar K",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Prof. Hari Om Gupta",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Sushil Kumar Soonee",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Dhara Singh Naroliya",
+          "designation": "Assistant (SG-I) Diploma in Electrical Engineerin"
+        },
+        {
+          "name": "Mr. Brijesh Baswal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Kailash Vyas",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Narendra Singh Rathor",
+          "designation": "Assistant Diploma in Electrical Engineering Exper"
+        },
+        {
+          "name": "Mr. Akash Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sachin Kumar Jain",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mrs. Chandrakanta Jangid",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Kailash Chand Gurjar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Ram Kalyan Meena",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 49
+    },
+    {
+      "name": "Electronics & Communication Engineering",
+      "faculty": [
+        {
+          "name": "Prof. M. M. Sharma",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. D. Boolchandani",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. K. K. Sharma",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Rajendra Prasad Yadav",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Vineet Sahula",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Ghanshyam Singh",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Lava Bhargava",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Ritu Sharma",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Vijay Janyani",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Amit Mahesh Joshi",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Kuldeep Singh",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Mr. Rakesh Bairathi",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ravi Kumar Maddila",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Satyasai Jagannath Nanda",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Tarun Varma",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ankit .",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Arun Kumar",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Bharat Choudhary",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Deepak Bharti",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Ila Sharma",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Menka Yadav",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Rajendra Mitharwal",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Reena Kumari",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sarthak Singhal",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Prof. Vishwanath Sinha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Mohammed Salim",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Sri Gopal Modani",
+          "designation": "Professor"
+        },
+        {
+          "name": "Mr. Sanjeev Agrawal",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ashish Kumar Ghunawat",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. C. Periasamy (On Lien)",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Chitrakant Sahu",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Mr. Harish Jethanandani",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Mohd. Samar Ansari",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Rahul Kumar Chaurasiya",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Rajesh Saha",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Mr. Jeevan Kumar Jain",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Bharat Kumar Kasyap",
+          "designation": "Assistant (SG-II) Diploma & B-tech in Electronics"
+        },
+        {
+          "name": "Mr. Kinnal Mehta",
+          "designation": "Assistant (SG-II) Diploma"
+        },
+        {
+          "name": "Mr. Sanjay Kumar Bagaria",
+          "designation": "Assistant (SG-II) B.Tech. (ECE) sanjaybagaria.ece"
+        },
+        {
+          "name": "Mr. Bipin Kumar Saw",
+          "designation": "Assistant M.Tech In ECE"
+        },
+        {
+          "name": "Mr. Deep Chand Jatav",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Firoz Ahmed",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Kumawat Arun Suresh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Munesh Singh Bhadawat",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Kushagra Sharma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Manish Shukla",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Pankaj Gupta",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 47
+    },
+    {
+      "name": "Humanities & Social Sciences",
+      "faculty": [
+        {
+          "name": "Prof. Nupur Tandon",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Manju Singh",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Vibhuti Singh Shekhawat",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Dipti Sharma",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Preeti Bhatt",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Nidhi Bansal",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Nidhi Sharma",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Niraja Saraswat",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Prof. Panchanan Mohanty",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Parakh Nath Hoon",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Ishwar Lal Keshwani",
+          "designation": "Assistant ishwar.acc@mnit.ac.in"
+        },
+        {
+          "name": "Mr. Ravi Kumar",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 12
+    },
+    {
+      "name": "Mathematics & Scientific Computing"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "faculty": [
+        {
+          "name": "Prof. Harlal Singh Mali",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Dilip Sharma",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Jyotirmay Mathur",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Rakesh Jain",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Prof. Amar Patnaik",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Dinesh Kumar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. G. D. Agarwal",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Jinesh Kumar Jain",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. M. L. Meena",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Murari Lal Mittal",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Rajeev Agrawal",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Gunjan Soni",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Mukesh Kumar",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Pankaj Kumar Gupta",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ram Dayal",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Amit Arora",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Anoj Meena",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Anup Malik",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Dinesh Kumar Rathore",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Gaurav Hedau",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Gulab Pamnani",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Manish Kumar",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Manjinder Singh",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Naresh Kumar Raghuwanshi",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Preeti Gulia",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Surendra Singh Godara",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Tapas Bajpai",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Yashwant Koli",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Mr. Vineet Kumar Saxena",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Prakash Naraian Sharma",
+          "designation": "Assistant (SG-II) PhD Pursuing (MNIT Jaipur)"
+        },
+        {
+          "name": "Dr. Pushpendra Kumar Sharma",
+          "designation": "Assistant (SG-II) Ph.D"
+        },
+        {
+          "name": "Mr. Ram Charan Bairwa",
+          "designation": "Assistant (SG-II) M.Tech."
+        },
+        {
+          "name": "Mr. Bahadur Ram Nayak",
+          "designation": "Assistant ITI Expertise :Welding and Foundry baha"
+        },
+        {
+          "name": "Mr. Jitendra Singh Arya",
+          "designation": "Assistant ITI Expertise :Machine Shop js.arya7688"
+        },
+        {
+          "name": "Mr. Kailash Chand",
+          "designation": "Assistant ITI Expertise :Vibration Lab"
+        },
+        {
+          "name": "Mr. Ramesh Chand Meena",
+          "designation": "Assistant Diploma Expertise :Automobile and IC En"
+        },
+        {
+          "name": "Mr. Yogendra Singh Hada",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Dipak Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. KAMLESH CHOUDHARY",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Arun Bansal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Laxman Rathore",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Rajhans Meena",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Ravinder Singh",
+          "designation": "Assistant B. Tech. Expertise :Mechanical Engineer"
+        },
+        {
+          "name": "Mr. Sandeep Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Saurabh Kr. Soni",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Mohan Singh",
+          "designation": "Assistant 8th mohansingh.meta@mnit.ac.in"
+        },
+        {
+          "name": "Mr. Mahaveer",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Nishant Rathore",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Rakesh Kumar",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 49
+    },
+    {
+      "name": "Metallurgical & Materials Engineering"
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "Dr. Kamlendra Awasthi",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Prof. Kanupriya Sachdev",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. K Venkataratnam Kamma",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Kavita Lalwani",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Manoj Kumar",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Rahul Singhal",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Srinivasa Rao Nelamarri",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Subhayan Mandal",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Akhilesh Nautiyal",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Anees Ahmed",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Anirban Dutta",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. DEBASISH SARKAR",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Kamakshi Pandey",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Rajnish Dhiman",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Mr. Sunil Batra",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Ms. Swati Singh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Siddharth Jethu",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mr. Ram Kishore",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 18
+    },
+    {
+      "name": "Structural Engineering"
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "active_projects": 5,
+    "funding_agencies": null,
+    "total_funding_crores": null,
+    "consultancy_projects": null,
+    "patents_filed": null,
+    "patents_granted": null,
+    "publications_per_year": null,
+    "phd_students_enrolled": null,
+    "phds_awarded": 7,
+    "research_centres": [
+      "Welcome to Materials Research Centre",
+      "Centre by the Numbers"
+    ],
+    "international_collaborations": null
+  },
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": {
+      "volumes": 133600,
+      "journals_subscribed": null,
+      "digital_databases": null
+    },
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": {
+      "beds": null,
+      "full_time_doctor": true,
+      "hospital_tie_up": null
+    },
+    "has_bank_atm": true,
+    "has_post_office": true,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": null,
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Institute Functionaries",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Authorities",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Digital Repository",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Industry Institute Interaction (I3)",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Lecture Series",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "To foster and strengthen the bond between alumni, students, and the institute by leveraging the relationships for an effective Outcome for the benefit of all MNIT’s Fraternity and the Society.",
+        "country": null,
+        "focus_area": null
+      }
+    ],
+    "mou_count": null,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": {
+    "2024": 2025
+  },
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.mnit.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 88,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/mnit-jaipur",
+  "last_scraped_at": "2026-03-31T16:09:52.317521",
+  "department_count": 13,
+  "total_faculty": 334
+}

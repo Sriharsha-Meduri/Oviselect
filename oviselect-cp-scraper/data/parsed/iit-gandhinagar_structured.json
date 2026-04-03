@@ -1,0 +1,1873 @@
+{
+  "institute": "IIT Gandhinagar",
+  "institute_type": "IIT",
+  "also_known_as": "IITGN",
+  "established_year": 2008,
+  "city": "Gandhinagar",
+  "state": "Gujarat",
+  "address": "Indian Institute of Technology, Palaj, Simkheda, Gandhinagar, Gujarat - 382355",
+  "nearest_airport": "Sardar Vallabhbhai Patel International Airport, Ahmedabad",
+  "nearest_airport_km": 23.0,
+  "nearest_railway_station": "Ahmedabad Junction Railway Station",
+  "nearest_railway_km": 30.0,
+  "nirf_overall_rank": 39,
+  "nirf_engineering_rank": 25,
+  "nirf_research_rank": 36,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": "801-850 (2026)",
+  "qs_asia_rank": "300 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": 12,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
+  ],
+  "tuition_fee_per_sem": 100000,
+  "hostel_fee_per_sem": 17250,
+  "mess_advance_per_sem": 21000,
+  "one_time_fees": 7750,
+  "caution_money": 5000,
+  "annual_fees": null,
+  "total_institute_fee": 159338,
+  "total_hostel_fee": null,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 82.39,
+  "avg_package_lpa": 18.0,
+  "median_package_lpa": 15.91,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 90.0,
+    "Civil Engineering": 81.25,
+    "Computer Science and Engineering": 90.48,
+    "Electrical Engineering": 70.0,
+    "Materials Science and Engineering": 71.43,
+    "Mechanical Engineering": 79.41,
+    "Overall": 82.39
+  },
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 14.0,
+    "Civil Engineering": 15.08,
+    "Computer Science and Engineering": 25.06,
+    "Electrical Engineering": 16.0,
+    "Materials Science and Engineering": 11.89,
+    "Mechanical Engineering": 14.17,
+    "Overall (B.Tech.)": 15.16
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 14.82,
+    "Civil Engineering": 16.65,
+    "Computer Science and Engineering": 29.29,
+    "Electrical Engineering": 17.91,
+    "Materials Science and Engineering": 13.48,
+    "Mechanical Engineering": 14.49,
+    "Overall (B.Tech.)": 19.34
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": 240,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "General",
+      "hod_name": null,
+      "hod_designation": null,
+      "faculty_count": 50,
+      "faculty": [
+        {
+          "name": "Srinivasan Chandrasekaran",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-s-chandrasekaran"
+        },
+        {
+          "name": "Jyothi Krishnan",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-jyothi"
+        },
+        {
+          "name": "Achyut Mishra",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-achyut"
+        },
+        {
+          "name": "Sharada C. V.",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-sharada"
+        },
+        {
+          "name": "Sonal Khanolkar",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-sonal"
+        },
+        {
+          "name": "V.N. Prabhakar",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-v_n_prabhakar"
+        },
+        {
+          "name": "Aditi Kothiyal",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-aditi"
+        },
+        {
+          "name": "Sharada C. V.",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-sharada"
+        },
+        {
+          "name": "V.N. Prabhakar",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-v_n_prabhakar"
+        },
+        {
+          "name": "Srinivasan Chandrasekaran",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/maritime/fac-s-chandrasekaran"
+        },
+        {
+          "name": "Girish Kumar Sharma",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-gksharma"
+        },
+        {
+          "name": "A. S. Kiran Kumar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/dhp/askiran"
+        },
+        {
+          "name": "Nitish Thakor",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/dhp/nitish"
+        },
+        {
+          "name": "Pankaj Jalote",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/dhp/pankaj"
+        },
+        {
+          "name": "Shekhar C. Mande",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/dhp/shekhar"
+        },
+        {
+          "name": "Surendra Prasad",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/dhp/surendra"
+        },
+        {
+          "name": "Avanish Kumar Srivastava",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/avanish"
+        },
+        {
+          "name": "Bijoy H. Boruah",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/bijoy_h_boruah"
+        },
+        {
+          "name": "Biranchinath Sahu",
+          "designation": "Guest Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/biranchinath_sahu"
+        },
+        {
+          "name": "Darshan Pandya",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/darshan_pandya"
+        },
+        {
+          "name": "Debi Prasad Sarkar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/debiprasad_sarkar"
+        },
+        {
+          "name": "Angus McBlane",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/fac-angus"
+        },
+        {
+          "name": "Dhwanil Shukla",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/fac-dhwanil_shukla"
+        },
+        {
+          "name": "Venkatesh Raman",
+          "designation": "Guest Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/fac-venkatesh_raman"
+        },
+        {
+          "name": "Frederick Lawrence Coolidge",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/fredercik"
+        },
+        {
+          "name": "Nuno Guimarães",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/guimaraes"
+        },
+        {
+          "name": "Hardik Jeetendra Pandya",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/hardik_pandya"
+        },
+        {
+          "name": "Kenneth E. Gonsalves",
+          "designation": "Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/kenneth"
+        },
+        {
+          "name": "Kiran Sasikumar",
+          "designation": "Guest Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/kiran_sasikumar"
+        },
+        {
+          "name": "Krishna Kishore",
+          "designation": "Guest Faculty Practice",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/krishna_kishore"
+        },
+        {
+          "name": "Kasi Viswanadh Ganga Prakhya",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/kv_ganga"
+        },
+        {
+          "name": "M D Srinivas",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/md-srinivas"
+        },
+        {
+          "name": "Nikhil Balram",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/nikhil_balram"
+        },
+        {
+          "name": "Nitin Kumar Tripathi",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/nitin_k_tripathi"
+        },
+        {
+          "name": "Nitin Jonathan Myers",
+          "designation": "Guest Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/nitin_myers"
+        },
+        {
+          "name": "Parthasarathi Mukhopadhyay",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/parthasarathi"
+        },
+        {
+          "name": "Ramakrishna R Sonde",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/r_r_sonde"
+        },
+        {
+          "name": "Raghavasimhan Thirunarayanan",
+          "designation": "Guest Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/r_thirunarayanan"
+        },
+        {
+          "name": "Ramachandran Veetikazhi",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/ramachandran"
+        },
+        {
+          "name": "Ravindra Pratap Singh",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/ravindra"
+        },
+        {
+          "name": "R.D.Deshpande",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/rd_deshpande"
+        },
+        {
+          "name": "S. Chandrasekaran",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/s-chandrasekaran"
+        },
+        {
+          "name": "Subodh Kumar Jaiswal",
+          "designation": "Guest Faculty",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/s_k_jaiswal"
+        },
+        {
+          "name": "Sampat Kumar Tandon",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/sampat_kumar_tandon"
+        },
+        {
+          "name": "Savan R. Godiawala",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/savan"
+        },
+        {
+          "name": "Sharmila Mande",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/sharmila"
+        },
+        {
+          "name": "Srinivas Reddy",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/srinivas_reddy"
+        },
+        {
+          "name": "Subir Varma",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/subir_varma"
+        },
+        {
+          "name": "Sumit Roy",
+          "designation": "Guest Processor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/sumit_roy"
+        },
+        {
+          "name": "Yuvraj Patel",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/yuvraj_patel"
+        }
+      ]
+    },
+    {
+      "name": "Biological Sciences and Engineering",
+      "faculty": [
+        {
+          "name": "Ashutosh Srivastava",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-ashutosh"
+        },
+        {
+          "name": "Dhiraj D Bhatia",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-dhiraj"
+        },
+        {
+          "name": "Karla Patricia Mercado-Shekhar",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-karla"
+        },
+        {
+          "name": "Mukesh Dhanka",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-mukesh"
+        },
+        {
+          "name": "Sharad Gupta",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-sharad"
+        },
+        {
+          "name": "Sharmistha Majumdar",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-sharmistha"
+        },
+        {
+          "name": "Subramanian Sankaranarayanan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-subramanian"
+        },
+        {
+          "name": "Umashankar Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-umashankar"
+        },
+        {
+          "name": "Vijay Thiruvenkatam",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-vijay"
+        }
+      ],
+      "faculty_count": 9
+    },
+    {
+      "name": "Chemistry (Jointly with Biological Sciences and Engineering)",
+      "faculty": [
+        {
+          "name": "Bhaskar Datta",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-bhaskar"
+        },
+        {
+          "name": "Bhaskar Datta",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-bhaskar"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Cognitive and Brain Sciences (Jointly with Biological Sciences and Engineering)",
+      "faculty": [
+        {
+          "name": "Pratik Mutha",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-pratik"
+        },
+        {
+          "name": "Pratik Mutha",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cogs/fac-pratik"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Biological Sciences and Engineering (Jointly with Mechanical Engineering)",
+      "faculty": [
+        {
+          "name": "Rohil Jain",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/bioe/fac-rohil"
+        },
+        {
+          "name": "Rohil Jain",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-rohil"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Abinaya Sampath",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-abinaya"
+        },
+        {
+          "name": "Biswajit Saha",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-biswajit"
+        },
+        {
+          "name": "Hari Sai Ganesh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-hari"
+        },
+        {
+          "name": "Kabeer Jasuja",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-kabeer"
+        },
+        {
+          "name": "Karthik Subramaniam Pushpavanam",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-karthik"
+        },
+        {
+          "name": "Kaustubh Sunil Rane",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-kaustubh"
+        },
+        {
+          "name": "Mithun Radhakrishna",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-mithun"
+        },
+        {
+          "name": "Nitin U. Padhiyar",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-nitin"
+        },
+        {
+          "name": "Prachi Thareja",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-prachi"
+        },
+        {
+          "name": "Pratyush Dayal",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-pratyush"
+        },
+        {
+          "name": "Sameer V. Dalvi",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-sameer"
+        },
+        {
+          "name": "Soumajit Dutta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-soumajit-dutta"
+        }
+      ],
+      "faculty_count": 12
+    },
+    {
+      "name": "Professor Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Chinmay Ghoroi",
+          "designation": "B. S. Gelot Chair",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-chinmay"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Civil Engineering (Jointly with Chemical Engineering)",
+      "faculty": [
+        {
+          "name": "Sameer Patel",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemical/fac-sameer-patel"
+        },
+        {
+          "name": "Sameer Patel",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-sameer-patel"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [
+        {
+          "name": "Anirban Mondal",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-anirban"
+        },
+        {
+          "name": "Biswajit Mondal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-biswajit"
+        },
+        {
+          "name": "Chandrakumar Appayee",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-chandrakumar"
+        },
+        {
+          "name": "Iti Gupta",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-iti"
+        },
+        {
+          "name": "Kuljeet Kaur",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-kuljeet"
+        },
+        {
+          "name": "Manisha Samanta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-manisha"
+        },
+        {
+          "name": "Partha Pratim Roy",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-partha"
+        },
+        {
+          "name": "Priyabrata Ghana",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-priyabrata"
+        },
+        {
+          "name": "Sairam Swaroop Mallajosyula",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-sairam"
+        },
+        {
+          "name": "Saumyakanti Khatua",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-saumyakanti"
+        },
+        {
+          "name": "Sivapriya Kirubakaran",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-sivapriya"
+        },
+        {
+          "name": "Venkata Sriram Kanvah Gundimeda",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-sriram"
+        },
+        {
+          "name": "Sudhanshu Sharma",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-sudhanshu"
+        },
+        {
+          "name": "Sudipta Basu",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/chemistry/fac-sudipta"
+        }
+      ],
+      "faculty_count": 14
+    },
+    {
+      "name": "Civil Engineering",
+      "faculty": [
+        {
+          "name": "Abhishek Singhal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-abhishek"
+        },
+        {
+          "name": "Ajanta Sachan",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-ajanta"
+        },
+        {
+          "name": "Amarjit Singh",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-amarjit_singh"
+        },
+        {
+          "name": "Amit Prashant",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-amit"
+        },
+        {
+          "name": "Dhiman Basu",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-dhiman"
+        },
+        {
+          "name": "G. V. Rao",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-g_v_rao"
+        },
+        {
+          "name": "Gaurav Srivastava",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-gaurav"
+        },
+        {
+          "name": "K. Siva Teja Chopperla",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-krishna-siva-teja"
+        },
+        {
+          "name": "Manish Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-manish"
+        },
+        {
+          "name": "Pranab Kumar Mohapatra",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-pranab"
+        },
+        {
+          "name": "Sharad Kumar Jain",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-sharad"
+        },
+        {
+          "name": "S R Gandhi",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-srgandhi"
+        },
+        {
+          "name": "Subhasish Dey",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-subhasish"
+        },
+        {
+          "name": "Sudhir Kumar Arora",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-sudhir"
+        },
+        {
+          "name": "Sushobhan Sen",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-sushobhan"
+        },
+        {
+          "name": "Vivek P. Kapadia",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-vivek"
+        },
+        {
+          "name": "Jimmy Thomas",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/jimmy_thomas"
+        }
+      ],
+      "faculty_count": 17
+    },
+    {
+      "name": "Mechanical Engineering (Jointly with Civil Engineering)",
+      "faculty": [
+        {
+          "name": "Harkirat Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-harkirat"
+        },
+        {
+          "name": "Harkirat Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-harkirat"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Civil Engineering (Jointly with Computer Science and Engineering) (Affiliated to Artificial Intelligence, Earth Sciences Discipline)",
+      "faculty": [
+        {
+          "name": "Udit Bhatia",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-udit"
+        },
+        {
+          "name": "Udit Bhatia",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-udit"
+        },
+        {
+          "name": "Udit Bhatia",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-udit"
+        }
+      ],
+      "faculty_count": 3
+    },
+    {
+      "name": "Civil Engineering (Jointly with Earth Sciences)",
+      "faculty": [
+        {
+          "name": "Vimal Mishra",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/civil/fac-vimal"
+        },
+        {
+          "name": "Vimal Mishra",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-vimal"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Teaching Professor",
+      "faculty": [
+        {
+          "name": "Manish Jain",
+          "designation": "Centre for Creative Learning Director RnD, Synopsys Scientis",
+          "profile_url": "https://iitgn.ac.in/faculty/cl/fac-manish"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Humanities and Social Sciences (Jointly with Cognitive and Brain Sciences) (Affiliated to Society and Culture Discipline)",
+      "faculty": [
+        {
+          "name": "Jaison A. Manjaly",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cogs/fac-jaison"
+        },
+        {
+          "name": "Jaison A. Manjaly",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-jaison"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Cognitive and Brain Sciences (Jointly with Humanities and Social Sciences)",
+      "faculty": [
+        {
+          "name": "Jooyoung Kim",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cogs/fac-jooyoung"
+        },
+        {
+          "name": "Jooyoung Kim",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-jooyoung"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Cognitive and Brain Sciences (Affiliated to Artificial Intelligence Discipline)",
+      "faculty": [
+        {
+          "name": "Krishna Prasad Miyapuram",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cogs/fac-krishna"
+        },
+        {
+          "name": "Krishna Prasad Miyapuram",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-krishna"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Cognitive and Brain Sciences",
+      "faculty": [
+        {
+          "name": "Leslee Lazar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cogs/fac-leslee"
+        },
+        {
+          "name": "Meera M. Sunny",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cogs/fac-meera"
+        },
+        {
+          "name": "Vaibhav Tripathi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cogs/fac-vaibhav"
+        }
+      ],
+      "faculty_count": 3
+    },
+    {
+      "name": "Mechanical Engineering (Affiliated to Cognitive and Brain Sciences Discipline)",
+      "faculty": [
+        {
+          "name": "Vineet Vashista",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cogs/fac-vineet"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Computer Science and Engineering (Affiliated to Artificial Intelligence, Cognitive Science Discipline)",
+      "faculty": [
+        {
+          "name": "Yogesh Kumar Meena",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cogs/fac-yogesh"
+        },
+        {
+          "name": "Yogesh Kumar Meena",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-yogesh"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Computer Science and Engineering",
+      "faculty": [
+        {
+          "name": "Abhishek Bichhawat",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-abhishek"
+        },
+        {
+          "name": "Anup Kalbalia",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-anup"
+        },
+        {
+          "name": "Balagopal Komarath",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-balagopal"
+        },
+        {
+          "name": "Bireswar Das",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-bireswar"
+        },
+        {
+          "name": "Manisha Padala",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-manisha"
+        },
+        {
+          "name": "Manoj D Gupta",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-manoj"
+        },
+        {
+          "name": "Manu Awasthi",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-manu"
+        },
+        {
+          "name": "Mayank Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-mayank"
+        },
+        {
+          "name": "Nirmal Kumar Sancheti",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-nirmal"
+        },
+        {
+          "name": "Rajat Moona",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-rajat-moona"
+        },
+        {
+          "name": "Shouvick Mondal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-shouvick"
+        }
+      ],
+      "faculty_count": 11
+    },
+    {
+      "name": "Computer Science and Engineering (Affiliated to Artificial Intelligence Discipline)",
+      "faculty": [
+        {
+          "name": "Anirban Dasgupta",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-anirban"
+        },
+        {
+          "name": "Neeldhara Misra",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-neeldhara"
+        },
+        {
+          "name": "Nipun Batra",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-nipun"
+        }
+      ],
+      "faculty_count": 3
+    },
+    {
+      "name": "Electrical Engineering (Affiliated to Computer Science and Engineering Discipline)",
+      "faculty": [
+        {
+          "name": "Joycee M. Mekie",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-joycee"
+        },
+        {
+          "name": "Joycee M. Mekie",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-joycee"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Computer Science and Engineering (Jointly with Electrical Engineering)",
+      "faculty": [
+        {
+          "name": "Sameer Gundurao Kulkarni",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-sameer"
+        },
+        {
+          "name": "Sameer Gundurao Kulkarni",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-sameer"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Electrical Engineering (Jointly with Computer Science & Engineering) (Affiliated to Artificial Intelligence Discipline)",
+      "faculty": [
+        {
+          "name": "Shanmuganathan Raman",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/cse/fac-shanmuganathan"
+        },
+        {
+          "name": "Shanmuganathan Raman",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-shanmuganathan"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Humanities and Social Sciences (Affiliated to Design Discipline)",
+      "faculty": [
+        {
+          "name": "Malay Nitinkumar Dhamelia",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/design/fac-malay"
+        },
+        {
+          "name": "Manasi Kanetkar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/design/fac-mansi"
+        },
+        {
+          "name": "Malay Nitinkumar Dhamelia",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-malay"
+        },
+        {
+          "name": "Manasi Kanetkar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-mansi"
+        }
+      ],
+      "faculty_count": 4
+    },
+    {
+      "name": "Design",
+      "faculty": [
+        {
+          "name": "Praveen Nahar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/design/fac-praveen"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Humanities and Social Sciences (Jointly with Mechanical Engineering) (Affiliated to Society and Culture, Design Discipline)",
+      "faculty": [
+        {
+          "name": "Sameer Sahasrabudhe",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/design/fac-sameer"
+        },
+        {
+          "name": "Sameer Sahasrabudhe",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-sameer"
+        },
+        {
+          "name": "Sameer Sahasrabudhe",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-sameer"
+        }
+      ],
+      "faculty_count": 3
+    },
+    {
+      "name": "Humanities and Social Sciences (Jointly with Earth Sciences)",
+      "faculty": [
+        {
+          "name": "Alok Kumar Kanungo",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-alok"
+        },
+        {
+          "name": "Alok Kumar Kanungo",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-alok"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Earth Sciences (Jointly with Humanities and Social Sciences)",
+      "faculty": [
+        {
+          "name": "C N Pandey",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-cnpandey"
+        },
+        {
+          "name": "C N Pandey",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-cnpandey"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Earth Sciences",
+      "faculty": [
+        {
+          "name": "Manab Mukherjee",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-manab"
+        },
+        {
+          "name": "Prem Chand Pandey",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-pcpandey"
+        },
+        {
+          "name": "Pradeep K Srivastava",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-pradeep"
+        },
+        {
+          "name": "Rishi Narain Singh",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-rnsingh"
+        },
+        {
+          "name": "P.P. Joglekar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/p_p_joglekar"
+        }
+      ],
+      "faculty_count": 5
+    },
+    {
+      "name": "Earth Sciences (Affiliated to Earth System Sciences Discipline)",
+      "faculty": [
+        {
+          "name": "Pankaj Khanna",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-pankaj"
+        },
+        {
+          "name": "Utsav Mannu",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-utsav"
+        },
+        {
+          "name": "Vikrant Jain",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/earths/fac-vikrant"
+        }
+      ],
+      "faculty_count": 3
+    },
+    {
+      "name": "Electrical Engineering",
+      "faculty": [
+        {
+          "name": "Anand Kumar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-anand"
+        },
+        {
+          "name": "Arup Lal Chakraborty",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-arup"
+        },
+        {
+          "name": "Himanshu Shekhar",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-himanshu"
+        },
+        {
+          "name": "Jhuma Saha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-jhuma"
+        },
+        {
+          "name": "Kamla Prasan Ray",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-kamla-prasan-ray"
+        },
+        {
+          "name": "Madhav K. Pathak",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-madhav"
+        },
+        {
+          "name": "Mukul Chandorkar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-mukul"
+        },
+        {
+          "name": "Naran M. Pindoriya",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-naran"
+        },
+        {
+          "name": "Nihar Ranjan Mohapatra",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-nihar"
+        },
+        {
+          "name": "Nithin V. George",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-nithin"
+        },
+        {
+          "name": "Pallavi Bharadwaj",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-pallavi"
+        },
+        {
+          "name": "Ragavan K.",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-ragavan"
+        },
+        {
+          "name": "Raghunandan M. Rao",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-raghunandan"
+        },
+        {
+          "name": "S. Rajendran",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-rajendran"
+        },
+        {
+          "name": "Ravi S. Hedge",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-ravi"
+        },
+        {
+          "name": "Sandip Lashkare",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-sandip"
+        },
+        {
+          "name": "Tarun Kumar Agarwal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-tarun"
+        },
+        {
+          "name": "Uttama Lahiri",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/ee/fac-uttama"
+        },
+        {
+          "name": "Ramesh Gaonkar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/ramesh_gaonkar"
+        }
+      ],
+      "faculty_count": 19
+    },
+    {
+      "name": "Humanities and Social Sciences (Affiliated to Society and Culture Discipline)",
+      "faculty": [
+        {
+          "name": "Ambika Aiyadurai",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-ambika"
+        },
+        {
+          "name": "Arka Chattopadhyay",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-arka"
+        },
+        {
+          "name": "Arnapurna Rath",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-arnapurna"
+        },
+        {
+          "name": "Deepak Singhania",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-deepak"
+        },
+        {
+          "name": "Madhumita Sengupta",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-madhumita"
+        },
+        {
+          "name": "Sharmita Lahiri",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-sharmita"
+        }
+      ],
+      "faculty_count": 6
+    },
+    {
+      "name": "Mechanical Engineering (Affiliated to Humanities and Social Sciences, Mathematics Discipline)",
+      "faculty": [
+        {
+          "name": "Kasivisvanthan Chelvakumar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-kchelvakumar"
+        },
+        {
+          "name": "Kasivisvanthan Chelvakumar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-chelvakumar"
+        },
+        {
+          "name": "Kasivisvanthan Chelvakumar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-kchelvakumar"
+        }
+      ],
+      "faculty_count": 3
+    },
+    {
+      "name": "Humanities and Social Sciences",
+      "faculty": [
+        {
+          "name": "Mana Apoorva Shah",
+          "designation": "Lecturer",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-mana"
+        },
+        {
+          "name": "Mohd. Mubashshir Ahsan",
+          "designation": "Lecturer",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-mubashshir"
+        },
+        {
+          "name": "Praharsh M. Patel",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-praharsh"
+        },
+        {
+          "name": "Tanka Bahadur Subba",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/hss/fac-tanka"
+        }
+      ],
+      "faculty_count": 4
+    },
+    {
+      "name": "Mathematics",
+      "faculty": [
+        {
+          "name": "Abhinav Jha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-abhinav"
+        },
+        {
+          "name": "Akshaa Vatwani",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-akshaa"
+        },
+        {
+          "name": "Arnab Saha",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-arnab"
+        },
+        {
+          "name": "Atul Abhay Dixit",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-atul"
+        },
+        {
+          "name": "Bipul Saurabh",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-bipul"
+        },
+        {
+          "name": "Chetan Pahlajani",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-chetan"
+        },
+        {
+          "name": "Gadadhar Misra",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-gadadhar"
+        },
+        {
+          "name": "Indranath Sengupta",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-indranath"
+        },
+        {
+          "name": "Jagmohan Tyagi",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-jagmohan"
+        },
+        {
+          "name": "Jugal K. Verma",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-jugal"
+        },
+        {
+          "name": "Madhu Gupta",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-madhu"
+        },
+        {
+          "name": "Projesh Nath Choudhury",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-projesh"
+        },
+        {
+          "name": "Rohit Kumar Mishra",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-rohit"
+        },
+        {
+          "name": "Sanjaykumar Hansraj Amrutiya",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-sanjay"
+        },
+        {
+          "name": "Sudeshna Roy",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-sudeshna"
+        },
+        {
+          "name": "Tanya Kaushal Srivastava",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/maths/fac-tanya"
+        }
+      ],
+      "faculty_count": 16
+    },
+    {
+      "name": "Mechanical Engineering",
+      "faculty": [
+        {
+          "name": "Atul Bhargav",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-atul"
+        },
+        {
+          "name": "Dilip Srinivas Sundaram",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-dilip"
+        },
+        {
+          "name": "Harini Subramanian",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-harini"
+        },
+        {
+          "name": "Harish Palanthandalam-Madapusi",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-harish"
+        },
+        {
+          "name": "Harmeet Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-harmeet"
+        },
+        {
+          "name": "K.R. Jayaprakash",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-jayaprakash"
+        },
+        {
+          "name": "Lokesh Malik",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-lokesh"
+        },
+        {
+          "name": "Madhu Vadali",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-madhu"
+        },
+        {
+          "name": "Prabhat Munshi",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-prabhat-munshi"
+        },
+        {
+          "name": "Rakesh Singhai",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-rakesh"
+        },
+        {
+          "name": "Ravi Sastri Ayyagari",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-ravi"
+        },
+        {
+          "name": "Shubhangi Shamsundar Bansude",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-shubhangi"
+        },
+        {
+          "name": "Soumyadip Sett",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-soumyadip"
+        },
+        {
+          "name": "Uddipta Ghosh",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-uddipta"
+        },
+        {
+          "name": "Vinod Narayanan",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-vinod"
+        },
+        {
+          "name": "Ravi Banavar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/ravi-banavar"
+        }
+      ],
+      "faculty_count": 16
+    },
+    {
+      "name": "Mechanical Engineering (Affiliated to Cognitive Science Discipline)",
+      "faculty": [
+        {
+          "name": "Vineet Vashista",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/me/fac-vineet"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Materials Engineering",
+      "faculty": [
+        {
+          "name": "Abhay Raj Singh Gautam",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-abhay"
+        },
+        {
+          "name": "Abhijit Mishra",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-abhijit"
+        },
+        {
+          "name": "Amit Arora",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-amit"
+        },
+        {
+          "name": "Anagh Bhaumik",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-anagh"
+        },
+        {
+          "name": "Avinash Hariharan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-avinash"
+        },
+        {
+          "name": "Emila Panda",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-emila"
+        },
+        {
+          "name": "Pradipta Ghosh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-pradipta"
+        },
+        {
+          "name": "Prafull Pandey",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-prafull"
+        },
+        {
+          "name": "Raghavan Ranganathan",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-raghavan"
+        },
+        {
+          "name": "S.P. Mehrotra",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-spmehrotra"
+        },
+        {
+          "name": "Sriharitha Rowthu",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-sriharitha"
+        },
+        {
+          "name": "Superb Kumar Misra",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-superb"
+        }
+      ],
+      "faculty_count": 12
+    },
+    {
+      "name": "Physics (Jointly with Materials Engineering)",
+      "faculty": [
+        {
+          "name": "Gopinadhan Kalon",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/mse/fac-gopinadhan"
+        },
+        {
+          "name": "Gopinadhan Kalon",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-gopinadhan"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "Abhisek Samanta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-abhisek"
+        },
+        {
+          "name": "Anand Sankar Sengupta",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-anand"
+        },
+        {
+          "name": "Arpan Bhattacharyya",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-arpan"
+        },
+        {
+          "name": "Baradhwaj Coleppa",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-bharadwaj"
+        },
+        {
+          "name": "Chandan Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-chandan"
+        },
+        {
+          "name": "Krishna Kanti Dey",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-krishna"
+        },
+        {
+          "name": "Krista R. Khiangte",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-krista"
+        },
+        {
+          "name": "Naveen Sisodia",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-naveen"
+        },
+        {
+          "name": "Prasanna Venkatesh B",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-prasanna"
+        },
+        {
+          "name": "Ravinder Rupchand Puri",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-ravinder"
+        },
+        {
+          "name": "Rupak Banerjee",
+          "designation": "Associate Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-rupak"
+        },
+        {
+          "name": "Rusa Mandal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-rusa"
+        },
+        {
+          "name": "Sudipta Sarkar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-sudipta"
+        },
+        {
+          "name": "Urjit A. Yajnik",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-urjit"
+        },
+        {
+          "name": "Vinod Chandra",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/phy/fac-vinod"
+        }
+      ],
+      "faculty_count": 15
+    },
+    {
+      "name": "Mechanical Engineering Professor, Vanderbilt School of Engineering",
+      "faculty": [
+        {
+          "name": "A. V. Anilkumar",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/a-v-anilkumar"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Civil Engineering Director, Sustainability & Data Sciences Lab (SDS Lab), Northeastern University",
+      "faculty": [
+        {
+          "name": "Auroop R. Ganguly",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/auroop_ganguly"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Computer Science & Engineering Professor, IIT Kanpur",
+      "faculty": [
+        {
+          "name": "Dheeraj Sanghi",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/dheeraj_sanghi"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Civil Engineering Professor, Indian Institute of Technology, Kanpur",
+      "faculty": [
+        {
+          "name": "Durgesh C. Rai",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/durgesh_c_rai"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Humanities & Social Sciences",
+      "faculty": [
+        {
+          "name": "Harsh Bhargava",
+          "designation": "Guest Professsor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/harsh_bhargava"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Earth Science Professor of Archaeology, Maharaja Sayajirao University of Baroda",
+      "faculty": [
+        {
+          "name": "K. Krishnan",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/krishnan"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Mathematics Faculty, TIFR Centre for Applicable Mathematics",
+      "faculty": [
+        {
+          "name": "Mythily Ramaswamy",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/mythily_ramaswamy"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Humanities & Social Sciences Professor, Department of Archaeology and Ancient History, The M. S. University of Baroda, Vadodara",
+      "faculty": [
+        {
+          "name": "Ajithprasad. P",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/p_ajithprasad"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Mechanical Engineering Business Development Director, Underwriters Laboratories Inc.",
+      "faculty": [
+        {
+          "name": "Pravinray Gandhi",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/pravinray_gandhi"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Chemical Engineering Professor, Indian Institute of Technology, Kanpur",
+      "faculty": [
+        {
+          "name": "R. P. Chhabra",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/r_p_chhabra"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Archaeological Sciences Joint Director General (Retd.), Archaeological Survey of India & Padma Shri Awardee, 2013",
+      "faculty": [
+        {
+          "name": "R. S. Bisht",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/r_s_bisht"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Electrical Engineering Managing Director, Jaswa & Company",
+      "faculty": [
+        {
+          "name": "Rajen Jaswa",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/rajen_jaswa"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Material Science & Engineering Professor and Chair of the Department, MSE, Clemson University",
+      "faculty": [
+        {
+          "name": "Rajendra Bordia",
+          "designation": "Professor",
+          "profile_url": "https://iitgn.ac.in/faculty/guestprof/rajendra_bordia"
+        }
+      ],
+      "faculty_count": 1
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "active_projects": null,
+    "funding_agencies": [
+      "DST"
+    ],
+    "total_funding_crores": 1.0,
+    "consultancy_projects": null,
+    "patents_filed": null,
+    "patents_granted": null,
+    "publications_per_year": null,
+    "phd_students_enrolled": null,
+    "phds_awarded": null,
+    "research_centres": [
+      "Strengthening Academic and Industrial Collaborations with Taiwan",
+      "Strengthening Academic and Industrial Collaborations with Taiwan",
+      "Towards A New Era: Launch of GIFT International Fintech Institute",
+      "Towards A New Era: Launch of GIFT International Fintech Institute",
+      "‘Japan Meets India’ Summit to Foster Collaboration in Research and Education",
+      "‘Japan Meets India’ Summit to Foster Collaboration in Research and Education",
+      "Post-colab 2025",
+      "Post-colab 2025",
+      "International Collaborations",
+      "IIT Gandhinagar and the University of San Diego joined hands for academic and research collaboration:",
+      "IIT Gandhinagar and the Asian Institute of Technology launch a Double Degree Master’s Program",
+      "IIT Gandhinagar and Deakin University, Australia, joined hands for academic and research collaboration:"
+    ],
+    "international_collaborations": null
+  },
+  "infrastructure": {
+    "labs": [
+      "Medical Centre",
+      "Centres"
+    ]
+  },
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iitgn.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 79,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-gandhinagar",
+  "last_scraped_at": "2026-03-31T16:00:50.933860",
+  "department_count": 55,
+  "total_faculty": 278
+}

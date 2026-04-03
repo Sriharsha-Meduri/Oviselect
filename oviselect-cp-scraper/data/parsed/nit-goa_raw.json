@@ -1,0 +1,77 @@
+{
+  "institute": "NIT Goa",
+  "also_known_as": "NITG",
+  "institute_type": "NIT",
+  "established_year": 2010,
+  "city": "Ponda",
+  "state": "Goa",
+  "address": "National Institute of Technology, Kottamoll Plateau, Cuncolim, Salcete, South Goa, Goa - 403703",
+  "nearest_airport": "Goa International Airport",
+  "nearest_airport_km": 40.0,
+  "nearest_railway_station": "Madgaon Junction Railway Station",
+  "nearest_railway_km": 13.5,
+  "nirf_engineering_rank": 101,
+  "caution_money": 4000,
+  "one_time_fees": 6000,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 10500,
+  "total_institute_fee": 84000,
+  "hostel_fee_per_sem": 6000,
+  "mess_advance_per_sem": 21750,
+  "total_hostel_fee": 44250,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 88.24,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 75.0,
+    "Computer Science and Engineering": 96.0,
+    "Electrical and Electronics Engineering": 81.48,
+    "Electronics and Communication Engineering": 96.97,
+    "Mechanical Engineering": 85.71,
+    "Overall": 88.24
+  },
+  "placement_year": 2023,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 7.7,
+    "Computer Science and Engineering": 13.4,
+    "Electrical and Electronics Engineering": 12.74,
+    "Electronics and Communication Engineering": 12.45,
+    "Mechanical Engineering": 7.92,
+    "Overall": 11.45
+  },
+  "avg_package_lpa": 10.94,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-goa",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-goa",
+  "last_scraped_at": "2026-03-31T16:06:39.877215",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitgoa.ac.in",
+  "research": {
+    "total_funding_crores": 11.0,
+    "funding_agencies": [
+      "DST",
+      "SERB",
+      "MHRD"
+    ]
+  },
+  "phd_available": true,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "has_nss": false,
+    "has_ncc": false
+  },
+  "international_relations": {
+    "foreign_students_on_campus": 500
+  }
+}

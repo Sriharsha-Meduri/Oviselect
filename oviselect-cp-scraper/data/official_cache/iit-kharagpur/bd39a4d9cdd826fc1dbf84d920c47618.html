@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Indian Institute of Technology Kharagpur | </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="icon" type="image/x-icon" href="https://www.iitkgp.ac.in/assets/img/favicon.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <link rel="stylesheet" href="https://www.iitkgp.ac.in/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://www.iitkgp.ac.in/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://www.iitkgp.ac.in/assets/fontawesome-pro-6/css/all.min.css">
+
+    <link rel="stylesheet" href="https://www.iitkgp.ac.in/assets/pages/css/animate.min.css">
+    <link rel="stylesheet" href="https://www.iitkgp.ac.in/assets/pages/css/style.css">
+    <link rel="stylesheet" href="https://www.iitkgp.ac.in/assets/pages/css/media.css">
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
+	<script src="https://www.iitkgp.ac.in/assets/js/jquery.min.js"></script>
+	
+	<!--<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>-->
+	<script src="https://www.iitkgp.ac.in/assets/js/jquery-2.2.4.min.js"></script>
+	
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>-->
+	<script src="https://www.iitkgp.ac.in/assets/js/jquery-ui.min.js"></script>
+    
+	<style>
+    .iho-slider .owl-dots{
+        text-align: center;
+    }
+    .iho-slider button.owl-dot{
+        height: 13px;
+        width: 13px;
+        border: 1px solid #b9b9b9 !important;
+        margin: 3px;
+        border-radius: 50%;
+    }
+    .iho-slider .owl-dot.active{
+        border-color:#db5903;
+        background-color:#db5903;
+    }
+	
+
+	#button {
+	  display: inline-block;
+	  background-color: #FF9800;
+	  width: 50px;
+	  height: 50px;
+	  text-align: center;
+	  border-radius: 4px;
+	  position: fixed;
+	  bottom: 30px;
+	  right: 30px;
+	  transition: background-color .3s,
+		opacity .5s, visibility .5s;
+	  opacity: 0;
+	  visibility: hidden;
+	  z-index: 1000;
+	}
+	#button::after {
+	  content: "\f077";
+	  font-family: FontAwesome;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-size: 2em;
+	  line-height: 50px;
+	  color: #fff;
+	}
+	#button:hover {
+	  cursor: pointer;
+	  background-color: #333;
+	}
+	#button:active {
+	  background-color: #555;
+	}
+	#button.show {
+	  opacity: 1;
+	  visibility: visible;
+	}
+	
+	#downArrow {
+		background: #fff;
+		border: 0;
+		border-radius: 3px;
+		padding: 3px 9px;
+	}
+	
+	
+	/** CSS for Loader **/
+    .loading-state {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .loading-div {
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+        /*border: 15px solid #1d1150;*/
+        border: 15px solid #ddd;
+        border-top-color: #db5903;
+        animation: loading 1s linear infinite;
+        top: 50%;
+        bottom: 50%;
+        right: 50%;
+        left: 50%;
+        position: absolute;
+    }
+    @keyframes loading {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+	
+	
+	
+	.scroll-container {
+	  overflow: hidden;
+	  white-space: nowrap;
+	  width: 100%;
+	  border: 1px solid #ccc;
+	}
+
+	.scroll-text {
+	  display: inline-block;
+	  padding-left: 100%;
+	  animation: scroll-left 40s linear infinite;
+	}
+
+	.scroll-container:hover .scroll-text,
+	.scroll-container:focus .scroll-text {
+	  animation-play-state: paused; /* allows user to pause */
+	}
+
+	@keyframes scroll-left {
+	  0% { transform: translateX(0%); }
+	  100% { transform: translateX(-100%); }
+	}
+      /* css by mohit date 18-03-26 start */
+    .dropdown-menu.social-dropdown {
+        padding-block: 16px;
+        width: 150px;
+        top: 100%;
+        margin-top: 10px !important;
+        z-index: 99999999;
+       
+    }
+
+     .dropdown-menu.social-dropdown.show {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-direction: column;
+    width: 60px;
+    align-items: center;
+    min-width: auto;
+}
+     .social-media .dropdown-toggle{
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 9px;
+        font-weight: 500;
+        font-size: 1.5rem;
+        text-transform:capitalize;
+        cursor:pointer;
+     }
+    .dropdown-menu.social-dropdown a{
+    margin:0;
+    color:#000;
+
+    }
+    .dropdown-menu.social-dropdown a i{
+    transition:.3s
+    }
+    .dropdown-menu.social-dropdown a:hover i{
+    color:#db5903;
+    }
+      .social-media   a.dropdown-toggle{
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 9px;
+            font-weight: 500;
+            font-size: 1.5rem !important;
+            text-transform: capitalize;
+            display: flex;
+            align-items:center;
+         }
+         .dropdown-toggle::after {
+            content: '\f078';
+            display: inline-block;
+            margin-left: .255em;
+            vertical-align: .255em;
+            border:none;
+            font-size: 18px;
+            font-family: 'Font Awesome 5 Pro';
+    
+        }
+
+     /* css by mohit date 18-03-26 ends */
+	</style>
+</head>
+
+
+<body>
+
+	<div class="loading-state" id="loader_section" style="display:none;"><div class="loading-div"></div></div>
+	
+	<style>
+		li[title="Hospital"] a,
+		li[title="Hospital"] a:hover,
+		li[title="Hospital"] a:focus,
+		li[title="Hospital"] a:active,
+		li[title="Hospital"] a::before,
+		li[title="Hospital"] a::after,
+		li[title="Hospital"] a:hover::before,
+		li[title="Hospital"] a:hover::after {
+			text-decoration: none !important;
+			border: none !important;
+			border-bottom: 0 !important;
+			box-shadow: none !important;
+			background: none !important;
+			background-image: none !important;
+			content: none !important; /* hides pseudo-element content */
+		}
+	</style>
+
+
+
+    <a id="button"></a>
+
+
+
+<style>
+.pill-link {
+	display: inline-block;            
+	padding: 4px 12px;                 
+	font-size: 0.85rem;                
+	font-weight: 600;                  
+	border-radius: 999px;              
+	background-color: #FDF781;         
+	color: #FF000C !important;                    
+	text-decoration: none !important;  
+	transition: all 0.2s ease;         
+	line-height: 1;  
+}
+
+.pill-link:hover,
+.pill-link:focus,
+.pill-link:active,
+.pill-link:visited {
+	text-decoration: none !important;  
+}
+
+.pill-link:hover {
+	background-color: #1B1B5C;         
+	color: #FFFFFF !important;
+	transform: translateY(-1px);       
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.pill-link:focus {
+	outline: 2px solid rgba(0,0,0,0.2);
+	outline-offset: 2px;
+}
+
+.primary-menu-links li a.pill-link,
+.primary-menu-links li a.pill-link:hover,
+.primary-menu-links li a.pill-link:focus,
+.primary-menu-links li a.pill-link:active,
+.primary-menu-links li a.pill-link:visited,
+.primary-menu-links li a.pill-link::after,
+.primary-menu-links li a.pill-link::before {
+    text-decoration: none !important;  
+    border: none !important;           
+    box-shadow: none !important;       
+    content: none !important;          
+}
+
+
+</style>
+
+
+    <header id="header">
+        <div class="header-top-strip  orange-bg">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center position-relative"> 
+                    <nav id="primaryNav" class="topmenunav">
+                        <ul class="primary-menu-links d-xl-flex align-items-center">
+                                                        <li>
+                                
+
+                                <a title='Home' href='https://www.iitkgp.ac.in/home' class='cursor' ><i class="fas fa-home fz22"></i></a>                                            
+                            </li>
+                                                        <li>
+                                
+
+                                <a title='About' href='https://www.iitkgp.ac.in/about-iitkgp' class='cursor' >About</a>                                            
+                            </li>
+                                                        <li>
+                                
+
+                                <a title='Administration' href='https://www.iitkgp.ac.in/navpage/administration' class='cursor' >Administration</a>                                            
+                            </li>
+                                                        <li>
+                                
+
+                                <a title='Students' href='https://www.iitkgp.ac.in/navpage/student' class='cursor' >Students</a>                                            
+                            </li>
+                                                        <li>
+                                
+
+                                <a title='Faculty and Staff' href='https://www.iitkgp.ac.in/faculty-why-joining-iitkgp' class='cursor' >Faculty and Staff</a>                                            
+                            </li>
+                                                        <li>
+                                
+
+                                <a title='Visitors' href='https://www.iitkgp.ac.in/how-to-reach' class='cursor' >Visitors</a>                                            
+                            </li>
+                                                        <li>
+                                
+
+                                <a title='Outreach and Alumni Affairs' href='https://www.iitkgp.ac.in/navpage/outreach' class='cursor' >Outreach and Alumni Affairs</a>                                            
+                            </li>
+                                                        <li>
+                                
+
+                                <a href="https://www.iitkgp.ac.in/pj" 
+											  class="pill-link" style="text-decoration: none !important;">
+										  Platinum Jubilee
+										  </a>                                            
+                            </li>
+                                                        <li>
+                                
+
+                                <a title='Jobs' href='https://www.iitkgp.ac.in/navpage/jobs' class='cursor' >Jobs</a>                                            
+                            </li>
+                                                        <!-- <li title="Hospital">
+								<a title="Hospital"
+								   href="https://spmsh.iitkgp.ac.in"
+								   target="_blank">
+									<img src="assets/images/spmsh.png" width="50">
+								</a>
+							</li> -->
+ 
+                        </ul>                           
+                    </nav>
+                    <div class="lang-fontSize-social-media">
+                            <ul class="d-flex align-items-center">
+                                <li class="social-media d-flex ps-0 ms-0 dropdown">
+                                      <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">social</a>
+                                      <div class="dropdown-menu social-dropdown">
+                                      <a title="Facebook" href="https://www.facebook.com/IITKgp" target="_blank" data-toggle="tooltip" data-bs-original-title="Facebook" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+                                    
+                                    <a title="Twitter" href="https://twitter.com/IITKgp" target="_blank" data-toggle="tooltip" data-bs-original-title="Twitter" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a>
+                                    
+                                    <a title="LinedIn" href="https://www.linkedin.com/school/indian-institute-of-technology-kharagpur" target="_blank" data-toggle="tooltip" data-bs-original-title="Linedin" aria-label="Linedin"><i class="fab fa-linkedin"></i></a>
+                                    
+                                    <a title="Instagram" href="https://www.instagram.com/iit.kgp" target="_blank" data-toggle="tooltip" data-bs-original-title="Instagram" aria-label="Instagram"><i class="fab fa-instagram-square"></i></a>
+                                    
+                                    <a title="Youtube" href="https://www.youtube.com/channel/UCQCLWAILNrEVemERg4ybAYQ" target="_blank" data-toggle="tooltip" data-bs-original-title="Youtube" aria-label="Youtube"><i class="fab fa-youtube-square"></i></a>
+</div>
+                                </li>
+								
+                   
+                                <li class="incDecFont d-none">
+                                    <span title="Font Decrease" class="dec">A-</span>
+                                    <span title="Font Normal" class="fontSize">A</span>
+                                    <span title="Font Increase" class="inc">A+</span>
+                                </li>
+								
+								
+                                                                <li class="incDecFont change_language position-relative" style="margin-left: 1pt;">
+                                    <select title="Change Language" class="bg-transparent fw400 w-auto shadow-none d-inline-block form-control border-0 px-0 pe-5 text-white" id="change_language"> 
+                                                                            <option value="en" selected>English</option>
+                                                                            <option value="hi" >हिन्दी</option>
+                                                                        </select>
+                                </li>
+								
+
+                                <li title="Search" class="incDecFont">
+                                    <button title="Search" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" class="searchNada d-flex align-items-center order-xl-4"><i class="far fa-search"></i></button>                   
+                                    <div class="searchbar-div dropdown-menu px-5">
+                                        <form method="POST" action="#" class="form-control" id="search_button">
+                                            <div class="form-group flex-grow-1">
+                                                <input type="search" class="form-control mb-0" id="search_text_box" autocomplete="off">
+                                                <input type="hidden" id="search_lang" value="">
+                                                <span class="ml9 movingLetters">
+                                                    <!-- <span class="line line1"></span> -->
+                                                    <span class="letters">Indian Institute of Technology Kharagpur</span>
+                                                </span>
+                                                <button title="Search Submit" id="" class="searchSubmit"><i class="fal fa-search"></i> </button>
+                                                <span id="error_search"></span>
+                                            </div>
+                                        </form>                     
+                                    </div>
+                                </li>
+
+								<li><button title="Top to Bottom" id="downArrow" onclick="tobottom();"><i class="fa-solid fa-arrow-down"></i></button></li>						
+                            </ul>
+                        </div>
+                        <div onclick="this.classList.toggle('open'); document.getElementsByClassName('menu-overlay')[0].classList.toggle('active'); document.getElementById('primaryNav').classList.toggle('open');" class="menubar d-xl-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="menu-overlay" onclick="document.getElementsByClassName('menubar')[0].classList.remove('open'); document.getElementsByClassName('menu-overlay')[0].classList.remove('active'); document.getElementById('primaryNav').classList.remove('open');">
+                        </div>
+                </div>                
+            </div>
+        </div>      
+        <div class="logo-menu py-3">
+            <div class="container">
+                <div class=" position-relative main-wrapper">  
+
+			<div class="mobile-menu-wrapper">
+				
+                    <div class="logo order-xl-1">
+                        <a href="https://www.iitkgp.ac.in/">
+                            <img title="Indian Institute of Technology Kharagpur" src="https://www.iitkgp.ac.in/assets/pages/images/logo.png" class="img-fluid" alt="Indian Institute of Technology Kharagpur">
+                        </a>
+                    </div> 
+					<button title="Menus" class="d-xl-none secondary-menu-btn order-xl-3"  data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"><i class="fas fa-ellipsis-v"></i></button>
+                    <nav class="ms-auto order-xl-2 dropdown-menu mainmenunav">
+                    <ul class="d-xl-flex  align-items-center">
+                                        <li><a title="Academics" href="https://www.iitkgp.ac.in/navpage/academics" class="cursor">Academics</a></li>
+                                        <li><a title="Admissions" href="https://www.iitkgp.ac.in/navpage/admissions" class="cursor">Admissions</a></li>
+                                        <li><a title="Research" href="https://www.iitkgp.ac.in/navpage/research" class="cursor">Research</a></li>
+                                        <li><a title="Industry" href="https://www.iitkgp.ac.in/navpage/industry" class="cursor">Industry</a></li>
+                                        </ul>
+                    </nav>
+			</div>					
+
+					<!-- G20 and Abhijnana Logos Start -->
+					<div class="d-flex align-items-center order-4 ms-md-auto other-logo">
+						<a href="https://www.iitkgp.ac.in/abhijnana">
+							<img title="Abhijnana" src="https://www.iitkgp.ac.in//assets/pages/images/abhijnana-logo.png" class="img-fluid me-3" alt="Abhijnana Logo">
+						</a>
+						<a href="https://www.iitkgp.ac.in/pj"><img src="/assets/pages/images/logopj.jpg" class="img-fluid me-3" alt="Logo" target="_blank"> </a> 
+					</div>
+                    <!-- G20 and Abhijnana Logos End -->
+                    
+                    
+                </div>
+            </div>
+        </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1>Oops!</h1>
+                <h2>404 Not Found</h2>
+                <div class="error-details">
+                    Sorry, an error has occured, Requested page not found!
+                </div>
+                <div class="error-actions">
+                    <a href="https://www.iitkgp.ac.in/" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                        Take Me Home </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Footer -->
+<footer class="footer">
+    <div class="footer-main pb-0">
+        <div class="container">
+        
+        <div class="row gx-lg-5 footer-links">
+
+        
+
+
+
+     
+        <div class="col-sm-12 pb-5 pb-sm-0">
+            <div class="row htmlFQuickLinkmenu">
+
+                    <div class="col-lg-3 col-6 px-xl-5">                   
+                        <ul>
+                        <li><a title="Academic Calendar" href="/academic-calendar-ug">Academic Calendar</a></li><li><a title="Administrative Calendar" target="_BLANK" href="https://www.iitkgp.ac.in/assets/pdf/AdministrativeCalendar.pdf">Administrative Calendar</a></li><li><a title="Announcements" href="/iitkgp-announcements">Announcements</a></li><li><a title="Anti-Ragging Measures" href="/anti-ragging-measures">Anti-Ragging Measures</a></li><li><a title="Apna IIT KGP" target="_BLANK" href="http://apna.iitkgp.ac.in">Apna IIT KGP</a></li><li><a title="BIS Corner" href="/bis-corner">BIS Corner</a></li><li><a title="Career Development Centre" target="_BLANK" href="https://cdc.iitkgp.ac.in/">Career Development Centre</a></li><li><a title="Central Library" href="/academics-library">Central Library</a></li><li><a title="Communication Directory" target="_BLANK" href="https://www.iitkgp.ac.in/assets/pdf/comdir.pdf">Communication Directory</a></li></ul></div> <div class="col-lg-3 col-6 px-xl-5"><ul><li><a title="Contact Academic Section" href="/academic-units">Contact Academic Section</a></li><li><a title="Degree Verification/ Transcripts/ Certificates" target="_BLANK" href="https://erp.iitkgp.ac.in/DupCertReqPortal/auth/welcome.htm">Degree Verification/ Transcripts/ Certificates</a></li><li><a title="ERP" target="_BLANK" href="https://erp.iitkgp.ac.in">ERP</a></li><li><a title="Fee Payment (passed-out students)" target="_BLANK" href="https://erp.iitkgp.ac.in/SupplierFacilities/feePaymentPageView.htm">Fee Payment (passed-out students)</a></li><li><a title="For Parents/Guardians" target="_BLANK" href="https://erp.iitkgp.ac.in/StudentPerformanceV2/auth/login.htm">For Parents/Guardians</a></li><li><a title="Former Employees" href="/former-employees">Former Employees</a></li><li><a title="Holidays" href="/holidays">Holidays</a></li><li><a title="Internal Complaints Committee" href="/internal-complaints-committee">Internal Complaints Committee</a></li><li><a title="KGP Directory" target="_BLANK" href="https://www.iitkgp.ac.in/assets/pdf/IITKGPDirectory.pdf">KGP Directory</a></li></ul></div> <div class="col-lg-3 col-6 px-xl-5"><ul><li><a title="Policy for Institute IT Infrastructure" target="_BLANK" href="https://cic.iitkgp.ac.in/?q=Policies">Policy for Institute IT Infrastructure</a></li><li><a title="Prime Minister's Research Fellowship (PMRF)" target="_BLANK" href="https://www.pmrf.in/">Prime Minister&#039;s Research Fellowship (PMRF)</a></li><li><a title="Right to Information" href="/right-to-information">Right to Information</a></li><li><a title="SETU" target="_BLANK" href="https://sarth.iitkgp.ac.in">SETU</a></li><li><a title="Sustainability@IIT Kharagpur" href="/navpage/sdsi">Sustainability@IIT Kharagpur</a></li><li class="li-data-with-pipeline"><a title="Tenders" href="/tenders">Tenders</a> | <a title="VDP" target="_BLANK" href="https://www.iitkgp.ac.in/assets/pdf/VDP.pdf">VDP</a> | <a title="Vendor" target="_BLANK" href="https://erp.iitkgp.ac.in/SupplierFacilities/login.htm">Vendor</a></li><li class="li-data-with-pipeline"><a title="Gmail for students" target="_BLANK" href="https://mail.google.com/">Gmail for students</a> | <a title="Zimbra Mail" target="_BLANK" href="https://iitkgpmail.iitkgp.ac.in/">Zimbra Mail</a></li>                        </ul>
+                    </div>
+
+
+                    
+                    <div class="col-lg-3 col-12 px-xl-5">
+                        
+                        <!-- IIT Logo with full address details section -->
+                        <div class="wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+                            <figure>
+                                <img title="Indian Institute of Technology Kharagpur" src="https://www.iitkgp.ac.in/assets/pages/images/footer-logo.png" alt="Indian Institute of Technology Kharagpur" class="img-fluid wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+                            </figure>  
+                            <div title="Full Details" class="phnum">
+                            <p class="wow fadeInUp  mt-5">Indian Institute of Technology<br>
+Kharagpur, Kharagpur, India - 721302</p>
+
+<div class="d-flex align-items-center mb-4 mt-5 wow fadeInUp">
+<div>Phone: <a href="tel:913222255221">+91-3222-255221</a></div>
+</div>
+
+<div class="d-flex align-items-center wow fadeInUp">
+<div>Fax: <a href="tel:913222255303">+91-3222-255303</a></div>
+</div>                 
+                            </div>
+
+                            <div class="social-media ss d-flex my-5">
+                                <a href="https://www.facebook.com/IITKgp" target="_blank" class="wow fadeInUp fz26 me-4" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                                
+                                <a href="https://twitter.com/IITKgp" target="_blank" class="wow fadeInUp fz26 me-4" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+                                
+                                <a href="https://www.linkedin.com/school/indian-institute-of-technology-kharagpur" target="_blank" class="wow fadeInUp fz26 me-4" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+                                
+                                <a href="https://www.instagram.com/iit.kgp" target="_blank" class="wow fadeInUp fz26 me-4" title="Instagram"><i class="fab fa-instagram-square"></i></a>
+                                
+                                <a href="https://www.youtube.com/channel/UCQCLWAILNrEVemERg4ybAYQ" target="_blank" class="wow fadeInUp fz26 me-4" title="Youtube"><i class="fab fa-youtube-square"></i></a>
+                            </div>     
+                        </div>
+                        
+						<br>
+
+						                        <div class="row">
+                            <div class="col-lg-12">
+                                <p title="Total Visitors" class=" visitors ">Visitors:
+                                <span> 9 </span><span> 2 </span><span> 0 </span><span> 9 </span><span> 8 </span><span> 8 </span><span> 4 </span>                                </p>
+                                
+                                                                <p title="Last Update" class="" style="margin-top: 0pt;">
+                                    Last Update: 30 March 2026                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+
+
+
+            <div class="d-lg-flex footer-nav justify-content-between align-items-center">
+                <nav>
+                    <ul class="d-flex justify-content-center flex-wrap justify-content-lg-start htmlFBottommenu">
+                                                    <li><a title="Legal Disclaimer" href="https://www.iitkgp.ac.in/legal-disclaimer" >Legal Disclaimer</a></li>
+                                                    <li><a title="Webmaster" href="mailto:contact.iic@iitkgp.ac.in" target="_blank">Webmaster</a></li>
+                                                    <li><a title="Sitemap" href="https://www.iitkgp.ac.in/sitemap" >Sitemap</a></li>
+                                                    <li><a title="Google Map" href="https://www.iitkgp.ac.in/campus-map" >Google Map</a></li>
+                                                    <li><a title="Screen Reader Access" href="https://www.iitkgp.ac.in/screen-reader-access" >Screen Reader Access</a></li>
+                                            </ul>
+
+                    <p></p>
+                    
+                    <p>
+                    © 2023 Indian Institute of Technology Kharagpur                    </p>
+                </nav>
+
+
+                <!-- Footer Bottom Right Side Menus -->
+                <figure class="text-center text-lg-end mt-4 mt-lg-0 mb-0 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+					<span><a title="NTF " href="https://ntf.education.gov.in" target="_blank"><font style="size: 24pt;">NTF</font></a></span>
+					
+                    <span><a title="ARIIA" href="https://www.iitkgp.ac.in/ariia" target="_blank"><img src="https://www.iitkgp.ac.in/assets/pages/images/ariia_logo.jpg" alt="ARIIA" style="width:36px"></a>
+                    </span>
+
+                    <span><a title="NIRF" href="https://www.iitkgp.ac.in/nirf" target="_blank"><img src="https://www.iitkgp.ac.in/assets/pages/images/nirf-logo.png" alt="NIRF" style="width:70px"></a>
+                    </span>
+
+                    <span><a title="VOTERS' SERVICE PORTAL" href="https://www.nvsp.in" target="_blank"><img src="https://www.iitkgp.ac.in/assets/pages/images/voters-img.png" class="img-fluid " alt="VOTERS' SERVICE PORTAL" style="width: 140px"></a></span>
+
+                    <span><a title="NMEICT" href="https://www.iitkgp.ac.in/mhrd-initiatives" target="_blank">NMEICT</a></span>
+
+                    <span><a title="Vidya Lakshmi Portal" href="https://www.vidyalakshmi.co.in/Students/" target="_blank"><img src="https://www.iitkgp.ac.in/assets/pages/images/vl.jpg" class="img-fluid " alt="Vidya Lakshmi Portal" style="width: 50px"></a></span>
+
+                    <span><a title="National Commision for Women (NCW)" href="https://www.ncwwomenhelpline.in/" target="_blank"><img src="https://www.iitkgp.ac.in/assets/pages/images/ncwlogo.png" class="img-fluid " alt="National Commision for Women (NCW)" style="width: 50px"></a></span>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 text-center text-lg-start mt-4 mt-lg-0 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;"></div>
+
+                <div class="col-lg-6 order-1 order-lg-2 htmlFMoreInfomenu"></div>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+<input type="hidden" id="home_url" name="home_url" value="https://www.iitkgp.ac.in/">
+<!--end Footer -->
+
+
+
+
+
+<script src="https://www.iitkgp.ac.in/assets/js/popper.min.js"></script>
+<script src="https://www.iitkgp.ac.in/assets/js/bootstrap.min.js"></script>
+<script src="https://www.iitkgp.ac.in/assets/js/owl.carousel.min.js"></script>
+<script src="https://www.iitkgp.ac.in/assets/js/anime.min.js"></script>
+
+
+<script src="https://www.iitkgp.ac.in/assets/pages/js/wow.min.js"></script>
+<script src="https://www.iitkgp.ac.in/assets/pages/js/jquery.bxslider.js"></script>
+<script src="https://www.iitkgp.ac.in/assets/pages/js/main.js"></script>
+<script src="https://www.iitkgp.ac.in/assets/pages/js/jquery.waypoints.min.js"></script>
+<script src="https://www.iitkgp.ac.in/assets/pages/js/jquery.counterup.js"></script>
+<script src="https://www.iitkgp.ac.in/assets/pages/js/marquee.js"></script>
+ <script src="https://www.iitkgp.ac.in/assets/accessibility/accessibility.js" defer></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+<!-- Modal for showing slider according to year for Institute Honor -->
+<div class="modal fade" id="openYearSliderModal" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" style="max-width: 1150px;">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="inst_honor_title_modal"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+            <div class="iho-slider owl-carousel" id="inst_honor_silder_content">
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Popup Modal for external link -->
+<div class="popup-overlay" id="popup">
+	<div class="popup-box">
+		<p>You are about to leave this site. Continue?</p>
+		<div class="popup-buttons">
+			<button class="cancel-btn" onclick="closePopup()">Cancel</button>
+			<button class="proceed-btn" id="proceedBtn">Proceed</button>
+		</div>
+	</div>
+</div>
+
+
+<script>
+
+        var textWrapper = document.querySelector('.ml9 .letters');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+        anime.timeline({ loop: true})
+        .add({ 
+            targets: '.ml9 .letter',
+            scale: [0, .9],
+            duration: 1500,
+            elasticity: 600,
+            delay: (el, i) => 45 * (i+1)
+        }).add({ 
+            targets: '.ml9',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 1000
+        });
+
+        $('.searchbar-div .form-control').focus(function () {           
+            $('.movingLetters').hide()           
+        })
+        $('.searchbar-div .form-control').blur(function () {   
+            if($(this).val() != ''){ 
+                $('.movingLetters').hide()
+            }else{ 
+                $('.movingLetters').show()
+            }
+        })
+    </script>
+<script>
+$(document).on("change", '#change_language', function () {
+    var language = $('#change_language').val();
+    //var language = 'en';
+    //alert('Hiii'+language);return false;
+    $.ajax({
+        url: 'https://www.iitkgp.ac.in/set_language',
+        type: 'post',
+        //dataType:'json',
+        data:{ language:language },
+        success: function (res) {
+            location.reload();
+        }
+    });
+});
+$('body').on('click', '.divheadingOne', function(e) { 
+        //$('.accordion-collapse-box').find('.accordion-collapse-level-box').stop().slideUp();
+        //$(this).closest('.accordion-collapse-box').find('.accordion-collapse-level-box').stop().slideToggle();
+        //$(".divheadingOne").removeClass("openbox");
+        //$(this).addClass('openbox');
+     $(".openbox").not(this).removeClass("openbox").next().slideUp(300);
+    $(this).toggleClass("openbox").next().slideToggle(300);
+});
+
+$('#search_button').submit(function (e) {
+    $("body").addClass("loadercls"); 
+    e.preventDefault();
+
+    var search_text_box = $("#search_text_box").val();
+
+    //alert('Search Key: ' + search_text_box);return false;
+    //alert('https://www.iitkgp.ac.in/search/getSearchRes');return false;
+
+    if(search_text_box != '')
+    {
+        $.ajax({
+            url: 'https://www.iitkgp.ac.in/search/getSearchRes',
+            type: 'POST',
+            data: {'search_text_box': search_text_box},
+            error: function() {
+                alert('Something is wrong');
+            },
+            success: function(data) {
+                 $("body").removeClass("loadercls");
+                //alert(data);return false;
+                $(".searchbar-div").hide();
+                window.location.href='https://www.iitkgp.ac.in/search-result/'+data;
+
+
+            }
+        });
+    } else {
+        $("#error_search").text('Please input text!');
+        return false;
+    }
+});
+
+$(document).on("click", '.searchIITKGP', function () {
+    $('.searchbar-div').addClass('show');
+});
+$(document).mouseup(function (e) {
+    if ($(e.target).closest(".searchbar-div").length
+                === 0) {
+        $(".searchbar-div").removeClass('show');
+    }
+});
+
+
+
+
+$('.home-banner-slider').owlCarousel({
+    items: 1,
+    margin: 0,
+    smartSpeed: 450,
+    autoplay: true,
+    loop: true,
+    // animateOut: 'fadeIn',
+    // animateOut: 'fadeOut',
+    dots: false,
+    nav: true,
+    navText: [
+        '<i class="fal fa-angle-left"></i>',
+        '<i class="fal fa-angle-right"></i>'
+    ],
+});
+$('.recent-achievment-slider').owlCarousel({
+    items: 1,
+    margin: 0,
+    smartSpeed: 450,
+    autoplay: false,
+    loop: true,
+    // animateOut: 'fadeIn',
+    // animateOut: 'fadeOut',
+    dots: false,
+    nav: false,
+});
+
+$('.owl-carousel').owlCarousel({
+    items: 1,
+    margin: 0,
+    smartSpeed: 450,
+    autoplay: true,
+    loop: true,
+    autoplayHoverPause: true,
+    dots: false,
+    nav: true,
+    navText: [
+        '<i class="fal fa-angle-left"></i>',
+        '<i class="fal fa-angle-right"></i>'
+    ],
+});
+
+$('.phd-result-annoucment-slider').owlCarousel({
+    items: 1,
+    margin: 0,
+    smartSpeed: 450,
+    autoplay: true,
+    loop: true,
+    autoplayHoverPause: true,
+    dots: false,
+    nav: true,
+    navText: [
+        '<i class="fal fa-angle-left"></i>',
+        '<i class="fal fa-angle-right"></i>'
+    ],
+});
+
+
+if ($('.upcoming-events').length > 0)
+{
+    $('.upcoming-events').bxSlider({
+        mode: 'vertical',
+        speed: 500,
+        slideMargin: 15,
+        infiniteLoop: true,
+        pager: false,
+        controls: true,
+        // slideWidth: 125,
+        minSlides: 2,
+        auto: true,
+        maxSlides: 2,
+        moveSlides: 1,
+        adaptiveHeight: false,
+    });
+}
+
+
+// JS For Back to top button
+var btn = $('#button');
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 200) {
+        btn.addClass('show');
+    } else {
+        btn.removeClass('show');
+    }
+});
+
+btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+});
+
+// JS For Top to bottom
+function tobottom() {
+    $("html,body").animate(
+        { scrollTop: $("html").height() - $(window).height() },
+        1000,
+        "easeInOutQuad"
+    );
+}
+
+function openYearSliderInModal(inst_honor_id, year)
+{
+    $('#inst_honor_silder_content').html('');
+    $('.iho-slider').owlCarousel('destroy');
+
+    $.ajax({
+        url: 'https://www.iitkgp.ac.in/openYearSliderInModal',
+        type: 'POST',
+        data: { 'inst_honor_id': inst_honor_id, 'year': year },
+        dataType:'json',
+        success: function(data) {
+            $('#inst_honor_title_modal').html(data.title_year);
+            $('#inst_honor_silder_content').html(data.html);
+            $('#openYearSliderModal').modal('show');
+            
+            $('.iho-slider').owlCarousel({
+                items: 3,
+                margin: 0,
+                smartSpeed: 450,
+                autoplay: true,
+                autoplayTimeout:2000,
+                autoplayHoverPause: true,
+                loop: false,
+                dots: true,
+                nav: false,
+                navText: [
+                    '<i class="fal fa-angle-left"></i>',
+                    '<i class="fal fa-angle-right"></i>'
+                ],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    },
+                    1200: {
+                        items: 3
+                    }
+                }
+            });
+
+        }
+    });
+}
+</script>
+
+ 
+  <script>
+	let externalLink = "";
+
+	document.querySelectorAll("a").forEach(link => {
+		link.addEventListener("click", function(event) {
+			const linkHost = new URL(this.href).hostname;
+			const currentHost = location.hostname;
+				console.log("hostLink==", linkHost, "currentHost==", currentHost);
+
+			/*if (linkHost !== currentHost)
+			{
+				event.preventDefault();
+				externalLink = this.href;
+				document.getElementById("popup").style.display = "flex"; // Show popup
+			}*/
+		});
+	});
+
+	function closePopup() {
+		document.getElementById("popup").style.display = "none";
+	}
+
+	document.getElementById("proceedBtn").addEventListener("click", function() {
+		window.open(externalLink, "_blank");
+		closePopup();
+	});
+	
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  document.querySelectorAll('ul li a').forEach((item)=>{
+item.setAttribute("style","")
+});
+  document.querySelectorAll('.social-media a').forEach((item)=>{
+item.setAttribute("style","")
+});
+document.getElementById("change_language").setAttribute("style","");
+})
+
+</script> 
+
+</body>
+</html>

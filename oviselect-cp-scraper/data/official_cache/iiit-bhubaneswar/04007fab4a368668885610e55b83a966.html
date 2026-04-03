@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]>
+<html class="ie lt-ie9" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+
+<head>
+
+    <style>
+        .is-menu-wrapper {
+            display: none !important;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/assets/css/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/assets/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/custom-new.css">
+    <style>
+        /*--====== Sidebar ======--*/
+        #sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99999;
+            max-width: 300px;
+            width: 80%;
+            height: 100%;
+            padding: 2rem;
+            background-color: #f1f1f1;
+            box-shadow: 0 10px 20px -4px #000;
+            overflow-x: hidden;
+            overflow-y: auto;
+            pointer-events: none;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateX(-100%);
+            transition: opacity 0.3s ease, visibility 0.2s ease, transform 0.3s ease;
+        }
+
+        /* when the sidebar has 'show' class */
+        #sidebar.show {
+            pointer-events: all;
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(0);
+        }
+
+        .sidebar_content {
+            padding: 2.8rem 0;
+            pointer-events: none;
+            /* so that the Sidebar does not get closed while clicking on sidebar_content */
+        }
+
+        .sidebar_content a {
+            pointer-events: all;
+            /* so that all the <a> inside sidebar_content are clickable */
+        }
+
+        .sidebar_body {
+            border-top: 1px dashed var(--text-color);
+            border-bottom: 1px dashed var(--text-color);
+        }
+
+        .side_navlinks ul {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .side_navlinks li a {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+
+        .side_navlinks a:hover {
+            opacity: 1;
+        }
+
+        /*---- Sidebar-Toggler ----*/
+        .sidebar_toggler {
+            position: fixed;
+            top: 4vh;
+            right: 3vw;
+            width: 1.75rem;
+            height: 1.3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .sidebar_toggler span {
+            background-color: #ddd;
+            width: 100%;
+            height: 2.4px;
+            transition: all 0.3s ease;
+            pointer-events: none;
+            /* so that it doesn't overlap the sidebar_toggler */
+        }
+
+        /* if the sidebar has 'show' class then their adjacent-sibling (i.e., sidebar_toggler) will... */
+        #sidebar.show+.sidebar_toggler {
+            justify-content: center;
+        }
+
+        #sidebar.show+.sidebar_toggler span {
+            margin-top: -1.2px;
+            margin-bottom: -1.2px;
+        }
+
+        #sidebar.show+.sidebar_toggler span:first-child {
+            transform: rotate(45deg);
+        }
+
+        #sidebar.show+.sidebar_toggler span:nth-child(2) {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+
+        #sidebar.show+.sidebar_toggler span:last-child {
+            transform: rotate(-45deg);
+        }
+    </style>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <title>Dr. Pradyut Kumar Biswal &#8211; IIIT Bhubaneswar</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="IIIT Bhubaneswar &raquo; Feed" href="https://www.iiit-bh.ac.in/feed/" />
+<link rel="alternate" type="application/rss+xml" title="IIIT Bhubaneswar &raquo; Comments Feed" href="https://www.iiit-bh.ac.in/comments/feed/" />
+<link href='//fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&subset=latin-ext,devanagari,latin' rel='stylesheet' type='text/css'><link href='//fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin-ext,vietnamese,latin' rel='stylesheet' type='text/css'><link href='//fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&subset=greek-ext,cyrillic-ext,latin-ext,vietnamese,latin,greek,cyrillic' rel='stylesheet' type='text/css'><script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.iiit-bh.ac.in\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='smartlib_prettyphoto-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/vendor/prettyPhoto/css/prettyPhoto.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='smartlib_iconmoon-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/vendor/iconmoon/style.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='smartlib_main-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/style.css?ver=6.6.1' type='text/css' media='all' />
+<style id='smartlib_main-inline-css' type='text/css'>
+.smartlib-main-navigation-wrapper .smartlib-default-top-navbar, .smartlib-navigation-header .smartlib-default-top-navbar.affix, .smartlib-navigation-header .smartlib-default-top-navbar .smartlib-search-navigation-area .smartlib-navbar-search-form.animated .smartlib-input-search-outer{background:rgba(0, 0, 0, )}.smartlib-default-top-navbar .smartlib-navbar-menu a{font-family:Poppins}body, p:not(.sangar-content p){font-family:Poppins}h1{font-family:Poppins}h2{font-family:Poppins}h3{font-family:Montserrat}h4{font-family:Roboto}h5{font-family:Roboto}h6{font-family:Roboto}.btn.btn-default{font-family:Roboto}@media (min-width:1230px) {.container, .smartlib-content-section,.smartlib-full-strech-section .panel-row-style{width:1200px}.smartlib-right-sidebar, .smartlib-left-sidebar{width:320px}.smartlib-left-content, .smartlib-right-content{width:880px}}
+</style>
+<link rel='stylesheet' id='smartlib_flexislider-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/vendor/flexslider/flexslider.css?ver=6.6.1' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-components-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/components/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-preferences-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/preferences/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/block-editor/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-reusable-blocks-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/reusable-blocks/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-patterns-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/patterns/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/editor/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='block-robo-gallery-style-css-css' href='https://www.iiit-bh.ac.in/wp-content/plugins/robo-gallery/includes/extensions/block/dist/blocks.style.build.css?ver=3.2.21' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.iiit-bh.ac.in/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='grid-gallery-style-css' href='https://www.iiit-bh.ac.in/wp-content/plugins/grid-gallery-plugin/grid-gallery-style.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wonderplugin-gridgallery-engine-css-css' href='https://www.iiit-bh.ac.in/wp-content/plugins/wonderplugin-gridgallery/engine/wonderplugingridgalleryengine.css?ver=18.4' type='text/css' media='all' />
+<link rel='stylesheet' id='ivory-search-styles-css' href='https://www.iiit-bh.ac.in/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=5.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/style.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/style.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/css/main.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='child-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/assets/css/main.css?ver=6.6.1' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/vendor/flexslider/jquery.flexslider-min.js" id="smartlib-flexislider-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/vendor/prettyPhoto/js/jquery.prettyPhoto.js" id="smartlib-prettyphoto-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/wonderplugin-gridgallery/engine/wonderplugingridlightbox.js?ver=18.4" id="wonderplugin-gridgallery-lightbox-script-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/wonderplugin-gridgallery/engine/wonderplugingridgallery.js?ver=18.4" id="wonderplugin-gridgallery-script-js"></script>
+<link rel="https://api.w.org/" href="https://www.iiit-bh.ac.in/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.iiit-bh.ac.in/wp-json/wp/v2/faculty/205" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.iiit-bh.ac.in/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.1" />
+<link rel="canonical" href="https://www.iiit-bh.ac.in/faculty/dr-pradyut-kumar-biswal/" />
+<link rel='shortlink' href='https://www.iiit-bh.ac.in/?p=205' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.iiit-bh.ac.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.iiit-bh.ac.in%2Ffaculty%2Fdr-pradyut-kumar-biswal%2F" />
+<link rel="icon" href="https://www.iiit-bh.ac.in/wp-content/uploads/2024/common-file/favicon.png" sizes="32x32" />
+<link rel="icon" href="https://www.iiit-bh.ac.in/wp-content/uploads/2024/common-file/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.iiit-bh.ac.in/wp-content/uploads/2024/common-file/favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.iiit-bh.ac.in/wp-content/uploads/2024/common-file/favicon.png" />
+
+</head>
+
+<body class="faculty-template faculty-template-single-Faculty faculty-template-single-Faculty-php single single-faculty postid-205 single-format-standard smartlib-body-has-topbar locale-en-us bootframe-core">
+
+
+        <header class="smartlib-navigation-header">
+
+
+        <!-- Top Bar -->
+        <div class="smartlib-top-navbar">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                
+                
+                                <div class="top-nav-right">
+                    <ul class="top-block">
+                        <li><a href="https://www.iiit-bh.ac.in">Home</a></li>
+                        <li><a href="mailto:info@iiit-bh.ac.in" target="_blank">Email</a></li>
+                        <li><a href="https://www.iiit-bh.ac.in/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="top-social">
+                    <ul class="social-block">
+                        <li><a href="https://www.facebook.com/iiit.bhubaneswar/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/BhubaneswarIiit?s=20" target="_blank"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2025/02/x-icon.png" class="twitter"></img></a></li>
+                        <li><a href="https://www.linkedin.com/school/international-institute-of-information-technology-bhubaneswar/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/iiitbhubaneswar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/@IIIT-Bhubaneswar?sub_confirmation=1" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                    </ul>
+                </div>
+             </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="smartlib-topbar-menu"><ul id="menu-top-menu" class="nav nav-pills nav-top"><li id="menu-item-83" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83"><a href="https://www.iiit-bh.ac.in/category/faculty/">Faculty</a></li>
+<li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a href="https://www.iiit-bh.ac.in/students/">Students</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"><a target="_blank" rel="noopener" href="https://iiit-bh.almaconnect.com/">Alumni</a></li>
+<li id="menu-item-85" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85"><a href="https://www.iiit-bh.ac.in/visitors/">Visitors</a></li>
+<li id="menu-item-86" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86"><a href="https://www.iiit-bh.ac.in/category/careers/">Careers</a></li>
+</ul></div>
+                <ul class="smartlib-layout-list smartlib-top-bar-info">
+
+                                        
+                </ul>
+                <p class="smartlib-top-bar-info"></p>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- End Top Bar -->
+        <!-- Navigation -->
+
+        <div class="smartlib-main-navigation-wrapper">
+            <nav class="navbar navbar-default  smartlib-navbar smartlib-default-top-navbar">
+                <div class="container-fluid">
+                    <div class="row smartlib-expand-row">
+                        <div class="col-sm-12">
+                            <div class="flex-header">
+                                <div class="navbar-header">
+                                    <h4 class="smartlib-logo-header" itemprop="headline">    <a href="https://www.iiit-bh.ac.in/"
+       title="IIIT Bhubaneswar"
+       rel="home"
+       class="smartlib-site-logo smartlib-image-logo-link">
+                    <img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/iiit-logo.jpg"
+                 alt="IIIT Bhubaneswar"/>
+        </a>
+    </h4>                                </div>
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <div class="menu-main-menu-container"><ul id="menu-main-menu" class="nav navbar-nav navbar-right smartlib-menu smartlib-navbar-menu"><li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-224"><a title="About" href="https://www.iiit-bh.ac.in/about-iiit/about/">About</a></li>
+<li id="menu-item-242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-242 dropdown"><a title="Administration" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Administration <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-241"><a title="Chancellor" href="https://www.iiit-bh.ac.in/administration/chancellor/">Chancellor</a></li>
+	<li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-256"><a title="Chairman" href="https://www.iiit-bh.ac.in/administration/chairman/">Chairman</a></li>
+	<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-258"><a title="Director" href="https://www.iiit-bh.ac.in/administration/director/">Director</a></li>
+	<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-257"><a title="Registrar" href="https://www.iiit-bh.ac.in/administration/registrar/">Registrar</a></li>
+	<li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-253"><a title="Controller of Examination" href="https://www.iiit-bh.ac.in/administration/controller-of-examination/">Controller of Examination</a></li>
+	<li id="menu-item-254" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-254"><a title="Comptroller of Finance" href="https://www.iiit-bh.ac.in/administration/comptroller-of-finance/">Comptroller of Finance</a></li>
+	<li id="menu-item-786" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-786"><a title="Deans" href="https://www.iiit-bh.ac.in/administration/deans/">Deans</a></li>
+</ul>
+</li>
+<li id="menu-item-1310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1310"><a title="Academics" href="https://www.iiit-bh.ac.in/academics/">Academics</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 dropdown"><a title="Departments" href="/category/department/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Departments <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-department menu-item-572"><a title="Computer Science &amp; Engineering" href="https://www.iiit-bh.ac.in/department/department-of-computer-science/">Computer Science &amp; Engineering</a></li>
+	<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-department menu-item-573"><a title="Electronics &amp; Telecommunication Engineering" href="https://www.iiit-bh.ac.in/department/department-of-electronics-engineering/">Electronics &amp; Telecommunication Engineering</a></li>
+	<li id="menu-item-574" class="menu-item menu-item-type-post_type menu-item-object-department menu-item-574"><a title="Electrical &amp; Electronics Engineering" href="https://www.iiit-bh.ac.in/department/department-of-electrical-engineering/">Electrical &amp; Electronics Engineering</a></li>
+	<li id="menu-item-576" class="menu-item menu-item-type-post_type menu-item-object-department menu-item-576"><a title="Mechanical Engineering" href="https://www.iiit-bh.ac.in/department/department-of-mechanical-engineering/">Mechanical Engineering</a></li>
+	<li id="menu-item-575" class="menu-item menu-item-type-post_type menu-item-object-department menu-item-575"><a title="Basic Science and Humanities" href="https://www.iiit-bh.ac.in/department/department-of-basic-science-and-humanities/">Basic Science and Humanities</a></li>
+</ul>
+</li>
+<li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-76 dropdown"><a title="Admissions" href="https://www.iiit-bh.ac.in/Admission/b-tech/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Admissions <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li id="menu-item-933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-933"><a title="B.TECH" href="https://www.iiit-bh.ac.in/Admission/b-tech/">B.TECH</a></li>
+	<li id="menu-item-935" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-935"><a title="M.tech" href="https://www.iiit-bh.ac.in/Admission/m-tech/">M.tech</a></li>
+	<li id="menu-item-936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-936"><a title="Ph.D" href="https://www.iiit-bh.ac.in/Admission/ph-d/">Ph.D</a></li>
+	<li id="menu-item-3705" class="menu-item menu-item-type-post_type menu-item-object-archive menu-item-3705"><a title="Archive" href="https://www.iiit-bh.ac.in/Archive/b-tech/">Archive</a></li>
+</ul>
+</li>
+<li id="menu-item-77" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77"><a title="Research" href="https://www.iiit-bh.ac.in/research/">Research</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78"><a title="Campus Life" href="https://sites.google.com/iiit-bh.ac.in/campus?usp=sharing">Campus Life</a></li>
+<li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a title="Placements" href="https://www.iiit-bh.ac.in/placements/">Placements</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a title="Alumni" target="_blank" href="https://iiit-bh.almaconnect.com/">Alumni</a></li>
+<li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a title="Tender" href="https://www.iiit-bh.ac.in/category/tender/">Tender</a></li>
+</ul></div>
+
+                                </div>
+                                <div class="smartlib-search-navigation-area">
+                                    <img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/edu-logo.jpg" />
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                        data-target="#bs-example-navbar-collapse-1">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- /.container -->
+        <div class="noticeSlider">
+            <div class="ticker-wrap">
+                                <div class="ticker-heading" onclick="window.location.href='https://www.iiit-bh.ac.in/notice-board/'"
+                    style="cursor: pointer;">
+                    Notice Board
+                </div>
+                <div class="ticker">
+                                                                                                        <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://forms.gle/jywuJq8kux8Zs2tdA" target="_blank">
+                                    Apply Online-Faculty Recruitment                                </a>
+                            </div>
+                                                                                                            <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://sites.google.com/iiit-bh.ac.in/facultyrecruitment?usp=sharing" target="_blank">
+                                    Rolling Advertisement for Regular Faculty Recruitment at IIIT...                                </a>
+                            </div>
+                                                                                                            <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://www.iiit-bh.ac.in/category/careers/" target="_blank">
+                                    Rolling Advertisement for Post-Doctoral Research Fellowship/Research Associateship                                </a>
+                            </div>
+                                                                                                            <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://www.iiit-bh.ac.in/category/careers/" target="_blank">
+                                    Advertisement for Visiting Faculty (Rolling Advertisement)                                </a>
+                            </div>
+                                                                                                            <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://www.iiit-bh.ac.in/category/careers/" target="_blank">
+                                    Rolling Advertisement for the Recruitment of the Project...                                </a>
+                            </div>
+                                                                                                            <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://www.iiit-bh.ac.in/wp-content/uploads/2025/Jobs/forweb_EILMTILMT_Rolling.pdf" target="_blank">
+                                    Rolling Advertisement for Recruitment of Project Fellows in...                                </a>
+                            </div>
+                                        </div>
+            </div>
+        </div>
+        <aside id="sidebar">
+            <div class="sidebar_content sidebar_head">
+                <h4 class="smartlib-logo-header" itemprop="headline">    <a href="https://www.iiit-bh.ac.in/"
+       title="IIIT Bhubaneswar"
+       rel="home"
+       class="smartlib-site-logo smartlib-image-logo-link">
+                    <img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/iiit-logo.jpg"
+                 alt="IIIT Bhubaneswar"/>
+        </a>
+    </h4>            </div>
+
+            <div class="sidebar_content sidebar_body">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="nav navbar-nav navbar-right smartlib-menu smartlib-navbar-menu"><li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-224"><a title="About" href="https://www.iiit-bh.ac.in/about-iiit/about/">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-242 dropdown"><a title="Administration" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Administration <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-241"><a title="Chancellor" href="https://www.iiit-bh.ac.in/administration/chancellor/">Chancellor</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-256"><a title="Chairman" href="https://www.iiit-bh.ac.in/administration/chairman/">Chairman</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-258"><a title="Director" href="https://www.iiit-bh.ac.in/administration/director/">Director</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-257"><a title="Registrar" href="https://www.iiit-bh.ac.in/administration/registrar/">Registrar</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-253"><a title="Controller of Examination" href="https://www.iiit-bh.ac.in/administration/controller-of-examination/">Controller of Examination</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-254"><a title="Comptroller of Finance" href="https://www.iiit-bh.ac.in/administration/comptroller-of-finance/">Comptroller of Finance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-786"><a title="Deans" href="https://www.iiit-bh.ac.in/administration/deans/">Deans</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1310"><a title="Academics" href="https://www.iiit-bh.ac.in/academics/">Academics</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 dropdown"><a title="Departments" href="/category/department/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Departments <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-department menu-item-572"><a title="Computer Science &amp; Engineering" href="https://www.iiit-bh.ac.in/department/department-of-computer-science/">Computer Science &amp; Engineering</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-department menu-item-573"><a title="Electronics &amp; Telecommunication Engineering" href="https://www.iiit-bh.ac.in/department/department-of-electronics-engineering/">Electronics &amp; Telecommunication Engineering</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-department menu-item-574"><a title="Electrical &amp; Electronics Engineering" href="https://www.iiit-bh.ac.in/department/department-of-electrical-engineering/">Electrical &amp; Electronics Engineering</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-department menu-item-576"><a title="Mechanical Engineering" href="https://www.iiit-bh.ac.in/department/department-of-mechanical-engineering/">Mechanical Engineering</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-department menu-item-575"><a title="Basic Science and Humanities" href="https://www.iiit-bh.ac.in/department/department-of-basic-science-and-humanities/">Basic Science and Humanities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-76 dropdown"><a title="Admissions" href="https://www.iiit-bh.ac.in/Admission/b-tech/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Admissions <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-933"><a title="B.TECH" href="https://www.iiit-bh.ac.in/Admission/b-tech/">B.TECH</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-935"><a title="M.tech" href="https://www.iiit-bh.ac.in/Admission/m-tech/">M.tech</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-936"><a title="Ph.D" href="https://www.iiit-bh.ac.in/Admission/ph-d/">Ph.D</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-archive menu-item-3705"><a title="Archive" href="https://www.iiit-bh.ac.in/Archive/b-tech/">Archive</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77"><a title="Research" href="https://www.iiit-bh.ac.in/research/">Research</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78"><a title="Campus Life" href="https://sites.google.com/iiit-bh.ac.in/campus?usp=sharing">Campus Life</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a title="Placements" href="https://www.iiit-bh.ac.in/placements/">Placements</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a title="Alumni" target="_blank" href="https://iiit-bh.almaconnect.com/">Alumni</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a title="Tender" href="https://www.iiit-bh.ac.in/category/tender/">Tender</a></li>
+</ul></div>
+
+                </div>
+            </div>
+        </aside>
+        <script>
+            /* Sidebar */
+
+            const sidebar = document.querySelector('#sidebar');
+            const sidebarToggler = document.querySelector('.navbar-toggle');
+
+
+            // Toggling the Sidebar
+            sidebarToggler.addEventListener('click', () => {
+                sidebar.classList.toggle('show');
+            });
+
+
+            // Closing the Sidebar on clicking Outside and on the Sidebar-Links
+            window.addEventListener('click', (e) => {
+                if (e.target.id !== 'sidebar' && e.target.className !== 'navbar-toggle') {
+                    sidebar.classList.remove('show');
+                }
+            });
+        </script>
+    </header>
+    <!-- END Navigation --><!--<section class="single-post-banner">
+    <img src="" class="feature-img">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="heading-title"></h1>
+            </div>
+        </div>
+    </div>
+</section>-->
+<section class="single-post-banner" style="background-image:url(https://www.iiit-bh.ac.in/wp-content/uploads/2024/05/banner6.jpg);">
+    <div class="container">
+        <div class="inner-content">
+            <div class="inner">
+                <h1>Dr. Pradyut Kumar Biswal</h1>
+            </div>
+            <div class="breadcrumbBox">
+                <div class="smartlib-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li><a href="/">Home</a><span class="smartlib-separator">/</span></li>
+                        <li><a href="/category/faculty/">Faculty</a><span class="smartlib-separator">/</span></li>
+                    </ol>
+                </div>
+                <h2 class="page-header smartlib-page-title">Dr. Pradyut Kumar Biswal</h2>
+            </div>
+                    </div>
+    </div>
+</section>
+
+<div id="course-details" class="detailsBox">
+    <button id="menuButton"><i class="fa fa-navicon"></i>Page Menu</button>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-4 left-panel hidden-xs">
+                <div class="navigation_main">
+                    <div class="navbar_inside">
+                        <script>
+                            document.getElementById("menuButton").addEventListener("click", function(event) {
+                                event.stopPropagation();
+                                var navigation = document.querySelector(".left-panel .navigation_main");
+                                navigation.classList.toggle("active");
+                            });
+                            document.addEventListener("click", function(event) {
+                                var navigation = document.querySelector(".left-panel .navigation_main");
+                                if (navigation.classList.contains("active")) {
+                                    navigation.classList.remove("active");
+                                }
+                            });
+                            document.querySelector(".left-panel .navbar_inside").addEventListener("click", function(event) {
+                                event.stopPropagation();
+                            });
+                        </script>
+                        <!-- Primary Navigation -->
+                        <nav id="secondary-navigation" class="nav nav-tabs" role="tablist">
+                            <!-- Header -->
+                            <header class="header">
+                                <div class="blockTitlebox">
+                                    <h5>Overview</h5>
+                                    <span><a href="#" class="back-button"><i class="fa fa-reply"></i></a></span>
+                                </div>
+                            </header>
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    const backButton = document.querySelector('.back-button');
+                                    if (backButton) {
+                                        backButton.addEventListener('click', function(event) {
+                                            event.preventDefault();
+                                            history.back();
+                                        });
+                                    }
+
+                                    const links = document.querySelectorAll('#secondary-navigation a');
+                                    const sections = document.querySelectorAll('.faculty-section');
+
+                                    links.forEach(link => {
+                                        link.addEventListener('click', function(event) {
+                                            event.preventDefault();
+                                            const targetId = this.getAttribute('href');
+                                            sections.forEach(section => {
+                                                section.classList.remove('active');
+                                                if ('#' + section.id === targetId) {
+                                                    section.classList.add('active');
+                                                }
+                                            });
+                                        });
+                                    });
+
+                                    // Hide all sections initially except the first one
+                                    sections.forEach((section, index) => {
+                                        section.classList.add('active');
+                                    });
+                                });
+                            </script>
+                            <!-- /Header -->
+
+                            <ul>
+                                <li class="active" role="presentation">
+                                    <a href="#short-bio" data-target="short-bio" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-angle-right" aria-hidden="true"></i>Short-Biodata</a>
+                                </li>
+                                <li class="">
+                                    <a href="#research" data-target="research" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-angle-right" aria-hidden="true"></i>Research</a>
+                                </li>
+                                <li class="">
+                                    <a href="#publication" data-target="publication" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-angle-right" aria-hidden="true"></i>Publication</a>
+                                </li>
+                                <li class="">
+                                    <a href="#project" data-target="project" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-right" aria-hidden="true"></i>Project</a>
+                                </li>
+                                <li class="">
+                                    <a href="#resources" data-target="resources" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-angle-right" aria-hidden="true"></i>Resources</a>
+                                </li>
+                                <li class="">
+                                    <a href="#administrative_responsibility" data-target="administrative_responsibility" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-right" aria-hidden="true"></i>Administrative Responsibility</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                        <!-- /Secondary Navigation -->
+                        <h5>Quick Links</h5>
+                        <!-- Help List -->
+                        <ul class="help-list">
+                            <li> <a href="https://www.iiit-bh.ac.in/category/department/" class="clearfix">
+                                    <!-- Round Icon -->
+                                    <div class="round-icon color-theme1"><i class="fa fa-search-plus icons"></i> </div>
+                                    <!-- /Round Icon -->
+                                    <!-- Inner -->
+                                    <div class="inner">
+                                        <p>Find Programme</p>
+                                    </div>
+                                    <!-- /Inner -->
+                                </a> </li>
+                            <li> <a href="https://www.iiit-bh.ac.in/category/careers/" class="clearfix">
+                                    <!-- Round Icon -->
+                                    <div class="round-icon color-theme2"><i class="fa fa-line-chart icons" aria-hidden="true"></i></div>
+                                    <!-- /Round Icon -->
+                                    <!-- Inner -->
+                                    <div class="inner">
+                                        <p>Careers</p>
+                                    </div>
+                                    <!-- /Inner -->
+                                </a> </li>
+                            <li> <a href="https://www.iiit-bh.ac.in/visitors/" class="clearfix">
+                                    <!-- Round Icon -->
+                                    <div class="round-icon color-theme4"><i class="fa fa-users" aria-hidden="true"></i></div>
+                                    <!-- /Round Icon -->
+                                    <!-- Inner -->
+                                    <div class="inner">
+                                        <p>IIIT Visitor</p>
+                                    </div>
+                                    <!-- /Inner -->
+                                </a> </li>
+                            <li> <a href="https://www.iiit-bh.ac.in/gallery/ " class="clearfix">
+                                    <!-- Round Icon -->
+                                    <div class="round-icon color-theme5"><i class="fa fa-camera" aria-hidden="true"></i></div>
+                                    <!-- /Round Icon -->
+                                    <!-- Inner -->
+                                    <div class="inner">
+                                        <p>Image Gallery</p>
+                                    </div>
+                                    <!-- /Inner -->
+                                </a> </li>
+                        </ul>
+                        <!-- /Help List -->
+                    </div>
+                </div>
+                <!-- /Department List -->
+            </div>
+            <div class="col-md-9 col-sm-8 right-panel">
+                <!-- Department List -->
+                <div class="faculty-list infoPage">
+                    <div class="tab-content">
+                                                    <article id="post-205" class="post-205 faculty type-faculty status-publish format-standard hentry category-electronics-engineering category-faculty">
+                                <!-- Display Meta Box Values -->
+                                <div class="Faculty_singlepage_details"><div class="Faculty_singlepage_image_details"><div class="department_hod_img"><img class="hod_img" src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/05/Pradyut-Kumar-Biswal-1.jpg" alt="https://www.iiit-bh.ac.in/wp-content/uploads/2024/05/Pradyut-Kumar-Biswal-1.jpg"></div><div class="faculty_info"><div class="faculty_title_details"><div class="faculty_title">Dr. Pradyut Kumar Biswal</div><div class="faculty_designation"><p>Associate Professor</p>
+</div><div class="faculty_department"><p>Department of Electronics Engineering</p>
+</div></div><p class="text_contact">Contact Information</p><div class="faculty_other_details"><div class="faculty_contact_details"><div class="faculty_email"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/faculty-icon-01-1.png"><b>Email Id: </b>pradyut@iiit-bh.ac.in</div><div class="faculty_phone"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/faculty-icon-02-1.png"><b>Contact no.: </b>9438605894</div><div class="faculty_room_number"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/faculty-icon-03-1.png"><b>Address: </b>B1-07 , IIIT Bhubaneswar, Gothapatna, Bhubaneswar-751003</div><div class="faculty_room_number"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/07/faculty-icon-04-1.png"><a href="https://sites.google.com/site/pradyutbiswal/home" target="_blank"><b>Personal website</b></a></div></div><div class="faculty_socialmedia"><p><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/linkedin.png"><a href="http://www.linkedin.com/in/dr-pradyut-kumar-biswal" target="_blank">LinkedIn</a></p><p><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/orcid.png"><a href="https://orcid.org/0000-0002-8025-841X" target="_blank">Orchid</a></p><p><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/google.png"><a href="https://scholar.google.co.in/citations?hl=en&#038;user=hBqTPO0AAAAJ" target="_blank">google Scolar</a></p><p><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/researchgate.png"><a href="https://www.researchgate.net/profile/Pradyut-Biswal" target="_blank">Research Gate</a></p></div></div></div></div><div class="Faculty_singlepage_information_details">
+                                <div id="short-bio" class="entry-content faculty-section">
+                                    <p>Prof. Biswal’s teaching and research interests involve areas of <span data-sheets-root="1">Digital VLSI architecture design, FPGA implementation, Biomedical signal and Image processing, Hyper-spectral Image Processing.</span></p><div class="faculty_education"><b>Education:</b><ul><li>Ph.D., IIT Kharagpur</li><li>M.Tech. (Electronics), VNIT Nagpur</li><li>A.M.I.E. (Sec A &amp; B) (Electronics and Communication), Institution of Engineer&#039;s (India)</li><li>Diploma (Instrumentation and Control), B.O.S.E., Cuttack, Odisha</li></ul></div><div class="faculty_education"><b>Professional Experience:</b><div><p><span data-sheets-root="1">Teaching Experience - 19 Years</span></p>
+</div></div><div class="faculty_education"><b>Professional Membership:</b><div><p><span data-sheets-root="1">IEEE Senior Member, </span></p>
+<p><span data-sheets-root="1">Associate Member IEI(India)</span></p>
+</div></div>                                </div>
+                                <div id="research" class="faculty-section">
+                                    <b>Research</b>
+                                    <p class="research_area">RESEARCH AREA:     Digital VLSI architecture design      FPGA implementation , Biomedical signal and Image processing , Hyper-spectral Image Processing</p><p>Coming Soon...</p>
+                                </div>
+                                <div id="publication" class="faculty-section">
+                                    <b>Publication</b>
+                                    <p><strong>Journals:</strong></p>
+<ol>
+<li>N Sowmya, J Kumar, P. K. Biswal, S Roy, S Pradhan, Neuromorphic Processor Design and FPGA Implementation for Handwritten Digits employing Spiking Neural Network, International Journal of Computing and Digital Systems, Vol. 13, Issue 1, 2023 DOI: http://dx.doi.org/10.12785/ijcds/140152, ISSN: 2210-142X</li>
+<li>S. Nayak, P. K. Biswal, S. Pradhan, “Implementation of an integrated classification approach of adaptive extreme learning machine and correlation based feature selection for odia complex characters”, Int. journal of information technology, Springer (2022). https://doi.org/10.1007/s41870-022-01008-6</li>
+<li>Pappu, GP, Krishna, T, Biswal, B, Prakash Kumar Karn, Pradyut Kumar. Biswal, Shazia Hasan, Debasish Nayak,”A deeply supervised maximum response texton based SegNet for simultaneous multi retinal lesion segmentation”,. Int J Imaging System Technology, Wiley Publisher, 2022; 32( 5): 1709- 1726. doi:10.1002/ima.22723[SCIE,Scopus]</li>
+<li>Susanta Kumar Rout, Mrutyunjaya Sahani, Chinmayee Dora, Pradyut Kumar Biswal, Birendra Biswal, “An efficient epileptic seizure classification system using empirical wavelet transform and multi-fuse reduced deep convolutional neural network with digital implementation,”, Biomedical Signal Processing and Control, Elsevier, Volume 72, Part A, February 2022, 103281, ISSN 1746-8094, https://doi.org/10.1016/j.bspc.2021.103281.</li>
+<li>Subhashree Subudhi, Ramnarayan Patro, Pradyut K. Biswal, and Fabio Dell’Acqua. November 2021. "Superpixel-Based Singular Spectrum Analysis for Effective Spatial-Spectral Feature Extraction" Applied Sciences, MDPI Vol. 11, Issue no. 22: 10876. https://doi.org/10.3390/app112210876 ISSN: 2076-3417</li>
+<li>Chinmayee Dora, Ram Narayan Patro, Susanta Kumar Rout, Pradyut Kumar Biswal, Birendra Biswal, “Adaptive SSA Based Muscle Artifact Removal from Single Channel EEG using Neural Network Regressor”, IRBM, Vol. 42, Issue 5, Pages: 324 -333, October 2021, ISSN 1959-0318, https://doi.org/10.1016/j.irbm.2020.08.002. ISSN: 1959-0318 (SCIE, SCOPUS Indexed)</li>
+<li>Ram Narayan Patro, Subhashree Subudhi, Pradyut Kumar Biswal, Fabio Dell'Acqua and Harish Kumar Sahoo, “Error removal by energy scaling from hyperspectral images for performance improvement of spectral classifiers”, International Journal of Remote Sensing, Taylor Francis Vol. 42, No. 20, pp.: 7863 - 7879, September 2021 DOI: https://doi.org/10.1080/01431161.2021.1966851 (SCIE, SCOPUS Indexed) Print ISSN: 0143-1161 Online ISSN: 1366-5901</li>
+<li>Monalisha Mohanty, Manasa Dash, Pradyut Biswal, Sukanta Sabut, “Classification of ventricular arrhythmias using empirical mode decomposition and machine learning algorithms”, Progress in Artificial Intelligence, July 2021. https://doi.org/10.1007/ s13748-021-00250-6 ISSN: 2192-6352</li>
+<li>Susanta Kumar Rout, Mrutyunjaya Sahani, P.K. Dash, Pradyut Kumar Biswal, “Multifuse multilayer multikernel RVFLN+ of process modes decomposition and approximate entropy data from iEEG/sEEG signals for epileptic seizure recognition”, Computers in Biology and Medicine, Elsevier, Volume 132, May 2021, 104299, ISSN 0010-4825, https://doi.org/10.1016/j.compbiomed.2021.104299. ISSN: 0010-4825</li>
+<li>S. Subudhi, R. N. Patro, P. K. Biswal and F. Dell’Acqua, "A Survey on Superpixel Segmentation as a Preprocessing Step in Hyperspectral Image Analysis," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 14, pp. 5015-5035, April 2021, doi: 10.1109/JSTARS.2021.3076005., Electronic ISSN: 2151-1535, Print ISSN: 1939-1404</li>
+<li>Geetha Pavani P, Birendra Biswal, P. K. Biswal, “Robust classification of neovascularization using random forest classifier via convoluted vascular network”, Biomedical Signal Processing and Control, Volume 66, April 2021, 102420, ISSN 1746-8094, https://doi.org/10.1016/j.bspc.2021.102420</li>
+<li>R. N. Patro, S. Subudhi, P. K. Biswal and F. Dell'Acqua, "A Review on Unsupervised Band Selection Techniques : Land Cover Classification for Hyperspectral Earth Observation Data," in IEEE Geoscience and Remote Sensing Magazine, doi: 10.1109/MGRS.2021.3051979. Volume: 9, Issue: 3, Sept. 2021, Page(s): 72 – 111, ISSN: 2168-6831</li>
+<li>Birendra Biswal, Geetha Pavani and Pradyut K. Biswal, "Controlled differential evolution based detection of neovascularization on optic disc using support vector machine" Biomedical Engineering / Biomedizinische Technik, vol. 66, no. 1, August 2020, pp. 21-30. https://doi.org/10.1515/bmt-2020-0110 (SCIE, SCOPUS Indexed) ISSN: 1862-278X</li>
+<li>Geetha Pavani P, Birendra Biswal, M V S Sairam, Pradyut Kumar Biswal, “An exclusive-disjunction-based detection of neovascularisation using multi-scale CNN”, IET Image Processing, Volume 15, Issue 7, Pages: 1518-1529, May 2021, ISSN: 1751-9659 (SCIE, SCOPUS Indexed)</li>
+<li>Susanta Kumar Rout, Pradyut Kumar Biswal, “An efficient error-minimized random vector functional link network for epileptic seizure classification using VMD”, Journal of Biomedical Signal Processing and Control, Elsevier, Volume 57, 2020, 101787, ISSN 1746-8094, https://doi.org/10.1016/j.bspc.2019.101787. (SCIE, SCOPUS Indexed)</li>
+<li>Chinmayee Dora, Pradyut Kumar Biswal, “Correlation-based ECG Artifact Correction from Single Channel EEG using Modified Variational Mode Decomposition”, Journal of Computer Methods and Programs in Biomedicine, Elsevier, Vol. 183, January 2020, DOI: https://doi.org/10.1016/j.cmpb.2019.105092 (SCIE, SCOPUS Indexed)</li>
+<li>Susanta Kumar Rout, Bhanja Kishor Swain, Pradyut Kumar Biswal, “FPGA Implementation of Weighted Online Sequential Extreme Learning Machine for Data Classification”, International Journal of Engineering and Advanced Technology (IJEAT) ISSN: 2249 – 8958, Volume-9 Issue-1, October 2019, (SCOPUS Indexed) DOI: 10.35940/ijeat.A1781.109119</li>
+<li>Om Prakash Jena, Sateesh Kumar Pradhan, Pradyut Kumar Biswal, Alok Ranjan Tripathy, Sradhanjali Nayak, “Hidden Markov Model Based Odia Numeral Recognition Using Moment and Structural Features”, International Journal of Engineering and Advanced Technology (IJEAT), Volume-8 Issue-6, August 2019, ISSN: 2249 – 8958 (SCOPUS Indexed) DOI: 10.35940/ijeat.F8614.088619</li>
+<li>Om Prakash Jena, Sateesh Kumar Pradhan, Pradyut Kumar Biswal, Alok Ranjan Tripathy, “Odia Characters and Numerals Recognition using Hopfield Neural Network Based on Zoning Feature”, International Journal of Recent Technology and Engineering (IJRTE), Volume-8 Issue-2, July 2019, DOI: 10.35940/ijrte.B3763.078219, ISSN: 2277-3878 (SCOPUS Indexed)</li>
+<li>Subhashree Subudhi, Ram Narayan Patro, Pradyut Kumar Biswal, “Bilateral kernel extraction from PCA for classification of Hyperspectral Images”, Journal of Photogrammetry, Remote Sensing and Geoinformation Science, Springer, Volume 87, Issue 4, 205–221 October 2019 DOI: https://doi.org/10.1007/s41064-019-00078-9 (SCIE, SCOPUS Indexed)</li>
+<li>Ram Narayan Patro, Subhashree Subudhi, Pradyut Kumar Biswal, Fabio Dell'Acqua and Harish Kumar Sahoo, “Conditional Nearest Regularized Subspace Classifiers: A Fast classification approach for HSI”, International Journal of Remote Sensing, Taylor Francis Vol., No., pp.: 2019 DOI: https://doi.org/10.1080/01431161.2019.1629717 (SCIE, SCOPUS Indexed)</li>
+<li>Monalisa Mohanty, Pradyut Biswal, Sukanta Sabut, “Machine learning approach to recognize ventricular arrhythmias using VMD based features”, Journal of Multidimensional Systems and Signal Processing, Springer (2019). DOI: https://doi.org/ 10.1007/s11045-019-00651-w (SCIE, SCOPUS Indexed)</li>
+<li>Chinmayee Dora, Pradyut Kumar Biswal, “An improved algorithm for efficient ocular artifact suppression from frontal EEG electrodes using VMD“, Journal of Biocybernetics and Biomedical Engineering, Elsevier, 2019, ISSN 0208-5216, DOI: https://doi.org/ 10.1016/j.bbe.2019.03.002.(http://www.sciencedirect.com/science/article/pii/S0208521618303528) (SCIE, SCOPUS Indexed)</li>
+<li>Chinmayee Dora, Pradyut Kumar Biswal, “Efficient detection and correction of variable strength ECG artifact from single channel EEG”, Journal of Biomedical Signal Processing and Control, Elsevier, Vol. 50, 2019, pp.: 168-177 (SCIE, SCOPUS Indexed) ISSN 1746-8094 https://doi.org/10.1016/j.bspc.2019.01.023.</li>
+<li>Ram Narayan Patro, Subhashree Subudhi, Pradyut Kumar Biswal, “ Spectral clustering and Spatial Frobenius norm based Jaya Optimization for Band Selection of Hyperspectral Images”, IET Image Processing, Vol. 13, Issue: 2, 2019, pp.: 307-315, (SCIE, SCOPUS Indexed) DOI: https://digital-library.theiet.org/content/journals/10. 1049/ iet-ipr.2018.5109,</li>
+<li>Ram Narayan Patro, Subhashree Subudhi, Pradyut Kumar Biswal, Fabio Dell’Acqua, “Dictionary -based classifiers exploiting feature sequence information and their application to hyperspectral remotely sensed data” International Journal of Remote Sensing, Springer (Available Online) (SCIE, SCOPUS Indexed)</li>
+<li>Monalisa Mohanty, Pradyut Kumar Biswal, Sukanta Sabut, “Ventricular tachycardia and fibrillation detection using dwt and decision tree classifier” Journal of Mechanics in Medicine and Biology, World Scientific, Vol. 19, No. 1, pp.: 195008 (23 pages), 2019 (SCIE, SCOPUS Indexed)</li>
+<li>Monalisa Mohanty, Santnau Sahoo, Pradyut Kumar Biswal, Sukanta Sabut, “Efficient classification of ventricular arrhythmias using feature selection and C4.5 classifier” Journal of Biomedical Signal Processing and Control, Elsevier, Vol. 44, 2018, pp.: 200-208 (SCIE, SCOPUS Indexed) ISSN 1746-8094, https://doi.org/10.1016/j.bspc. 2018.04. 005.</li>
+<li>Asit Subudhi, Sanatnu Sahoo, Pradyut Biswal, Sukanta Sabut, "Segmentation and classification of ischemic stroke using optimized features in brain MRI" Journal of Biomedical Engineering: Applications, Basis and Communications, World Scientific, Vol. 30, Issue 3, June 2018 (ESCI, SCOPUS Indexed) https:// doi.org/ 10.4015/ S1016237218500114</li>
+<li>Chinmayee Dora, Pradyut Kumar Biswal, ”Engineering approaches for ECG Artifact Removal from EEG”, Accepted for publication in International Journal of Biomedical Engineering and Technology, Inderscience 2017. (ESCI, SCOPUS Indexed)</li>
+<li>Pulak Mondal, Pradyut Kumar Biswal, Swapna Banerjee, FPGA based accelerated 3D affine transform for real-time image processing applications, Computers &amp; Electrical Engineering, Elsevier, Volume 49, Pages 69-83, January 2016. (SCIE, SCOPUS Indexed)</li>
+<li>P. K. Biswal, P. Mondal and S. Banerjee, “Parallel Architecture for Accelerating Affine Transform in High-speed Imaging Systems”, Journal of Real-Time Image Processing. Springer Vol. 8 Issue 1, pp. 69-79, March 2013. (SCIE, SCOPUS Indexed)</li>
+<li>Pulak Mondal, Pradyut Kumar Biswal, and Swapna Banerjee , “Acceleration of Affine Transform for Multiplane Image Stabilization in Digital Camera”, International Journal of Computer and Electrical Engineering, Vol. 4, No. 5, October 2012 pp 701 – 705</li>
+<li>B. Biswal, S.Mishra, P.K.Biswal and Telagarapu Prabhakar , “Detection and power quality disturbance classification based on wavelet packet decomposition and modified immune optimization algorithm” International Journal of Knowledge-based and Intelligent Engineering Systems 16 (2012) 261–277. (ESCI, SCOPUS Indexed)</li>
+<li>P. K. Biswal and S. Banerjee, “An Unified Architecture for Affine Transformations of 2D Images for Real Time Applications”, International Journal of Imaging and Robotics, Vol. 5, No. S11, pp. 28 – 42, Spring 2011. (SCOPUS Indexed)</li>
+</ol>
+<p><strong>International Conferences:</strong></p>
+<ol>
+<li>Sradhanjali Nayak, Pradyut Kumar Biswal, Sateesh Pradhan, Om Prakash Jena,” Shape Feature Based Multi-class Classification Approach towards Odia Characters employing Extreme Learning Machine”, 2021 Sixth International Conference on Image Information Processing (ICIIP) Volume 6 Pages 477-482 Publisher IEEE, 26-28 November 2021, Shimla, India DOI: 10.1109/ICIIP53038.2021.9702563</li>
+<li><br />Ram Narayan Patro, Harish Kumar Sahoo, Pradyut Kumar Biswal, “Dual Histogram Based RVIN detector and Hybrid Gaussian Filter”, 2021 IEEE 4th International Conference on Computing, Power and Communication Technologies (IEEE Industry Application Society (IAS) GUCON), Kuala Lumpur, Malaysia, September 24-26, 2021 DOI: 10.1109/GUCON50781.2021.9573672</li>
+<li><br />Chinmayee Dora, Pradyut Kumar Biswal, Figlu Mohanty, “Single Channel EEG Signal Enhancement in Presence of EMG Artifact using ELM based Regressor”, IEEE International Conference on Smart Computing and Communication (ICSCC 2021), Kochi, 1 -3 July 2021. DOI: 10.1109/ICSCC51209.2021.9528156</li>
+<li><br />S. K. Rout, M. Sahani, B. K. Swain and P. K. Biswal, "FPGA Implementation of WRVFLN for Classification," 2020 IEEE VLSI DEVICE CIRCUIT AND SYSTEM (VLSI DCS), 2020, pp. 289-293, doi: 10.1109/VLSIDCS47293.2020.9179940</li>
+<li><br />O. P. Jena, S. Kumar Pradhan, P. K. Biswal and S. Nayak, "Recognition of Printed Odia Characters and Digits using Optimized Self-Organizing Map Network," 2020 International Conference on Computer Science, Engineering and Applications (ICCSEA), 2020, pp. 1-6, doi: 10.1109/ICCSEA49143.2020.9132915</li>
+<li><br />Susanta K. Rout, Pradyut K. Biswal “Digital Implementation of OS-ELM for Data Classification in Real-Time”, In: Pradhan G., Morris S., Nayak N. (eds) Advances in Electrical Control and Signal Systems. Lecture Notes in Electrical Engineering, vol 665. Springer, Singapore, July 2020. https://doi.org/10.1007/978-981-15-5262-5_24 AECSS 2019, Bhubaneswar, India, 8 – 9 November 2019</li>
+<li><br />Shuvendra Kumar Tripathy, Pradyut Kumar Biswal, “IoT-Based Baby Swing Monitoring, Alerting and Security System”, In: Mohanty M., Das S. (eds) Advances in Intelligent Computing and Communication. Lecture Notes in Networks and Systems, vol 109. Springer, Singapore, January 2020. https://doi.org/10.1007/978-981-15-2774-6_43 2nd International Conference on Intelligent Computing and Advances in Communication (ICAC – 2019) 15 - 17 November 2019</li>
+<li><br />Monalisa Mohanty, Asit Kumar Subudhi, Pradyut Kumar Biswal, Sukanta Sabut, “An Efficient Classifier-Based Approach for Early Arrhythmia Detection with Feature Reduction Using Ranker Search Algorithm”, In: Mohanty M., Das S. (eds) Advances in Intelligent Computing and Communication. Lecture Notes in Networks and Systems, vol 109. Springer, Singapore, January 2020. https://doi.org/10.1007/978-981-15-2774-6_38 2nd International Conference on Intelligent Computing and Advances in Communication (ICAC – 2019) 15 - 17 November 2019</li>
+<li><br />Subhashree Subudhi, R. N. Patro and P. K. Biswal, "Superpixel Clustering Based Segmentation Algorithm for Hyperspectral Image Classification," 2019 International Conference on Information Technology (ICIT), 2019, pp. 371-375, doi: 10.1109/ICIT48102.2019.00072 December, 19-21st</li>
+<li><br />C. Dora and P. K. Biswal, "A Frequency Division Based Approach for EMG Artifact Minimization from Single Channel EEG," 2019 International Conference on Information Technology (ICIT), 2019, pp. 196-200, doi: 10.1109/ICIT48102.2019.00041</li>
+<li>S. Nayak, S. K. Pradhan, P. K. Biswal and O. P. Jena, "Classification Performance Analysis of Printed Odia Alphabets using Neural Network based Approach," 2019 Fifth International Conference on Image Information Processing (ICIIP), 2019, pp. 176-180, doi: 10.1109/ICIIP47207.2019.8985822. November 15 - 17 , 2019 Himachal pradesh, India</li>
+<li><br />Vedanta Prusty, Abhishek Rath, P. K. Biswal, K. K. Rout, “Internet of Things Based Smart Baby Cradle”, In: Raj J., Bashar A., Ramson S. (eds) Innovative Data Communication Technologies and Application. ICIDCA October 17 – 18, 2019. Lecture Notes on Data Engineering and Communications Technologies, vol 46. Springer, Cham. https://doi.org/10.1007/978-3-030-38040-3_91</li>
+<li>Sushant Sadangi, Satyakam Baraha and Pradyut Kumar Biswal, “Efficient Hardware Implementation of Switching Median Filter for extraction of Extremely High Impulse Noise Corrupted Images”, 2019 IEEE Region 10 International Conference TENCON 2019, Kochi, Kerala, India, October 17 – 20, 2019. DOI: 10.1109/TENCON.2019.8929543</li>
+<li>Devi Archana Kar, Ram Narayan Patro, Subhashree Subudhi, Pradyut Kumar Biswal, “Histogram-based automatic noisy band removal for remotely sensed hyperspectral images”, 3rd International Conference on Trends in Electronics and Informatics (ICOEI2019), Tirunelveli, India, April 23 -25, 2019 DOI: 10.1109/ICOEI.2019.8862612</li>
+<li>Subhashree Subudhi, Ram Narayan Patro and Pradyut Kumar Biswal, "Filtering based Spatial-Spectral Feature Extraction for Hyperspectral Image Classification", IEEE sponsored Second International Conference on Advanced Computational and Communication Paradigms (ICACCP-2019), Sikkim, India, February 25 - 28, 2019. DOI: 10.1109/ICACCP.2019.8882882</li>
+<li>Ram Narayan Patro, Subhashree Subudhi and Pradyut Kumar Biswal,"Effect of Spatial Enhancement on Hyperspectral Image Classification", IEEE sponsored Second International Conference on Advanced Computational and Communication Paradigms (ICACCP-2019), Sikkim, India, February 25 - 28, 2019. DOI: 10.1109/ICACCP.2019.8882902</li>
+<li>Om Prakash Jena, Sateesh Kumar Pradhan, Pradyut Kumar Biswal, Sradhanjali Nayak, “Implementation of Linear Discriminant Analysis for Odia Numeral Recognition”, 17th International Conference on Information Technology (ICIT 2018), Bhubaneswar, India, Dec 20 – 22, 2018. DOI: 10.1109/ICIT.2018.00043</li>
+<li>Lipsa Routray, Pradyut Kumar Biswal, and Satya Ranjan Pattanaik, “ECG Artifact Removal of EEG signal using Adaptive Neural Network”, Proceedings of 13th International Conference on Industrial and Information System (ICIIS 2018), IIT Ropar, India, Dec 1 – 2, 2018. DOI: 10.1109/ICIINFS.2018.8721423</li>
+<li>Om Prakash Jena, Sateesh Kumar Pradhan, Pradyut Kumar Biswal, Sradhanjali Nayak, “Odia Printed Character Recognition using Principal Component Analysis”, International Conference on Computational Intelligence and Data Analytics (ICCIDA-2018), Bhubaneswar, India, October 26 – 27, 2018</li>
+<li>Chinmayee Dora and Pradyut Kumar Biswal , “An ELM Based Regression Model for ECG Artifact Minimization from Single Channel EEG”, 19th International conference on Intelligent Data Engineering and Automated Learning (IDEAL 2018), Madrid, Spain, November 21 – 23, 2018 DOI: 10.1007/978-3-030-03493-1_29</li>
+<li>Monalisa Mohanty, Asit Subudhi, Pradyut Biswal, Sukant Sabut, “Automatic Classification of Life-Threatening Cardiac Arrhythmias using Empirical Mode Decomposition”, IEEE International Conference on Applied Electromagnetics, Signal Processing &amp; Communication(AESPC-2018), Bhubaneswar, India, October 22 - 24, 2018</li>
+<li>Monalisa Mohanty, Asit Subudhi, Pradyut Biswal, Sukant Sabut, “Classification of Ventricular Arrhythmias Using DWT Based VMD Features”, 2nd International Conference on Data Science and Business Analytics (ICDSBA 2018), Changsha, China, 21-23 Sept. 2018 DOI: 10.1109/ICDSBA.2018.00100</li>
+<li>Monalisa Mohanty, P. K. Biswal, A. K. Subudhi, and S. K. Sabut, “Evaluation of Classifiers for Recognition of Ventricular Arrhythmia using DWT based Features”, IEEE 2nd International Conference on Inventive Communication and Computational Technologies (ICICCT 2018), Coimbatore, India, April 20 – 21, 2018.</li>
+<li>Moumita Mukherjee, Pradyut Kumar Biswal, “Segmentation of Lungs nodules by Iterative Thresholding Method and Classification with Reduced Features”, IEEE 2nd International Conference on Inventive Communication and Computational Technologies (ICICCT 2018), Coimbatore, India, April 20 – 21, 2018</li>
+<li>Subhashree Subudhi, Ram Narayan Patro, Pradyut Kumar Biswal, “PSO based Synthetic Minority Over-sampling Technique for Classification of Reduced Hyperspectral Image”, 7th International Conference Soft Computing for Problem Solving - SocProS 2017, Bhubaneswar, December 23-24, 2017. (SCOPUS Indexed)</li>
+<li>Ram Narayan Patro, Subhshree Subudhi, Pradyut Kumar Biswal, Harish Kumar Sahoo,” Probabilistic histogram based band selection and its effect on classification of Hyperspectral images”, 7th International Conference Soft Computing for Problem Solving - SocProS 2017, Bhubaneswar, December 23-24, 2017. (SCOPUS Indexed)</li>
+<li>Chinmayee Dora, Pradyut Kumar Biswal, “Automated Detection of Nonphysiological Artifacts in Polysomnographic EEG using Conventional Signal Processing Techniques”, IEEE International Conference TENCON 2017, Penang, Malaysia, November 4 -8, 2017. (SCOPUS Indexed)</li>
+<li>Sushant Sadangi, Satyakam Baraha, Darshan Kumar Satpathy, and Pradyut Kumar Biswal, "FPGA Implementation of Spatial Filtering techniques for 2D Images", IEEE International Conference On Recent Trends In Electronics Information Communication Technology (IRTEICT 2017), Bengaluru, India May 19-20, 2017. (SCOPUS Indexed)</li>
+<li>Satyakam Baraha, Pradyut Kumar Biswal," Implementation of Activation Functions for ELM based Classifiers", IEEE International Conference on Wireless Communications Signal Processing and Networking (WiSPNET 2017), Chennai, March 22-24,2017. (SCOPUS Indexed)</li>
+<li>Chinmayee Dora, Pradyut Kumar Biswal, “ Robust ECG artifact removal from EEG using Continuous Wavelet Transformation and Linear Regression”, IEEE International Conference on Signal Processing and Communication (SPCOM2016), IISc Bangalore, June 12-15, 2016. (SCOPUS Indexed)</li>
+<li>Monalisa Mohanty, Pradyut Kumar Biswal and Sukanta Kumar Sabut , “Feature Extraction of ECG signal for Detection of Ventricular Fibrillation”, IEEE sponsored “International Conference on Man and Machine Interfacing (MAMI2015)" , Bhubaneswar December 17-19, 2015. (SCOPUS Indexed)</li>
+<li>Vikram Panigrahi, Pradyut Kumar Biswal, Rahul Bastia, Sibasankar Sahoo, Rajesh K. Mishra, Soumya P. Senapaty, “Biometric Face Recognition Using Mexican Hat Wavelet Kernel Based SVM”, 2015 IEEE sponsored International Conference on Power, Communication and Information Technology (PCITC), Bhubaneswar, India., 15-17th October 2015. (SCOPUS Indexed)</li>
+<li>A. K. Sahoo, S. Patnaik, P. K. Biswal, A. K. Sahani, P. B. Mohanta, "An efficient algorithm for human tracking in visual surveillance system," in IEEE Second International Conference on Image Information Processing (ICIIP), 2013 , pp.125-130, 9-11 Dec. 2013. (SCOPUS Indexed)</li>
+<li>P. Mondal, P. K. Biswal and S. Banerjee, “Registration of 3d Medical Images Using Parallel Affine Transform”, in IASTED International Conference on Imaging and Signal Processing in Healthcare and Technology (ISPHT 2011), Washington, DC, USA, May 16-18, 2011. (SCOPUS Indexed)</li>
+<li>P. Mondal, P. K. Biswal and S. Banerjee, “Acceleration of Affine Transform for Multiplane Image Stabilization in Digital Camera”, in IEEE International Conference on Signal Acquisition and Processing (ICSAP 2011), Singapore, Vol. 2, pp. 378 – 382, February, 2011.</li>
+<li>P. K. Biswal and S. Banerjee, "Implementation of Katsevich algorithm for helical cone-beam computed tomography using CORDIC," in IEEE International Conference on Systems in Medicine and Biology (ICSMB 2010), IIT Kharagpur, India, pp. 313-317, Dec. 2010. (SCOPUS Indexed)</li>
+<li>P. K. Biswal and S. Banerjee, ”A Parallel approach for Affine Transform of 3D Biomedical Images”, in IEEE International Conference on Electronics and Information Engineering (ICEIE 2010), Kyoto, Japan, Vol. 1, pp. 329 – 332, Aug. 2010. (SCOPUS Indexed)</li>
+<li>P. K. Biswal and S. Banerjee, ”An Embedded Solution of 2D Fast Affine Transform for Biomedical Imaging Systems”, in Proceedings of IEEE VLSI Design and Test Symposium (VDAT 2009), Bangalore, India, pp. 259 - 270, July, 2009.</li>
+</ol>
+<p><strong>Book Chapters:</strong></p>
+<ol>
+<li>Sowmya, N., Pradhan, S., Biswal, P.K., Panda, S.K., Misra, V.P. (2022). Epileptic Seizure Detection Using Deep Learning Architecture. In: Patnaik, S., Kountchev, R., Jain, V. (eds) Smart and Sustainable Technologies: Rural and Tribal Development Using IoT and Cloud Computing. Advances in Sustainability Science and Technology. Springer, Singapore. https://doi.org/10.1007/978-981-19-2277-0_22 Print ISBN 978-981-19-2276-3 Online ISBN 978-981-19-2277-0</li>
+<li>Patro R.N., Subudhi S., Biswal P.K., Sahoo H.K. (2019) Probabilistic Histogram-Based Band Selection and Its Effect on Classification of Hyperspectral Images. In: Bansal J., Das K., Nagar A., Deep K., Ojha A. (eds) Soft Computing for Problem Solving. Advances in Intelligent Systems and Computing, vol 816, pp 559-570, Springer, Singapore. DOI: https://doi.org/10.1007/978-981-13-1592-3_44, Print ISBN: 978-981-13-1591-6, Online ISBN: 978-981-13-1592-3</li>
+<li>Subudhi S., Patro R.N., Biswal P.K. (2019) PSO-Based Synthetic Minority Oversampling Technique for Classification of Reduced Hyperspectral Image. In: Bansal J., Das K., Nagar A., Deep K., Ojha A. (eds) Soft Computing for Problem Solving. Advances in Intelligent Systems and Computing, vol 816, pp 617-625, Springer, Singapore. DOI: https://doi.org/10.1007/978-981-13-1592-3_48, Print ISBN: 978-981-13-1591-6, Online ISBN: 978-981-13-1592-3</li>
+<li>Dora C., Biswal P.K. (2018) An ELM Based Regression Model for ECG Artifact Minimization from Single Channel EEG. In: Yin H., Camacho D., Novais P., Tallón-Ballesteros A. (eds) Intelligent Data Engineering and Automated Learning – IDEAL 2018. IDEAL 2018. Lecture Notes in Computer Science, vol 11314, pp 269-276, Springer, Cham. DOI: https://doi.org/10.1007/978-3-030-03493-1_29, Print ISBN: 978-3-030-03492-4, Online ISBN: 978-3-030-03493-1</li>
+</ol>
+<p><strong>National Conferences:</strong></p>
+<ol>
+<li>D. P. Das and P. K. Biswal, “Neural Network Based Intelligent Mobile Communication System”, in National Seminar on Mobile Communication (NSMC-03), held at CVRCE, Bhubaneswar, India</li>
+</ol>
+<p>&nbsp;</p>                                </div>
+                                <div id="project" class="faculty-section">
+                                    <b>Project</b>
+                                    <p>Coming Soon...</p>                                </div>
+                                <div id="resources" class="faculty-section">
+                                    <b>Resources</b>
+                                    <p>Coming Soon...</p>                                </div>
+                                <div id="administrative_responsibility" class="faculty-section">
+                                    <b>Administrative Responsibility</b>
+                                    <ol>
+<li>DEAN (Student Affairs), 29th October 2022- Till date</li>
+<li>Coordinator, IQAC, 9th January 2024 - Till date</li>
+<li>Member, IQAC, 20th April 2022 - 8th January 2024</li>
+<li>Member, Grievance redressal cell, 20th April 2022 - Till date</li>
+<li>Hostel Chief Warden, 12th April 2022 - Till date</li>
+<li>Chairman, Accreditation Team, 1st July, 2021 – till date</li>
+<li>Public Information Officer, IIIT Bhubaneswar, 1st May, 2021 – 12th April 2022</li>
+<li>Member, Alumni Committee, 30th July, 2021 – till date</li>
+<li>Prof-in-charge, Alumni Committee, December, 2018 – 29th July, 2021</li>
+<li>Member, Staff review and Development Committee, 1st August 2017 – 30th June 2021</li>
+<li>IIIT Bhubaneswar Center Coordinator, IIRS, Dehradun, February, 2017 - till date</li>
+<li>IEEE student branch counselor, October 2016 - till date</li>
+<li>Department Coordinator, Department of Electronics and Telecommunication, 2015-17.</li>
+<li>Course Coordinator, B.Tech, 2013-14 and 2014-15</li>
+<li>Member, B. Tech. Course Coordinating Committee, 2012-13</li>
+</ol>                                </div>
+
+                            </article>
+                            <!-- .Faculty_singlepage_information_details -->
+                            <!-- #post-205 -->
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const links = document.querySelectorAll('#secondary-navigation a');
+        const sections = document.querySelectorAll('.faculty-section');
+
+        links.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+
+                links.forEach(l => l.parentElement.classList.remove('active'));
+
+                this.parentElement.classList.add('active');
+
+                sections.forEach(section => section.style.display = 'none');
+
+                const targetSection = document.querySelector(this.getAttribute('href'));
+                if (targetSection) {
+                    targetSection.style.display = 'block';
+                }
+            });
+        });
+        sections.forEach((section, index) => {
+            section.style.display = index === 0 ? 'block' : 'none';
+        });
+        const firstTab = document.querySelector('#secondary-navigation li');
+        if (firstTab) {
+            firstTab.classList.add('active');
+        }
+    });
+</script>
+
+<footer class="smartlib-footer-area ">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="ftrinfo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <h2>Quick Links</h2>
+                            <ul class="ftrbtmlink">
+                                <li><a href="https://www.iiit-bh.ac.in/aicte/" target="_blank"><i class="fa fa-angle-right"></i> AICTE</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/nirfs/" target="_blank"><i class="fa fa-angle-right"></i> NIRF</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/internal-quality-assurance-cell/" target="_blank"><i class="fa fa-angle-right"></i> IQAC</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/grievance-redressal/" target="_blank"><i class="fa fa-angle-right"></i> Grievance Redressal</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/feedback/" target="_blank"><i class="fa fa-angle-right"></i> Feedback</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/rti/" target="_blank"><i class="fa fa-angle-right"></i> RTI</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/workshop/" target="_blank"><i class="fa fa-angle-right"></i> Workshop / Faculty Development Program(FDP)</a></li>
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/seminar" target="_blank"><i class="fa fa-angle-right"></i> Conference / Seminars</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/tech-talks/" target="_blank"><i class="fa fa-angle-right"></i> Tech Talks / Skill Development Program(SDP)</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/internal-complaints-committee-icc/" target="_blank"><i class="fa fa-angle-right"></i> Internal Complaints Committee (ICC)</a></li>
+                                <li><a href="https://cswl.org.in/" target="_blank"><i class="fa fa-angle-right"></i> Centre for the Study of World Literature</a></li>
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/scstobccell" target="_blank"><i class="fa fa-angle-right"></i> SC/ST/OBS/PH Cell </a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/guest-room/ " target="_blank"><i class="fa fa-angle-right"></i> Guest House</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/list-of-invited-speakers/ " target="_blank"><i class="fa fa-angle-right"></i> List of Invited Speakers</a></li>
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/bis" target="_blank"><i class="fa fa-angle-right"></i> BIS Academic Dashboard</a></li>
+                                                                            <li>
+                                                <a href="https://www.iiit-bh.ac.in/wp-content/uploads/2025/07/HEI.pdf" target="_blank">
+                                                    <i class="fa fa-angle-right"></i> Public Self - Disclosure
+                                                </a>
+                                            </li>
+                                                                            <!-- <li><a href="https://www.iiit-bh.ac.in/sdp/ " target="_blank"><i class="fa fa-angle-right"></i> Skill Development Program(SDP)</a></li> -->
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <h2>Admissions</h2>
+                            <ul class="ftrbtmlink">
+                                <li><a href="https://www.iiit-bh.ac.in/Admission/b-tech/" target="_blank"><i class="fa fa-angle-right"></i> Admission</a></li>
+                                <!-- <li><a href="#"><i class="fa fa-angle-right"></i> How To Apply</a></li> -->
+                                <!-- <li><a href="#"><i class="fa fa-angle-right"></i> Course Fee</a></li> -->
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/scholarships?usp=sharing" target="_blank"><i class="fa fa-angle-right"></i> Scholarship</a></li>
+                                <!-- <li><a href="#"><i class="fa fa-angle-right"></i> Refund Policy</a></li> -->
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <h2>Connect</h2>
+                            <ul class="ftrbtmlink">
+                                <li><a href="https://www.iiit-bh.ac.in/gallery/ " target="_blank"><i class="fa fa-angle-right"></i> Image Gallery</a></li>
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/videogallery?usp=sharing" target="_blank"><i class="fa fa-angle-right"></i> Video Gallery</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/print-digital-media-coverage/" target="_blank"><i class="fa fa-angle-right"></i> Print & Digital Media Coverage </a></li>
+                                <!-- <li><a href="#"><i class="fa fa-angle-right"></i> Brochure</a></li> -->
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/newsletter" target="_blank"><i class="fa fa-angle-right"></i> Newsletter</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/students/"><i class="fa fa-angle-right"></i> Student</a></li>
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/achievements" target="_blank"><i class="fa fa-angle-right"></i> Achievements</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <h2>Contact Information</h2>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i>
+                                    <p class="area1">IIIT Bhubaneswar, Gothapatna, Po: Malipada, Bhubaneswar - 751003,India</p>
+                                </li>
+                                <li class="phbox"><i class="fa fa-phone"></i>
+                                    <p><a href="tel:+91-674-2653300">Tel: +91-(0674)-2653300</a></p>
+                                </li>
+                                <li class="mailbox"><i class="fa fa-fax"></i>
+                                    <p><a href="fax:+91-674-2653309">Fax: +91-(0674)-2653309</p></a>
+                                </li>
+                                <li class="mailbox"><i class="fa fa-globe"></i>
+                                    <p><a href="https://www.iiit-bh.ac.in">www[dot]iiit-bh[dot]ac[dot]in</p></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrightBox">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <p>
+                                <span>&copy; 2026 IIIT Bhubaneswar</span> |
+                                <a href="https://www.iiit-bh.ac.in/disclaimer/">Disclaimer</a> |
+                                <a href="https://www.iiit-bh.ac.in/privacy-policy/">Privacy Policy</a> |
+                                <a href="https://www.iiit-bh.ac.in/terms-and-conditions/">Terms of Use</a>
+                            </p>
+
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <p class="developBy"><a href="#"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/common-file/developBy.png" /></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            <a href="#" class="btn btn-primary pull-right smartlib-btn-go-top animated" id="scroll-top-top"><i
+                    class="fa fa-chevron-up"></i></a>
+        <div id="wondergridgallerylightbox_options" data-skinsfoldername="skins/default/"  data-jsfolder="https://www.iiit-bh.ac.in/wp-content/plugins/wonderplugin-gridgallery/engine/" style="display:none;"></div><script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/js/vendor.min.js" id="smartlib-main-vendor-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/js/main.min.js" id="smartlib-main-js-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.iiit-bh.ac.in\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8" id="contact-form-7-js"></script>
+<script type="text/javascript" id="grid-gallery-js-extra">
+/* <![CDATA[ */
+var gridGalleryAjax = {"ajaxurl":"https:\/\/www.iiit-bh.ac.in\/wp-admin\/admin-ajax.php","nonce":"a0ae047d86"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/js/grid-gallery.js" id="grid-gallery-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/grid-gallery-plugin/grid-gallery-ajax.js" id="grid-gallery-ajax-js"></script>
+<script type="text/javascript" id="custom-script-js-extra">
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"https:\/\/www.iiit-bh.ac.in\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/js/custom-script.js?ver=1.0" id="custom-script-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6Lf3H6wqAAAAACaS_N4mSDn_yPi-JZXcVaTAX8ni&amp;ver=3.0" id="google-recaptcha-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wpcf7-recaptcha-js-extra">
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6Lf3H6wqAAAAACaS_N4mSDn_yPi-JZXcVaTAX8ni","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.9.8" id="wpcf7-recaptcha-js"></script>
+<script type="text/javascript" id="ivory-search-scripts-js-extra">
+/* <![CDATA[ */
+var IvorySearchVars = {"is_analytics_enabled":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/add-search-to-menu/public/js/ivory-search.min.js?ver=5.5.6" id="ivory-search-scripts-js"></script>
+</body>
+
+</html>

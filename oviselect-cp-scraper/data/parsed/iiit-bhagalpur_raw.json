@@ -1,0 +1,78 @@
+{
+  "institute": "IIIT Bhagalpur",
+  "also_known_as": "IIIT Bhagalpur",
+  "institute_type": "IIIT",
+  "established_year": 2017,
+  "city": "Bhagalpur",
+  "state": "Bihar",
+  "address": "Indian Institute of Information Technology Bhagalpur, Bhagalpur College of Engineering (BCE), Sabour, Bhagalpur, Bihar - 813210",
+  "nearest_airport": "Bagdogra International Airport",
+  "nearest_airport_km": 245.0,
+  "nearest_railway_station": "Bhagalpur Junction Railway Station",
+  "nearest_railway_km": 7.5,
+  "india_today_rank": 35,
+  "caution_money": 10000,
+  "one_time_fees": 8700,
+  "tuition_fee_per_sem": 119790,
+  "annual_fees": 1000,
+  "total_institute_fee": 150740,
+  "hostel_fee_per_sem": 22000,
+  "mess_advance_per_sem": 16000,
+  "total_hostel_fee": 38000,
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 10.0,
+    "Electronics and Communication Engineering": 9.0,
+    "Mechatronics Engineering": 10.0,
+    "Overall": 10.0
+  },
+  "median_package_lpa": 9.75,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 14.11,
+    "Electronics and Communication Engineering": 15.91,
+    "Mechatronics Engineering": 11.21,
+    "Overall": 14.43
+  },
+  "avg_package_lpa": 13.91,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-bhagalpur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-bhagalpur",
+  "last_scraped_at": "2026-03-31T16:17:49.223576",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitbh.ac.in",
+  "phd_available": true,
+  "infrastructure": {
+    "has_bank_atm": true,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "clubs": [
+      "Women Cell",
+      "Grievance Cell"
+    ],
+    "has_nss": true,
+    "has_ncc": false
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "institute About Institute Vision and Mission Director's Message About Logo FAQs",
+        "country": null
+      },
+      {
+        "university": "About Institute",
+        "country": null
+      },
+      {
+        "university": "Hotels Near The Institute",
+        "country": null
+      }
+    ]
+  },
+  "nirf_overall_rank": 813210
+}

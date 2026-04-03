@@ -1,0 +1,514 @@
+{
+  "institute": "NIT, Silchar",
+  "also_known_as": "NITS",
+  "institute_type": "NIT",
+  "established_year": 1967,
+  "city": "Silchar",
+  "state": "Assam",
+  "address": "National Institute of Technology Silchar, Cachar, Assam - 788010",
+  "nearest_airport": "Silchar Airport",
+  "nearest_airport_km": 33.5,
+  "nearest_railway_station": "Silchar Railway Station",
+  "nearest_railway_km": 14.5,
+  "qs_asia_rank": "552 (2026)",
+  "nirf_overall_rank": 97,
+  "nirf_engineering_rank": 50,
+  "nirf_innovation_rank": "151-300 (2023)",
+  "outlook_rank": 14,
+  "india_today_rank": 26,
+  "the_week_rank": 23,
+  "caution_money": 10000,
+  "one_time_fees": 7000,
+  "tuition_fee_per_sem": 62500,
+  "total_institute_fee": 86370,
+  "hostel_fee_per_sem": 1500,
+  "mess_advance_per_sem": 21000,
+  "total_hostel_fee": 36630,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 65.0,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 56.49,
+    "Computer Science and Engineering": 73.94,
+    "Electrical Engineering": 60.14,
+    "Electronics and Communication Engineering": 61.31,
+    "Electronics and Instrumentation Engineering": 82.19,
+    "Mechanical Engineering": 62.5,
+    "Overall": 65.0
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 7.6,
+    "Computer Science and Engineering": 18.0,
+    "Electrical Engineering": 11.12,
+    "Electronics and Communication Engineering": 14.49,
+    "Electronics and Instrumentation Engineering": 14.1,
+    "Mechanical Engineering": 8.88,
+    "Overall (UG)": 12.61
+  },
+  "median_package_lpa": 12.4,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 8.87,
+    "Computer Science and Engineering": 24.07,
+    "Electrical Engineering": 12.28,
+    "Electronics and Communication Engineering": 17.05,
+    "Electronics and Instrumentation Engineering": 14.27,
+    "Mechanical Engineering": 9.82,
+    "Overall (UG)": 14.39
+  },
+  "avg_package_lpa": 14.39,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-silchar",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-silchar",
+  "last_scraped_at": "2026-03-31T16:02:26.864068",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nits.ac.in",
+  "research": {
+    "funding_agencies": [
+      "DST",
+      "ISRO"
+    ],
+    "research_centres": [
+      "Director, National Institute of Technology Silchar",
+      "The National Institute of Technology (NIT) Silchar celebrates Republic Day on January 26th",
+      "The National Institute of Technology (NIT) Silchar celebrates Republic Day on January 26th",
+      "Health Centre"
+    ]
+  },
+  "phd_available": true,
+  "infrastructure": {
+    "labs": [
+      "Internet connected computer lab devoted to training and placement.",
+      "Computer lab with 200+ systems interconnected by LAN and high speed internet for online tests."
+    ],
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "clubs": [
+      "Grievance Cell",
+      "NBA Cell"
+    ],
+    "has_nss": false,
+    "has_ncc": true
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "MoU with Royal University of Bhutan",
+        "country": null
+      },
+      {
+        "university": "MoU with Faculty of Sciences and Technologies of University Jean Monnet, Lyons, France",
+        "country": null
+      },
+      {
+        "university": "MoU with University of Arad, Romania",
+        "country": null
+      }
+    ],
+    "foreign_students_on_campus": 137
+  },
+  "departments": [
+    {
+      "name": "General",
+      "faculty_count": 55,
+      "faculty": [
+        {
+          "name": "Dr. Mausumi Sen",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prof. Santanu Roy",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Mr. Bijan Nath",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Pijus Kanti De",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Subrata Bera",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Kedar Nath Das",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Juthika Mahanta",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Praveen Kumar Gupta",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Ganti Ramesh",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Md. Maqbul",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Pankaj Biswas",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. B. Hema Sundar Raju",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Santan Kumar",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Aryaman Sensarma",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Ramakrishna Manchi",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Arijit Jana",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Avijit Das",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prof. Asim Roy",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Subrat Kumar Barik",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Ranjith G. Nair",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Rupak Dutta",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Saumya R. Mohapatra",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Subhasis Panda",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. P. Srinivasan",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Pankaj Chaturvedi",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Susmita Rabha",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Snehasish Nandy",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prof. Md. Ahmaruzzaman",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prof. Siddhartha S Dhar",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prof. Pranjit Barman",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Ruma Rano (HoD)",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Samuel Lalthazuala Rokhum",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Biswa Nath Ghosh",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. N. Shaemningwar Moyon",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Shanti Gopal Patra",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Papri Sutar",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Nilanjan Roy",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prof. N. B. Singh",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Reena Sanasam",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Avishek Ray",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Panchali Bhattacharya",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Dinamani Biswal",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Shashi Kumar G K",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Ujjal Protim Dutta",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Sumallya Mukhopadhyay",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Neha Kumari",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Aayushi Lyngwa",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Ashim Kumar Das",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Soma Panja",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Saurabh Verma",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Binoti Patro",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Rama Koteswara Rao Kondasani",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Dibya Nandan Mishra",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Tanaya Nayak",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Shubham Senapati",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        }
+      ]
+    }
+  ],
+  "total_faculty_count": 55
+}

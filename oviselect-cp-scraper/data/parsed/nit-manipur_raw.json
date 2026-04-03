@@ -1,0 +1,39 @@
+{
+  "institute": "NIT, Manipur",
+  "also_known_as": "NITMN",
+  "institute_type": "NIT",
+  "established_year": 2010,
+  "city": "Imphal",
+  "state": "Manipur",
+  "address": "National Institute of Technology, Langol, Imphal, Manipur - 795004",
+  "nearest_airport": "Bir Tikendrajit International Airport, Imphal",
+  "nearest_airport_km": 10.0,
+  "nearest_railway_station": "Dimapur Railway Station",
+  "nearest_railway_km": 205.0,
+  "nirf_engineering_rank": 151,
+  "caution_money": 5000,
+  "one_time_fees": 1300,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 1400,
+  "total_institute_fee": 77700,
+  "hostel_fee_per_sem": 2500,
+  "mess_advance_per_sem": 23400,
+  "total_hostel_fee": 32400,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-manipur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-manipur",
+  "last_scraped_at": "2026-03-31T16:07:30.021074",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitmanipur.ac.in",
+  "phd_available": true
+}

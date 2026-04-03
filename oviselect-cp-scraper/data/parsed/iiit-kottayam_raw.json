@@ -1,0 +1,58 @@
+{
+  "institute": "IIIT(IIIT) Kottayam",
+  "also_known_as": "IIIT Kottayam",
+  "institute_type": "IIIT",
+  "established_year": 2015,
+  "city": "Kottayam",
+  "state": "Kerala",
+  "address": "Indian Institute of Information Technology Kottayam, Valavoor P.O, Pala, Kottayam, Kerala - 686635",
+  "nearest_airport": "Cochin International Airport",
+  "nearest_airport_km": 65.0,
+  "nearest_railway_station": "Kottayam Railway Station",
+  "nearest_railway_km": 32.5,
+  "caution_money": 12000,
+  "one_time_fees": 1000,
+  "tuition_fee_per_sem": 132000,
+  "annual_fees": 1750,
+  "total_institute_fee": 146750,
+  "hostel_fee_per_sem": 30900,
+  "mess_advance_per_sem": 27950,
+  "total_hostel_fee": 60125,
+  "placement_year": 2023,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-kottayam",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-kottayam",
+  "last_scraped_at": "2026-03-31T16:18:52.349745",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitkottayam.ac.in",
+  "phd_available": true,
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Institute Institute Admission Academics Scholarship/Educational Loans",
+        "country": null
+      },
+      {
+        "university": "Institute Institute Admission Academics Scholarship/Educational Loans",
+        "country": null
+      },
+      {
+        "university": "Institute",
+        "country": null
+      },
+      {
+        "university": "Institute arrow_drop_down",
+        "country": null
+      },
+      {
+        "university": "Institute Email",
+        "country": null
+      }
+    ]
+  }
+}

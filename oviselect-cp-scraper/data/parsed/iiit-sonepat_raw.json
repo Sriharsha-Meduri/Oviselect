@@ -1,0 +1,49 @@
+{
+  "institute": "IIIT(IIIT) Kilohrad, Sonepat, Haryana",
+  "also_known_as": "IIIT Sonepat",
+  "institute_type": "IIIT",
+  "established_year": 2014,
+  "city": "Sonepat",
+  "state": "Haryana",
+  "address": "Indian Institute of Information Technology Sonepat, SBIT Campus, Meerut Road, Pallri, Sonipat, Haryana - 131001",
+  "nearest_airport": "Indira Gandhi International Airport, Delhi",
+  "nearest_airport_km": 65.5,
+  "nearest_railway_station": "Sonipat Junction Railway Station",
+  "nearest_railway_km": 17.0,
+  "caution_money": 9225,
+  "one_time_fees": 9380,
+  "tuition_fee_per_sem": 90000,
+  "annual_fees": 770,
+  "total_institute_fee": 119373,
+  "hostel_fee_per_sem": 12500,
+  "overall_placement_pct": 64.77,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 70.73,
+    "Information Technology": 59.57,
+    "Overall": 64.77
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 8.6,
+    "Information Technology": 8.6,
+    "Overall": 8.6
+  },
+  "median_package_lpa": 8.6,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 15.43,
+    "Information Technology": 17.83,
+    "Overall": 16.51
+  },
+  "avg_package_lpa": 16.59,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-sonepat",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-sonepat",
+  "last_scraped_at": "2026-03-31T16:18:41.824368",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitkl.ac.in"
+}

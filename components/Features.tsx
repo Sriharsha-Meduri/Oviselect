@@ -10,17 +10,17 @@ interface PillarCardProps {
 }
 
 const PillarCard: React.FC<PillarCardProps> = ({ title, badge, description, icon, gradient }) => (
-  <div className={`relative rounded-3xl p-8 text-white overflow-hidden group hover:-translate-y-2 transition-all duration-400 ease-out cursor-default ${gradient}`}>
+  <div className={`relative rounded-3xl p-8 overflow-hidden group hover:-translate-y-2 transition-all duration-400 ease-out cursor-default ${gradient}`}>
     <div className="absolute -top-10 -right-10 w-48 h-48 bg-white/10 rounded-full blur-3xl group-hover:scale-125 transition-transform duration-700" />
 
     <div className="relative z-10">
-      <span className="inline-block px-3 py-1 bg-white/15 rounded-full text-[10px] font-semibold uppercase tracking-widest mb-6">
+      <span className="inline-block px-3 py-1 bg-white/15 rounded-full text-[10px] font-semibold uppercase tracking-widest mb-6 text-white">
         {badge}
       </span>
       <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
         {icon}
       </div>
-      <h3 className="font-display text-2xl font-semibold mb-3">{title}</h3>
+      <h3 className="font-display text-2xl font-semibold mb-3 text-white">{title}</h3>
       <p className="text-white/75 text-sm leading-relaxed">{description}</p>
     </div>
   </div>
@@ -44,41 +44,41 @@ const Features: React.FC = () => {
       badge: 'Core AI',
       description: 'Admission probability across every college-branch combination using 5 years of historical JoSAA and state CET data.',
       icon: <BarChart2 size={22} className="text-white" />,
-      gradient: 'bg-gradient-to-br from-blue-600 to-indigo-700',
+      gradient: 'bg-gradient-to-br from-cblue to-cblue/80',
     },
     {
       title: 'Optimization Engine',
       badge: 'Strategic',
       description: 'Generates a risk-balanced choice list that maximizes expected outcomes across every counselling round.',
       icon: <Zap size={22} className="text-white" />,
-      gradient: 'bg-gradient-to-br from-violet-600 to-purple-700',
+      gradient: 'bg-gradient-to-br from-camber to-camber/80',
     },
     {
       title: 'Truth Engine',
       badge: 'Real Insights',
       description: 'Aggregates Reddit, LinkedIn, and placement data into honest, unfiltered college intelligence. No marketing fluff.',
       icon: <Search size={22} className="text-white" />,
-      gradient: 'bg-gradient-to-br from-emerald-500 to-teal-700',
+      gradient: 'bg-gradient-to-br from-cgreen to-cgreen/80',
     },
     {
       title: 'Counselling Copilot',
       badge: 'Always Live',
       description: 'Tracks seat allotments after every round and recommends Freeze, Float or Slide with clear risk reasoning.',
       icon: <Bot size={22} className="text-white" />,
-      gradient: 'bg-gradient-to-br from-rose-500 to-orange-600',
+      gradient: 'bg-gradient-to-br from-accent to-accent/80',
     },
   ];
 
   return (
-    <section id="features" className="py-20 sm:py-28 md:py-36 bg-white dark:bg-gray-950">
+    <section id="features" className="py-20 sm:py-28 md:py-36 bg-paper/70 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12">
 
         {/* Header */}
         <div className="mb-12 md:mb-16 fade-up">
-          <span className="text-xs font-semibold tracking-widest uppercase text-gray-400 dark:text-gray-600 mb-3 block">Product</span>
-          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white leading-[1.06] tracking-tight">
+          <span className="text-xs font-semibold tracking-widest uppercase text-ink-4 mb-3 block">Product</span>
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-ink leading-[1.06] tracking-tight">
             Intelligence at<br />
-            <span className="text-gray-300 dark:text-gray-600">every layer.</span>
+            <span className="text-ink-4">every layer.</span>
           </h2>
         </div>
 
@@ -93,10 +93,10 @@ const Features: React.FC = () => {
 
         {/* Additional features as chips */}
         <div className="fade-up">
-          <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 dark:text-gray-600 mb-4">And more</p>
+          <p className="text-xs font-semibold tracking-widest uppercase text-ink-4 mb-4">And more</p>
           <div className="flex flex-wrap gap-2.5">
             {extras.map((e, i) => (
-              <span key={i} className="px-4 py-2 bg-gray-100 dark:bg-white/5 border border-gray-200 dark:border-white/8 rounded-full text-sm text-gray-600 dark:text-gray-400 font-medium hover:bg-gray-200 dark:hover:bg-white/10 hover:text-gray-900 dark:hover:text-white transition-colors cursor-default">
+              <span key={i} className="px-4 py-2 bg-white/10 border border-white/10 rounded-full text-sm text-[#D4CFC8] font-medium hover:bg-white/15 hover:text-white transition-colors cursor-default">
                 {e}
               </span>
             ))}

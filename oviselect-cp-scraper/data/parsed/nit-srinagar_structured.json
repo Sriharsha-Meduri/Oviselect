@@ -1,0 +1,223 @@
+{
+  "institute": "NIT, Srinagar",
+  "institute_type": "NIT",
+  "also_known_as": "NITSRI",
+  "established_year": 1960,
+  "city": "Srinagar",
+  "state": "Jammu and Kashmir",
+  "address": "National Institute of Technology, Hazratbal Road, Hazaratbal, Srinagar, Jammu and Kashmir - 190006",
+  "nearest_airport": "Sheikh Ul-Alam International Airport, Srinagar",
+  "nearest_airport_km": 21.0,
+  "nearest_railway_station": "Srinagar Railway Station",
+  "nearest_railway_km": 19.0,
+  "nirf_overall_rank": 101,
+  "nirf_engineering_rank": 73,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": "1201-1300 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 8000,
+  "mess_advance_per_sem": 20000,
+  "one_time_fees": 4500,
+  "caution_money": 12000,
+  "annual_fees": null,
+  "total_institute_fee": 89500,
+  "total_hostel_fee": 31000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 36.13,
+  "avg_package_lpa": 10.0,
+  "median_package_lpa": 8.34,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 22.08,
+    "Civil Engineering": 22.93,
+    "Computer Science and Engineering": 60.49,
+    "Electrical Engineering": 56.0,
+    "Electronics and Communication Engineering": 14.13,
+    "Information Technology": 34.88,
+    "Mechanical Engineering": 47.66,
+    "Metallurgical and Materials Engineering": 37.33,
+    "Overall": 36.13
+  },
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 7.27,
+    "Civil Engineering": 6.0,
+    "Computer Science and Engineering": 12.0,
+    "Electrical Engineering": 8.25,
+    "Electronics and Communication Engineering": 7.12,
+    "Information Technology": 12.0,
+    "Mechanical Engineering": 7.3,
+    "Metallurgical and Materials Engineering": 6.75
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 8.46,
+    "Civil Engineering": 8.67,
+    "Computer Science and Engineering": 13.8,
+    "Electrical Engineering": 9.42,
+    "Electronics and Communication Engineering": 10.75,
+    "Information Technology": 11.6,
+    "Mechanical Engineering": 9.2,
+    "Metallurgical and Materials Engineering": 8.06
+  },
+  "top_recruiters": [
+    "Expand People",
+    "Home",
+    "Recruiters",
+    "TNP Policy",
+    "Training and Placement",
+    "Company Response Sheet",
+    "Placement Statistics",
+    "TNP Brochure",
+    "Distinguished Alumni",
+    "Contact Us",
+    "Vision and Mission of NIT Srinagar",
+    "Message from Director",
+    "Message from HoD",
+    "Employee Assistant TPOs Staff",
+    "Campus Recruitment Coordinator",
+    "Internship Coordinator"
+  ],
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Chemical Engineering"
+    },
+    {
+      "name": "Civil Engineering"
+    },
+    {
+      "name": "Computer Science & Engineering"
+    },
+    {
+      "name": "Electrical Engineering"
+    },
+    {
+      "name": "Electronics & Communication Engineering"
+    },
+    {
+      "name": "Humanities & Social Sciences"
+    },
+    {
+      "name": "Mathematics"
+    },
+    {
+      "name": "Mechanical Engineering"
+    },
+    {
+      "name": "Metallurgical Engineering"
+    },
+    {
+      "name": "Physics"
+    },
+    {
+      "name": "Chemical Technology"
+    },
+    {
+      "name": "Computer Applications"
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": null,
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": false,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": {
+    "clubs": null,
+    "technical_societies": null,
+    "technical_fests": null,
+    "cultural_fests": null,
+    "has_nss": false,
+    "has_ncc": false,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "National Institute of Technology, Srinagar is one of the premier Educational Institutes in the Northern Regions of the country",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Magazine Sabzar 2020-2021",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Action Plan",
+        "country": null,
+        "focus_area": null
+      }
+    ],
+    "mou_count": null,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.nitsri.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 83,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-srinagar",
+  "last_scraped_at": "2026-03-31T16:08:53.376384",
+  "department_count": 12,
+  "total_faculty": 0
+}

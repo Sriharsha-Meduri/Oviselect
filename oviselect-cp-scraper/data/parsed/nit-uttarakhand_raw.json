@@ -1,0 +1,163 @@
+{
+  "institute": "NIT, Uttarakhand",
+  "also_known_as": "NITUK",
+  "institute_type": "NIT",
+  "established_year": 2010,
+  "city": "Garhwal",
+  "state": "Uttarakhand",
+  "address": "National Institute of Technology, Government Polytechnic, Srinagar (Garhwal), Uttarakhand - 246174",
+  "nearest_airport": "Jolly Grant Airport, Dehradun",
+  "nearest_airport_km": 117.0,
+  "nearest_railway_station": "Rishikesh Railway Station",
+  "nearest_railway_km": 100.0,
+  "qs_asia_rank": "721-730 (2026)",
+  "nirf_engineering_rank": 151,
+  "india_today_rank": 31,
+  "caution_money": 8500,
+  "one_time_fees": 11730,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 1150,
+  "total_institute_fee": 91680,
+  "hostel_fee_per_sem": 5669,
+  "mess_advance_per_sem": 22000,
+  "total_hostel_fee": 40612,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 56.96,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 26.67,
+    "Computer Science and Engineering": 72.22,
+    "Electrical and Electronics Engineering": 63.64,
+    "Electronics and Communication Engineering": 55.56,
+    "Mechanical Engineering": 64.71,
+    "Overall": 56.96
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 6.0,
+    "Computer Science and Engineering": 18.0,
+    "Electrical and Electronics Engineering": 6.0,
+    "Electronics and Communication Engineering": 7.1,
+    "Mechanical Engineering": 7.6,
+    "Overall": 7.5
+  },
+  "median_package_lpa": 8.7,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 6.5,
+    "Computer Science and Engineering": 15.3,
+    "Electrical and Electronics Engineering": 6.9,
+    "Electronics and Communication Engineering": 9.3,
+    "Mechanical Engineering": 8.2,
+    "Overall": 9.9
+  },
+  "avg_package_lpa": 9.35,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-uttarakhand",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-uttarakhand",
+  "last_scraped_at": "2026-03-31T16:08:35.600312",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nituk.ac.in",
+  "placement_officer": {
+    "email": "nituttarakhand@nituk.ac.in",
+    "phone": "2026-02-25"
+  },
+  "top_recruiters": [
+    "Academic Calendar Even Semester 2026 2026-01-05",
+    "NOC format for Ph.D. scholar (Part Time) 2025-11-24",
+    "Email Policy",
+    "Administration Forms",
+    "Academics Related Forms",
+    "Office Orders",
+    "Recruitment",
+    "Newsletter",
+    "NIRF and ARIIA",
+    "Annual Report",
+    "BoG Meetings",
+    "CAG Audit Report",
+    "FC Meetings",
+    "BWC Meetings",
+    "Senate Meetings",
+    "Tour",
+    "Annual Accounts",
+    "Special Cell Meeting",
+    "Grievance Cell Meeting",
+    "Property Returns",
+    "Institute Calendar",
+    "List of Holidays",
+    "Institute Daily Diary",
+    "Manual",
+    "MoU",
+    "Quaterly Return",
+    "JoSAA",
+    "CSAB",
+    "DASA",
+    "CCMT",
+    "CCMN",
+    "Study in India",
+    "Image 1",
+    "Image 2",
+    "Image 3",
+    "Image 4",
+    "Image 5",
+    "Image 6",
+    "Image 7",
+    "Image 8",
+    "Image 9",
+    "Image 10",
+    "Image 11",
+    "Image 12",
+    "project",
+    "image",
+    "YourDost",
+    "Preview"
+  ],
+  "research": {
+    "research_centres": [
+      "National Institute of Technology, Uttarakhand"
+    ]
+  },
+  "phd_available": true,
+  "infrastructure": {
+    "has_bank_atm": true,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "clubs": [
+      "Student Life Hostels Sports Clubs Student's grievance redressal cell National Service Scheme (NSS)",
+      "Student's grievance redressal cell",
+      "Special Cell Meeting",
+      "Grievance Cell Meeting",
+      "Cultural and Fine Art Club",
+      "Technical Club",
+      "Sports Club",
+      "Literary Club",
+      "Film and Photography Club",
+      "Adventure Activities & Community Service Club",
+      "SAE Club",
+      "Grievance Cell",
+      "Special Cell",
+      "Website Development Team"
+    ],
+    "technical_fests": [
+      "National Institute of Technology, Uttarakhand"
+    ],
+    "has_nss": true,
+    "has_ncc": false
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "S.No.",
+        "country": "Event"
+      }
+    ]
+  }
+}

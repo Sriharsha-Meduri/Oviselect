@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Faculty and Staff</title>
+        <script src="../../assets/js/tailwind.js"></script>
+        <link rel="icon" type="image/x-icon" href="../../assets/images/nitLogo.png">
+        <link rel="stylesheet" href="..\assets\css\index.css">
+
+
+
+
+</head>
+
+<body>
+        <style>
+                #ForFacultyAndStaff{
+                        background-color: #7A211E;
+                         color : white;
+                }
+        </style>
+        <!-- header start -->
+        <div>
+                <!-- top header  -->
+
+
+
+
+<div class="flex">
+  <div class="w-[70%] h-8 bg-[#921B1F]">
+    <div class="flex h-full justify-around lg:w-[50%] lg:ml-20 align-middle items-center">
+      <span class="text-white font-light text-xs md:text-base lg:text-[15px]"><a href="../../../../include/header/../../institute/job_oppurtunities.php">Jobs</a></span>
+      <!--<span class="text-white font-light text-xs md:text-base lg:text-[15px]"><a href="../../../../include/header/../../students/academicCalendar.php">Calendar</a></span> -->
+      <span class="text-white font-light text-xs md:text-base lg:text-[15px]"><a href="../../../../include/header/../../institute/tenders.php">Tenders</a></span>
+      <span class="text-white font-light text-xs md:text-base lg:text-[15px]"><a href="https://kic.nitsikkim.ac.in/">KIC/Library</a></span>
+      <span class="text-white font-light text-xs md:text-base lg:text-[15px]"><a href="https://www.nitsikkim.ac.in/old-index.php">Old Website</a></span>
+      <span class="text-white font-light text-xs md:text-base lg:text-[15px] hidden lg:block"><a href='../../../../include/header/../../footer/contact.php'>Contact</a></span>
+
+    </div>
+  </div>
+  <div class="flex items-center justify-around w-[30%] h-8 bg-[#7F7F7F]">
+    <span><a href="mailto:info@nitsikkim.ac.in"><img src=../../../../include/header/assets/icons/mail.png alt="mail"  class="h-6 w-6"/></a></span>
+    <span><a href="https://www.facebook.com/NITSIKKIMADMIN/"><img src=../../../../include/header/assets/icons/fb.png alt="facebook"/></a></span>
+    <span><a href="https://www.youtube.com/channel/UCRaCwgwDJh1U2q1-EcMsBQQ"><img src=../../../../include/header/assets/icons/yt.png alt="youtube"/></a></span>
+    <span><a href="https://x.com/NITSIKKIM1"><img src=../../../../include/header/assets/icons/x.png alt="twitter" class="h-4 w-4"/></a></span>
+    <span><a href="https://www.linkedin.com/school/national-institute-of-technology-sikkim"><img src=../../../../include/header/assets/icons/linkedin.png alt="linkedin"/></a></span>
+  </div>
+</div>
+
+<!-- Collage logo and Navlinks -->
+
+<div class="absolute top-[32px] z-30 w-full bg-[url('assets/images/navGradient.png')] bg-gradient-to-b from-black h-[150px]">
+  <div class="flex justify-between w-[90%] mx-auto mt-6 h-[100px]">
+    <a class="inline-flex" href="../../../../include/header/../../index.php">
+      <span>
+        <!-- <img src="../../includes/header/assets/images/nitLogo.png" alt="logo" class="inline" /> -->
+        <img src=../../../../include/header/assets/images/nitLogo.png alt="logo" class="inline" />
+      </span>
+      <div class="">
+        <div class="text-white flex flex-col leading-6 ml-3">
+          <span class="tracking-wider text-[15px] md:text-[22px]">राष्ट्रीय प्रौद्योगिकी संस्थान, सिक्किम
+          </span>
+          <span class="tracking-wider text-[12px] md:text-[22px]">National Institute of Technology Sikkim</span>
+          <span class="tracking-wider text-[8px] md:text-[15px]">An Institute of National Importance, MoE Government of India</span>
+        </div>
+      </div>
+    </a>
+    <span class="flex flex-row h-fit items-center justify-center relative bottom-[30px]">
+      <!-- <a class="" href="https://g20.mygov.in/"><img src=../../../../include/header/assets/images/g20.png alt="logo" class="  h-[80px] hidden sm:block" /></a> -->
+      <a class="" href="https://amritmahotsav.nic.in/"><img src=../../../../include/header/assets/images/azadi.png alt="logo" class=" h-[120px] hidden sm:block" /></a>
+    </span>
+  </div>
+
+  <!-- Navlinks -->
+  <div id="navBarHolder">
+    <div id='navBar' class="xl:h-[63px] w-auto xl:w-[80%] float-right rounded-l-full bg-[#921B1FCC] text-white p-4 flex justify-around z-40">
+      <div>
+        <a href="../../../../include/header/../../index.php ">
+          <span class="font-medium hidden xl:block">
+            <img src=../../../../include/header/assets/icons/home.png alt="home" class="w-5 pt-1" />
+          </span></a>
+      </div>
+      <div id="navLink1" class="hidden xl:inline-flex hover:bg-yellow-500 hover:rounded-full hover:text-white px-3 py-[10px] self-center">
+        <span class="text-lg font-medium tracking-wide"> Institute </span>
+        <span>
+          <img src=../../../../include/header/assets/icons/down.png alt="down" class="mt-3 ml-2 h-2" />
+        </span>
+
+        <!-- Dropdown1  Institute-->
+        <div id="dd1" class="hidden absolute mt-[39px] opacity-90 bg-white z-10 min-h-[150px] w-[70%] rounded-bl-[80px] grid grid-cols-3 gap-4 p-5">
+          <div class="col-span-2 h-full border-2 border-gray-500 rounded-bl-[80px]">
+            <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+              Administration
+            </div>
+            <div class="flex flex-row w-full min-h-[150px] justify-around">
+              <div class="flex flex-col p-6 w-[30%]">
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/visitors.php "><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Visitor</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/councilOfNITs.php"><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Council of NITs</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/boardOfGovernors.php "><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Board of Governors</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/senate.php"><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Senate</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/chairman.php "><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Chairperson</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/director.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Director</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/registrar.php "><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Registrar</a></span>
+              </div>
+              <div class="flex flex-col p-6 border-x-2 w-[35%] ">
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/deans.php "><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Deans</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/hods.php "><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> HODs</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/chiefVigilanceOfficer.php "><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Chief Vigilance Officer</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/financeCommittee.php "><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Finance Committee</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/buildingsWorkCommittee.php "><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Building Work Committee</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/mom.php"><img src=../../../../include/header/assets/icons/file.png alt="" class="inline iconsize" /> Minutes of Meeting</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/organizationStructure.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Organization Structure</a></span>
+              </div>
+              <div class="flex flex-col p-5 w-[35%]">
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/sugb.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> SUGB</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/spgb.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> SPGB</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/ssc.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> SSC</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/people.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> People</a></span>
+                <!--<span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/Offices_Sections.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Academic & Student Welfare Section</a></span>-->
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/estb.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" />Establishment Section</a></span>
+                <!--<span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/Offices_Sections.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Offices / Sections</a></span>-->
+
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/accounts.php"><img src=../../../../include/header/assets/icons/file.png alt="" class="inline iconsize" /> Finance & Accounts Section</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/for_faculty_staff.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> For Faculty and Staff</a></span>
+              </div>
+              <!-- <div class="flex flex-col p-5 border-gray-300 w-[50%]">
+                <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Institute Authorities</span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Chief Vigilance Officer </span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Public Information Officer</span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Office Administration</span>
+              </div>  -->
+            </div>
+          </div>
+          <div class="border-2 border-gray-500 rounded-bl-[80px]">
+            <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+              About
+            </div>
+            <div class="flex flex-row w-full min-h-[150px] justify-around">
+              <div class="flex flex-col p-5">
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/about/visionandmission.php "><img src=../../../../include/header/assets/icons/eye.png alt="" class="inline iconsize" /> Vision & Mission</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/about/campus.php "><img src=../../../../include/header/assets/icons/building.png alt="" class="inline iconsize" /> Campus & Infrastructure </a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/about/information.php "><img src=../../../../include/header/assets/icons/file.png alt="" class="inline iconsize" /> Information</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/gallery.php"><img src=../../../../include/header/assets/icons/photo-film.png alt="" class="inline iconsize" /> Gallery</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div id="navLink2" class="hidden xl:inline-flex hover:bg-yellow-500 hover:rounded-full hover:text-white px-3 py-[10px] self-center">
+        <div class="text-lg font-medium tracking-wide">Academics</div>
+        <img src=../../../../include/header/assets/icons/down.png alt="down" class="mt-3 ml-2 h-2 hidden xl:block" />
+        <!-- Dropdown2 Academics -->
+        <div id="dd2" class="hidden absolute mt-[39px] opacity-90 bg-white min-h-[282px] w-[60%] rounded-bl-[80px] grid grid-cols-3 gap-4 p-5">
+          <div class="col-span-2 h-full border-2 border-gray-500 rounded-bl-[80px]">
+            <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+              Departments
+            </div>
+            <div class="flex flex-row w-full min-h-[282px] justify-around">
+              <div class="flex flex-col p-5">
+                <span class="my-1 text-black font-medium hover:text-red-400"><a target="_blank" href="https://chemistry.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Chemistry</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a target="_blank" href="https://ce.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Civil Engineering</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a target="_blank" href="https://cse.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Computer Science Engineering</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a target="_blank" href="https://eee.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Electrical and Electronics Engineering</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a target="_blank" href="https://ece.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Electronics and Communication Engineering</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a target="_blank" href="https://hss.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Humanities and Social Science</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a target="_blank" href="https://math.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Mathematics</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a target="_blank" href="https://me.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Mechanical Engineering</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a target="_blank" href="https://physics.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Physics</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-1 border-2 border-gray-500 rounded-bl-[80px]">
+            <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+              Academics
+            </div>
+            <div class="flex flex-row w-full min-h-[282px] justify-around">
+              <div class="flex flex-col p-5">
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/notices.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Notices</a></span>
+              <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/syllabus.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Syllabus & Course Structure</a> </span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/rulesAndRegulations.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Rules & Regulations</a> </span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/examinations.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Examinations </a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/academicCalendar.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Academic Calendar</a></span>
+                    <!-- <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../footer/rti.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Right To Information </a></span> -->
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/feeStructure.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Fee Structure</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://script.google.com/macros/s/AKfycbys1lTQCvnrQObe65ig4jRMa1tsMyWlfytUPNQpg-U-Ktk-V5kK6ioovP3zAvWZK973Cw/exec"?><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Academic Progress Portal</a></span>
+                
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="navLink4" class="hidden xl:inline-flex hover:bg-yellow-500 hover:rounded-full hover:text-white px-3 py-[10px] self-center">
+        <div class="text-lg font-medium tracking-wide">Student</div>
+        <img src=../../../../include/header/assets/icons/down.png alt="down" class="mt-3 ml-2 h-2 hidden xl:block" />
+
+        <!-- Dropdown4 -->
+        <div id="dd4" class="hidden absolute left-[30%] mt-[39px] opacity-90 bg-white min-h-[150px] w-[30%] rounded-bl-[80px] grid grid-cols-1 gap-4 p-5">
+          <div class="col-span-1 h-full border-2 border-gray-500 rounded-bl-[80px]">
+            <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+              Student Facilities
+            </div>
+            <div class="flex flex-row w-full min-h-[150px] justify-center">
+              <div class="flex flex-col p-5">
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/hostels.php"><img src=../../../../include/header/assets/icons/building.png alt="" class="inline iconsize" /> Hostel</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/sports.php"><img src=../../../../include/header/assets/icons/volleyball.png alt="" class="inline iconsize" /> Sports</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/scholarship.php"><img src=../../../../include/header/assets/icons/file.png alt="" class="inline iconsize" /> Scholarships</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/antiRagging.php"><img src=../../../../include/header/assets/icons/file-shield.png alt="" class="inline iconsize" /> Anti-Ragging</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/transport.php"><img src=../../../../include/header/assets/icons/bus.png alt="" class="inline iconsize" /> Transport</a></span>
+              </div>
+
+              <div class="flex flex-col p-5 border-l-2 border-gray-300">
+              <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/clubsAndCells.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Cells & Clubs</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../footer/scst.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> SC / ST Cell</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../footer/obc.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> OBC Cell</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../footer/womenGrievance.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Women Grievance Cell</a></span>
+                    
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/formatsAndForms.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Formats & Forms </a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://nitsikkim.samarth.edu.in/index.php/site/login"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Samarth Student Portal</a></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="navLink3" class="hidden xl:inline-flex hover:bg-yellow-500 hover:rounded-full hover:text-white px-3 py-[10px] self-center">
+        <span class="text-lg font-medium tracking-wide">Research</span>
+        <span>
+          <img src=../../../../include/header/assets/icons/down.png alt="down" class="mt-3 ml-2 h-2 hidden xl:block" />
+        </span>
+        <!-- Dropdown3  Research-->
+        <div id="dd3" class="hidden absolute mt-[39px] opacity-90 bg-white min-h-[150px] w-[15%] rounded-bl-[80px] grid grid-cols-1 gap-4 p-5">
+          <div class="col-span-1 border-2 border-gray-500 rounded-bl-[80px]">
+            <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+              Research @ NIT Sikkim
+            </div>
+            <div class="flex flex-row w-full min-h-[150px] justify-around">
+              <div class="flex flex-col p-5">
+                <!-- <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../researches/facilities/facilties.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Facilities</a></span> -->
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../researches/projects.php"><img src=../../../../include/header/assets/icons/book-journal-whills.png alt="" class="inline iconsize" /> Projects </a></span>
+                <!-- <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/book-journal-whills.png alt="" class="inline iconsize" /> Publications</span> -->
+                <!-- <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> R&C</span> -->
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../researches/mous.php"><img src=../../../../include/header/assets/icons/handshake.png alt="" class="inline iconsize" /> MOU's</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../researches/collaborations.php"><img src=../../../../include/header/assets/icons/handshake.png alt="" class="inline iconsize" /> Collaboration</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/job_oppurtunities.php?type=research"><img src=../../../../include/header/assets/icons/handshake.png alt="" class="inline iconsize" /> Vacancies</a></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="navLink5" class="hidden xl:inline-flex hover:bg-yellow-500 hover:rounded-full hover:text-white px-3 py-[10px] self-center">
+        <div class="text-lg font-medium tracking-wide">Central Facilities</div>
+        <img src=../../../../include/header/assets/icons/down.png alt="down" class="mt-3 ml-2 h-2 hidden xl:block" />
+
+        <!-- Dropdown 5 -->
+        <div id="dd5" class="hidden absolute mt-[39px] left-[50%] opacity-90 bg-white min-h-[150px] w-[20%] rounded-bl-[80px] grid grid-cols-1 gap-4 p-5">
+          <div class="col-span-1 h-full border-2 border-gray-500 rounded-bl-[80px]">
+            <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+              Facilities
+            </div>
+            <div class="flex flex-row w-full min-h-[150px] justify-around">
+              <div class="flex flex-col p-5">
+                <!-- <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> ICTI</span> -->
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://kic.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Central Library</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/medication.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Medical Unit</a></span>
+                <!-- <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../centralfacilities/facilities/guesthouse.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Guest House</a></span> -->
+                <!-- <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../centralfacilities/facilities/atm.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> ATM</a></span> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="navLink8" class="hidden xl:inline-flex hover:bg-yellow-500 hover:rounded-full hover:text-white px-3 py-[10px] self-center">
+        <div class="text-lg font-medium tracking-wide">Admissions</div>
+        <img src=../../../../include/header/assets/icons/down.png alt="down" class="mt-3 ml-2 h-2 hidden xl:block" />
+        <!-- Dropdown6 -->
+        <div id="dd8" class="hidden absolute mt-[39px] opacity-90 bg-white min-h-[80px] w-[17%] rounded-bl-[80px] grid grid-cols-1 gap-4 p-5">
+          <div class="col-span-1 border-2 border-gray-500 rounded-bl-[80px]">
+            <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+              Admissions
+            </div>
+            <div class="flex flex-row w-full min-h-[80px] justify-around">
+              <div class="flex flex-col p-5">
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://nitsikkimadm.samarth.edu.in/jee/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Samarth Admission Portal of UG & PG</a></span>                
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/feeStructure.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Fee Structure</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/btechAdmissions.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> B.Tech Admissions</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/mtechAdmissions.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> M.Tech Admissions</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/mscAdmissions.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> M.Sc. Admissions</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/phdAdmissions.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> PhD Admissions</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="navLink6" class="hidden xl:inline-flex hover:bg-yellow-500 hover:rounded-full hover:text-white px-3 py-[10px] self-center">
+        <div class="text-lg font-medium tracking-wide">Placement</div>
+        <img src=../../../../include/header/assets/icons/down.png alt="down" class="mt-3 ml-2 h-2 hidden xl:block" />
+        <!-- Dropdown6 -->
+        <div id="dd6" class="hidden absolute mt-[39px] opacity-90 bg-white min-h-[80px] w-[17%] rounded-bl-[80px] grid grid-cols-1 gap-4 p-5">
+          <div class="col-span-1 border-2 border-gray-500 rounded-bl-[80px]">
+            <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+              Placement @ NIT Sikkim
+            </div>
+            <div class="flex flex-row w-full min-h-[80px] justify-around">
+              <div class="flex flex-col p-5">
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://placement.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Placement Portal</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div id="navLink7" class="hidden xl:inline-flex hover:bg-yellow-500 hover:rounded-full hover:text-white px-3 py-[10px] self-center">
+        <div class="text-lg font-medium tracking-wide">Quick Links</div>
+        <img src=../../../../include/header/assets/icons/down.png alt="down" class="mt-3 ml-2 h-2 hidden xl:block" />
+        <!-- Dropdown7 -->
+        <div id="dd7" class="hidden absolute right-[2%] mt-[39px] opacity-90 bg-white min-h-[282px] w-[20%] rounded-bl-[80px] grid grid-cols-1 gap-4 p-5">
+          <!-- <div class="col-span-1 border-2 border-gray-500 rounded-bl-[80px]">
+            <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+              Dean's Corner
+            </div>
+            <div class="flex flex-row w-full min-h-[282px] justify-around">
+              <div class="flex flex-col p-5">
+                <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Academics </span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Student's Welfare</span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Faculty Welfare</span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Research & Consultancy</span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> International and Alumni affairs</span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Planning & Development</span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Digital Infrastructure & services</span>
+              </div>
+            </div>
+          </div> -->
+          <div class="border-2 border-gray-500 rounded-bl-[80px]">
+            <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+              Other Units
+            </div>
+            <div class="flex flex-row w-full min-h-[150px] justify-around">
+              <div class="flex flex-col p-5">
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../ekBharatShreshthaBharat/about.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Ek Bharat Shrestha Bharat</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../communityDevelopment/about.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Community Development </a></span>
+                <!-- <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Unnat Bharat Abhiyan</span> -->
+                <!-- <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Swachh Bharat Abhiyan</span> -->
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../footer/rti.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Right To Information </a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://nitsikkim.samarth.ac.in/index.php/site/login"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Samarth ERP </a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../bis/bis.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> BIS Corner </a></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!--
+      Codes 
+      for  
+      Mobile View
+     -->
+
+
+
+
+
+
+      <div id="burger" class='hover:scale-150 hover:cursor-pointer '>
+        <img src=../../../../include/header/assets/icons/burger.png alt="burger" class="xl:hidden w-3 h-3" />
+      </div>
+      <div id="overlay" class=' hidden z-30 absolute top-0 left-0 h-[100vh] w-[100vw] bg-black opacity-0'>
+
+      </div>
+      <div id="mdd" class="overflow-y-auto overscroll-auto z-40 absolute hidden xl:hidden left-[5%]  bg-white w-[90%] m-auto shadaow-lg rounded max-h-[600px]">
+        <div class="  rounded ">
+          <!-- accordion-tab 1 -->
+          <div class="outline-none accordion-section">
+            <div class="mdBut bg-white text-black hover:text-white hover:bg-[#921B1F] flex justify-between px-4 py-3 items-center text-gray-500 transition linear duration-500 cursor-pointer pr-10 relative">
+              <div class="font-semibold">
+                Institute
+              </div>
+              <div class="mdRot h-8 w-8 border border-black rounded-full items-center inline-flex justify-center transform transition ease duration-500 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+                <img src=../../../../include/header/assets/icons/downblack.png alt="down" class="h-3 xl:block" />
+              </div>
+            </div>
+            <div class="mdBody max-h-0 bg-white px-4 overflow-scroll no-scrollbar ease duration-500">
+              <div id="mdd1" class="z-40 mt-[39px] opacity-90 bg-white min-h-[150px] w-[100%] rounded-bl-[80px] grid sm:grid-cols-3 gap-4 p-5">
+                <div class="col-span-1 sm:col-span-2 h-full border-2 border-gray-500 rounded-bl-[80px]">
+                  <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+                    Administration
+                  </div>
+                  <div class="flex flex-col lg:flex-row w-full min-h-[150px] justify-around">
+                    <div class="flex flex-col border-b-2 md:border-b-0 md:border-r-2 p-5">
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/visitors.php "><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Visitor</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/councilOfNITs.php"><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Council of NITs</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/boardOfGovernors.php "><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Board of Governors</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/senate.php"><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Senate</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/chairman.php "><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Chairperson</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/director.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Director</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/registrar.php "><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Registrar</a></span>
+                    </div>
+                    <div class="flex flex-col border-b-2 md:border-b-0 md:border-r-2 p-5">
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/deans.php "><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Deans</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/hods.php "><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> HODs</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/chiefVigilanceOfficer.php "><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Chief Vigilance Officer</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/financeCommittee.php "><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Finance Committee</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/buildingsWorkCommittee.php "><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> Building Work Committee</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/mom.php"><img src=../../../../include/header/assets/icons/file.png alt="" class="inline iconsize" /> Minutes of Meeting</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/organizationStructure.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Organization Structure</a></span>
+                    </div>
+                    <div class="flex flex-col p-5 mb-8">
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/sugb.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> SUGB</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/spgb.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> SPGB</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/ssc.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> SSC</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/people.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> People</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/Offices_Sections.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> Offices / Sections</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/accounts.php"><img src=../../../../include/header/assets/icons/file.png alt="" class="inline iconsize" /> Accounts</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/administration/for_faculty_staff.php"><img src=../../../../include/header/assets/icons/user.png alt="" class="inline iconsize" /> For Faculty and Staff</a></span>
+
+
+                    </div>
+                    <!-- <div class="flex flex-col p-2 sm:p-5">
+                      <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Institute Authorities</span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Chief Vigilance Officer </span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Public Information Officer</span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Office Administration</span>
+                    </div> -->
+                  </div>
+                </div>
+                <div class="col-span-1 border-2 border-gray-500 rounded-bl-[80px] h-fit pb-4">
+                  <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+                    About
+                  </div>
+                  <div class="flex flex-row w-full min-h-[150px] justify-around">
+                    <div class="flex flex-col p-5">
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/about/visionandmission.php "><img src=../../../../include/header/assets/icons/eye.png alt="" class="inline iconsize" /> Vision & Mission</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/about/campus.php "><img src=../../../../include/header/assets/icons/building.png alt="" class="inline iconsize" /> Campus & Infrastructure </a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/about/information.php "><img src=../../../../include/header/assets/icons/file.png alt="" class="inline iconsize" /> Information</a></span>
+                      <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/gallery.php"><img src=../../../../include/header/assets/icons/photo-film.png alt="" class="inline iconsize" /> Gallery</a></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion-tab -->
+        <!-- accordion-tab 2 -->
+        <div class="outline-none accordion-section">
+          <div class="mdBut bg-white text-black hover:text-white hover:bg-[#921B1F] flex justify-between px-4 py-3 items-center text-gray-500 transition ease duration-500 cursor-pointer pr-10 relative">
+            <div class="font-semibold">
+              Academics
+            </div>
+            <div class="mdRot h-8 w-8 border border-black rounded-full items-center inline-flex justify-center transform transition ease duration-500 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+              <img src=../../../../include/header/assets/icons/downblack.png alt="down" class="h-3 xl:block" />
+            </div>
+          </div>
+          <div class="mdBody max-h-0 bg-white px-4 overflow-scroll no-scrollbar ease duration-500">
+            <div id="mdd2" class="z-40 mt-[39px] opacity-90 bg-white min-h-[282px] w-[100%] rounded-bl-[80px] grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div class="col-span-1 md:col-span-2 h-full border-2 border-gray-500 rounded-bl-[80px]">
+                <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+                  Departments
+                </div>
+                <div class="flex flex-row w-full h-fit justify-around">
+                  <div class="flex flex-col p-5 sm:p-5">
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://chemistry.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Chemistry</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://ce.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Civil Engineering</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://cse.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Computer Science Engineering</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://eee.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Electrical and Electronics Engineering</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://ece.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Electronics and communication Engineering</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://hss.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Humanities and Social Science</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://math.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Mathematics</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://me.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Mechanical Engineering</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://physics.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Department of Physics</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-span-1 border-2 border-gray-500 rounded-bl-[80px]">
+                <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+                  Academics
+                </div>
+                <div class="flex flex-row w-full justify-around">
+                  <div class="flex flex-col p-2 sm:p-5">
+                  <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/syllabus.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Syllabus & Course Structure</a> </span>
+                  <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/notices.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Notices</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/rulesAndRegulations.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Rules & Regulations</a> </span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/examinations.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Examinations </a></span>
+                    <!-- <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../footer/rti.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Right To Information </a></span> -->
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/academicCalendar.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Academic Calendar</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/feeStructure.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Fee Structure</a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/attendance.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Student Attendance Portal</a></span>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion-tab -->
+        <!-- accordion-tab 3 -->
+        <div class="outline-none accordion-section">
+          <div class="mdBut bg-white text-black hover:text-white hover:bg-[#921B1F] flex justify-between px-4 py-3 items-center text-gray-500 transition linear duration-500 cursor-pointer pr-10 relative">
+            <div class="font-semibold">
+              Student
+            </div>
+            <div class="mdRot h-8 w-8 border border-black rounded-full items-center inline-flex justify-center transform transition ease duration-500 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+              <img src=../../../../include/header/assets/icons/downblack.png alt="down" class="h-3 xl:block" />
+            </div>
+          </div>
+          <div class="mdBody max-h-0 bg-white px-4 overflow-hidden ease duration-500">
+            <div id="mdd4" class="z-40 left-[50%] mt-[39px] opacity-90 bg-white min-h-[150px] w-[100%] rounded-bl-[80px] grid grid-cols-1 gap-4 p-5">
+              <div class="col-span-1 h-full border-2 border-gray-500 rounded-bl-[80px]">
+                <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+                  Student Facilities
+                </div>
+                <div class="flex flex-col md:flex-row items-around w-full min-h-[150px] justify-center">
+                  <div class="flex flex-col p-5 border-b-2 md:border-b-0 md:border-r-2 w-full">
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/hostels.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Hostel</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/sports.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Sports</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/scholarship.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Scholarships</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"> <a href="../../../../include/header/../../students/antiRagging.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Anti-Ragging</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/transport.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Transport</a></span>
+                  </div>
+
+                  <div class="flex flex-col p-5 border-gray-300 w-full">
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/clubsAndCells.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Cells & Clubs</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../footer/scst.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> SC / ST Cell</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../footer/obc.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> OBC Cell</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../footer/WomenGrievance.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Women Grievance Cell</a></span>
+                    
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/formatsAndForms.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Formats & Forms </a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://nitsikkim.samarth.edu.in/index.php/site/login"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Samarth Student Portal</a></span>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion-tab -->
+        <!-- accordion-tab 4 -->
+        
+        <div class="outline-none accordion-section">
+          <div class="mdBut bg-white text-black hover:text-white hover:bg-[#921B1F] flex justify-between px-4 py-3 items-center text-gray-500 transition ease duration-500 cursor-pointer pr-10 relative">
+            <div class="font-semibold">
+              Research
+            </div>
+            <div class="mdRot h-8 w-8 border border-black rounded-full items-center inline-flex justify-center transform transition ease duration-500 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+              <img src=../../../../include/header/assets/icons/downblack.png alt="down" class="h-3 xl:block" />
+            </div>
+          </div>
+          <div class="mdBody max-h-0 bg-white px-4 overflow-hidden ease duration-500">
+            <div id="mdd3" class="z-40 mt-[39px] opacity-90 bg-white min-h-[150px] w-[100%] rounded-bl-[80px] grid grid-cols-1 gap-4 p-5">
+              <div class="col-span-1 border-2 border-gray-500 rounded-bl-[80px]">
+                <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+                  Research @ NIT Sikkim
+                </div>
+                <div class="flex flex-row w-full min-h-[150px] justify-around">
+                  <div class="flex flex-col p-2 sm:p-5">
+                    <!-- <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../researches/facilities/facilties.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Facilities</a></span> -->
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../researches/projects.php"><img src=../../../../include/header/assets/icons/book-journal-whills.png alt="" class="inline iconsize" /> Projects </a></span>
+                    <!-- <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/book-journal-whills.png alt="" class="inline iconsize" /> Publications</span> -->
+                    <!-- <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/users.png alt="" class="inline iconsize" /> R&C</span> -->
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../researches/mous.php"><img src=../../../../include/header/assets/icons/handshake.png alt="" class="inline iconsize" /> MOU's</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../researches/collaborations.php"><img src=../../../../include/header/assets/icons/handshake.png alt="" class="inline iconsize" /> Collaboration</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../institute/job_oppurtunities.php?type=research"><img src=../../../../include/header/assets/icons/handshake.png alt="" class="inline iconsize" /> Vacancies</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion-tab -->
+        <!-- accordion-tab 5 -->
+        <div class="outline-none accordion-section">
+          <div class="mdBut bg-white text-black hover:text-white hover:bg-[#921B1F] flex justify-between px-4 py-3 items-center text-gray-500 transition linear duration-500 cursor-pointer pr-10 relative">
+            <div class="font-semibold">
+              Central Facilities
+            </div>
+            <div class="mdRot h-8 w-8 border border-black rounded-full items-center inline-flex justify-center transform transition ease duration-500 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+              <img src=../../../../include/header/assets/icons/downblack.png alt="down" class="h-3 xl:block" />
+            </div>
+          </div>
+          <div class="mdBody max-h-0 bg-white px-4 overflow-hidden ease duration-500">
+            <div id="mdd5" class="z-40 mt-[39px] left-[50%] opacity-90 bg-white min-h-[150px] w-[100%] rounded-bl-[80px] grid grid-cols-2 gap-4 p-5">
+              <div class="col-span-2 sm:col-span-1 h-full border-2 border-gray-500 rounded-bl-[80px]">
+                <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+                  Facilities
+                </div>
+                <div class="flex flex-row w-full min-h-[150px] justify-around">
+                  <div class="flex flex-col p-5">
+                    <!-- <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> ICTI</span> -->
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://kic.nitsikkim.ac.in/"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Central Library</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../students/medication.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Medical Unit</a></span>
+                    <!-- <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../centralfacilities/facilities/guesthouse.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Guest House</a></span> -->
+                    <!-- <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../centralfacilities/facilities/atm.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> ATM</a></span> -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="outline-none accordion-section">
+          <div class="mdBut bg-white text-black hover:text-white hover:bg-[#921B1F] flex justify-between px-4 py-3 items-center text-gray-500 transition linear duration-500 cursor-pointer pr-10 relative">
+            <div class="font-semibold">
+              Placement
+            </div>
+            <div class="mdRot h-8 w-8 border border-black rounded-full items-center inline-flex justify-center transform transition ease duration-500 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+              <img src=../../../../include/header/assets/icons/downblack.png alt="down" class="h-3 xl:block" />
+            </div>
+          </div>
+          <div class="mdBody max-h-0 bg-white px-4 overflow-hidden ease duration-500">
+            <div id="mdd6" class="z-40 mt-[39px] opacity-90 bg-white min-h-[80px] w-[100%] rounded-bl-[80px] grid grid-cols-1 gap-4 p-5">
+              <div class="col-span-1 border-2 border-gray-500 rounded-bl-[80px]">
+                <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+                  Placement @ NIT Sikkim
+                </div>
+                <div class="flex flex-row w-full min-h-[80px] justify-around">
+                  <div class="flex flex-col p-5">
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://placement.nitsikkim.ac.in/"> Placement Portal</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion-tab  -->
+        <!-- accordion-tab 6 -->
+        <div class="outline-none accordion-section">
+          <div class="mdBut bg-white text-black hover:text-white hover:bg-[#921B1F] flex justify-between px-4 py-3 items-center text-gray-500 transition linear duration-500 cursor-pointer pr-10 relative">
+            <div class="font-semibold">
+              Admissions
+            </div>
+            <div class="mdRot h-8 w-8 border border-black rounded-full items-center inline-flex justify-center transform transition ease duration-500 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+              <img src=../../../../include/header/assets/icons/downblack.png alt="down" class="h-3 xl:block" />
+            </div>
+          </div>
+          <div class="mdBody max-h-0 bg-white px-4 overflow-hidden ease duration-500">
+            <div id="mdd6" class="z-40 mt-[39px] opacity-90 bg-white min-h-[80px] w-[100%] rounded-bl-[80px] grid grid-cols-1 gap-4 p-5">
+              <div class="col-span-1 border-2 border-gray-500 rounded-bl-[80px]">
+                <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+                  Admissions
+                </div>
+                <div class="flex flex-row w-full min-h-[80px] justify-around">
+                  <div class="flex flex-col p-5">
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/feeStructure.php">Fee Structure</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/btechAdmissions.php">B.Tech Admissions</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/mtechAdmissions.php">M.Tech Admissions</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/mscAdmissions.php">M.Sc. Admissions</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../admissions/phdAdmissions.php">PhD Admissions</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion-tab -->
+        <!-- accordion-tab 7 -->
+        <div class="outline-none accordion-section">
+          <div class="mdBut bg-white text-black hover:text-white hover:bg-[#921B1F] flex justify-between px-4 py-3 items-center text-gray-500 transition linear duration-500 cursor-pointer pr-10 relative">
+            <div class="font-semibold">
+              Quick Links
+            </div>
+            <div class="mdRot h-8 w-8 border border-black rounded-full items-center inline-flex justify-center transform transition ease duration-500 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+              <img src=../../../../include/header/assets/icons/downblack.png alt="down" class="h-3 xl:block" />
+            </div>
+          </div>
+          <div class="mdBody max-h-0 bg-white px-4 overflow-hidden ease duration-500">
+            <div id="mdd7" class="z-40 right-[2%] mt-[39px] opacity-90 bg-white min-h-[282px] w-[100%] rounded-bl-[80px] grid grid-cols-1 gap-4 p-5">
+              <!-- <div class="col-span-1 border-2 border-gray-500 rounded-bl-[80px]">
+                <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+                  Dean's Corner
+                </div>
+                <div class="flex flex-row w-full min-h-[282px] justify-around">
+                  <div class="flex flex-col p-5">
+                    <span class="my-1 text-black font-medium hover:text-red-400">Academics </span>
+                    <span class="my-1 text-black font-medium hover:text-red-400">Student's Welfare</span>
+                    <span class="my-1 text-black font-medium hover:text-red-400">Faculty Welfare</span>
+                    <span class="my-1 text-black font-medium hover:text-red-400">Research & Consultancy</span>
+                    <span class="my-1 text-black font-medium hover:text-red-400">International and Alumni affairs</span>
+                    <span class="my-1 text-black font-medium hover:text-red-400">Planning & Development</span>
+                    <span class="my-1 text-black font-medium hover:text-red-400">Digital Infrastructure & services</span>
+                  </div>
+                </div>
+
+              </div> -->
+              <div class="col-span-2 sm:col-span-1 border-2 border-gray-500 rounded-bl-[80px]">
+                <div class="w-full h-9 bg-[#555151] text-[17px] pt-1 text-white text-center align-center opacity-100">
+                  Other Units
+                </div>
+                <div class="flex flex-row w-full min-h-[150px] justify-around">
+                  <div class="flex flex-col p-5">
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../ekBharatShreshthaBharat/about.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Ek Bharat Shrestha Bharat</a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../communityDevelopment/about.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Community Development </a></span>
+                    <!-- <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Unnat Bharat Abhiyan</span> -->
+                    <!-- <span class="my-1 text-black font-medium hover:text-red-400"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Swachh Bharat Abhiyan</span> -->
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../footer/rti.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Right To Information </a></span>
+                    <span class="my-1 text-black font-medium hover:text-red-400"><a href="https://nitsikkim.samarth.ac.in/index.php/site/login"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> Samarth ERP </a></span>
+                <span class="my-1 text-black font-medium hover:text-red-400"><a href="../../../../include/header/../../bis/bis.php"><img src=../../../../include/header/assets/icons/circle-dot.png alt="" class="inline iconsize" /> BIS Corner </a></span>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion-tab -->
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<!-- Slider container -->
+<div class="h-[28vh] sm:h-[28vh] xl:h-[28vh] w-[100%] ">
+  <!-- slide 1 -->
+  <div class="h-[28vh] sm:h-[28vh] xl:h-[28vh] w-[100%] ">
+    <img class="w-[100%] h-[100%] bg-contain" src= ../../../../include/header/assets/images/homeImg1.png  alt="" />
+  </div>
+</div>
+<!-- Scripts -->
+<script src=../../../../include/header/assets/js/megaDropDown.js></script>        </div>
+        <!-- header end -->
+
+        <!-- content for the main navigation bar. -->
+        <div class="  p-4 flex w-[100%] flex-col-reverse lg:flex-row ">
+            <!-- start left side navbar -->
+            <div class="flex basis-1/4">
+                   <div class=" sticky flex-none w-[350px] max-lg:w-[100%]  max-lg:mx-auto  border-1 max-md:text-xs ">
+
+        <ul class="bg-[#FFFDFD] flex flex-col drop-shadow-[4px_4px_4px_rgba(0,0,0,0.25)] h-fit w-[fit]">
+                <h1 class="flex min-w-[120px]  h-[50px] font-bold  justify-center items-center  rounded-[2px] uppercase text-[#921B1F] text-center text-lg md:text-2xl">
+                        Administration
+                </h1>
+                <div class="sidenavElements flex flex-col md:flex-row lg:flex-col">
+                        <div class="sidenavElementsLeft w-full md:w-[50%] lg:w-full md:p-2 p-0 lg:p-0">
+
+                                <a href="visitors.php" id="visitors" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/person.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Visitor
+                                </a>
+                                <a href="councilOfNITs.php" id="councilOfNITs" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/person.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Council Of NITs
+                                </a>
+                                <a href="boardOfGovernors.php" id="boardOfGovernors" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Board of Governors
+                                </a>
+                                <a href="senate.php" id="Senate" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Senate
+                                </a>
+                                <a href="chairman.php" id="chairpersonBog" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/person.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Chairperson, BoG
+                                </a>
+                                <a href="director.php" id="Director" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/person.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Director
+                                </a>
+                                <a href="registrar.php" id="Registrar" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/person.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Registrar
+                                </a>
+                                <a href="deans.php" id="deans" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Deans
+                                </a>
+                                <a href="hods.php" id="hods" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">HODs
+                                </a>
+                                <a href="chiefVigilanceOfficer.php" id="chiefVigilanceOfficer" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/person.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Chief Vigilance Officer
+                                </a>
+                               
+                                <a href="financeCommittee.php" id="financeCommittee" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Finance Committee
+                                </a>
+                            
+                              
+                               
+                        </div>
+                        <div class="sidenavElementsRight  w-full md:w-[50%] lg:w-full md:p-2 p-0 lg:p-0">
+
+                                <a href="buildingsWorkCommittee.php" id="buildingsWorkCommittee" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Buildings Work Committee
+                                </a>
+
+                                <a href="mom.php" id="MinutesOfMeeting" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/pen-paper.png" class="h-[20px] w-[20px] mx-[10px]" alt="">Minutes of Meeting
+                                </a>
+                                <a href="sugb.php" id="SUGB" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">SUGB
+                                </a>
+                                <a href="spgb.php" id="SPGB" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">SPGB
+                                </a>
+                                <a href="ssc.php" id="SSC" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">SSC
+                                </a>
+
+                                <a href="organizationStructure.php" id="organizationStructure" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/person.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Organization Structure
+                                </a>
+
+                                <a href="people.php" id="people" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">People
+                                </a>
+                                <a href="Offices_Sections.php" id="officesSections" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">Offices/Sections
+                                </a>
+
+                                <a href="for_faculty_staff.php" id="ForFacultyAndStaff" class="flex border bt-1 min-w-[120px]  h-[38px] items-center hover:bg-[#EFE3E3] rounded-[2px]">
+                                        <img src="../assets/icons/group.png" class="h-[15px] w-[15px] mx-[10px]" alt="">For Faculty & Staff
+                                </a>
+                        </div>
+                </div>
+
+        </ul>
+</div> 
+            </div>
+            <!-- end left side navbar -->
+            
+        <div class=" basis-3/4  flex flex-col gap-4  p-2 ">
+          
+        <h2 class="text-[#921B1F] font-bold text-center text-2xl  capitalize text-lg sm:text-4xl"> For Faculty & Staff</h2>
+        <h1 class="w-[100%] text-[#921B1F] font-bold text-center text-xl  text-lg sm:text-2xl my-2"> Forms and Formats</h1>
+        <div class="flex items-center justify-center m-5 mb-8 ">
+        <div class="flex flex-row items-center justify-center text-center w-full shadow-md rounded-xl overflow-hidden border-gray-100 border ">
+            <table class="w-full">
+                <tbody>   
+
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Employment Clearance Form
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/Employement Clearance Form.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Earned leave Application form
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/Earned%20leave%20%20forms.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Commuted /HPL/ Maternity Leave Application Forms
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="http://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/Commuted%20HPL%20Maternity%20Leave%20Application%20Forms.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Joining Report Form
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="http://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/Joining%20Report.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                     <!--<tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Leave Travel Concession (LTC) Approval form
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="http://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/LTC%20approval%20form.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Leave Travel Concession (LTC) settlement form
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/LTC%20settlement.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                   <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Medical form OPD (ANNEXURE II)
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="http://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/Medical%20form%20OPD%20_ANNEXURE%20II_.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Medical form IPD (ANNEXURE III)
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/Medical%20form%20IPD%20_ANNEXURE%20III_.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Children Education Reimbursement Form
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="http://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/CEA%20Forms.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>-->
+                </tbody>
+            </table>
+        </div>        
+        </div>
+        <h1 class="w-[100%] text-[#921B1F] font-bold text-center text-xl  text-lg sm:text-2xl my-2">CPDA</h1>
+        <div class="flex items-center justify-center m-5 mb-8 ">
+        <div class="flex flex-row items-center justify-center text-center w-full shadow-md rounded-xl overflow-hidden border-gray-100 border ">
+            <table class="w-full">
+                <tbody>                    
+                    <!--<tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Guidelines on Procurement
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/guidelines/procurement_guidelines.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>-->
+                    <!--<tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Guidelines on TA DA
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/guidelines/TADA_guidelines.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>-->
+                    <!--<tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Guidelines on Imprest
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/guidelines/imprest_guiedlines.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>-->
+                    <!--<tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Guidelines on advance
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/guidelines/advance_guidelines.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>-->
+                    <!--<tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Guidelines for JRF to SRF upgradation
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/guidelines/JRF%20to%20SRF%20Guidelines.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>-->
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        NIT Sikkim-CPDA Guidelines
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/guidelines/NIT%20Sikkim_CPDA%20Guidelines.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Office Order for CPDA
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/CPDA/Office Order_CPDA.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Administrative & Financial Approval Form for CPDA
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/CPDA/Administrative _ Financial Approval_Form.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Contingent Expenses Approval Form
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/CPDA/CPDA_Approval contingent expenses_Form.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        Contingent Expenses Reimbursement Form
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/CPDA/CPDA_Reimbursement Contingent Exp._Form.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                    <tr class="border-b hover:hover:bg-[#EFE3E0]">
+                        <th scope="row" class="p-4 text-xs md:text-base">
+                        CPDA TA-DA Claim Form
+                        </th>
+                        <td class="p-4 text-xs md:text-base flex flex-row items-center justify-center">
+                            <a href="https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/CPDA/CPDA_Claim TA-DA_Form.pdf" download target="_blank"><img src="../assets/icons/pdfLogo.png" alt="" class="basis-[3%] h-7 cursor-pointer hover:scale-110 transition-scale"></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- footer start -->
+        <div>
+                
+<div id="footer" class="h-full">
+    <!-- Top Footer  -->
+    <div class="bg-[#921B1F] text-white flex flex-row justify-around text-[11px] leading-6 sm:text-xl py-1">
+        <div>
+            <h2>On Campus : <img src=../../assets/icons/rain.png class="inline-flex w-6 h-6 md:w-8 md:h-8 " alt=""> </h2>
+        </div>
+        <div class="flex flex-row justify-evenly">
+            <div class="sm:mx-2">
+                <h2>Temp : <span id="temp"></span> &#8451</h2>
+            </div>
+            <div class="sm:mx-2">
+                <h2>&nbsp; Humidity : <span id="humidity"></span> </h2>
+            </div>
+            <div class="sm:mx-2">
+                <h2>&nbsp; Wind : <span id="wind"></span> km/h </h2>
+            </div>
+        </div>
+    </div>
+    <!-- Main Footer -->
+    <div class=" flex flex-col sm:flex-row sm:w-[100%] ">
+        <div class="bg-[#202331] sm:w-1/3  sm:py-8">
+            <div class="flex justify-center p-2">
+                                <img src=../../assets/icons/logo.jpg alt="NIT Sikkim" srcset="" class="w-24 md:w-32 sm: rounded-full border-4">
+                <!-- <img src="../../assets/icons/logo.jpg" alt="NIT Sikkim" srcset="" class="w-24 md:w-32 sm: rounded-full border-4"> -->
+            </div>
+            <div class="text-white text-center">
+                <h2 class="text-xl md:text-2xl">National Institute Of Technology Sikkim</h2>
+                <div class="text-sm md:text-lg my-1">
+                    <h2>An Institute of National Importance</h2>
+                    <h2>Barfung Block , Ravangla, Sikkim, 737139 <a href="https://www.google.com/maps/place/National+Institute+Of+Technology+Sikkim/@27.2982114,88.3550878,17z/data=!4m10!1m2!2m1!1snit+sikkim!3m6!1s0x39e69b043d020435:0x6accf5242d3a7518!8m2!3d27.2975355!4d88.3573037!15sCgpuaXQgc2lra2ltkgEDaXV04AEA!16s%2Fm%2F0w33lqs?entry=ttu" target="_blank" class="inline-flex w-6 h-6 md:w-8 md:h-8 mb-3 "><img src=../../assets/icons/map.png alt=""></a></h2>
+                </div>
+                <div class="py-1">
+                    <h2><a href='mailto:info@nitsikkim.ac.in'>info@nitsikkim.ac.in</a></h2>
+                    <h2>www.nitsikkim.ac.in</h2>
+                </div>
+            </div>
+        </div>
+        <div class="px-2 sm:hidden">
+            <hr class="px-2">
+        </div>
+        <div class="hidden sm:flex bg-[#202331] items-center">
+            <div class="border-r-2 border-dashed border-white h-5/6"></div>
+        </div>
+        <div class="bg-[#202331] flex flex-row justify-evenly text-white py-2 sm:py-12 sm:w-1/3 items-start">
+            <div class="flex flex-col">
+                <h2 class="text-2xl my-1 mb-2  md:my-4 md:mb-4">Explore</h2>
+                <ul>
+                    <li class="my-1
+                    flex
+                    w-fit
+                            object-contain
+                            relative
+                            cursor-pointer
+                            transition-all
+                            duration-500
+                            before:content-['']
+                            before:absolute
+                            before:-bottom-2
+                            before:left-1/2
+                            before:-translate-x-1/2
+                            before:w-0
+                            before:h-0.5
+                            before:rounded-full
+                            before:opacity-0
+                            before:transition-all
+                            before:duration-500
+                            before:bg-gradient-to-r
+                            before:from-red-600
+                            before:via-red-400
+                            before:to-red-500
+                            hover:before:w-full
+                            hover:before:opacity-100
+                            "><a href="../../include/../footer/rti.php ">RTI</a>
+                    </li>
+                    <li class="my-1
+                            flex
+                            w-fit
+                            relative
+                            cursor-pointer
+                            transition-all
+                            duration-500
+                            before:content-['']
+                            before:absolute
+                            before:-bottom-2
+                            before:left-1/2
+                            before:-translate-x-1/2
+                            before:w-0
+                            before:h-0.5
+                            before:rounded-full
+                            before:opacity-0
+                            before:transition-all
+                            before:duration-500
+                            before:bg-gradient-to-r
+                            before:from-red-600
+                            before:via-red-400
+                            before:to-red-500
+                            hover:before:w-full
+                            hover:before:opacity-100
+                            ">
+                        <a href="https://placement.nitsikkim.ac.in/">T&P</a>
+                    </li>
+                    <li class="my-1
+                        flex
+                        inline-flex
+                        relative
+                        cursor-pointer
+                        transition-all
+                        duration-500
+                        before:content-['']
+                        before:absolute
+                        before:-bottom-2
+                        before:left-1/2
+                        before:-translate-x-1/2
+                        before:w-0
+                        before:h-0.5
+                        before:rounded-full
+                            before:opacity-0
+                            before:transition-all
+                            before:duration-500
+                            before:bg-gradient-to-r
+                            before:from-red-600
+                            before:via-red-400
+                            before:to-red-500
+                            hover:before:w-full
+                            hover:before:opacity-100
+                            "><a href="../../include/../students/scholarship.php ">Scholarships</a>
+                    </li>
+                    <li class="my-1
+                        flex
+                        relative
+                        cursor-pointer
+                        transition-all
+                        duration-500
+                        before:content-['']
+                        before:absolute
+                        before:-bottom-2
+                        before:left-1/2
+                        before:-translate-x-1/2
+                        before:w-0
+                        before:h-0.5
+                        before:rounded-full
+                        before:opacity-0
+                        before:transition-all
+                        before:duration-500
+                        before:bg-gradient-to-r
+                        before:from-red-600
+                        before:via-red-400
+                        before:to-red-500
+                        hover:before:w-full
+                        hover:before:opacity-100
+                        "><a href="../../include/../students/academicCalendar.php">Calendar</a>
+                    </li>
+                    <li class="my-1
+                    flex
+                    relative
+                    cursor-pointer
+                    transition-all
+                    duration-500
+                    before:content-['']
+                    before:absolute
+                    before:-bottom-2
+                    before:left-1/2
+                    before:-translate-x-1/2
+                    before:w-0
+                    before:h-0.5
+                    before:rounded-full
+                    before:opacity-0
+                    before:transition-all
+                    before:duration-500
+                    before:bg-gradient-to-r
+                    before:from-red-600
+                    before:via-red-400
+                    before:to-red-500
+                    hover:before:w-full
+                    hover:before:opacity-100
+                    "><a href="../../include/../footer/scst.php">SC/ST Cell</a>
+                    </li>
+                    <li class="my-1
+                flex
+                relative
+                cursor-pointer
+                transition-all
+                duration-500
+                before:content-['']
+                before:absolute
+                before:-bottom-2
+                before:left-1/2
+                before:-translate-x-1/2
+                before:w-0
+                before:h-0.5
+                before:rounded-full
+                            before:opacity-0
+                            before:transition-all
+                            before:duration-500
+                            before:bg-gradient-to-r
+                            before:from-red-600
+                            before:via-red-400
+                            before:to-red-500
+                            hover:before:w-full
+                            hover:before:opacity-100
+                            "><a href="../../include/../footer/womenGrievance.php">Women Grievance</a>
+                    </li>
+                    <li class="my-1
+                        flex    
+                        relative
+                        cursor-pointer
+                        transition-all
+                        duration-500
+                        before:content-['']
+                        before:absolute
+                        before:-bottom-2
+                        before:left-1/2
+                        before:-translate-x-1/2
+                        before:w-0
+                        before:h-0.5
+                        before:rounded-full
+                        before:opacity-0
+                        before:transition-all
+                        before:duration-500
+                        before:bg-gradient-to-r
+                        before:from-red-600
+                        before:via-red-400
+                        before:to-red-500
+                        hover:before:w-full
+                        hover:before:opacity-100
+                        "><a href="../../include/../footer/contact.php">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="text-2xl my-1  mb-2 md:my-4 ">Portals</h2>
+                <ul>
+                    <li class="my-1
+                    flex
+                    w-fit
+                    relative
+                    cursor-pointer
+                    transition-all
+                    duration-500
+                            before:content-['']
+                            before:absolute
+                            before:-bottom-2
+                            before:left-1/2
+                            before:-translate-x-1/2
+                            before:w-0
+                            before:h-0.5
+                            before:rounded-full
+                            before:opacity-0
+                            before:transition-all
+                            before:duration-500
+                            before:bg-gradient-to-r
+                            before:from-red-600
+                            before:via-red-400
+                            before:to-red-500
+                            hover:before:w-full
+                            hover:before:opacity-100"><a href="https://josaa.nic.in/">JOSAA</a></li>
+                    <li class="my-1
+                            flex
+                            w-fit
+                            relative
+                            cursor-pointer
+                            transition-all
+                            duration-500
+                            before:content-['']
+                            before:absolute
+                            before:-bottom-2
+                            before:left-1/2
+                            before:-translate-x-1/2
+                            before:w-0
+                            before:h-0.5
+                            before:rounded-full
+                            before:opacity-0
+                            before:transition-all
+                            before:duration-500
+                            before:bg-gradient-to-r
+                            before:from-red-600
+                            before:via-red-400
+                            before:to-red-500
+                            hover:before:w-full
+                            hover:before:opacity-100"><a href="https://dasanit.org/">DASA</a></li>
+                    <li class="my-1
+                            flex
+                            w-fit
+                            relative
+                            cursor-pointer
+                            transition-all
+                            duration-500
+                            before:content-['']
+                            before:absolute
+                            before:-bottom-2
+                            before:left-1/2
+                            before:-translate-x-1/2
+                            before:w-0
+                            before:h-0.5
+                            before:rounded-full
+                            before:opacity-0
+                            before:transition-all
+                            before:duration-500
+                            before:bg-gradient-to-r
+                            before:from-red-600
+                            before:via-red-400
+                            before:to-red-500
+                            hover:before:w-full
+                            hover:before:opacity-100"><a href="https://iiseradmission.in/examination/iat.html">IAT</a></li>
+                    <li class="my-1
+                    flex
+                    w-fit
+                    relative
+                    cursor-pointer
+                    transition-all
+                    duration-500
+                    before:content-['']
+                    before:absolute
+                    before:-bottom-2
+                    before:left-1/2
+                    before:-translate-x-1/2
+                    before:w-0
+                    before:h-0.5
+                    before:rounded-full
+                    before:opacity-0
+                    before:transition-all
+                    before:duration-500
+                    before:bg-gradient-to-r
+                    before:from-red-600
+                    before:via-red-400
+                    before:to-red-500
+                    hover:before:w-full
+                    hover:before:opacity-100"><a href="https://ccmt.admissions.nic.in/">CCMT</a></li>
+                    <li class="my-1
+                    flex
+                    w-fit
+                    relative
+                    cursor-pointer
+                    transition-all
+                    duration-500
+                    before:content-['']
+                    before:absolute
+                            before:-bottom-2
+                            before:left-1/2
+                            before:-translate-x-1/2
+                            before:w-0
+                            before:h-0.5
+                            before:rounded-full
+                            before:opacity-0
+                            before:transition-all
+                            before:duration-500
+                            before:bg-gradient-to-r
+                            before:from-red-600
+                            before:via-red-400
+                            before:to-red-500
+                            hover:before:w-full
+                            hover:before:opacity-100"><a href="https://nptel.ac.in/">NPTEL</a></li>
+                    <li class="my-1
+                            flex
+                            w-fit
+                            relative
+                            cursor-pointer
+                            transition-all
+                            duration-500
+                            before:content-['']
+                            before:absolute
+                            before:-bottom-2
+                            before:left-1/2
+                            before:-translate-x-1/2
+                            before:w-0
+                            before:h-0.5
+                            before:rounded-full
+                            before:opacity-0
+                            before:transition-all
+                            before:duration-500
+                            before:bg-gradient-to-r
+                            before:from-red-600
+                            before:via-red-400
+                            before:to-red-500
+                            hover:before:w-full
+                            hover:before:opacity-100"><a href="https://studyinindia.gov.in/">Study In India</a></li>
+                    <li class="my-1
+                            flex
+                            w-fit
+                            relative
+                            cursor-pointer
+                            transition-all
+                            duration-500
+                            before:content-['']
+                            before:absolute
+                            before:-bottom-2
+                            before:left-1/2
+                            before:-translate-x-1/2
+                            before:w-0
+                            before:h-0.5
+                            before:rounded-full
+                            before:opacity-0
+                            before:transition-all
+                            before:duration-500
+                            before:bg-gradient-to-r
+                            before:from-red-600
+                            before:via-red-400
+                            before:to-red-500
+                            hover:before:w-full
+                            hover:before:opacity-100"><a href="https://mic.gov.in/startup_policy.php">NISP</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="px-2 sm:hidden">
+            <hr class="px-2">
+        </div>
+        <div class="bg-[#202331] flex flex-col justify-start align-middle md:py-8 md:pt-12 text-white sm:w-1/3 ">
+            <div class="px-[15%]">
+                <div class="border-dashed border-2 rounded-xl my-3 text-center p-2">
+                    <h2>Sikkim Air Quality ( PM10 ) : <span id="airQuality"></span> </h2>
+                </div>
+            </div>
+            <div class="px-[15%]">
+                <h2 class="text-2xl my-1">Feedback</h2>
+                <form action="" method="post" class="my-1">
+                    <div class="my-1">
+                        <div  class="bg-green-400 w-1/2 hover:bg-green-700 text-white font-bold py-1 px-4 rounded" > <a href='https://forms.gle/v2hGqZMVfmXjNomf8'> Give feedback</a></div>
+                    </div>
+                </form>
+            </div>
+            <div class="px-[15%] my-4">
+                <h2 class="text-2xl my-2">Visitors :</h2>
+                <div class="flex flex-row justify-center w-[100%]">
+                    <div class="flex flex-row justify-evenly w-[80%] gap-1">
+               
+                    <h2 class="border-2 border-white align-middle items-center rounded-xl px-2 py-2"> 0 </h2>
+                    <h2 class="border-2 border-white align-middle items-center rounded-xl px-2 py-2"> 7 </h2>
+                    <h2 class="border-2 border-white align-middle items-center rounded-xl px-2 py-2"> 8 </h2>
+                    <h2 class="border-2 border-white align-middle items-center rounded-xl px-2 py-2"> 0 </h2>
+                    <h2 class="border-2 border-white align-middle items-center rounded-xl px-2 py-2"> 4 </h2>
+                    <h2 class="border-2 border-white align-middle items-center rounded-xl px-2 py-2"> 7 </h2>
+                    <h2 class="border-2 border-white align-middle items-center rounded-xl px-2 py-2"> 4 </h2>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="bg-[#202331] flex flex-row flex-wrap items-center justify-center p-2 gap-4">
+        <a href="https://nitsikkim.samarth.ac.in/index.php/site/login"><img src="../../assets/images/samarth.png" class="w-[150px]" alt=""></a>
+        <a href="https://www.digilocker.gov.in/"><img src="../../assets/images/digilocker.png" class="w-[150px]" alt=""></a>
+        <a href="https://india.gov.in/"><img src="../../assets/images/indiagov.png" class="w-[150px]" alt=""></a>
+        <a href="https://studyinindia.gov.in/"><img src="../../assets/images/study_in_india.png" class="w-[150px]" alt=""></a>
+        <div id="google_translate_element"></div>
+    </div>
+    <div class="bg-[#3B4356] text-white md:h-12 md:pt-3 md:pb-3">
+        <div class="text-center text-sm md:text-lg sm:flex sm:flex-row sm:justify-evenly ">
+            <div class="sm:flex sm:flex-row sm:justify-evenly">
+                <div>Copyrights &#169; National Institute Of Technology Sikkim <span class="hidden sm:inline "> &nbsp;&nbsp;|&nbsp; &nbsp;</span> </div>
+                <div> All rights Reserved <span class="hidden sm:inline ">&nbsp;&nbsp;|&nbsp; &nbsp;</span> </div>
+                <div> Credits & Attributions </div>
+            </div>
+            <div>Developed and Maintained by WDC NIT Sikkim</div>
+        </div>
+    </div>
+    
+</div>
+
+<script src=../../include/header/assets/js/footer.js> </script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en'
+        }, 'google_translate_element');
+    }
+</script>
+</script>
+
+<style>
+    .skiptranslate {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .VIpgJd-ZVi9od-l4eHX-hSRGPd {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .VIpgJd-ZVi9od-l4eHX-hSRGPd img {
+        width: 50px;
+    }
+
+    #goog-gt-tt {
+        display: none;
+    }
+
+    @media only screen and (max-width:1024px) {
+        .skiptranslate {
+            flex-direction: column;
+        }
+
+        .VIpgJd-ZVi9od-l4eHX-hSRGPd {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+</style>        </div>
+        <!-- footer end -->
+
+
+</body>
+
+</html>

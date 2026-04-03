@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]>
+<html class="ie lt-ie9" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+
+<head>
+
+    <style>
+        .is-menu-wrapper {
+            display: none !important;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/assets/css/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/assets/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/custom-new.css">
+    <style>
+        /*--====== Sidebar ======--*/
+        #sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99999;
+            max-width: 300px;
+            width: 80%;
+            height: 100%;
+            padding: 2rem;
+            background-color: #f1f1f1;
+            box-shadow: 0 10px 20px -4px #000;
+            overflow-x: hidden;
+            overflow-y: auto;
+            pointer-events: none;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateX(-100%);
+            transition: opacity 0.3s ease, visibility 0.2s ease, transform 0.3s ease;
+        }
+
+        /* when the sidebar has 'show' class */
+        #sidebar.show {
+            pointer-events: all;
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(0);
+        }
+
+        .sidebar_content {
+            padding: 2.8rem 0;
+            pointer-events: none;
+            /* so that the Sidebar does not get closed while clicking on sidebar_content */
+        }
+
+        .sidebar_content a {
+            pointer-events: all;
+            /* so that all the <a> inside sidebar_content are clickable */
+        }
+
+        .sidebar_body {
+            border-top: 1px dashed var(--text-color);
+            border-bottom: 1px dashed var(--text-color);
+        }
+
+        .side_navlinks ul {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .side_navlinks li a {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+
+        .side_navlinks a:hover {
+            opacity: 1;
+        }
+
+        /*---- Sidebar-Toggler ----*/
+        .sidebar_toggler {
+            position: fixed;
+            top: 4vh;
+            right: 3vw;
+            width: 1.75rem;
+            height: 1.3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .sidebar_toggler span {
+            background-color: #ddd;
+            width: 100%;
+            height: 2.4px;
+            transition: all 0.3s ease;
+            pointer-events: none;
+            /* so that it doesn't overlap the sidebar_toggler */
+        }
+
+        /* if the sidebar has 'show' class then their adjacent-sibling (i.e., sidebar_toggler) will... */
+        #sidebar.show+.sidebar_toggler {
+            justify-content: center;
+        }
+
+        #sidebar.show+.sidebar_toggler span {
+            margin-top: -1.2px;
+            margin-bottom: -1.2px;
+        }
+
+        #sidebar.show+.sidebar_toggler span:first-child {
+            transform: rotate(45deg);
+        }
+
+        #sidebar.show+.sidebar_toggler span:nth-child(2) {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+
+        #sidebar.show+.sidebar_toggler span:last-child {
+            transform: rotate(-45deg);
+        }
+    </style>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <title>Dr. Sanjeev Kumar Mishra &#8211; IIIT Bhubaneswar</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="IIIT Bhubaneswar &raquo; Feed" href="https://www.iiit-bh.ac.in/feed/" />
+<link rel="alternate" type="application/rss+xml" title="IIIT Bhubaneswar &raquo; Comments Feed" href="https://www.iiit-bh.ac.in/comments/feed/" />
+<link href='//fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&subset=latin-ext,devanagari,latin' rel='stylesheet' type='text/css'><link href='//fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin-ext,vietnamese,latin' rel='stylesheet' type='text/css'><link href='//fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&subset=greek-ext,cyrillic-ext,latin-ext,vietnamese,latin,greek,cyrillic' rel='stylesheet' type='text/css'><script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.iiit-bh.ac.in\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='smartlib_prettyphoto-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/vendor/prettyPhoto/css/prettyPhoto.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='smartlib_iconmoon-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/vendor/iconmoon/style.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='smartlib_main-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/style.css?ver=6.6.1' type='text/css' media='all' />
+<style id='smartlib_main-inline-css' type='text/css'>
+.smartlib-main-navigation-wrapper .smartlib-default-top-navbar, .smartlib-navigation-header .smartlib-default-top-navbar.affix, .smartlib-navigation-header .smartlib-default-top-navbar .smartlib-search-navigation-area .smartlib-navbar-search-form.animated .smartlib-input-search-outer{background:rgba(0, 0, 0, )}.smartlib-default-top-navbar .smartlib-navbar-menu a{font-family:Poppins}body, p:not(.sangar-content p){font-family:Poppins}h1{font-family:Poppins}h2{font-family:Poppins}h3{font-family:Montserrat}h4{font-family:Roboto}h5{font-family:Roboto}h6{font-family:Roboto}.btn.btn-default{font-family:Roboto}@media (min-width:1230px) {.container, .smartlib-content-section,.smartlib-full-strech-section .panel-row-style{width:1200px}.smartlib-right-sidebar, .smartlib-left-sidebar{width:320px}.smartlib-left-content, .smartlib-right-content{width:880px}}
+</style>
+<link rel='stylesheet' id='smartlib_flexislider-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/vendor/flexslider/flexslider.css?ver=6.6.1' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-components-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/components/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-preferences-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/preferences/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/block-editor/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-reusable-blocks-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/reusable-blocks/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-patterns-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/patterns/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css' href='https://www.iiit-bh.ac.in/wp-includes/css/dist/editor/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='block-robo-gallery-style-css-css' href='https://www.iiit-bh.ac.in/wp-content/plugins/robo-gallery/includes/extensions/block/dist/blocks.style.build.css?ver=3.2.21' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.iiit-bh.ac.in/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='grid-gallery-style-css' href='https://www.iiit-bh.ac.in/wp-content/plugins/grid-gallery-plugin/grid-gallery-style.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wonderplugin-gridgallery-engine-css-css' href='https://www.iiit-bh.ac.in/wp-content/plugins/wonderplugin-gridgallery/engine/wonderplugingridgalleryengine.css?ver=18.4' type='text/css' media='all' />
+<link rel='stylesheet' id='ivory-search-styles-css' href='https://www.iiit-bh.ac.in/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=5.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/style.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/style.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/css/main.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='child-css' href='https://www.iiit-bh.ac.in/wp-content/themes/bootFrame-child/assets/css/main.css?ver=6.6.1' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/vendor/flexslider/jquery.flexslider-min.js" id="smartlib-flexislider-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/vendor/prettyPhoto/js/jquery.prettyPhoto.js" id="smartlib-prettyphoto-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/wonderplugin-gridgallery/engine/wonderplugingridlightbox.js?ver=18.4" id="wonderplugin-gridgallery-lightbox-script-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/wonderplugin-gridgallery/engine/wonderplugingridgallery.js?ver=18.4" id="wonderplugin-gridgallery-script-js"></script>
+<link rel="https://api.w.org/" href="https://www.iiit-bh.ac.in/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.iiit-bh.ac.in/wp-json/wp/v2/faculty/336" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.iiit-bh.ac.in/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.1" />
+<link rel="canonical" href="https://www.iiit-bh.ac.in/faculty/dr-sanjeev-kumar-mishra/" />
+<link rel='shortlink' href='https://www.iiit-bh.ac.in/?p=336' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.iiit-bh.ac.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.iiit-bh.ac.in%2Ffaculty%2Fdr-sanjeev-kumar-mishra%2F" />
+<link rel="icon" href="https://www.iiit-bh.ac.in/wp-content/uploads/2024/common-file/favicon.png" sizes="32x32" />
+<link rel="icon" href="https://www.iiit-bh.ac.in/wp-content/uploads/2024/common-file/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.iiit-bh.ac.in/wp-content/uploads/2024/common-file/favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.iiit-bh.ac.in/wp-content/uploads/2024/common-file/favicon.png" />
+
+</head>
+
+<body class="faculty-template faculty-template-single-Faculty faculty-template-single-Faculty-php single single-faculty postid-336 single-format-standard smartlib-body-has-topbar locale-en-us bootframe-core">
+
+
+        <header class="smartlib-navigation-header">
+
+
+        <!-- Top Bar -->
+        <div class="smartlib-top-navbar">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                
+                
+                                <div class="top-nav-right">
+                    <ul class="top-block">
+                        <li><a href="https://www.iiit-bh.ac.in">Home</a></li>
+                        <li><a href="mailto:info@iiit-bh.ac.in" target="_blank">Email</a></li>
+                        <li><a href="https://www.iiit-bh.ac.in/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="top-social">
+                    <ul class="social-block">
+                        <li><a href="https://www.facebook.com/iiit.bhubaneswar/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/BhubaneswarIiit?s=20" target="_blank"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2025/02/x-icon.png" class="twitter"></img></a></li>
+                        <li><a href="https://www.linkedin.com/school/international-institute-of-information-technology-bhubaneswar/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/iiitbhubaneswar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/@IIIT-Bhubaneswar?sub_confirmation=1" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                    </ul>
+                </div>
+             </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="smartlib-topbar-menu"><ul id="menu-top-menu" class="nav nav-pills nav-top"><li id="menu-item-83" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83"><a href="https://www.iiit-bh.ac.in/category/faculty/">Faculty</a></li>
+<li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a href="https://www.iiit-bh.ac.in/students/">Students</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"><a target="_blank" rel="noopener" href="https://iiit-bh.almaconnect.com/">Alumni</a></li>
+<li id="menu-item-85" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85"><a href="https://www.iiit-bh.ac.in/visitors/">Visitors</a></li>
+<li id="menu-item-86" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86"><a href="https://www.iiit-bh.ac.in/category/careers/">Careers</a></li>
+</ul></div>
+                <ul class="smartlib-layout-list smartlib-top-bar-info">
+
+                                        
+                </ul>
+                <p class="smartlib-top-bar-info"></p>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- End Top Bar -->
+        <!-- Navigation -->
+
+        <div class="smartlib-main-navigation-wrapper">
+            <nav class="navbar navbar-default  smartlib-navbar smartlib-default-top-navbar">
+                <div class="container-fluid">
+                    <div class="row smartlib-expand-row">
+                        <div class="col-sm-12">
+                            <div class="flex-header">
+                                <div class="navbar-header">
+                                    <h4 class="smartlib-logo-header" itemprop="headline">    <a href="https://www.iiit-bh.ac.in/"
+       title="IIIT Bhubaneswar"
+       rel="home"
+       class="smartlib-site-logo smartlib-image-logo-link">
+                    <img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/iiit-logo.jpg"
+                 alt="IIIT Bhubaneswar"/>
+        </a>
+    </h4>                                </div>
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <div class="menu-main-menu-container"><ul id="menu-main-menu" class="nav navbar-nav navbar-right smartlib-menu smartlib-navbar-menu"><li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-224"><a title="About" href="https://www.iiit-bh.ac.in/about-iiit/about/">About</a></li>
+<li id="menu-item-242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-242 dropdown"><a title="Administration" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Administration <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-241"><a title="Chancellor" href="https://www.iiit-bh.ac.in/administration/chancellor/">Chancellor</a></li>
+	<li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-256"><a title="Chairman" href="https://www.iiit-bh.ac.in/administration/chairman/">Chairman</a></li>
+	<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-258"><a title="Director" href="https://www.iiit-bh.ac.in/administration/director/">Director</a></li>
+	<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-257"><a title="Registrar" href="https://www.iiit-bh.ac.in/administration/registrar/">Registrar</a></li>
+	<li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-253"><a title="Controller of Examination" href="https://www.iiit-bh.ac.in/administration/controller-of-examination/">Controller of Examination</a></li>
+	<li id="menu-item-254" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-254"><a title="Comptroller of Finance" href="https://www.iiit-bh.ac.in/administration/comptroller-of-finance/">Comptroller of Finance</a></li>
+	<li id="menu-item-786" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-786"><a title="Deans" href="https://www.iiit-bh.ac.in/administration/deans/">Deans</a></li>
+</ul>
+</li>
+<li id="menu-item-1310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1310"><a title="Academics" href="https://www.iiit-bh.ac.in/academics/">Academics</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 dropdown"><a title="Departments" href="/category/department/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Departments <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-department menu-item-572"><a title="Computer Science &amp; Engineering" href="https://www.iiit-bh.ac.in/department/department-of-computer-science/">Computer Science &amp; Engineering</a></li>
+	<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-department menu-item-573"><a title="Electronics &amp; Telecommunication Engineering" href="https://www.iiit-bh.ac.in/department/department-of-electronics-engineering/">Electronics &amp; Telecommunication Engineering</a></li>
+	<li id="menu-item-574" class="menu-item menu-item-type-post_type menu-item-object-department menu-item-574"><a title="Electrical &amp; Electronics Engineering" href="https://www.iiit-bh.ac.in/department/department-of-electrical-engineering/">Electrical &amp; Electronics Engineering</a></li>
+	<li id="menu-item-576" class="menu-item menu-item-type-post_type menu-item-object-department menu-item-576"><a title="Mechanical Engineering" href="https://www.iiit-bh.ac.in/department/department-of-mechanical-engineering/">Mechanical Engineering</a></li>
+	<li id="menu-item-575" class="menu-item menu-item-type-post_type menu-item-object-department menu-item-575"><a title="Basic Science and Humanities" href="https://www.iiit-bh.ac.in/department/department-of-basic-science-and-humanities/">Basic Science and Humanities</a></li>
+</ul>
+</li>
+<li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-76 dropdown"><a title="Admissions" href="https://www.iiit-bh.ac.in/Admission/b-tech/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Admissions <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li id="menu-item-933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-933"><a title="B.TECH" href="https://www.iiit-bh.ac.in/Admission/b-tech/">B.TECH</a></li>
+	<li id="menu-item-935" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-935"><a title="M.tech" href="https://www.iiit-bh.ac.in/Admission/m-tech/">M.tech</a></li>
+	<li id="menu-item-936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-936"><a title="Ph.D" href="https://www.iiit-bh.ac.in/Admission/ph-d/">Ph.D</a></li>
+	<li id="menu-item-3705" class="menu-item menu-item-type-post_type menu-item-object-archive menu-item-3705"><a title="Archive" href="https://www.iiit-bh.ac.in/Archive/b-tech/">Archive</a></li>
+</ul>
+</li>
+<li id="menu-item-77" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77"><a title="Research" href="https://www.iiit-bh.ac.in/research/">Research</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78"><a title="Campus Life" href="https://sites.google.com/iiit-bh.ac.in/campus?usp=sharing">Campus Life</a></li>
+<li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a title="Placements" href="https://www.iiit-bh.ac.in/placements/">Placements</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a title="Alumni" target="_blank" href="https://iiit-bh.almaconnect.com/">Alumni</a></li>
+<li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a title="Tender" href="https://www.iiit-bh.ac.in/category/tender/">Tender</a></li>
+</ul></div>
+
+                                </div>
+                                <div class="smartlib-search-navigation-area">
+                                    <img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/edu-logo.jpg" />
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                        data-target="#bs-example-navbar-collapse-1">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- /.container -->
+        <div class="noticeSlider">
+            <div class="ticker-wrap">
+                                <div class="ticker-heading" onclick="window.location.href='https://www.iiit-bh.ac.in/notice-board/'"
+                    style="cursor: pointer;">
+                    Notice Board
+                </div>
+                <div class="ticker">
+                                                                                                        <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://forms.gle/jywuJq8kux8Zs2tdA" target="_blank">
+                                    Apply Online-Faculty Recruitment                                </a>
+                            </div>
+                                                                                                            <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://sites.google.com/iiit-bh.ac.in/facultyrecruitment?usp=sharing" target="_blank">
+                                    Rolling Advertisement for Regular Faculty Recruitment at IIIT...                                </a>
+                            </div>
+                                                                                                            <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://www.iiit-bh.ac.in/category/careers/" target="_blank">
+                                    Rolling Advertisement for Post-Doctoral Research Fellowship/Research Associateship                                </a>
+                            </div>
+                                                                                                            <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://www.iiit-bh.ac.in/category/careers/" target="_blank">
+                                    Advertisement for Visiting Faculty (Rolling Advertisement)                                </a>
+                            </div>
+                                                                                                            <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://www.iiit-bh.ac.in/category/careers/" target="_blank">
+                                    Rolling Advertisement for the Recruitment of the Project...                                </a>
+                            </div>
+                                                                                                            <div class="ticker__item">
+                                <a class="notice_top_slide" href="https://www.iiit-bh.ac.in/wp-content/uploads/2025/Jobs/forweb_EILMTILMT_Rolling.pdf" target="_blank">
+                                    Rolling Advertisement for Recruitment of Project Fellows in...                                </a>
+                            </div>
+                                        </div>
+            </div>
+        </div>
+        <aside id="sidebar">
+            <div class="sidebar_content sidebar_head">
+                <h4 class="smartlib-logo-header" itemprop="headline">    <a href="https://www.iiit-bh.ac.in/"
+       title="IIIT Bhubaneswar"
+       rel="home"
+       class="smartlib-site-logo smartlib-image-logo-link">
+                    <img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/iiit-logo.jpg"
+                 alt="IIIT Bhubaneswar"/>
+        </a>
+    </h4>            </div>
+
+            <div class="sidebar_content sidebar_body">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="nav navbar-nav navbar-right smartlib-menu smartlib-navbar-menu"><li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-224"><a title="About" href="https://www.iiit-bh.ac.in/about-iiit/about/">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-242 dropdown"><a title="Administration" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Administration <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-241"><a title="Chancellor" href="https://www.iiit-bh.ac.in/administration/chancellor/">Chancellor</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-256"><a title="Chairman" href="https://www.iiit-bh.ac.in/administration/chairman/">Chairman</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-258"><a title="Director" href="https://www.iiit-bh.ac.in/administration/director/">Director</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-257"><a title="Registrar" href="https://www.iiit-bh.ac.in/administration/registrar/">Registrar</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-253"><a title="Controller of Examination" href="https://www.iiit-bh.ac.in/administration/controller-of-examination/">Controller of Examination</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-254"><a title="Comptroller of Finance" href="https://www.iiit-bh.ac.in/administration/comptroller-of-finance/">Comptroller of Finance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-786"><a title="Deans" href="https://www.iiit-bh.ac.in/administration/deans/">Deans</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1310"><a title="Academics" href="https://www.iiit-bh.ac.in/academics/">Academics</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 dropdown"><a title="Departments" href="/category/department/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Departments <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-department menu-item-572"><a title="Computer Science &amp; Engineering" href="https://www.iiit-bh.ac.in/department/department-of-computer-science/">Computer Science &amp; Engineering</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-department menu-item-573"><a title="Electronics &amp; Telecommunication Engineering" href="https://www.iiit-bh.ac.in/department/department-of-electronics-engineering/">Electronics &amp; Telecommunication Engineering</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-department menu-item-574"><a title="Electrical &amp; Electronics Engineering" href="https://www.iiit-bh.ac.in/department/department-of-electrical-engineering/">Electrical &amp; Electronics Engineering</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-department menu-item-576"><a title="Mechanical Engineering" href="https://www.iiit-bh.ac.in/department/department-of-mechanical-engineering/">Mechanical Engineering</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-department menu-item-575"><a title="Basic Science and Humanities" href="https://www.iiit-bh.ac.in/department/department-of-basic-science-and-humanities/">Basic Science and Humanities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-76 dropdown"><a title="Admissions" href="https://www.iiit-bh.ac.in/Admission/b-tech/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Admissions <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-933"><a title="B.TECH" href="https://www.iiit-bh.ac.in/Admission/b-tech/">B.TECH</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-935"><a title="M.tech" href="https://www.iiit-bh.ac.in/Admission/m-tech/">M.tech</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-936"><a title="Ph.D" href="https://www.iiit-bh.ac.in/Admission/ph-d/">Ph.D</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-archive menu-item-3705"><a title="Archive" href="https://www.iiit-bh.ac.in/Archive/b-tech/">Archive</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77"><a title="Research" href="https://www.iiit-bh.ac.in/research/">Research</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78"><a title="Campus Life" href="https://sites.google.com/iiit-bh.ac.in/campus?usp=sharing">Campus Life</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a title="Placements" href="https://www.iiit-bh.ac.in/placements/">Placements</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a title="Alumni" target="_blank" href="https://iiit-bh.almaconnect.com/">Alumni</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a title="Tender" href="https://www.iiit-bh.ac.in/category/tender/">Tender</a></li>
+</ul></div>
+
+                </div>
+            </div>
+        </aside>
+        <script>
+            /* Sidebar */
+
+            const sidebar = document.querySelector('#sidebar');
+            const sidebarToggler = document.querySelector('.navbar-toggle');
+
+
+            // Toggling the Sidebar
+            sidebarToggler.addEventListener('click', () => {
+                sidebar.classList.toggle('show');
+            });
+
+
+            // Closing the Sidebar on clicking Outside and on the Sidebar-Links
+            window.addEventListener('click', (e) => {
+                if (e.target.id !== 'sidebar' && e.target.className !== 'navbar-toggle') {
+                    sidebar.classList.remove('show');
+                }
+            });
+        </script>
+    </header>
+    <!-- END Navigation --><!--<section class="single-post-banner">
+    <img src="" class="feature-img">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="heading-title"></h1>
+            </div>
+        </div>
+    </div>
+</section>-->
+<section class="single-post-banner" style="background-image:url(https://www.iiit-bh.ac.in/wp-content/uploads/2024/05/banner6.jpg);">
+    <div class="container">
+        <div class="inner-content">
+            <div class="inner">
+                <h1>Dr. Sanjeev Kumar Mishra</h1>
+            </div>
+            <div class="breadcrumbBox">
+                <div class="smartlib-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li><a href="/">Home</a><span class="smartlib-separator">/</span></li>
+                        <li><a href="/category/faculty/">Faculty</a><span class="smartlib-separator">/</span></li>
+                    </ol>
+                </div>
+                <h2 class="page-header smartlib-page-title">Dr. Sanjeev Kumar Mishra</h2>
+            </div>
+                    </div>
+    </div>
+</section>
+
+<div id="course-details" class="detailsBox">
+    <button id="menuButton"><i class="fa fa-navicon"></i>Page Menu</button>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-4 left-panel hidden-xs">
+                <div class="navigation_main">
+                    <div class="navbar_inside">
+                        <script>
+                            document.getElementById("menuButton").addEventListener("click", function(event) {
+                                event.stopPropagation();
+                                var navigation = document.querySelector(".left-panel .navigation_main");
+                                navigation.classList.toggle("active");
+                            });
+                            document.addEventListener("click", function(event) {
+                                var navigation = document.querySelector(".left-panel .navigation_main");
+                                if (navigation.classList.contains("active")) {
+                                    navigation.classList.remove("active");
+                                }
+                            });
+                            document.querySelector(".left-panel .navbar_inside").addEventListener("click", function(event) {
+                                event.stopPropagation();
+                            });
+                        </script>
+                        <!-- Primary Navigation -->
+                        <nav id="secondary-navigation" class="nav nav-tabs" role="tablist">
+                            <!-- Header -->
+                            <header class="header">
+                                <div class="blockTitlebox">
+                                    <h5>Overview</h5>
+                                    <span><a href="#" class="back-button"><i class="fa fa-reply"></i></a></span>
+                                </div>
+                            </header>
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    const backButton = document.querySelector('.back-button');
+                                    if (backButton) {
+                                        backButton.addEventListener('click', function(event) {
+                                            event.preventDefault();
+                                            history.back();
+                                        });
+                                    }
+
+                                    const links = document.querySelectorAll('#secondary-navigation a');
+                                    const sections = document.querySelectorAll('.faculty-section');
+
+                                    links.forEach(link => {
+                                        link.addEventListener('click', function(event) {
+                                            event.preventDefault();
+                                            const targetId = this.getAttribute('href');
+                                            sections.forEach(section => {
+                                                section.classList.remove('active');
+                                                if ('#' + section.id === targetId) {
+                                                    section.classList.add('active');
+                                                }
+                                            });
+                                        });
+                                    });
+
+                                    // Hide all sections initially except the first one
+                                    sections.forEach((section, index) => {
+                                        section.classList.add('active');
+                                    });
+                                });
+                            </script>
+                            <!-- /Header -->
+
+                            <ul>
+                                <li class="active" role="presentation">
+                                    <a href="#short-bio" data-target="short-bio" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-angle-right" aria-hidden="true"></i>Short-Biodata</a>
+                                </li>
+                                <li class="">
+                                    <a href="#research" data-target="research" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-angle-right" aria-hidden="true"></i>Research</a>
+                                </li>
+                                <li class="">
+                                    <a href="#publication" data-target="publication" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-angle-right" aria-hidden="true"></i>Publication</a>
+                                </li>
+                                <li class="">
+                                    <a href="#project" data-target="project" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-right" aria-hidden="true"></i>Project</a>
+                                </li>
+                                <li class="">
+                                    <a href="#resources" data-target="resources" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-angle-right" aria-hidden="true"></i>Resources</a>
+                                </li>
+                                <li class="">
+                                    <a href="#administrative_responsibility" data-target="administrative_responsibility" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-right" aria-hidden="true"></i>Administrative Responsibility</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                        <!-- /Secondary Navigation -->
+                        <h5>Quick Links</h5>
+                        <!-- Help List -->
+                        <ul class="help-list">
+                            <li> <a href="https://www.iiit-bh.ac.in/category/department/" class="clearfix">
+                                    <!-- Round Icon -->
+                                    <div class="round-icon color-theme1"><i class="fa fa-search-plus icons"></i> </div>
+                                    <!-- /Round Icon -->
+                                    <!-- Inner -->
+                                    <div class="inner">
+                                        <p>Find Programme</p>
+                                    </div>
+                                    <!-- /Inner -->
+                                </a> </li>
+                            <li> <a href="https://www.iiit-bh.ac.in/category/careers/" class="clearfix">
+                                    <!-- Round Icon -->
+                                    <div class="round-icon color-theme2"><i class="fa fa-line-chart icons" aria-hidden="true"></i></div>
+                                    <!-- /Round Icon -->
+                                    <!-- Inner -->
+                                    <div class="inner">
+                                        <p>Careers</p>
+                                    </div>
+                                    <!-- /Inner -->
+                                </a> </li>
+                            <li> <a href="https://www.iiit-bh.ac.in/visitors/" class="clearfix">
+                                    <!-- Round Icon -->
+                                    <div class="round-icon color-theme4"><i class="fa fa-users" aria-hidden="true"></i></div>
+                                    <!-- /Round Icon -->
+                                    <!-- Inner -->
+                                    <div class="inner">
+                                        <p>IIIT Visitor</p>
+                                    </div>
+                                    <!-- /Inner -->
+                                </a> </li>
+                            <li> <a href="https://www.iiit-bh.ac.in/gallery/ " class="clearfix">
+                                    <!-- Round Icon -->
+                                    <div class="round-icon color-theme5"><i class="fa fa-camera" aria-hidden="true"></i></div>
+                                    <!-- /Round Icon -->
+                                    <!-- Inner -->
+                                    <div class="inner">
+                                        <p>Image Gallery</p>
+                                    </div>
+                                    <!-- /Inner -->
+                                </a> </li>
+                        </ul>
+                        <!-- /Help List -->
+                    </div>
+                </div>
+                <!-- /Department List -->
+            </div>
+            <div class="col-md-9 col-sm-8 right-panel">
+                <!-- Department List -->
+                <div class="faculty-list infoPage">
+                    <div class="tab-content">
+                                                    <article id="post-336" class="post-336 faculty type-faculty status-publish format-standard hentry category-electronics-engineering category-faculty">
+                                <!-- Display Meta Box Values -->
+                                <div class="Faculty_singlepage_details"><div class="Faculty_singlepage_image_details"><div class="department_hod_img"><img class="hod_img" src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/05/Sanjeev-Kumar-Mishra.jpg" alt="https://www.iiit-bh.ac.in/wp-content/uploads/2024/05/Sanjeev-Kumar-Mishra.jpg"></div><div class="faculty_info"><div class="faculty_title_details"><div class="faculty_title">Dr. Sanjeev Kumar Mishra</div><div class="faculty_designation"><p>Associate Professor</p>
+</div><div class="faculty_department"><p>Department of Electronics Engineering</p>
+</div></div><p class="text_contact">Contact Information</p><div class="faculty_other_details"><div class="faculty_contact_details"><div class="faculty_email"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/faculty-icon-01-1.png"><b>Email Id: </b>sanjeev@iiit-bh.ac.in</div><div class="faculty_phone"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/faculty-icon-02-1.png"><b>Contact no.: </b>0674-25633-44</div><div class="faculty_room_number"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/faculty-icon-03-1.png"><b>Address: </b>B111 , IIIT Bhubaneswar, Gothapatna, Bhubaneswar-751003</div><div class="faculty_room_number"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/07/faculty-icon-04-1.png"><a href="https://sites.google.com/site/sanjeevkumarmishra20/" target="_blank"><b>Personal website</b></a></div></div><div class="faculty_socialmedia"><p><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/orcid.png"><a href="https://orcid.org/%200000-0002-9089-9763" target="_blank">Orchid</a></p><p><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/google.png"><a href="https://scholar.google.co.in/citations?user=K8S3T0cAAAAJ&#038;hl=en&#038;oi=ao" target="_blank">google Scolar</a></p><p><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/06/researchgate.png"><a href="https://www.researchgate.net/profile/Sanjeev-Mishra-8" target="_blank">Research Gate</a></p></div></div></div></div><div class="Faculty_singlepage_information_details">
+                                <div id="short-bio" class="entry-content faculty-section">
+                                    <p><span class="C9DxTc ">Prof. Mishra's teaching and research interests include</span>
+<ul>
+ 	<li class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">RF &amp; Microwave Circuits and System Design: </span><span class="C9DxTc ">Filters, Resonators, RADAR and Satellite Systems and Subsystems;</span><span class="C9DxTc "> </span><span class="C9DxTc ">IoT and Wearable Electronics</span></li>
+ 	<li class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Antenna Design</span><span class="C9DxTc ">: Micro-strip Antennas, UWB Antennas, Array Antennas, High gain multi-layer antennas, MIMO, Beam-forming Antennas, DRAs. Beamforming Antenna, Active Antenna, RF energy harvesting </span></li>
+ 	<li class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Microwave Remote Sensing and Sensors</span><span class="C9DxTc ">: Radiometry, Characterization of electrical parameters of target using microwave techniques, Back-scattering coefficient, Emissivity &amp; Brightness Temperature </span></li>
+ 	<li class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">RF/Microwave Measurements</span><span class="C9DxTc ">: Antenna Characterization, Chip Testing, Dielectric Measurements.</span></li>
+</ul></p><div class="faculty_education"><b>Education:</b><ul><li>PhD in Electrical Engineering (2009-2012), IIT Bombay, India</li></ul></div><div class="faculty_education"><b>Professional Experience:</b><div><ul>
+<li class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Aug 2016 - till date: Assistant Professor, IIIT Bhubaneswar, Odisha</span></li>
+<li class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Jan 2014- July 2016: Assistant Professor, Indian Institute of Space Science and Technology, Department of Space, Government of India, Thiruvananthapuram, India.</span></li>
+<li class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Nov 2012- Dec 2013: Visiting Faculty, Indian Institute of Space Science and Technology, Department of Space, Government of India, Thiruvananthapuram, India.</span></li>
+<li class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Jan 2008-Dec 2008: Lecturer, Silicon Institute of Technology Bhubaneswar, Odisha, India.</span></li>
+<li class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">Dec 2005-Dec 2007: Scientist B, International Center for Radio Science (ICRS) Jodhpur, Rajasthan, India.</span></li>
+</ul>
+</div></div><div class="faculty_education"><b>Professional Membership:</b><div><ul>
+<li>Vice Chair, Joint Antenna and Propagation Society and Microwave Society Chapter, Bhubaneswar Section, Jan 25-till Date.
+<p>https://site.ieee.org/bhubaneswar/communities/joint-antenna-and-propagation-society-and-and-microwave-society-chapter/<b> </b></p>
+</li>
+</ul>
+<ul>
+<li>Institute of Electrical and Electronic Engineering (IEEE) (M 92515824),
+<ul>
+<li>Received IEEE Senior Membership, 25th Feb 2016. [SM 92515824]</li>
+<li>IEEE Antenna and Propagation Society (IEEE APS)</li>
+<li>IEEE Microwave Theory and Techniques (IEEE MTT)</li>
+<li>IEEE Geoscience and Remote Sensing Society (IEEE GRSS)</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Broadcast Engineering Society (BES) (Life-Member (LM 2417)).</li>
+</ul>
+</div></div>                                </div>
+                                <div id="research" class="faculty-section">
+                                    <b>Research</b>
+                                    <p class="research_area">RESEARCH AREA: RF &amp; Microwave Circuits and System Design , Antenna Design , Microwave Remote Sensing and Sensors , RF/Microwave Measurements</p>
+
+                                                                                    <table class="faculty_research_details">
+                                                <tr>
+                                                    <th colspan="6"> Efficient Estimation of Power Quality Disturbances Using Adaptive Filters</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Dr Umamani Subudhi</td><td>Graduated</td><td>Graduated: 2020</td><td>Prof Harish K Sahoo</td>
+
+                                                </tr>
+                                            </table>
+
+                                                                                    <table class="faculty_research_details">
+                                                <tr>
+                                                    <th colspan="6"> Broadband DRAs Design for Diverse Wireless Applications</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Dr Priyaranjan Meher</td><td>Graduated</td><td>Graduated: 2022</td>
+
+                                                </tr>
+                                            </table>
+
+                                                                                    <table class="faculty_research_details">
+                                                <tr>
+                                                    <th colspan="6"> Meta-surface inspired Monopole Antenna Designs for Efficient RF Energy Harvesting Systems</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Dr Bikash Ranjan Behera</td><td>Graduated</td><td>Graduated: 2023</td>
+
+                                                </tr>
+                                            </table>
+
+                                                                                    <table class="faculty_research_details">
+                                                <tr>
+                                                    <th colspan="6"> Dual Band Dual Polarized Antennas for OFF Body Applications</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Dr Nibash Kumar Sahu</td><td>Graduated</td><td>Graduated: 2024</td>
+
+                                                </tr>
+                                            </table>
+
+                                                                                    <table class="faculty_research_details">
+                                                <tr>
+                                                    <th colspan="6"> Meta surface Inspired CP Antenna Design for IoMT</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sasmita Nayak</td><td>Continuing</td>
+
+                                                </tr>
+                                            </table>
+
+                                                                                    <table class="faculty_research_details">
+                                                <tr>
+                                                    <th colspan="6"> MIMO-UWB Antenna Design for 5G</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Rajashree Priyadarshini</td><td>Continuing</td><td>Dr S P Singh</td>
+
+                                                </tr>
+                                            </table>
+
+                                                                                    <table class="faculty_research_details">
+                                                <tr>
+                                                    <th colspan="6"> Beamforming Antennas</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Rupali Layak</td><td>Continuing</td>
+
+                                                </tr>
+                                            </table>
+
+                                        
+                                    
+                                </div>
+                                <div id="publication" class="faculty-section">
+                                    <b>Publication</b>
+                                    <div class="CjVfdc"><strong><span class="gBYvFf C9DxTc ">Patents</span></strong></div>
+<ul>
+<li class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">“Parallel Metal Plated Split U Shape Omni-directional UWB Antenna”, Patent No: 302835</span></li>
+<li class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">“High Gain Wide-band Micro-strip FPC Antenna”, Patent No: 341129</span></li>
+</ul>
+<div id="h.ex3ry36v96ai" class="CobnVe yMxPgf  aP9Z7e"> </div>
+<div class="CjVfdc"><strong><span class="gBYvFf C9DxTc ">Book Published</span></strong></div>
+<ul>
+<li class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">Planar UWB Antennas: Design, Analysis and Application, ISBN-13: 978-3-659-25195-5, Sanjeev Kumar Mishra and Jayanta Mukherjee, LAP Lambert Academic Publishing, Germany, Sept 2012.</span></li>
+</ul>
+<div id="h.8g3gtf7jfbto" class="CobnVe yMxPgf  aP9Z7e"> </div>
+<div class="CjVfdc">
+<div class="PPhIP rviiZ">
+<div class="U26fgb mUbCce fKz7Od LRAOtb Znu9nd M9Bg4d" role="presentation" aria-describedby="h.8g3gtf7jfbto_l" aria-label="Copy heading link" data-tooltip="Copy heading link" aria-hidden="true" data-tooltip-position="top" data-tooltip-vertical-offset="12" data-tooltip-horizontal-offset="0">
+<div class="VTBa7b MbhUzd"><strong>List of Publications</strong></div>
+</div>
+</div>
+</div>
+<ul>
+<li class="zfr3Q CDt4Ke " dir="ltr"><strong><span class="C9DxTc ">Journals Publications</span></strong></li>
+</ul>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J42</span><span class="C9DxTc ">. Bikash R. Behera, Sanjeev K. Mishra, Mohammed H. Alsharif, Peerapong Uthansakul and Monthippa Uthansakul, "A metasurface-inspired printed monopole antenna for 5G and RF energy harvesting application", Engineering Science and Technology, an International Journal 51 [JESTECH-Elsevier], Feb 2024.</span><a class="XqQF9c" href="https://doi.org/10.1016/j.jestch.2024.101638" target="_blank" rel="noopener"><span class="C9DxTc "> </span><span class="C9DxTc aw5Odc ">https://doi.org/10.1016/j.jestch.2024.101638</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J41.</span><span class="C9DxTc "> Nibash Kumar Sahu, Naresh Chandra Naik, Madhab Chandra Tripathy, and Sanjeev Kumar Mishra, "A Review of the Advancement of Metasurfaces in Wearable Antenna Design for off -Body Communications," Progress In Electromagnetics Research B, Vol. 104, 91-108, 2024. </span><a class="XqQF9c" href="http://dx.doi.org/10.2528/PIERB23111504" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">doi:10.2528/PIERB23111504</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J40</span><span class="C9DxTc ">. Priya Ranjan Meher, </span><span class="C9DxTc ">Sanjeev Kumar Mishra </span><span class="C9DxTc ">and</span><span class="C9DxTc "> </span><span class="C9DxTc ">Md Ahsan Halimi, “A Low-Profile Compact Broadband CP DRA for RF </span> <span class="C9DxTc ">   Energy Harvesting Applications”, IETE Journal of Research</span><span class="C9DxTc ">, July 2023</span><span class="C9DxTc ">. </span><a class="XqQF9c" href="https://doi.org/10.1080/03772063.2023.2237469" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">https://doi.org/10.1080/03772063.2023.2237469</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J39</span><span class="C9DxTc ">. Bikash Ranjan Behera, Sanjeev Kumar Mishra, Mohammed H Alsharif, and Abu Jahid, “Reconfigurable Antennas for RF </span> <span class="C9DxTc ">Energy Harvesting </span> <span class="C9DxTc ">Applications: Current Trends, Challenges, &amp;amp; Solution from Design Perspective”, Electronics </span> <span class="C9DxTc ">12[MDPI], No (12): 2723, June 2023.  </span><a class="XqQF9c" href="https://doi.org/10.3390/electronics12122723" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">https://doi.org/10.3390/electronics12122723</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J38</span><span class="C9DxTc ">. </span><span class="C9DxTc ">Priya Ranjan Meher, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Design and Development of Mathematical Equivalent Circuit Model of </span> <span class="C9DxTc ">Broadband Circularly </span> <span class="C9DxTc ">Polarized Semi-Annular Ring-Shaped Monopole Antenna”, </span><span class="C9DxTc ">Progress in Electromagnetics </span> <span class="C9DxTc ">Research, PIER C, Vol. 129, pp 73-87, 2023. </span><a class="XqQF9c" href="http://dx.doi.org/10.2528/PIERC22120909" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">doi:10.2528/PIERC22120909</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J37</span><span class="C9DxTc ">.  Priya Ranjan Meher, Abhiram Cholleti, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “State of the Art of Nanoantenna Designs in Infrared </span> <span class="C9DxTc ">and Visible Regions: An Application Oriented Review”, IETE Technical Review</span><span class="C9DxTc ">, Vol 40, No 5, pp 671-693, 2023</span><span class="C9DxTc ">. </span> <span class="C9DxTc ">[published online Dec 2022]</span><span class="C9DxTc ">. </span> <span class="C9DxTc ">doi:10.1080/02564602.2022.2152881</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J36</span><span class="C9DxTc ">. Nibash Kumar Sahu, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Polarization Converting Metasurface Inspired Dual Band Dual </span> <span class="C9DxTc ">Circularly Polarized Monopole Antennas for OFF Body Communications”, IEEE Antennas and Wireless Propagation </span> <span class="C9DxTc ">Letters, V 22, Issue 1, pp 194-198, Jan 2023. </span><a class="XqQF9c" href="https://doi.org/10.1109/LAWP.2022.3206913" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">10.1109/LAWP.2022.3206913</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J35</span><span class="C9DxTc ">.</span> <span class="C9DxTc ">Bikash R. Behera, </span><span class="C9DxTc ">Sanjeev K. Mishra</span><span class="C9DxTc ">. Investigation of a high-gain and broad- -band circularly polarized monopole antenna </span> <span class="C9DxTc ">for RF energy harvesting application, Cambridge-International Journal of Microwave and Wireless Technologies, September </span> <span class="C9DxTc ">2022.</span><a class="XqQF9c" href="http://dx.doi.org/10.1017/S1759078722000988" target="_blank" rel="noopener"><span class="C9DxTc "> </span><span class="C9DxTc aw5Odc ">10.1017/S1759078722000988</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J34</span><span class="C9DxTc ">.</span> <span class="C9DxTc ">Bikash R. Behera, </span><span class="C9DxTc ">Sanjeev K. Mishra</span><span class="C9DxTc ">. A single-layered metasurface inspired broadband polarization reconfigurable printed </span> <span class="C9DxTc ">monopole antenna for hybrid wire-less applications, AEUE-International Journal of Electronics and Communications </span> <span class="C9DxTc ">(Elsevier), Vol 156, November 2022. DOI:</span><span class="C9DxTc "> </span><a class="XqQF9c" href="http://dx.doi.org/10.1016/j.aeue.2022.154405" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">10.1016/j.aeue.2022.154405</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J33</span><span class="C9DxTc ">. Nibash Kumar Sahu, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Compact Dual-band Dual-polarized Monopole Antennas using Via-free </span> <span class="C9DxTc ">Metasurfaces for OFF Body Communications”, IEEE Antennas and Wireless Propagation Letters, V 21, Issue 7, pp </span> <span class="C9DxTc ">1358-1362, July 2022. </span><span class="C9DxTc ">Cited by 1. </span><span class="C9DxTc ">DOI:</span><a class="XqQF9c" href="https://ieeexplore.ieee.org/document/9759993?source=authoralert" target="_blank" rel="noopener"><span class="C9DxTc "> </span><span class="C9DxTc aw5Odc ">10.1109/LAWP.2022.3167849</span></a><span class="C9DxTc ">.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J32</span><span class="C9DxTc ">. Nibash Kumar Sahu, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Cavity Model Analysis of Dual Polarized Microstrip Antennas for </span> <span class="C9DxTc ">Wireless Body Area Network Applications”, International Journal of System Assurance Engineering and Management, </span> <span class="C9DxTc ">Jan 2022. </span><span class="C9DxTc ">Cited by 1.</span><span class="C9DxTc "> </span><span class="C9DxTc ">https://doi.org/10.1007/s13198-021-01591-0</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J31</span><span class="C9DxTc ">. Nibash Kumar Sahu, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Analysis of Omnidirectional Antenna using Cavity Model”, IETE Journal </span> <span class="C9DxTc ">of Research, Vol </span> <span class="C9DxTc ">58, Issue 5, pp 429-434, Aug 2021. </span><a class="XqQF9c" href="https://doi.org/10.1080/03772063.2021.1962748" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">https://doi.org/10.1080/03772063.2021.1962748</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J30</span><span class="C9DxTc ">. Nibash Kumar Sahu, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, </span><span class="C9DxTc ">“A Compact Low SAR and High Gain Circularly Polarized AMC </span> <span class="C9DxTc ">Integrated Monopole </span> <span class="C9DxTc ">Antenna for WBAN Applications”,</span><span class="C9DxTc "> Progress in Electromagnetics Research C [PIER C], Vol 113, PP </span> <span class="C9DxTc ">211-226, July 2021.</span><span class="C9DxTc "> </span><a class="XqQF9c" href="http://www.jpier.org/PIERC/pier.php?paper=21051702" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://www.jpier.org/PIERC/pier.php?paper=21051702</span></a><span class="C9DxTc ">, doi:</span><a class="XqQF9c" href="http://dx.doi.org/10.2528/PIERC21051702" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">10.2528/PIERC21051702</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J29</span><span class="C9DxTc ">. Priya Ranjan Meher, Bikash Ranjan Behera, </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, and Ayman Abdulhadi Althuwayb,</span><span class="C9DxTc "> </span><span class="C9DxTc ">“Design and </span> <span class="C9DxTc ">Analysis of a Compact </span> <span class="C9DxTc ">Circularly Polarized DRA for Off-Body Communications”, AEU-International Journal of Electronics </span> <span class="C9DxTc ">and Communications, [</span><span class="C9DxTc ">Elsevier], Vol 138, PP 1-7, June</span><span class="C9DxTc "> 2021. [I.F.: 2.924].</span><span class="C9DxTc "> Cited by 5 </span> <a class="XqQF9c" href="https://doi.org/10.1016/j.aeue.2021.153880" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">https://doi.org/10.1016/j.aeue.2021.153880</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J28</span><span class="C9DxTc ">. Bikash Ranjan Behera, Priya Ranjan Meher, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, </span><span class="C9DxTc ">“Metasurface Superstrate Inspired Printed </span> <span class="C9DxTc ">Monopole Antenna for RF </span> <span class="C9DxTc ">Energy Harvesting Application”,</span><span class="C9DxTc "> Progress In Electromagnetics Research C [PIER C], Vol 120, </span> <span class="C9DxTc ">PP 119-133, Feb 2021. </span><span class="C9DxTc ">Cited by 6. </span><span class="C9DxTc "> </span><a class="XqQF9c" href="http://www.jpier.org/PIERC/pier.php?paper=21011405" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://www.jpier.org/PIERC/pier.php?paper=21011405</span></a><span class="C9DxTc ">, </span><span class="C9DxTc ">doi:10.2528/PIERC21011405</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J27.</span><span class="C9DxTc "> Priya Ranjan Meher, Bikash Ranjan Behera, </span><span class="C9DxTc ">Sanjeev Kumar Mishra, </span><span class="C9DxTc ">and Ayman Abdulhadi Althuwayb, “A Chronological </span> <span class="C9DxTc ">Review of Circularly </span> <span class="C9DxTc ">Polarized Dielectric Resonator Antenna: Design and Developments”, International Journal of RF </span> <span class="C9DxTc ">and Microwave Computer-Aided Engineering, [IJRFMCAE (Wiley)], </span><span class="C9DxTc ">Feb 2021. [I.F.: 1.528].</span><span class="C9DxTc "> </span><a class="XqQF9c" href="https://doi.org/10.1002/mmce.22589" target="_blank" rel="noopener"><span class="C9DxTc "> </span> <span class="C9DxTc aw5Odc ">https://doi.org/10.1002/mmce.22589</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J26</span><span class="C9DxTc ">.  Priya Ranjan Meher, Bikash Ranjan Behera, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “A Compact Circularly Polarized Cubic DRA </span> <span class="C9DxTc ">with Unit-step Feed for </span> <span class="C9DxTc ">Bluetooth /ISM /Wi-Fi /Wi-MAX Applications”, AEU-International Journal of Electronics and </span> <span class="C9DxTc ">Communications, [Elsevier], Vol 128, PP 1-8, Jan 2021. [I.F.: 2.924]. </span><span class="C9DxTc ">Cited by 6</span><a class="XqQF9c" href="https://doi.org/10.1016/j.aeue.2020.153521" target="_blank" rel="noopener"><span class="C9DxTc "> </span><span class="C9DxTc aw5Odc ">https://doi.org/10.1016/j.aeue.2020.153521</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J25</span><span class="C9DxTc ">. Priya Ranjan Meher, Bikash Ranjan Behera and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Broadband circularly polarized edge feed </span> <span class="C9DxTc ">rectangular dielectric resonator antenna using effective glue-less technique”, Microwave and Optical Technology [MOTL] </span> <span class="C9DxTc ">Letters, Vol 62, PP 3333-3341, Oct 2020. [I.F.: 0.957]. </span><span class="C9DxTc ">Cited by 8 </span><a class="XqQF9c" href="https://doi.org/10.1002/mop.32439" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">https://doi.org/10.1002/mop.32439</span></a><span class="C9DxTc ">  </span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J24.</span> <span class="C9DxTc ">Bikash Ranjan Behera, P Srikanth, Priya Ranjan Meher, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “A compact broadband circularly </span> <span class="C9DxTc ">polarized printed monopole antenna using twin parasitic conducting strips and rectangular metasurface for RF energy </span> <span class="C9DxTc ">harvesting application”, AEU-International Journal of Electronics and Communications, [Elsevier], Vol 120, PP 1-10, June </span> <span class="C9DxTc ">2020. </span><span class="C9DxTc ">Cited by 9 </span><span class="C9DxTc ">[I.F.: 2.924]. </span><a class="XqQF9c" href="https://doi.org/10.1016/j.aeue.2020.153233" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">https://doi.org/10.1016/j.aeue.2020.153233</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J23</span><span class="C9DxTc ">. Priya Ranjan Meher, Bikash Ranjan Behera, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Design and its State-of-the-Art of Different </span> <span class="C9DxTc ">Shaped DRAs at Millimeter-Wave Frequency Band”, International Journal of RF and Microwave Computer-Aided </span> <span class="C9DxTc ">Engineering, [IJRFMCAE (Wiley)], Vol 30, Issue 7, July 2020. [I.F.: 1.528]. </span><span class="C9DxTc ">Cited by 8 </span><span class="C9DxTc ">  </span><a class="XqQF9c" href="https://doi.org/10.1002/mmce.22221" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">https://doi.org/10.1002/mmce.22221</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J22</span><span class="C9DxTc ">. Umamani Subudhi, Harish Sahoo and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Adaptive Three Phase Estimation of Sequence </span> <span class="C9DxTc ">Components and Frequency Using Sparse Model Based H∞ Filter”, Journal of Modern Power System and Clean Energy, </span> <span class="C9DxTc ">Vol 8, No 5, PP 981-990, Sept 2020. [I.F.: 3.090]. </span><span class="C9DxTc ">Cited by 2 </span><a class="XqQF9c" href="https://doi.org/10.35833/MPCE.2018.000440" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">10.35833/MPCE.2018.000440</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J21</span><span class="C9DxTc ">. Bikash Ranjan Behera, Priya Ranjan Meher, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Microwave Antennas-An Intrinsic Part of RF </span> <span class="C9DxTc ">Energy Harvesting Systems: A Contingent Study about its Design Methodologies and State-of-Art Technologies in Current </span> <span class="C9DxTc ">Scenario”, International Journal of RF and Microwave Computer-Aided Engineering, [IJRFMCAE (Wiley)], Vol 30, Issue 5, </span> <span class="C9DxTc ">PP 1-27, May 2020. </span><span class="C9DxTc ">Cited by 13</span><span class="C9DxTc "> [I.F.: 1.528].</span><a class="XqQF9c" href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/mmce.22148" target="_blank" rel="noopener"><span class="C9DxTc "> </span><span class="C9DxTc aw5Odc ">https://onlinelibrary.wiley.com/doi/pdf/10.1002/mmce.22148</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J20</span><span class="C9DxTc ">. J Mahanta, Priya Ranjan Meher, Bikash Ranjan Behera and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “A Circularly Polarized Hybrid </span> <span class="C9DxTc ">Plasmonic Nanoantenna”, Microwave and Optical Technology [MOTL] Letters, V 62, Issue 1, PP 278-283, Aug 2019. [I.F.: </span> <span class="C9DxTc ">0.933]. </span><span class="C9DxTc ">Citation: 4</span><span class="C9DxTc ">.</span><a class="XqQF9c" href="https://doi.org/10.1002/mop.32003" target="_blank" rel="noopener"><span class="C9DxTc "> </span><span class="C9DxTc aw5Odc ">https://doi.org/10.1002/mop.32003</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J19</span><span class="C9DxTc ">. Harish Sahoo, Umamani Subudhi, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Tracking of Power Quality Disturbances using Sparse </span> <span class="C9DxTc ">Model based extended Kalman Filters”, International Journal of Adaptive Control and Signal Process, PP 1489-1507, </span> <span class="C9DxTc ">Sept/Oct 2018. [I.F.: 2.239],  DOI: 10.1002/acs.2925 </span><a class="XqQF9c" href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/acs.2925" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">https://onlinelibrary.wiley.com/doi/epdf/10.1002/acs.2925</span></a><span class="C9DxTc "> </span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J18</span><span class="C9DxTc ">. Umamani Subudhi, Harish Sahoo, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Harmonics and Decaying DC Estimation using Volterra </span> <span class="C9DxTc ">LMS/F Algorithm”, IEEE Transactions on Industry Applications, Vol 54, No 2, PP 1108-1118, March 2018. </span><span class="C9DxTc ">Cited by 28</span><span class="C9DxTc "> [I.F.: </span> <span class="C9DxTc ">2.937].  </span><span class="C9DxTc "> </span><a class="XqQF9c" href="http://ieeexplore.ieee.org/document/8141934/" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://ieeexplore.ieee.org/document/8141934/</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J17</span><span class="C9DxTc ">. Femina Beegum S and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Compact WLAN Band-notched Printed Ultrawideband MIMO Antenna with </span> <span class="C9DxTc ">Polarization Diversity”, </span><span class="C9DxTc ">Progress In Electromagnetics Research</span><span class="C9DxTc "> [</span><span class="C9DxTc ">PIER</span><span class="C9DxTc "> C],</span><span class="C9DxTc "> Vol. 61, pp 149-159, 2016. </span><span class="C9DxTc ">Cited by 19,</span><span class="C9DxTc "> [</span><span class="C9DxTc ">I.F.: </span> <span class="C9DxTc ">5.3].</span><a class="XqQF9c" href="http://www.jpier.org/PIERC/pier.php?paper=15111104" target="_blank" rel="noopener"><span class="C9DxTc "> </span><span class="C9DxTc aw5Odc ">http://www.jpier.org/PIERC/pier.php?paper=15111104</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J16</span><span class="C9DxTc ">. G S Reddy, A Kama, S. Kharche, J. Mukherjee and</span><span class="C9DxTc "> Sanjeev K Mishra</span><span class="C9DxTc "> "Cross-Configured Directional UWB Antennas for </span> <span class="C9DxTc ">Multidirectional Pattern Diversity Characteristics",</span><span class="C9DxTc "> IEEE Transactions on Antennas and Propagation</span><span class="C9DxTc ">, V 63, NO. 2, pp </span> <span class="C9DxTc ">853-858, 2015. </span><span class="C9DxTc ">Cited by 37</span><span class="C9DxTc "> [</span><span class="C9DxTc ">I.F.: 2.459]</span><span class="C9DxTc ">. </span><a class="XqQF9c" href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6987284" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6987284</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J15</span><span class="C9DxTc ">. A Vaidya, R K Gupta, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, and J. Mukherjee, “Right-Hand / Left-Hand Circularly Polarized High Gain </span> <span class="C9DxTc ">Antennas using Partially Reflective Surfaces”, </span><span class="C9DxTc ">IEEE Antennas and Wireless Propagation Letters</span><span class="C9DxTc ">, </span><span class="C9DxTc ">Vol. 13, pp 431-434, </span> <span class="C9DxTc ">2014. [</span><span class="C9DxTc ">I.F.: 1.579], </span><span class="C9DxTc ">Cited by 69</span><span class="C9DxTc ">. </span><a class="XqQF9c" href="http://ieeexplore.ieee.org/xpl/freeabs%20all.jsp?arnumber=6750069" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://ieeexplore.ieee.org/xpl/freeabs all.jsp?arnumber=6750069</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J14</span><span class="C9DxTc ">. G S Reddy, A Kama, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, and J. Mukherjee," Compact Bluetooth/UWB Dual-Band Planar Antenna with </span> <span class="C9DxTc ">Quadruple Band-Notch Characteristics", </span><span class="C9DxTc ">IEEE Antennas and Wireless Propagation Letters</span><span class="C9DxTc ">, Vol. 13, pp 872-875, 2014. </span> <span class="C9DxTc ">[</span><span class="C9DxTc ">I.F.: 1.579], </span><span class="C9DxTc ">Cited by 55</span><span class="C9DxTc ">. </span><a class="XqQF9c" href="http://xplorebcpaz.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6807651" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://xplorebcpaz.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6807651</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J13</span><span class="C9DxTc ">.</span> <span class="C9DxTc ">G. S. Reddy, A. Chittora, S. Kharche, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, and J. Mukherjee,”Bluetooth/UWB dual-band planar diversity </span> <span class="C9DxTc ">antenna with WiMAX </span> <span class="C9DxTc ">and WLAN band-notch characteristics, </span><span class="C9DxTc ">”</span><span class="C9DxTc ">Progress In Electromagnetics Research</span><span class="C9DxTc "> </span><span class="C9DxTc ">PIER B</span><span class="C9DxTc ">, Vol. </span> <span class="C9DxTc ">54, pp 303-319, 2013. [</span><span class="C9DxTc ">I.F.: 5.3], </span><span class="C9DxTc ">Cited by 13</span><span class="C9DxTc ">. </span> <a class="XqQF9c" href="http://www.jpier.org/PIERB/pierb54/16.13080404.pdf" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://www.jpier.org/PIERB/pierb54/16.13080404.pdf</span></a><span class="C9DxTc ">  </span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J12</span><span class="C9DxTc ">. </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and Jayanta Mukherjee “Compact Printed Dual Band-notched U-shape UWB Antenna”, </span><span class="C9DxTc ">Progress In </span> <span class="C9DxTc ">Electromagnetics </span> <span class="C9DxTc ">Research</span><span class="C9DxTc "> </span><span class="C9DxTc ">Journal</span><span class="C9DxTc ">, </span><span class="C9DxTc ">PIER</span><span class="C9DxTc "> C</span><span class="C9DxTc ">, Vol. 27, pp 169-181, 2012. [</span><span class="C9DxTc ">I.F.: 5.3], </span><span class="C9DxTc ">Cited by 53</span><span class="C9DxTc ">.</span><a class="XqQF9c" href="http://www.jpier.org/PIERC/pierc27/13.12010909.pdf" target="_blank" rel="noopener"><span class="C9DxTc "> </span> <span class="C9DxTc aw5Odc ">http://www.jpier.org/PIERC/pierc27/13.12010909.pdf</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J11</span><span class="C9DxTc ">. G. Shrikanth Reddy, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Shilpa Kharche, Jayanta Mukherjee, “High Gain and Low Cross-Polar Compact </span> <span class="C9DxTc ">Printed Elliptical </span> <span class="C9DxTc ">Monopole UWB Antenna Loaded with Partial Ground and Parasitic Patches”, </span><span class="C9DxTc ">Progress In </span> <span class="C9DxTc ">Electromagnetics Research B</span><span class="C9DxTc ">, </span><span class="C9DxTc ">PIER</span><span class="C9DxTc "> B</span><span class="C9DxTc ">, Vol. 43, pp </span> <span class="C9DxTc ">151-167, 2012. [</span><span class="C9DxTc ">I.F.: 5.3],</span><span class="C9DxTc "> </span><span class="C9DxTc ">Cited by 31</span><span class="C9DxTc ">.</span><a class="XqQF9c" href="http://www.jpier.org/PIERB/pierb43/09.12070206.pdf" target="_blank" rel="noopener"><span class="C9DxTc "> </span> <span class="C9DxTc aw5Odc ">http://www.jpier.org/PIERB/pierb43/09.12070206.pdf</span></a><span class="C9DxTc ">  </span><span class="C9DxTc "> </span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J10</span><span class="C9DxTc ">. Avinash R Vaidya, Rajiv K Gupta, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and Jayanta Mukherjee, “High–gain Low Side-lobe Level Fabry-perot </span> <span class="C9DxTc ">Cavity Antenna with Feed Patch Array”, </span><span class="C9DxTc ">Progress In Electromagnetics Research</span><span class="C9DxTc "> </span><span class="C9DxTc ">Journal</span><span class="C9DxTc ">, </span><span class="C9DxTc ">PIER C</span><span class="C9DxTc ">, Vol. 28, pp </span> <span class="C9DxTc ">223-</span> <span class="C9DxTc ">238, 2012. [</span><span class="C9DxTc ">I.F.: 5.3], </span><span class="C9DxTc ">Cited by 14</span><span class="C9DxTc ">. </span><a class="XqQF9c" href="http://www.jpier.org/PIERC/pierc28/17.12031503.pdf" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://www.jpier.org/PIERC/pierc28/17.12031503.pdf</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J9</span><span class="C9DxTc ">. Avinash R Vaidya, Rajiv K Gupta, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and Jayanta Mukherjee, “Efficient, High Gain with Low Side Lobe Level </span> <span class="C9DxTc ">Antenna Structures using Parasitic Patches on Multilayer Superstrate”, </span><span class="C9DxTc ">Microwave and Optical Technology Letter</span><span class="C9DxTc ">,</span><span class="C9DxTc "> </span> <span class="C9DxTc ">Vol. 54, No 6, pp. 1488–1493, June 2012. [</span><span class="C9DxTc ">I.F.: 0.568],</span><span class="C9DxTc "> </span><span class="C9DxTc ">Cited by 21</span><span class="C9DxTc ">. </span> <a class="XqQF9c" href="http://onlinelibrary.wiley.com/doi/10.1002/mop.26818/pdf" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://onlinelibrary.wiley.com/doi/10.1002/mop.26818/pdf</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J8.  Sanjeev K Mishra</span><span class="C9DxTc ">, Rajiv K Gupta, Avinash R Vaidya and Jayanta Mukherjee, “Low-Cost, Compact Printed Circular </span> <span class="C9DxTc ">Monopole UWB Antenna with 3.5/5.5GHz Dual Band Notched Characteristics”, </span><span class="C9DxTc ">Microwave and Optical Technology </span> <span class="C9DxTc ">Letter</span><span class="C9DxTc ">,</span><span class="C9DxTc "> Vol. 54, No 1, pp. 242–246, Jan 2012. [</span><span class="C9DxTc ">I.F.: 0.568],</span><span class="C9DxTc "> </span><span class="C9DxTc ">Cited by 14</span><span class="C9DxTc ">. </span> <a class="XqQF9c" href="http://onlinelibrary.wiley.com/doi/10.1002/mop.26457/pdf" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://onlinelibrary.wiley.com/doi/10.1002/mop.26457/pdf</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J7. Sanjeev K Mishra</span><span class="C9DxTc ">, Rajiv K Gupta, Avinash R Vaidya and Jayanta Mukherjee, “Printed Fork shaped Dual Band Antenna for </span> <span class="C9DxTc ">Bluetooth and UWB </span> <span class="C9DxTc ">Applications with WLAN Band Notch Characteristics”, </span><span class="C9DxTc ">Progress In Electromagnetics Research</span><span class="C9DxTc "> </span> <span class="C9DxTc ">Journal</span><span class="C9DxTc ">, </span><span class="C9DxTc ">PIER</span><span class="C9DxTc "> C</span><span class="C9DxTc ">, Vol. 22, pp 195-210, July </span> <span class="C9DxTc ">2011. [</span><span class="C9DxTc ">I.F.: 5.3],</span><span class="C9DxTc "> </span><span class="C9DxTc ">Cited by 55</span><span class="C9DxTc ">.</span><a class="XqQF9c" href="http://www.jpier.org/PIERC/pierc22/16.11053006.pdf" target="_blank" rel="noopener"><span class="C9DxTc "> </span> <span class="C9DxTc aw5Odc ">http://www.jpier.org/PIERC/pierc22/16.11053006.pdf</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J6. Sanjeev K Mishra</span><span class="C9DxTc ">, Rajiv K Gupta, Avinash R Vaidya and Jayanta Mukherjee, “Printed Fork shaped Dual Band Antenna for </span> <span class="C9DxTc ">Bluetooth and UWB </span> <span class="C9DxTc ">Applications”, </span><span class="C9DxTc ">IEEE Antennas and Wireless Propagation Letters</span><span class="C9DxTc ">, V</span><span class="C9DxTc ">ol. 10, pp 627-630, July </span> <span class="C9DxTc ">2011. [</span><span class="C9DxTc ">I.F.: 1.579],</span><span class="C9DxTc "> </span><span class="C9DxTc ">Cited by 177</span><span class="C9DxTc ">. </span><a class="XqQF9c" href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=05876297" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=05876297</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J5. </span> <span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Rajiv K Gupta and Jayanta Mukherjee, “A Simple U-Shaped Printed Ultra-Wideband Antenna with </span> <span class="C9DxTc ">WLAN Band Rejection”, </span> <span class="C9DxTc ">Microwave and Optical Technology Letters</span><span class="C9DxTc ">, vol. 53, No. 7, pp. 1645–1649, July 2011. [</span><span class="C9DxTc ">I.F.: </span> <span class="C9DxTc ">0.568],</span><span class="C9DxTc "> </span><span class="C9DxTc ">Cited by 4</span><span class="C9DxTc ">.</span><a class="XqQF9c" href="http://onlinelibrary.wiley.com/doi/10.1002/mop.26091/pdf" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://onlinelibrary.wiley.com/doi/10.1002/mop.26091/pdf</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J4. Sanjeev K Mishra</span><span class="C9DxTc ">, Rajiv K Gupta and Jayanta Mukherjee, “Parallel Metal Plated Tuning Fork Shaped Omnidirectional </span> <span class="C9DxTc ">Monopole Antenna for </span> <span class="C9DxTc ">UWB Application”, </span><span class="C9DxTc ">Microwave and Optical Technology Letters</span><span class="C9DxTc ">,</span><span class="C9DxTc "> Vol. 53, No 3, pp. 601–604, </span> <span class="C9DxTc ">March 2011. [</span><span class="C9DxTc ">I.F.: 0.568],</span><span class="C9DxTc "> </span><span class="C9DxTc ">Cited by 28</span><span class="C9DxTc ">. </span><a class="XqQF9c" href="http://onlinelibrary.wiley.com/doi/10.1002/mop.25786/pdf" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://onlinelibrary.wiley.com/doi/10.1002/mop.25786/pdf</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J3. Sanjeev K Mishra</span><span class="C9DxTc ">, Rajiv K Gupta, Avinash R Vaidya and Jayanta Mukherjee, “1×3 Microstrip Line Fed Metal Plated Split </span> <span class="C9DxTc ">U-</span> <span class="C9DxTc ">Shape Omnidirectional Ultra-Wideband Monopole Antenna”, </span><span class="C9DxTc ">IETE Journal of Research</span><span class="C9DxTc ">, Vol 58, Issue 5, pp 429-434, </span> <span class="C9DxTc ">Sep-Oct 2012. [</span><span class="C9DxTc ">I.F.: 0.189]</span><span class="C9DxTc ">, </span> <span class="C9DxTc ">Cited by 3</span><span class="C9DxTc ">. </span><a class="XqQF9c" href="http://www.jr.ietejournals.org/temp/IETEJRes585429-1468569_040445.pdf" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://www.jr.ietejournals.org/temp/IETEJRes585429-1468569_040445.pdf</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J2</span><span class="C9DxTc ">. O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Dinesh Bohra, Nitin Khandelwal, Paritosh Kalla, Charu Sharma, Neha Gathania, Naveen </span> <span class="C9DxTc ">Bohra and Saurabh </span> <span class="C9DxTc ">Shukla, “Design a Tunable Cavity Resonator for Complex Permittivity Measurement of Low-loss </span> <span class="C9DxTc ">Material at L Band (2.2GHz-2.3GHz)”, </span><span class="C9DxTc ">Indian </span> <span class="C9DxTc ">Journal of Pure and Applied Physics (IJPAP- NISCAIR-CSIR)</span><span class="C9DxTc ">, </span><span class="C9DxTc ">Vol 46 </span> <span class="C9DxTc ">(2), pp 134-138, Feb 2008. [</span><span class="C9DxTc ">I.F.: 0.711]</span><span class="C9DxTc ">, </span><span class="C9DxTc ">Cited 5</span><span class="C9DxTc ">.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><a class="XqQF9c" href="http://nopr.niscair.res.in/bitstream/123456789/538/1/IJPAP%2046%282%29%20%282008%29%20134-138.pdf" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://nopr.niscair.res.in/bitstream/123456789/538/1/IJPAP%2046%282%29%20%282008%29%20134-138.pdf</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">J1.</span><span class="C9DxTc "> O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, M.Alam, D.Hazarika, L.Ramawat “Effect of Microwave Radiation on the </span> <span class="C9DxTc ">Electrical Parameters of </span> <span class="C9DxTc ">Soil”,</span><span class="C9DxTc "> </span><span class="C9DxTc ">Indian Journal of Radio &amp; Space Physics</span><span class="C9DxTc "> (</span><span class="C9DxTc ">IJRSP</span><span class="C9DxTc ">-NISCAIR-CSIR)</span><span class="C9DxTc ">, Vol 36, pp 229-233, </span> <span class="C9DxTc ">June 2007. </span><span class="C9DxTc ">Cited by 9</span><span class="C9DxTc ">. </span><a class="XqQF9c" href="http://nopr/" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://nopr</span></a><span class="C9DxTc ">.niscair.res.in/bitstream/123456789/2839/1/IJRSP%2036%283%29%20229-233.pdf</span></p>
+<ul>
+<li class="zfr3Q CDt4Ke " dir="ltr"><strong><span class="C9DxTc ">Conferences Publications</span></strong></li>
+</ul>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">86.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Bikash Ranjan Behera, Nibash Kumar Sahu, and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Proximity Coupled Wideband Rectangular Microstrip Antenna for RF Energy Harvesting” International Conference on Circuits, Power, and Intelligent Systems (CCPPIS), 2023, Bhubaneswar, India, 1</span><span class="C9DxTc ">st</span><span class="C9DxTc "> – 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> Sept 2023.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">85.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Nibash Kumar Sahu, Naresh Chandra Naik, Bikash Ranjan Behera, M C Tripathy and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Polarization Converting Metasurface Inspired Circularly-polarized Antenna for OFF Body Communications” International Conference on Circuits, Power, and Intelligent Systems (CCPPIS), 2023, Bhubaneswar, India, 1</span><span class="C9DxTc ">st</span><span class="C9DxTc "> – 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> Sept 2023.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">84.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Bikash Ranjan Behera and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Proximity Coupled Wideband Rectangular Microstrip Antenna for RF Energy Harvesting” 2022 URSI Regional Conference on Radio Science (URSI-RCRS 2022), Commission B: </span><span class="C9DxTc "> </span><span class="C9DxTc ">Fields and Waves, B01: Antenna theory, design, and measurement, IIT Indore, India, 1</span><span class="C9DxTc ">st</span><span class="C9DxTc "> – 4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> Dec 2022.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">83.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Bikash Ranjan Behera and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Investigation of a Broadband Circularly Polarized Printed Monopole Antenna for RF Energy Harvesting Application” 2022 URSI Regional Conference on Radio Science (URSI-RCRS 2022),</span><span class="C9DxTc "> </span><span class="C9DxTc ">Commission B: Fields and Waves, B01: Antenna theory, design, and measurement, IIT Indore, India, 1</span><span class="C9DxTc ">st</span><span class="C9DxTc "> – 4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> Dec 2022.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">82.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Priya Ranjan Meher and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “RDRAs Design using different Feeding Techniques and their Mode Analysis” 14</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Antenna Test &amp; Measurement Society (ATMS-2022), Indore, India, 21</span><span class="C9DxTc ">st</span><span class="C9DxTc "> -23</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> July 2022.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">81.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Abhiram Reddy Cholleti, Priya Ranjan Meher and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Design and analysis of dipole nanoantenna for optical S-band applications” 14</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Antenna Test &amp; Measurement Society (ATMS-2022), Indore India, July 2022.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">80.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Nibash Kumar Sahu and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Anisotropic Metasurface Inspired Circularly-polarized Monopole Antenna for OFF Body communications” awarded the “Smt Ranjana Pal Memorial Award for </span><span class="C9DxTc ">best Student paper</span><span class="C9DxTc "> in Wireless, Antenna and Microwave Symposium (WAMS 2022), held at NIT Rourkela, India, 5</span><span class="C9DxTc ">th</span><span class="C9DxTc "> – 8</span><span class="C9DxTc ">th </span><span class="C9DxTc ">June 2022. [with a cash prize of INR 10,000, a plaque and a certificate]</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">79.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Bikash Kumar Behera and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “A High-Gain Polarization Reconfigurable Printed Monopole Antenna for RF Energy Harvesting Application” in Wireless, Antenna and Microwave Symposium (WAMS 2022), India, 5</span><span class="C9DxTc ">th</span><span class="C9DxTc "> – 8</span><span class="C9DxTc ">th</span><span class="C9DxTc ">June 2022.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">78.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Nibash Kumar Sahu and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Cavity model analysis of dual polarized microstrip antennas” 13</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Antenna Test &amp; Measurement Society (ATMS-2021), India, Virtual Platform, 25</span><span class="C9DxTc ">th</span><span class="C9DxTc "> – 27</span><span class="C9DxTc ">th</span><span class="C9DxTc "> Feb 2021.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">77.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Bikash Ranjan Behera, Priya Ranjan Meher and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Theoretical understanding of circular polarization: Case study of the superstrate-inspired monopole antenna for RF energy harvesting applications”, 2</span><span class="C9DxTc ">nd</span><span class="C9DxTc "> International Conference on Communication Networks and Computing (CNC-2019), Gwalior, India, March 26-28, 2020.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">76.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Femina Beegum S and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Comparison of CPW and MSL Feed UWB Circular Printed Microstrip Monopole Antennas” 12</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Antenna Test &amp; Measurement Society (ATMS-2019), Chennai, India, PP 78-81, 25</span><span class="C9DxTc ">th</span><span class="C9DxTc "> – 27</span><span class="C9DxTc ">th</span><span class="C9DxTc "> July 2019.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">75.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Jyotirmaya Mohanta, Priyaranjan Meher, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Nano-antennas using Single and Double Isolated Layer Graphene for Mid-infrared Applications”, 41</span><span class="C9DxTc ">st</span><span class="C9DxTc "> 2019 Photonics &amp; Electromagnetics Research Symposium Spring (PIERS — SPRING) (PIERs 2019)”, PP 4292-4299, Rome, Itly, 17</span><span class="C9DxTc ">th </span><span class="C9DxTc ">– 20</span><span class="C9DxTc ">th</span><span class="C9DxTc "> June 2019.</span><a class="XqQF9c" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9017471" target="_blank" rel="noopener"><span class="C9DxTc "> </span><span class="C9DxTc aw5Odc ">https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9017471</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">74.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Priyaranjan Meher, Bikash Ranjan Behera, </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “</span><span class="C9DxTc ">Broadband Circularly Polarized Cylindrical Dielectric Resonator Antenna</span><span class="C9DxTc ">”, TEQIP III Sponsored International conference on Microwave Integrated Circuits, Photonics and Wireless Networks-2019 (IMICPW-2019), pp 524-528, NIT Trichi, India, 24</span><span class="C9DxTc ">th</span><span class="C9DxTc ">-26</span><span class="C9DxTc ">th</span><span class="C9DxTc "> May 2019. </span><span class="C9DxTc ">Cited by 1.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">73.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">P Srikanth, Bikash Ranjan Behera, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Compact Y-Shaped circularly polarized monopole antenna for wideband applications”, 1</span><span class="C9DxTc ">st</span><span class="C9DxTc "> International conference on Advances in Electrical and Computer Technologies 2019 (ICAET-2019), Coimbatore, India, 26</span><span class="C9DxTc ">th </span><span class="C9DxTc ">-27</span><span class="C9DxTc ">th</span><span class="C9DxTc "> April 2019.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">72.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Abhishek Dwivedi, Abhishek Samal, Bikash Ranjan Behera, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Proximity Coupled Wideband Rectangular Microstrip Antenna for RF Energy Harvesting”, IEEE International Conference on Vision Towards Emerging Trends in Communication and Networking (ViTECoN'19)”, VIT, Vellore, India, 30</span><span class="C9DxTc ">th</span><span class="C9DxTc "> -31</span><span class="C9DxTc ">st</span><span class="C9DxTc "> March 2019.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">71.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Bikash Ranjan Behera, Priya Ranjan Meher, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Compact and Efficient Printed Monopole Antenna with Broadband Circular Polarization”, IEEE 6</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International conference on “Signal Processing &amp; Integrated Networks (SPIN-2019)”, New Delhi, India, PP 1147-1152, 7</span><span class="C9DxTc ">th </span><span class="C9DxTc ">-9</span><span class="C9DxTc ">th</span><span class="C9DxTc "> March 2019.</span><span class="C9DxTc "> Cited by 3</span><span class="C9DxTc "> </span><span class="C9DxTc "> </span><a class="XqQF9c" href="https://ieeexplore.ieee.org/document/8711743" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">https://ieeexplore.ieee.org/document/8711743</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">70.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Priya Ranjan Meher, Bikash Ranjan Behera, </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “</span><span class="C9DxTc ">Design of Different Shaped DRAs for 60 GHz Millimeter-wave Applications</span><span class="C9DxTc ">”, 2018 IEEE Indian Conference on Antennas and Propagation (InCAP), Hyderabad, India, 16</span><span class="C9DxTc ">th</span><span class="C9DxTc "> -19</span><span class="C9DxTc ">th</span><span class="C9DxTc "> Dec 2018. </span><span class="C9DxTc ">Cited by 10.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><a class="XqQF9c" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8770785" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8770785</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">69.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Jyotirmaya Mohanta, Priyaranjan Meher, </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Hybrid Plasmonic Waveguide Fed L-Shaped Optical Nanoantenna for Nanophotonic Applications” Paper ID-270, </span><span class="C9DxTc ">Photonics 2018, IIT Delhi, </span><span class="C9DxTc ">India, 12</span><span class="C9DxTc ">th</span><span class="C9DxTc "> -15</span><span class="C9DxTc ">th</span><span class="C9DxTc "> Dec 2018.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">68.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Bikash Ranjan Behera, Priya Ranjan Meher, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Efficient Printed Monopole Antenna Designs Based on EM Optimization Techniques”, IEEE International conference on “Applied Electromagnetics, Signal Processing &amp; Communication” (AESPC-2018), Bhubaneswar, India, 22</span><span class="C9DxTc ">nd</span><span class="C9DxTc "> -24</span><span class="C9DxTc ">th</span><span class="C9DxTc "> October 2018.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">67.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Priya Ranjan Meher, Bikash Ranjan Behera, </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “A Comparative Study of CMPA and CDRA at X-Band”, IEEE International Conference on Recent Innovations in Electrical, Electronics &amp; Communication Engineering (ICRIEECE 2018), pp 504-508, Bhubaneswar, India, 27</span><span class="C9DxTc ">th</span><span class="C9DxTc "> -28</span><span class="C9DxTc ">th</span><span class="C9DxTc "> July 2018.</span><a class="XqQF9c" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9008471" target="_blank" rel="noopener"><span class="C9DxTc "> </span><span class="C9DxTc aw5Odc ">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9008471</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">66.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Femina Beegum S and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Frequency, Time and Spatial Domain Analysis of WLAN Band-Notched Compact Printed Floral-Shape UWB Monopole Antenna” 12</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (ICMARS-2017), Jodhpur, India, pp 26-31, 15</span><span class="C9DxTc ">th</span><span class="C9DxTc ">-17</span><span class="C9DxTc ">th</span><span class="C9DxTc "> February 2017. </span><span class="C9DxTc ">Cited by 1</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">65.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Braj Gopal Solanki, and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “Multi-Band Antenna Design for Mobile Handset”, IEEE International Conference on Antenna Innovations and Modern Technologies (iAIM-2017), Bangalore, India, 24</span><span class="C9DxTc ">th</span><span class="C9DxTc "> -26</span><span class="C9DxTc ">th</span><span class="C9DxTc "> November 2017.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">64.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Ruchi Pandey and </span><span class="C9DxTc ">Sanjeev Kumar Mishra</span><span class="C9DxTc ">, “WLAN Band-Notched Printed UWB Monopole Antenna For Wireless Communication Systems”, IEEE International Conference on Antenna Innovations and Modern Technologies (iAIM-2017), Bangalore, India, 24</span><span class="C9DxTc ">th</span><span class="C9DxTc "> -26</span><span class="C9DxTc ">th</span><span class="C9DxTc "> November 2017.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">63.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Femina Beegum S and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Spectral, Temporal and Spatial Domain Analysis of a Compact Floral-Shaped UWB Monopole Antenna”, IEEE International Conference on Microwave, Optical and Communication Engineering [ICMOCE 2015], Bhubaneswar, India, PP 268-271, 18</span><span class="C9DxTc ">th</span><span class="C9DxTc ">-20</span><span class="C9DxTc ">th</span><span class="C9DxTc "> December 2015. </span><span class="C9DxTc ">Cited by 2.</span><a class="XqQF9c" href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7489743" target="_blank" rel="noopener"><span class="C9DxTc "> </span><span class="C9DxTc aw5Odc ">http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7489743</span></a><span class="C9DxTc "> </span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">62.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, and Jayanta Mukherjee, “Integrated Bluetooth and UWB antenna with WiMAX-WLAN Band-notched Characteristics”, 2013 Asia Pacific Radio Science Conference (AP-RASC’13), Taipei, Taiwan, 3-7 Sept 2013.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">61.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Avinash R Vaidya,</span><span class="C9DxTc "> Sanjeev K Mishra</span><span class="C9DxTc ">, and Jayanta Mukherjee, “High-Gain Broad-Band Planar Antennas with Feed Patch Array and Partially Reflective Surfaces”, IEEE-19</span><span class="C9DxTc ">th </span><span class="C9DxTc ">Asia-Pacific Conference on Communications (APCC 2013), Bali, Indonesia, pp 709- 714, August 2013.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">60.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, and Jayanta Mukherjee, “WLAN Band-Notched Printed U-Shape UWB Antenna”, IEEE International Conference on Signal Processing and Communications, SPCOM 2012, Bangalore, India, pp 1-5, 22</span><span class="C9DxTc ">nd</span><span class="C9DxTc "> -25</span><span class="C9DxTc ">th</span><span class="C9DxTc "> July 2012. </span><span class="C9DxTc ">Cited by 5</span><span class="C9DxTc ">.  </span><a class="XqQF9c" href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6290025" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6290025</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">59.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Avinash R Vaidya, </span><span class="C9DxTc ">Sanjeev K Mishra, </span><span class="C9DxTc ">Rajiv K Gupta, and Jayanta Mukherjee, “Efficient High Gain Wideband Antenna with Circular Array of Square Parasitic Patches”, IEEE Asia-Pacific Conference on Antennas and Propagation (APCAP2012), Singapore, pp 39-40, 27-29 Aug 2012. </span><span class="C9DxTc ">Cited by 1</span><span class="C9DxTc ">.</span><a class="XqQF9c" href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=6333147" target="_blank" rel="noopener"><span class="C9DxTc "> </span><span class="C9DxTc aw5Odc ">http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=6333147</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">58.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Anil Kamma, Shrikanth Reddy, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and Jayanta Mukherjee, “Printed Band – notched U shaped Ultra-Wide Band Antenna with Modified Split Ring Resonator”, IEEE Asia-Pacific Conference on Antennas and Propagation (APCAP2012), Singapore, pp 251-252, 27-29 Aug 2012.</span><span class="C9DxTc "> Cited by 2. </span><a class="XqQF9c" href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=6333232" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=6333232</span></a></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">57.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Rajiv K Gupta, Avinash R Vaidya and Jayanta Mukherjee, “Parallel Metal Plated U-Shape Ultra-wide Band Antenna with WLAN Band-Notched Characteristics”, 31</span><span class="C9DxTc ">st</span><span class="C9DxTc "> Progress in Electromagnetics Research Symposium (PIERS 2012), Kuala Lumpur, Malaysia, PIERs Proceedings, pp 1846-1851, 27</span><span class="C9DxTc ">th</span><span class="C9DxTc ">-30</span><span class="C9DxTc ">th</span><span class="C9DxTc "> March 2012. </span><span class="C9DxTc ">H</span><a class="XqQF9c" href="http://piers.org/piersproceedings/piers2012KualalumpurProc.php" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">U</span><span class="C9DxTc aw5Odc ">http://piers.org/piersproceedings/piers2012KualalumpurProc.php</span><span class="C9DxTc aw5Odc ">U</span></a><span class="C9DxTc ">H</span><span class="C9DxTc ">  </span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">56.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Avinash R Vaidya, Rajiv K Gupta, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and Jayanta Mukherjee, “Low Cost, Efficient, High Gain and Wideband Microstrip Antenna Fed Yagi Array in Fabry-Perot Cavity”, 31</span><span class="C9DxTc ">st</span><span class="C9DxTc "> Progress in Electromagnetics Research Symposium (PIERS), Kuala Lumpur, Malaysia, PIERs Proceedings, pp 1841-1845, 27</span><span class="C9DxTc ">th</span><span class="C9DxTc ">-30</span><span class="C9DxTc ">th</span><span class="C9DxTc "> March 2012.</span><span class="C9DxTc "> Cited by 7</span><span class="C9DxTc "> </span><span class="C9DxTc ">H</span><a class="XqQF9c" href="http://piers.org/piersproceedings/piers2012KualalumpurProc.php" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">U</span><span class="C9DxTc aw5Odc ">http://piers.org/piersproceedings/piers2012KualalumpurProc.php</span><span class="C9DxTc aw5Odc ">U</span></a><span class="C9DxTc ">H</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">55. Pragati Patel, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Vinoth Kumar and Ashok De, “Design a Rectenna for ISM Band (IEEE 802.11b/g) Wireless Power Transmission”, International Conference on Microwave, Antenna and Remote Sensing (ICMARS 2011), Jodhpur, India, Dec 2011.</span></p>
+<ol class="n8H08c BKnRcf " start="54">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc "> Avinash R Vaidya, Rajiv K Gupta, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and Jayanta Mukherjee, “Effect of Superstrate Height on Gain of MSA Fed Fabry Perot Cavity Antenna”, IEEE Loughborough Antennas and Propagation Conference (LAPC), U.K., pp 1-4, Nov 2011. </span><span class="C9DxTc ">Cited by 8</span><span class="C9DxTc ">.</span></p>
+</li>
+</ol>
+<p class="zfr3Q CDt4Ke " dir="ltr"><a class="XqQF9c" href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6114018" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6114018</span></a></p>
+<ol class="n8H08c BKnRcf " start="53">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc "> </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Rajiv K Gupta and Jayanta Mukherjee, “Printed U-shaped Monopole Antenna for UWB Applications”, International Conference on Microwave, Antenna and Remote Sensing (ICMARS 2010), Jodhpur, India, paper id 35, S2B -O5, pp 43, 4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> -17</span><span class="C9DxTc ">th</span><span class="C9DxTc "> Dec 2010.</span></p>
+</li>
+</ol>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">52.  Sanjeev K Mishra</span><span class="C9DxTc ">, and Jayanta Mukherjee, “A simple UWB printed circular monopole patch antenna with WLAN band rejection”, International Conference on Microwave, Antenna and Remote Sensing (ICMARS 2010), Jodhpur, India, paper id 48, S2B-P13, pp 50-51, 14</span><span class="C9DxTc ">th</span><span class="C9DxTc "> -17</span><span class="C9DxTc ">th</span><span class="C9DxTc "> Dec 2010.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">51.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Rajiv K Gupta and Jayanta Mukherjee, “Effect of Substrate Material on Radiation Characteristics of an UWB Antenna”, IEEE Loughborough Antennas and Propagation Conference (LAPC), U.K., pp 157-160, Nov 2010. </span><span class="C9DxTc ">Cited by 13</span><span class="C9DxTc ">.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><a class="XqQF9c" href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=5666237" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=566623</span></a><span class="C9DxTc ">.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">50.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Sthiti Pragnya Mishra, Sampad Senapati, Sambit Dash, Sarat Chandra Patra, Ankit Mohanty, Sarthak Sourav Rath,</span><span class="C9DxTc "> </span><span class="C9DxTc ">“</span><span class="C9DxTc ">Design, Simulation and Characterization of 1.9GHz Rectangular Patch Antenna” </span><span class="C9DxTc ">8</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Wave Propagation and Remote Sensing (InCMARS-2008), Dec 9-11, 2008.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">49.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Biswajita Naik, Madhusmita Sahu, Sarmistha Das, Sudipta Bhuyan, Sumitra Jena,</span><span class="C9DxTc "> </span><span class="C9DxTc ">“</span><span class="C9DxTc ">Study of Electrical Properties of Saline Water Collected from different Coastal Regions of Bay of Bengal, Orissa using Microwave Techniques” </span><span class="C9DxTc ">8</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Wave Propagation and Remote Sensing (InCMARS-2008), Dec 9-11, 2008.</span></p>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">48.</span><span class="C9DxTc ">  </span><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra, D</span><span class="C9DxTc ">inesh Bohra, C Biswal, H Duwarah and K Deka, “</span><span class="C9DxTc ">Measurement of Dielectric Constant of Ice at</span> <span class="C9DxTc ">R-band using Free Space Method”, </span><span class="C9DxTc ">4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Radio Science ICRS- 2008, Jodhpur, Session 8 “Materials and Measurements”, pp 345-352, Feb 27-</span><span class="C9DxTc ">29</span><span class="C9DxTc ">, 2008.</span></p>
+<ol class="n8H08c BKnRcf " start="47">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Rajesh Vyas, K Sarswat, S Ranga and S S Chouadhary, “</span><span class="C9DxTc ">Measurement of Dielectric Constant of Dry Soil using Wave-guide Cell Method with two different approaches at X- Band”, </span><span class="C9DxTc ">presented in 4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Radio Science ICRS-2008, Jodhpur, pp 54, Feb 27-</span><span class="C9DxTc ">29</span><span class="C9DxTc ">, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="46">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, D Bora, D Mushahary, N Paul, V Gupta and A Sadh, “</span><span class="C9DxTc ">Measurement of Dielectric Constant of Dry Soil at L-Band”, </span><span class="C9DxTc ">presented in 4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Radio Science ICRS-2008, Jodhpur, pp 55, Feb 27-29, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="45">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, P Chatterjee, J Das and I Haque, “</span><span class="C9DxTc ">Study of Dielectic Properties of Soyabean Oil at Ku- Band</span><span class="C9DxTc ">”, presented in 4th International Conference on Radio Science ICRS-2008, Jodhpur, pp 56, Feb 27-29, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="44">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, P Chatterjee, J Das and I Haque, “</span><span class="C9DxTc ">Study of Emission Behavior of Groundnut Oil at different frequencies in Ku-Band”, </span><span class="C9DxTc ">presented in 4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Radio Science ICRS-2008, Jodhpur, pp 57, Feb 27-29, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="43">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, D Bora, D Mushahary, N Paul, V Gupta and A Sadh, “</span><span class="C9DxTc ">Estimation of Scattering Coefficient of Natural Dry Soil for a slightly smooth surface at 2.1 GHz in L-Band”, </span><span class="C9DxTc ">4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Radio Science ICRS-2008, Jodhpur, pp 58, Feb 27-29, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="42">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, D Bora, D Mushahary, N Paul, V Gupta and A Sadh, “</span><span class="C9DxTc ">Measurement of Scattering Coefficient of Dry Soil at 2 GHz using Ground-based Scatterometer”, </span><span class="C9DxTc ">4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Radio Science ICRS-2008, Jodhpur, pp 59, Feb 27-29, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="41">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, K.C. Harit, Rajesh Vyas, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, K Sarswat, S Ranga and S S Chouadhary, “</span><span class="C9DxTc ">Measurement of Scattering Coefficient of Soil at 10 GHz using Ground-based Scatterometer”, </span><span class="C9DxTc ">in 4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Radio Science ICRS-2008, Jodhpur, pp 61, Feb 27-29, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="40">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Rohit Jangid, “Measurement of Emitted Noise Power of different Targets at 11 GHz using improvised Ground-based Radiometer Systems”, 4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Radio Science (ICRS-2008), pp 60, February 27-29, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="39">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> K.C. Harit, Rajesh Vyas, K Sarswat, S Ranga and S S Chouadhary, “</span><span class="C9DxTc ">Calibration of Ground-based Scatterometer at X band”, </span><span class="C9DxTc ">presented in 4</span><span class="C9DxTc ">th</span><span class="C9DxTc "> International Conference on Radio Science ICRS-2008, Jodhpur, pp 62, Feb 27-29, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="38">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, and Rajesh Vyas “</span><span class="C9DxTc ">Measurement of Complex Permittivity of ICE at R band Microwave Frequencies using Wave-guide Cell Method</span><span class="C9DxTc ">”, published in </span><span class="C9DxTc ">National Snow Science Workshop-2008</span><span class="C9DxTc ">, held at Research &amp; Development Center, SASE, Chandigarh, January 11-12, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="37">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Abhishek Shrimali, Hitesh Modi, Puran Singh Panwar, “Study of Effect of Metal Foils on Direct Microwave Link”, 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (ICMARS-2006), pp 306-308, December 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="36">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Dinesh Bohra, V D Mishra and R K Garg, “</span><span class="C9DxTc ">Measurement of Dielectric Constant of Snow at 33 GHz using Free Space Method</span><span class="C9DxTc ">”, published in </span><span class="C9DxTc ">National Snow Science Workshop-2008</span><span class="C9DxTc ">, held at Research &amp; Development Center, SASE, Chandigarh, January 11-12, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="35">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and Rajesh Vyas, “Study of Emission and Scattering behavior of ice at frequency 35.6GHz”, International Workshop on Snow, Ice Glacier and Avalanches, Centre of Studies in Resources Engineering, IIT Bombay, Mumbai, India, Jan 7-9, 2008, pp 77-83, January 7-9, 2008.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="34">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> Dinesh Bohra, Rajesh Vyas, Kapil Saraswat, Sumeet Ranga, Sunil Singh Chaudhary, </span><span class="C9DxTc ">“Measurement of Dielectric Constant of Dry Soil using Wave Guide Cell Method with two different approaches at X-Band</span><span class="C9DxTc ">” published in one day conference on Radio Science (</span><span class="C9DxTc ">Radio Science- 2007</span><span class="C9DxTc ">), Session VI, August 26,2007.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="33">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> Dinesh Bohra, Rajesh Vyas, Chayan Bhawal, Hiranmoy Duwarah and Kuntal Deka, </span><span class="C9DxTc ">“Measurement of Dielectric Constant of Dry Ice using Wave-guide Cell Method at 33.08GHz”</span><span class="C9DxTc "> one day conference on Radio Science (</span><span class="C9DxTc ">Radio Science- 2007</span><span class="C9DxTc ">), Session VI, August 26,2007.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="32">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> Dinesh Bohra, Rajesh Vyas, Pranab Chatterjee, Jashmin Kumar Das &amp; Israul Haque </span><span class="C9DxTc ">“Study of Dielectric Properties of Groundnut Oil at Ku Band Microwave Frequencies”</span><span class="C9DxTc "> one day conference on Radio Science (</span><span class="C9DxTc ">Radio Science- 2007</span><span class="C9DxTc ">), Session VI, August 26,2007.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="31">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla,</span><span class="C9DxTc "> Sanjeev K Mishra</span><span class="C9DxTc ">, Dinesh Bohra, Rajesh Vyas, B. Bora, D. Mushahary, N. Paul, V. Gupta &amp; A. Sadh, </span><span class="C9DxTc ">“Measurement of Scattering Coefficient of Soil Surface Covered with Grass at different Frequencies in L band”</span><span class="C9DxTc "> one day conference on Radio Science (</span><span class="C9DxTc ">Radio Science- 2007</span><span class="C9DxTc ">), Session VI, August 26,2007.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="30">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla</span><span class="C9DxTc ">, K.C. Harit, Rajesh Vyas, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “Comparison of Measured Scattering Coefficient of Dry Soil at X-band with the Scattering Coefficient estimated using the Dielectric Constant”</span><span class="C9DxTc ">, </span><span class="C9DxTc ">International Geo-science and Remote Sensing Symposium </span><span class="C9DxTc ">(IEEE-IGARSS-2007</span><span class="C9DxTc ">), Barcelona, Spain, pp 3135-3137, July 23-27, 2007. </span><span class="C9DxTc ">Cited by 4</span></p>
+</li>
+</ol>
+<p class="zfr3Q CDt4Ke " dir="ltr"><a class="XqQF9c" href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=4423509" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=4423509</span></a></p>
+<ol class="n8H08c BKnRcf " start="29">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Rajesh Vyas, and K C Harit, “</span><span class="C9DxTc ">Study of the Electrical Parameters of Rocks at Microwave Frequency</span><span class="C9DxTc ">” in the “Golden Jubilee Symposium of Radio Science” (</span><span class="C9DxTc ">INCURSI-2007)</span><span class="C9DxTc ">, session B, RS 8, February 21-24, 2007.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="28">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and Rajesh Vyas “</span><span class="C9DxTc ">Study of the Effect of Microwaves on the Dielectric Constant of Vegetables</span><span class="C9DxTc ">” published in the “Golden Jubilee Symposium of Radio Science” (</span><span class="C9DxTc ">INCURSI-2007)</span><span class="C9DxTc ">, session B, EM 9, February 21-24, 2007.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="27">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, Rajesh Vyas, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and K C Harit, “</span><span class="C9DxTc ">Effect of Terrain on Microwave Link at 35 GHz</span><span class="C9DxTc ">” published in the “Golden Jubilee Symposium of Radio Science” (</span><span class="C9DxTc ">INCURSI-2007)</span><span class="C9DxTc ">, session C, RCS 5, February 21-24, 2007.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="26">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, K C Harit Rajesh Vyas, Dinesh Bohra and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “</span><span class="C9DxTc ">Measurement of Scattering Coefficient of Soil at Microwave Frequency</span><span class="C9DxTc ">” in the “Golden Jubilee Symposium of Radio Science” (</span><span class="C9DxTc ">INCURSI-2007</span><span class="C9DxTc ">), session B, RS 9, February 21-24, 2007.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="25">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Dinesh Bohra and Rajesh Vyas, “Measurement of Dielectric Constant of ICE at 35 GHz”, 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (ICMARS-2006), pp 309-314, December 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="24">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Abhishek Shrimali, Ashish Purohit, Hitesh Modi, Puran Singh Panwar “</span><span class="C9DxTc ">Study of Food Preservation Aspect of Microwave Radiation”</span><span class="C9DxTc "> 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">ICMARS-2006</span><span class="C9DxTc ">), pp 315-317, December 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="23">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Aarti Sharma, Giriraj Vyas, Hari Lohar, Ritika Somani </span><span class="C9DxTc ">“Estimation of Scattering Coefficient of Dry and Wet Samples of Rocks, using Small Perturbation Model and Geometrics Optics Model at Different Microwave Frequencies”</span><span class="C9DxTc "> 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">ICMARS-2006</span><span class="C9DxTc ">), pp 318-323, December 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="22">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Aarti Sharma, Giriraj Vyas, Hari Lohar, Ritika Somani “</span><span class="C9DxTc ">Study of Emission and Scattering Properties of Dry and Wet Rocks at Microwave Frequencies”</span><span class="C9DxTc "> 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">ICMARS-2006</span><span class="C9DxTc ">), December 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="21">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Aarti Sharma, Giriraj Vyas, Hari Lohar, Ritika Somani </span><span class="C9DxTc ">“Design and Development of Scatterometer at Ku Band and Measurement of Scattering Coefficient for Different Rocks”</span><span class="C9DxTc "> 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">ICMARS-2006</span><span class="C9DxTc ">), pp 324-327, December 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="20">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, K.C. Harit, Rajesh Vyas, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Narayankrishan Vyas, Prashant Thanvi “</span><span class="C9DxTc ">Measurement of Scattering Coefficient of Wet Soil at Microwave Frequencies and Comparison with the Estimated Value”</span><span class="C9DxTc "> 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">ICMARS-2006</span><span class="C9DxTc ">), December 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="19">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, K.C. Harit, Rajesh Vyas, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Narayankrishan Vyas, Prashant Thanvi, “Measurement of Dielectric Constant of Dry and Wet Soil at X-band”, 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (ICMARS-2006), December 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="18">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Rahul Srivastava, Sandeep Rankawat and J S Purohit </span><span class="C9DxTc ">“Study of Dielectric Measurement of Bikaner Ceramics (Western Rajasthan) at Microwave Frequencies”</span><span class="C9DxTc "> 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">ICMARS-2006</span><span class="C9DxTc ">), pp 328-332, December 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="17">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Abhishek Shrimali, Ashish Purohit, Hitesh Modi, Puran Singh Panwar, “Study of Effect of Wire Mesh on Microwave Link”, 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (ICMARS-2006), pp 306-308, December 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="16">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, S D Vyas, R K Tiwari, K C Harit, Dinesh Bohra, Rajesh Vyas and </span><span class="C9DxTc ">Sanjeev K Mishra,</span><span class="C9DxTc "> “Study of Patterns at Microwave Frequency in presence of Metal Screen”, 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (ICMARS-2006), pp 301-305, Dec 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="15">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, R K Tiwari, S D Vyas, K C Harit, Dinesh Bohra, Rajesh Vyas and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> “</span><span class="C9DxTc ">Study of the Effect of Radome Material on the Radiation Pattern of Antenna at Microwave Frequency”</span><span class="C9DxTc "> presented in 3</span><span class="C9DxTc ">rd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">ICMARS-2006</span><span class="C9DxTc ">), December 20-22, 2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="14">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and Dinesh Bohra, Aditya Kumar and Pramod Kumar, “</span><span class="C9DxTc ">Effect of Moisture Content on the Emissivity of Soil at Microwave Frequency</span><span class="C9DxTc ">” published in National Conference on the Recent Advancements in Microwave Technique &amp; Applications (</span><span class="C9DxTc ">Microwave- 2006</span><span class="C9DxTc ">), Session XII, pp 302-304, October 6-8,2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="13">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, Aarti Sharma, Giriraj Vyas, Hari Lohar and Ritika Somani, “</span><span class="C9DxTc ">Estimation of Emissivity and Scattering Coefficients of Rocks at Microwave Frequency</span><span class="C9DxTc ">” published in National Conference on the Recent Advancements in Microwave Technique &amp; Applications (</span><span class="C9DxTc ">Microwave- 2006</span><span class="C9DxTc ">), Session X, pp 280-283, October 6-8,2006.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="12">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Md Abbas, S Bhattacharjee, B Kalita, P P Saikia and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “</span><span class="C9DxTc ">Antenna systems for use in low cost scatterometer to study the effect of soil on scattering coefficient of metal targets</span><span class="C9DxTc ">” presented in 5th Indian Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">InCMARS-2005</span><span class="C9DxTc ">), December 20-22, 2005.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="11">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Md Abbas, S Bhattacharjee, B Kalita, P P Saikia and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “</span><span class="C9DxTc ">Design &amp; characterization of corrugated horn antenna and their uses as feeds for parabolic reflectors</span><span class="C9DxTc ">” presented in 5th Indian Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">InCMARS-2005</span><span class="C9DxTc ">), December 20-22, 2005.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="10">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra,</span><span class="C9DxTc "> Rajesh Vyas, and Bitupan Saikia, “Estimation of Emissivity of Saline Water and Saline Ice at different salinity at X band”, 5</span><span class="C9DxTc ">th</span><span class="C9DxTc "> Indian Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">InCMARS-2005</span><span class="C9DxTc ">), pp 200-207, December 20-22, 2005.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="9">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Md Abbas, S Bhattacharjee, B Kalita, P P Saikia and </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc ">, “</span><span class="C9DxTc ">Development of a low cost Scatterometer</span><span class="C9DxTc ">” presented in 5</span><span class="C9DxTc ">th</span><span class="C9DxTc "> Indian Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">InCMARS-2005</span><span class="C9DxTc ">), pp 284-287, December 20-22, 2005.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="8">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, Dinesh Bohra, Rajesh Vyas, and </span><span class="C9DxTc ">Sanjeev K Mishra,</span><span class="C9DxTc "> “Study the Effect of Temperature on Dielectric Constant of Water at Microwave Frequencies”, 5</span><span class="C9DxTc ">th</span><span class="C9DxTc "> Indian Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (InCMARS-2005)pp 230-232, December 20-22, 2005.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="7">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra,</span><span class="C9DxTc "> O P Acharya and K C Harit, “Comparison of the Soil Moisture obtained directly from Radiometer and the estimated Soil Moisture from Measured Dielectric Constant”, XXVIII</span><span class="C9DxTc ">th</span><span class="C9DxTc "> General Assembly of International Union of Remote Sensing (</span><span class="C9DxTc ">URSI GA-2005</span><span class="C9DxTc ">), Commission F, October 23-29, 2005. </span><span class="C9DxTc ">H</span><a class="XqQF9c" href="http://www.ursi.org/Proceedings/ProcGA05/pdf/F06P.1%2801589%29.pdf" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://www.ursi.org/Proceedings/ProcGA05/pdf/F06P.1%2801589%29.pdf</span></a><span class="C9DxTc ">H</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="6">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and O P Acharya, “Fusion of Passive and Active Microwave Sensors Data for Enhancement of Geophysical Feature”, XXVIII</span><span class="C9DxTc ">th</span><span class="C9DxTc "> General Assembly of International Union of Remote Sensing </span><span class="C9DxTc ">(URSI GA-2005</span><span class="C9DxTc ">), Commission F, October 23-29, 2005.</span></p>
+</li>
+</ol>
+<p class="zfr3Q CDt4Ke " dir="ltr"><a class="XqQF9c" href="http://ursi.org/Proceedings/ProcGA05/pdf/F08.10%2801534%29.pdf" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://ursi.org/Proceedings/ProcGA05/pdf/F08.10%2801534%29.pdf</span></a></p>
+<ol class="n8H08c BKnRcf " start="5">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, O P Acharya, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and K C Harit, “Estimation of the Scattering Coefficient at Microwave Frequencies of Dry and Wet soils of India using Measured values of Dielectric Constant and relating the same with the Constituents of the Soil”,</span><span class="C9DxTc "> </span><span class="C9DxTc ">XXVIII</span><span class="C9DxTc ">th</span><span class="C9DxTc "> General Assembly of International Union of Remote Sensing (</span><span class="C9DxTc ">URSI GA-2005</span><span class="C9DxTc ">), Commission F, October 23-29, 2005.</span></p>
+</li>
+</ol>
+<p class="zfr3Q CDt4Ke " dir="ltr"><span class="C9DxTc ">H</span><a class="XqQF9c" href="http://www.ursi.org/Proceedings/ProcGA05/pdf/F05P.1%2801588%29.pdf" target="_blank" rel="noopener"><span class="C9DxTc aw5Odc ">http://www.ursi.org/Proceedings/ProcGA05/pdf/F05P.1%2801588%29.pdf</span></a><span class="C9DxTc ">H</span></p>
+<ol class="n8H08c BKnRcf " start="4">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra</span><span class="C9DxTc "> and O P Acharya, “Measurements of Complex permittivity of Dry Soils using Wave-guide Cell Method”, 2</span><span class="C9DxTc ">nd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">ICMARS-2004</span><span class="C9DxTc ">), Session 2, pp 56-59, November 23-25, 2004.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="3">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra </span><span class="C9DxTc ">and K.C. Harit “Study of Emission behavior of Dry Soils with respect to their Physical Constituents”, 2</span><span class="C9DxTc ">nd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (ICMARS-2004), Session 10, pp 348-353, November 23-25, 2004.</span></p>
+</li>
+</ol>
+<ol class="n8H08c BKnRcf " start="2">
+<li class="zfr3Q TYR86d lsiHE " dir="ltr">
+<p class="zfr3Q CDt4Ke " dir="ltr" role="presentation"><span class="C9DxTc ">O P N Calla, </span><span class="C9DxTc ">Sanjeev K Mishra,</span><span class="C9DxTc "> O P Acharya, Chetan Bohra, A Das, B K Kataky,C Baruah,P Dutta, P Konwar, </span><span class="C9DxTc ">“A Study on Variation of the Dielectric Constant of Dry Soil Samples of Assam, Himachal Pradesh   and Orissa with their Physical Constituents at Microwave Frequencies and Validation of CVCG Model” </span><span class="C9DxTc ">2</span><span class="C9DxTc ">nd</span><span class="C9DxTc "> International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (</span><span class="C9DxTc ">ICMARS-2004</span><span class="C9DxTc ">), Session 2, pp 42-46, November 23-25, 2004.</span></p>
+</li>
+</ol>
+<ol>
+<li>O P N Calla, Sanjeev K Mishra and O P Acharya, “Study of Variation of Emission and Scattering behavior of Dry Soils of Orissa and Himachal Pradesh with their Physical Constituents” 2nd International Conference on Microwave, Antenna, Propagation &amp; Remote Sensing (ICMARS-2004), Session 11, pp 392-402, November 23-25, 2004. </li>
+</ol>                                </div>
+                                <div id="project" class="faculty-section">
+                                    <b>Project</b>
+                                    <p>Coming Soon...</p>                                </div>
+                                <div id="resources" class="faculty-section">
+                                    <b>Resources</b>
+                                    <p>Coming Soon...</p>                                </div>
+                                <div id="administrative_responsibility" class="faculty-section">
+                                    <b>Administrative Responsibility</b>
+                                    <ul>
+<li>Head, R &amp; D Cell, IIIT Bhubaneswar, April 2022-till date.</li>
+<li>Chairman, NIRF Committee, IIIT Bhubaneswar, July 2022-till date</li>
+<li>PIC, IPR, IIIT Bhubaneswar, April 2023-till date</li>
+<li>PhD Coordinator, IIIT Bhubaneswar, Oct 2022-April 2023</li>
+<li>Coordinator, Department of ETC, IIIT Bhubaneswar, July 2021-July 2022.</li>
+<li>Member, Institute Academic Council, IIIT Bhubaneswar, July 2021-July 2022.</li>
+<li>Member, Conducting Board, IIIT Bhubaneswar, July 2021-July 2022.</li>
+<li>Member, Placement Committee Cell, IIIT Bhubaneswar, July 2017-June 2021.</li>
+<li>Invited as one of the Member of Recruitment Committee, NIELIT, Bhubaneswar, 24th Aug 2023.</li>
+<li>Member, Programme Committee, Odiaprenuer 2023, held at IIIT Bhubaneswar.</li>
+<li>Deputed to attend the meeting on Technical Committee for finalization of Modalities and Mode of Implementation of Hackathon Programme “Odiaprenuer” on 8th Dec 2022.</li>
+<li>Nominated to attend the meeting for implementation of activities approved under Samagra Shiksha &amp; STARS, 2022-2023 on behalf of IIIT Bhubaneswar on 10.11.2022 at 12.30 PM in the Conference Hall of OSEPA.</li>
+<li>Faculty Hostel Warden, IIST [Jan 2013 – July 2016]</li>
+<li>Member, Hostel and Canteen Committee, IIST [Jan 2013 – July 2016]</li>
+<li>Member, Technical Evaluation Committee, RF &amp; Microwave Communication Lab [Anechoic Chamber, Spectrum Analyzer, VNA, Signal Generator, PCB Prototyping Machine], IIST [Jan 2013 – July 2016].</li>
+<li>Coordinator, Comprehensive Viva-Voce, Project, Internship and Training, Avionics [July 2014 – July 2016].</li>
+<li>Faculty In-charge, (B. Tech) RF &amp; Microwave Communication Lab, Avionics, IIST.</li>
+<li>Faculty Mentor, Telemetry and Telecommunication for IIST-Nanosatellite Club, [up to July 2016]</li>
+<li>Technical Program Chair, “THz Technologies: Current Scenario and Future Trends” Organized by Department of Avionics, IIST, 7th Sept 2015.</li>
+<li>Appointed as Micro-Observer for the General Election to HPC 2014.</li>
+</ul>                                </div>
+
+                            </article>
+                            <!-- .Faculty_singlepage_information_details -->
+                            <!-- #post-336 -->
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const links = document.querySelectorAll('#secondary-navigation a');
+        const sections = document.querySelectorAll('.faculty-section');
+
+        links.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+
+                links.forEach(l => l.parentElement.classList.remove('active'));
+
+                this.parentElement.classList.add('active');
+
+                sections.forEach(section => section.style.display = 'none');
+
+                const targetSection = document.querySelector(this.getAttribute('href'));
+                if (targetSection) {
+                    targetSection.style.display = 'block';
+                }
+            });
+        });
+        sections.forEach((section, index) => {
+            section.style.display = index === 0 ? 'block' : 'none';
+        });
+        const firstTab = document.querySelector('#secondary-navigation li');
+        if (firstTab) {
+            firstTab.classList.add('active');
+        }
+    });
+</script>
+
+<footer class="smartlib-footer-area ">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="ftrinfo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <h2>Quick Links</h2>
+                            <ul class="ftrbtmlink">
+                                <li><a href="https://www.iiit-bh.ac.in/aicte/" target="_blank"><i class="fa fa-angle-right"></i> AICTE</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/nirfs/" target="_blank"><i class="fa fa-angle-right"></i> NIRF</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/internal-quality-assurance-cell/" target="_blank"><i class="fa fa-angle-right"></i> IQAC</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/grievance-redressal/" target="_blank"><i class="fa fa-angle-right"></i> Grievance Redressal</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/feedback/" target="_blank"><i class="fa fa-angle-right"></i> Feedback</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/rti/" target="_blank"><i class="fa fa-angle-right"></i> RTI</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/workshop/" target="_blank"><i class="fa fa-angle-right"></i> Workshop / Faculty Development Program(FDP)</a></li>
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/seminar" target="_blank"><i class="fa fa-angle-right"></i> Conference / Seminars</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/tech-talks/" target="_blank"><i class="fa fa-angle-right"></i> Tech Talks / Skill Development Program(SDP)</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/internal-complaints-committee-icc/" target="_blank"><i class="fa fa-angle-right"></i> Internal Complaints Committee (ICC)</a></li>
+                                <li><a href="https://cswl.org.in/" target="_blank"><i class="fa fa-angle-right"></i> Centre for the Study of World Literature</a></li>
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/scstobccell" target="_blank"><i class="fa fa-angle-right"></i> SC/ST/OBS/PH Cell </a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/guest-room/ " target="_blank"><i class="fa fa-angle-right"></i> Guest House</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/list-of-invited-speakers/ " target="_blank"><i class="fa fa-angle-right"></i> List of Invited Speakers</a></li>
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/bis" target="_blank"><i class="fa fa-angle-right"></i> BIS Academic Dashboard</a></li>
+                                                                            <li>
+                                                <a href="https://www.iiit-bh.ac.in/wp-content/uploads/2025/07/HEI.pdf" target="_blank">
+                                                    <i class="fa fa-angle-right"></i> Public Self - Disclosure
+                                                </a>
+                                            </li>
+                                                                            <!-- <li><a href="https://www.iiit-bh.ac.in/sdp/ " target="_blank"><i class="fa fa-angle-right"></i> Skill Development Program(SDP)</a></li> -->
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <h2>Admissions</h2>
+                            <ul class="ftrbtmlink">
+                                <li><a href="https://www.iiit-bh.ac.in/Admission/b-tech/" target="_blank"><i class="fa fa-angle-right"></i> Admission</a></li>
+                                <!-- <li><a href="#"><i class="fa fa-angle-right"></i> How To Apply</a></li> -->
+                                <!-- <li><a href="#"><i class="fa fa-angle-right"></i> Course Fee</a></li> -->
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/scholarships?usp=sharing" target="_blank"><i class="fa fa-angle-right"></i> Scholarship</a></li>
+                                <!-- <li><a href="#"><i class="fa fa-angle-right"></i> Refund Policy</a></li> -->
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <h2>Connect</h2>
+                            <ul class="ftrbtmlink">
+                                <li><a href="https://www.iiit-bh.ac.in/gallery/ " target="_blank"><i class="fa fa-angle-right"></i> Image Gallery</a></li>
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/videogallery?usp=sharing" target="_blank"><i class="fa fa-angle-right"></i> Video Gallery</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/print-digital-media-coverage/" target="_blank"><i class="fa fa-angle-right"></i> Print & Digital Media Coverage </a></li>
+                                <!-- <li><a href="#"><i class="fa fa-angle-right"></i> Brochure</a></li> -->
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/newsletter" target="_blank"><i class="fa fa-angle-right"></i> Newsletter</a></li>
+                                <li><a href="https://www.iiit-bh.ac.in/students/"><i class="fa fa-angle-right"></i> Student</a></li>
+                                <li><a href="https://sites.google.com/iiit-bh.ac.in/achievements" target="_blank"><i class="fa fa-angle-right"></i> Achievements</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <h2>Contact Information</h2>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i>
+                                    <p class="area1">IIIT Bhubaneswar, Gothapatna, Po: Malipada, Bhubaneswar - 751003,India</p>
+                                </li>
+                                <li class="phbox"><i class="fa fa-phone"></i>
+                                    <p><a href="tel:+91-674-2653300">Tel: +91-(0674)-2653300</a></p>
+                                </li>
+                                <li class="mailbox"><i class="fa fa-fax"></i>
+                                    <p><a href="fax:+91-674-2653309">Fax: +91-(0674)-2653309</p></a>
+                                </li>
+                                <li class="mailbox"><i class="fa fa-globe"></i>
+                                    <p><a href="https://www.iiit-bh.ac.in">www[dot]iiit-bh[dot]ac[dot]in</p></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrightBox">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <p>
+                                <span>&copy; 2026 IIIT Bhubaneswar</span> |
+                                <a href="https://www.iiit-bh.ac.in/disclaimer/">Disclaimer</a> |
+                                <a href="https://www.iiit-bh.ac.in/privacy-policy/">Privacy Policy</a> |
+                                <a href="https://www.iiit-bh.ac.in/terms-and-conditions/">Terms of Use</a>
+                            </p>
+
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <p class="developBy"><a href="#"><img src="https://www.iiit-bh.ac.in/wp-content/uploads/2024/common-file/developBy.png" /></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            <a href="#" class="btn btn-primary pull-right smartlib-btn-go-top animated" id="scroll-top-top"><i
+                    class="fa fa-chevron-up"></i></a>
+        <div id="wondergridgallerylightbox_options" data-skinsfoldername="skins/default/"  data-jsfolder="https://www.iiit-bh.ac.in/wp-content/plugins/wonderplugin-gridgallery/engine/" style="display:none;"></div><script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/js/vendor.min.js" id="smartlib-main-vendor-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/assets/js/main.min.js" id="smartlib-main-js-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.iiit-bh.ac.in\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8" id="contact-form-7-js"></script>
+<script type="text/javascript" id="grid-gallery-js-extra">
+/* <![CDATA[ */
+var gridGalleryAjax = {"ajaxurl":"https:\/\/www.iiit-bh.ac.in\/wp-admin\/admin-ajax.php","nonce":"a0ae047d86"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/js/grid-gallery.js" id="grid-gallery-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/grid-gallery-plugin/grid-gallery-ajax.js" id="grid-gallery-ajax-js"></script>
+<script type="text/javascript" id="custom-script-js-extra">
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"https:\/\/www.iiit-bh.ac.in\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/themes/bootframe-core/js/custom-script.js?ver=1.0" id="custom-script-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6Lf3H6wqAAAAACaS_N4mSDn_yPi-JZXcVaTAX8ni&amp;ver=3.0" id="google-recaptcha-js"></script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wpcf7-recaptcha-js-extra">
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6Lf3H6wqAAAAACaS_N4mSDn_yPi-JZXcVaTAX8ni","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.9.8" id="wpcf7-recaptcha-js"></script>
+<script type="text/javascript" id="ivory-search-scripts-js-extra">
+/* <![CDATA[ */
+var IvorySearchVars = {"is_analytics_enabled":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.iiit-bh.ac.in/wp-content/plugins/add-search-to-menu/public/js/ivory-search.min.js?ver=5.5.6" id="ivory-search-scripts-js"></script>
+</body>
+
+</html>

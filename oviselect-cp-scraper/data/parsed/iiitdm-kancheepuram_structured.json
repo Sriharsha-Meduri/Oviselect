@@ -1,0 +1,599 @@
+{
+  "institute": "IIIT, Design & Manufacturing, Kancheepuram",
+  "institute_type": "IIIT",
+  "also_known_as": "IIITDM Chennai",
+  "established_year": 2007,
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "address": "Indian Institute of Information Technology Design & Manufacturing, Melakottaiyur Village, Off Vandalur-Kelambakkam Road, Nellikuppam Road, Chennai, Tamil Nadu - 600127",
+  "nearest_airport": "Chennai International Airport",
+  "nearest_airport_km": 22.0,
+  "nearest_railway_station": "Tambaram Railway Station",
+  "nearest_railway_km": 15.0,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": 151,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": "8 (2023)",
+  "qs_world_rank": null,
+  "qs_asia_rank": "951-1000 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
+  ],
+  "tuition_fee_per_sem": 81000,
+  "hostel_fee_per_sem": 3500,
+  "mess_advance_per_sem": 17000,
+  "one_time_fees": 5000,
+  "caution_money": null,
+  "annual_fees": 600,
+  "total_institute_fee": 91400,
+  "total_hostel_fee": 38200,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students."
+  ],
+  "overall_placement_pct": 57.82,
+  "avg_package_lpa": 10.78,
+  "median_package_lpa": 9.32,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 64.1,
+    "Electronics and Communication Engineering": 44.83,
+    "Mechanical Engineering": 70.73,
+    "Smart Manufacturing": 47.06,
+    "Overall (B.Tech.)": 57.82,
+    "Electronics and Communication Engineering with specialization in Communication Systems Design": 50.0,
+    "Electronics and Communication Engineering with specialization in VLSI Design": 73.33,
+    "Mechanical Engineering with specialization in Advanced Manufacturing": 91.67,
+    "Mechanical Engineering with specialization in Product Design": 76.92,
+    "Overall (Dual Degree)": 69.23
+  },
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 13.5,
+    "Electronics and Communication Engineering": 7.0,
+    "Mechanical Engineering": 5.2,
+    "Smart Manufacturing": 6.0,
+    "Overall (B.Tech.)": 7.0,
+    "Electronics and Communication Engineering with specialization in Communication Systems Design": 8.0,
+    "Electronics and Communication Engineering with specialization in VLSI Design": 18.0,
+    "Mechanical Engineering with specialization in Advanced Manufacturing": 5.5,
+    "Mechanical Engineering with specialization in Product Design": 11.5,
+    "Overall (Dual Degree)": 11.5
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 16.69,
+    "Electronics and Communication Engineering": 8.65,
+    "Mechanical Engineering": 5.88,
+    "Smart Manufacturing": 9.04,
+    "Overall (B.Tech.)": 8.84,
+    "Electronics and Communication Engineering with specialization in Communication Systems Design": 11.35,
+    "Electronics and Communication Engineering with specialization in VLSI Design": 16.64,
+    "Mechanical Engineering with specialization in Advanced Manufacturing": 5.79,
+    "Mechanical Engineering with specialization in Product Design": 10.47,
+    "Overall (Dual Degree)": 14.47
+  },
+  "top_recruiters": [
+    "logo",
+    "Placements",
+    "Prof. M. Sreekumar",
+    "Dr. Rahul Raman",
+    "Dr. Rohini P",
+    "Dr. Nagamanikandan G",
+    "Dr. Arunachalam",
+    "Mr. Azarudeen A",
+    "Mr. Lakshmi Narayan",
+    "Dr. S. Vijayakumar",
+    "Dr. R. Sri Prakash",
+    "Dr. K. Senthilkumaran",
+    "Dr. G. Narendran",
+    "Dr. Anushree P Khandale",
+    "Recruitment"
+  ],
+  "placement_year": 2023,
+  "placement_officer": {
+    "name": null,
+    "designation": null,
+    "email": "placement@iiitdm.ac.in",
+    "phone": "93446 15687"
+  },
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "General",
+      "hod": null,
+      "faculty_count": 32,
+      "faculty": [
+        {
+          "name": "Dr. Arul Kumar Mariyappan",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ashok Kumar Reddy",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Sundeep Kumar",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Prof. Ajay Kumar Sood",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Ms. Malar Maria Ancy",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Priyanka Kokil",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rajnish Mallick",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Anushree Khandale",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Sundeep Kumar Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Tejendra Dixit Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rohini Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Jagannath Bhanja Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Shubhankar Chakraborty Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ashok Kumar Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Arul Kumar",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Anudeep Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Uttampal Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Jagadeesh Kakarla Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Vikas Kumar Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Raguraman Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rajnish Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Jayachandra Bingi Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Kumar Prasannajit Pradhan Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Uttam Pal Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Noor Mohammed Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Prof. Naveen Kumar Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Kalpana Settu Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Nagamanikandan Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Sreenath Reddy Thummaluru Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rahul Raman Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Priyanka Kokil Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Pandithevan Agency",
+          "designation": "Faculty",
+          "department": "",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        }
+      ]
+    }
+  ],
+  "ug_programmes": [
+    {
+      "name": "B.Tech in Computer Science and Engineering",
+      "level": "UG",
+      "duration_years": null,
+      "intake_seats": 80,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "B.Tech in Computer Science and Engineering with Major in AI",
+      "level": "UG",
+      "duration_years": null,
+      "intake_seats": 40,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "B.Tech in Electronics and Communication Engineering",
+      "level": "UG",
+      "duration_years": null,
+      "intake_seats": 120,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "B.Tech in Smart Manufacturing",
+      "level": "UG",
+      "duration_years": null,
+      "intake_seats": 60,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "B.Tech in Design Engineering",
+      "level": "UG",
+      "duration_years": null,
+      "intake_seats": 20,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "B.Tech in Engineering Physics",
+      "level": "UG",
+      "duration_years": null,
+      "intake_seats": 15,
+      "total_credits": null,
+      "eligibility": null
+    }
+  ],
+  "pg_programmes": [
+    {
+      "name": "B.Tech in Mechanical Engineering",
+      "level": "PG",
+      "duration_years": null,
+      "intake_seats": 80,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "M.Tech. in Computer Science and Engineering with Specialization in Data Science and Artificial Intelligence",
+      "level": "PG",
+      "duration_years": null,
+      "intake_seats": 20,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "M.Tech in Electronics and Communication Engineering with Specialization in Communication Systems",
+      "level": "PG",
+      "duration_years": null,
+      "intake_seats": 20,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "M.Tech in Electronics and Communication Engineering with Specialization in Microelectronics and VLSI systems",
+      "level": "PG",
+      "duration_years": null,
+      "intake_seats": 20,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "M.Tech in Electronics and Communication Engineering with Specialization in RF and Microwave Engineering",
+      "level": "PG",
+      "duration_years": null,
+      "intake_seats": 20,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "M.Tech in Mechanical Engineering with Specialization in Intelligent Mechanical Systems Design",
+      "level": "PG",
+      "duration_years": null,
+      "intake_seats": 20,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "M.Tech in Mechanical Engineering with Specialization in Smart Manufacturing",
+      "level": "PG",
+      "duration_years": null,
+      "intake_seats": 20,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "B.Tech and M.Tech in Computer Science and Engineering",
+      "level": "PG",
+      "duration_years": null,
+      "intake_seats": 60,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "B.Tech in Electronics and Communication Engineering and M.Tech in Communication Systems",
+      "level": "PG",
+      "duration_years": null,
+      "intake_seats": 20,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "B.Tech in Electronics and Communication Engineering and M.Tech in Microelectronics and VLSI Systems",
+      "level": "PG",
+      "duration_years": null,
+      "intake_seats": 20,
+      "total_credits": null,
+      "eligibility": null
+    },
+    {
+      "name": "B.Tech in Mechanical Engineering and M.Tech in AI and Robotics",
+      "level": "PG",
+      "duration_years": null,
+      "intake_seats": 40,
+      "total_credits": null,
+      "eligibility": null
+    }
+  ],
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": [
+    {
+      "name": "M.Des in Integrated Product Design",
+      "level": "Dual",
+      "duration_years": null,
+      "intake_seats": 20,
+      "total_credits": null,
+      "eligibility": null
+    }
+  ],
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "research_centres": [
+      "Design, Innovation, Incubation & Continuing Education",
+      "Institute Computer Centre",
+      "School of Interdisciplinary Design and Innovation",
+      "Institute Instrumentation Centre",
+      "Innovation Initiatives",
+      "NIRF Innovation",
+      "MATLAB Portal"
+    ]
+  },
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iiitdm.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 79,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiitdm-kancheepuram",
+  "last_scraped_at": "2026-03-31T16:13:25.686054",
+  "department_count": 1,
+  "total_faculty": 32
+}

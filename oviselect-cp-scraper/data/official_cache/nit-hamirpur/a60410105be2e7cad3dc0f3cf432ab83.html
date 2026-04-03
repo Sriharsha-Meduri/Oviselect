@@ -1,0 +1,3019 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+<title>National Institute of Technology Hamirpur</title>
+<meta name="description" content="National Institute of Technology Hamirpur"/>
+<meta name="keywords" content="National Institute of Technology Hamirpur"/>
+<meta name="author" content="https://www.nith.ac.in"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link href="https://www.nith.ac.in/frontEnd/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://www.nith.ac.in/frontEnd/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="https://www.nith.ac.in/frontEnd/css/jcarousel.css" rel="stylesheet"/>
+<link href="https://www.nith.ac.in/frontEnd/css/flexslider.css" rel="stylesheet"/>
+<link href="https://www.nith.ac.in/frontEnd/css/style.css" rel="stylesheet"/>
+<link href="https://www.nith.ac.in/frontEnd/css/color.css" rel="stylesheet"/>
+<link href="https://www.nith.ac.in/frontEnd/css/custom.css" rel="stylesheet"/> 
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+//gtag('config', 'G-XV6VE3BXM3');
+</script>
+ 
+<link href="https://www.nith.ac.in/frontEnd/css/font-awesome.css" rel="stylesheet">
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">-->
+
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">-->
+
+<!-- Google Fonts (Roboto as an example) -->
+
+<!--<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">-->
+
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.9.1/summernote.min.js" integrity="sha512-07bR+AJ2enmNU5RDrZkqMfVq06mQHgFxcmWN/hNSNY4E5SgYNOmTVqo/HCzrSxBhWU8mx3WB3ZJOixA9cRnCdA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
+
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+<!--<script src="https://code.responsivevoice.org/responsivevoice.js"></script>-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<script src="https://code.responsivevoice.org/responsivevoice.js?key=a6Uewe2e"></script>
+<!--<script src="https://code.responsivevoice.org/responsivevoice.js"></script>-->
+<!--<script src="https://www.nith.ac.in/frontEnd/js/responsivevoice.js"></script>-->
+
+<script defer src="https://www.nith.ac.in/frontEnd/js/accessibility.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("mouseup", function () {
+            let selectedText = window.getSelection().toString().trim();
+            if (selectedText.length > 0) {
+                speakText(selectedText);
+            }
+        });
+
+        function speakText(text) {
+            let speech = new SpeechSynthesisUtterance(text);
+            speech.lang = 'en-US'; 
+            speech.rate = 1; 
+            speech.pitch = 1; 
+            window.speechSynthesis.speak(speech);
+        }
+    });
+</script>
+
+<style>
+    .goog-te-banner-frame.skiptranslate {
+        display: none !important;
+    } 
+    body {
+        top: 0px !important; 
+    }
+    @media  print {
+        #google_translate_element {display: none;}
+    }
+    #google_translate_element {
+        float: right;
+        margin-left: 12px;
+        /* padding: 0 0px; */
+    }
+    .goog-logo-link {
+        display:none !important;
+    }
+    .goog-te-gadget {
+        color: transparent !important;
+    }
+    .goog-te-gadget .goog-te-combo {
+        color: blue !important;
+    }
+    .skiptranslate.goog-te-gadget {
+        height: 20px !important;
+    }
+    .goog-te-gadget .goog-te-combo {
+        color: #02263c !important;
+        border: 1px solid #ccc !important;
+        width: 80px !important;
+        background-color: #02263c !important;
+        color: #fff !important;
+        box-shadow: none !important;
+    }
+    .goog-te-gadget .goog-te-combo {
+        margin: 2px 0 !important;
+    }
+    .goog-te-banner{
+        display: none!important;
+    }
+    .goog-te-banner-frame.skiptranslate { display: none !important;} 
+    #goog-gt-tt{display: none !important; top: 0px !important; } 
+    .goog-tooltip skiptranslate{display: none !important; top: 0px !important; } 
+    .activity-root { display: hide !important;} 
+    .status-message { display: hide !important;}
+    .started-activity-container { display: hide !important;}
+.fa {
+    font-family: 'FontAwesome' !important;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+</style>
+
+
+
+<!-- Favicon and Touch Icons -->
+<link href="https://www.nith.ac.in/uploads/settings/15808764146496.png" rel="shortcut icon"
+      type="image/png">
+<link href="https://www.nith.ac.in/uploads/settings/15808764148265.png" rel="apple-touch-icon">
+<link href="https://www.nith.ac.in/uploads/settings/15808764148265.png" rel="apple-touch-icon"
+      sizes="72x72">
+<link href="https://www.nith.ac.in/uploads/settings/15808764148265.png" rel="apple-touch-icon"
+      sizes="114x114">
+<link href="https://www.nith.ac.in/uploads/settings/15808764148265.png" rel="apple-touch-icon"
+      sizes="144x144">
+        <style type="text/css">
+    a, a:hover, a:focus, a:active, footer a.text-link:hover, strike, .post-meta span a:hover, footer a.text-link,
+    ul.meta-post li a:hover, ul.cat li a:hover, ul.recent li h6 a:hover, ul.portfolio-categ li.active a, ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover, ul.related-post li h4 a:hover, span.highlight, article .post-heading h3 a:hover,
+    .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > li > a:hover, .navbar .nav > li > a:focus, .navbar .nav > .active > a:focus {
+        color: #640f12;
+    }
+
+    .navbar-brand span {
+        color: #640f12;
+    }
+
+    header .nav li a:hover,
+    header .nav li a:focus,
+    header .nav li.active a,
+    header .nav li.active a:hover,
+    header .nav li a.dropdown-toggle:hover,
+    header .nav li a.dropdown-toggle:focus,
+    header .nav li.active ul.dropdown-menu li a:hover,
+    header .nav li.active ul.dropdown-menu li.active a {
+        color: #640f12;
+    }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #640f12;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #640f12;
+    }
+
+    .dropdown-menu > .active > a,
+    .dropdown-menu > .active > a:hover,
+    .dropdown-menu > .active > a:focus {
+        color: #640f12;
+    }
+
+    .custom-carousel-nav.right:hover, .custom-carousel-nav.left:hover,
+    .dropdown-menu li:hover,
+    .dropdown-menu li a:hover,
+    .dropdown-menu li > a:focus,
+    .dropdown-submenu:hover > a,
+    .dropdown-menu .active > a,
+    .dropdown-menu .active > a:hover,
+    .pagination ul > .active > a:hover,
+    .pagination ul > .active > a,
+    .pagination ul > .active > span,
+    .flex-control-nav li a:hover,
+    .flex-control-nav li a.active {
+        background-color: #640f12;
+    }
+
+    .pagination ul > li.active > a,
+    .pagination ul > li.active > span, a.thumbnail:hover, input[type="text"].search-form:focus {
+        border: 1px solid #640f12;
+    }
+
+    textarea:focus,
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="date"]:focus,
+    input[type="month"]:focus,
+    input[type="time"]:focus,
+    input[type="week"]:focus,
+    input[type="number"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus,
+    input[type="search"]:focus,
+    input[type="tel"]:focus,
+    input[type="color"]:focus,
+    .uneditable-input:focus {
+        border-color: #640f12;
+    }
+
+    input:focus {
+        border-color: #640f12;
+    }
+
+    #sendmessage {
+        color: #640f12;
+    }
+
+    .pullquote-left {
+        border-color: #02263c;
+    }
+
+    .pullquote-right {
+        border-right: 5px solid #640f12;
+    }
+
+    .cta-text h2 span {
+        color: #640f12;
+    }
+
+    ul.clients li:hover {
+        border: 4px solid #640f12;
+    }
+
+    .box-bottom {
+        background: #640f12;
+    }
+
+    .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+        background: #640f12;
+        border: 1px solid #640f12;
+    }
+
+    .btn-theme {
+        border: 1px solid #640f12;
+        background: #640f12;
+    }
+
+    .modal.styled .modal-header {
+        background-color: #640f12;
+    }
+
+    .post-meta {
+        border-top: 4px solid #640f12;
+    }
+
+    .post-meta .comments a:hover {
+        color: #640f12;
+    }
+
+    .widget ul.tags li a:hover {
+        background: #640f12;
+    }
+
+    .recent-post .text h5 a:hover {
+        color: #640f12;
+    }
+
+    .pricing-box-alt.special .pricing-heading {
+        background: #640f12;
+    }
+
+    #pagination a:hover {
+        background: #640f12;
+    }
+
+    .pricing-box.special .pricing-offer {
+        background: #640f12;
+    }
+
+    .icon-square:hover,
+    .icon-rounded:hover,
+    .icon-circled:hover {
+        background-color: #640f12;
+    }
+
+    [class^="icon-"].active,
+    [class*=" icon-"].active {
+        background-color: #640f12;
+    }
+
+    .fancybox-close:hover {
+        background-color: #640f12;
+    }
+
+    .fancybox-nav:hover span {
+        background-color: #640f12;
+    }
+
+    .da-slide .da-link:hover {
+        background: #640f12;
+        border: 4px solid #640f12;
+    }
+
+    .da-dots span {
+        background: #640f12;
+    }
+
+    #featured .flexslider .slide-caption {
+        border-left: 5px solid #640f12;
+    }
+
+    .nivo-directionNav a:hover {
+        background-color: #640f12;
+    }
+
+    .nivo-caption, .caption {
+        border-bottom: #640f12 5px solid;
+    }
+
+    footer {
+        background: #640f12;
+    }
+
+    #sub-footer {
+        background: #02263c;
+    }
+
+    .site-top {
+        background: #02263c;
+    }
+
+    ul.cat li .active {
+        color: #640f12;
+    }
+
+    .box-gray .icon .fa, h4, .heading {
+        color: #640f12;
+    }
+
+    .flex-caption {
+        background-color: #02263c;
+    }
+
+    .flex-caption .btn-theme {
+        background: #640f12;
+    }
+
+    .flex-caption .btn-theme:hover {
+        background: #fff;
+        color: #640f12;
+    }
+
+    .btn-info {
+        background: #640f12;
+        border-color: #02263c;
+    }
+
+    .btn-info:hover {
+        background: #02263c;
+    }
+
+    .flex-control-paging li a.flex-active {
+        background: #640f12;
+    }
+
+    .flex-control-paging li a {
+        background: #02263c;
+    }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        background: transparent;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        background: transparent;
+    }
+
+    #inner-headline {
+        background: #02263c;
+    }
+
+    .navbar .nav li .dropdown-menu {
+        background: #640f12;
+    }
+    .navbar .nav li .dropdown-menu li:hover {
+        background: #02263c;
+    }
+
+    @media (max-width: 767px) {
+        header .navbar-nav > li {
+            background: #640f12;
+        }
+
+        .dropdown-menu {
+            background: #640f12;
+        }
+
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+            color: #fff;
+        }
+
+        header .nav li a:hover,
+        header .nav li a:focus,
+        header .nav li.active a,
+        header .nav li.active a:hover,
+        header .nav li a.dropdown-toggle:hover,
+        header .nav li a.dropdown-toggle:focus,
+        header .nav li.active ul.dropdown-menu li a:hover,
+        header .nav li.active ul.dropdown-menu li.active a {
+            color: #fff;
+        }
+
+        .navbar .nav > li > a {
+            color: #fff;
+        }
+
+        .navbar-default .navbar-nav > .active > a,
+        .navbar-default .navbar-nav > .active > a:hover,
+        .navbar-default .navbar-nav > .active > a:focus {
+            background-color: #640f12;
+            color: #fff;
+        }
+
+        .navbar-default .navbar-nav > .open > a,
+        .navbar-default .navbar-nav > .open > a:hover,
+        .navbar-default .navbar-nav > .open > a:focus {
+            background-color: #640f12;
+            color: #fff;
+        }
+
+    }
+
+    .navbar .nav > li:hover > a {
+        color: #640f12;
+    }
+
+    .content-row-bg {
+        background: #02263c;
+    }
+    #content .contacts p .fa,  #content .contacts address .fa{
+        background: #640f12;
+    }
+
+</style>        
+    </head>
+    
+    <body class="js " style="  " id="homepage">
+        <div id="wrapper">
+            <!-- start header -->
+            <style>
+    .container-fluid li a {
+        color: #fff !important;
+    }
+
+
+
+</style>
+<style>
+      
+  .goog-te-menu-value {
+    vertical-align: top !important;
+}
+.goog-te-combo {
+    margin-top: 0px !important;
+    vertical-align: top !important;
+}
+
+
+
+    </style>
+    <script>
+function changeColor(element) {
+    element.style.color = 'yellow';
+}
+</script>
+<header>
+        <div class="site-top">   
+        <div class="container">
+            <div>
+                <div class="pull-left">
+                    <strong>
+                     <a href="screen-reader-access" title="Screen Reader Access" target="_self"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a id="button1" onclick="changeFontSize(this)"><span class="topa"><img src="https://nith.ac.in/uploads/increase_16.gif" alt="https://nith.ac.in/upload/increase_16.gif" class="transparent"></span></a>&nbsp;&nbsp;
+                        <a id="button2" onclick="changeFontSize(this)"><span class="topa"><img src="https://nith.ac.in/uploads/decrease_16.gif" alt="https://nith.ac.in/upload/decrease_16.gif" class="transparent"></span></a>&nbsp;&nbsp
+                       
+<!--                        <a href="#" onclick="ZoomInFontSize(document.body);"><i class="fa fa-search-plus"></i>Font Size</a>
+                        <a href="#" onclick="ZoomOutFontSize(document.body);"><i class="fa fa-search-minus"></i>Font Size</a>-->
+                        
+                        
+
+                         
+<!--                         <a href="#"  onclick="toggleContrast();  changeColor(this)" class="contrast-toggle"><i class="fa fa-adjust"></i>Toggle Contrast</a>-->
+                         
+                          <button id="contrast-toggle" aria-pressed="false"><i class="fa fa-adjust"></i>Toggle Contrast</button>
+                         
+                         
+                         
+                         
+                         <!--                         <a href="#" onclick="High_Contrastfn();"><i class="fa fa-adjust"></i>High Contrast</a>
+                        <a href="#" onclick="Negative_Contrastfn()"><i class="fa fa-eye"></i>Negative Contrast </a>
+                         
+                         
+                         -->
+                         
+
+                         <!--<a href="#" onclick="LightBackgroundfn()"><i class="fa fa-lightbulb"></i> Light Background </a>-->
+                         <a href="#" onclick="toggleGrayscale();changeColor(this)"><i class="fa fa-lightbulb"></i> Grey Scale </a>
+                         
+                         <a href="#" onclick="LinksUnderline();"><i class="fa fa-link"></i>Links </a>
+                         
+                         <a href="#" onclick="toggleLightMode() ;changeColor(this)"><i class="fa fa-eye"></i>Light Mode</a>
+                         
+                         <a href="#" onclick="history.go(0)"><i class="fa fa-refresh"></i> Reset</a>
+                        
+                        
+                        
+                        
+                         &nbsp;&nbsp;
+                 
+                        
+                        <a href="https://www.nith.ac.in"><i class="fa fa-home"></i> Home</a>
+                        | <a href="http://172.16.28.5/"><i class="fa fa-internet-explorer"></i> Intranet
+                        </a>
+                        | <a href="https://eoffice.nith.ac.in/"><i class="fa fa-envelope"></i> eOffice
+                        </a>
+                        | <a href="https://nith.ac.in/td/index.html"><i class="fa fa-phone"></i> Directory
+                        </a>
+                        | <a href="https://www.nith.ac.in/contact-us"><i class="fa fa-phone"></i> Contact Us |
+                            <i class="fa fa-link"></i> &nbsp;<a
+                            href="https://portfolios.nith.ac.in/index.php?/login" target="_blank">Faculty Portfolio</a>
+                            <a class="AIzaSyC7GFOM_-SgCNdgxYf6L8HjwCexIn2WZjA goog-te-banner" href="https://translate.google.com" target="_blank">
+                        </a>
+                            
+<!--                        | <a href="https://www.nith.ac.in/admin"><i class="fa fa-cog"></i> Dashboard
+                        </a>-->
+                    
+                        
+                      <!--<div class="form-select language lang-dropdown" id="google_translate_element"></div>-->
+                      <div class="form-select language lang-dropdown" id="google_translate_element">
+                    <div class="skiptranslate goog-te-gadget" dir="ltr" style="">
+<!--//comment from here-->
+                        <!--                        <div id="targetLanguage">
+                            <select class="goog-te-combo sel" aria-label="Language Translate Widget">
+                                <option value="en">English</option>
+                                <option value="hi">Hindi</option>
+                            </select>
+                        </div>Powered by <span style="white-space:nowrap">-->
+                   <!--//till this line-->
+<!--                   <span>
+                        <a class="AIzaSyC7GFOM_-SgCNdgxYf6L8HjwCexIn2WZjA goog-te-banner" href="https://translate.google.com" target="_blank">
+                        <img src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png" width="37px" height="14px" style="padding-right: 3px" alt="Google Translate">Translate</a>
+                        </span>-->
+                    </div>
+                </div>
+            
+              
+
+                    </strong>
+                 
+                    
+                
+   
+          
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+
+                                        <!--&nbsp; | &nbsp;-->
+                   
+                       
+
+<!--                       <strong>
+                        
+                          
+
+                        | <a href="https://www.nith.ac.in/lang/hi"><i
+                                class="fa fa-language "></i> Hindi
+                        </a>
+                        
+                    </strong>-->
+                    
+                       <!--                    <strong> | <a href="http://14.139.56.3/" target="_blank"><i class="fa fa-link"></i> Old Website
+                        </a>
+                    </strong>-->
+            
+ 
+
+                
+                
+                
+                <div class="pull-left">
+                                        <!--                    <span class="top-email">
+                                                &nbsp; | &nbsp;
+                        <i class="fa fa-envelope"></i> &nbsp;<a target="_blank" href="https://mail.google.com/a/nith.ac.in">Web Mail</a>
+                        &nbsp; | &nbsp;
+                        <i class="fa fa-link"></i> &nbsp;<a
+                            href="https://portfolios.nith.ac.in/index.php?/login" target="_blank">Faculty Portfolio</a>
+                    </span>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="https://www.nith.ac.in">
+                                                        <img style="width: 100%; margin-top: -26px; margin-left: -13px;" alt=""
+                                 src="https://www.nith.ac.in/uploads/settings/15795036012617.png">
+                            
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                     <div class="col-lg-4">
+                    <ul class="social-network" style="float: right;margin-top: 60px;">
+                       
+                                                <li><a href="https://www.facebook.com/Official.NITHamirpur" data-placement="top" title="Facebook"
+                               target="_blank"><i
+                                    class="fa fa-facebook"></i></a></li>
+                                                                        <li><a href="https://twitter.com/nithamirpurhp" data-placement="top" title="Twitter"
+                               target="_blank"><i
+                                    class="fa fa-twitter"></i></a></li>
+                                                                                                <li><a href="https://www.linkedin.com/mwlite/in/nithamirpur-hamirpur-4688551b9" data-placement="top" title="linkedin"
+                               target="_blank"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                                                                                                <li><a href="#" data-placement="top" title="Instagram"
+                               target="_blank"><i
+                                    class="fa fa-instagram"></i></a></li>
+                                                                                                                                        </div>
+                  <div class="col-lg-2">
+                    <ul  class="social-network" style="float: right;margin-top: 60px;">
+                        
+                         <li><form method="POST" action="https://www.nith.ac.in/search" accept-charset="UTF-8" style="display: flex; max-width: 150px;"><input name="_token" type="hidden" value="U40cPF6KwBX2Vf91wJ3EvPSFqYllvvADpXyIIqq9">
+                        <input placeholder="Search for..." class="form-control form-control-sm" id="search_word" required="" style="width: 60px; height: 18px; font-size: 10px; padding: 3px 5px;" name="search_word" type="text">
+                        <button type="submit" class="btn btn-sm btn-theme" style="height: 18px; padding: 2px 6px;">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        </form></li>
+                   </ul>
+                </div>
+    
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="stickywrapper" class="container-fluid stickywrapper" style="background-color: #02263c; " >
+        <div class="container">
+
+            <div class="navbar-collapse collapse ">
+    <ul class="nav navbar-nav megamenu">
+                
+
+                        <li class="dropdown megamenu-fw">
+            <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown"
+               data-delay="0" data-close-others="true">About NITH </a>
+
+                        
+            <ul class="dropdown-menu cateMenu">
+                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv NITH"> 
+
+                                                                        <a class="NITH3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        NITH</a>
+
+
+                        <ul class="megaManuCate NITH">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="History "  href="https://www.nith.ac.in/nith-history"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    History  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Vision &amp; Mission "  href="https://www.nith.ac.in/vision-mission"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Vision &amp; Mission  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Goals "  href="https://www.nith.ac.in/goals"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Goals  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Core Values "  href="https://www.nith.ac.in/core-values"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Core Values  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="About City "  href="https://www.nith.ac.in/about-city"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    About City  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Connectivity "  href="https://www.nith.ac.in/connectivity"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Connectivity  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                            </ul>
+            
+        </li>
+                
+
+                        <li class="dropdown megamenu-fw">
+            <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown"
+               data-delay="0" data-close-others="true">Authorities </a>
+
+                        
+            <ul class="dropdown-menu cateMenu">
+                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Board of Governors (BOG)"> 
+
+                                                                        <a class="Board of Governors (BOG)3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Board of Governors (BOG)</a>
+
+
+                        <ul class="megaManuCate Board of Governors (BOG)">
+                                                                                                                                                                                                   
+
+                            <li><a class="Composition of BOG "  href="https://www.nith.ac.in/uploads/topics/17642163716028.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Composition of BOG  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Minutes of BOG "  href="https://www.nith.ac.in/minutes-of-bog"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Minutes of BOG  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Finance Committee (FC)"> 
+
+                                                                        <a class="Finance Committee (FC)3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Finance Committee (FC)</a>
+
+
+                        <ul class="megaManuCate Finance Committee (FC)">
+                                                                                                                                                                                                   
+
+                            <li><a class="Composition of FC "  href="https://www.nith.ac.in/uploads/topics/17642162991410.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Composition of FC  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Minutes of FC "  href="https://www.nith.ac.in/minutes-of-fc"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Minutes of FC  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Building Works Committee (BWC)"> 
+
+                                                                        <a class="Building Works Committee (BWC)3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Building Works Committee (BWC)</a>
+
+
+                        <ul class="megaManuCate Building Works Committee (BWC)">
+                                                                                                                                                                                                   
+
+                            <li><a class="Composition of BWC "  href="https://www.nith.ac.in/uploads/topics/16624339297916.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Composition of BWC  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Minutes of BWC "  href="https://www.nith.ac.in/minutes-of-bwc"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Minutes of BWC  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Senate"> 
+
+                                                                        <a class="Senate3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Senate</a>
+
+
+                        <ul class="megaManuCate Senate">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Composition of Senate "  href="https://www.nith.ac.in/composition-of-senate"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Composition of Senate  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Minutes of Senate "  href="https://www.nith.ac.in/minutes-of-senate"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Minutes of Senate  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                            </ul>
+            
+        </li>
+                
+
+                        <li class="dropdown megamenu-fw">
+            <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown"
+               data-delay="0" data-close-others="true">Administration </a>
+
+                        
+            <ul class="dropdown-menu cateMenu">
+                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Administration"> 
+
+                                                                        <a class="Administration3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Administration</a>
+
+
+                        <ul class="megaManuCate Administration">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Visitor "  href="https://www.nith.ac.in/visitor"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Visitor  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Chief Vigilance Officer "  href="https://www.nith.ac.in/chief-vigilance-officer"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Chief Vigilance Officer  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Chairperson"> 
+
+                                                                        <a class="Chairperson3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Chairperson</a>
+
+
+                        <ul class="megaManuCate Chairperson">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Chairperson Message/Profile "  href="https://www.nith.ac.in/Administration/topic/268"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Chairperson Message/Profile  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Former Chairpersons "  href="https://www.nith.ac.in/former-chairpersons"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Former Chairpersons  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Deans/Associate Deans "  href="https://www.nith.ac.in/deans"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Deans/Associate Deans  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Institute Coordinator "  href="https://www.nith.ac.in/institute-coordinator"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Institute Coordinator  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Director"> 
+
+                                                                        <a class="Director3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Director</a>
+
+
+                        <ul class="megaManuCate Director">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Director "  href="https://www.nith.ac.in/directors-messageprofile"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Director  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Former Directors/Principals "  href="https://www.nith.ac.in/former-directorsprincipals"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Former Directors/Principals  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Director Office "  href="https://www.nith.ac.in/director-office"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Director Office  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Head of Departments "  href="https://www.nith.ac.in/head-of-departments"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Head of Departments  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Faculty Incharges "  href="https://www.nith.ac.in/faculty-incharges"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Faculty Incharges  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Registrar"> 
+
+                                                                        <a class="Registrar3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Registrar</a>
+
+
+                        <ul class="megaManuCate Registrar">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Registrar "  href="https://www.nith.ac.in/Administration/topic/273"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Registrar  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Registrar Office "  href="https://www.nith.ac.in/registrar-office"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Registrar Office  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Nodal Officers "  href="https://www.nith.ac.in/nodal-officers"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Nodal Officers  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                            </ul>
+            
+        </li>
+                
+
+                        <li class="dropdown megamenu-fw">
+            <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown"
+               data-delay="0" data-close-others="true">Departments </a>
+
+                        
+            <ul class="dropdown-menu cateMenu">
+                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Engineering"> 
+
+                                                                        <a class="Engineering4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Engineering</a>
+
+
+                        <ul class="megaManuCate Engineering">
+                                                                                                                                                                                                                                                           
+
+                            <li><a class="Computer Science &amp; Engineering "  href="https://www.nith.ac.in/computer-science-engineering"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Computer Science &amp; Engineering  
+                                                                    </a></li>
+                                                                                                                                                                                                                               
+
+                            <li><a class="Civil Engineering "  href="https://www.nith.ac.in/Departments/topic/130"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Civil Engineering  
+                                                                    </a></li>
+                                                                                                                                                                                                                               
+
+                            <li><a class="Chemical Engineering "  href="https://www.nith.ac.in/chemical-engineering"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Chemical Engineering  
+                                                                    </a></li>
+                                                                                                                                                                                                                               
+
+                            <li><a class="Electronics &amp; Communication Engineering "  href="https://www.nith.ac.in/electronics-communication-engineering"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Electronics &amp; Communication Engineering  
+                                                                    </a></li>
+                                                                                                                                                                                                                               
+
+                            <li><a class="Electrical Engineering "  href="https://www.nith.ac.in/electrical-engineering"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Electrical Engineering  
+                                                                    </a></li>
+                                                                                                                                                                                                                               
+
+                            <li><a class="Mechanical Engineering "  href="https://www.nith.ac.in/mechanical-engineering"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Mechanical Engineering  
+                                                                    </a></li>
+                                                                                                                                                                                                                               
+
+                            <li><a class="Material Science &amp; Engineering "  href="https://www.nith.ac.in/material-science-engineering"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Material Science &amp; Engineering  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Sciences"> 
+
+                                                                        <a class="Sciences4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Sciences</a>
+
+
+                        <ul class="megaManuCate Sciences">
+                                                                                                                                                                                                                                                           
+
+                            <li><a class="Chemistry "  href="https://www.nith.ac.in/chemistry"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Chemistry  
+                                                                    </a></li>
+                                                                                                                                                                                                                               
+
+                            <li><a class="Mathematics &amp; Scientific Computing "  href="https://www.nith.ac.in/mathematics-scientific-computing"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Mathematics &amp; Scientific Computing  
+                                                                    </a></li>
+                                                                                                                                                                                                                               
+
+                            <li><a class="Physics &amp; Photonics Science "  href="https://www.nith.ac.in/physics-photonics-science"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Physics &amp; Photonics Science  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Other Departments"> 
+
+                                                                        <a class="Other Departments4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Other Departments</a>
+
+
+                        <ul class="megaManuCate Other Departments">
+                                                                                                                                                                                                                                                           
+
+                            <li><a class="Architecture "  href="https://www.nith.ac.in/Departments/topic/287"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Architecture  
+                                                                    </a></li>
+                                                                                                                                                                                                                               
+
+                            <li><a class="Humanities &amp; Social Sciences "  href="https://www.nith.ac.in/humanities"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Humanities &amp; Social Sciences  
+                                                                    </a></li>
+                                                                                                                                                                                                                               
+
+                            <li><a class="Management Studies "  href="https://www.nith.ac.in/management-studies"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Management Studies  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Centre"> 
+
+                                                                        <a class="Centre4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Centre</a>
+
+
+                        <ul class="megaManuCate Centre">
+                                                                                                                                                                                                                                                           
+
+                            <li><a class="Centre For Energy Studies "  href="https://www.nith.ac.in/centre-for-energy-studies"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Centre For Energy Studies  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                            </ul>
+            
+        </li>
+                
+
+                        <li class="dropdown megamenu-fw">
+            <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown"
+               data-delay="0" data-close-others="true">Academics </a>
+
+                        
+            <ul class="dropdown-menu cateMenu">
+                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Academics"> 
+
+                                                                        <a class="Academics4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Academics</a>
+
+
+                        <ul class="megaManuCate Academics">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Activities "  href="https://www.nith.ac.in/nith-academics"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Activities  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Functionaries "  href="https://www.nith.ac.in/academics-functionaries"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Functionaries  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Admissions &amp; Registrations"> 
+
+                                                                        <a class="Admissions &amp; Registrations4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Admissions &amp; Registrations</a>
+
+
+                        <ul class="megaManuCate Admissions &amp; Registrations">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Admissions "  href="https://www.nith.ac.in/admissions-nith"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Admissions  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Admissions Desk "  href="#"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Admissions Desk  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Registration 2025-26 "  href="https://www.nith.ac.in/registration-2025-26"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Registration 2025-26  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="International Admissions "  href="https://nith.ac.in/international/index.html"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    International Admissions  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Bachelor Programmes"> 
+
+                                                                        <a class="Bachelor Programmes4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Bachelor Programmes</a>
+
+
+                        <ul class="megaManuCate Bachelor Programmes">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Bachelor Ordinances "  href="https://www.nith.ac.in/bachelor-ordinances"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Bachelor Ordinances  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Course Structure &amp; Syllabus "  href="https://www.nith.ac.in/bachelor-course-structure-syllabus"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Course Structure &amp; Syllabus  
+                                                                    </a></li>
+                                                                                                                                                                       
+
+                            <li><a class="Old UG Manual "  href="https://www.nith.ac.in/uploads/topics/15826279581924.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Old UG Manual  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Calender"> 
+
+                                                                        <a class="Calender4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Calender</a>
+
+
+                        <ul class="megaManuCate Calender">
+                                                                                                                                                                        
+                                                                                   
+
+                            <li><a class="Odd Semester 2025-26 "  href="https://nith.ac.in/uploads/topics/17244223408638.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Odd Semester 2025-26  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Even Semester 2025-26 "  href="https://nith.ac.in/uploads/topics/academic-calander-even17180752079089.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Even Semester 2025-26  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Academic Notices "  href="https://www.nith.ac.in/academic-notices"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Academic Notices  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="NAD Cell notranslate"  href="https://nith.ac.in/nad"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    NAD Cell  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Fee Structure notranslate"  href="https://nith.ac.in/uploads/files/nov24/feestructure.pdf"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Fee Structure  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Class Timetable notranslate"  href="https://nith.ac.in/sitePages/topic/1465"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Class Timetable  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Examinations &amp; Evaluation"> 
+
+                                                                        <a class="Examinations &amp; Evaluation4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Examinations &amp; Evaluation</a>
+
+
+                        <ul class="megaManuCate Examinations &amp; Evaluation">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Examination Schedules "  href="https://www.nith.ac.in/examination-schedules"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Examination Schedules  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Examination Guidelines "  href="#"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Examination Guidelines  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Evaluation  Schedules "  href="#"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Evaluation  Schedules  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Evaluation Guidelines "  href="https://www.nith.ac.in/evaluation-guidelines"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Evaluation Guidelines  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Master Programmes"> 
+
+                                                                        <a class="Master Programmes4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Master Programmes</a>
+
+
+                        <ul class="megaManuCate Master Programmes">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Master Ordinances "  href="https://www.nith.ac.in/master-ordinances"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Master Ordinances  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Course Structure &amp; Syllabus "  href="https://www.nith.ac.in/master-course-structure-syllabus"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Course Structure &amp; Syllabus  
+                                                                    </a></li>
+                                                                                                                                                                       
+
+                            <li><a class="Old PG Manual "  href="https://www.nith.ac.in/uploads/topics/15826281118842.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Old PG Manual  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Results &amp; Certificates"> 
+
+                                                                        <a class="Results &amp; Certificates4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Results &amp; Certificates</a>
+
+
+                        <ul class="megaManuCate Results &amp; Certificates">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Results "  href="https://www.nith.ac.in/results"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Results  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Guidelines for Certificates Issuance "  href="https://www.nith.ac.in/guidelines-for-certificates-issues"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Guidelines for Certificates Issuance  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Guidelines for Certificates Verification "  href="https://www.nith.ac.in/guidelines-for-certificates-verification"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Guidelines for Certificates Verification  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Certificate regarding Divisions/Percentage "  href="https://nith.ac.in/uploads/topics/16076810863021.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Certificate regarding Divisions/Percentage  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Contact for Certification matters "  href="https://www.nith.ac.in/contact-for-certification-matters"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Contact for Certification matters  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Doctoral Programmes"> 
+
+                                                                        <a class="Doctoral Programmes4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Doctoral Programmes</a>
+
+
+                        <ul class="megaManuCate Doctoral Programmes">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Doctoral Ordinances "  href="https://www.nith.ac.in/doctoral-ordinances"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Doctoral Ordinances  
+                                                                    </a></li>
+                                                                                                                                                                       
+
+                            <li><a class="Old PG Manual "  href="https://www.nith.ac.in/uploads/topics/15826282142459.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Old PG Manual  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                            </ul>
+            
+        </li>
+                
+
+                        <li class="dropdown megamenu-fw">
+            <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown"
+               data-delay="0" data-close-others="true">Student </a>
+
+                        
+            <ul class="dropdown-menu cateMenu">
+                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Students"> 
+
+                                                                        <a class="Students4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Students</a>
+
+
+                        <ul class="megaManuCate Students">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Activities "  href="https://www.nith.ac.in/Student/topic/411"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Activities  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Functionaries "  href="https://www.nith.ac.in/students-functionaries"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Functionaries  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Student Related Notices "  href="https://www.nith.ac.in/student-related-notices"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Student Related Notices  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="SGRC "  href="https://www.nith.ac.in/sgrc"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    SGRC  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Cultural Activities &amp; Clubs"> 
+
+                                                                        <a  style="font-weight: 600;color: #bbb689 !important;">Student Activities & Sports</a>
+                                                <a class="Cultural Activities &amp; Clubs4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Cultural Activities &amp; Clubs</a>
+
+
+                        <ul class="megaManuCate Cultural Activities &amp; Clubs">
+                                                                                                                                                                        
+                                                                                   
+
+                            <li><a class="Introduction &amp; list "  href="https://nith.ac.in/"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Introduction &amp; list  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Cultural Activities &amp; Clubs "  href="https://www.nith.ac.in/hillffair"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Cultural Activities &amp; Clubs  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Annual Cultural Fastival (Hill’ffair) "  href="https://www.nith.ac.in/spic-macay"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Annual Cultural Fastival (Hill’ffair)  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Annual SPIC MACAY Activity "  href="https://www.nith.ac.in/introduction-list"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Annual SPIC MACAY Activity  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Student Discipline &amp; Counselling"> 
+
+                                                                        <a class="Student Discipline &amp; Counselling4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Student Discipline &amp; Counselling</a>
+
+
+                        <ul class="megaManuCate Student Discipline &amp; Counselling">
+                                                                                                                                                                        
+                                                                                   
+
+                            <li><a class="Discipline Rules "  href="https://nith.ac.in/uploads/topics/studentdisplinerule16438814532264.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Discipline Rules  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Student Discipline Board "  href="https://www.nith.ac.in/counseling-rules"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Student Discipline Board  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Counselling Rules "  href="https://nith.ac.in/uploads/topics/student-counselling-rule16438814713185.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Counselling Rules  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Student  Counselling Board "  href="https://www.nith.ac.in/anti-ragging-rules"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Student  Counselling Board  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Council Rules "  href="https://nith.ac.in/"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Council Rules  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Student Council Board "  href="https://www.nith.ac.in/council-rules"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Student Council Board  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Anti Ragging Rules "  href="https://nith.ac.in/uploads/topics/nith-anti-ragging-regulations25-26.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Anti Ragging Rules  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Anti Ragging Committee "  href="https://www.nith.ac.in/student-discipline-board"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Anti Ragging Committee  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Student Hostels &amp; Management"> 
+
+                                                                        <a class="Student Hostels &amp; Management4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Student Hostels &amp; Management</a>
+
+
+                        <ul class="megaManuCate Student Hostels &amp; Management">
+                                                                                                                                                                        
+                                                                                   
+
+                            <li><a class="Hostels at NITH "  href="https://nith.ac.in/hostels-at-nith"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Hostels at NITH  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Hostel Management "  href="https://www.nith.ac.in/hostel-management"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Hostel Management  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Hostel Booklet "  href="https://nith.ac.in/uploads/topics/hostel-booklet-25-26.pdf"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Hostel Booklet  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Technical Activities &amp; Clubs"> 
+
+                                                                        <a class="Technical Activities &amp; Clubs4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Technical Activities &amp; Clubs</a>
+
+
+                        <ul class="megaManuCate Technical Activities &amp; Clubs">
+                                                                                                                                                                        
+                                                                                   
+
+                            <li><a class="Introduction &amp; list "  href="https://nith.ac.in/"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Introduction &amp; list  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Annual Technical Festival (Nimbus) "  href="https://www.nith.ac.in/annual-innvovation-activities"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Annual Technical Festival (Nimbus)  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Annual Innvovation Activity "  href="https://nith.ac.in/"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Annual Innvovation Activity  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Student Welfare &amp; Schemes"> 
+
+                                                                        <a class="Student Welfare &amp; Schemes4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Student Welfare &amp; Schemes</a>
+
+
+                        <ul class="megaManuCate Student Welfare &amp; Schemes">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Scholarships and Fellowships "  href="https://www.nith.ac.in/scholarships-and-fellowships"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Scholarships and Fellowships  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Prizes &amp; Medals "  href="https://www.nith.ac.in/awards-medals"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Prizes &amp; Medals  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Insurance &amp; Mediclaims "  href="https://www.nith.ac.in/insurance-mediclaims"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Insurance &amp; Mediclaims  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Sports Activities &amp; Yoga"> 
+
+                                                                        <a class="Sports Activities &amp; Yoga4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Sports Activities &amp; Yoga</a>
+
+
+                        <ul class="megaManuCate Sports Activities &amp; Yoga">
+                                                                                                                                                                        
+                                                                                   
+
+                            <li><a class="Introduction &amp; list "  href="https://nith.ac.in/"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Introduction &amp; list  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Annual Sports Meet (Lalkaar) "  href="https://www.nith.ac.in/institute-magazine-news-bulletin"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Annual Sports Meet (Lalkaar)  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Annual Yoga Day "  href="https://nith.ac.in/"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Annual Yoga Day  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="NSS Activities "  href="https://www.nith.ac.in/ncc-activities"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    NSS Activities  
+                                                                    </a></li>
+                                                                                                                                                                                                                               
+
+                            <li><a class="NCC Activities "  href="https://www.nith.ac.in/nith-ncc-activities"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    NCC Activities  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Publication Activities " style="pointer-events: none; touch-action: none;"" href="https://www.nith.ac.in/magazine-publication"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Publication Activities  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Magazine Publication "  href="https://www.nith.ac.in/newsletter-publication"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Magazine Publication  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="News Bulletin Publication "  href="https://nith.ac.in/"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    News Bulletin Publication  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Newsletter Publication "  href="https://nith.ac.in/news-letter-publication"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Newsletter Publication  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                            </ul>
+            
+        </li>
+                
+
+                        <li class="dropdown megamenu-fw">
+            <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown"
+               data-delay="0" data-close-others="true">Faculty </a>
+
+                        
+            <ul class="dropdown-menu cateMenu">
+                                                                     
+                <li style="">
+                                        <div class="col-lg-4 mySiteDiv Faculty"> 
+
+                                                                        <a class="Faculty4 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Faculty</a>
+
+
+                        <ul class="megaManuCate Faculty">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Activities "  href="https://www.nith.ac.in/activities"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Activities  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Functionaries "  href="https://www.nith.ac.in/functionaries"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Functionaries  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="CPDA Rules "  href="https://www.nith.ac.in/cpda-rules-and-formats"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    CPDA Rules  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Deputation Rules "  href="https://nith.ac.in/"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Deputation Rules  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Application Forwarding Rules "  href="https://nith.ac.in/"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Application Forwarding Rules  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Rules for Conducting Workshops Conferences "  href="https://www.nith.ac.in/rules-for-conducting-workshops-conferences"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Rules for Conducting Workshops Conferences  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Faculty Related Notices "  href="https://www.nith.ac.in/notices-related-to-faculty"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Faculty Related Notices  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                            </ul>
+            
+        </li>
+                
+
+                        <li class="dropdown megamenu-fw">
+            <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown"
+               data-delay="0" data-close-others="true">Alumni </a>
+
+                        
+            <ul class="dropdown-menu cateMenu">
+                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv NITH Alumni"> 
+
+                                                                        <a class="NITH Alumni3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        NITH Alumni</a>
+
+
+                        <ul class="megaManuCate NITH Alumni">
+                                                                                                                                                                        
+                                                                                   
+
+                            <li><a class="Activities "  href="https://alumni.nith.ac.in/events.dz"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Activities  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Functionaries "  href="https://www.nith.ac.in/Alumni/topic/645"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Functionaries  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Alumni Related Notices "  href="https://alumni.nith.ac.in/newsroom.dz"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Alumni Related Notices  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Alumni Related MoU "  href="https://www.nith.ac.in/alumni-related-mou"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Alumni Related MoU  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Alumni Assist "  href="https://www.nith.ac.in/alumni-assist"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Alumni Assist  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Alumni Affairs Activities"> 
+
+                                                                        <a class="Alumni Affairs Activities3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Alumni Affairs Activities</a>
+
+
+                        <ul class="megaManuCate Alumni Affairs Activities">
+                                                                                                                                                                        
+                                                                                   
+
+                            <li><a class="List of Alumni "  href="https://alumni.nith.ac.in/members.dz"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    List of Alumni  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Alumni Registration "  href="https://alumni.nith.ac.in/user/signup.dz"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Alumni Registration  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Alumni Local Chapters of NITH "  href="https://alumni.nith.ac.in/chapters.dz"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Alumni Local Chapters of NITH  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Annual Alumni Meet of NITH "  href="https://www.nith.ac.in/alumni-of-nith"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Annual Alumni Meet of NITH  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Distinguished Alumni of NITH "  href="https://www.nith.ac.in/Alumni/topic/656"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Distinguished Alumni of NITH  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Resource Generation Activities"> 
+
+                                                                        <a class="Resource Generation Activities3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Resource Generation Activities</a>
+
+
+                        <ul class="megaManuCate Resource Generation Activities">
+                                                                                                                                                                        
+                                                                                   
+
+                            <li><a class="Endowment Fund Generation "  href="https://nith.ac.in/"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Endowment Fund Generation  
+                                                                    </a></li>
+                                                                                                                                            
+                                                                                   
+
+                            <li><a class="Awards  Initiatives "  href="#"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Awards  Initiatives  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Portal"> 
+
+                                                                        <a class="Portal3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Portal</a>
+
+
+                        <ul class="megaManuCate Portal">
+                                                                                                                                                                        
+                                                                                   
+
+                            <li><a class="Alumni Network "  href="https://alumni.nith.ac.in/"> 
+                                     
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                    Alumni Network  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                            </ul>
+            
+        </li>
+                
+
+                        <li class="dropdown megamenu-fw">
+            <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown"
+               data-delay="0" data-close-others="true">Downloads </a>
+
+                        
+            <ul class="dropdown-menu cateMenu">
+                                                                     
+                <li style="">
+                                        <div class="col-lg-3 mySiteDiv Downloads"> 
+
+                                                                        <a class="Downloads3 categoryMenu" style="font-weight: 600;margin-left: 0px;">
+                                                        <i class="fa "></i> &nbsp;
+                                                        Downloads</a>
+
+
+                        <ul class="megaManuCate Downloads">
+                                                                                                                   
+                            
+                                                       
+
+                            <li><a class="Downloads for Students "  href="https://www.nith.ac.in/downloads-for-students"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Downloads for Students  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Downloads for Faculty &amp; Staff "  href="https://www.nith.ac.in/downloads-for-faculty-staff"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Downloads for Faculty &amp; Staff  
+                                                                    </a></li>
+                                                                                       
+                            
+                                                       
+
+                            <li><a class="Miscellaneous Downloads "  href="https://www.nith.ac.in/miscellaneous-downloads"> 
+                                     
+                                    <i class="fa "></i> &nbsp;
+                                    Miscellaneous Downloads  
+                                                                    </a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                </li>
+                                                            </ul>
+            
+        </li>
+                        
+
+    </ul>
+    
+    
+    
+                    </ul>
+<!--       <form method="POST" action="https://www.nith.ac.in/search" accept-charset="UTF-8" style="display: flex; max-width: 150px;"><input name="_token" type="hidden" value="U40cPF6KwBX2Vf91wJ3EvPSFqYllvvADpXyIIqq9">
+    <input placeholder="Search for..." class="form-control form-control-sm" id="search_word" required="" style="width: 100px; height: 28px; font-size: 12px; padding: 2px 5px;" name="search_word" type="text">
+    <button type="submit" class="btn btn-sm btn-theme" style="height: 28px; padding: 2px 6px;">
+        <i class="fa fa-search"></i>
+    </button>
+</form>-->
+
+</div>        </div>
+    </div>
+</header>
+
+    <script>
+    function changeFontSize(target) {
+        var demo = document.getElementById("homepage");
+        var computedStyle = window.getComputedStyle
+                ? getComputedStyle(demo) // Standards
+                : demo.currentStyle;     // Old IE
+        var fontSize;
+
+        if (computedStyle) { // This will be true on nearly all browsers
+            fontSize = parseFloat(computedStyle && computedStyle.fontSize);
+
+            if (target == document.getElementById("button1")) {
+                fontSize += 2;
+            } else if (target == document.getElementById("button2")) {
+                fontSize -= 2;
+            }
+            demo.style.fontSize = fontSize + "px";
+        }
+    }
+</script>
+
+<!-- <script type="text/javascript"> 
+   function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi',
+//        includedLanguages: 'en',
+        multilanguagePage: true,
+        autoDisplay: false
+    }, 'google_translate_element'); 
+     var a = document.querySelector("#google_translate_element select.sel");
+    a.selectedIndex = 1;
+    a.dispatchEvent(new Event('change'));
+  }
+</script>-->
+
+
+
+<!-- <script type="text/javascript"> 
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,hi',
+    multilanguagePage: true,
+    autoDisplay: false
+  }, 'google_translate_element');
+
+  var a = document.querySelector("#google_translate_element select");
+  a.selectedIndex = 1;
+  a.dispatchEvent(new Event('change'));
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&key=AIzaSyC7GFOM_-SgCNdgxYf6L8HjwCexIn2WZjA"></script>
+-->
+
+
+
+
+
+<script type="text/javascript"> 
+   function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi',
+//        includedLanguages: 'en',
+        multilanguagePage: true,
+        autoDisplay: false
+    }, 'google_translate_element'); 
+     var a = document.querySelector("#google_translate_element select");
+    a.selectedIndex = 1;
+    a.dispatchEvent(new Event('change'));
+  }
+</script>
+
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+
+
+<script>
+    // This function waits for the Google Translate script to load and then hides the translation bar.
+  
+    function hideGoogleTranslateBar() {
+        const checkExist = setInterval(function() {
+            const translateEl = document.querySelector('.goog-te-banner-frame');
+            if (translateEl) {
+                translateEl.style.display = 'none';
+                clearInterval(checkExist);
+            }
+        }, 100);
+    }
+   
+    
+    // Run the function when the page is loaded
+    window.onload = hideGoogleTranslateBar;
+</script>
+            <!-- end header -->
+
+            <!-- Content Section -->
+            <style>
+    .faculityList tr td {
+        text-align: left !important;
+    }
+    .faculityList tr th {
+        text-align: center !important;
+    }
+    .disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.6;
+    }
+    .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        color: #212121;
+        background-color: #FAFAFA;
+        border-color: #EEEEEE;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .more-less {
+        float: right;
+        color: #212121;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #EEEEEE;
+    }
+
+
+</style>
+<!--<section id="inner-headline">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="breadcrumb">
+                    <li><a href="https://www.nith.ac.in"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i>
+                    </li>
+                                        <li class="active">Research &amp; Consultancy</li>
+                                                        </ul>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+
+<section id="content">
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-3">                  
+                                <ul id="nav-tabs-wrapper" class="nav nav-tabs nav-pills nav-stacked innerPages innner-pages-tab-wrapper">
+                                                                                
+                                                            <li class="active Activities">
+                        <a href="#24" class=""  data-toggle="tab" aria-expanded="false">
+                            Activities                            <!--Activities-->
+                        </a>
+                    </li>
+                                                                                                                        
+                                                            <li class=" Functionaries">
+                        <a href="#25" class=""  data-toggle="tab" aria-expanded="false">
+                            Functionaries                            <!--Functionaries-->
+                        </a>
+                    </li>
+                                                                                                                        
+                                                            <li class=" R&C Rules and Formats">
+                        <a href="#26" class=""  data-toggle="tab" aria-expanded="false">
+                            R&C Rules and Formats                            <!--R&C Rules and Formats-->
+                        </a>
+                    </li>
+                                                                                                                        
+                                                            <li class=" Research Project Highlights">
+                        <a href="#27" class=""  data-toggle="tab" aria-expanded="false">
+                            Research Project Highlights                            <!--Research Project Highlights-->
+                        </a>
+                    </li>
+                                                                                                                                                                                    
+                                                            <li class=" Publications and Patents">
+                        <a href="#28" class=""  data-toggle="tab" aria-expanded="false">
+                            Publications and Patents                            <!--Publications and Patents-->
+                        </a>
+                    </li>
+                                                                                                                        
+                                                            <li class=" IIEC & IPR Cell">
+                        <a href="#29" class=""  data-toggle="tab" aria-expanded="false">
+                            IIEC & IPR Cell                            <!--IIEC & IPR Cell-->
+                        </a>
+                    </li>
+                                                                                                                                                                                    
+                                                            <li class=" ISEP">
+                        <a href="#133" class=""  data-toggle="tab" aria-expanded="false">
+                            ISEP                            <!--ISEP-->
+                        </a>
+                    </li>
+                                                                                                                        
+                                                            <li class=" MoU">
+                        <a href="#31" class=""  data-toggle="tab" aria-expanded="false">
+                            MoU                            <!--MoU-->
+                        </a>
+                    </li>
+                                                                                                                        
+                                                            <li class=" Notices and Announcements">
+                        <a href="#32" class=""  data-toggle="tab" aria-expanded="false">
+                            Notices and Announcements                            <!--Notices and Announcements-->
+                        </a>
+                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                </ul>
+                
+            </div>    
+
+            <div class="col-sm-9 margin-t10">
+                <div class="tab-content">
+                                                                                                                                                <div role="tabpanel" class="tab-pane departmentTab fade in active" id="24">   
+                        <!--<h3 class="innerPageHeading">Activities</h3>-->
+                                                <h3> Activities </h3><p><b>As per the schedule ‘C’ of NIT statutes the role and responsibilities of the Dean (Research & Consultancy) is to conduct activities throughout the year are as follows: </b></p><ol type="a"><li>Frame rules for industrial sponsored research and consultancy.</li><li>Create and maintain database regarding faculty expertise.</li><li>Facilitate through his/her office faculty in procuring equipments necessary to conduct research/consultancy work, recruitment of project staff.</li><li>Coordinate co-curricular activities (technical festivals, quizzes etc.) for the students.</li><li>Provide guidance for submitting proposals to funding agencies such as Departments of Science and Technology (DST), Bhabha Atomic Research Centre (BARC), Board of Research in Nuclear Sciences (BRNS), Indian Space Research Organisation (ISRO), Defense Research and Development Organisation (DRDO), Aeronautics Research and Development Board (AR&DB), Ministry of Information Technology, etc.</li></ol>
+                                            </div>
+                                                                                                                                                <div role="tabpanel" class="tab-pane departmentTab fade " id="25">   
+                        <!--<h3 class="innerPageHeading">Functionaries</h3>-->
+                                                <h3>Functionaries</h3><div class="table-responsive"> <table class="table table-bordered mytabnum" style="width: 100%;"> <thead> <tr class="info"> <td colspan="5" class="da_chairman">Dean & Associate Deans</td> </tr> <tr class="thcolor"> <th style="width:8% !important; text-align:left !important;">Sl. No.</th> <th style="width:25% !important; text-align:left !important;">Name</th> <th style="width:35% !important; text-align:left !important;">Responsibility</th> <th style="width:12% !important; text-align:left !important;">Phone No.</th> <th style="width:18% !important; text-align:left !important;">Email</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>Prof. Ravi Kumar</td> <td>Dean</td> <td>254007</td> <td>drc@nith.ac.in</td> </tr> <tr> <td>2</td> <td>Dr. Bharti Gaur</td> <td>Associate Dean</br>(Research Projects & Collaborations, Start-Up)</td> <td>254156</td> <td>bhartigaur@nith.ac.in</td> </tr> <tr> <td>3</td> <td>Dr. Philemon Daniel</td> <td>Associate Dean</br>(Consultancy Projects and Testing)</td> <td>254650</td> <td>phildani7@nith.ac.in</td> </tr> <tr> <td>4</td> <td>Dr. Jai Prakash </td> <td>Faculty Incharge (E-Cell)</td> <td>254102</td> <td>jaip@nith.ac.in</td> </tr> <tr> <td>5</td> <td>Dr. Mohit Pant</td> <td>Faculty Incharge(IIEC)</td> <td>254754</td> <td>mohitfme@nith.ac.in</td> </tr> <tr> <td>6</td> <td>Dr. Kalyan Sunder Ghosh</td> <td>Coordinator (NISP)</td> <td>254104</td> <td>kalyan@nith.ac.in</td> </tr> <tr> <td>7</td> <td>Dr. Mohd. Adil</td> <td>Coordinator (Innovation)</td> <td>254150</td> <td>adil.dms@nith.ac.in</td> </tr> <tr> <td>8</td> <td>Dr. Jai Prakash</td> <td>Coordinator (Incubation & Impact Lecture Series)</td> <td>254102</td> <td>jaip@nith.ac.in</td> </tr> <tr> <td>9</td> <td>Dr. Amit Kaul</td> <td>Coordinator (Start-Up)</td> <td>254544</td> <td>amitkaul@nith.ac.in</td> </tr> <tr> <td>10</td> <td>Dr. Neetu Kapoor</td> <td>Coordinator (Start-Up)</td> <td>254930</td> <td>neetu@nith.ac.in</td> </tr> <tr> <td>11</td> <td>Dr. Puneet Sharma</td> <td>Coordinator (Social Media)</td> <td>254926</td> <td>architect.puneet@nith.ac.in</td> </tr> <tr> <td>12</td> <td>Dr. Robin Singh Badhoria</td> <td>Assistant Faculty Incharge (E-Cell)</td> <td>254401</td> <td>  robin.bhadoria@nith.ac.in</td> </tr> </tbody> </table></div><div class="table-responsive"> <table class="table table-bordered mytabnum" style="width: 100%;"> <thead> <tr class="info"> <td colspan="5" class="da_chairman">Staff</td> </tr> <tr class="thcolor"> <th style="width:8% !important; text-align:left !important;">Sl. No.</th> <th style="width:25% !important; text-align:left !important;">Name</th> <th style="width:35% !important; text-align:left !important;">Responsibility</th> <th style="width:12% !important; text-align:left !important;">Phone No.</th> <th style="width:18% !important; text-align:left !important;">Email</th> </tr> </thead> <tbody> <tr class="mytr"> <td></td> <td>Sh. Nanak Chand Negi </td> <td>Assistant Registrar</td> <td>254049</td> <td>office.drc@nith.ac.in</td> </tr> <tr class="mytr"> <td></td> <td>Sh. Desh Raj Bansal</td> <td>Private Secretary</td> <td>254097</td> <td>drbansal@nith.ac.in</td> </tr> <tr class="mytr"> <td></td> <td>Sh. Surinder Singh</td> <td>Assistant SG-I </td> <td>--</td> <td>surinder@nith.ac.in</td> </tr> </tbody> </table></div>
+                                            </div>
+                                                                                                                                                <div role="tabpanel" class="tab-pane departmentTab fade " id="26">   
+                        <!--<h3 class="innerPageHeading">R&C Rules and Formats</h3>-->
+                                                <h3>Research Project and Collaboration Rules and Formats</h3><h3><a target="_blank" href="https://nith.ac.in/wp-content/uploads/2019/02/647_1550061631133.pdf">Consultancy Project and Testing Rules and Formats</a></h3>
+                                            </div>
+                                                                                                                                                <div role="tabpanel" class="tab-pane departmentTab fade " id="27">   
+                        <!--<h3 class="innerPageHeading">Research Project Highlights</h3>-->
+                                                <center><h3>Highlights of Sponsored Research Projects</h3></center>The institute encourages Academic Staff to undertake Sponsored projects from various funding agencies. The Rules/Guidelines have been framed to create conducive research environment in the Institute. Similarly, the industrial assignmentsare to be undertaken only in the domain of specialization and all types of industrial assignment shall be treated as Industrial Consultancy. The New Rules/Guidelines for “Sponsored Research Project and Industrial Consultancy and TestingProjects are implemented in the Institute. Sponsored Research Projects have been sanctioned by the various agencies/organizations of the Central and State Government viz. DST, SERB, DRDO, CSIR, ICSSR, HIMCOST, RMSA, Disaster Management,Municipal Corporation and others. The detail of the sanctioned projects is as under:<h1></h1><table class="table table-bordered"><tbody><tr><td><a href="/uploads/rti/ongoing-project-2023-24.pdf" target="_new">Research Projects Sponsored by various International/ Central Govt. /State Govt. funding agencies for the Years 2022-23, 2023-24, 2024-25 </a> <img src="https://nith.ac.in/uploads/topics/new-image16041231981716.gif"/></td></tr><tr><td><a href="/uploads/rti/completed-proj-2023-24.pdf" target="="_new">List of Completed Projects 2022-23,2023-24</a></td></td></tr><tr><td><a href="https://nith.ac.in/uploads/topics/list-of-research-projects-submitted-to-various-internationalcentral-govt-state-govt-funding-agencies-for-the-year-2020-2116041238026139.pdf">List of Research Projects submitted to various International/Central Govt. /State Govt. funding agencies for the Year 2020-21</a> </td></tr></tbody></table><table class="table table-bordered"><tbody><tr><td><a href="https://nith.ac.in/uploads/topics/ongoing-sponsored-research-project-detail16041228257032.pdf">List of Ongoing Sponsored Research Projects 2020-21</a>  </td></tr></tbody></table><table class="table table-bordered"><tbody><tr><td><a href="https://nith.ac.in/uploads/topics/completed-sponsored-research-project-detail16041228031847.pdf">List of Completed Sponsored Research Project 	2019-20</a></td></tr></tbody></table><table class="table table-bordered"><tbody><tr><td> <a href="https://nith.ac.in/international-capacity-building-project-breucom"><b>International Capacity Building Project BReUCom </b> </a></td></tr></tbody></table>
+                                            </div>
+                                                                                                                                                                                                            <div role="tabpanel" class="tab-pane departmentTab fade " id="28">   
+                        <!--<h3 class="innerPageHeading">Publications and Patents</h3>-->
+                                                <center><h3>PUBLICATIONS AND PATENTS</h3></center>In the present context where globalization has become a reality one needs to have autonomy with accountability. One need to develop the competence to make ethical and value added decisions and should be directed towards the institutional commitment. It consists of two major components (i) Quality of Teaching and (ii) Contribution towards generation of knowledge (Research) and these two aspects should be pursued together. Those who choose this path with a selfless attitude have found success and every goal fulfilled. The NITH need to set a benchmarks in terms of student satisfaction level, number of publications, citations, awards, sponsored projects and contribution to institutional management towards brand building, extension activities, revenue generation etc. Today the quality of publication and citations is measured by converting them into business propositions like patents, copyrights, involvement in national development activities etc. The National Institute of Technology, Hamirpur (HP) is providing many facilities for the students and faculty to engage themselves in research activities. The Institute has fully fledged research labs, where the students and faculty take forward their research activities. The research work of faculty and students is well accepted in national and international forums. The research publications are mostly in SCI, SCIE, Scopus, Web of Science etc. well indexed Journals and Conferences. Faculty members have also written/ edited books and book chapters under various international publishing houses. The number of research publications and the patents filed by the faculty members of the institute are as given below.<table class="table table-bordered"><tbody><tr><td><a target="_blank" href="https://nith.ac.in/research-publications">Research & Publications </a><img src="https://nith.ac.in/uploads/topics/new-image16041231981716.gif"/></td></tr></tbody></table><table class="table table-bordered"><tbody><tr><td><a target="_blank" href="https://nith.ac.in/uploads/topics/patent-list16041228571993.pdf">List of Patents</a><img src="https://nith.ac.in/uploads/topics/new-image16041231981716.gif"/></td></tr></tbody></table><img src="https://nith.ac.in/uploads/topics/patents16043068427846.jpg">
+                                            </div>
+                                                                                                                                                <div role="tabpanel" class="tab-pane departmentTab fade " id="29">   
+                        <!--<h3 class="innerPageHeading">IIEC & IPR Cell</h3>-->
+                                                <h3 style="font-size:19px;">Incubation, Innovation & Entrepreneurship Cell (IIEC) <br> &<br> Intellectual Property Rights Cell (IPR)</h3><table class="table table-bordered mytabnum" style="width: 100%;"><tbody><tr><td>Name</td><td>Responsibility</td><td>Phone No. (01972)</td><td>Email</td></tr><tr><td>Dr. Amit Arora</td><td>Faculty Incharge (IIEC & IPRC)</td><td>-</td><td>dr.amit@nith.ac.in</td></tr><tr><td>Dr. Mohit Pant</td><td>Faculty Incharge(IIEC)</td><td>254754</td><td>mohitfme@nith.ac.in</td></tr></tbody></table>Incubation, Innovation & Entrepreneurship Cell (IIEC) of NIT Hamirpur has been established. Innovative Research Incubation Club (IRIC) is a club for NITH students, which aims to provide a multi-vibrant interdisciplinary platform.<b>The aims and objectives of the IPR cell are as:</b><ul class="listType"><li>Drafting of an Institute IPR policy.</li><li>Conducting of IPR awareness programs in the institute such as workshops, seminars and training course.</li><li>Creating suitable course material in order to emphasize the importance of IP rights and introducing IPRs as part of academic curriculum as well as making it an integral part of the curriculum in the institute.</li><li>To create an awareness about IPR for faculties and students of the Institute.</li><li>To impart training on future endeavors regarding patent filing processes.</li><li>To create an opportunity for Product Development and Commercialization.</li></ul></br><div class="table-responsive"><table class="table table-bordered mytabnum" style="width: 100%;"><thead><tr class="thcolor"><th style="width:100% !important; text-align:center !important;">Notification/Guidelines</th></tr></thead><tbody><tr><td> <a href="https://nith.ac.in/uploads/topics/office-order-ipr17073690738189.pdf" target="_blank" rel="noopener noreferrer"> Office Order for Administration and Evaluation of Intellectual Property Rights </a></td></tr><tr><td> <a href="https://nith.ac.in/uploads/topics/iprnotification16498396898295.pdf" target="_blank" rel="noopener noreferrer"> Notification regarding the Innovation, Startup & Entrepreneurship Policy and the Guidelines for Utilization of Innovation & Startup Fund </a></td></tr><tr><td> <a href="https://nith.ac.in/uploads/topics/iprnotice16255645968845.pdf" target="_blank" rel="noopener noreferrer"> Office Order for Administration and Evaluation of Intellectual Property Rights </a></td></tr><tr><td> <a href="https://nith.ac.in/uploads/topics/iiec16188232537547.pdf" target="_blank" rel="noopener noreferrer"> Notification regarding Incubation, Innovation & Entrepreneurship (IIE) </a></td></tr><tr><td> <a href="https://nith.ac.in/upload/iprnotification.pdf" target="_blank" rel="noopener noreferrer"> Notification regarding Intellectual Property Right (IPR) Policy, Procedures and Forms </a></td></tr></tbody></table></div>
+                                            </div>
+                                                                                                                                                                                                            <div role="tabpanel" class="tab-pane departmentTab fade " id="133">   
+                        <!--<h3 class="innerPageHeading">ISEP</h3>-->
+                                                <div class="table-responsive"><table class="table table-bordered mytabnum" style="width: 100%;"><thead><tr class="info"><td class="da_chairman">Innovation, Startup & Entrepreneurship Policy</td></tr><tr class="thcolor"><th style="width:100% !important; text-align:center !important;">Notification/Guidelines</th></tr></thead><tbody><tr><td> <a href="https://nith.ac.in/uploads/topics/notification-isep16212424601868.pdf" target="_blank" rel="noopener noreferrer"> Notification regarding Innovation, Startup & Entrepreneurship Policy </a></td></tr><tr><td> <a href="https://nith.ac.in/uploads/topics/guidelines-isep16212424854783.pdf" target="_blank" rel="noopener noreferrer"> Guidelines for utilization of innovation and startup fund </a></td></tr><tr><td> <a href="https://nith.ac.in/uploads/topics/isep-202016212425055653.pdf" target="_blank" rel="noopener noreferrer"> Innovation, Startup & Entrepreneurship Policy (ISEP-2020) </a></td></tr></tbody></table></div>
+                                            </div>
+                                                                                                                                                <div role="tabpanel" class="tab-pane departmentTab fade " id="31">   
+                        <!--<h3 class="innerPageHeading">MoU</h3>-->
+                                                <table class="table table-bordered stafftable mytabnum" style="width: 100%;" align="center"><tbody><tr><th width="10%">Sr. No.</th><th>MoU</th></tr><tr class="mytr"> <td></td> <td><a href="https://nith.ac.in/uploads/topics/mou-iit-madras16817232553855.pdf">MoU between National Institute of Technology Hamirpur - 177005,Himachal Pradesh, India and Indian Institute of Technology Madras, Chennai, India(Signed on 16th February, 2023)</a></tr><tr class="mytr"> <td></td> <td><a href="https://nith.ac.in/uploads/topics/mou-national-research-dev16817232845767.pdf">MoU between National Research Development Corporation,20-22, Zamroodpur Community Centre, Kailash Extension, New Delhi 110048 and National Institute of Technology Hamirpur - 177005,Himachal Pradesh, India(Signed on 14th February, 2023)</a></tr><tr class="mytr"> <td></td> <td><a href="/upload/mou/MOU NIT Uttarakhand.pdf">MoU between National Institute of Technology Uttarakhand Srinagar Garhwal-246174, Uttarakhand, India and National Institute of Technology Hamirpur - 177005,Himachal Pradesh, India(Signed on 06th February, 2023)</a></tr><tr class="mytr"> <td></td> <td><a href="https://nith.ac.in/uploads/topics/mou-shimla-smart-city16817232325210.pdf">MoU between Shimla Smart City Limited, Shimla, (H.P.) and National Institute of Technology Hamirpur - 177005,Himachal Pradesh, India(Signed on 04th January, 2023)</a></tr><tr class="mytr"> <td></td> <td><a href="/upload/mou/MOU SJVN.pdf">MoU between National Institute of Technology Hamirpur and SJVN LTD(Signed on 05th November, 2022)</a></tr><tr class="mytr"> <td></td> <td><a href="/upload/mou/MOU IIT Mandi.pdf">MoU between National Institute of Technology Hamirpur and Indian Institute of Technology Mandi (HP)(Signed on 28th September, 2022)</a></tr><tr class="mytr"><td></td><td><a href="https://nith.ac.in/uploads/topics/moubetween-nit-and-igrua16564877807085.pdf">MoU between National Institute of Technology Hamirpur and Indira Gandhi Rastriya Uran Akademi (IGRUA)(Signed on 10th June, 2022)</a></tr><tr class="mytr"><td></td><td><a href="/upload/MoU IIRS.pdf">MoU between Indian Institute of Remote Sensing Indian Space Research Organization (ISRO) Dept. of Space (DOS) Govt. of INdia, Dehradun, Uttarakhand - 248001 and National Institute of Technology Hamirpur (Signed on 24 March 2022)</a></tr><tr class="mytr"><td></td><td><a href="http://nith.ac.in/uploads/topics/mounittrchandigarhpdf16391136237256.pdf">MoU Between National Institute of Technology Hamirpur and National Institute of Technical Teachers Training & Research Chandigarh (Signed on 09 December 2021)</a><br /><img src="http://nith.ac.in/uploads/topics/mounittrchandigarh16391104299235.jpeg" /></td></tr><tr class="mytr"><td></td><td><a href="https://nith.ac.in/uploads/topics/mouuitshimla16372421974915.pdf">MoU Between National Institute of Technology Hamirpur and University Institute of Technology, Shimla (HP) (Signed on 18 November 2021)</a><br /><img src="https://nith.ac.in/uploads/topics/uitmou116372932512993.jpg" /><br /><img src="https://nith.ac.in/uploads/topics/mouuit216372932973174.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="http://nith.ac.in/uploads/topics/mou-chitkara-university-himachal-pradesh16367100271999.pdf"> MoU Between National Institute of Technology Hamirpur & Chitkara University, Himachal Pradesh</a><br /><img src="http://nith.ac.in/uploads/topics/mou-chitkara-university-image16367315286085.jpeg" /></td></tr><tr class="mytr"><td></td><td><a href="http://nith.ac.in/uploads/topics/mou-chitkara-university-punjab16367100565610.pdf"> MoU Between National Institute of Technology Hamirpur & Chitkara University, Punjab</a><br /><img src="http://nith.ac.in/uploads/topics/mou-chitkara-university-image16367315286085.jpeg" /></td></tr><tr class="mytr"><td></td><td><a href="http://nith.ac.in/uploads/topics/mou-clusterunimandi16358319045832.pdf"> MoU Between Sardar Vallabhbhai Patel Cluster University, Mandi (HP) and NIT Hamirpur (Signed on 01 November 2021) </a><br /><img src="http://nith.ac.in/uploads/topics/moumandi116358321869399.jpg" /></br><img src="http://nith.ac.in/uploads/topics/moumandi1216358321951885.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="http://nith.ac.in/uploads/topics/mou-research-for-resurgence-foundation16351451323999.pdf">MoU Between with Research For Resurgence Foundation, Nagpur and NIT Hamirpur (Signed on 23rd October 2021)</a><br /><img src="http://nith.ac.in/uploads/topics/moujp16351459502791.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="http://nith.ac.in/uploads/topics/mou-government-hydro-engineering-college-bilaspur16321136447442.pdf">MoU Between Government Hydro Engineering College Bilaspur H.P. - 176055 and NIT Hamirpur (Signed on 06 September 2021)</a></td></tr><tr class="mytr"><td></td><td><a href="http://nith.ac.in/uploads/topics/mou-iit-gandhinagar16321136171285.pdf">MoU Between IIT Gandhinagar - 382355 and NIT Hamirpur (Signed on 25 August 2021)</a></td></tr><tr class="mytr"><td></td><td><a href="https://nith.ac.in/uploads/topics/mounauniunisolan16317834252800.pdf">MoU Between Dr. Y. S. Parmar University of Horticulture and Forestry, Nauni Solan H.P. 173230 and NIT Hamirpur (Signed on 17 June 2021)</a></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MoU with GovITI Udapur.pdf">MoU Between Government ITI Udaipur Distt. Lahaul & Spiti H.P.-175142 and NIT Hamirpur (Signed on 05 March 2021)</a><br /><img src="https://nith.ac.in/uploads/topics/iti-u16152885936588.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MoU with ITI Shamshi.pdf">MoU Between Government ITI Shamshi (Grade-A) Distt. Kullu H.P.-175126 and NIT Hamirpur (Signed on 05 March 2021)</a><br /><img src="https://nith.ac.in/uploads/topics/iti-s16152886104233.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="https://nith.ac.in/uploads/topics/mou-csir-palampur16148341463644.pdf">MoU Between CSIR-Institute of Himalayan Bioresource Technology Palampur (H.P.) 176061 and NIT Hamirpur (Signed on 01 March 2021)</a><br /><img src="https://nith.ac.in/uploads/topics/mou-palampur16153715547234.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MoU NITH-Polytechnic Hamirpur.pdf">MoU Between Government Polytechnic Hamirpur, District Hamirpur (HP) and NIT Hamirpur (Signed on 04 February 2021)</a><br /><img src="/upload/mou/MoU NITH-PolytHamirpur.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MoU NITH-Polytechnic Sundernagar.pdf">MoU Between Government Polytechnic Sundernagar, District Mandi (HP) and NIT Hamirpur (Signed on 04 February 2021)</a><br /><img src="/upload/mou/MoU NITH-Polytechnic Sundernagar.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MoU NITH-Poltechnic Lahaul Spiti.pdf">MoU Between Government Polytechnic Lahaul & Spiti at Udaipur Camp at Sundernagar, District Mandi (HP) and NIT Hamirpur (Signed on 04 February 2021)</a><br /><img src="/upload/mou/MoU NITH-Poly L&S.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MoU NITH-Polytechnic Bilaspur.pdf">MoU Between "PVC" NSSK, Government Polytechnic Bilaspur at Kalol and NIT Hamirpur (Signed on 04 February 2021)</a><br /><img src="/upload/mou/MoU NITH-PolyBilaspur.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MoU NITH-JNGEC.pdf">MoU Between Jawaharlal Nehru Government Engineering College Sundernagar, Mandi, HP and NIT Hamirpur (Signed on 15 January 2021)</a><br /><img src="/upload/mou/PIC MOU NITH-JNGEC.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MoU NITH-GP Kangra.pdf"> MoU Between Government Polytechnic Talwar, District Kangra, HP and NIT Hamirpur (Signed on 15 January 2021) </a><br /><img src="/upload/mou/PIC MOU NITH-GPTK.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MoU NITH-GP Kullu.pdf">MoU Between Government Polytechnic Kullu at Seobag District Kullu, HP and NIT Hamirpur (Signed on 15 January 2021)</a><br /><img src="/upload/mou/PIC MOU NITH-GPSK.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="/upload/MOU HPTU_NITH.pdf"> MoU Between Himachal Pradesh Technical University, Hamirpur (HP) and NIT Hamirpur (Signed on 18 November 2020) </a><br /><img src="https://nith.ac.in/uploads/topics/mou-hptu-and-nit-image16061304756570.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MOU Sardar Vallabhbhai Patel Custer Univ. Mandi.pdf"> MoU Between Sardar Vallabhbhai Patel Cluster University, Mandi (HP) and NIT Hamirpur (Signed on 22 October 2020) </a><br /><img src="https://nith.ac.in/uploads/topics/mou-between-cluster-university-mandi-and-nit-hamirpur16033697268990.jpeg" /></br><img src="https://nith.ac.in/uploads/topics/mou-nith-and-cluster-university-mandi16034304967854.jpeg" /></td></tr><tr class="mytr"><td></td><td>Dharamshala Smart City Ltd. at Dharamshaia, Distt. Kangra H.P. and NIT Hamirpur (Signed on 29 September 2020)</td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MOU NHAI..pdf">National Highways Authority of India (NHAI) and NIT Hamirpur (Signed on 26 August 2020)</a></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MoU RGGEC Kangra & NITH.pdf"> MoU Between RGGEC Kangra and NIT Hamirpur (Signed on 06 January 2020) </a></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MOU NITH-CSIO.pdf"> MoU Between CSIR-CSIO and NIT Hamirpur (Signed on 11 November 2019) </a><br /><img src="https://nith.ac.in/uploads/topics/15827367532572.jpg" /></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MOU NITH & NPTI.pdf"> MoU Between NPTI and NIT Hamirpur (Signed on 07 September 2019)</a></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MOU NITH- SCL-19 August 2019.pdf"> MoU Between SCL and NIT Hamirpur (Signed on 19 August 2019) </a></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/IIT Roorkee MOU.pdf">MoU Between IIT Roorkee and NIT Hamirpur (Signed on 17 June 2019)</a></td></tr><tr class="mytr"><td></td><td>MoU Between ABVGIET Pragtinagar Shimla (HP) and NIT Hamirpur (Signed on 14 February 2019)</td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/SSAP-MOU-HP-NIH.pdf">MoU Between NIH Roorkee and NIT Hamirpur (Signed on 08 February 2019) </a><br /><img src="https://nith.ac.in/uploads/topics/15827380309325.jpg" /></td></tr><tr class="mytr"><td></td><td>MoU Between E&ICT Academy Roorkee and NIT Hamirpur (Signed on 15 January 2019)</td></tr><tr class="mytr"><td></td><td>Water and Sanitation Support Organization (WSSO), Dhalli, Shimla and NIT Hamirpur (Signed on 27 July 2018)</td></tr><tr class="mytr"><td></td><td>E.I. Dupont Pvt. Ltd. Mumbai and NIT Hamirpur (Signed on 21 August 2017)</td></tr><tr class="mytr"><td></td><td>Ministry of Skill & Entrepreneurship Development (GOI) PMYUVA and NIT Hamirpur (Signed on 01 June 2017)</td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MOU Director Industries.pdf">Director of Industries Himachal Pradesh and NIT Hamirpur (Signed on 09 March 2017)</a></td></tr><tr class="mytr"><td></td><td>Mobile Tutor Private Limited, Chennai and NIT Hamirpur (Signed on 08 October 2015)</td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MOU MeitY.pdf">Ministry of Electronics & Information Technology (Meity) GOI and NIT Hamirpur (Signed on 31 July 2015)</a></td></tr><tr class="mytr"><td></td><td>Sant Longowal Institute of Engg. & Technology, Distt. Sangrur (Pb.) and NIT Hamirpur (Signed on 04 April 2013)</td></tr><tr class="mytr"><td></td><td>Central Tool Room, Focal Point Ludhiana (Pb.) and NIT Hamirpur (Signed on 05 March 2013)</td></tr><tr class="mytr"><td></td><td>National Institute of Secondary Steel Technology, Mandi Gobindgarh and NIT Hamirpur (Signed on 07 February 2013)</td></tr><tr class="mytr"><td></td><td>Malaviya NIT Jaipur, Rajasthan and NIT Hamirpur (Signed on 01 October 2012)</td></tr><tr class="mytr"><td></td><td>Narvik University, Norway and NIT Hamirpur (Signed on 10 February 2012)</td></tr><tr class="mytr"><td></td><td>I.I.T., Mandi (Himachal-Pradesh) and NIT Hamirpur (Signed on 27 October 2010)</td></tr><tr class="mytr"><td></td><td>PGP College of Engineering and Technology, Namakkal, Tamil-Nadu and NIT Hamirpur (Signed on 20 September 2010)</td></tr><tr class="mytr"><td></td><td>The H.P. Energy Development Agency (HIMURJA) and NIT Hamirpur (Signed on 29 July 2010)</td></tr><tr class="mytr"><td></td><td>Alliance of 4 Universities (A-4U) of Barcelona, Spain and NIT Hamirpur (Signed on 26 July 2010)</td></tr><tr class="mytr"><td></td><td>Eternal University, Akal College of Engineering & Technology, Baru Sahib, Himachal Pradesh – 173101 and NIT Hamirpur (Signed on 16 July 2010)</td></tr><tr class="mytr"><td></td><td>Solar Energy Centre, Ministry of New & Renewable Energy, (GOI), Lodhi Road, New Delhi- 110003 and NIT Hamirpur (Signed on 02 June 2010)</td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MOU CCBA Pune.pdf">Christopher Charles Benninger Architects Pvt. Ltd, House. 53, Sopan Bagh, Balewadi, Pune, (Maharashtra) and NIT Hamirpur (Signed on 14 March 2010)</a></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MOU SASE DRDO.pdf"> SASE Lab. (DRDO), Ministry of Defense, Sec- 30, Chandigarh and NIT Hamirpur (Signed on 11 March 2010)</a></td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MOU C-STAR.pdf">Commonwealth Science & Technology Academy for Research (C-STAR), Chennai, (Tamil-Nadu) and NIT Hamirpur (Signed on 05 March 2010)</a></td></tr><tr class="mytr"><td></td><td>Four Universities of Finland:-</br>a) Helsinki University of Technology, Finland.</br>b) University of Oulu Finland.</br>c) Tampere University of Technology Finland.</br>d) University of Tampere, Finland.</br>and NIT Hamirpur (Signed on 26 November 2009)</td></tr><tr class="mytr"><td></td><td><a href="/upload/mou/MOU Laurea Univ Finland.pdf">Laurea University of Applied Sciences, Finland and NIT Hamirpur (Signed on 26 November 2009)</a></td></tr><tr class="mytr"><td></td><td>Sardar Valabbhai National Institute of Technology, Surat, Gujrat and NIT Hamirpur (Signed on 09 February 2009)</td></tr><tr class="mytr"><td></td><td>Advance Technology, SCO 160, Ist Floor, Sector 24-D, Chandigarh and NIT Hamirpur (Signed on 08 January 2009)</td></tr><tr class="mytr"><td></td><td>Avake Technology (India) Pvt. Ltd., A-39, Sector 58, Noida (UP) and NIT Hamirpur (Signed on 07 January 2009)</td></tr><tr class="mytr"><td></td><td>DAV Institute of Engg. & Technology, Jalandhar, (Punjab) and NIT Hamirpur (Signed on 03 January 2009)</td></tr><tr class="mytr"><td></td><td>Dr. B.R. Ambedkar, NIT, Jalandhar, (Punjab) and NIT Hamirpur (Signed on 30 December 2008)</td></tr><tr class="mytr"><td></td><td>L. R. Institute of Engg. & Technology, Rajgarh Road, Solan (HP) and NIT Hamirpur (Signed on 27 December 2008)</td></tr><tr class="mytr"><td></td><td>Amritsar College of Engg. & Technology, Amritsar, (Punjab) and NIT Hamirpur (Signed on 23 December 2008)</td></tr><tr class="mytr"><td></td><td>Apex Institute of Management & Technology, Gorhgarh (Indri), Karnal, (Haryana) and NIT Hamirpur (Signed on 27 February 2008)</td></tr><tr class="mytr"><td></td><td>Sheffield Hallam University, Howard Street, Sheffield S1 1WB and NIT Hamirpur (Signed on 25 February 2008)</td></tr><tr class="mytr"><td></td><td>Small Industries Service Institute, Chambaghat, Solan, (HP) and NIT Hamirpur (Signed on 20 April 2007)</td></tr><tr class="mytr"><td></td><td>University of Technology, Sydney (UTS) and NIT Hamirpur (Signed on 02 November 2006)</td></tr><tr class="mytr"><td></td><td>HPSEB Shimla (HP) (TIFAC-Core) and NIT Hamirpur (Signed on 06 January 2006)</td></tr><tr class="mytr"><td></td><td>NIT Srinagar (J&K) under TEQIP and NIT Hamirpur (Signed on 02 December 2004)</td></tr><tr class="mytr"><td></td><td>Dr. B.R. Ambedkar, NIT, Jalandhar (Pb.) under TEQIP and NIT Hamirpur (Signed on 17 September 2004)</td></tr><tr class="mytr"><td></td><td>MHRD, New Delhi and NIT Hamirpur (Signed on 23 June 2004)</td></tr><tr class="mytr"><td></td><td>TIFAC-CORE, New Delhi and NIT Hamirpur (Signed on 10 February 2004)</td></tr></tbody></table><center><img src="https://nith.ac.in/uploads/topics/mous-graph16043082627589.jpg" /></center>
+                                            </div>
+                                                                                                                                                <div role="tabpanel" class="tab-pane departmentTab fade " id="32">   
+                        <!--<h3 class="innerPageHeading">Notices and Announcements</h3>-->
+                                                <h4>Notices and Announcements</h4><p>All faculty members of NIT Hamirpur are encouraged to submit quality project proposals to various funding agencies viz. DST, SERB, DRDO, CSIR, and others.</p><div class="table-responsive"><table class="table table-bordered mytabnum" style="width: 100%;" align="center"><thead><tr class="thcolor"><th style="width:7% !important; text-align:left !important;">Sl. No.</th><th style="width:60% !important; text-align:left !important;">Particulars</th><th style="width:20% !important; text-align:left !important;">Date of Notification</th></tr></thead><tbody><tr class="mytr"><td></td><td><a target="_blank" href="https://nith.ac.in/uploads/topics/sop-project17262353563100.pdf">Standard Operating Procedure for Project Utilization Certification</a></td><td>13/09/2024</td></tr><tr class="mytr"><td></td><td><a target="_blank" href="https://nith.ac.in/uploads/topics/office-order-rc16188225505437.pdf">Office Order:- Research and Consultancy Core Committee</a></td><td>19/04/2021</td></tr><tr class="mytr"><td></td><td><a target="_blank" href="https://nith.ac.in/uploads/topics/revised-check-list-r-c15988512721735.pdf">Notification regarding the Check list for submission of project proposals in the office of Dean (R&C) have been revised</a></td><td>27/08/2020</td></tr><tr class="mytr"><td></td><td><a target="_blank" href="https://nith.ac.in/wp-content/uploads/2019/12/rcircularresearch.pdf">Circular : – Research Project Proposals for Seed Money / Research Grant under the Scheme for Newly Recruited Faculty in NIT Hamirpur - Invited</a></td><td>12/12/2019</td></tr><tr class="mytr"><td></td><td><a target="_blank" href="https://nith.ac.in/wp-content/uploads/2019/03/RCCircular.pdf">Circular:- Research Project Proposals for Seed Money/ Research Grant</a></td><td>26/03/2019</td></tr><tr class="mytr"><td></td><td><a target="_blank" href="https://nith.ac.in/wp-content/uploads/2019/01/iprcommitte.pdf">Office Order :- regarding IPR-COMMITTE of NIT Hamirpur (HP) </a></td><td>31/10/2018</td></tr><tr class="mytr"><td></td><td><a target="_blank" href="https://nith.ac.in/wp-content/uploads/2019/01/iic.pdf">Office Order :- Regarding Institution's Innovation Council (IIC) for NIT Hamirpur (HP) </a></td><td>29/10/2018</td></tr><tr class="mytr"><td></td><td><a target="_blank" href="https://nith.ac.in/wp-content/uploads/2019/01/singlepoint.pdf">Office Order :- regarding Single Point Contact (SPoC) for Scheme for Promotion of Academic and Research Collaboration (SPARC)</a> </td><td>29/10/2018</td></tr><tr class="mytr"><td></td><td> <a target="_blank" href="https://nith.ac.in/wp-content/uploads/2019/01/officeorder12.pdf">Office Order </a></td><td>11/10/2018</td></tr><tr class="mytr"><td></td><td><a target="_blank" href="https://nith.ac.in/wp-content/uploads/2019/01/incubation.pdf"> Office Order :- regarding steering committee to streamline the various activities related to Incubation, Innovation & Entrepreneurship (IIE), NIT Hamirpur (HP) </a></td><td>01/10/2018</td></tr><tr class="mytr"><td></td><td><a target="_blank" href="https://nith.ac.in/wp-content/uploads/2019/01/core-committe.pdf">Notification :- regarding Research and Consultancy Core Committee, Workshop Organizing Committee and Publication Committee</a> </td><td>10/07/2018</td></tr></tbody></table></div>
+                                            </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+            <!-- end of Content Section -->
+
+            <!-- start footer -->
+            <footer  style="background: #02263c !important;">
+        <!--    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                                    <div class="widget contacts">
+                                        <h4 class="widgetheading"><i
+                                                    class="fa fa-phone-square"></i>&nbsp; Contact Details</h4>
+                                                                                    <address>
+                                                <strong>Address:</strong><br>
+                                                <i class="fa fa-map-marker"></i>
+                                                &nbsp;National Institute of Technology Hamirpur
+                                            </address>
+                                                                                                                                                            </div>
+
+                <div class="widget">
+                                        <h4 class="widgetheading"><i class="fa fa-bookmark"></i>&nbsp; </h4>
+                    <ul class="link-list">
+                                                
+                      
+                        
+                                                
+                        <li><a>Main Menu</a></li>
+                                                                    </ul>
+                </div>
+            </div>
+                                    <div class="col-lg-3">
+                <div class="widget">
+                    <h4 class="widgetheading"><i
+                            class="fa fa-rss"></i>&nbsp; Latest News
+                    </h4>
+                    <ul class="link-list">
+                                                                        <li>
+                            <a href="https://www.nith.ac.in/news/topic/235">Constitution Day Celebration</a>
+                        </li>
+                                                                        <li>
+                            <a href="https://www.nith.ac.in/73rd-independence-day-celebration">73rd Independence Day Celebration</a>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+                        <div class="col-lg-3">
+                <div class="widget">
+                                        <h4 class="widgetheading"><i class="fa fa-bookmark"></i>&nbsp; </h4>
+                    <ul class="link-list">
+                                                                        
+                        <li><a>Main Menu</a></li>
+                                                                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+        <div class="widget">
+            <h4 class="widgetheading"><i class="fa fa-envelope-open"></i>&nbsp; Our Newsletter</h4>
+            <p>Subscribe To Our Newsletter</p>
+            <div id="subscribesendmessage"><i class="fa fa-check-circle"></i> &nbsp;You have Subscribed</div>
+            <div id="subscribeerrormessage">Error: Please try again</div>
+
+            <form method="POST" action="https://www.nith.ac.in" accept-charset="UTF-8" class="subscribeForm"><input name="_token" type="hidden" value="U40cPF6KwBX2Vf91wJ3EvPSFqYllvvADpXyIIqq9">
+            <div class="form-group">
+                <input placeholder="Your Name" class="form-control" id="subscribe_name" data-msg="Please enter your name" data-rule="minlen:4" name="subscribe_name" type="text" value="">
+                <div class="alert alert-warning validation"></div>
+            </div>
+            <div class="form-group">
+                <input placeholder="Your Email" class="form-control" id="subscribe_email" data-msg="Please enter your email address" data-rule="email" name="subscribe_email" type="email" value="">
+                <div class="validation"></div>
+            </div>
+            <button type="submit" class="btn btn-info">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+        </div>
+    </div> -->
+        <div id="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright">
+                                                &copy; 2026 All Rights Reserved
+                       .<a></a>
+                    </div>
+                </div>
+<!--                <div class="col-lg-2">
+                    <ul class="social-network">
+                                                <li><a href="https://www.facebook.com/Official.NITHamirpur" data-placement="top" title="Facebook"
+                               target="_blank"><i
+                                    class="fa fa-facebook"></i></a></li>
+                                                                        <li><a href="https://twitter.com/nithamirpurhp" data-placement="top" title="Twitter"
+                               target="_blank"><i
+                                    class="fa fa-twitter"></i></a></li>
+                                                                                                <li><a href="https://www.linkedin.com/mwlite/in/nithamirpur-hamirpur-4688551b9" data-placement="top" title="linkedin"
+                               target="_blank"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                                                                                                <li><a href="#" data-placement="top" title="Instagram"
+                               target="_blank"><i
+                                    class="fa fa-instagram"></i></a></li>
+                                                                                                                        
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</footer>
+            <!-- end footer -->
+        </div>
+        <a href="#" title="to Top" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<script src="https://www.nith.ac.in/frontEnd/js/jquery.js"></script>
+<script src="https://www.nith.ac.in/frontEnd/js/jquery.easing.1.3.js"></script>
+<script src="https://www.nith.ac.in/frontEnd/js/bootstrap.min.js"></script>
+<script src="https://www.nith.ac.in/frontEnd/js/jquery.fancybox.pack.js"></script>
+<script src="https://www.nith.ac.in/frontEnd/js/jquery.fancybox-media.js"></script>
+<script src="https://www.nith.ac.in/frontEnd/js/google-code-prettify/prettify.js"></script>
+<script src="https://www.nith.ac.in/frontEnd/js/portfolio/jquery.quicksand.js"></script>
+<script src="https://www.nith.ac.in/frontEnd/js/portfolio/setting.js"></script>
+<script src="https://www.nith.ac.in/frontEnd/js/jquery.flexslider.js"></script>
+<script src="https://www.nith.ac.in/frontEnd/js/animate.js"></script>
+<script src="https://www.nith.ac.in/frontEnd/js/custom.js"></script>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi',
+        multilanguagePage: true,
+        autoDisplay: false
+    }, 'google_translate_element');
+    var a = document.querySelector("#google_translate_element select");
+    a.selectedIndex = 1;
+    a.dispatchEvent(new Event('change'));
+}
+
+
+</script>
+
+
+<script type="text/javascript" src="https://www.nith.ac.in/frontEnd/js/googletranslate.js?cb=googleTranslateElementInit"></script>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function ($) {
+    "use strict";
+
+    //Subscribe
+    $('form.subscribeForm').submit(function () {
+
+        var f = $(this).find('.form-group'),
+                ferror = false,
+                emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+
+        f.children('input').each(function () { // run all inputs
+
+            var i = $(this); // current input
+            var rule = i.attr('data-rule');
+
+            if (rule !== undefined) {
+                var ierror = false; // error flag for current input
+                var pos = rule.indexOf(':', 0);
+                if (pos >= 0) {
+                    var exp = rule.substr(pos + 1, rule.length);
+                    rule = rule.substr(0, pos);
+                } else {
+                    rule = rule.substr(pos + 1, rule.length);
+                }
+
+                switch (rule) {
+                    case 'required':
+                        if (i.val() === '') {
+                            ferror = ierror = true;
+                        }
+                        break;
+
+                    case 'minlen':
+                        if (i.val().length < parseInt(exp)) {
+                            ferror = ierror = true;
+                        }
+                        break;
+
+                    case 'email':
+                        if (!emailExp.test(i.val())) {
+                            ferror = ierror = true;
+                        }
+                        break;
+
+                    case 'checked':
+                        if (!i.attr('checked')) {
+                            ferror = ierror = true;
+                        }
+                        break;
+
+                    case 'regexp':
+                        exp = new RegExp(exp);
+                        if (!exp.test(i.val())) {
+                            ferror = ierror = true;
+                        }
+                        break;
+                }
+                i.next('.validation').html('<i class=\"fa fa-info\"></i> &nbsp;' + (ierror ? (i.attr('data-msg') !== undefined ? i.attr('data-msg') : 'wrong Input') : '')).show();
+                !ierror ? i.next('.validation').hide() : i.next('.validation').show();
+            }
+        });
+        if (ferror)
+            return false;
+        else
+            var str = $(this).serialize();
+        $.ajax({
+            type: "POST",
+            url: "https://www.nith.ac.in/subscribe",
+            data: str,
+            success: function (msg) {
+                if (msg == 'OK') {
+                    $("#subscribesendmessage").addClass("show");
+                    $("#subscribeerrormessage").removeClass("show");
+                    $("#subscribe_name").val('');
+                    $("#subscribe_email").val('');
+                } else {
+                    $("#subscribesendmessage").removeClass("show");
+                    $("#subscribeerrormessage").addClass("show");
+                    $('#subscribeerrormessage').html(msg);
+                }
+
+            }
+        });
+        return false;
+    });
+
+
+    // grab the initial top offset of the navigation 
+    var stickyNavTop = $('.stickywrapper').offset().top;
+
+    // our function that decides weather the navigation bar should have "fixed" css position or not.
+    var stickyNav = function () {
+
+        var scrollTop = $(window).scrollTop(); // our current vertical position from the top
+
+        // if we've scrolled more than the navigation, change its position to fixed to stick to top,
+        // otherwise change it back to relative
+        if (scrollTop > stickyNavTop) {
+            $('.stickywrapper').addClass('sticky');
+        } else {
+            $('.stickywrapper').removeClass('sticky');
+        }
+    };
+
+    stickyNav();
+    // and run it again every time you scroll
+    $(window).scroll(function () {
+        stickyNav();
+    });
+
+
+});
+</script>
+<!--<script type="text/javascript" src="https://www.nith.ac.in/frontEnd/js/jquery-3.5.1.js"></script>-->
+<script type="text/javascript" src="https://www.nith.ac.in/frontEnd/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.nith.ac.in/frontEnd/css/jquery.dataTables.min.css"/>
+<script>
+$(document).ready(function () {
+    $('#journalPublicationsTable').DataTable({
+        "pageLength": 100,
+    });
+
+    $('#researchProjectsTable').DataTable({
+        "pageLength": 100
+    });
+    $('#bookTable').DataTable({
+        "pageLength": 100
+    });
+    $('#MediaCoverage').DataTable({
+        "pageLength": 10,
+        "bLengthChange": false,
+        "bFilter": false,
+
+    });
+    $('#researchSuprivisedTable').DataTable({
+        "pageLength": 100
+    });
+    $('#yearClick').click();
+
+    $('.flexslider').flexslider({
+        animationSpeed: 300000
+    });
+    $(window).ready(function () {
+        setTimeout(function () {
+            $('#modal-subscribe').modal("show")
+        }, 2000)
+    })
+});
+</script>
+<script>
+    $(document).ready(function () {
+        document.oncontextmenu = document.body.oncontextmenu = function () {
+            return false;
+        }
+        document.onkeydown = function (e) {
+            if (e.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                return false;
+            }
+        }
+    });
+</script>
+
+
+
+
+        
+
+        
+
+
+    </body>
+</html>

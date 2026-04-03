@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+  <title>NIT Arunachal Pradesh</title>
+  <!--favicon-->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!-- Bootstrap core CSS-->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- animate CSS-->
+  <link href="assets/css/animate.css" rel="stylesheet" type="text/css"/>
+  <!-- Icons CSS-->
+  <link href="assets/css/icons.css" rel="stylesheet" type="text/css"/>
+  <!-- Custom Style-->
+  <link href="assets/css/app-style.css" rel="stylesheet"/>
+  <script src="jquery.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  $('.in').on('input',function() {
+    var allvals = $('.in').map(function() { 
+        return this.value; 
+    }).get().join('');
+    $('.out').val( allvals );
+  });
+});
+</script>
+  <script type="text/javascript">
+$(document).bind('ctrl+s', function () {
+        $('#save').click();
+        return false;
+    });
+</script>
+<script type="text/javascript">
+  $(function() {
+    $('#FirstName').keydown(function(e) {
+       if (e.shiftKey || e.ctrlKey || e.altKey) {
+        e.preventDefault();
+      } else {
+        var key = e.keyCode;
+        if (!((key == 8) || (key >= 65 && key <= 90) ||(key >= 48 && key <= 57)||(key == 190))) {
+          e.preventDefault();
+        }
+      }
+    });
+
+  });
+   
+</script>
+<script>
+    if ( window.history.replaceState ) {
+      window.history.replaceState( null, null, window.location.href );
+    }
+</script>
+</head>
+
+<body class="bg-light"oncontextmenu="return false">
+ <!-- Start wrapper-->
+ <div id="wrapper">
+    <div align="center"><h3><img src="img/icon.png" width="106" height="100" alt="">Faculty Login</h3>
+   </div>
+<div class="card card-authentication1 mx-auto my-5 animated zoomIn bg-dark">
+
+		<div class="card-body">
+		 <div class="card-content p-2">
+		  <div class="text-center">
+		 		<img src="assets/images/logo-icon.png"/>
+		 	</div>
+		  <div class="card-title text-uppercase text-center py-2 text-white">Sign In</div>
+
+		    <form action="" method="POST">
+            
+			  <div class="form-group">
+			   <div class="position-relative has-icon-left">
+				  <label for="exampleInputUsername" class="sr-only">Username</label>
+                 
+				  <input type="text" id="FirstName" class="in form-control"  placeholder="Email" required>
+                  <input type="hidden" class="in" name="c1" value="@nitap.ac.in">
+                  <input class="out" name="username" type="hidden" />
+                  <span class="text-white">@nitap.ac.in</span>
+                 
+				  <div class="form-control-position">
+					  <i class="icon-user"></i>
+				  </div>
+			   </div>
+			  </div>
+			  <div class="form-group">
+			   <div class="position-relative has-icon-left">
+				  <label for="exampleInputPassword" class="sr-only">Password</label>
+				  <input type="password" id="exampleInputPassword" class="form-control" name="password"  placeholder="Password" required>
+				  <div class="form-control-position">
+					  <i class="icon-lock"></i>
+				  </div>
+			   </div>
+			  </div>
+             
+               <div class="form-group">
+			  
+               
+               <button type="submit" name="login" class="btn btn-danger btn-block waves-effect waves-light">Sign in</button>
+			 </div>
+			 <span class="text-white">Forget Password? </span> <a href="reset-password.php">Click here</a>
+			 
+              
+			<div class="form-row mr-0 ml-0">
+			 
+			 
+			</div>
+			
+			 
+			
+			  
+			 </form>
+            
+		   </div>
+		  </div>
+          
+	     </div>
+         <div align="center">A Unique CMS System for Education
+           <!--End Back To Top Button-->
+	</div>
+    </div>
+ <!--wrapper-->
+	
+  <!-- Bootstrap core JavaScript-->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/waves.js"></script>
+  <script src="assets/js/app-script.js"></script>
+	
+</body>
+</html>

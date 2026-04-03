@@ -1,0 +1,104 @@
+{
+  "institute": "IIT Palakkad",
+  "also_known_as": "IIT-PKD",
+  "institute_type": "IIT",
+  "established_year": 2015,
+  "city": "Palakkad",
+  "state": "Kerala",
+  "address": "Indian Institute of Technology Palakkad, Kanjikode, Kerala - 678623",
+  "nearest_airport": "Coimbatore International Airport",
+  "nearest_airport_km": 74.0,
+  "nearest_railway_station": "Palakkad Junction Railway Station",
+  "nearest_railway_km": 14.0,
+  "nirf_overall_rank": 101,
+  "nirf_engineering_rank": 64,
+  "caution_money": 2000,
+  "one_time_fees": 5500,
+  "tuition_fee_per_sem": 100000,
+  "total_institute_fee": 112100,
+  "hostel_fee_per_sem": 6500,
+  "mess_advance_per_sem": 20000,
+  "total_hostel_fee": 38400,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 82.03,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 84.21,
+    "Computer Science and Engineering": 93.02,
+    "Electrical Engineering": 69.44,
+    "Mechanical Engineering": 80.0,
+    "Overall": 82.03
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 10.0,
+    "Computer Science and Engineering": 18.0,
+    "Electrical Engineering": 14.1,
+    "Mechanical Engineering": 10.0,
+    "Overall": 11.5
+  },
+  "median_package_lpa": 12.72,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 10.22,
+    "Computer Science and Engineering": 21.16,
+    "Electrical Engineering": 14.77,
+    "Mechanical Engineering": 11.6,
+    "Overall": 13.93
+  },
+  "avg_package_lpa": 14.34,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iit-palakkad",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-palakkad",
+  "last_scraped_at": "2026-03-31T16:01:47.854482",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitpkd.ac.in",
+  "phd_available": true,
+  "infrastructure": {
+    "labs": [
+      "Innovation Technology Innovation Foundation Technology IHub Foundation CSquare Innovation Lab",
+      "CSquare Innovation Lab"
+    ],
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "The Institute Journey so far Chairman BoG Director Director's Message Governance Advisory Council Senate",
+        "country": null
+      },
+      {
+        "university": "Infrastructure & Support Hostels Guest House Career Development Center Institute Clinic Wellness Hub English Language Support",
+        "country": null
+      },
+      {
+        "university": "Institute Clinic",
+        "country": null
+      },
+      {
+        "university": "The Institute Journey so far Chairman BoG Director Director's Message Governance Advisory Council Senate",
+        "country": null
+      },
+      {
+        "university": "Infrastructure & Support Hostels Guest House Career Development Center Institute Clinic Wellness Hub English Language Support",
+        "country": null
+      },
+      {
+        "university": "Institute Clinic",
+        "country": null
+      },
+      {
+        "university": "Institute Hostel Accommodation Request",
+        "country": null
+      }
+    ]
+  }
+}

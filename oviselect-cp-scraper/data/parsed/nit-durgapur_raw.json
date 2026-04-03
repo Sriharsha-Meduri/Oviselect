@@ -1,0 +1,80 @@
+{
+  "institute": "NIT Durgapur",
+  "also_known_as": "NITDGP",
+  "institute_type": "NIT",
+  "established_year": 1960,
+  "city": "Durgapur",
+  "state": "West Bengal",
+  "address": "National Institute of Technology, Mahatma Gandhi Avenue, Durgapur, West Bengal - 713209",
+  "nearest_airport": "Kazi Nazrul Islam Airport, Durgapur",
+  "nearest_airport_km": 14.0,
+  "nearest_railway_station": "Durgapur Railway Station",
+  "nearest_railway_km": 8.5,
+  "nirf_overall_rank": 101,
+  "nirf_engineering_rank": 49,
+  "the_week_rank": 24,
+  "caution_money": 10000,
+  "one_time_fees": 5500,
+  "tuition_fee_per_sem": 62500,
+  "total_institute_fee": 94600,
+  "hostel_fee_per_sem": 10000,
+  "total_hostel_fee": 16500,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 70.93,
+  "branch_wise_placement_pct": {
+    "Bio Technology": 28.57,
+    "Chemical Engineering": 100.0,
+    "Civil Engineering": 60.29,
+    "Computer Science and Engineering": 75.54,
+    "Electrical Engineering": 83.84,
+    "Electronics and Communication Engineering": 64.95,
+    "Mechanical Engineering": 73.96,
+    "Metallurgical and Materials Engineering": 82.14,
+    "Overall (B.Tech.)": 70.93,
+    "Biotechnology": 66.67,
+    "Chemistry": 66.67,
+    "Overall (UG)": 71.06
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Bio Technology": 10.37,
+    "Chemical Engineering": 9.08,
+    "Civil Engineering": 6.5,
+    "Computer Science and Engineering": 17.75,
+    "Electrical Engineering": 11.89,
+    "Electronics and Communication Engineering": 13.0,
+    "Mechanical Engineering": 9.0,
+    "Metallurgical and Materials Engineering": 8.5,
+    "Overall (UG)": 10.0
+  },
+  "median_package_lpa": 10.68,
+  "branch_wise_avg_ctc": {
+    "Bio Technology": 8.94,
+    "Chemical Engineering": 9.12,
+    "Civil Engineering": 7.34,
+    "Computer Science and Engineering": 21.41,
+    "Electrical Engineering": 14.48,
+    "Electronics and Communication Engineering": 17.5,
+    "Mechanical Engineering": 9.78,
+    "Metallurgical and Materials Engineering": 8.83,
+    "Overall (UG)": 13.62
+  },
+  "avg_package_lpa": 12.34,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years",
+    "Integrated M.Sc. - 5 Years"
+  ],
+  "_slug": "nit-durgapur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-durgapur",
+  "last_scraped_at": "2026-03-31T16:02:25.411622",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitdgp.ac.in"
+}

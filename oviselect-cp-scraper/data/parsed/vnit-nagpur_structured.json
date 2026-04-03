@@ -1,0 +1,1067 @@
+{
+  "institute": "VNIT, Nagpur",
+  "institute_type": "NIT",
+  "also_known_as": "VNIT",
+  "established_year": 1960,
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "address": "Visvesvaraya National Institute of Technology, South Ambazari Road, Nagpur, Maharashtra - 440010",
+  "nearest_airport": "Dr. Babasaheb Ambedkar International Airport, Nagpur",
+  "nearest_airport_km": 7.5,
+  "nearest_railway_station": "Nagpur Junction Railway Station",
+  "nearest_railway_km": 7.0,
+  "nirf_overall_rank": 86,
+  "nirf_engineering_rank": 44,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": "791-800 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": 19,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 3000,
+  "mess_advance_per_sem": 20000,
+  "one_time_fees": 5500,
+  "caution_money": 10000,
+  "annual_fees": null,
+  "total_institute_fee": 83225,
+  "total_hostel_fee": 32650,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 76.47,
+  "avg_package_lpa": 10.52,
+  "median_package_lpa": 8.91,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 69.88,
+    "Civil Engineering": 64.56,
+    "Computer Science and Engineering": 84.62,
+    "Electrical and Electronics Engineering": 76.7,
+    "Electronics and Communication Engineering": 71.03,
+    "Mechanical Engineering": 90.57,
+    "Metallurgical and Materials Engineering": 77.11,
+    "Mining Engineering": 63.89,
+    "Overall (B.Tech.)": 76.47,
+    "Architecture": 18.52,
+    "Overall (B.Arch.)": 18.52
+  },
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 8.5,
+    "Civil Engineering": 7.5,
+    "Computer Science and Engineering": 14.0,
+    "Electrical and Electronics Engineering": 10.5,
+    "Electronics and Communication Engineering": 13.0,
+    "Mechanical Engineering": 9.77,
+    "Metallurgical and Materials Engineering": 8.0,
+    "Mining Engineering": 9.35,
+    "Overall (B.Tech.)": 10.0,
+    "Architecture": 3.69,
+    "Overall (B.Arch.)": 3.69
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 10.23,
+    "Civil Engineering": 7.37,
+    "Computer Science and Engineering": 19.83,
+    "Electrical and Electronics Engineering": 12.57,
+    "Electronics and Communication Engineering": 13.55,
+    "Mechanical Engineering": 10.35,
+    "Metallurgical and Materials Engineering": 9.49,
+    "Mining Engineering": 11.36,
+    "Overall (B.Tech.)": 12.14,
+    "Architecture": 4.39,
+    "Overall (B.Arch.)": 4.39
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Civil Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Dilip H. Lataye",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Prem Lal Patel",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. Yashwant B. Katpatal",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. Rajesh Gupta",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. Ajay R. Tembhurkar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Aniruddha D. Ghare",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Vishrut S. Landge",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Rahul V. Ralegaonkar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. M.V. Latkar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Anirban Mandal",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Avinash D. Vasudeo",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Anjan Patel",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ashwini Baswaraj Mirajkar",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Mangesh Madurwar",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Shilpa R. Dongre",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Shrabony Adhikary",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Abhay Tawalare",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. S.P. Wanjari",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Srinivasan V",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Udit Jain",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Amit Harihar Padade",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Karthik Balasundaram",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sita Rami Reddy",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Vaidehi Dakwale",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Arpita Saha",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Swati Bhave",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Suresh Kumar Thappeta",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Abhijit D. Lade",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 28
+    },
+    {
+      "name": "Computer Science & Engineering",
+      "faculty": [
+        {
+          "name": "Dr. P. S. Deshpande",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. U. A. Deshpande",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. R. Sathe",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. O. G. Kakde",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. B. Keskar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A. S. Mokhade",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Meera Dhabu",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. A. Raut",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M. P. Kurhekar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Poonam Sharma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Praveen Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. D. D. Shrimankar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ashish S. Tiwari",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Mansi A. Radke",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Syed Taqi Ali",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Anshul Agarwal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Swati Jaiswal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Gaurav Mishra",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Prashanth PVN",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Nidhi Lal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Hemkumar D",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Swapan Maiti",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 22
+    },
+    {
+      "name": "Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Kailas L. Wasewar Professor & Head of the Department",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ashish S. Chaurasia",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Mahesh N. Varma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sachin A. Mandavgane",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Shriram S. Sonawane",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ajit P. Rathod",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vijayakumar R.P",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Diwakar Z. Shende",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Pradip B. Dhamole",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ravi N. Methekar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Arijit Das",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Shyam M. Kodape",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ashwin Kannan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sonali Hiwarkar Tajane",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ashwin P. Gaikwad",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Piyush P. Wanjari",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 16
+    },
+    {
+      "name": "Electrical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. M. S. Ballal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. H.M. Suryawanshi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. (Mrs.) M. A. Chaudhari",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P.S. Kulkarni",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M.R. Ramteke",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. S. Bhat",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V.S. Kale",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. (Mrs.) N. R. Patne",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ritesh Kumar Keshri",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Pradyumn Chaturvedi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M.M. Lokhande",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. (Mrs.) R. J. Satputaley",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A. Dhabale",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Arghya Mitra",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Bhooshan Rajpathak",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Krishnama Raju Suraparaju",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ramsha Karampuri",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jay Prakash Singh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Avisha Tah",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Soumyabrata Das",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jawaharlal Bhukya",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Mohd Alam",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Narendrababu A",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 23
+    },
+    {
+      "name": "Electronics & Communication Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Ashwin Kothari",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A. S. Gandhi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K. M. Bhurchandi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vishal R. Satpute",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Prabhat Kumar Sharma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Saugata Sinha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Deep Gupta",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Pradnya H. Ghare",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Joydeep Sengupta",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Neeraj Rao",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ankit A. Bhurane",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K. Surender",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Punitkumar Bhavsar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Anamika Singh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Praveen Pawar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Amit Agarwal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Arvind Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vipin Kamble",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Shyamkant Limaye",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A. G. Keskar",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 20
+    },
+    {
+      "name": "Mathematics",
+      "faculty": [
+        {
+          "name": "Dr. Pallavi Mahale",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. G. P. Singh",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. P. P. Chakravarthy",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. M. Devakar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. G. Naga Raju",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. P. Roul",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Deepesh Patel",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Jyoti Singh",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sourav Pradhan",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Vishnu Pratap Singh",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Purnima Satapathy",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sourav Bhattacharya",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Mohan Kumar Mallick",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Neelima Bhengra",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 14
+    },
+    {
+      "name": "Mechanical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. A. B. Andhare",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. A. M. Kuthe",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. B. Thombre",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. R. Kalamkar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Y. M. Puri",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. J. G. Suryawanshi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. V. Uddanwadikar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. S. Chiddarwar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. D. B. Zodpe",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A. S. Dhoble",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. H.P. Jawale",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M. S. Kotambkar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A. K. Singh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Trushar B. Gohil",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. T. V. K. Gupta",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ravikumar Dumpala",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. D. A. Jolhe",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P. V. Kane",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. M. Nistane",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Gaurav Tiwari",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sukanta Roga",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A. A. Thakre",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K. M. Asthankar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P. D. Sawarkar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. K. Lautre",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N Anvesh Reddy",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ajinkya A Baxy",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rahul Tarodiya",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rajendra Prasad Soni",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 29
+    },
+    {
+      "name": "Metallurgical & Materials Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Dilip R. PeshweProfessor (HAG) & HOD",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sanjay G. Sapate",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jatin G. Bhatt",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ajay A. Likhite",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Atul R. Ballal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rajesh K. Khatirkar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ramesh C. Rathod",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ravindra V. Taiwade",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Manjusha M. Thawre",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Yogesh Y. Mahajan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ajeet K. Srivastav",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Avishkar B. Rathod",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Amrut V. Agasti",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Chaitanya A. Joshi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Yarlagadda Madhavi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Anil Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Seelam Rajasekhar Reddy",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Abhinav Arya",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sanket Mehar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Tilak Bhattacharjee",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 20
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "Dr. Babasaheb R. Sankapal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rupesh S. Gedam",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Anuradha V. Deshpande",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Gali Hema Chandra",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sushama M. Giripunje",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M. S. Ramkarthik",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Poorva Singh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Oroosa Subohi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Udaysinh T. Bhosale",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sayandip Ghosh",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 10
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [
+        {
+          "name": "Dr. Sujit K. Ghosh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Suresh S. Umare",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jayant D. Ekhe",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Anupama Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Chayan Das",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ramani V. Motghare",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Atul V. Wankhade",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Umesh R. Pratap",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sangesh P. Zodape",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Susanta K. Nayak",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sorokhaibam Laxmi Gayatri",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Abhishek Banerjee",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sandipan Halder",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 13
+    },
+    {
+      "name": "Architecture & Planning"
+    },
+    {
+      "name": "Information Technology"
+    },
+    {
+      "name": "Applied Mechanics",
+      "faculty": [
+        {
+          "name": "Prof. Sangeeta Gadve",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R.K. Ingle",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. O.R. Jaiswal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. S. Sonparote",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. (Mrs) Sangeeta Gadve",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sachin V. Bakre",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ratnesh Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sanjay B. Borghate",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Debarati Datta",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Arvind Y. Vyavahare",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Manmohan Dass Goel",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A.P. Khatri",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sonal Dhanvijay",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rahul Biswas",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Prachi Mishra",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sadique Ameen",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Hemanth Kumar Karaka",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Geetopriyo Roy",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sharad Singh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jogi Pranitha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. G. R. Reddy, Ph.D (TMU, Japan)",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 21
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": null,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.vnit.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 75,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/vnit-nagpur",
+  "last_scraped_at": "2026-03-31T16:11:55.135062",
+  "department_count": 13,
+  "total_faculty": 216
+}

@@ -1,0 +1,178 @@
+{
+  "institute": "IIT Madras",
+  "also_known_as": "IITM",
+  "institute_type": "IIT",
+  "established_year": 1959,
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "address": "Indian Institute of Technology Madras, Sardar Patel Road, Chennai, Tamil Nadu - 600036",
+  "nearest_airport": "Chennai International Airport",
+  "nearest_airport_km": 14.0,
+  "nearest_railway_station": "Chennai Central Railway Station",
+  "nearest_railway_km": 14.0,
+  "qs_world_rank": "180 (2026)",
+  "qs_asia_rank": "70 (2026)",
+  "nirf_overall_rank": 1,
+  "nirf_engineering_rank": 1,
+  "nirf_research_rank": 2,
+  "nirf_innovation_rank": "1 (2025)",
+  "outlook_rank": 1,
+  "the_week_rank": 3,
+  "caution_money": 5000,
+  "one_time_fees": 16000,
+  "tuition_fee_per_sem": 100000,
+  "annual_fees": 2301,
+  "total_institute_fee": 136301,
+  "hostel_fee_per_sem": 15250,
+  "mess_advance_per_sem": 17322,
+  "total_hostel_fee": 37572,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Aerospace Engineering": 14.1,
+    "Biotechnology": 16.0,
+    "Chemical Engineering": 15.92,
+    "Civil Engineering": 15.76,
+    "Computer Science and Engineering": 30.37,
+    "Electrical Engineering": 21.28,
+    "Engineering Design": 15.75,
+    "Engineering Physics": 22.06,
+    "Mechanical Engineering": 15.92,
+    "Metallurgy and Materials Engineering": 15.3,
+    "Ocean Engineering": 17.0,
+    "Overall (UG)": 17.0
+  },
+  "median_package_lpa": 18.04,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Sc. - 4 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years",
+    "B.Sc. + M.Sc. (Dual Degree) - 5 Years"
+  ],
+  "_slug": "iit-madras",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-madras",
+  "last_scraped_at": "2026-03-31T16:01:36.166148",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitm.ac.in",
+  "placement_officer": {
+    "phone": "2025 - 26"
+  },
+  "top_recruiters": [
+    "IIT Madras",
+    "G20",
+    "Overview",
+    "Governing Board",
+    "Academic Administration",
+    "Senate",
+    "Administration Section",
+    "Building and Works Committee",
+    "Central Administration",
+    "Complaint Committee",
+    "Convenors and Coordinators",
+    "Engineering Unit",
+    "Finance Committee",
+    "High Power Committee - SC/ST",
+    "High Power Committee - OBC",
+    "Institutional Ethics Committee",
+    "Recruitment and Promotion Norms",
+    "Right to Information",
+    "Technical Committee",
+    "Alumni and Corporate Relations",
+    "Global Engagement",
+    "Climate Action Plan",
+    "IITM Strategic Plans",
+    "Dean Students",
+    "Online BSc Programme",
+    "Undergraduate Programmes",
+    "Postgraduate Programmes",
+    "Research Programmes",
+    "International Masters\u2019 Program",
+    "Exchange Programmes",
+    "Joint Degree Programmes",
+    "{item.title.content|raw}}",
+    "Centre of Excellence in Wireless Technology (CEWiT)",
+    "National Cancer Tissue Biobank (NCTB)",
+    "Centre for Computational Brain Research",
+    "Centre for Railway Research",
+    "International Centre for Clean Water (ICCW)",
+    "Indo-German Centre for Sustainability",
+    "Healthcare Technology Innovation Centre (HTIC)",
+    "IITM China Studies Centre",
+    "Centre for NEMS and Nanophotonics (CNNP)",
+    "Centre for Technology and Policy (CTaP)",
+    "Department of Aerospace Engineering",
+    "Department of Applied Mechanics",
+    "Department of Biotechnology",
+    "Department of Chemical Engineering",
+    "Department of Chemistry",
+    "Department of Civil Engineering",
+    "Department of Computer Science & Engineering",
+    "Department of Electrical Engineering",
+    "Department of Engineering Design",
+    "Department of Humanities and Social Sciences",
+    "Department of Management Studies",
+    "Department of Mathematics",
+    "Department of Mechanical Engineering",
+    "Department of Metallurgical and Materials Engineering",
+    "Department of Ocean Engineering",
+    "Department of Physics",
+    "Industrial Consultancy",
+    "Incubation Cell"
+  ],
+  "research": {
+    "funding_agencies": [
+      "SERB"
+    ]
+  },
+  "phd_available": true,
+  "infrastructure": {
+    "has_bank_atm": true,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "clubs": [
+      "Research Park IITM Research Park Incubation Cell IITM Bioincubator IITM Pravartak",
+      "Incubation Cell"
+    ],
+    "technical_fests": [
+      "Academics Overview Study @ IITM Non-campus BS programmes Undergraduate Programmes Postgraduate Programmes Research Programmes International Masters\u2019 Program (I2MP) Joint Degree Programmes Exchange Programmes Departments Aerospace Engineering Applied Mechanics & Biomedical Engineering Biotechnology Chemical Engineering Chemistry Civil Engineering Computer Science and Engineering Data Science & Artificial Intelligence Electrical Engineering Engineering Design Humanities and Social Sciences Management Studies Mathematics Mechanical Engineering Medical Science and Technology Metallurgical and Materials Engineering Ocean Engineering Physics Learning for All Centre for Outreach and Digital Education (CODE) National Programme (NPTEL) Global Initiative (GIAN) Teaching Learning Centre Academic Calendar Academic Curricula Academic Facilities Central Library P G Senapathy Computer Centre Central Skill Training and Fabrication Facility (CSTF) Academic Services Timetable Fees Scholarships & Financial Assistance Ordinances Transcripts & Other Academic Services Duplicate Degree Orientation Programme Downloads Inclusive Education Services",
+      "Departments Aerospace Engineering Applied Mechanics & Biomedical Engineering Biotechnology Chemical Engineering Chemistry Civil Engineering Computer Science and Engineering Data Science & Artificial Intelligence Electrical Engineering Engineering Design Humanities and Social Sciences Management Studies Mathematics Mechanical Engineering Medical Science and Technology Metallurgical and Materials Engineering Ocean Engineering Physics",
+      "Biotechnology",
+      "Medical Science and Technology",
+      "Research Research Highlights Research Areas National Research Centres Indo-German Centre for Sustainability National Cancer Tissue Biobank (NCTB) National Centre for Combustion Research and Development (NCCRD) National Technology Centre for Ports, Waterways and Coasts (NTCPWC) Institute Research Centres Advanced Manufacturing Technology Development Centre (AMTDC) Centre for Computational Brain Research Centre of Excellence in Wireless Technology (CEWiT) Centre for NEMS and Nanophotonics (CNNP) Centre for Railway Research Centre for Technology and Policy (CTAP) Healthcare Technology Innovation Centre (HTIC) IITM China Studies Centre International Centre for Clean Water (ICCW) Robert Bosch Centre for Data Science and Artificial Intelligence TTK Center for Rehabilitation Research and Device Development (R2D2) The Centre of Excellence for Zero Emission Trucking (CoEZET) Research Facilities Sophisticated Analytical Instrumentation Centre (SAIF) Central Electronic Centre (CEC) High Performance Computing Environment (HPCE) SERB National Facility for Cryo - Electron Microscopy (CryoEM) IITM Journal",
+      "National Research Centres Indo-German Centre for Sustainability National Cancer Tissue Biobank (NCTB) National Centre for Combustion Research and Development (NCCRD) National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
+      "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
+      "Institute Research Centres Advanced Manufacturing Technology Development Centre (AMTDC) Centre for Computational Brain Research Centre of Excellence in Wireless Technology (CEWiT) Centre for NEMS and Nanophotonics (CNNP) Centre for Railway Research Centre for Technology and Policy (CTAP) Healthcare Technology Innovation Centre (HTIC) IITM China Studies Centre International Centre for Clean Water (ICCW) Robert Bosch Centre for Data Science and Artificial Intelligence TTK Center for Rehabilitation Research and Device Development (R2D2) The Centre of Excellence for Zero Emission Trucking (CoEZET)",
+      "Advanced Manufacturing Technology Development Centre (AMTDC)",
+      "Centre of Excellence in Wireless Technology (CEWiT)",
+      "Centre for Technology and Policy (CTAP)",
+      "Healthcare Technology Innovation Centre (HTIC)",
+      "Innovation Industrial Consultancy Gopalakrishnan-Deshpande Centre Technology Transfer Centre for Innovation",
+      "Technology Transfer",
+      "Campus Life Overview Wellness Community Centre Hostel Life Student Governance Women's Forum Sports Clubs Technology & Innovation Student Activities Social Consciousness Campus Festivals Campus Publications Campus Amenities Other Facilities",
+      "Technology & Innovation",
+      "Centre for Technology and Policy (CTaP)"
+    ],
+    "has_nss": false,
+    "has_ncc": false
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Institute Professors",
+        "country": null
+      },
+      {
+        "university": "Institute Professors",
+        "country": null
+      }
+    ]
+  }
+}

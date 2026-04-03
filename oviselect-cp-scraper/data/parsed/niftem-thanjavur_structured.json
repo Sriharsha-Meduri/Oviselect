@@ -1,0 +1,406 @@
+{
+  "institute": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+  "institute_type": "GFTI",
+  "also_known_as": "IIFPT Thanjavur",
+  "established_year": 1967,
+  "city": "Thanjavur",
+  "state": "Tamil Nadu",
+  "address": "National Institute of Food Technology, Entrepreneurship and Management - Thanjavur, Pudukkottai Road, Thanjavur, Tamil Nadu - 613005",
+  "nearest_airport": "Tiruchirappalli International Airport",
+  "nearest_airport_km": 56.5,
+  "nearest_railway_station": "Thanjavur Junction Railway Station",
+  "nearest_railway_km": 7.0,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": 101,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 46170,
+  "hostel_fee_per_sem": 15000,
+  "mess_advance_per_sem": 25000,
+  "one_time_fees": 19500,
+  "caution_money": 5000,
+  "annual_fees": null,
+  "total_institute_fee": 99500,
+  "total_hostel_fee": 45000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST students."
+  ],
+  "overall_placement_pct": null,
+  "avg_package_lpa": null,
+  "median_package_lpa": 1.39,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": null,
+  "branch_wise_median_ctc": {
+    "Big Basket": 1.0,
+    "Dept of Agriculture, GOK": 1.0,
+    "Favourich": 2.0,
+    "Flipkart": 1.0,
+    "FSSAI": 1.0,
+    "GRB Foods": 1.0,
+    "ID Fresh": 1.0,
+    "IISR": 1.0,
+    "Jayakrishna Flour Mill": 2.0,
+    "Kongu Engineering College": 1.0,
+    "Roligt Foods": 1.0,
+    "SBI": 1.0,
+    "Stellarix": 3.0,
+    "Symega": 3.0,
+    "Tai Research Info Tech": 2.0,
+    "Tata Smart Foods": 1.0,
+    "Unibourne": 1.0,
+    "Vigyan University": 1.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": null,
+  "top_recruiters": [
+    "1.png",
+    "2.jpeg",
+    "3.jpg",
+    "- Prof. V Palanimuthu Director, NIFTEM-T",
+    "9.jpeg",
+    "8.jpeg",
+    "7.jpeg",
+    "6.jpeg",
+    "5.jpg",
+    "4.jpg",
+    "19.jpg",
+    "18.jpg",
+    "17.jpg",
+    "16.jpg",
+    "15.jpg",
+    "14.jpg",
+    "13.jpg",
+    "12.jpg",
+    "11.jpg",
+    "10.jpg",
+    "1.jpeg",
+    "6.jpg",
+    "2.jpg",
+    "1.jpg",
+    "5.jpeg",
+    "4.png",
+    "3.png",
+    "2.png",
+    "02.png",
+    "01.png",
+    "5.svg",
+    "036.png",
+    "035.png",
+    "034.png",
+    "033.png",
+    "032.png",
+    "031.png",
+    "030.png",
+    "029.png",
+    "028.png",
+    "027.png",
+    "026.png",
+    "025.png",
+    "024.png",
+    "023.jpeg",
+    "022.png",
+    "021.png",
+    "020.jpeg",
+    "019.jpg",
+    "018.png",
+    "017.jpeg",
+    "016.jpeg",
+    "015.jpeg",
+    "014.jpeg",
+    "013.png",
+    "012.png",
+    "011.png",
+    "010.png",
+    "009.png",
+    "008.png"
+  ],
+  "placement_year": 2023,
+  "placement_officer": {
+    "name": null,
+    "designation": null,
+    "email": "director@niftem-t.ac.in",
+    "phone": "2022-2026"
+  },
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Food Business Management",
+      "faculty": [
+        {
+          "name": "Dr. D.V. Chidanand",
+          "designation": "Associate Professor",
+          "email": "chidanand@niftem-t.ac.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. Goutam Das",
+          "designation": "Associate Professor",
+          "email": "goutam@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. S.Praveena",
+          "designation": "Teaching Faculty (C) (Food and Agribusiness Management)",
+          "email": "iifpt@edu.in",
+          "research_interests": null
+        }
+      ],
+      "faculty_count": 3
+    },
+    {
+      "name": "Food Engineering",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Food Science and Technology",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Plantation Products Spices and Flavour Technology",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Food Process Engineering",
+      "faculty": [
+        {
+          "name": "Dr. N. Venkatachalapathy",
+          "designation": "Professor Dean (RC & IR)",
+          "email": "venkat@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. Ashish Rawson",
+          "designation": "Professor",
+          "email": "ashish.rawson@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. K.A. Athmaselvi",
+          "designation": "Professor",
+          "email": "athmaselvi@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. Sunil C.K",
+          "designation": "Associate Professor",
+          "email": "sunil.ck@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. Jeyan Arthur Moses",
+          "designation": "Assistant Professor",
+          "email": "moses.ja@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. M. Tito Anand",
+          "designation": "Assistant Professor",
+          "email": "tito@iifpt.edu.in",
+          "research_interests": [
+            "Food Process Engineering"
+          ]
+        },
+        {
+          "name": "Dr. R. Paranthaman Asst. Chief Technical Officer paranthhu@gmail.com Specialization : Biotechnology and Analytical Instrumentation Shri. K. Saminathan Technical",
+          "designation": null,
+          "email": "paranthhu@gmail.com",
+          "research_interests": [
+            "Biotechnology and Analytical Instrumentation"
+          ]
+        }
+      ],
+      "faculty_count": 7
+    },
+    {
+      "name": "Food Process Technology",
+      "faculty": [
+        {
+          "name": "Dr. R. Jaganmohan",
+          "designation": "Professor Dean (SW)",
+          "email": "jagan@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. S. Akalya",
+          "designation": "Professor",
+          "email": "akalya@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. V.Chandrasekar",
+          "designation": "Professor",
+          "email": "vchandrasekar@iifpt.edu.in",
+          "research_interests": null
+        }
+      ],
+      "faculty_count": 3
+    },
+    {
+      "name": "Food Safety and Quality Assurance",
+      "faculty": [
+        {
+          "name": "Dr. R. Vidyalakshmi",
+          "designation": "Professor and Quality Manager (Food Testing Laboratory)",
+          "email": "rvidya@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. S. Vignesh",
+          "designation": "Professor",
+          "email": "vignesh@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. S. Bhuvana",
+          "designation": "Professor",
+          "email": "bhuvana@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. N. Baskaran",
+          "designation": "Assistant Professor",
+          "email": "baskaran@iifpt.edu.in",
+          "research_interests": [
+            "Biochemistry"
+          ]
+        },
+        {
+          "name": "Dr. R. Karthikeyan Technical Officer krbiotech@gmail.com Specialization: Biotechnology and Analytical Instrumentation Shri. P. Rajendran Technical",
+          "designation": null,
+          "email": "krbiotech@gmail.com",
+          "research_interests": [
+            "Biotechnology and Analytical Instrumentation"
+          ]
+        }
+      ],
+      "faculty_count": 5
+    },
+    {
+      "name": "Food Packaging and Storage Tech",
+      "faculty": [
+        {
+          "name": "Dr. M. Loganathan",
+          "designation": "Professor and Dean (Academics)",
+          "email": "logu@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. R. Meenatchi",
+          "designation": "Professor",
+          "email": "meena@iifpt.edu.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. S. Anandakumar",
+          "designation": "Professor",
+          "email": "anand@iifpt.edu.in",
+          "research_interests": null
+        }
+      ],
+      "faculty_count": 3
+    },
+    {
+      "name": "Food Plant Operations",
+      "faculty": [
+        {
+          "name": "Dr. V.Eyarkai Nambi",
+          "designation": "Professor & In-charge (COE)",
+          "email": "eyarkainambi@niftem-t.ac.in",
+          "research_interests": null
+        },
+        {
+          "name": "Dr. V. Hema",
+          "designation": "Professor",
+          "email": "mariagorretti@iifpt.edu.in",
+          "research_interests": [
+            "Food Science & Nutrition"
+          ]
+        }
+      ],
+      "faculty_count": 2
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "active_projects": null,
+    "funding_agencies": null,
+    "total_funding_crores": 1.0,
+    "consultancy_projects": null,
+    "patents_filed": null,
+    "patents_granted": null,
+    "publications_per_year": null,
+    "phd_students_enrolled": null,
+    "phds_awarded": null,
+    "research_centres": null,
+    "international_collaborations": null
+  },
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Supporting Units/ Centres / Cell Controller of Examination Section Estate and Maintanance Unit Institute Admin Section IT Cell Knowledge Centre Planning and Monitoring Cell",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Admin Section",
+        "country": null,
+        "focus_area": null
+      }
+    ],
+    "mou_count": null,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.niftem-t.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 67,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/niftem-thanjavur",
+  "last_scraped_at": "2026-03-31T16:25:18.990438",
+  "department_count": 9,
+  "total_faculty": 23
+}

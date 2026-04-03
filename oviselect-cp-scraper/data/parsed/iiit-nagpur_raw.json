@@ -1,0 +1,60 @@
+{
+  "institute": "IIIT (IIIT) Nagpur",
+  "also_known_as": "IIITN",
+  "institute_type": "IIIT",
+  "established_year": 2016,
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "address": "Indian Institute of Information Technology, Survey No. 140, 141/1, behind Br. Sheshrao Wankhade Shetkari Sahkari Soot Girni, Waranga, Butibori, Nagpur, Maharashtra - 441108",
+  "nearest_airport": "Dr. Babasaheb Ambedkar International Airport, Nagpur",
+  "nearest_airport_km": 19.0,
+  "nearest_railway_station": "Buti Bori Railway Station",
+  "nearest_railway_km": 7.0,
+  "caution_money": 5000,
+  "one_time_fees": 4000,
+  "tuition_fee_per_sem": 99000,
+  "annual_fees": 700,
+  "total_institute_fee": 123850,
+  "hostel_fee_per_sem": 8250,
+  "mess_advance_per_sem": 20000,
+  "total_hostel_fee": 81250,
+  "overall_placement_pct": 80.0,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 82.88,
+    "Electronics and Communication Engineering": 72.22,
+    "Overall": 80.0
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 12.0,
+    "Electronics and Communication Engineering": 11.0,
+    "Overall": 12.0
+  },
+  "median_package_lpa": 11.67,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 13.76,
+    "Electronics and Communication Engineering": 13.15,
+    "Overall": 13.67
+  },
+  "avg_package_lpa": 13.53,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-nagpur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-nagpur",
+  "last_scraped_at": "2026-03-31T16:17:00.089957",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitn.ac.in",
+  "phd_available": false,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "has_nss": false,
+    "has_ncc": false
+  }
+}

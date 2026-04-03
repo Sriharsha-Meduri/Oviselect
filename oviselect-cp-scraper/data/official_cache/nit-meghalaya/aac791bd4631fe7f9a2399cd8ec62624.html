@@ -1,0 +1,2451 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>National Institute of Technology Meghalaya</title>
+   <meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/swiper-bundle.css">
+<link rel="stylesheet" href="assets/css/slick.css">
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<link rel="stylesheet" href="assets/css/flatpickr.min.css">
+<link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+<link rel="stylesheet" href="assets/css/spacing.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/counter.css">
+<link rel="stylesheet" href="assets/css/internal.css">
+<link rel="stylesheet" href="assets/css/media.css">
+<link rel="stylesheet" href="assets/css/sidebar.css">
+<style>
+/* Hide top Google translate banner frame */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+.skiptranslate {
+ display: none !important;
+}
+
+/* Remove top margin Google adds */
+body {
+    top: 0px !important;
+}
+
+/* Hide Google translate tooltip */
+.goog-tooltip {
+    display: none !important;
+}
+
+[class*="VIpgJd"] {
+    display: none !important;
+}
+/* Hide highlight */
+.goog-text-highlight {
+    background: none !important;
+    box-shadow: none !important;
+}
+#google_translate_element {
+    display: none;
+}
+
+
+</style>
+<script>
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi',
+        autoDisplay: false
+    }, 'google_translate_element');
+}
+</script>
+<script>
+function translateLanguage(lang) {
+
+    var checkExist = setInterval(function () {
+
+        var select = document.querySelector(".goog-te-combo");
+
+        if (select) {
+
+            clearInterval(checkExist);
+
+            select.value = lang;
+            select.dispatchEvent(new Event("change"));
+
+            // Button Active UI
+            if(document.getElementById("btn-en"))
+                document.getElementById("btn-en").classList.remove("active");
+
+            if(document.getElementById("btn-hi"))
+                document.getElementById("btn-hi").classList.remove("active");
+
+            if(document.getElementById("btn-" + lang))
+                document.getElementById("btn-" + lang).classList.add("active");
+
+        }
+
+    }, 300);
+
+}
+</script>
+<script>
+function removeGoogleTranslateUI() {
+
+    // Remove banner iframe
+    document.querySelectorAll('iframe').forEach(function(el){
+        if(el.src && el.src.includes("translate.google")){
+            el.style.display = "none";
+        }
+    });
+
+    // Remove top offset
+    document.body.style.top = "0px";
+
+    // Remove google containers
+    document.querySelectorAll('[class*="VIpgJd"]').forEach(function(el){
+        el.style.display = "none";
+    });
+
+}
+
+/* Run multiple times (Google injects dynamically) */
+setInterval(removeGoogleTranslateUI, 1000);
+</script>
+
+<style>
+.lang-toggle {
+    display: inline-flex;
+    border-radius: 30px;
+    background: #f1f1f1;
+    padding: 2px;
+}
+
+.lang-btn {
+    border: none;
+    padding: 8px 10px;
+    border-radius: 30px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+	line-height:0px;
+    transition: 0.3s;
+}
+
+.lang-btn.active {
+    background: #1A90D0;
+    color: #fff;
+}
+
+.lang-btn:hover {
+    background: #ddd;
+}
+
+</style>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+   <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">   <link rel="stylesheet" href="assets/tab/departmentaltab.css">
+   <link rel="stylesheet" href="assets/css/department.css">
+   <script src="assets/js/jquery-3.7.1.min.js"></script>
+   <script src="assets/js/vendor/jquery.js"></script>
+   <script>
+   $(document).ready(function () {
+
+    $('.tab-link').click(function () {
+
+        var tabID = $(this).data('tab');
+
+        $('.tab-link').removeClass('active');
+        $('.tab-content').removeClass('active');
+
+        $(this).addClass('active');
+        $('#' + tabID).addClass('active');
+
+    });
+
+});
+</script>
+   <style>
+   .scroll-container {
+  height: 300px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  padding: 10px;
+  scroll-padding: 1rem;
+}
+
+/* Scroll Snap Sections */
+.scroll-section {
+  scroll-snap-align: start;
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* Optional: Stylish Custom Scrollbar (Webkit browsers) */
+.scroll-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
+
+.bg-cover{
+    background-size: cover !important;
+    background-position: center !important;
+}	
+
+.bg-main {
+  background-color: #0066FF!important;
+}
+.bg-gredient{
+	background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+}
+</style>
+ 
+ 
+</head>
+
+<body>
+
+   <!-- pre loader area start -->
+   <script>
+window.addEventListener("load", function(){
+    setTimeout(function(){
+        document.getElementById("loading").style.display = "none";
+    }, 100); // 100ms delay
+});
+</script>
+<style>
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background:#fff;
+    z-index: 9999;
+}
+</style>
+<div id="loading">
+         <div id="loading-center">
+            <div id="loading-center-absolute">
+               <!-- loading content here -->
+               <div class="tp-preloader-content">
+                  <div class="tp-preloader-logo">
+                     <div class="tp-preloader-circle">
+                        <svg width="190" height="190" viewBox="0 0 380 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <circle stroke="#D9D9D9" cx="190" cy="190" r="180" stroke-width="6" stroke-linecap="round">
+                           </circle>
+                           <circle stroke="red" cx="190" cy="190" r="180" stroke-width="6" stroke-linecap="round"></circle>
+                        </svg>
+                     </div>
+                     <img src="assets/img/logo/preloader/preloader-icon.png" alt="">
+                  </div>
+                  <p class="tp-preloader-subtitle">Loading...</p>
+               </div>
+            </div>
+         </div>
+      </div>   <!-- pre loader area end -->
+
+   <!-- back to top start -->
+   <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn">
+         <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+               stroke-linejoin="round" />
+         </svg>
+      </button>
+   </div>
+   
+   <div class="tp-search-area">
+         <div class="tp-search-inner p-relative">
+            <div class="tp-search-close">
+               <button class="tp-search-close-btn">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path class="path-1" d="M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                     <path class="path-2" d="M1 1L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+               </button>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="tp-search-wrapper">
+                     <div class="col-lg-9">
+                        <div class="tp-search-content">
+                           <div class="search p-relative">
+                              <form action="search_results.php" method="post">
+                                        <input type="text" class="search-input" name="keywords" placeholder="What are you looking for?">
+                                         <button class="tp-search-icon">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M13.3989 13.4001L16.9989 17.0001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.3999 8.2001C15.3999 4.22366 12.1764 1.00012 8.19997 1.00012C4.22354 1.00012 1 4.22366 1 8.2001C1 12.1765 4.22354 15.4001 8.19997 15.4001C12.1764 15.4001 15.3999 12.1765 15.3999 8.2001Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                                 </svg>
+                              </button>
+                                    </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   
+   
+   <header class="header-area p-relative">
+   <div class="tp-header-top theme-bg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-4">
+                     <div class="tp-heder-info d-flex justify-content-center justify-content-lg-start align-items-center">
+                        <div class="tp-header-info-item d-md-block">
+                          <span><div id="typewriter"></div></span>
+                        </div>
+                       
+                       
+                     </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 d-none d-lg-block">
+                     <div class="tp-header-right-list d-flex justify-content-md-end">
+                     <a href="javascript:void(0)" id="minusfont" class="text-white" data-toggle="tooltip" data-placement="bottom" title="Small">A-</a>&nbsp;
+                <a href="" id="resetfont" class="text-white" data-toggle="tooltip" data-placement="bottom" title="Normal">A</a>&nbsp;
+                <a href="javascript:void(0)" id="plusfont" class="text-white" data-toggle="tooltip" data-placement="bottom" title="Large">A+</a>&nbsp; 
+                       
+<a target="_blank" href="http://mail.nitm.ac.in/">Webmail</a>
+
+ 
+<a target="_parent" href="page_details.php?page=screen-reader">Screen Reader</a>
+
+ 
+<a target="_blank" href="http://192.168.1.3/intranet/intranet_nitma.html">Intranet</a>
+
+ 
+<a target="_blank" href="https://nitm.ac.in/CIF/index.html">CIF</a>
+
+ 
+<a target="_parent" href="https://nitm.ac.in/convocation2025/">Convocation 2025</a>
+
+ 
+<a target="_parent" href="https://nitm.samarth.ac.in/index.php/site/login">ERP</a>
+
+ 
+<a target="_parent" href="page_details.php?page=teqip-iii">TEQIP</a>
+
+ 
+<a target="_blank" href="https://nitm.ac.in/Career/">Placements</a>
+
+                     
+                      <!--Google Translate -->
+                      <div class="lang-toggle">
+    <button onclick="translateLanguage('en')" class="lang-btn active" id="btn-en">English</button>
+    <button onclick="translateLanguage('hi')" class="lang-btn" id="btn-hi">हिन्दी</button>
+</div>
+<div id="google_translate_element" style="display:none;"></div>
+<!---->
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+   
+   
+         <div id="header-sticky" class="tp-header-2 tp-header-shop">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-6">
+                     <div class="tp-header-logo-1 tp-header-logo p-1">
+                        <a href="index.php">
+                          <img class="logo-1" src="img/nitm_logo_black.png" alt="logo">
+                          <img class="logo-2" src="img/nitm_logo.png" alt="logo">
+                        </a>
+                     </div>
+                  </div>
+                  
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-6 headertag">
+                     <div class="tp-header-contact d-flex align-items-center justify-content-end">
+                      <div class="tag d-none d-sm-block d-md-block p-1">
+                      
+<a target="_blank" href="https://dasanit.org/dasa2025/" class="text-white">DASA</a>&nbsp; |  
+
+ 
+<a target="_blank" href="https://iccr.gov.in/home" class="text-white">ICCR</a>&nbsp; |  
+
+ 
+<a target="_blank" href="https://www.studyinindia.gov.in/" class="text-white">Study in India</a>&nbsp; |  
+
+ 
+<a target="_parent" href="page_details.php?page=quality-improvement-programme" class="text-white">QIP 	 	</a>&nbsp; |  
+
+ 
+<a target="_parent" href="news.php?n=student-e-notice" class="text-white">Student-E-Notice</a>&nbsp; |  
+
+ 
+<a target="_blank" href="https://archive.nitm.ac.in" class="text-white">Old Website</a>&nbsp; 
+
+    </div> &nbsp;&nbsp;&nbsp;
+                     
+                        <div class="tp-header-red-search">
+                           <button class="tp-search-open-btn">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M14.9493 14.95L18.9993 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M17.2 9.09999C17.2 4.62649 13.5735 1 9.10005 1C4.62655 1 1.00006 4.62649 1.00006 9.09999C1.00006 13.5735 4.62655 17.2 9.10005 17.2C13.5735 17.2 17.2 13.5735 17.2 9.09999Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                           </svg>
+                        </button>
+                        </div>
+                        <div class="tp-header-btn d-none d-md-block ml-30">
+                           <!--<a href="#" class="btn btn-danger">Online Apply </a>-->
+                        </div>
+                        <div class="tp-header-bar d-xxl-none ml-30">
+                           <button class="offcanvas-open-btn"><i class="fa-solid fa-bars"></i></button>
+                        </div>
+                     </div>
+                  </div>
+                  </div></div>
+                  
+            <div class="" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; background-color:#fffff;">   
+               <div class="container">    
+                <div class="row">    
+                  <div class="col-xxl-12 col-lg-12 d-none d-lg-block d-xl-block d-xxl-block">
+                     <div class="main-menu" align="center">
+                       <nav class="tp-main-menu-content">
+                           <ul>
+                           
+                            
+                           
+                                                      
+                                                      
+                           
+                           <li ><a href="https://nitm.ac.in" target="_parent">Home</a>
+                                           
+                                             
+                                        </li>
+                           
+                             
+                           
+                            
+ 
+                           
+                                                      
+                            
+                           
+                                                       
+                           <li class="has-dropdown tp-static">
+                                 <a href="#" target="_parent">About Us</a>
+                                 <div class="tp-megamenu-main">
+                                    <div class="megamenu-demo-academics p-relative">
+                                       <div class="tp-megamenu-academics-border">
+                                          <div class="row tp-gx-50">
+                                             
+                                             
+                                              
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                   
+                                                                                                           
+                                                            <a href="page_details.php?page=about-nit" target="_parent">About NIT</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=mission-vision-key-objectives" target="_parent">Mission, Vision & Key Objectives</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=guiding-principles" target="_parent">Guiding Principles</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=message-from-the-director" target="_parent">Message from the Director</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=ranking-recognition-1" target="_parent">Ranking & Recognition </a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=notable-achievements" target="_parent">Notable Achievements</a>
+                                                        
+                                                      
+                                                </div>
+                                             </div>
+                                             
+ 
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                   
+                                                                                                           
+                                                            <a href="page_download.php?c=holidaylist/holiday-list" target="_parent"> Holiday list</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=how-to-reach" target="_parent">How to reach</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=logo" target="_parent"> Logo</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=green-campus-initiative" target="_parent"> Green Campus Initiative</a>
+                                                        
+                                                      
+                                                </div>
+                                             </div>
+                                             
+                                             
+                                             
+                                             <div class="col-xl-6 col-12">
+                                                <div class="tp-megamenu-academics-banner p-relative d-xl-block">
+                                                                                                  <a href="page_gallery.php" target="_parent"><h4 class="tp-megamenu-academics-banner-title">Photo Gallery</h4></a>
+                                                
+                                                                                               <a href="campus_tour.php" target="_parent"><h4 class="tp-megamenu-academics-banner-title">Campus Tour</h4></a>
+                                                
+                                                                                               <a href="page_contacts.php" target="_parent"><h4 class="tp-megamenu-academics-banner-title">Contact Us</h4></a>
+                                                
+                                                                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-lg-12 d-none d-xl-block">
+                                             <div class="tp-megamenu-academics-btns text-center">
+                                                                                                 
+                                                
+                                                
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                           
+                           
+                           
+                           
+ 
+                           
+                                                      
+                            <li class="has-dropdown tp-static"> <a href="#" target="_parent">Institute</a>
+  									<div class="tp-megamenu-main">
+                                    <div class="megamenu-demo-fullwidth p-relative">
+                                       <div class="tp-megamenu-academics-border">
+                                          <div class="row tp-gx-50 pb-50">
+                                             
+                                              
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                 <h4 class="tp-megamenu-academics-title">Important Documents</h4>                                                                                                           
+                                                            <a href="page_download_all.php?c=acts-statutes" target="_parent"> Acts & Statutes</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=minutes/minutes-of-senate" target="_parent">Minutes of senate</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=minutes/bog-minutes" target="_parent">BOG minutes</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=minutes/finance-committee-meeting" target="_parent">Finance Committee Meeting</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=reports/annual-reports" target="_parent">Annual Reports</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=recruitment-rules" target="_parent">Recruitment Rules</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=minutes/minutes-of-olic" target="_parent">Minutes of OLIC</a>
+                                                        
+                                                      
+                                                 
+                                                   
+                                                </div>
+                                             </div>
+                                             
+                                             
+  
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                 <h4 class="tp-megamenu-academics-title">Institutes Facilities</h4>                                                                                                           
+                                                            <a href="page_details.php?page=buses-facility" target="_parent">Bus Facility</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=health-facilities" target="_parent">Health Facilities</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=canteen" target="_parent">Canteen</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=student-activity-center-facilities" target="_parent">SAC</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=safety-security" target="_parent">Safety & Security</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=hostel" target="_parent">Hostels</a>
+                                                        
+                                                      
+                                                 
+                                                   
+                                                </div>
+                                             </div>
+                                             
+                                             
+  
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                 <h4 class="tp-megamenu-academics-title">&nbsp;</h4>                                                                                                           
+                                                            <a href="page_details.php?page=accreditation" target="_parent">Recognition & Accreditation</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=strategic-plan" target="_parent">Strategic Plan</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=campus-master-plan" target="_parent">Campus Master Plan</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=out-reach-activities" target="_parent">Out Reach Activities</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=magazine/institute-magazine" target="_parent">Institute Magazine</a>
+                                                        
+                                                      
+                                                 
+                                                   
+                                                </div>
+                                             </div>
+                                             
+                                             
+                                            
+                                            
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-lg-12 d-none d-xl-block">
+                                             <div class="tp-megamenu-academics-btns text-center">
+                                             
+                                                
+                                             </div>
+                                          </div>
+                                       </div>
+                                       
+                                       
+                                    </div>
+                                 </div>
+                              </li>
+                           
+                           
+                                                      
+                            
+                           
+                            
+ 
+                           
+                                                      
+                            <li class="has-dropdown tp-static"> <a href="#" target="_parent">Administration</a>
+  									<div class="tp-megamenu-main">
+                                    <div class="megamenu-demo-fullwidth p-relative">
+                                       <div class="tp-megamenu-academics-border">
+                                          <div class="row tp-gx-50 pb-50">
+                                             
+                                              
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                 <h4 class="tp-megamenu-academics-title">Authorities</h4>                                                                                                           
+                                                            <a href="page_details.php?page=visitor" target="_parent">Visitor</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=bog" target="_parent">BOG</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=finance-committee" target="_parent">Finance Committee </a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=senate" target="_parent">Senate</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=buildings-and-works-committee" target="_parent">Buildings and Works committee</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=nit-council" target="_parent">NIT Council</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=chairman-of-bog" target="_parent">Chairman of BOG</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=organizational-structure" target="_parent">Organizational Structure</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=construction-review-committee" target="_parent">Construction Review Committee</a>
+                                                        
+                                                      
+                                                 
+                                                   
+                                                </div>
+                                             </div>
+                                             
+                                             
+  
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                 <h4 class="tp-megamenu-academics-title">Administration</h4>                                                                                                           
+                                                            <a href="administration.php?p=office-of-the-director" target="_parent">Office of the Director</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=office-of-the-registrar" target="_parent">Office of the Registrar</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=deans" target="_parent"> Deans</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=head-of-departments-centers" target="_parent"> Head of Departments/Centers </a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=chief-vigilance-officer" target="_parent">Chief Vigilance Officer</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=public-grievance-officer" target="_parent">Public Grievance Officer</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=office-administration" target="_parent">Office Administration</a>
+                                                        
+                                                      
+                                                 
+                                                   
+                                                </div>
+                                             </div>
+                                             
+                                             
+  
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                 <h4 class="tp-megamenu-academics-title">Statutory Committee</h4>                                                                                                           
+                                                            <a href="administration.php?p=anti-ragging-cell" target="_parent">Anti-ragging Cell</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=anti-ragging-squad-committee" target="_parent">Anti-ragging squad Committee</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=grievance-cell" target="_parent">Grievance Cell</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=sc-st-obc-cell" target="_parent"> SC/ST/OBC Cell</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=internal-complaints-committee" target="_parent">Internal Complaints Committee</a>
+                                                        
+                                                                                                            
+                                                            <a href="administration.php?p=iic" target="_parent"> IIC </a>
+                                                        
+                                                      
+                                                 
+                                                   
+                                                </div>
+                                             </div>
+                                             
+                                             
+                                            
+                                            
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-lg-12 d-none d-xl-block">
+                                             <div class="tp-megamenu-academics-btns text-center">
+                                             
+                                                
+                                             </div>
+                                          </div>
+                                       </div>
+                                       
+                                       
+                                    </div>
+                                 </div>
+                              </li>
+                           
+                           
+                                                      
+                            
+                           
+                            
+ 
+                           
+                                                      
+                            
+                           
+                                                       
+                           <li class="has-dropdown tp-static">
+                                 <a href="#" target="_parent">Academics</a>
+                                 <div class="tp-megamenu-main">
+                                    <div class="megamenu-demo-academics p-relative">
+                                       <div class="tp-megamenu-academics-border">
+                                          <div class="row tp-gx-50">
+                                             
+                                             
+                                              
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                   
+                                                                                                           
+                                                            <a href="page_download.php?c=academics/academic-ordinance-and-regulations" target="_parent">Ordinance and Regulations</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=acts-statutes/acts-and-statues" target="_parent">Act and Statues</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=academics/academic-calendar" target="_parent">Academic Calendar</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download_all.php?c=timetable" target="_parent">Timetable</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download_all.php?c=student-forms" target="_parent">Download Forms </a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=academics/academic-excellence-award" target="_parent">Academic Excellence Award </a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=research-conclave" target="_parent">Research Conclave</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=past-convocations" target="_parent">Convocations</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=mous/list-of-mous" target="_parent">MoUs</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=academic-bank-of-credit-abc-" target="_parent">Academic Bank of Credit (ABC)</a>
+                                                        
+                                                      
+                                                </div>
+                                             </div>
+                                             
+ 
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                   
+                                                                                                           
+                                                            <a href="page_details.php?page=admission" target="_parent">Admission</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=central-library" target="_parent">Central Library</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=programmes-offered" target="_parent">Programmes Offered</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=quality-improvement-programme" target="_parent">Quality Improvement Program</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=fee-structures/fee-structure" target="_parent"> Fee Structure </a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=examination" target="_parent">Examinations</a>
+                                                        
+                                                                                                            
+                                                            <a href="https://nitm.ac.in/CIF/index.html" target="_blank">CIF</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=academic-section" target="_parent">Academic Section</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=procedure-to-issue-original-duplicate-certificates" target="_parent">Degree & Certificates</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=registered-courses" target="_parent">Registered Coursed</a>
+                                                        
+                                                      
+                                                </div>
+                                             </div>
+                                             
+                                             
+                                             
+                                             <div class="col-xl-6 col-12">
+                                                <div class="tp-megamenu-academics-banner p-relative d-xl-block">
+                                                                                                  <a href="#" target="_parent"><h4 class="tp-megamenu-academics-banner-title">Enquiry</h4></a>
+                                                
+                                                                                               <a href="https://nitm.samarth.ac.in/index.php/site/login" target="_blank"><h4 class="tp-megamenu-academics-banner-title">ERP Portal</h4></a>
+                                                
+                                                                                               <a href="http://192.168.1.3/intranet/intranet_nitma.html" target="_blank"><h4 class="tp-megamenu-academics-banner-title">Intranet</h4></a>
+                                                
+                                                                                               <a href="#" target="_parent"><h4 class="tp-megamenu-academics-banner-title">Online Admission</h4></a>
+                                                
+                                                                                               <a href="news.php?n=student-e-notice" target="_parent"><h4 class="tp-megamenu-academics-banner-title">Student E-Notice</h4></a>
+                                                
+                                                                                               <a href="https://nitm.ac.in/convocation2025/" target="_blank"><h4 class="tp-megamenu-academics-banner-title">convocation 2025</h4></a>
+                                                
+                                                                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-lg-12 d-none d-xl-block">
+                                             <div class="tp-megamenu-academics-btns text-center">
+                                                                                                 
+                                                
+                                                
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                           
+                           
+                           
+                           
+ 
+                           
+                                                      
+                            <li class="has-dropdown tp-static"> <a href="#" target="_parent">Departments & Centres</a>
+  									<div class="tp-megamenu-main">
+                                    <div class="megamenu-demo-fullwidth p-relative">
+                                       <div class="tp-megamenu-academics-border">
+                                          <div class="row tp-gx-50 pb-50">
+                                             
+                                              
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                 <h4 class="tp-megamenu-academics-title">Departments</h4>                                                                                                           
+                                                            <a href="department.php?dept=civil-engineering" target="_parent">Civil Engineering</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=computer-science-and-engineering" target="_parent">Computer Science & Engineering</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=electrical-engineering" target="_parent">Electrical Engineering</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=electronics-communication-engineering" target="_parent">Electronics & Communication Engineering</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=mechanical-engineering" target="_parent">Mechanical Engineering</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=chemical-biological-sciences" target="_parent">Chemical & Biological Sciences</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=humanities-social-sciences" target="_parent">Humanities & Social Sciences</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=mathematics" target="_parent">Mathematics</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=physics" target="_parent">Physics</a>
+                                                        
+                                                      
+                                                 
+                                                   
+                                                </div>
+                                             </div>
+                                             
+                                             
+  
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                 <h4 class="tp-megamenu-academics-title">Centres</h4>                                                                                                           
+                                                            <a href="department.php?dept=center-for-international-relations" target="_parent">Centre for International Relation</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=computer-center" target="_parent">Computer Centre</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=design-innovation-center" target="_parent">Design Innovation Centre</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=nitm-foundation-for-innovation-and-technology-incubation-centre" target="_parent">Centre for Innovation Incubation and Entrepreneurship</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=center-for-robotics-and-mechtronics" target="_parent">Centre for Robotics and Mechatronics</a>
+                                                        
+                                                                                                            
+                                                            <a href="https://nitm.ac.in/Career/" target="_blank">Centre for Career Development</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=center-for-technology-enabled-learning" target="_parent">Centre for Technology Enabled Learning</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=nitm-foundation-for-innovation-and-technology-incubation-centre" target="_parent">NITM - Foundation for Innovation and Technology Incubation Centre</a>
+                                                        
+                                                                                                            
+                                                            <a href="department.php?dept=center-for-integrated-structural-health-monitoring-and-solutions" target="_parent">Centre for Intergrated Structural Health Monitoring and Solutions</a>
+                                                        
+                                                      
+                                                 
+                                                   
+                                                </div>
+                                             </div>
+                                             
+                                             
+  
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                 <h4 class="tp-megamenu-academics-title">&nbsp;</h4>                                                                                                           
+                                                            <a href="page_details.php?page=internal-quality-assurance-cell" target="_parent">Internal Quality Assurance Committee</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=central-library" target="_parent">Central Library</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=national-cadet-corps" target="_parent">National Cadet Corps</a>
+                                                        
+                                                      
+                                                 
+                                                   
+                                                </div>
+                                             </div>
+                                             
+                                             
+  
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                 <h4 class="tp-megamenu-academics-title">All</h4>                                                                                                           
+                                                            <a href="academics_all.php?page=U0dwSkJTTEJnV2MzbXk2VUhzUW5yZz09&name=Departments" target="_parent">All Departments</a>
+                                                        
+                                                                                                            
+                                                            <a href="all_faculty.php" target="_parent">All faculty</a>
+                                                        
+                                                      
+                                                 
+                                                   
+                                                </div>
+                                             </div>
+                                             
+                                             
+                                            
+                                            
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-lg-12 d-none d-xl-block">
+                                             <div class="tp-megamenu-academics-btns text-center">
+                                             
+                                                
+                                             </div>
+                                          </div>
+                                       </div>
+                                       
+                                       
+                                    </div>
+                                 </div>
+                              </li>
+                           
+                           
+                                                      
+                            
+                           
+                            
+ 
+                           
+                                                      
+                                                      
+                           
+                           <li class="has-dropdown" ><a href="#" target="_parent">Research & Consultancy</a>
+                                           
+                                             <ul class="tp-submenu">
+
+                        <li ><a href="page_details.php?page=office" target="_parent">Office</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_download.php?c=research/forms" target="_parent">Forms</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_download.php?c=research/research-guidelines" target="_parent">Guidelines</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=ipr" target="_parent">IPR</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=projects" target="_parent">Projects</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=research-funding-opportunity" target="_parent">Funding Opportunities</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=institute-ethics-committee" target="_parent">Institute Ethics Committee</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="publications_all.php" target="_parent">Research Publication</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_download.php?c=research/ipr-policy" target="_parent">IPR Policy</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="news.php?n=research-notice" target="_parent">Notice</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="https://nitm.ac.in/Research&ConsultancyRegistrationApp/src/" target="_blank">Online Consultancy Project Registration</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=query" target="_parent">Query related to Research</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                                         					 </ul>
+                        				 
+                                        </li>
+                           
+                             
+                           
+                            
+ 
+                           
+                                                      
+                            
+                           
+                                                       
+                           <li class="has-dropdown tp-static">
+                                 <a href="#" target="_parent">Student's Corner</a>
+                                 <div class="tp-megamenu-main">
+                                    <div class="megamenu-demo-academics p-relative">
+                                       <div class="tp-megamenu-academics-border">
+                                          <div class="row tp-gx-50">
+                                             
+                                             
+                                              
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                   
+                                                                                                           
+                                                            <a href="page_download_all.php?c=scholarships" target="_parent">Scholarships</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=nitm-chronicle" target="_parent">NITM Chronicle</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=hostels" target="_parent">Hostels</a>
+                                                        
+                                                                                                            
+                                                            <a href="news.php?n=student-e-notice" target="_parent">Student E-Notice</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=student-forms/student-s-forms" target="_parent">Forms</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=guidance-and-counselling-centre" target="_parent">Guidance & Counselling Centre</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=ordinance-on-students-council" target="_parent">Ordinance on Students' Council </a>
+                                                        
+                                                      
+                                                </div>
+                                             </div>
+                                             
+ 
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                <div class="tp-megamenu-academics-list">
+                                                   
+                                                                                                           
+                                                            <a href="page_details.php?page=student-activity-center" target="_parent">Students Activity Center</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=induction-programme" target="_parent">Induction Programme</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=student-s-corner/code-of-conduct" target="_parent">Code of Conduct</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=national-service-scheme-nss-" target="_parent">NSS</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_download.php?c=downloads/download-for-students" target="_parent">Download</a>
+                                                        
+                                                                                                            
+                                                            <a href="page_details.php?page=previous-students-council" target="_parent"> Previous Students Council</a>
+                                                        
+                                                                                                            
+                                                            <a href="https://cap.nitm.ac.in/public/index.php" target="_blank">Online Common Application Portal</a>
+                                                        
+                                                      
+                                                </div>
+                                             </div>
+                                             
+                                             
+                                             
+                                             <div class="col-xl-6 col-12">
+                                                <div class="tp-megamenu-academics-banner p-relative d-xl-block">
+                                                                                                  <a href="page_details.php?page=students-achievements" target="_parent"><h4 class="tp-megamenu-academics-banner-title">Student's Achievements</h4></a>
+                                                
+                                                                                               <a href="page_details.php?page=club" target="_parent"><h4 class="tp-megamenu-academics-banner-title">Clubs</h4></a>
+                                                
+                                                                                               <a href="page_details.php?page=festivals" target="_parent"><h4 class="tp-megamenu-academics-banner-title">Festivals</h4></a>
+                                                
+                                                                                               <a href="page_gallery.php" target="_parent"><h4 class="tp-megamenu-academics-banner-title">Photo Gallery</h4></a>
+                                                
+                                                                                               <a href="page_details.php?page=ebsb" target="_parent"><h4 class="tp-megamenu-academics-banner-title">EBSB</h4></a>
+                                                
+                                                                                               <a href="page_details.php?page=event-calendar" target="_parent"><h4 class="tp-megamenu-academics-banner-title">Event Calendar</h4></a>
+                                                
+                                                                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-lg-12 d-none d-xl-block">
+                                             <div class="tp-megamenu-academics-btns text-center">
+                                                                                                 
+                                                
+                                                
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                           
+                           
+                           
+                           
+ 
+                           
+                                                      
+                                                      
+                           
+                           <li class="has-dropdown" ><a href="#" target="_parent">Alumni</a>
+                                           
+                                             <ul class="tp-submenu">
+
+                        <li ><a href="page_details.php?page=preamble" target="_parent">Preamble</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=executive-committee" target="_parent">Executive Committees</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=meetings" target="_parent">Meeting</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=bye-laws" target="_parent">Bye Laws</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=rules-and-regulations" target="_parent"> Rules and Regulations</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=life-members" target="_parent">Life Members</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=activity-details" target="_parent">Activity</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=research-funding-opportunity" target="_parent">Research & Funding Opportunity</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_details.php?page=notable-alumni" target="_parent">Notable Alumni</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="page_gallery.php" target="_parent">Gallery</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                                         					 </ul>
+                        				 
+                                        </li>
+                           
+                             
+                           
+                            
+ 
+                           
+                                                      
+                                                      
+                           
+                           <li class="has-dropdown" ><a href="#" target="_parent">Notifications</a>
+                                           
+                                             <ul class="tp-submenu">
+
+                        <li ><a href="news.php?n=News" target="_parent">News</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="news.php?n=events" target="_parent">Events</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="news.php?n=tenders" target="_parent">Tenders</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                 
+                        <li ><a href="news.php?n=recruitment" target="_parent">Recruitment</a>
+                                                
+	
+                                                
+                                                
+                                                
+                                                </li>
+                                                                         					 </ul>
+                        				 
+                                        </li>
+                           
+                             
+                           
+                            
+                                   
+                             
+                              
+               					
+
+                              
+                              
+                          </ul>
+                        </nav>
+                     </div>
+                  </div>
+                  
+                  </div></div></div>
+                  
+               </div>
+            </div>
+         </div>
+      </header>
+
+
+ <div class="offcanvas__area">
+         <div class="offcanvas__wrapper">
+            <div class="offcanvas__close">
+               <button class="offcanvas__close-btn offcanvas-close-btn">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                     <path d="M1 1L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+               </button>
+            </div>
+            <div class="offcanvas__content">
+               <div class="offcanvas__top mb-90 d-flex justify-content-between align-items-center">
+                  <div class="offcanvas__logo tp-header-logo">
+                     <a href="index.php">
+                        <img src="img/nitm_logo_black.png" alt="logo">
+                     </a>
+                  </div>
+               </div>
+               <div class="offcanvas-main">
+                 
+                  <div class="tp-main-menu-mobile"></div>
+                  <div class="offcanvas-gallery">
+                     
+                  </div>
+                  <div class="offcanvas-contact">
+                     <h3 class="offcanvas-title sm">Contact Information</h3>
+                     <ul>
+                    	<li>National Institute of Technology Meghalaya</li>
+                        <li><a href="tel_3A1245654">0364-2501294 | Fax: 0364-2501113</a></li>
+                        <li><a href="registrar@nitm.ac.in">registrar@nitm.ac.in</a></li>
+                        <li>Saitsohpen Sohra, East Khasi Hills, Meghalaya, India- 793108</li>
+                     </ul>
+                  </div>
+                  <div class="offcanvas-social">
+                  <div align="center"> 
+<a target="_blank" href="http://mail.nitm.ac.in/" class="btn btn-sm btn-warning" style="line-height:25px; margin-bottom:5px;">Webmail</a>&nbsp;
+
+ 
+<a target="_parent" href="page_details.php?page=screen-reader" class="btn btn-sm btn-warning" style="line-height:25px; margin-bottom:5px;">Screen Reader</a>&nbsp;
+
+ 
+<a target="_blank" href="http://192.168.1.3/intranet/intranet_nitma.html" class="btn btn-sm btn-warning" style="line-height:25px; margin-bottom:5px;">Intranet</a>&nbsp;
+
+ 
+<a target="_blank" href="https://nitm.ac.in/CIF/index.html" class="btn btn-sm btn-warning" style="line-height:25px; margin-bottom:5px;">CIF</a>&nbsp;
+
+ 
+<a target="_parent" href="https://nitm.ac.in/convocation2025/" class="btn btn-sm btn-warning" style="line-height:25px; margin-bottom:5px;">Convocation 2025</a>&nbsp;
+
+ 
+<a target="_parent" href="https://nitm.samarth.ac.in/index.php/site/login" class="btn btn-sm btn-warning" style="line-height:25px; margin-bottom:5px;">ERP</a>&nbsp;
+
+ 
+<a target="_parent" href="page_details.php?page=teqip-iii" class="btn btn-sm btn-warning" style="line-height:25px; margin-bottom:5px;">TEQIP</a>&nbsp;
+
+ 
+<a target="_blank" href="https://nitm.ac.in/Career/" class="btn btn-sm btn-warning" style="line-height:25px; margin-bottom:5px;">Placements</a>&nbsp;
+
+</div>
+                  
+                     <h3 class="offcanvas-title sm">Follow Us</h3>
+                     <ul>
+                                                <li><a target="_blank" href="http://www.facebook.com/NITM.SOHRA"><i class="fa-brands fa-2x fa fa-facebook"></i></a></li>
+                        
+                                                <li><a target="_blank" href="http://www.x.com/NIT_Meghalaya"><i class="fa-brands fa-2x fa fa-twitter"></i></a></li>
+                        
+                                                <li><a target="_blank" href="http://www.youtube.com/@nationalinstituteoftechnol4973"><i class="fa-brands fa-2x fa fa-youtube"></i></a></li>
+                        
+                                                <li><a target="_blank" href="http://www.instagram.com/nitm.sohra"><i class="fa-brands fa-2x fa fa-instagram"></i></a></li>
+                        
+                                             </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="body-overlay"></div>
+     
+ <script>
+    (function ($) {
+      $.fn.fontResize = function (options) {
+        var self = this;
+
+        // Store original font sizes
+        self.each(function () {
+          var $el = $(this);
+          if (!$el.data('original-font-size')) {
+            $el.data('original-font-size', parseFloat($el.css('font-size')));
+            $el.data('original-line-height', parseFloat($el.css('line-height')));
+          }
+        });
+
+        // Function to change font size
+        function changeFont($el, delta) {
+          var currentSize = parseFloat($el.css('font-size'));
+          var currentLine = parseFloat($el.css('line-height'));
+          $el.css('font-size', (currentSize + delta) + 'px');
+          $el.css('line-height', (currentLine + delta) + 'px');
+        }
+
+        // Increase font size
+        options.increaseBtn.on('click', function (e) {
+          e.preventDefault();
+          self.each(function () {
+            changeFont($(this), 1);
+          });
+        });
+
+        // Decrease font size
+        options.decreaseBtn.on('click', function (e) {
+          e.preventDefault();
+          self.each(function () {
+            changeFont($(this), -1);
+          });
+        });
+
+        // Reset font size
+        options.resetBtn.on('click', function (e) {
+          e.preventDefault();
+          self.each(function () {
+            var $el = $(this);
+            $el.css('font-size', $el.data('original-font-size') + 'px');
+            $el.css('line-height', $el.data('original-line-height') + 'px');
+          });
+        });
+      };
+    })(jQuery);
+
+    // Apply to all elements on the page
+    $(function () {
+      $('*').fontResize({
+        increaseBtn: $('#plusfont'),
+        decreaseBtn: $('#minusfont'),
+        resetBtn: $('#resetfont')
+      });
+    });
+  </script>
+               
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const text = "Welcome to National Institute of Technology Meghalaya";
+        const delay = 100;  // milliseconds
+		const repeatDelay = 2000;  // delay before repeating in milliseconds
+		const fonts = ["monospace", "serif", "sans-serif", "cursive", "fantasy"]; // Array of
+
+        let i = 0;
+		let fontIndex = 0;
+    
+	function typeWriter() {
+        if (i < text.length) {
+            document.getElementById("typewriter").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, delay);
+        } else {
+            setTimeout(() => {
+                document.getElementById("typewriter").innerHTML = "";
+                i = 0;
+                typeWriter();
+            }, repeatDelay);
+        }
+    }
+
+    typeWriter();
+});
+</script>
+    
+     <style>
+        #typewriter {
+            
+            white-space: pre;
+            border-right: 2px solid;
+            animation: blink 0.7s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { border-color: transparent; }
+            50% { border-color: black; }
+        }
+    </style>
+     <script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
+    let rel = link.getAttribute("rel") || "";
+    if (!rel.includes("noopener")) rel += (rel ? " " : "") + "noopener";
+    if (!rel.includes("noreferrer")) rel += (rel ? " " : "") + "noreferrer";
+    link.setAttribute("rel", rel.trim());
+  });
+});
+</script>    <main>
+
+
+  
+      <!-- admission breadcrumb start -->
+      
+      <style>
+.tp-hero-area {
+    position: relative;
+    width: 100%;
+    min-height: 550px;          /* desktop height */
+    background-size: cover;     /* FULL COVER */
+    background-position: center center; /* PERFECT CENTER */
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/* Tablet */
+@media (max-width: 991px) {
+    .tp-hero-area {
+        min-height: 420px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+    .tp-hero-area {
+        min-height: 320px;
+        background-position: center top; /* better focus on mobile */
+    }
+}
+
+.tp-hero-area::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 0;
+}
+
+.tp-hero-2-wrap {
+    position: relative;
+    z-index: 1;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+}
+
+.swiper-button-next::after {
+    content: "\f054"; /* fa-chevron-right */
+}
+
+.swiper-button-prev::after {
+    content: "\f053"; /* fa-chevron-left */
+}
+
+</style>
+<div class="swiper tp-hero-swiper">
+    <div class="swiper-wrapper">
+
+ <div class="swiper-slide">
+             <div class="tp-hero-area lightblue-bg tp-hero-2-bg" style="background-image:url('img/dept.jpg');">
+                <div class="container custom-container">
+                    <div class="tp-hero-2-wrap">
+                        <div class="row align-items-end">
+                            <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-12">
+                                <div class="tp-hero-2-content">
+                                    <h2 class="tp-hero-2-title text-white">Welcome to <span class="text-white">Civil Engineering</span> </h2>
+                                </div>
+                            </div>
+
+                            <div class="offset-xxl-4 col-xxl-3 offset-xl-2 col-xl-4 col-lg-5 col-md-6">
+                        		<div class="tp-hero-2-course p-relative wow fadeInUp" data-wow-delay=".5s">
+                          		 <div class="tp-course-item p-relative fix mb-30">
+                                 
+                                 <div class="tp-course-thumb"> </div>
+                             		 <h4 class="title">Head of the Department</h4>
+                              			<div class="tp-course-content">
+                                		 <h4 class="tp-course-title">
+                                   			Dr. Pradeep Kumar Gautam                                		 </h4>
+                                          <b>Ph.D, NIT Jaipur</b>
+                                 		 <br /><span class="text-secondary"><i class="fa fa-envelope"></i> hod.civil@nitm.ac.in</span>
+                              			</div>
+                              			<div class="tp-course-btn home-2">
+                                 		<a href="faculty_profile.php?dept=civil-engineering&fac=89/Dr. Pradeep Kumar Gautam">View Profile</a>
+                                      </div>
+                           			</div>
+                        		</div>
+                     		</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 (Duplicate & change content/image) -->
+       
+
+
+    </div>
+
+    <!-- Swiper Controls -->
+    <div class="swiper-pagination text-white"></div>
+    <div class="swiper-button-next text-white"></div>
+    <div class="swiper-button-prev text-white"></div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    new Swiper(".tp-hero-swiper", {
+        loop: true,
+        speed: 1000,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        effect: "fade",
+        fadeEffect: {
+            crossFade: true
+        }
+    });
+
+});
+</script>
+      <section class="tp-category-6-ptb pb-50 pt-50">
+            <div class="container custom-container-1300">
+               <div class="row justify-content-center">  
+                     <script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+let active = document.querySelector('.sidebar-menu a.active');
+
+if(active){
+
+let submenu = active.closest('.collapse');
+
+if(submenu){
+
+submenu.classList.add("show");
+
+let parentToggle = document.querySelector('[href="#'+submenu.id+'"]');
+
+if(parentToggle){
+parentToggle.setAttribute("aria-expanded","true");
+}
+
+}
+
+}
+
+});
+
+</script>
+<button class="btn btn-dark d-md-none m-2" 
+data-bs-toggle="collapse" 
+data-bs-target="#sidebarMenu">
+<i class="fa fa-list"></i> Menu
+</button>
+
+<div class="col-lg-3">
+  <div class="tp-sidebar-wrapper">
+    <div class="tp-faq-sidebar">
+
+<h4 class="tp-faq-sidebar-title text-white">Quick Links</h4>
+<hr class="text-white">
+<!-- SIDEBAR -->
+<nav id="sidebarMenu" class="sidebar collapse d-md-block">
+<ul class="sidebar-menu">
+<li><a href="department.php?dept=civil-engineering" target="_parent" class="active"> <i class="fa fa-home"></i>&nbsp;Home </a></li>
+
+
+  	<li><a href="department_syllabi.php?dept=civil-engineering" class=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Courses & Syllabi</a></li>
+
+	<li class="menu-item"><a data-bs-toggle="collapse" href="#down2" class="menu-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> People <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+
+			<ul id="down2" class="collapse submenu" data-bs-parent="#sidebarMenu">
+		<li><a href="department_faculties.php?dept=civil-engineering" target="_parent" class="">Faculty</a></li>     
+		<li><a href="department_staff.php?dept=civil-engineering" target="_parent" class="">Staff</a></li>     
+		<li><a href="department_students.php?dept=civil-engineering" target="_parent" class="">Student</a></li>     
+    </ul>
+    </li>
+
+	<li class="menu-item"><a data-bs-toggle="collapse" href="#down3" class="menu-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Research <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+
+			<ul id="down3" class="collapse submenu" data-bs-parent="#sidebarMenu">
+		<li><a href="area_of_research.php?dept=civil-engineering" target="_parent" class="">Area of Research</a></li>     
+		<li><a href="department_publications.php?dept=civil-engineering" target="_parent" class="">Publications</a></li>     
+		<li><a href="department_projects.php?dept=civil-engineering" target="_parent" class="">Projects</a></li>     
+		<li><a href="dept_patents.php?dept=civil-engineering" target="_parent" class="">Patents</a></li>     
+    </ul>
+    </li>
+
+  	<li><a href="department_facilities.php?dept=civil-engineering" class=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Facilities</a></li>
+
+  	<li><a href="dept_news_all.php?dept=civil-engineering" class=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Events</a></li>
+
+<li><a href="dept_page_details.php?page=forms&sno=YzlVdkhMZDJIa1VwWk5DVGhPWmc0UT09" target="_parent" class=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Forms</a></li>
+
+
+
+
+<li><a href="dept_page_details.php?page=departmental-magazine&sno=bFJsak1UZW5ySHVJcTNNeFlHTGtnQT09" target="_parent" class=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Departmental Magazine</a></li>
+
+
+
+
+<li class="menu-item"><a data-bs-toggle="collapse" href="#drop3" class="menu-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Industrial Visit <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+
+	<ul id="drop3" class="collapse submenu" data-bs-parent="#sidebarMenu">
+	<li><a href="dept_page_details.php?page=2022&sno=UDNmNk9xQW5JdUd3cWREQnVhd0I3Zz09" target="_parent" class="text-white ">2022</a></li>     
+	<li><a href="dept_page_details.php?page=2023&sno=S2p1ems3ME5rQ05RYUpPeVBoRGg5dz09" target="_parent" class="text-white ">2023</a></li>     
+	<li><a href="dept_page_details.php?page=2024&sno=NU5mdEcwQUFKWnlOTDNxQVBKYVFKUT09" target="_parent" class="text-white ">2024</a></li>     
+	<li><a href="#" target="_parent" class="text-white ">2025</a></li>     
+	<li><a href="dept_page_details.php?page=2026&sno=NHpaOFJGRDVNZ0FxL1FWK2NBczJ1Zz09" target="_parent" class="text-white ">2026</a></li>     
+    </ul>
+ </li>
+
+
+
+</ul>
+</nav>
+
+</div>
+</div>
+
+
+</div>
+
+                              <div class="col-lg-9">
+
+		<div class="tab-container">
+    
+                    <ul class="tabs">
+                    <li class="tab-link active" data-tab="tab1"><i class="fa fa-edit"></i> About The Department</li>
+                    <li class="tab-link" data-tab="tab2"><i class="fa fa-lightbulb" aria-hidden="true"></i> Mission & Vision</li>                    <li class="tab-link" data-tab="tab3"><i class="fa fa-book"></i> Programme Outcomes</li>                    </ul>
+
+                    <div class="tab-content active" id="tab1"> 
+                         <div id="one"><p><p style="text-align: justify;">The Civil Engineering Department at the National Institute of Technology (NIT) Meghalaya is committed to providing high-quality education and fostering innovation in the field of civil engineering. Established with the goal of producing competent professionals equipped with the latest technological knowledge and ethical values, the department offers undergraduate, postgraduate, and doctoral programs designed to meet the evolving needs of the industry and society.</p>
+
+<p style="text-align: justify;">The Department of Civil Engineering at NIT Meghalaya, established in July 2012, has grown to become a cornerstone of the institute&#39;s academic offerings. With an intake capacity of 30 students, the department provides a comprehensive four-year B.Tech program in Civil Engineering, designed to equip students with a strong foundation in the discipline. Expanding its academic horizon, the department initiated its Ph.D. program in 2014, fostering research in various specialized and interdisciplinary areas of Civil Engineering. Recognizing the growing demand for advanced education in this field, the department launched a two-year M.Tech program in Structural Engineering in July 2018. In addition to its core programs, the department also contributes to the broader engineering curriculum by offering a common course in Engineering Graphics to all first-year students. Through its diverse academic programs and research initiatives, the Department of Civil Engineering continues to advance the frontiers of knowledge and innovation in the field.</p>
+
+<p style="text-align: justify;">Located in the picturesque state of Meghalaya, known for its unique climatic challenges and rich cultural heritage, the department leverages its environment to focus on sustainable infrastructure development and disaster-resilient engineering. With a strong emphasis on research and hands-on learning, the department boasts state-of-the-art laboratories, modern research facilities, and a curriculum that integrates cutting-edge technology with practical applications.</p>
+
+<p style="text-align: justify;">The faculty, comprising experienced educators and researchers, are dedicated to guiding students through rigorous academic programs while also encouraging them to engage in interdisciplinary projects, industry collaborations, and community service. The department&rsquo;s ongoing research projects and collaborations with various industries and government bodies reflect its commitment to addressing real-world challenges and contributing to the nation&rsquo;s infrastructure development.</p>
+
+<p style="text-align: justify;">The Civil Engineering Department at the National Institute of Technology (NIT) Meghalaya is committed to providing high-quality education and fostering innovation in the field of civil engineering. Established with the goal of producing competent professionals equipped with the latest technological knowledge and ethical values, the department offers undergraduate, postgraduate, and doctoral programs designed to meet the evolving needs of the industry and society.</p>
+
+<p style="text-align: justify;">The Department of Civil Engineering at NIT Meghalaya, established in July 2012, has grown to become a cornerstone of the institute&#39;s academic offerings. With an intake capacity of 30 students, the department provides a comprehensive four-year B.Tech program in Civil Engineering, designed to equip students with a strong foundation in the discipline. Expanding its academic horizon, the department initiated its Ph.D. program in 2014, fostering research in various specialized and interdisciplinary areas of Civil Engineering. Recognizing the growing demand for advanced education in this field, the department launched a two-year M.Tech program in Structural Engineering in July 2018. In addition to its core programs, the department also contributes to the broader engineering curriculum by offering a common course in Engineering Graphics to all first-year students. Through its diverse academic programs and research initiatives, the Department of Civil Engineering continues to advance the frontiers of knowledge and innovation in the field.</p>
+
+<p style="text-align: justify;">Located in the picturesque state of Meghalaya, known for its unique climatic challenges and rich cultural heritage, the department leverages its environment to focus on sustainable infrastructure development and disaster-resilient engineering. With a strong emphasis on research and hands-on learning, the department boasts state-of-the-art laboratories, modern research facilities, and a curriculum that integrates cutting-edge technology with practical applications.</p>
+
+<p style="text-align: justify;">The faculty, comprising experienced educators and researchers, are dedicated to guiding students through rigorous academic programs while also encouraging them to engage in interdisciplinary projects, industry collaborations, and community service. The department&rsquo;s ongoing research projects and collaborations with various industries and government bodies reflect its commitment to addressing real-world challenges and contributing to the nation&rsquo;s infrastructure development.</p>
+
+<p style="text-align: justify;">&nbsp;</p></p></div>
+                    </div>
+                
+                    <div class="tab-content" id="tab2">
+                       <div id="one"> <p><p><strong>Vision of the Department:</strong></p>
+
+<p style="text-align: justify;">To serve the society with state of the art Civil Engineering knowledge and research responsive.</p>
+
+<p><strong>Mission of the Department:</strong></p>
+
+<p>&bull; To develop well balanced and industry oriented curriculum</p>
+
+<p>&bull; To produce manpower with strong Civil Engineering knowledge for serving the society.</p>
+
+<p>&bull; To carry out innovative research projects for the better development of the society and to provide solutions for actual field problems.</p>
+</p></div>                    </div>
+                
+                    <div class="tab-content" id="tab3">
+                        <div id="one"><p><p><strong>Program Education Objectives (PEO):</strong></p>
+
+<p>&bull; To provide high quality technical knowledge to the Civil Engineering students for solving the real field problems</p>
+
+<p>&bull; To prepare the Civil Engineering students for their appropriate employment and pursuing higher education.</p>
+
+<p>&bull; To empower the Civil Engineering students with sense of professional ethics, with ability to work in a team/teams and with appropriate communication skills.</p>
+
+<p><strong>Program Specific Outcome (PSO):</strong></p>
+
+<p>&bull; The Civil Engineering students will able to conduct surveying, prepare layout plans, maps and able to do alignments for various Civil Engineering structures.</p>
+
+<p style="text-align: justify;">&bull; The Civil Engineering students will able to interact with stakeholders effectively, write specifications, analyze, design, estimate, supervise and execute various construction activities related to Civil Engineering by applying necessary tools and maintaining proper qualities.</p>
+
+<p>&bull; The Civil Engineering students will able to provide sustainable environmental solutions for diverse real field problems.</p>
+</p></div>
+                    </div>		</div>
+    
+                              
+                    </div>             
+               </div>
+            </div>
+         </section>
+         
+		               <section class="team-area pt-50 pb-50" data-bg-color="#F8F8FA">
+            <div class="container custom-container-1300">
+               <div class="row align-items-center">
+                  <div class="col-md-4">
+                     <div class="tp-team-6-wrap">
+                        <div class="tp-team-6-heading mb-45">
+                           
+                           <h3 class="tp-section-3-title color-9">Meet Our 
+                              <span>Faculty
+                                
+                              </span>
+                           </h3>
+                           <P align="justify">Our <b>Civil Engineering</b> faculty comprises a team of highly qualified, experienced, and dedicated educators who bring a strong blend of academic expertise, research involvement, and industry exposure. They are committed to delivering high-quality education and creating an engaging, supportive learning environment for all students.
+                           
+                           </P>
+                           <div class="tp-hero-6-btn">
+                           <a class="tp-btn-border orange-bg" href="department_faculties.php?dept=civil-engineering">View all
+                              <span>
+                                 <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.71533 1L13 5.28471L8.71533 9.56941" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M1 5.28473H12.88" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 </svg>
+                              </span>
+                           </a>
+              </div>
+                        </div>
+                        <div class="tp-team-6-nav">
+                           <div class="tp-team-2-arrow d-flex">
+                              <div class="tp-team-2-prev">
+                                 <span>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M6 11L1 6L6 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                 </span>
+                              </div>
+                              <div class="tp-team-2-next">
+                                 <span>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-8">
+                     <div class="tp-team-6-wrapper">
+                        <div class="swiper tp-team-6-active">
+                           <div class="swiper-wrapper align-items-end">
+                              
+                                           
+ 
+                              <div class="swiper-slide">
+                                 <div class="tp-event-details-item text-center mb-30" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; background-color:#FFFFFF; border-radius:10px;">
+                                    <div class="tp-event-details-item-thumb">
+                                       <img src="nitm_files/people/faculty/20250330033655.jpg" width="200px" height="200px" alt="">
+                                    </div>
+                                    <div class="tp-event-details-item-content">
+                                       <h4 class="tp-event-details-item-title color-9"><a href="faculty_profile.php?dept=civil-engineering&fac=1/Comingstarful Marthong" target="_parent">Dr.  Comingstarful Marthong</a></h4>
+                                       <p>Professor</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              <div class="swiper-slide">
+                                 <div class="tp-event-details-item text-center mb-30" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; background-color:#FFFFFF; border-radius:10px;">
+                                    <div class="tp-event-details-item-thumb">
+                                       <img src="nitm_files/people/faculty/20250330033804.JPG" width="200px" height="200px" alt="">
+                                    </div>
+                                    <div class="tp-event-details-item-content">
+                                       <h4 class="tp-event-details-item-title color-9"><a href="faculty_profile.php?dept=civil-engineering&fac=2/Debabrata Podder" target="_parent"> Debabrata Podder</a></h4>
+                                       <p>Assistant Professor</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              <div class="swiper-slide">
+                                 <div class="tp-event-details-item text-center mb-30" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; background-color:#FFFFFF; border-radius:10px;">
+                                    <div class="tp-event-details-item-thumb">
+                                       <img src="nitm_files/people/faculty/20250330062301. Dbyendu Adak" width="200px" height="200px" alt="">
+                                    </div>
+                                    <div class="tp-event-details-item-content">
+                                       <h4 class="tp-event-details-item-title color-9"><a href="faculty_profile.php?dept=civil-engineering&fac=3/Dibyendu Adak " target="_parent">Dr.  Dibyendu Adak </a></h4>
+                                       <p>Assistant Professor</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              <div class="swiper-slide">
+                                 <div class="tp-event-details-item text-center mb-30" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; background-color:#FFFFFF; border-radius:10px;">
+                                    <div class="tp-event-details-item-thumb">
+                                       <img src="nitm_files/people/faculty/20250330062548.jpg" width="200px" height="200px" alt="">
+                                    </div>
+                                    <div class="tp-event-details-item-content">
+                                       <h4 class="tp-event-details-item-title color-9"><a href="faculty_profile.php?dept=civil-engineering&fac=4/G C Dhal" target="_parent">Dr.  G C Dhal</a></h4>
+                                       <p>Assistant Professor</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              <div class="swiper-slide">
+                                 <div class="tp-event-details-item text-center mb-30" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; background-color:#FFFFFF; border-radius:10px;">
+                                    <div class="tp-event-details-item-thumb">
+                                       <img src="nitm_files/people/faculty/20250330062714. Hriday" width="200px" height="200px" alt="">
+                                    </div>
+                                    <div class="tp-event-details-item-content">
+                                       <h4 class="tp-event-details-item-title color-9"><a href="faculty_profile.php?dept=civil-engineering&fac=5/Hriday Mani Kalita" target="_parent">Dr.  Hriday Mani Kalita</a></h4>
+                                       <p>Associate Professor</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              <div class="swiper-slide">
+                                 <div class="tp-event-details-item text-center mb-30" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; background-color:#FFFFFF; border-radius:10px;">
+                                    <div class="tp-event-details-item-thumb">
+                                       <img src="nitm_files/people/faculty/20250330062829. M" width="200px" height="200px" alt="">
+                                    </div>
+                                    <div class="tp-event-details-item-content">
+                                       <h4 class="tp-event-details-item-title color-9"><a href="faculty_profile.php?dept=civil-engineering&fac=6/M. Longshithung Patton" target="_parent">Dr.  M. Longshithung Patton</a></h4>
+                                       <p>Associate Professor</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              <div class="swiper-slide">
+                                 <div class="tp-event-details-item text-center mb-30" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; background-color:#FFFFFF; border-radius:10px;">
+                                    <div class="tp-event-details-item-thumb">
+                                       <img src="nitm_files/people/faculty/20250330062959.jpg" width="200px" height="200px" alt="">
+                                    </div>
+                                    <div class="tp-event-details-item-content">
+                                       <h4 class="tp-event-details-item-title color-9"><a href="faculty_profile.php?dept=civil-engineering&fac=7/Needhi Kotoky" target="_parent">Dr.  Needhi Kotoky</a></h4>
+                                       <p>Assistant Professor</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              <div class="swiper-slide">
+                                 <div class="tp-event-details-item text-center mb-30" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; background-color:#FFFFFF; border-radius:10px;">
+                                    <div class="tp-event-details-item-thumb">
+                                       <img src="nitm_files/people/faculty/20250528033816.jpg" width="200px" height="200px" alt="">
+                                    </div>
+                                    <div class="tp-event-details-item-content">
+                                       <h4 class="tp-event-details-item-title color-9"><a href="faculty_profile.php?dept=civil-engineering&fac=89/Pradeep Kumar Gautam" target="_parent">Dr.  Pradeep Kumar Gautam</a></h4>
+                                       <p>Assistant Professor</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              <div class="swiper-slide">
+                                 <div class="tp-event-details-item text-center mb-30" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; background-color:#FFFFFF; border-radius:10px;">
+                                    <div class="tp-event-details-item-thumb">
+                                       <img src="nitm_files/people/faculty/20250330063132.jpg" width="200px" height="200px" alt="">
+                                    </div>
+                                    <div class="tp-event-details-item-content">
+                                       <h4 class="tp-event-details-item-title color-9"><a href="faculty_profile.php?dept=civil-engineering&fac=8/Rubi Chakraborty" target="_parent">Dr.  Rubi Chakraborty</a></h4>
+                                       <p>Assistant Professor</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              <div class="swiper-slide">
+                                 <div class="tp-event-details-item text-center mb-30" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; background-color:#FFFFFF; border-radius:10px;">
+                                    <div class="tp-event-details-item-thumb">
+                                       <img src="nitm_files/people/faculty/20260123110559.jpg" width="200px" height="200px" alt="">
+                                    </div>
+                                    <div class="tp-event-details-item-content">
+                                       <h4 class="tp-event-details-item-title color-9"><a href="faculty_profile.php?dept=civil-engineering&fac=9/Smrutirekha Sahoo" target="_parent">Dr.  Smrutirekha Sahoo</a></h4>
+                                       <p>Assistant Professor</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              <div class="swiper-slide">
+                                 <div class="tp-event-details-item text-center mb-30" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; background-color:#FFFFFF; border-radius:10px;">
+                                    <div class="tp-event-details-item-thumb">
+                                       <img src="nitm_files/people/faculty/20260123110714.jpeg" width="200px" height="200px" alt="">
+                                    </div>
+                                    <div class="tp-event-details-item-content">
+                                       <h4 class="tp-event-details-item-title color-9"><a href="faculty_profile.php?dept=civil-engineering&fac=10/Susmita Sharma" target="_parent">Dr.  Susmita Sharma</a></h4>
+                                       <p>Assistant Professor</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                                                     
+                         
+      
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>                        
+           <section class="cta-area tp-cta-3-bg pt-30">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-6">
+                     <div class="tp-cta-3-section text-center wow fadeInLeft" data-wow-delay=".3s">
+                        <h3 class="tp-section-3-title color-9">Get in <span> Touch</span></h3>
+                        <div class="tp-cta-3-border"></div>
+                         <p><i class="fa fa-home"></i> National Institute of Technology Meghalaya
+Saitsohpen Sohra, East Khasi Hills, Meghalaya, India- 793108</p>
+                        <p><i class="fa fa-envelope"></i> hod.civil@nitm.ac.in</p>                        <p><i class="fa fa-phone"></i> 0364-2501294 | Fax: 0364-2501113</p>                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="tp-cta-3-wrap wow fadeInRight" data-wow-delay=".3s">
+                       
+                           <p><iframe allowfullscreen="" height="350" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7216.817903448657!2d91.741255!3d25.256825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3750f34447df0aa9%3A0xaf2daa97d7d1fba8!2sNIT%20Meghalaya%2C%20Sohra!5e0!3m2!1sen!2sin!4v1765517783708!5m2!1sen!2sin" style="border:0;" width="100%"></iframe></p>
+                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="tp-cta-3-shape">
+               
+            </div>
+         </section>      
+        
+   </main>
+
+   <!-- footer-area-start -->
+   <footer>
+      <div class="tp-footer-4">
+         <div class="tp-footer-4-bg">
+            <div class="container">
+            
+            <div class="tp-footer-4-top">
+                  <div class="row">
+                     <div class="col-lg-6">
+                       <h4 class="tp-footer-4-top-title">Explore. Discover. Connect. Follow us on </h4>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="tp-footer-4-top-form">
+                            <div class="tp-footer-4-social text-md-end">
+                                                    <a target="_blank" href="http://www.facebook.com/NITM.SOHRA"><i class="fa-brands fa-2x fa fa-facebook"></i></a>
+                        
+                                                <a target="_blank" href="http://www.x.com/NIT_Meghalaya"><i class="fa-brands fa-2x fa fa-twitter"></i></a>
+                        
+                                                <a target="_blank" href="http://www.youtube.com/@nationalinstituteoftechnol4973"><i class="fa-brands fa-2x fa fa-youtube"></i></a>
+                        
+                                                <a target="_blank" href="http://www.instagram.com/nitm.sohra"><i class="fa-brands fa-2x fa fa-instagram"></i></a>
+                        
+                                               
+                     </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+              
+               <div class="tp-footer-4-main pt-50 pb-50">
+                  <div class="row">
+                    <div class="col-lg-2 col-sm-3">
+                    <div class="tp-footer-widget tp-footer-4-col-1 mb-30">
+                           <div class="tp-footer-4-btn">
+                                                        
+                              
+                              <a target="_parent" href="#" class="active">Applying</a>
+                              
+                                                           
+                              
+                              <a target="_parent" href="#" class="active">Visiting</a>
+                              
+                                                           
+                              
+                              <a target="_parent" href="#" class="active">Career</a>
+                              
+                                                           
+                              
+                              <a target="_parent" href="page_contacts.php" class="active">Contact Us</a>
+                              
+                                                            
+                              
+                           </div>
+                        </div>
+                    
+                    </div>
+                  
+                   <div class="col-lg-10 col-sm-9">
+                   <div class="row">
+                   
+                                    
+
+                     <div class="col-lg-3 col-sm-6">
+                        <div class="tp-footer-widget tp-footer-widget-4 has-border tp-footer-4-col-3 mb-30">
+                           <div class="tp-footer-widget-link">
+                           <h4 class="text-white"> Institute Links</h4>
+                              <ul>
+                                
+                                 <li><a target="_parent" href="page_download_all.php?c=acts-statutes">Acts, Statutes & Ordinances</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=right-to-information">RTI</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=vigilance">Vigilance</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=international-collaborations-1"> International Collaborations</a></li>
+  
+                                 <li><a target="_parent" href="">Campus Map</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=viksit-bharat-2047">Viksit-Bharat@2047</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=ambulance-service">Ambulance Service</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=hindi-cell">Hindi Cell</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=teqip-iii">TEQIP -III</a></li>
+                                  
+                                 
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     
+                    
+
+                     <div class="col-lg-3 col-sm-6">
+                        <div class="tp-footer-widget tp-footer-widget-4 has-border tp-footer-4-col-3 mb-30">
+                           <div class="tp-footer-widget-link">
+                           <h4 class="text-white"> Important Links</h4>
+                              <ul>
+                                
+                                 <li><a target="_parent" href="page_details.php?page=central-library">Central Library</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=student-activity-center-facilities">Students&#39; Activity Center</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=anti-ragging-helpline">Anti-ragging Helpline</a></li>
+  
+                                 <li><a target="_blank" href="http://14.139.208.246:8680/student">Student portal</a></li>
+  
+                                 <li><a target="_parent" href="">Virtual Tour</a></li>
+  
+                                 <li><a target="_blank" href="https://nitm.samarth.ac.in">ERP</a></li>
+  
+                                 <li><a target="_parent" href="https://nitm.ac.in/Gian/index.html">GIAN</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=international-opportunities-1">International Opportunities</a></li>
+                                  
+                                 
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     
+                    
+
+                     <div class="col-lg-3 col-sm-6">
+                        <div class="tp-footer-widget tp-footer-widget-4 has-border tp-footer-4-col-3 mb-30">
+                           <div class="tp-footer-widget-link">
+                           <h4 class="text-white"> Resources</h4>
+                              <ul>
+                                
+                                 <li><a target="_parent" href="page_details.php?page=directory">Directory</a></li>
+  
+                                 <li><a target="_parent" href="page_download.php?c=holidaylist/holiday-list">Holiday List</a></li>
+  
+                                 <li><a target="_parent" href="page_download.php?c=reports/annual-reports">Annual Report and Audited Annual Accounts</a></li>
+  
+                                 <li><a target="_parent" href="page_download.php?c=academics/academic-calendar">Academic Calendar</a></li>
+  
+                                 <li><a target="_parent" href="page_download.php?c=magazine/institute-magazine">Institute Magazine</a></li>
+  
+                                 <li><a target="_parent" href="http://14.139.208.245/cp/">OSR</a></li>
+  
+                                 <li><a target="_parent" href="page_download.php?c=minutes/bog-minutes">Minutes of BOG</a></li>
+  
+                                 <li><a target="_parent" href="page_download.php?c=minutes/finance-committee-meeting">Finance Committee Meeting</a></li>
+  
+                                 <li><a target="_parent" href="page_download.php?c=minutes/minutes-of-olic">Minutes of OLIC Meetings</a></li>
+  
+                                 <li><a target="_parent" href="page_download.php?c=minutes/minutes-of-senate">Minutes of Senate meetings</a></li>
+                                  
+                                 
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     
+                    
+
+                     <div class="col-lg-3 col-sm-6">
+                        <div class="tp-footer-widget tp-footer-widget-4 has-border tp-footer-4-col-3 mb-30">
+                           <div class="tp-footer-widget-link">
+                           <h4 class="text-white"> Others</h4>
+                              <ul>
+                                
+                                 <li><a target="_blank" href="https://uba.nitm.ac.in/">Unnat Bharat Abhiyan</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=matlab-for-all">Matlab for all</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=guarantee-of-clean-environment">Guarantee of Clean Environment</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=orders-notifications-issued-by-establishment-section">Orders /Notifications Issued By Establishment Section</a></li>
+  
+                                 <li><a target="_parent" href="page_details.php?page=security-and-vehicle-pass-guidelines">Security and Vehicle Pass Guidelines</a></li>
+                                  
+                                 
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     
+                     
+                     
+                     
+                    <div class="col-lg-2 col-sm-6">  <div id="openweathermap-widget-17"></div></div>
+<script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 17,cityid: '1274406',appid: '4b978c50de99835994692ab352ab312a',units: 'metric',containerid: 'openweathermap-widget-17',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
+<style>
+.widget-right--type3 {
+    width: 100%;
+    height: initial;
+    min-height: 150px;
+    box-shadow: none;
+    margin-top: 0px;
+}				
+.widget-right__footer {
+    display: none;
+}
+.weather-right--type3 {
+    width: 96%;
+    height: 120px;
+    float: none;
+    display: table;
+    margin: 0 auto;
+}
+.widget-right--type3 .widget-right__title {
+    font-size: 12px;
+    display: none !important;
+}
+</style>
+                     
+                     <div class="col-lg-2 col-sm-6"> <div class="counter-box">
+        <h2>visitor counters</h2>
+        <p class="counter-number">0000052260</p>
+    </div></div>
+                     
+                     
+                     </div></div>
+                     
+                    
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="tp-footer-4-bottom">
+            <div class="container">
+               <div class="row align-items-center">
+                  
+                  <div class="col-lg-6 col-md-6">
+                     <div class="tp-footer-4-copyright text-start">
+                       
+                        <span class="span">Copyright © 2026 National Institute of Technology Meghalaya. All rights Reserved. <br />Powered by Techmantra</span>
+                       
+                     </div>
+                  </div>
+                  
+                  <div class="col-lg-6 col-md-6">
+                     <div class="tp-footer-4-copyright text-end">
+                        
+
+                        <span class="span"><a target="_parent" href="page_details.php?page=terms-and-conditions">Terms and Conditions</a></span>
+                         
+
+                        <span class="span"><a target="_parent" href="page_details.php?page=copyright">Copyright </a></span>
+                         
+
+                        <span class="span"><a target="_parent" href="page_details.php?page=disclaimer">Disclaimer</a></span>
+                         
+
+                        <span class="span"><a target="_parent" href="page_details.php?page=privacy-policy">Privacy Policy</a></span>
+                                                
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   
+  
+
+   <!--Start of Tawk.to Script-->
+
+<!--End of Tawk.to Script-->   
+   <script src="assets/js/vendor/waypoints.js"></script>
+   <script src="assets/js/bootstrap-bundle.js"></script>
+   <script src="assets/js/swiper-bundle.js"></script>
+   <script src="assets/js/slick.js"></script>
+   <script src="assets/js/magnific-popup.js"></script>
+   <script src="assets/js/nice-select.js"></script>
+   <script src="assets/js/purecounter.js"></script>
+   <script src="assets/js/wow.js"></script>
+   <script src="assets/js/isotope-pkgd.js"></script>
+   <script src="assets/js/flatpickr.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/ajax-form.js"></script>
+   <script src="assets/js/main.js"></script>
+   
+</body>
+
+</html>

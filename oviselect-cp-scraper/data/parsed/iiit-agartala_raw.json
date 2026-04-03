@@ -1,0 +1,45 @@
+{
+  "institute": "IIIT, Agartala",
+  "also_known_as": "IIIT Tripura",
+  "institute_type": "IIIT",
+  "established_year": 2018,
+  "city": "Agartala",
+  "state": "Tripura",
+  "address": "Indian Institute of Information Technology Agartala, National Institute of Technology, Barjala, Jirania, Agartala, Tripura - 799046",
+  "nearest_airport": "Maharaja Bir Bikram Airport, Agartala",
+  "nearest_airport_km": 26.0,
+  "nearest_railway_station": "Jirania Railway Station",
+  "nearest_railway_km": 3.0,
+  "caution_money": 5000,
+  "one_time_fees": 6500,
+  "tuition_fee_per_sem": 100000,
+  "annual_fees": 1200,
+  "total_institute_fee": 117125,
+  "hostel_fee_per_sem": 4000,
+  "mess_advance_per_sem": 23445,
+  "total_hostel_fee": 36645,
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Students Registered": 14.0,
+    "Students Placed": 14.0,
+    "Placement Percentage": 100.0
+  },
+  "median_package_lpa": 42.67,
+  "branch_wise_avg_ctc": {
+    "Students Registered": 14.0,
+    "Students Placed": 14.0,
+    "Placement Percentage": 100.0
+  },
+  "avg_package_lpa": 42.67,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-agartala",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-agartala",
+  "last_scraped_at": "2026-03-31T16:19:26.900528",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiit-agartala.ac.in"
+}

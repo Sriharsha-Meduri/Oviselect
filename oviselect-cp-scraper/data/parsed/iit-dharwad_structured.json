@@ -1,0 +1,767 @@
+{
+  "institute": "IIT Dharwad",
+  "institute_type": "IIT",
+  "also_known_as": "IITDH",
+  "established_year": 2016,
+  "city": "Dharwad",
+  "state": "Karnataka",
+  "address": "Indian Institute of Technology, Chikkamalligwad, Dharwad, Karnataka - 580007",
+  "nearest_airport": "Hubli Airport",
+  "nearest_airport_km": 29.5,
+  "nearest_railway_station": "Dharwad Railway Station",
+  "nearest_railway_km": 12.5,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": 77,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 100000,
+  "hostel_fee_per_sem": 1000,
+  "mess_advance_per_sem": 20000,
+  "one_time_fees": 6500,
+  "caution_money": 6000,
+  "annual_fees": 1500,
+  "total_institute_fee": 126500,
+  "total_hostel_fee": 32000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 65.56,
+  "avg_package_lpa": 16.6,
+  "median_package_lpa": 16.25,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 80.0,
+    "Electrical Engineering": 57.14,
+    "Mechanical Engineering": 54.76,
+    "Overall": 65.56
+  },
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 17.5,
+    "Electrical Engineering": 15.25,
+    "Mechanical Engineering": 16.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 21.38,
+    "Electrical Engineering": 14.69,
+    "Mechanical Engineering": 13.73
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Electrical, Electronics and Communication Engineering",
+      "faculty": [
+        {
+          "name": "Abhijit Kshirsagar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1986"
+        },
+        {
+          "name": "Amarkumar A Kushwaha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2769"
+        },
+        {
+          "name": "Ameer K Mulla",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2054"
+        },
+        {
+          "name": "Animesh Kumar Sahoo",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2056"
+        },
+        {
+          "name": "B N  Bharath",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1996"
+        },
+        {
+          "name": "Gopal Krishna Kamath M",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1987"
+        },
+        {
+          "name": "Nagaveni S",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2061"
+        },
+        {
+          "name": "Naveen Kadayinti",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1989"
+        },
+        {
+          "name": "Naveen M B",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2062"
+        },
+        {
+          "name": "Pratyasa Bhui",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1988"
+        },
+        {
+          "name": "Rahul Jashvantbhai Pandya",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2064"
+        },
+        {
+          "name": "Rajshekhar V Bhat",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1994"
+        },
+        {
+          "name": "Ruma Ghosh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1993"
+        },
+        {
+          "name": "Sairam Boggavarapu",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1990"
+        },
+        {
+          "name": "Samatha Benedict",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2070"
+        },
+        {
+          "name": "Samba Raju Chiluveru",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2527"
+        },
+        {
+          "name": "Saroj Mondal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1992"
+        },
+        {
+          "name": "Satish Naik",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1995"
+        },
+        {
+          "name": "Shashaank Aswatha Mattur",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2072"
+        },
+        {
+          "name": "Sneha M",
+          "designation": "Research Associate - I",
+          "profile_url": "https://www.iitdh.ac.in/node/6241"
+        },
+        {
+          "name": "Vigneshwara Raja P",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1991"
+        }
+      ],
+      "faculty_count": 21
+    },
+    {
+      "name": "Computer Science and Engineering",
+      "faculty": [
+        {
+          "name": "Achyut Mani Tripathi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1977"
+        },
+        {
+          "name": "Dileep A D",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2552"
+        },
+        {
+          "name": "Gayathri Ananthanarayanan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1983"
+        },
+        {
+          "name": "Kedar Vithal Khandeparkar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1980"
+        },
+        {
+          "name": "Konjengbam Anand",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1979"
+        },
+        {
+          "name": "Koteswararao Kondepu",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2059"
+        },
+        {
+          "name": "Nikhil D Hegde",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1975"
+        },
+        {
+          "name": "Rajshekar K",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1984"
+        },
+        {
+          "name": "Ramchandra Phawade",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2068"
+        },
+        {
+          "name": "Sandeep R B",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2033"
+        },
+        {
+          "name": "Siba Narayan Swain",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1974"
+        },
+        {
+          "name": "Tamal Das",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1982"
+        },
+        {
+          "name": "Vijeth J Kotagi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1981"
+        }
+      ],
+      "faculty_count": 13
+    },
+    {
+      "name": "Mathematics",
+      "faculty": [
+        {
+          "name": "Akhil Ranjan",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/8079"
+        },
+        {
+          "name": "Amlan K Barua",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2055"
+        },
+        {
+          "name": "Dhriti Ranjan Dolai",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2003"
+        },
+        {
+          "name": "G. Ravindran",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/8051"
+        },
+        {
+          "name": "Sagnik Sen",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2069"
+        },
+        {
+          "name": "Shraddha Srivastava",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2002"
+        },
+        {
+          "name": "Shreedevi Masuti",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2073"
+        },
+        {
+          "name": "Veekesh Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2005"
+        }
+      ],
+      "faculty_count": 8
+    },
+    {
+      "name": "Mechanical, Materials and Aerospace Engineering",
+      "faculty": [
+        {
+          "name": "Amar Keshav Gaonkar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2020"
+        },
+        {
+          "name": "Ambarish Kulkarni",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2827"
+        },
+        {
+          "name": "Anbukkarasi Rajendran",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2016"
+        },
+        {
+          "name": "Dhiraj V Patil",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2012"
+        },
+        {
+          "name": "Group Captain Prahlad Joshi",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2444"
+        },
+        {
+          "name": "Hiranya Deka",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2008"
+        },
+        {
+          "name": "Keerthi M C",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2009"
+        },
+        {
+          "name": "Manga Ramya Durga",
+          "designation": "Research Associate -I",
+          "profile_url": "https://www.iitdh.ac.in/node/7366"
+        },
+        {
+          "name": "Meenatchidevi Murugesan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2060"
+        },
+        {
+          "name": "Naveen Kumar",
+          "designation": "Institute Post-Doctoral Fellow (iPDF)",
+          "profile_url": "https://www.iitdh.ac.in/node/2804"
+        },
+        {
+          "name": "Omkar Baswaraj Bembalge",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2011"
+        },
+        {
+          "name": "Pavithra S",
+          "designation": "Research Associate - II",
+          "profile_url": "https://www.iitdh.ac.in/node/7858"
+        },
+        {
+          "name": "Punnag Chatterjee",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2017"
+        },
+        {
+          "name": "Rakesh Lingam",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2014"
+        },
+        {
+          "name": "Ramjee Repaka",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2553"
+        },
+        {
+          "name": "Samarth S Raut",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2071"
+        },
+        {
+          "name": "Sangamesh Deepak R",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2021"
+        },
+        {
+          "name": "Satyapriya Gupta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2010"
+        },
+        {
+          "name": "Shrikanth V",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2074"
+        },
+        {
+          "name": "Somashekara M A",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2018"
+        },
+        {
+          "name": "Sreepathi L K",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2517"
+        },
+        {
+          "name": "Sudheer Siddapureddy",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2007"
+        },
+        {
+          "name": "Surya Prakash Ramesh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2019"
+        },
+        {
+          "name": "Sushanta Kumar Sethi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2006"
+        },
+        {
+          "name": "Tejas Prakash Gotkhindi",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2075"
+        },
+        {
+          "name": "Vyom Sharma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2013"
+        }
+      ],
+      "faculty_count": 26
+    },
+    {
+      "name": "Civil & Infrastructure Engineering",
+      "faculty": [
+        {
+          "name": "Amarnath Hegde",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1971"
+        },
+        {
+          "name": "Aniket Vasantrao Kataware",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1972"
+        },
+        {
+          "name": "Ankit Balvanshi",
+          "designation": "Research Associate - III",
+          "profile_url": "https://www.iitdh.ac.in/node/7184"
+        },
+        {
+          "name": "Chandra Bhanu Gupt",
+          "designation": "Institute Post-Doctoral Fellow (iPDF)",
+          "profile_url": "https://www.iitdh.ac.in/node/2803"
+        },
+        {
+          "name": "Giridhar Rajesh Bande",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2057"
+        },
+        {
+          "name": "Hemanth Kumar Chinthapalli",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1973"
+        },
+        {
+          "name": "K V Jayakumar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2443"
+        },
+        {
+          "name": "Ramesh Nayaka",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1970"
+        },
+        {
+          "name": "Sanatkumar P Rajamane",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1969"
+        },
+        {
+          "name": "Somil Yadav",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2500"
+        },
+        {
+          "name": "VenkappayyA R. dEsAi",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2076"
+        }
+      ],
+      "faculty_count": 11
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [
+        {
+          "name": "Anmol Kumar",
+          "designation": "Ramanujan Fellow",
+          "profile_url": "https://www.iitdh.ac.in/node/8058"
+        },
+        {
+          "name": "Bhalchandra Laxmanrao Tembe",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1966"
+        },
+        {
+          "name": "Kundan Kumar Singh Sagar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2615"
+        },
+        {
+          "name": "Mahesh Gudem",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2669"
+        },
+        {
+          "name": "Mallikarjunaswamy A M M",
+          "designation": "Research Associate - I",
+          "profile_url": "https://www.iitdh.ac.in/node/8237"
+        },
+        {
+          "name": "Nilkamal Mahanta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1967"
+        },
+        {
+          "name": "Rajeswara Rao M",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2067"
+        },
+        {
+          "name": "Sudhir Kumar Sahoo",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1965"
+        },
+        {
+          "name": "Supriya Rej",
+          "designation": "Ramanujan Faculty",
+          "profile_url": "https://www.iitdh.ac.in/node/7501"
+        }
+      ],
+      "faculty_count": 9
+    },
+    {
+      "name": "Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Ashok Kumar Ummireddi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/4161"
+        },
+        {
+          "name": "C Ravikumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/4231"
+        },
+        {
+          "name": "Ravi Chandra Dutta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1963"
+        },
+        {
+          "name": "Shashwata Ghosh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/7341"
+        },
+        {
+          "name": "Sontti Somasekhara Goud",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1964"
+        },
+        {
+          "name": "Suvamay Jana",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1962"
+        },
+        {
+          "name": "Varaha Jayarama Krishna Jonnalagedda",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/7340"
+        }
+      ],
+      "faculty_count": 7
+    },
+    {
+      "name": "Biosciences and Bioengineering",
+      "faculty": [
+        {
+          "name": "Badri Nath Dubey",
+          "designation": "Ramalingaswami Re-entry Faculty fellow",
+          "profile_url": "https://www.iitdh.ac.in/node/7483"
+        },
+        {
+          "name": "Bal Krishna Chaube",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2770"
+        },
+        {
+          "name": "Darshan C M",
+          "designation": "Research Associate - I",
+          "profile_url": "https://www.iitdh.ac.in/node/7321"
+        },
+        {
+          "name": "Sakesh Kumar",
+          "designation": "Research Associate-1",
+          "profile_url": "https://www.iitdh.ac.in/node/7447"
+        },
+        {
+          "name": "Subhash Mehto",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1960"
+        },
+        {
+          "name": "Sudhanshu Kumar Shukla",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2031"
+        },
+        {
+          "name": "Surya Pratap Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1958"
+        },
+        {
+          "name": "Swananda Marathe",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1959"
+        }
+      ],
+      "faculty_count": 8
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "D Narasimha",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2286"
+        },
+        {
+          "name": "Dhriti Sundar Ghosh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2024"
+        },
+        {
+          "name": "Kavita Devi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2026"
+        },
+        {
+          "name": "Koushik Saha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2023"
+        },
+        {
+          "name": "R Prabhu",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2022"
+        },
+        {
+          "name": "Rimi Banerjee",
+          "designation": "Ramanujan Fellow",
+          "profile_url": "https://www.iitdh.ac.in/node/8059"
+        },
+        {
+          "name": "Santosh Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2025"
+        },
+        {
+          "name": "Shivaprasad Sonnada Math",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2593"
+        }
+      ],
+      "faculty_count": 8
+    },
+    {
+      "name": "Humanities, Economics, Arts and Rural Technologies",
+      "faculty": [
+        {
+          "name": "Debalina Chakravarty",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2505"
+        },
+        {
+          "name": "Gopal Sharan Parashari",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2032"
+        },
+        {
+          "name": "Jolly Thomas",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2000"
+        },
+        {
+          "name": "Mohana Rao Balaga",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/2001"
+        },
+        {
+          "name": "Ridhima Tewari",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1999"
+        }
+      ],
+      "faculty_count": 5
+    },
+    {
+      "name": "General",
+      "faculty": [
+        {
+          "name": "S R Mahadeva Prasanna",
+          "designation": "Professor",
+          "profile_url": "https://www.iitdh.ac.in/node/1985"
+        }
+      ],
+      "faculty_count": 1
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": null,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {},
+  "infrastructure": {
+    "labs": [
+      "Centers",
+      "Knowledge Resource Centre (KRC) – Library",
+      "Incubation Center",
+      "Centres",
+      "Counselling Center",
+      "Doctors' Availability"
+    ]
+  },
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iitdh.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 71,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-dharwad",
+  "last_scraped_at": "2026-03-31T16:00:48.376894",
+  "department_count": 11,
+  "total_faculty": 117
+}

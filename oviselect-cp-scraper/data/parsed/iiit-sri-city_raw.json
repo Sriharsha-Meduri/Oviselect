@@ -1,0 +1,48 @@
+{
+  "institute": "IIIT (IIIT), Sri City, Chittoor",
+  "also_known_as": "IIITS",
+  "institute_type": "IIIT",
+  "established_year": 2013,
+  "city": "Sri City",
+  "state": "Andhra Pradesh",
+  "address": "Indian Institute of Information Technology, 630 Gnan Marg, Sri City, Satyavedu Mandal, Chittoor District, Andhra Pradesh - 517646",
+  "nearest_airport": "Chennai International Airport",
+  "nearest_airport_km": 81.5,
+  "nearest_railway_station": "Sullurpeta Railway Station",
+  "nearest_railway_km": 18.5,
+  "caution_money": 20000,
+  "one_time_fees": 19000,
+  "tuition_fee_per_sem": 165000,
+  "hostel_fee_per_sem": 22000,
+  "annual_fees": 2600,
+  "mess_advance_per_sem": 20000,
+  "total_institute_fee": 248600,
+  "branch_wise_placement_pct": {
+    "Students Registered": 183.0,
+    "Students Placed": 168.0,
+    "Placed (%)": 91.8
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 14.0,
+    "Electronics and Communication Engineering": 14.0,
+    "Overall": 14.0
+  },
+  "median_package_lpa": 14.0,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 20.07,
+    "Electronics and Communication Engineering": 17.25
+  },
+  "avg_package_lpa": 18.66,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-sri-city",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-sri-city",
+  "last_scraped_at": "2026-03-31T16:17:18.209216",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiits.ac.in"
+}

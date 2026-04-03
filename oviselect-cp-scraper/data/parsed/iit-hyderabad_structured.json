@@ -1,0 +1,2379 @@
+{
+  "institute": "IIT Hyderabad",
+  "institute_type": "IIT",
+  "also_known_as": "IITH",
+  "established_year": 2008,
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "address": "Indian Institute of Technology, Kandi, Sangareddy, Medak, Telangana - 502284",
+  "nearest_airport": "Rajiv Gandhi International Airport, Hyderabad",
+  "nearest_airport_km": 71.5,
+  "nearest_railway_station": "Secunderabad Junction Railway Station",
+  "nearest_railway_km": 55.0,
+  "nirf_overall_rank": 12,
+  "nirf_engineering_rank": 7,
+  "nirf_research_rank": 15,
+  "nirf_innovation_rank": "6 (2025)",
+  "qs_world_rank": "664 (2026)",
+  "qs_asia_rank": "270 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": 10,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 100000,
+  "hostel_fee_per_sem": 15000,
+  "mess_advance_per_sem": 16577,
+  "one_time_fees": 8000,
+  "caution_money": 9000,
+  "annual_fees": 1888,
+  "total_institute_fee": 161965,
+  "total_hostel_fee": null,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 69.33,
+  "avg_package_lpa": 22.02,
+  "median_package_lpa": 20.5,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Artificial Intelligence": 89.66,
+    "Biomedical Engineering": 33.33,
+    "Chemical Engineering": 70.59,
+    "Civil Engineering": 52.17,
+    "Computer Science and Engineering": 91.94,
+    "Electrical Engineering": 86.67,
+    "Engineering Physics": 14.29,
+    "Engineering Science": 69.7,
+    "Materials Science and Metallurgical Engineering": 69.23,
+    "Mathematics and Computing": 76.19,
+    "Mechanical Engineering": 55.56,
+    "Overall": 69.33
+  },
+  "branch_wise_median_ctc": {
+    "Artificial Intelligence": 25.9,
+    "Chemical Engineering": 19.5,
+    "Civil Engineering": 14.62,
+    "Computer Science and Engineering": 30.18,
+    "Electrical Engineering": 27.54,
+    "Engineering Physics": 18.4,
+    "Engineering Science": 22.0,
+    "Materials Science and Metallurgical Engineering": 13.5,
+    "Mathematics and Computing": 21.5,
+    "Mechanical Engineering": 11.9
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Artificial Intelligence": 26.27,
+    "Chemical Engineering": 20.38,
+    "Civil Engineering": 17.26,
+    "Computer Science and Engineering": 29.53,
+    "Electrical Engineering": 28.07,
+    "Engineering Physics": 20.06,
+    "Engineering Science": 25.97,
+    "Materials Science and Metallurgical Engineering": 15.0,
+    "Mathematics and Computing": 25.06,
+    "Mechanical Engineering": 10.26,
+    "Overall": 24.32
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Liberal Arts",
+      "faculty": [
+        {
+          "name": "Aalok Dinkar Khandekar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/aalok/"
+        },
+        {
+          "name": "Aardra Surendran",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/aardra/"
+        },
+        {
+          "name": "Amrita Deb",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/amrita/"
+        },
+        {
+          "name": "Amrita Datta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/amritadatta/"
+        },
+        {
+          "name": "Anandita Pan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/anandita/"
+        },
+        {
+          "name": "Anindita Majumdar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/anindita/"
+        },
+        {
+          "name": "Badri Narayan Rath",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/badri/"
+        },
+        {
+          "name": "Chandan Bose",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/chandanbose/"
+        },
+        {
+          "name": "Dinabandhu Sethi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/dinabandhu/"
+        },
+        {
+          "name": "Ganesh M. P.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/mpganesh/"
+        },
+        {
+          "name": "Gaurav Dhamija",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/gauravdhamija/"
+        },
+        {
+          "name": "Haripriya Narasimhan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/haripriya/"
+        },
+        {
+          "name": "Indira Jalli",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/indiraj/"
+        },
+        {
+          "name": "Mahati Chittem",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/mahati/"
+        },
+        {
+          "name": "Neeraj Kumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/neeraj.kumar/"
+        },
+        {
+          "name": "Prabheesh K.P.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/prabheesh/"
+        },
+        {
+          "name": "Prakash Chandra Mondal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/prakashmondal/"
+        },
+        {
+          "name": "Rashmi Singh",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/rashmi.singh/"
+        },
+        {
+          "name": "Shubha Ranganathan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/shubha/"
+        },
+        {
+          "name": "Shuhita Bhattacharjee",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/shuhita/"
+        },
+        {
+          "name": "Srirupa Chatterjee",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/srirupa/"
+        },
+        {
+          "name": "Padmashri Dr. Yella Venkateswara Rao",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Anjal Prakash",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. S. Irudaya Rajan",
+          "designation": "Faculty",
+          "profile_url": "https://www.mei.edu/profile/s-irudaya-rajan"
+        },
+        {
+          "name": "Prof. Jandhyala B G Tilak",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Nanda Kishore Kannuri",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Yuka Kataoka",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Paresh Kumar Narayan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/paresh-kumar-narayan/"
+        },
+        {
+          "name": "Prof. Pramod K Nayar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/pramodknayar/"
+        },
+        {
+          "name": "Padma Vibhushan Dr. Padma Subramanyam",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/padma_subramanyam/"
+        },
+        {
+          "name": "Padma Bhushan Smt. Radha Reddy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/radha_reddy/"
+        },
+        {
+          "name": "Padma Bhushan Sri Raja Reddy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/sri_raja_reddy/"
+        },
+        {
+          "name": "Padma Vibhushan Dr. L. Subramaniam",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/l_subramaniam/"
+        },
+        {
+          "name": "Padma Bhushan Smt. Sudha Ragunathan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/sudha_ragunathan/"
+        },
+        {
+          "name": "Padma Bhushan Dr. Uma Sharma",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/uma_sharma/"
+        },
+        {
+          "name": "Padma Bhushan Pandit. Vishwa Mohan Bhatt",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/vishwa_mohan_bhatt/"
+        },
+        {
+          "name": "Padmashri Smt. Malavika Sarukkai",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/malavika_sarukkai/"
+        },
+        {
+          "name": "Padmashri Ustad F. Wasifuddin Dagar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/la/wasifuddin_dagar/"
+        }
+      ],
+      "faculty_count": 38
+    },
+    {
+      "name": "Computer Science & Engineering",
+      "faculty": [
+        {
+          "name": "Abhijit Das",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/abhijit.das/"
+        },
+        {
+          "name": "Antony Franklin",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/antony.franklin/"
+        },
+        {
+          "name": "Anupam Sanghi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/sanghi/"
+        },
+        {
+          "name": "Aravind N.R.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/aravind/"
+        },
+        {
+          "name": "Ashish Mishra",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/mishraashish/"
+        },
+        {
+          "name": "Bheemarjuna Reddy Tamma",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/tbr/"
+        },
+        {
+          "name": "C. Krishna Mohan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/ckm/"
+        },
+        {
+          "name": "J. Saketha Nath",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/saketha/"
+        },
+        {
+          "name": "Jyothi Vedurada",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/jyothiv/"
+        },
+        {
+          "name": "Kotaro Kataoka",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/kotaro/"
+        },
+        {
+          "name": "M.V. Panduranga Rao",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/mvp/"
+        },
+        {
+          "name": "Manaswi Paraashar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/manaswi/"
+        },
+        {
+          "name": "Manish Singh",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/msingh/"
+        },
+        {
+          "name": "Maria Francis",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/mariaf/"
+        },
+        {
+          "name": "Maunendra Sankar Desarkar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/maunendra/"
+        },
+        {
+          "name": "Nitin Saurabh",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/nitin/"
+        },
+        {
+          "name": "Praveen Tammana",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/praveent/"
+        },
+        {
+          "name": "Rajesh Kedia",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/rkedia/"
+        },
+        {
+          "name": "Rakesh Venkat",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/rakesh/"
+        },
+        {
+          "name": "Ramakrishna Upadrasta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/ramakrishna/"
+        },
+        {
+          "name": "Rameshwar Pratap",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/rameshwar/"
+        },
+        {
+          "name": "Rogers Mathew",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/rogers/"
+        },
+        {
+          "name": "Sandipan Dandapat",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/sdandapat/"
+        },
+        {
+          "name": "Sathya Peri",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/sathya_p/"
+        },
+        {
+          "name": "Saurabh Kumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/saurabhkr/"
+        },
+        {
+          "name": "Shirshendu Das",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/shirshendu/"
+        },
+        {
+          "name": "Sobhan Babu",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/sobhan/"
+        },
+        {
+          "name": "Srijith P.K",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/srijith/"
+        },
+        {
+          "name": "Subrahmanyam Kalyanasundaram",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/subruk/"
+        },
+        {
+          "name": "Vineeth N Balasubramanian",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/vineethnb/"
+        },
+        {
+          "name": "Dr. Kenzo Fujisue",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Naveen Sivadasan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Jun Murai",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/junmurai/"
+        },
+        {
+          "name": "Prof. C Siva Ram Murthy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cse/murthy/"
+        }
+      ],
+      "faculty_count": 34
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [
+        {
+          "name": "Abhijit Sau",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/asau/"
+        },
+        {
+          "name": "Annadhasan M",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/annadhasan/"
+        },
+        {
+          "name": "Anup Bhunia",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/abhunia/"
+        },
+        {
+          "name": "Arup Mahata",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/arup/"
+        },
+        {
+          "name": "Ashish Kulkarni",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/ashish.kulkarni/"
+        },
+        {
+          "name": "Ashutosh Kumar Mishra",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/akm/"
+        },
+        {
+          "name": "Bhabani Shankar Mallik",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/bhabani/"
+        },
+        {
+          "name": "C Malla Reddy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/cmreddy/"
+        },
+        {
+          "name": "Debasish Koner",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/debasishkoner/"
+        },
+        {
+          "name": "Deepa M.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/mdeepa/"
+        },
+        {
+          "name": "Faiz Ahmed Khan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/faiz/"
+        },
+        {
+          "name": "Jai Prakash",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/jaiprakash/"
+        },
+        {
+          "name": "Kishore Natte",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/kishore.natte/"
+        },
+        {
+          "name": "Koyel Banerjee Ghosh",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/koyel/"
+        },
+        {
+          "name": "Krishna Gavvala",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/kgavvala/"
+        },
+        {
+          "name": "Narendra Kurra",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/narendra/"
+        },
+        {
+          "name": "Prabusankar G.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/prabu/"
+        },
+        {
+          "name": "Priyadarshi Chakraborty",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/priyadarshi/"
+        },
+        {
+          "name": "Satyanarayana G.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/gvsatya/"
+        },
+        {
+          "name": "Saurabh Kumar Singh",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/sksingh/"
+        },
+        {
+          "name": "Sivakumar Vaidyanathan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/vsiva/"
+        },
+        {
+          "name": "Somnath Maji",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/smaji/"
+        },
+        {
+          "name": "Subrahmanyam Ch.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/csubbu/"
+        },
+        {
+          "name": "Sudarsanam Putla",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/sudarsanam.putla/"
+        },
+        {
+          "name": "Surajit Maity",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/surajitmaity/"
+        },
+        {
+          "name": "Surendra Kumar Martha",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/martha/"
+        },
+        {
+          "name": "Tarali Devi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/taralidevi/"
+        },
+        {
+          "name": "Tarun Kanti Panda",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/tpanda/"
+        },
+        {
+          "name": "Venkata Rao Kotagiri",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/chy/kvrao/"
+        },
+        {
+          "name": "Prof. Vadapalli Chandrasekhar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Osamu Tsutsumi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P. V. Srinivas",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Vasudevanpillai Biju",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 33
+    },
+    {
+      "name": "Electrical Engineering",
+      "faculty": [
+        {
+          "name": "Abhinav Kumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/abhinavkumar/"
+        },
+        {
+          "name": "Abhishek Kumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/akumar/"
+        },
+        {
+          "name": "Aditya T Siripuram",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/staditya/"
+        },
+        {
+          "name": "Amit Acharyya",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/amit_acharyya/"
+        },
+        {
+          "name": "Aneesh Sobhanan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/aneesh/"
+        },
+        {
+          "name": "Anjana A M",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/anjana.am/"
+        },
+        {
+          "name": "Ashudeb Dutta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/asudeb_dutta/"
+        },
+        {
+          "name": "G V V Sharma",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/gadepall/"
+        },
+        {
+          "name": "Gajendranath Chaudhury CH.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/gajendranath/"
+        },
+        {
+          "name": "Jose Titus",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/jtitus/"
+        },
+        {
+          "name": "K Siva Kumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/ksiva/"
+        },
+        {
+          "name": "Kapil Jainwal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/kapiljainwal/"
+        },
+        {
+          "name": "Kaushik Nayak",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/knayak/"
+        },
+        {
+          "name": "Kiran Kumar Kuchi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/kkuchi/"
+        },
+        {
+          "name": "Lakshmi Prasad Natarajan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/lakshminatarajan/"
+        },
+        {
+          "name": "Myna Vajha",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/mynav/"
+        },
+        {
+          "name": "Naresh Kumar Emani",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/naresh/"
+        },
+        {
+          "name": "Oves Badami",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/oves.badami/"
+        },
+        {
+          "name": "Pechetti Sasi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/psvinay/"
+        },
+        {
+          "name": "Pradeep Kumar Yemula",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/ypradeep/"
+        },
+        {
+          "name": "Rajalakshmi P.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/raji/"
+        },
+        {
+          "name": "Ravikumar Bhimasingu",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/ravikumar/"
+        },
+        {
+          "name": "Rupesh Ganpatrao Wandhare",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/rupesh/"
+        },
+        {
+          "name": "Seshadri Sravan Kumar V.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/seshadri/"
+        },
+        {
+          "name": "Shashank Vatedka",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/shashankvatedka/"
+        },
+        {
+          "name": "Shishir Kumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/shishirk/"
+        },
+        {
+          "name": "Shiv Govind Singh",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/sgsingh/"
+        },
+        {
+          "name": "Shubhadeep Bhattacharjee",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/shubhadeep/"
+        },
+        {
+          "name": "Siva Rama Krishna Vanjari",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/svanjari/"
+        },
+        {
+          "name": "Soumya Jana",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/jana/"
+        },
+        {
+          "name": "Sri Rama Murty Kodukula",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/ksrm/"
+        },
+        {
+          "name": "Sumohana S Channappayya",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/sumohana/"
+        },
+        {
+          "name": "Sundaram Vanka",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/sundar.vanka/"
+        },
+        {
+          "name": "Sushmee Badhulika",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/sbadh/"
+        },
+        {
+          "name": "Vaskar Sarkar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/vaskar/"
+        },
+        {
+          "name": "Vishal Sawant",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/vishalsawant/"
+        },
+        {
+          "name": "Zafar Ali Khan Mohammed",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/zafar/"
+        },
+        {
+          "name": "Dr. Alan O' Riordan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Gokul Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Bidyadhar Subudhi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Bayya Yegnanarayana",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/yegna/"
+        },
+        {
+          "name": "Dr. Mallikarjun Tatipamula",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/mallikarjun/"
+        },
+        {
+          "name": "Dr. Uday B. Desai",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/ubdesai/"
+        },
+        {
+          "name": "Mr. Varthakavi Raghunandan",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 44
+    },
+    {
+      "name": "Biotechnology",
+      "faculty": [
+        {
+          "name": "Abhishek Subramanian",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/abhisheks/"
+        },
+        {
+          "name": "Althuri Avanthi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/a.avanthi/"
+        },
+        {
+          "name": "Anamika Bhargava",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/abhargava/"
+        },
+        {
+          "name": "Anindya Roy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/anindya/"
+        },
+        {
+          "name": "Ashish Misra",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/ashishmisra/"
+        },
+        {
+          "name": "Basant Kumar Patel",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/basantkpatel/"
+        },
+        {
+          "name": "G. Narahari Sastry",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/gnsastry/"
+        },
+        {
+          "name": "Gaurav Sharma",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/sharmag/"
+        },
+        {
+          "name": "Gunjan Mehta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/gunjanmehta/"
+        },
+        {
+          "name": "Himanshu Joshi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/hjoshi/"
+        },
+        {
+          "name": "Indranil Malik",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/indranil/"
+        },
+        {
+          "name": "Raghavendra Nidhanapati K",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/raghunk/"
+        },
+        {
+          "name": "Rahul Kumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/rahulk/"
+        },
+        {
+          "name": "Rajakumara Eerappa",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/eraj/"
+        },
+        {
+          "name": "Rathinavelan Thenmalarchelvi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/tr/"
+        },
+        {
+          "name": "Sandipan Ray",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/sandipan.ray/"
+        },
+        {
+          "name": "Savita Devi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bt/savitadevi/"
+        },
+        {
+          "name": "Dr. Sangita Mukhopadhyay",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Shekhar C. Mande",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/shekhar_c_mande/"
+        }
+      ],
+      "faculty_count": 19
+    },
+    {
+      "name": "Mathematics",
+      "faculty": [
+        {
+          "name": "Aiyappan Srinivasan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/aiyappan/"
+        },
+        {
+          "name": "Amit Tripathi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/amittr/"
+        },
+        {
+          "name": "Anantha Lakshmi Narayana P",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/ananth/"
+        },
+        {
+          "name": "Arunabha Majumdar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/arun.majum/"
+        },
+        {
+          "name": "Balasubramaniam Jayaram",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/jbala/"
+        },
+        {
+          "name": "Bhakti Bhusan Manna",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/bbmanna/"
+        },
+        {
+          "name": "Deepak Kumar Pradhan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/dkpradhan/"
+        },
+        {
+          "name": "Dhriti Sundar Patra",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/dhriti/"
+        },
+        {
+          "name": "Jyotirmoy Rana",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/jrana/"
+        },
+        {
+          "name": "Mrinmoy Datta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/mrinmoy.datta/"
+        },
+        {
+          "name": "Neeraj Kumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/neeraj/"
+        },
+        {
+          "name": "Pradipto Banerjee",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/pradipto/"
+        },
+        {
+          "name": "Rajesh Kannan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/rajeshkannan/"
+        },
+        {
+          "name": "Ramesh G",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/rameshg/"
+        },
+        {
+          "name": "Sameen Naqvi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/sameen/"
+        },
+        {
+          "name": "Sayantee Jana",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/sayantee.jana/"
+        },
+        {
+          "name": "Subrahmanya Sastry Challa",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/csastry/"
+        },
+        {
+          "name": "Sukumar D",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/suku/"
+        },
+        {
+          "name": "Tanmoy Paul",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/tanmoy/"
+        },
+        {
+          "name": "Venkata Ganapathi Narasimha Kumar Ch",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/narasimha/"
+        },
+        {
+          "name": "Venku Naidu Dogga",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/venku/"
+        },
+        {
+          "name": "Vikas Krishnamurthy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/math/vikas.sk/"
+        }
+      ],
+      "faculty_count": 22
+    },
+    {
+      "name": "Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Alan Ranjit Jacob",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/arjacob/"
+        },
+        {
+          "name": "Anand Mohan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/anandm/"
+        },
+        {
+          "name": "Balaji Iyer Vaidyanathan Shantha",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/balaji/"
+        },
+        {
+          "name": "Chandra Shekhar Sharma",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/cssharma/"
+        },
+        {
+          "name": "Debaprasad Shee",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/dshee/"
+        },
+        {
+          "name": "Devarai Santhosh Kumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/devarai/"
+        },
+        {
+          "name": "Gande Vamsi Vikram",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/vamsigande/"
+        },
+        {
+          "name": "Giridhar Madras",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/giridhar/"
+        },
+        {
+          "name": "Kirti Chandra Sahu",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/ksahu/"
+        },
+        {
+          "name": "Krishan Kanhaiya",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/krishkan/"
+        },
+        {
+          "name": "Lopamudra Giri",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/giril/"
+        },
+        {
+          "name": "Mahesh Ganesan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/maheshg/"
+        },
+        {
+          "name": "Narasimha Mangadoddy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/narasimha/"
+        },
+        {
+          "name": "Parag D. Pawar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/parag/"
+        },
+        {
+          "name": "Phanindra Varma Jampana",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/pjampana/"
+        },
+        {
+          "name": "Ramkarn Patne",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/ramkarn/"
+        },
+        {
+          "name": "Ranajit Mondal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/ranajit/"
+        },
+        {
+          "name": "Saptarshi Majumdar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/saptarshi/"
+        },
+        {
+          "name": "Satyavrata Samavedi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/samavedi/"
+        },
+        {
+          "name": "Shelaka Gupta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/shelaka/"
+        },
+        {
+          "name": "Suhanya Duraiswamy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/suhanya/"
+        },
+        {
+          "name": "Sunil Kumar Maity",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/sunil_maity/"
+        },
+        {
+          "name": "Vinod M Janardhanan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/vj/"
+        },
+        {
+          "name": "Dr. Hemanth Noothalapati",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Seeram Ramakrishna",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/seeram/"
+        },
+        {
+          "name": "Prof. Suresh Bhargava",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/suresh_bhargava/"
+        }
+      ],
+      "faculty_count": 26
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "Alok Kumar Pan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/akp/"
+        },
+        {
+          "name": "Anjan Kumar Giri",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/giria/"
+        },
+        {
+          "name": "Anupam Gupta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/agupta/"
+        },
+        {
+          "name": "Anurag Tripathi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/tripathi/"
+        },
+        {
+          "name": "Arabinda Haldar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/arabinda/"
+        },
+        {
+          "name": "Archak Purkayastha",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/archak.p/"
+        },
+        {
+          "name": "Atanu Rajak",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/atanu/"
+        },
+        {
+          "name": "Bhuvanesh Ramakrishna",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/bhuvan/"
+        },
+        {
+          "name": "Divya Sachdeva",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/divyasachdeva/"
+        },
+        {
+          "name": "Jyoti Ranjan Mohanty",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/jmohanty/"
+        },
+        {
+          "name": "Kanchana V",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/kanchana/"
+        },
+        {
+          "name": "Kirit Makwana",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/kdmakwana/"
+        },
+        {
+          "name": "Mahesh Peddigari",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/mahesh.p/"
+        },
+        {
+          "name": "Manish K. Niranjan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/manish/"
+        },
+        {
+          "name": "Manisha Thakurathi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/mthakurathi/"
+        },
+        {
+          "name": "Mayukh Pahari",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/mayukh/"
+        },
+        {
+          "name": "Narendra Sahu",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/nsahu/"
+        },
+        {
+          "name": "Nithyanandan Kanagaraj",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/nithyan/"
+        },
+        {
+          "name": "Prem Pal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/prem/"
+        },
+        {
+          "name": "Priyotosh Bandyopadhyay",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/bpriyo/"
+        },
+        {
+          "name": "Raghavendra Srikanth Hundi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/rshundi/"
+        },
+        {
+          "name": "Sai Santosh Kumar Raavi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/sskraavi/"
+        },
+        {
+          "name": "Saket Asthana",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/asthanas/"
+        },
+        {
+          "name": "Sangkha Borah",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/sangkha.borah/"
+        },
+        {
+          "name": "Saranya Ghosh",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/saranya.ghosh/"
+        },
+        {
+          "name": "Satish Laxman Shinde",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/shindesl/"
+        },
+        {
+          "name": "Saurabh Sandilya",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/saurabh/"
+        },
+        {
+          "name": "Shantanu Desai",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/shantanud/"
+        },
+        {
+          "name": "Shubho Ranjan Roy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/sroy/"
+        },
+        {
+          "name": "Srabani Kar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/srabani/"
+        },
+        {
+          "name": "Suryanarayana Jammalamadaka",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/surya/"
+        },
+        {
+          "name": "Vandana Sharma",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/vsharma/"
+        },
+        {
+          "name": "Yogesh Kumar Srivastava",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/phy/yogesh.srivastava/"
+        },
+        {
+          "name": "Prof. Karim Trabelsi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Murthy S. Gudipati",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Soumya Mohanty",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Abhay Deshpande",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/abhaydeshpande/"
+        }
+      ],
+      "faculty_count": 37
+    },
+    {
+      "name": "Civil Engineering",
+      "faculty": [
+        {
+          "name": "Ambika S",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/ambika/"
+        },
+        {
+          "name": "Amirtham Rajagopal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/rajagopal/"
+        },
+        {
+          "name": "Anil Agarwal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/anil/"
+        },
+        {
+          "name": "Asif Qureshi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/asif/"
+        },
+        {
+          "name": "Biswarup Bhattacharyya",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/biswarup/"
+        },
+        {
+          "name": "D. V. Sai Praneeth",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/praneeth.sai/"
+        },
+        {
+          "name": "Debraj Bhattacharyya",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/debrajb/"
+        },
+        {
+          "name": "Digvijay S. Pawar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/dspawar/"
+        },
+        {
+          "name": "Mahendrakumar Madhavan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/mkm/"
+        },
+        {
+          "name": "Maheswaran R.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/rmaheswaran/"
+        },
+        {
+          "name": "Munwar B. Basha",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/basha/"
+        },
+        {
+          "name": "Phanindra K.B.V.N.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/phanindra/"
+        },
+        {
+          "name": "Prasanna R",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/prasanna/"
+        },
+        {
+          "name": "Pritha Chatterjee",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/pritha/"
+        },
+        {
+          "name": "Ramya Sri Mullapudi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/ramyamullapudi/"
+        },
+        {
+          "name": "Roshan Khan .M",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/roshan/"
+        },
+        {
+          "name": "Satish Kumar Regonda",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/satishr/"
+        },
+        {
+          "name": "Seetha N.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/seetha/"
+        },
+        {
+          "name": "Shashidhar T",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/shashidhar/"
+        },
+        {
+          "name": "Shruti Upadhyaya",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/shrutiau/"
+        },
+        {
+          "name": "Shwetabh Yadav",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/shwetabh/"
+        },
+        {
+          "name": "Sireesh S.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/sireesh/"
+        },
+        {
+          "name": "Sk Zeeshan Ali",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/zeeshan/"
+        },
+        {
+          "name": "Sourav Das",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/sourav.das/"
+        },
+        {
+          "name": "Subhojit Kadia",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/subhokadia/"
+        },
+        {
+          "name": "Subramaniam Kolluru V.L.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/kvls/"
+        },
+        {
+          "name": "Surendra Nadh Somala",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/surendra/"
+        },
+        {
+          "name": "Suriya S. Prakash",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/suriyap/"
+        },
+        {
+          "name": "Umashankar B.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ce/buma/"
+        },
+        {
+          "name": "Prof. Balaji Rajagopalan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. David W Graham",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. S. Majid Hassanizadeh S.",
+          "designation": "Faculty",
+          "profile_url": "https://www.uu.nl/en/organisation/faculty-of-geosciences/majid-hassanizadeh"
+        },
+        {
+          "name": "Dr. Virendra M. Tiwari",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Nemkumar Banthia",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/nemkumar_banthia/"
+        }
+      ],
+      "faculty_count": 34
+    },
+    {
+      "name": "Materials Science & Metallurgical Engineering",
+      "faculty": [
+        {
+          "name": "Amit Barnwal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/amit.barnwal/"
+        },
+        {
+          "name": "Anuj Goyal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/anujgoyal/"
+        },
+        {
+          "name": "Ashok Kamaraj",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/ashokk/"
+        },
+        {
+          "name": "Atul Suresh Deshpande",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/atuldeshpande/"
+        },
+        {
+          "name": "Bharat Bhooshan Panigrahi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/bharat/"
+        },
+        {
+          "name": "Chandrasekhar Murapaka",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/mchandrasekhar/"
+        },
+        {
+          "name": "Deepu J Babu",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/deepu.babu/"
+        },
+        {
+          "name": "Hemam Rachna Devi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/rachnahemam/"
+        },
+        {
+          "name": "Janaki Ram G. D",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/jram/"
+        },
+        {
+          "name": "Mayur Vaidya",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/vaidyam/"
+        },
+        {
+          "name": "Mudrika Khandelwal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/mudrika/"
+        },
+        {
+          "name": "Murty B. S.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/bsm/"
+        },
+        {
+          "name": "Pinaki Prasad Bhattacharjee",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/pinakib/"
+        },
+        {
+          "name": "Rajesh Korla",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/rajeshk/"
+        },
+        {
+          "name": "Rama Srinivas Varanasi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/rama/"
+        },
+        {
+          "name": "Ranjith Ramadurai",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/ranjith/"
+        },
+        {
+          "name": "Sai Rama Krishna Malladi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/srkm/"
+        },
+        {
+          "name": "Saswata Bhattacharya",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/saswata/"
+        },
+        {
+          "name": "Shourya Dutta Gupta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/shourya/"
+        },
+        {
+          "name": "Subhradeep Chatterjee",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/subhradeep/"
+        },
+        {
+          "name": "Suhash Ranjan Dey",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/suhash/"
+        },
+        {
+          "name": "Suresh Perumal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/suresh/"
+        },
+        {
+          "name": "Suresh Kumar Garlapati",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/msme/gsuresh/"
+        },
+        {
+          "name": "Dr. Komal Kapoor",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Seiji Mitani",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Omkaram Nalamasu",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/omkaram/"
+        },
+        {
+          "name": "Dr. K Bhanu Sankara Rao",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 27
+    },
+    {
+      "name": "Climate Change Studies",
+      "faculty": [
+        {
+          "name": "Anamitra Saha",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cc/anamitra/"
+        },
+        {
+          "name": "Chetankumar Jalihal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/cc/chetankumar.jalihal/"
+        },
+        {
+          "name": "Dr. Rajib Shaw",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Venkata Krishna Kumar Upadhyayula",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Vinod Tare",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/vinodtare/"
+        }
+      ],
+      "faculty_count": 5
+    },
+    {
+      "name": "Mechanical & Aerospace Engineering",
+      "faculty": [
+        {
+          "name": "Anirban Naskar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/anaskar/"
+        },
+        {
+          "name": "Ankush Kumar Jaiswal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/ankush/"
+        },
+        {
+          "name": "Anurup Datta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/anurup.datta/"
+        },
+        {
+          "name": "Ashok Kumar Pandey",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/ashok/"
+        },
+        {
+          "name": "Chandra Prakash",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/cprakashj/"
+        },
+        {
+          "name": "Chandrika Prakash Vyasarayani",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/vcprakash/"
+        },
+        {
+          "name": "G Thulsiram",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/thulsiramg/"
+        },
+        {
+          "name": "Gangadharan Raju",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/gangadharanr/"
+        },
+        {
+          "name": "Gnanaprakash K",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/gnan/"
+        },
+        {
+          "name": "Harish Nagaraj Dixit",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/hdixit/"
+        },
+        {
+          "name": "Himabindu Allaka",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/himabindu.allaka/"
+        },
+        {
+          "name": "Karri Badarinath",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/badarinath/"
+        },
+        {
+          "name": "Kuchibhatla Sai Aditya Raman",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/sarkuchi/"
+        },
+        {
+          "name": "Lakshmana Dora Chandrala",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/lchandrala/"
+        },
+        {
+          "name": "Mahesh M S",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/mahesh/"
+        },
+        {
+          "name": "Muvvala Gopinath",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/mgopinath/"
+        },
+        {
+          "name": "N. Venkata Reddy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/nvr/"
+        },
+        {
+          "name": "Neetu Tiwari",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/neetu.tiwari/"
+        },
+        {
+          "name": "Niranjan Shrinivas Ghaisas",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/nghaisas/"
+        },
+        {
+          "name": "Nishanth Dongari",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/nishanth/"
+        },
+        {
+          "name": "Pankaj Sharadchandra Kolhe",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/psk/"
+        },
+        {
+          "name": "Prabhat Kumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/pkumar/"
+        },
+        {
+          "name": "Prakhar Gupta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/prakharg/"
+        },
+        {
+          "name": "Prasanth Kumar R.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/rpkumar/"
+        },
+        {
+          "name": "Raja Banerjee",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/rajabanerjee/"
+        },
+        {
+          "name": "Ramji M",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/ramji_mano/"
+        },
+        {
+          "name": "Ranabir Dey",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/ranabir/"
+        },
+        {
+          "name": "S K Karthick",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/skkarthick/"
+        },
+        {
+          "name": "Sachidananda Behera",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/sbehera/"
+        },
+        {
+          "name": "Safvan Palathingal",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/safvan/"
+        },
+        {
+          "name": "Sai Sidhardh",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/sidhardh/"
+        },
+        {
+          "name": "Saravanan B",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/saravananb/"
+        },
+        {
+          "name": "Sayak Banerjee",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/sayakb/"
+        },
+        {
+          "name": "Surya kumar S.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/ssurya/"
+        },
+        {
+          "name": "Syed Nizamuddin Khaderi",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/snk/"
+        },
+        {
+          "name": "Venkatasubbaiah K.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/kvenkat/"
+        },
+        {
+          "name": "Venkatesham B.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/venkatesham/"
+        },
+        {
+          "name": "Vishnu R Unni",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/vishnu.runni/"
+        },
+        {
+          "name": "Viswanath R R S R Chinthapenta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/viswanath/"
+        },
+        {
+          "name": "Dr. Brendan O'Flynn",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Hideaki Ogawa",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Manoj Kumar Buragohain",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Saraswat V K",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/vksaraswat1949/"
+        },
+        {
+          "name": "Dr. Vinayak Eswaran",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/mae/eswar/"
+        }
+      ],
+      "faculty_count": 44
+    },
+    {
+      "name": "Design",
+      "faculty": [
+        {
+          "name": "Ankita Roy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/aroy/"
+        },
+        {
+          "name": "Anusmita Das",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/anusmita/"
+        },
+        {
+          "name": "Deepak John Mathew",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/djm/"
+        },
+        {
+          "name": "Delwyn Jude Remedios",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/delwyn/"
+        },
+        {
+          "name": "Md Haseen Akhtar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/haseen/"
+        },
+        {
+          "name": "Neelakantan P K",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/neel/"
+        },
+        {
+          "name": "Pranav Ashok Satpute",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/pranav.satpute/"
+        },
+        {
+          "name": "Prasad S Onkar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/psonkar/"
+        },
+        {
+          "name": "Saurav Khuttiya Deori",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/skhuttiyadeori/"
+        },
+        {
+          "name": "Seema Krishnakumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/seema/"
+        },
+        {
+          "name": "Shahid Mohammad",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/mohammad.shahid/"
+        },
+        {
+          "name": "Shiva Ji",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/shivaji/"
+        },
+        {
+          "name": "Sonali Srivastav",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/sonali.srivastav/"
+        },
+        {
+          "name": "Srikar A V R",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/des/srikaravr/"
+        },
+        {
+          "name": "Prof. Adekunle Olusola Adeyeye",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Nina Sabnani",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ravi Mahamuni",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Ravi Mokashi Punekar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Uday Athavankar",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 19
+    },
+    {
+      "name": "Biomedical Engineering",
+      "faculty": [
+        {
+          "name": "Aravind Kumar Rengan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/aravind/"
+        },
+        {
+          "name": "Avinash Eranki",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/aeranki/"
+        },
+        {
+          "name": "Falguni Pati",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/falguni/"
+        },
+        {
+          "name": "Harikrishnan Narayanan Unni",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/harikrishnan/"
+        },
+        {
+          "name": "Jaladhar Neelavalli",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/drjaladhar.n/"
+        },
+        {
+          "name": "Jyotsnendu Giri",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/jgiri/"
+        },
+        {
+          "name": "Kousik Sarathy Sridharan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/kousiksarathy/"
+        },
+        {
+          "name": "Nagarajan Ganapathy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/gnagarajan/"
+        },
+        {
+          "name": "Renu John",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/renujohn/"
+        },
+        {
+          "name": "Subha Narayan Rath",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/subharath/"
+        },
+        {
+          "name": "Suhail Rizvi Mohd",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/suhailr/"
+        },
+        {
+          "name": "Dr. D Ravi Varma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ramesh Venkatesan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sikandar Shaikh",
+          "designation": "Faculty",
+          "profile_url": "https://bme.iith.ac.in/assets/docs/sikandar.pdf"
+        },
+        {
+          "name": "Prof. Soni Savai Pullamsetti",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. James Francis Antaki",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/james_francis/"
+        }
+      ],
+      "faculty_count": 16
+    },
+    {
+      "name": "Artificial Intelligence",
+      "faculty": [
+        {
+          "name": "Ganesh Ghalme",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ai/ganeshghalme/"
+        },
+        {
+          "name": "Karthik P. N.",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ai/pnkarthik/"
+        },
+        {
+          "name": "Ketan P. Detroja",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ee/ketan/"
+        },
+        {
+          "name": "Kishalay Mitra",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/che/kishalay/"
+        },
+        {
+          "name": "Konda Reddy Mopuri",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ai/krmopuri/"
+        },
+        {
+          "name": "Mohan Raghavan",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/bme/mohanr/"
+        },
+        {
+          "name": "Sreedurga Gogulapati",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/ai/gsreedurga/"
+        },
+        {
+          "name": "Dr. Easwar Subramanian",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Gaurav Sinha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. L. Raju Chinthalapati",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Vidyasagar M FRS",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/m.vidyasagar/"
+        }
+      ],
+      "faculty_count": 11
+    },
+    {
+      "name": "Engineering Management",
+      "faculty": [
+        {
+          "name": "Jayshree Patnaik",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/em/jpatnaik/"
+        },
+        {
+          "name": "Lohithaksha Maniraj Maiyar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/em/l.maiyar/"
+        },
+        {
+          "name": "Nakul Parameswar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/em/nakul/"
+        },
+        {
+          "name": "Puram Praveen",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/em/puramp/"
+        },
+        {
+          "name": "Rajesh Ittamalla",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/em/rajeshittamalla/"
+        },
+        {
+          "name": "RanaPratap Maradana",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/em/ranapratap/"
+        }
+      ],
+      "faculty_count": 6
+    },
+    {
+      "name": "Heritage Science and Technology",
+      "faculty": [
+        {
+          "name": "Dr. Ajay Srinivasamurthy",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. A. G. Ramakrishnan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Shiva Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Gopikrishna Despande",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Korada Subrahmanyam",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Shri. Kanippayyur Krishnan Namboodiripad",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ravi Balasubramanian",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Rama Jayasundar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Vasant Shivram Shinde",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Vishwanath M. V.",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Amba Kulkarni",
+          "designation": "Faculty",
+          "profile_url": "https://www.iith.ac.in/inst/amba_kulkarni/"
+        }
+      ],
+      "faculty_count": 11
+    },
+    {
+      "name": "Computer Science",
+      "faculty": [
+        {
+          "name": "Prof. Mahesh K. Marina",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Ponnurangam Kumaraguru",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "Mechanical & Systems Engineering",
+      "faculty": [
+        {
+          "name": "Prof. Tata Narasinga Rao",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "General",
+      "faculty": [
+        {
+          "name": "Prof. Mohan Sangeneni",
+          "designation": "Faculty",
+          "profile_url": "https://ieeexplore.ieee.org/author/37311213100"
+        },
+        {
+          "name": "Prof. Ragunathan Rajkumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Raja Sengupta",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sri-Rajasekhar Kothapalli",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 4
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "active_projects": null,
+    "funding_agencies": [
+      "DST",
+      "DRDO",
+      "DBT"
+    ],
+    "total_funding_crores": null,
+    "consultancy_projects": null,
+    "patents_filed": null,
+    "patents_granted": null,
+    "publications_per_year": null,
+    "phd_students_enrolled": 2026,
+    "phds_awarded": null,
+    "research_centres": [
+      "Research Centres",
+      "Centre for Continuing Education",
+      "Incubation Center",
+      "Explore All Research Centres â",
+      "Computer Centre"
+    ],
+    "international_collaborations": null
+  },
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iith.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 75,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-hyderabad",
+  "last_scraped_at": "2026-03-31T16:01:18.591735",
+  "department_count": 20,
+  "total_faculty": 433
+}

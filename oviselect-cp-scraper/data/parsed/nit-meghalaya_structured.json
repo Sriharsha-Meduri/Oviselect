@@ -1,0 +1,151 @@
+{
+  "institute": "NIT Meghalaya",
+  "institute_type": "NIT",
+  "also_known_as": "NITM",
+  "established_year": 2010,
+  "city": "Shillong",
+  "state": "Meghalaya",
+  "address": "National Institute of Technology, Saitsohpen, Sohra (Cherrapunji), East Khasi Hills District, Meghalaya - 793108",
+  "nearest_airport": "Shillong Airport",
+  "nearest_airport_km": 81.0,
+  "nearest_railway_station": "Guwahati Railway Station",
+  "nearest_railway_km": 147.0,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": 83,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": "791-800 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": 16,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 7500,
+  "mess_advance_per_sem": 25000,
+  "one_time_fees": 5150,
+  "caution_money": 5000,
+  "annual_fees": 1046,
+  "total_institute_fee": 81696,
+  "total_hostel_fee": 46500,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 62.2,
+  "avg_package_lpa": 10.69,
+  "median_package_lpa": 10.08,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 40.91,
+    "Computer Science and Engineering": 51.85,
+    "Electrical and Electronics Engineering": 81.82,
+    "Electronics and Communication Engineering": 65.63,
+    "Mechanical Engineering": 70.83,
+    "Overall": 62.2
+  },
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 7.5,
+    "Computer Science and Engineering": 14.75,
+    "Electrical and Electronics Engineering": 8.25,
+    "Electronics and Communication Engineering": 9.0,
+    "Mechanical Engineering": 11.0,
+    "Overall": 10.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 9.33,
+    "Computer Science and Engineering": 14.53,
+    "Electrical and Electronics Engineering": 9.15,
+    "Electronics and Communication Engineering": 10.07,
+    "Mechanical Engineering": 10.08,
+    "Overall": 10.99
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": null,
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "active_projects": null,
+    "funding_agencies": null,
+    "total_funding_crores": null,
+    "consultancy_projects": null,
+    "patents_filed": null,
+    "patents_granted": null,
+    "publications_per_year": null,
+    "phd_students_enrolled": null,
+    "phds_awarded": null,
+    "research_centres": [
+      "Institutes Facilities",
+      "Centres",
+      "Institute Links"
+    ],
+    "international_collaborations": null
+  },
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Institute Ethics Committee",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "National Institute of Technology Meghalaya",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Magazine",
+        "country": null,
+        "focus_area": null
+      }
+    ],
+    "mou_count": null,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.nitm.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 75,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-meghalaya",
+  "last_scraped_at": "2026-03-31T16:06:18.750762"
+}

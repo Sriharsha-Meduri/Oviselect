@@ -1,0 +1,103 @@
+{
+  "institute": "ABV-IIITM Gwalior",
+  "also_known_as": "ABV-IIITM",
+  "institute_type": "IIIT",
+  "established_year": 1997,
+  "city": "Gwalior",
+  "state": "Madhya Pradesh",
+  "address": "ABV \u2013 Indian Institute of Information Technology and Management, Morena Link Road, Gwalior, Madhya Pradesh \u2013 474015",
+  "nearest_airport": "Rajmata Vijayaraje Scindia Airport, Gwalior",
+  "nearest_airport_km": 10.5,
+  "nearest_railway_station": "Gwalior Junction Railway Station",
+  "nearest_railway_km": 5.0,
+  "nirf_engineering_rank": 96,
+  "caution_money": 10000,
+  "one_time_fees": 16750,
+  "tuition_fee_per_sem": 79000,
+  "total_institute_fee": 114750,
+  "hostel_fee_per_sem": 12000,
+  "mess_advance_per_sem": 18000,
+  "total_hostel_fee": 35500,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST students.",
+    "100% Tuition Fee waiver for PwD students in B.Tech. courses only."
+  ],
+  "placement_year": 2023,
+  "overall_placement_pct": 90.0,
+  "branch_wise_median_ctc": {
+    "B.Tech. Computer Science and Engineering": 15.0,
+    "Integrated B.Tech. (IT) and M.Tech. (IT)": 14.1,
+    "Integrated B.Tech. (IT) and MBA": 14.0,
+    "Overall": 14.0
+  },
+  "median_package_lpa": 14.28,
+  "branch_wise_avg_ctc": {
+    "B.Tech. Computer Science and Engineering": 22.2,
+    "Integrated B.Tech. (IT) and M.Tech. (IT)": 24.01,
+    "Integrated B.Tech. (IT) and MBA": 16.7,
+    "Overall": 21.72
+  },
+  "avg_package_lpa": 21.16,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "Integrated B.Tech + M.Tech/MBA - 5 Years"
+  ],
+  "_slug": "iiitm-gwalior",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiitm-gwalior",
+  "last_scraped_at": "2026-03-31T16:12:29.063186",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitm.ac.in",
+  "research": {
+    "research_centres": [
+      "Centre for Bio-Medical Research (CBR)"
+    ]
+  },
+  "phd_available": true,
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Vision and Mission Vision and Mission Objectives Institute's Logo Institute Flyer",
+        "country": null
+      },
+      {
+        "university": "Institute's Logo",
+        "country": null
+      },
+      {
+        "university": "Institute Flyer",
+        "country": null
+      },
+      {
+        "university": "Vision and Mission Vision and Mission Objectives Institute's Logo Institute Flyer",
+        "country": null
+      },
+      {
+        "university": "Institute's Logo",
+        "country": null
+      },
+      {
+        "university": "Institute Flyer",
+        "country": null
+      }
+    ]
+  },
+  "departments": [
+    {
+      "name": "General",
+      "faculty_count": 1,
+      "faculty": [
+        {
+          "name": "05 Smart portable soil testing device: An electronics product design for farmers and scientists (2018) 201821033872 2018 Prof. Anurag Srivastava",
+          "designation": "scientist",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        }
+      ]
+    }
+  ],
+  "total_faculty_count": 1
+}

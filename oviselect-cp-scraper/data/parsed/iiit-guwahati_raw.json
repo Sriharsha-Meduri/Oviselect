@@ -1,0 +1,95 @@
+{
+  "institute": "IIIT Guwahati",
+  "also_known_as": "IIITG",
+  "institute_type": "IIIT",
+  "established_year": 2013,
+  "city": "Guwahati",
+  "state": "Assam",
+  "address": "Indian Institute of Information Technology, Bongara, Guwahati, Assam - 781015",
+  "nearest_airport": "Lokpriya Gopinath Bordoloi International Airport, Guwahati",
+  "nearest_airport_km": 7.0,
+  "nearest_railway_station": "Guwahati Railway Station",
+  "nearest_railway_km": 26.5,
+  "nirf_engineering_rank": 201,
+  "caution_money": 5000,
+  "tuition_fee_per_sem": 137500,
+  "total_institute_fee": 142500,
+  "hostel_fee_per_sem": 13750,
+  "mess_advance_per_sem": 16000,
+  "total_hostel_fee": 29750,
+  "overall_placement_pct": 58.23,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 62.6,
+    "Electronics and Communication Engineering": 42.86,
+    "Overall": 58.23
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 14.5,
+    "Electronics and Communication Engineering": 10.0,
+    "Overall": 14.0
+  },
+  "median_package_lpa": 12.83,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 17.0,
+    "Electronics and Communication Engineering": 11.0,
+    "Overall": 15.5
+  },
+  "avg_package_lpa": 14.5,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-guwahati",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-guwahati",
+  "last_scraped_at": "2026-03-31T16:16:35.650733",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitg.ac.in",
+  "placement_officer": {
+    "email": "placement@iiitg.ac.in",
+    "phone": "2022-2025"
+  },
+  "top_recruiters": [
+    "logo",
+    "Home",
+    "Why recruit? About IIITG Academics Research",
+    "Placement status Past Recruiters Past stats",
+    "Past Recruiters",
+    "Past stats",
+    "Placement procedure",
+    "Brochure",
+    "Company registration",
+    "Facilities",
+    "Life at IIITG Clubs Festival Sports",
+    "FAQ FAQs Accommodation Transportation",
+    "Contact Us Team Placement office Reaching IIITG",
+    "...",
+    "Chairman",
+    "Director"
+  ],
+  "phd_available": true,
+  "infrastructure": {
+    "library": {
+      "journals_subscribed": 218,
+      "digital_databases": [
+        "JSTOR",
+        "ACM"
+      ]
+    },
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "clubs": [
+      "I&E Cell Events Team",
+      "Team"
+    ],
+    "has_nss": false,
+    "has_ncc": false
+  },
+  "nirf_overall_rank_history": {
+    "2013": 2017
+  }
+}

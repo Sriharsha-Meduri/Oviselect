@@ -1,0 +1,97 @@
+{
+  "institute": "IIT Hyderabad",
+  "also_known_as": "IITH",
+  "institute_type": "IIT",
+  "established_year": 2008,
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "address": "Indian Institute of Technology, Kandi, Sangareddy, Medak, Telangana - 502284",
+  "nearest_airport": "Rajiv Gandhi International Airport, Hyderabad",
+  "nearest_airport_km": 71.5,
+  "nearest_railway_station": "Secunderabad Junction Railway Station",
+  "nearest_railway_km": 55.0,
+  "qs_world_rank": "664 (2026)",
+  "qs_asia_rank": "270 (2026)",
+  "nirf_overall_rank": 12,
+  "nirf_engineering_rank": 7,
+  "nirf_research_rank": 15,
+  "nirf_innovation_rank": "6 (2025)",
+  "outlook_rank": 10,
+  "caution_money": 9000,
+  "one_time_fees": 8000,
+  "tuition_fee_per_sem": 100000,
+  "hostel_fee_per_sem": 15000,
+  "mess_advance_per_sem": 16577,
+  "annual_fees": 1888,
+  "total_institute_fee": 161965,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 69.33,
+  "branch_wise_placement_pct": {
+    "Artificial Intelligence": 89.66,
+    "Biomedical Engineering": 33.33,
+    "Chemical Engineering": 70.59,
+    "Civil Engineering": 52.17,
+    "Computer Science and Engineering": 91.94,
+    "Electrical Engineering": 86.67,
+    "Engineering Physics": 14.29,
+    "Engineering Science": 69.7,
+    "Materials Science and Metallurgical Engineering": 69.23,
+    "Mathematics and Computing": 76.19,
+    "Mechanical Engineering": 55.56,
+    "Overall": 69.33
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Artificial Intelligence": 25.9,
+    "Chemical Engineering": 19.5,
+    "Civil Engineering": 14.62,
+    "Computer Science and Engineering": 30.18,
+    "Electrical Engineering": 27.54,
+    "Engineering Physics": 18.4,
+    "Engineering Science": 22.0,
+    "Materials Science and Metallurgical Engineering": 13.5,
+    "Mathematics and Computing": 21.5,
+    "Mechanical Engineering": 11.9
+  },
+  "median_package_lpa": 20.5,
+  "branch_wise_avg_ctc": {
+    "Artificial Intelligence": 26.27,
+    "Chemical Engineering": 20.38,
+    "Civil Engineering": 17.26,
+    "Computer Science and Engineering": 29.53,
+    "Electrical Engineering": 28.07,
+    "Engineering Physics": 20.06,
+    "Engineering Science": 25.97,
+    "Materials Science and Metallurgical Engineering": 15.0,
+    "Mathematics and Computing": 25.06,
+    "Mechanical Engineering": 10.26,
+    "Overall": 24.32
+  },
+  "avg_package_lpa": 22.02,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iit-hyderabad",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-hyderabad",
+  "last_scraped_at": "2026-03-31T16:01:18.591735",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iith.ac.in",
+  "research": {
+    "funding_agencies": [
+      "DST",
+      "DRDO",
+      "DBT"
+    ],
+    "research_centres": [
+      "Research Centres"
+    ]
+  },
+  "phd_available": true
+}

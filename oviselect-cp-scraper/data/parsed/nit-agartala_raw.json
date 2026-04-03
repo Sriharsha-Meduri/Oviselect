@@ -1,0 +1,98 @@
+{
+  "institute": "NIT Agartala",
+  "also_known_as": "NITA",
+  "institute_type": "NIT",
+  "established_year": 1965,
+  "city": "Agartala",
+  "state": "Tripura",
+  "address": "National Institute of Technology, Barjala, Jirania, Agartala, Tripura - 799046",
+  "nearest_airport": "Maharaja Bir Bikram Airport, Agartala",
+  "nearest_airport_km": 26.0,
+  "nearest_railway_station": "Jirania Railway Station",
+  "nearest_railway_km": 3.0,
+  "qs_asia_rank": "901-950 (2026)",
+  "nirf_engineering_rank": 101,
+  "nirf_innovation_rank": "151-300 (2023)",
+  "india_today_rank": 38,
+  "caution_money": 5000,
+  "one_time_fees": 1500,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 1200,
+  "total_institute_fee": 79625,
+  "hostel_fee_per_sem": 4000,
+  "mess_advance_per_sem": 23445,
+  "total_hostel_fee": 36645,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 80.61,
+  "branch_wise_placement_pct": {
+    "Biotechnology and Biochemical Engineering": 40.0,
+    "Chemical Engineering": 76.36,
+    "Civil Engineering": 60.47,
+    "Computer Science and Engineering": 79.73,
+    "Electrical Engineering": 77.57,
+    "Electronics and Communication Engineering": 84.55,
+    "Electronics and Instrumentation Engineering": 95.38,
+    "Mechanical Engineering": 91.21,
+    "Production Engineering": 92.96,
+    "Overall (B.Tech.)": 80.61,
+    "Engineering Physics": 37.5,
+    "Dual Degree BS-MS": 19.61
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Biotechnology and Biochemical Engineering": 7.13,
+    "Chemical Engineering": 7.5,
+    "Civil Engineering": 7.06,
+    "Computer Science and Engineering": 10.74,
+    "Electrical Engineering": 8.0,
+    "Electronics and Communication Engineering": 10.0,
+    "Electronics and Instrumentation Engineering": 9.0,
+    "Mechanical Engineering": 7.5,
+    "Production Engineering": 6.8,
+    "B.Tech. + M.Tech. Dual Degree": 9.03,
+    "B.S. + M.S. Dual Degree": 7.0
+  },
+  "median_package_lpa": 8.16,
+  "branch_wise_avg_ctc": {
+    "Biotechnology and Biochemical Engineering": 7.72,
+    "Chemical Engineering": 8.52,
+    "Civil Engineering": 7.2,
+    "Computer Science and Engineering": 14.71,
+    "Electrical Engineering": 11.2,
+    "Electronics and Communication Engineering": 13.83,
+    "Electronics and Instrumentation Engineering": 11.09,
+    "Mechanical Engineering": 8.23,
+    "Production Engineering": 7.19,
+    "B.Tech. + M.Tech. Dual Degree": 8.99,
+    "B.S. + M.S. Dual Degree": 9.33
+  },
+  "avg_package_lpa": 9.82,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years",
+    "B.Sc. + M.Sc. (Dual Degree) - 5 Years"
+  ],
+  "_slug": "nit-agartala",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-agartala",
+  "last_scraped_at": "2026-03-31T16:05:57.291338",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nita.ac.in",
+  "research": {
+    "funding_agencies": [
+      "DST",
+      "SERB",
+      "DRDO",
+      "ISRO",
+      "DBT",
+      "CSIR",
+      "MoE"
+    ]
+  }
+}

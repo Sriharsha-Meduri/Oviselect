@@ -1,0 +1,103 @@
+{
+  "institute": "IIT Roorkee",
+  "also_known_as": "IITR",
+  "institute_type": "IIT",
+  "established_year": 1847,
+  "city": "Roorkee",
+  "state": "Uttarakhand",
+  "address": "Indian Institute of Technology, Roorkee-Haridwar Highway, Roorkee, Uttarakhand - 247667",
+  "nearest_airport": "Jolly Grant Airport, Dehradun",
+  "nearest_airport_km": 68.5,
+  "nearest_railway_station": "Roorkee Railway Station",
+  "nearest_railway_km": 3.0,
+  "qs_world_rank": "339 (2026)",
+  "qs_asia_rank": "114 (2026)",
+  "nirf_overall_rank": 7,
+  "nirf_engineering_rank": 6,
+  "nirf_research_rank": 8,
+  "nirf_innovation_rank": "8 (2025)",
+  "outlook_rank": 7,
+  "india_today_rank": 6,
+  "the_week_rank": 6,
+  "caution_money": 3000,
+  "one_time_fees": 6000,
+  "tuition_fee_per_sem": 100000,
+  "total_institute_fee": 119550,
+  "hostel_fee_per_sem": 5000,
+  "mess_advance_per_sem": 20250,
+  "total_hostel_fee": 33750,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 71.24,
+  "branch_wise_placement_pct": {
+    "Bio Technology": 46.15,
+    "Chemical Engineering": 76.19,
+    "Civil Engineering": 67.76,
+    "Computer Science and Engineering": 99.15,
+    "Electrical Engineering": 80.37,
+    "Electronics and Communication Engineering": 87.93,
+    "Engineering Physics": 33.33,
+    "Mechanical Engineering": 72.54,
+    "Metallurgical and Materials Engineering": 55.0,
+    "Polymer Science and Engineering": 40.0,
+    "Production and Industrial Engineering": 53.7,
+    "Architecture": 52.94,
+    "Geological Technology": 65.22,
+    "Geophysical Technology": 63.33,
+    "Applied Mathematics": 74.29,
+    "Chemistry": 10.0,
+    "Physics": 23.08,
+    "Overall (UG)": 71.24
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "4-Year B.E./B.Tech. Course": 19.69,
+    "5-Year Integrated Course": 23.2
+  },
+  "median_package_lpa": 21.45,
+  "branch_wise_highest_ctc": {
+    "Bio Technology": 90.91,
+    "Chemical Engineering": 100.0,
+    "Civil Engineering": 94.17,
+    "Computer Science and Engineering": 98.85,
+    "Electrical Engineering": 97.69,
+    "Electronics and Communication Engineering": 98.88,
+    "Engineering Physics": 70.37,
+    "Mechanical Engineering": 97.25,
+    "Metallurgical and Materials Engineering": 98.25,
+    "Polymer Science and Engineering": 100.0,
+    "Production and Industrial Engineering": 91.67,
+    "Geological Technology": 96.15,
+    "Geophysical Technology": 85.71,
+    "Applied Mathematics": 96.43,
+    "Chemistry": 16.67,
+    "Physics": 88.24
+  },
+  "highest_package_lpa": 100.0,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years",
+    "Integrated M.Tech. - 5 Years",
+    "B.Sc. + M.Sc. (Dual Degree) - 5 Years"
+  ],
+  "_slug": "iit-roorkee",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-roorkee",
+  "last_scraped_at": "2026-03-31T16:01:54.499689",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitr.ac.in",
+  "research": {
+    "total_funding_crores": 14.0,
+    "research_centres": [
+      "INDIAN INSTITUTE OF TECHNOLOGY ROORKEE"
+    ]
+  },
+  "nirf_overall_rank_history": {
+    "2023": 2023
+  }
+}

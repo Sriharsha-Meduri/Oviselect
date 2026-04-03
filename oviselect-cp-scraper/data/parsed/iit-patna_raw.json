@@ -1,0 +1,89 @@
+{
+  "institute": "IIT Patna",
+  "also_known_as": "IITP",
+  "institute_type": "IIT",
+  "established_year": 2008,
+  "city": "Patna",
+  "state": "Bihar",
+  "address": "Indian Institute of Technology, Bihta, Patna, Bihar - 801106",
+  "nearest_airport": "Jay Prakash Narayan International Airport, Patna",
+  "nearest_airport_km": 35.0,
+  "nearest_railway_station": "Bihta Railway Station",
+  "nearest_railway_km": 4.0,
+  "qs_asia_rank": "577 (2026)",
+  "nirf_overall_rank": 36,
+  "nirf_engineering_rank": 19,
+  "nirf_research_rank": 39,
+  "nirf_innovation_rank": "11-50 (2025)",
+  "india_today_rank": 11,
+  "the_week_rank": 26,
+  "caution_money": 20000,
+  "one_time_fees": 11250,
+  "tuition_fee_per_sem": 100000,
+  "annual_fees": 2000,
+  "total_institute_fee": 153250,
+  "hostel_fee_per_sem": 5000,
+  "total_hostel_fee": 11500,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 90.03,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 80.0,
+    "Civil Engineering": 84.38,
+    "Computer Science and Engineering": 100.0,
+    "Electrical Engineering": 90.54,
+    "Mechanical Engineering": 84.75,
+    "Metallurgical and Materials Engineering": 91.3,
+    "Overall": 90.03
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 12.0,
+    "Civil Engineering": 11.0,
+    "Computer Science and Engineering": 32.85,
+    "Electrical Engineering": 22.23,
+    "Mechanical Engineering": 13.25,
+    "Metallurgical and Materials Engineering": 11.0,
+    "Overall": 20.0
+  },
+  "median_package_lpa": 17.48,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 15.0,
+    "Civil Engineering": 12.25,
+    "Computer Science and Engineering": 35.57,
+    "Electrical Engineering": 24.85,
+    "Mechanical Engineering": 15.93,
+    "Metallurgical and Materials Engineering": 14.4,
+    "Overall": 23.6
+  },
+  "avg_package_lpa": 20.23,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Sc. - 4 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years",
+    "B.Tech + MBA (Dual Degree) - 5 Years",
+    "B.S. + MBA (Dual Degree) - 5 Years"
+  ],
+  "_slug": "iit-patna",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-patna",
+  "last_scraped_at": "2026-03-31T16:01:52.527955",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitp.ac.in",
+  "research": {
+    "total_funding_crores": 460.44,
+    "research_centres": [
+      "Incubation Centre",
+      "Indian Institute of Technology Patna"
+    ]
+  },
+  "student_activities": {
+    "has_nss": false,
+    "has_ncc": false
+  }
+}

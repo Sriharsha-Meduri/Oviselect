@@ -1,0 +1,329 @@
+{
+  "institute": "NIT Hamirpur",
+  "also_known_as": "NITH",
+  "institute_type": "NIT",
+  "established_year": 1986,
+  "city": "Hamirpur",
+  "state": "Himachal Pradesh",
+  "address": "National Institute of Technology, Anu Road, Hamirpur, Himachal Pradesh - 177005",
+  "nearest_airport": "Kangra Airport, Gaggal",
+  "nearest_airport_km": 84.0,
+  "nearest_railway_station": "Una Himachal Railway Station",
+  "nearest_railway_km": 67.5,
+  "qs_asia_rank": "741-750 (2026)",
+  "nirf_engineering_rank": 97,
+  "india_today_rank": 22,
+  "the_week_rank": 31,
+  "caution_money": 5000,
+  "one_time_fees": 8000,
+  "tuition_fee_per_sem": 62500,
+  "total_institute_fee": 90100,
+  "hostel_fee_per_sem": 6000,
+  "annual_fees": 9800,
+  "mess_advance_per_sem": 25000,
+  "total_hostel_fee": 46000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 80.2,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 100.0,
+    "Civil Engineering": 76.06,
+    "Computer Science and Engineering": 85.14,
+    "Electrical Engineering": 83.67,
+    "Electronics and Communication Engineering": 56.72,
+    "Engineering Physics": 59.09,
+    "Materials Science and Engineering": 64.71,
+    "Mathematics and Computing": 68.18,
+    "Mechanical Engineering": 98.06,
+    "Overall (B.Tech.)": 80.2,
+    "Architecture": 100.0,
+    "Overall (Dual Degree)": 71.63
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 8.25,
+    "Civil Engineering": 6.0,
+    "Computer Science and Engineering": 17.97,
+    "Electrical Engineering": 7.5,
+    "Electronics and Communication Engineering": 14.0,
+    "Materials Science and Engineering": 6.25,
+    "Mechanical Engineering": 7.0,
+    "Overall (B.Tech.)": 8.5,
+    "Architecture": 6.0,
+    "Overall (Dual Degree)": 12.0
+  },
+  "median_package_lpa": 9.35,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 10.42,
+    "Civil Engineering": 6.21,
+    "Computer Science and Engineering": 16.55,
+    "Electrical Engineering": 8.4,
+    "Electronics and Communication Engineering": 13.07,
+    "Materials Science and Engineering": 6.79,
+    "Mechanical Engineering": 7.67,
+    "Overall (B.Tech.)": 10.33,
+    "Architecture": 6.33,
+    "Overall (Dual Degree)": 12.69
+  },
+  "avg_package_lpa": 9.85,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
+  ],
+  "_slug": "nit-hamirpur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-hamirpur",
+  "last_scraped_at": "2026-03-31T16:02:42.891580",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nith.ac.in",
+  "top_recruiters": [
+    "https://nith.ac.in/upload/increase_16.gif",
+    "https://nith.ac.in/upload/decrease_16.gif",
+    "Administration Visitor Chief Vigilance Officer",
+    "Visitor",
+    "Chief Vigilance Officer",
+    "Registrar Registrar Registrar Office Nodal Officers",
+    "77th Republic Day Celebrations at NIT Hamirpur",
+    "16th Convocation Ceremony at NIT Hamirpur",
+    "Hill'ffair 2025",
+    "Celebration of 79th Independence Day",
+    "M2chemsf celebrated",
+    "Nasha Mukt Abhiyan NITH",
+    "Run for Health 2025! World Health Day @NITH",
+    "76\u0935\u0947\u0902 \u0917\u0923\u0924\u0902\u0924\u094d\u0930 \u0926\u093f\u0935\u0938 \u0915\u0947 \u091c\u0936\u094d\u0928 \u0915\u0940 \u0915\u0941\u091b \u091d\u0932\u0915\u093f\u092f\u093e\u0901",
+    "Inauguration of Wifi",
+    "Glimpses of the 15th Convocation",
+    "Glimpse of Jan Jatiya Gaurav Diwas Celebration, 2024",
+    "Constitutation Day",
+    "Sports Tournament ITUSA-2024-25",
+    "Swachta Hi Sewa",
+    "Swachhata Hi Seva",
+    "Celebration of 78th Independence Day",
+    "Tree Plantation 2024",
+    "Celebrations of 10th International Day of Yoga (IDY-2024)",
+    "Viksit Bharat",
+    "alumni meet-2024",
+    "NIT Gate",
+    "\u0938\u0942\u091a\u0928\u093e \u090f\u0902\u091f\u0940 \u0930\u0948\u0917\u093f\u0902\u0917 \u0928\u0940\u0924\u093f \u0915\u093e \u0905\u0928\u0941\u092a\u093e\u0932\u0928 \u0915\u0930\u0928\u0947 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902",
+    "Notice: Schedule of Yoga Classes",
+    "Notice, Regarding Clean and Sustainable Campus.",
+    "Glimpses of the 16th Convocation",
+    "Recruitment Rules",
+    "Employee Rules",
+    "Institute Rules",
+    "Annual Reports",
+    "Notices/Office Orders",
+    "Act & Statutes",
+    "Photo/Video Gallery",
+    "Research & Publications @ NITH",
+    "Media Coverage @ NITH",
+    "RTI",
+    "New Criminal Laws",
+    "Mooc",
+    "Gian",
+    "NIRF",
+    "IndiaGov",
+    "Swachh Bhart",
+    "rashtriya avishkar abhiyan",
+    "ARIIA",
+    "Study in India",
+    "Vidya Lakshmi",
+    "Right",
+    "e-PG Pathshala",
+    "NPTEL",
+    "Voters",
+    "My visit",
+    "My Gov",
+    "Data.gov.in",
+    "Digital India",
+    "india.gov.in"
+  ],
+  "research": {
+    "active_projects": null,
+    "total_funding_crores": 12.0,
+    "funding_agencies": [
+      "DST",
+      "SERB",
+      "DRDO",
+      "ISRO",
+      "CSIR",
+      "MHRD"
+    ],
+    "research_centres": [
+      "Research Project and Collaboration Rules and Formats"
+    ]
+  },
+  "phd_available": true,
+  "infrastructure": {
+    "library": {
+      "volumes": 1
+    },
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "clubs": [
+      "NAD Cell"
+    ],
+    "technical_fests": [
+      "Student Students Activities Functionaries Student Related Notices SGRC Student Activities & Sports Cultural Activities & Clubs Introduction & list Cultural Activities & Clubs Annual Cultural Fastival (Hill\u2019ffair) Annual SPIC MACAY Activity Student Discipline & Counselling Discipline Rules Student Discipline Board Counselling Rules Student Counselling Board Council Rules Student Council Board Anti Ragging Rules Anti Ragging Committee Student Hostels & Management Hostels at NITH Hostel Management Hostel Booklet Technical Activities & Clubs Introduction & list Annual Technical Festival (Nimbus) Annual Innvovation Activity Student Welfare & Schemes Scholarships and Fellowships Prizes & Medals Insurance & Mediclaims Sports Activities & Yoga Introduction & list Annual Sports Meet (Lalkaar) Annual Yoga Day NSS Activities NCC Activities Publication Activities Magazine Publication News Bulletin Publication Newsletter Publication",
+      "Technical Activities & Clubs Introduction & list Annual Technical Festival (Nimbus) Annual Innvovation Activity",
+      "Annual Technical Festival (Nimbus)",
+      "Prof. H. M. Suryawanshi, Director, NIT Hamirpur (HP), congratulated Ms. Ridhi Sharma, Dr. Priya Kaushal, and Dr. Gargi Khanna from the Department of Electronics and Communication Engineering, NIT Hamirpur, for receiving the Best Paper Award for their paper titled: \u201cInterface Trap Charge Effects in Si-Doped MoS\u2082 TFETs: Performance and Robustness Analysis\u201d, presented at the 68th Annual IETE Convention on \u201cInnovative Digital Technologies & Applications for Sustainable Society Development (ITDASSD 2025)\u201d.",
+      "Prof. Hiralal Murlidhar Suryawanshi, Director NIT Hamirpur congratulated Dr. Mohd. Adil, Associate Professor of Management Studies Department for being granted a patent for their invention titled \u201c An autonomous secure method to control counterfeiting in the aviation supply chain using blockchain technology\u201d by the Patent Office, Government of India.",
+      "Prof. H.M. Suryawanshi, Director NIT Hamirpur HP & Dr. Vijay Kr. Bansal Head of the Civil Engineering Department congratulated Mr. Shourya (Roll No: 22BCE099) B.Tech 2nd Year student of the Civil Engineering Department Participated in the CESAFIESTA 2.0 Symposium, held at IIT Ropar on March 09 and 10, 2024.He has been awarded for the best oral presentation and outstanding performance in water resource/Geomatics/Environment Engineering for a project titled \"Development of an Advanced Groundwater Monitoring System for Sustainable Resource Management\" under the guidance of Dr. Ray Singh Meena, Assistant Professor (Gr-I) Civil Engineering Department NIT Hamirpur"
+    ],
+    "has_nss": true,
+    "has_ncc": true
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Chairperson Chairperson Message/Profile Former Chairpersons Deans/Associate Deans Institute Coordinator",
+        "country": null
+      },
+      {
+        "university": "Institute Coordinator",
+        "country": null
+      },
+      {
+        "university": "Institute Rules",
+        "country": null
+      }
+    ]
+  },
+  "departments": [
+    {
+      "name": "General",
+      "faculty_count": 17,
+      "faculty": [
+        {
+          "name": "Dr. Ashwani Kumar Associate Professor Architecture 254900 head.arch@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Umesh Kumar Pandey Associate Professor Civil Engineering 254300 head.ce@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Siddhartha Chauhan Associate Professor Computer Science & Engineering 254400 head.cse@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Kalyan Sundar Ghosh Associate Professor Chemistry 254102 head.chy@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Amit Arora Associate Professor Chemical Engineering 254882 head.che@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Om Prakash Rahi Associate Professor Electrical Engineering 254500 head.ee@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Krishan Kumar Associate Professor Electronics & Communication Engineering 254600 head.ece@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Varun Kumar Associate Professor Mechanical Engineering 254700 head.me@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Vishal Singh Associate Professor Material Science & Engineering 254380 head.mse@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Sunil Professor Mathematics & Scientific Computing 254134 head.msc@nith.ac.in",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Yogesh Gupta Associate Professor Humanities and Social Sciences 254141 head.hss@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Vivek Tiwari Assistant Professor Gr-I Management Studies 254103 head.doms@nith.ac.in",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Subhash Chand Associate Professor Physics & Photonics Science 254136 head.pps@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dr. Mamta Awasthi Associate Professor Centre for Energy Studies 254728 head.ces@nith.ac.in",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Associate Professor",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Assistant Professor Grade-I",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Assistant Professor Grade-II",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        }
+      ]
+    }
+  ],
+  "total_faculty_count": 17
+}

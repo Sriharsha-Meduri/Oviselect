@@ -1,0 +1,74 @@
+{
+  "institute": "IIT Tirupati",
+  "also_known_as": "IIT-TP",
+  "institute_type": "IIT",
+  "established_year": 2015,
+  "city": "Tirupati",
+  "state": "Andhra Pradesh",
+  "address": "Indian Institute of Technology Tirupati, Yerpedu \u2013 Venkatagiri Road, Yerpedu Post, Chittoor District, Andhra Pradesh \u2013 517619",
+  "nearest_airport": "Tirupati International Airport",
+  "nearest_airport_km": 11.5,
+  "nearest_railway_station": "Yerpedu Railway Station",
+  "nearest_railway_km": 4.0,
+  "nirf_overall_rank": 151,
+  "nirf_engineering_rank": 57,
+  "caution_money": 2000,
+  "one_time_fees": 6550,
+  "tuition_fee_per_sem": 100000,
+  "annual_fees": 700,
+  "total_institute_fee": 119350,
+  "hostel_fee_per_sem": 7000,
+  "mess_advance_per_sem": 18850,
+  "total_hostel_fee": 29900,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 83.82,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 66.67,
+    "Civil Engineering": 72.73,
+    "Computer Science and Engineering": 91.3,
+    "Electrical Engineering": 88.89,
+    "Mechanical Engineering": 78.57,
+    "Overall": 83.82
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 12.0,
+    "Civil Engineering": 13.0,
+    "Computer Science and Engineering": 20.32,
+    "Electrical Engineering": 16.5,
+    "Mechanical Engineering": 12.0
+  },
+  "median_package_lpa": 14.76,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 12.49,
+    "Civil Engineering": 13.07,
+    "Computer Science and Engineering": 25.25,
+    "Electrical Engineering": 16.51,
+    "Mechanical Engineering": 12.3
+  },
+  "avg_package_lpa": 15.92,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iit-tirupati",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-tirupati",
+  "last_scraped_at": "2026-03-31T16:01:54.556217",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iittp.ac.in",
+  "phd_available": false,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "has_nss": false,
+    "has_ncc": false
+  }
+}

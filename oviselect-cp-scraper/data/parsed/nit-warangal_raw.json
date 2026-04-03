@@ -1,0 +1,88 @@
+{
+  "institute": "NIT, Warangal",
+  "also_known_as": "NITW",
+  "institute_type": "NIT",
+  "established_year": 1959,
+  "city": "Warangal",
+  "state": "Telangana",
+  "address": "National Institute of Technology, Hanumkonda, Warangal, Telangana - 506004",
+  "nearest_airport": "Rajiv Gandhi International Airport, Hyderabad",
+  "nearest_airport_km": 164.0,
+  "nearest_railway_station": "Kazipet Junction Railway Station",
+  "nearest_railway_km": 5.0,
+  "qs_asia_rank": "771-780 (2026)",
+  "nirf_overall_rank": 63,
+  "nirf_engineering_rank": 28,
+  "the_week_rank": 14,
+  "one_time_fees": 30000,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 12500,
+  "total_institute_fee": 105000,
+  "caution_money": 15000,
+  "hostel_fee_per_sem": 3000,
+  "mess_advance_per_sem": 15000,
+  "total_hostel_fee": 46000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 79.64,
+  "branch_wise_placement_pct": {
+    "Bio Technology": 44.45,
+    "Chemical Engineering": 87.21,
+    "Civil Engineering": 73.42,
+    "Computer Science and Engineering": 89.55,
+    "Electrical and Electronics Engineering": 81.09,
+    "Electronics and Communication Engineering": 85.6,
+    "Mechanical Engineering": 82.79,
+    "Metallurgical and Materials Engineering": 66.67,
+    "Overall": 79.64
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Bio Technology": 14.0,
+    "Chemical Engineering": 11.77,
+    "Civil Engineering": 10.0,
+    "Computer Science and Engineering": 30.5,
+    "Electrical and Electronics Engineering": 20.0,
+    "Electronics and Communication Engineering": 21.4,
+    "Mechanical Engineering": 11.5,
+    "Metallurgical and Materials Engineering": 11.91,
+    "Overall": 12.5
+  },
+  "median_package_lpa": 15.95,
+  "branch_wise_avg_ctc": {
+    "Bio Technology": 15.35,
+    "Chemical Engineering": 14.8,
+    "Civil Engineering": 13.0,
+    "Computer Science and Engineering": 30.8,
+    "Electrical and Electronics Engineering": 21.19,
+    "Electronics and Communication Engineering": 23.6,
+    "Mechanical Engineering": 12.4,
+    "Metallurgical and Materials Engineering": 13.0,
+    "Overall": 17.0
+  },
+  "avg_package_lpa": 17.9,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "Integrated M.Sc. - 5 Years"
+  ],
+  "_slug": "nit-warangal",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-warangal",
+  "last_scraped_at": "2026-03-31T16:01:55.552276",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitw.ac.in",
+  "phd_available": false,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "has_nss": false,
+    "has_ncc": false
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "institute": "NIT Arunachal Pradesh",
+  "also_known_as": "NITAP",
+  "institute_type": "NIT",
+  "established_year": 2010,
+  "city": "Papum Pare",
+  "state": "Arunachal Pradesh",
+  "address": "National Institute of Technology, Jote, Papum Pare, Arunachal Pradesh - 791123",
+  "nearest_airport": "Lilabari Airport",
+  "nearest_airport_km": 91.0,
+  "nearest_railway_station": "Naharlagun Railway Station",
+  "nearest_railway_km": 39.0,
+  "nirf_engineering_rank": 101,
+  "caution_money": 5000,
+  "one_time_fees": 1600,
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 4000,
+  "total_institute_fee": 80100,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 54.14,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 26.67,
+    "Computer Science and Engineering": 68.57,
+    "Electrical Engineering": 54.84,
+    "Electronics and Communication Engineering": 54.29,
+    "Mechanical Engineering": 65.38,
+    "Overall": 54.14
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 8.0,
+    "Computer Science and Engineering": 7.94,
+    "Electrical Engineering": 6.8,
+    "Electronics and Communication Engineering": 8.5,
+    "Mechanical Engineering": 6.0,
+    "Overall": 7.5
+  },
+  "median_package_lpa": 7.46,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 9.92,
+    "Computer Science and Engineering": 10.13,
+    "Electrical Engineering": 8.1,
+    "Electronics and Communication Engineering": 10.4,
+    "Mechanical Engineering": 7.48,
+    "Overall": 9.04
+  },
+  "avg_package_lpa": 9.18,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-arunachal-pradesh",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-arunachal-pradesh",
+  "last_scraped_at": "2026-03-31T16:07:06.265802",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitap.ac.in",
+  "research": {
+    "active_projects": 500,
+    "total_funding_crores": 2019.0,
+    "funding_agencies": [
+      "DST",
+      "SERB",
+      "ISRO",
+      "DBT",
+      "CSIR",
+      "MHRD"
+    ],
+    "research_centres": [
+      "14. e-Satellite Incubation Center",
+      "55. Laboratory test of aggregates",
+      "56. Laboratory testing of Nitivihar soil",
+      "60. Centre for Skill Development in Appropriate Technology",
+      "67. Centre for skill development in appropriate technologies at National Institute of Technology Arunachal Pradesh",
+      "168. Biogas Development and Training Centre",
+      "183. Centre for Skill Development in Appropriate Technology"
+    ]
+  },
+  "infrastructure": {
+    "labs": [
+      "Language Laboratory"
+    ],
+    "has_bank_atm": true,
+    "has_post_office": false
+  }
+}

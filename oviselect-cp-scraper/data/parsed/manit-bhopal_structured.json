@@ -1,0 +1,604 @@
+{
+  "institute": "MANIT Bhopal",
+  "institute_type": "NIT",
+  "also_known_as": "MANIT",
+  "established_year": 1960,
+  "city": "Bhopal",
+  "state": "Madhya Pradesh",
+  "address": "Maulana Azad National Institute of Technology, Link Road Number 3, Bhopal, Madhya Pradesh - 462003",
+  "nearest_airport": "Raja Bhoj Airport, Bhopal",
+  "nearest_airport_km": 16.0,
+  "nearest_railway_station": "Habibganj Railway Station",
+  "nearest_railway_km": 5.5,
+  "nirf_overall_rank": 151,
+  "nirf_engineering_rank": 81,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": 28,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Plan. - 4 Years",
+    "B.Arch. - 5 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 5000,
+  "mess_advance_per_sem": 27500,
+  "one_time_fees": 8000,
+  "caution_money": 5000,
+  "annual_fees": null,
+  "total_institute_fee": 83900,
+  "total_hostel_fee": 48000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 90.45,
+  "avg_package_lpa": 13.52,
+  "median_package_lpa": 11.87,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 98.61,
+    "Civil Engineering": 73.58,
+    "Computer Science and Engineering": 95.74,
+    "Electrical Engineering": 91.73,
+    "Electronics and Communication Engineering": 89.02,
+    "Materials Science and Metallurgical Engineering": 93.44,
+    "Mechanical Engineering": 89.58,
+    "Overall (B.Tech.)": 90.45,
+    "Planning": 34.15,
+    "Architecture": 50.63
+  },
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 9.0,
+    "Civil Engineering": 9.08,
+    "Computer Science and Engineering": 19.63,
+    "Electrical Engineering": 13.32,
+    "Electronics and Communication Engineering": 14.5,
+    "Materials Science and Metallurgical Engineering": 8.5,
+    "Mechanical Engineering": 9.08
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 9.53,
+    "Civil Engineering": 8.76,
+    "Computer Science and Engineering": 25.46,
+    "Electrical Engineering": 13.71,
+    "Electronics and Communication Engineering": 17.35,
+    "Materials Science and Metallurgical Engineering": 10.17,
+    "Mechanical Engineering": 9.69
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Architecture & Town Planning"
+    },
+    {
+      "name": "Chemical Engineering"
+    },
+    {
+      "name": "Chemistry"
+    },
+    {
+      "name": "Civil Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Karunesh Kumar Shukla",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Nitin Dindorker",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. K. Dubey",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Anil Kumar Sharma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vishnu Prasad",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Manjeet Singh Hora",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Pradeep Kumar Jain",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. K. Katiyar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P. K. Agrawal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Mukul Kulshrestha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M.S. Chauhan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jyoti Sarup",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. H. L.Tiwari",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ruchi Khare",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Abhay Sharma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Suneet Kaur",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Harsangeet Kaur",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Mahendra Kumar Choudhary",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Kamal Singh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Siddhartha Rokade",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Kishan Dharavath",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rakesh Kumar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ajay Thawait",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Raman Nateriya",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Priyanka Dhurvey",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vivek Garg",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Neeraj Tiwari",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rajput S. P. S.",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Juned Raheem",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rutuja M. Chavan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Pritikana Das",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Priyamitra Munoth",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Hasthi Venkateswarlu",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Bandaru Goutham Rajeev Gandhi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vikas Poonia",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Aniket Chanda",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. SK Mittal Dr. PK Agrawal Dr. PK Jain",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Kishan Dharavath Dr. Jyoti Sarup",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. PK Jain Dr. J. Sarup",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jyoti Sarup Dr.Suneet Kaur",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S Rokade",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. Dindorkar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P.K Agarwal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rakesh Maher, Rahul Tanwar, Rahul Saini",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. H.L. Tiwari",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ankit Balvanshi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. G. Madhavi Latha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. G. Madhavi Latha, Aarya Krishna",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rutuja Manohar Chavan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sarvesh P. S. Rajput",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P.K. Jain, Dr. H.L. Tiwari",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S.K Rokade",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P.K. Das",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Kamal singh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P.K. Agarwal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A.K. Sharma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A.K. Sharma and Dr. P. Dhurvey",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M.S. Hora",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P. Dhurvey",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. PK Jain, Dr. P.K. Agarwal, Dr. Arvind Mittal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P.K. Jain",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. JYOTI SARUP",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N Dindorkar Dr. Suneet Kaur",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M. K. CHOUDHARY",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. B.G. Rajeev Gandhi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. M. Kulshrestha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V K Gahlot Dr. Vishnu Prasad",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vishnu Prasad Dr. V.K. Gahlot",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S, Rangnekar Dr. Vishnu Prasad",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M S Chauhan Dr. Vishnu Prasad",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P K Jain Dr. Vishnu Prasad Dr. M. K. Choudhary",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jyoti Sarup Dr. Vishnu Prasad",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jyoli Sarup Dr. Vishnu Prasad",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Anuj Jaiswal, Dr. Pritikana Das",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Bivina G.R., Dr. Pritikana Das",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Kamal Singh, Dr. Bivina G.R.",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vivek Garg Dr. Neeraj Tiwari",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Anuj Jaiswal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Kamal Singh, Dr. Pritikana Das",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V.K. Gahlot Dr. Ruchi Khare",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V.K. Gahlot Dr. T.S. Deshmukh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M.S. Chouhan Dr. Ruchi Khare",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ruchi Khare Dr. M.S. Chouhan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Anil Sharma Dr. Ruchi Khare",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ruchi Khare Dr. H. Kaur",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jyoti Sarup Dr. Ruchi Khare",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M.K. Choudhary",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Nitin Dindorkar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S.K. Dubey",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P K Jain",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. SPS Rajput, Dr. Juned Raheem",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S.Suresh Dr. Anupama Sharma MANIT, Bhopal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S.Suresh Dr. Anupama Sharma, MANIT, Bhopal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Suresh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Harsangeet Kaur",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vishnu Prasad and Dr. Ruchi Khare",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Pritikana Das Dr. Bivina GR",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. D. Kishan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rajesh Kumar Mahato Dr. Mukul Kulshrestha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. H.L. Tiwari Dr. M.K. Choudhary",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vikash Poonia",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rajeev Gandhi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Referee for Ph.D. Thesis evaluation of Mr. Sanghratana S. Waghmare",
+          "designation": "Faculty"
+        },
+        {
+          "name": "External Examiner Doctorate Viva voce Exam of Ms. Anjali Barwal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Evaluation of PhD Thesis of Mr. Deepak Sharma ( Sch no. 15313004)",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. VIKAS POONIA :",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Babasaheb Ambedkar Marathwada University",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Bivina G.R.",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 108
+    },
+    {
+      "name": "Computer Science & Engineering"
+    },
+    {
+      "name": "Electrical Engineering"
+    },
+    {
+      "name": "Electronics & Communication Engineering"
+    },
+    {
+      "name": "Humanities & Social Sciences"
+    },
+    {
+      "name": "Mathematics"
+    },
+    {
+      "name": "Mechanical Engineering"
+    },
+    {
+      "name": "Metallurgical & Materials Engineering"
+    },
+    {
+      "name": "Physics"
+    },
+    {
+      "name": "Bioinformatics & Biotechnology"
+    },
+    {
+      "name": "Management Studies"
+    },
+    {
+      "name": "Information Technology"
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": null,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.manit.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 75,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/manit-bhopal",
+  "last_scraped_at": "2026-03-31T16:09:52.450261",
+  "department_count": 15,
+  "total_faculty": 108
+}

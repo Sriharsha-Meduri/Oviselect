@@ -1,0 +1,29 @@
+{
+  "source": "wikipedia",
+  "found": true,
+  "extract": "The Indian Institute of Technology Bombay is a public research university and technical institute in Mumbai, Maharashtra, India. The institute has 17 academic departments, 35 additional academic centres, and three schools.\nEstablished in 1958, IIT Bombay was designated as an Institution of Eminence in 2018.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Indian_Institute_of_Technology_Bombay_Logo.svg/330px-Indian_Institute_of_Technology_Bombay_Logo.svg.png",
+  "infobox": {
+    "motto": "Jñānam paramam dhyeyam(Sanskrit)",
+    "motto in english": "Knowledge is the Supreme Goal[1]",
+    "type": "Technical institute",
+    "established": "1958; 68 years ago(1958)",
+    "budget": "₹896 crore(US$110 million) (2025–2026)[2]",
+    "chairman": "Koppillil Radhakrishnan[3]",
+    "director": "Shireesh Kedare[4]",
+    "academic staff": "732 faculty members (January 2025)[5]",
+    "students": "13,282 (2023–2024)[6]",
+    "undergraduates": "6,276 (2023–2024)[6]",
+    "postgraduates": "3,319 (2023–2024)[6]",
+    "doctoral students": "3,687 (2023–2024)[6]",
+    "address": "Adi Shankaracharya Marg,Mumbai,Maharashtra,India19°08′01.09″N72°54′55.29″E﻿ / ﻿19.1336361°N 72.9153583°E﻿ /19.1336361; 72.9153583",
+    "campus": "Urban, 545 acres (221 ha)",
+    "colours": "Prussian Blue & Silver",
+    "website": "www.iitb.ac.in"
+  },
+  "establishment_year": 1958,
+  "campus_area_acres": 545.0,
+  "motto": "Jñānam paramam dhyeyam(Sanskrit)",
+  "director": "Shireesh Kedare[4]",
+  "total_students": 13282
+}

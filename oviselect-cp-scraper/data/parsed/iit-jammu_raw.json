@@ -1,0 +1,76 @@
+{
+  "institute": "IIT Jammu",
+  "also_known_as": "IIT Jammu",
+  "institute_type": "IIT",
+  "established_year": 2016,
+  "city": "Jammu",
+  "state": "Jammu and Kashmir",
+  "address": "Indian Institute of Technology Jammu, Jagti, PO Nagrota, NH-44, Jammu, Jammu and Kashmir - 181221",
+  "nearest_airport": "Jammu Airport",
+  "nearest_airport_km": 17.0,
+  "nearest_railway_station": "Jammu Tawi Railway Station",
+  "nearest_railway_km": 15.0,
+  "nirf_engineering_rank": 56,
+  "caution_money": 10000,
+  "one_time_fees": 16300,
+  "tuition_fee_per_sem": 100000,
+  "annual_fees": 3180,
+  "mess_advance_per_sem": 24000,
+  "total_institute_fee": 190950,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 77.99,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 70.83,
+    "Civil Engineering": 71.43,
+    "Computer Science and Engineering": 100.0,
+    "Electrical Engineering": 54.84,
+    "Materials Science and Engineering": 75.0,
+    "Mechanical Engineering": 86.67,
+    "Overall": 77.99
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 16.0,
+    "Civil Engineering": 9.0,
+    "Computer Science and Engineering": 22.0,
+    "Electrical Engineering": 22.0,
+    "Materials Science and Engineering": 16.0,
+    "Mechanical Engineering": 12.0,
+    "Overall": 16.0
+  },
+  "median_package_lpa": 16.14,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 15.11,
+    "Civil Engineering": 13.82,
+    "Computer Science and Engineering": 24.05,
+    "Electrical Engineering": 19.16,
+    "Materials Science and Engineering": 13.33,
+    "Mechanical Engineering": 14.19,
+    "Overall": 17.68
+  },
+  "avg_package_lpa": 16.76,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iit-jammu",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-jammu",
+  "last_scraped_at": "2026-03-31T16:01:23.067907",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitjammu.ac.in",
+  "phd_available": false,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "has_nss": false,
+    "has_ncc": false
+  }
+}

@@ -1,0 +1,2154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="NIT Silchar" />
+    <meta name="description" content="    
+">
+    <meta name="keywords" content="    
+">
+    <meta property="og:site_name" content="NIT Silchar">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="    
+">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hss.nits.ac.in">
+    <meta property="og:image" content="">
+
+    <link href="https://hss.nits.ac.in/css/department/bootstrap.min.css" rel="stylesheet" />
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+
+    <link rel="stylesheet" href="https://hss.nits.ac.in/css/department/owl.theme.default.css" />
+
+
+    <link rel="stylesheet" href="https://hss.nits.ac.in/css/department/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://hss.nits.ac.in/css/lightbox.min.css" />
+
+    <link rel="stylesheet" href="https://hss.nits.ac.in/css/department/hover.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet" />
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="https://hss.nits.ac.in/css/department/style.css" />
+    <link rel="stylesheet" href="https://hss.nits.ac.in/css/department/style2.css" />
+    <link rel="stylesheet" href="https://hss.nits.ac.in/css/department/department.css" />
+    <!-- Responsive CSS link -->
+    <link rel="stylesheet" href="https://hss.nits.ac.in/css/department/responsive.css" />
+    <link rel="stylesheet" href="https://hss.nits.ac.in/css/department/responsive2.css" />
+    <link href="https://hss.nits.ac.in/main/images/favicon.ico" type="image/x-icon" rel="icon" />
+    <link href="https://hss.nits.ac.in/main/images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+
+    <title>    
+</title>
+        <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+    <!-- Chart code -->
+    <script>
+        am5.ready(function() {
+
+
+            // Create root element
+            // https://www.amcharts.com/docs/v5/getting-started/#Root_element
+            var root = am5.Root.new("chartdiv");
+
+
+            // Set themes
+            // https://www.amcharts.com/docs/v5/concepts/themes/
+            root.setThemes([
+                am5themes_Animated.new(root)
+            ]);
+
+
+            // Create chart
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/
+            var chart = root.container.children.push(am5xy.XYChart.new(root, {
+                panX: false,
+                panY: false,
+                paddingLeft: 0,
+                wheelX: "panX",
+                wheelY: "zoomX",
+                layout: root.verticalLayout
+            }));
+
+
+            // Add legend
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/legend-xy-series/
+            var legend = chart.children.push(
+                am5.Legend.new(root, {
+                    centerX: am5.p50,
+                    x: am5.p50
+                })
+            );
+
+            // var data = [{
+            //     "year": "2021",
+            //     "M-tech": 2.5,
+            //     "Btech": 2.5,
+
+
+            // }, {
+            //     "year": "2022",
+            //     "M-tech": 2.6,
+            //     "Btech": 2.7,
+
+
+            // }, {
+            //     "year": "2023",
+            //     "M-tech": 2.8,
+            //     "Btech": 2.9,
+
+
+            // }]
+
+            var data = [];
+
+
+
+            //console.log(data);
+            // Create axes
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+            var xRenderer = am5xy.AxisRendererX.new(root, {
+                cellStartLocation: 0.1,
+                cellEndLocation: 0.9,
+                minorGridEnabled: true
+            })
+
+            var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+                categoryField: "year",
+                renderer: xRenderer,
+                tooltip: am5.Tooltip.new(root, {})
+            }));
+
+            xRenderer.grid.template.setAll({
+                location: 1
+            })
+
+            xAxis.data.setAll(data);
+
+            var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+                renderer: am5xy.AxisRendererY.new(root, {
+                    strokeOpacity: 0.1
+                })
+            }));
+
+
+            // Add series
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+            function makeSeries(name, fieldName) {
+                var series = chart.series.push(am5xy.ColumnSeries.new(root, {
+                    name: name,
+                    xAxis: xAxis,
+                    yAxis: yAxis,
+                    valueYField: fieldName,
+                    categoryXField: "year"
+                }));
+
+                series.columns.template.setAll({
+                    tooltipText: "{name}, {categoryX}:{valueY}",
+                    width: am5.percent(90),
+                    tooltipY: 0,
+                    strokeOpacity: 0
+                });
+
+                series.data.setAll(data);
+
+                // Make stuff animate on load
+                // https://www.amcharts.com/docs/v5/concepts/animations/
+                series.appear();
+
+                series.bullets.push(function() {
+                    return am5.Bullet.new(root, {
+                        locationY: 0,
+                        sprite: am5.Label.new(root, {
+                            text: "{valueY}",
+                            fill: root.interfaceColors.get("alternativeText"),
+                            centerY: 0,
+                            centerX: am5.p50,
+                            populateText: true
+                        })
+                    });
+                });
+
+                legend.data.push(series);
+            }
+
+
+            const keys = Object.keys(data[0]);
+
+            keys.forEach((key, index) => {
+                if (key !== "year") {
+                    makeSeries(key, key);
+                }
+            });
+            //makeSeries("Ph.D", "Ph.D");
+            //makeSeries("M.Tech./M.Sc", "M.Tech./M.Sc");
+
+
+
+            chart.appear(1000, 100);
+
+        }); // end am5.ready()
+    </script>
+    
+</head>
+
+
+<body>
+    <div class="main">
+
+        <header>
+            <div class="top-header">
+                <div class="container-fluid container-lg container-md">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="left">
+                                <!-- <span> <i class="fas fa-award"></i> 34 year's of excellence </span> -->
+                                <span><i class="fa-solid fa-calendar-days"></i></span>
+                                <span id="spanDate"> </span>
+                                <span>|</span>
+                                <span id="time"> </span>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="right">
+                                <span><a href="https://www.nits.ac.in/" target="_blank"><i
+                                            class="fa-solid fa-home"></i></a></span>
+                                <span class="skip"><a href="#">Skip to Main Content</a></span>
+                                <span class="color-change-btn">
+                                    Select Theme <input class="light" id="radio1" value="1" type="radio"
+                                        name="radio-btn" checked="" /> <input class="dark" id="radio2"
+                                        value="2" type="radio" name="radio-btn" />
+                                </span>
+
+                                <span class="screen-reader"><a href="https://hss.nits.ac.in/screen-reader-access" target="_blank">Screen Reader Access</a></span>
+                                <div class="font-change">
+                                    <div id="chcp_font_size" class="input-group">
+                                        <span class="input-group-btn">
+                                            <button id="btn-increase" class="btn btn-default btn-default2"
+                                                type="button"><i class="fa-solid fa-a"></i>+</button>
+                                            <button id="btn-orig" class="btn btn-default btn-default2"
+                                                type="button"><i class="fa-solid fa-a"></i></button>
+                                            <button id="btn-decrease" class="btn btn-default btn-default2"
+                                                type="button"><i class="fa-solid fa-a"></i>-</button>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="language">
+                                    <li>
+                                        <span><a href="https://hss.nits.ac.in/hi"> हिन्दी </a></span>
+                                        <span><a href="https://hss.nits.ac.in"> Eng </a></span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle-header">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-6">
+                            <div class="header-logo d-flex">
+                                <a href="https://hss.nits.ac.in"><img src="https://hss.nits.ac.in/images/logo-small.png"
+                                        alt="logo NIT Silchar" /></a>
+
+                                <div class="px-3">
+                                    <h1>
+                                                                                                                                    <span class="changetext activetext">Department of
+                                                Humanities and Social Sciences</span>
+                                                                                    
+
+                                        
+                                        
+                                        
+                                    </h1>
+                                    
+                                    <p class="mb-0">National Institute of Technology Silchar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="right">
+                                <div class="search">
+                                    <form action="https://hss.nits.ac.in/search" role="search" method="get">
+                                                                                    <input type="hidden" name="sbuID" value="10">
+                                                                                <input type="text" name="search" id="" class="form-control"
+                                            placeholder="Search Here..." />
+                                        <button class="search-btn" type="submit"><i
+                                                class="fa-solid fa-magnifying-glass"></i></button>
+                                    </form>
+                                </div>
+
+                                <div id="menuArea">
+                                    <input type="checkbox" id="menuToggle" class="input" />
+                                    <label for="menuToggle" class="menuOpen">
+                                        <div class="open"></div>
+                                    </label>
+                                    <div class="menu-animation menuEffects">
+                                        <label for="menuToggle"></label>
+                                        <div class="menuContent">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="menu-list">
+                                                            <h5>Home</h5>
+                                                        </div>
+
+                                                        <div class="menu-list mt-5">
+                                                            <h5>About Us</h5>
+                                                            <ul>
+                                                                <li><a href="about-department.html">About the
+                                                                        Department</a></li>
+                                                                <li><a href="our-mission-vision.html">Our Mission and
+                                                                        Vision</a></li>
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="menu-list mt-5">
+                                                            <h5><a> Academics </a></h5>
+                                                            <ul>
+                                                                <li><a href="admision.html">Admission</a></li>
+                                                                <li><a href="academic-programs.html">Academic
+                                                                        Programs</a></li>
+                                                                <li><a href="curriculum.html">Curriculum & Syllabus</a>
+                                                                </li>
+                                                                <li><a href="lab-facility.html">Laboratory &
+                                                                        Facilities</a></li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="menu-list">
+                                                            <h5>Research</h5>
+                                                            <ul>
+                                                                <li><a href="academic-rs-group.html">s</a></li>
+                                                                <li><a href="sponsored-projects.html">Sponsored
+                                                                        Projects</a></li>
+                                                                <li><a href="continu-education.html">Continuing
+                                                                        Education</a></li>
+                                                                <li><a href="re-publication.html">Research
+                                                                        Publications</a></li>
+                                                                <li><a href="department-patent.html">Patents</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="menu-list mt-5">
+                                                            <h5>Events</h5>
+                                                            <ul>
+                                                                <li><a
+                                                                        href="department-conference.html">Conferences</a>
+                                                                </li>
+                                                                <li><a href="department-seminer.html">Seminars</a></li>
+                                                                <li><a href="department-workshop.html">Workshops</a>
+                                                                </li>
+                                                            </ul>
+
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <div class="menu-list">
+                                                            <h5>People</h5>
+                                                            <ul>
+                                                                <li><a href="department-faculty.html">Faculty</a></li>
+                                                                <li><a href="officers-staff.html">Officers and
+                                                                        Staff</a>
+                                                                </li>
+                                                                <li><a href="deapartment-research-sholars.html">Research
+                                                                        Scholars</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-header">
+                <!-- ````````````````````````````````````````````````````````````````` -->
+
+                <!-- Start Mega Menu HTML -->
+                <div class="container-fluid container-lg container-md">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbar-content">
+                                <div class="hamburger-toggle">
+                                    <div class="hamburger">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbar-content">
+                                <ul class="navbar-nav mr-auto mb-2 mb-lg-0 w-100">
+                                                                        <li class="nav-item">
+                 <a class="nav-link active" aria-current="page"
+                     href="https://hss.nits.ac.in/"
+                     target="">Home</a>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="#"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">About Us<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/about-the-department-of-humanities-and-social-sciences"
+                                                     target="">About the Department</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/humanities-why-us"
+                                                     target="">Why Us</a>
+
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="#"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">Academics<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/humanities-admission-procedure"
+                                                     target="">Admission</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/humanities-academic-programs"
+                                                     target="">Academic Programs</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/humanities-admission-procedure/humanities-curriculum-and-syllabus"
+                                                     target="">Curriculum &amp; Syllabus</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/humanities-laboratory-and-facilities"
+                                                     target="">Laboratory &amp; Facilities</a>
+
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="https://hss.nits.ac.in/humanities-research"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">Research<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group position-relative">
+                                                 <a href="#"
+                                                     target="">Research <i
+                                                         class="fa-solid fa-caret-right"></i></a>
+                                                 <ul class="department-subchlid">
+                                                     <li>
+                                                                                                                      <a href="https://hss.nits.ac.in/humanities-research/research-humanities/humanities-consultany-project"
+                                                                 target="">Research Consultancy Projects</a>
+                                                                                                                      <a href="https://hss.nits.ac.in/humanities-research/research-humanities/humanities-funded-project"
+                                                                 target="">Research Funded Projects</a>
+                                                                                                              </li>
+                                                 </ul>
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group position-relative">
+                                                 <a href="#"
+                                                     target="">Publications <i
+                                                         class="fa-solid fa-caret-right"></i></a>
+                                                 <ul class="department-subchlid">
+                                                     <li>
+                                                                                                                      <a href="https://hss.nits.ac.in/humanities-research/humanities-publication/humanities-journal-publications"
+                                                                 target="">Journal</a>
+                                                                                                                      <a href="https://hss.nits.ac.in/humanities-research/humanities-publication/humanities-patents"
+                                                                 target="">Patents</a>
+                                                                                                                      <a href="https://hss.nits.ac.in/humanities-research/humanities-publication/humanities-conferences"
+                                                                 target="">Conferences</a>
+                                                                                                                      <a href="https://hss.nits.ac.in/humanities-research/humanities-publication/humanities-book-chapters"
+                                                                 target="">Book Chapter</a>
+                                                                                                                      <a href="https://hss.nits.ac.in/humanities-research/humanities-publication/humanities-book"
+                                                                 target="">Book</a>
+                                                                                                              </li>
+                                                 </ul>
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                    <li class="nav-item">
+                 <a class="nav-link active" aria-current="page"
+                     href="https://hss.nits.ac.in/humanities-achivement"
+                     target="">Achievements</a>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="#"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">People<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/faculty-humanities-and-social-sciences"
+                                                     target="">Faculty</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/humanities-officers-and-staff"
+                                                     target="">Officer and  Staff</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/humanities-retired-professor"
+                                                     target="">Retired Professor</a>
+
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="#"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">Events<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/humanities-research/humanities-publication/humanities-conferences"
+                                                     target="">Conferences</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/humanities-seminars-workshops"
+                                                     target="">Seminars / Workshops</a>
+
+                                             </div>
+                                                                              </div>
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/humanities-others"
+                                                     target="">Others</a>
+
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                    <li class="nav-item dropdown dropdown-mega position-static">
+                 <a class="nav-link" href="#"
+                     target="" data-bs-toggle="dropdown"
+                     data-bs-auto-close="outside">Student Zone<i class="fa-solid fa-caret-down"></i></a>
+                 <div class="dropdown-menu shadow">
+                     <div class="mega-content px-4">
+                         <div class="container-fluid">
+                             <div class="row">
+                                                                      <div class="col-sm-12">
+                                                                                      <div class="list-group">
+                                                 <a href="https://hss.nits.ac.in/humanities-and-social-sciences-PhD-scholars"
+                                                     target="">PhD Scholars</a>
+
+                                             </div>
+                                                                              </div>
+                                                              </div>
+                         </div>
+                     </div>
+                 </div>
+             </li>
+                                               </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- END Mega Menu HTML -->
+
+                <!-- ``````````````````````````````````````````````````````````````` -->
+            </div>
+        </header>
+            <main>
+        <section class="banner-area">
+                                        <div class="all-banner-slide owl-carousel">
+                                            <div class="single-banner-slide"
+                            style="background-image: url('https://hss.nits.ac.in/storage/sbuBanners/10/banner_1766934123_BBS flex.png');">
+                            
+                            
+                        </div>
+                                            <div class="single-banner-slide"
+                            style="background-image: url('https://hss.nits.ac.in/storage/sbuBanners/10/banner_1759842759_Untitled design (31).png');">
+                            
+                            
+                        </div>
+                                            <div class="single-banner-slide"
+                            style="background-image: url('https://hss.nits.ac.in/storage/sbuBanners/10/banner_1749365655_cropped RM Workshop.jpg');">
+                            
+                            
+                        </div>
+                                            <div class="single-banner-slide"
+                            style="background-image: url('https://hss.nits.ac.in/storage/sbuBanners/10/banner_1744356246_20240905_125910.jpg');">
+                            
+                            
+                        </div>
+                                            <div class="single-banner-slide"
+                            style="background-image: url('https://hss.nits.ac.in/storage/sbuBanners/10/banner_1744356128_IMG-20240213-WA0029.jpg');">
+                            
+                            
+                        </div>
+                                            <div class="single-banner-slide"
+                            style="background-image: url('https://hss.nits.ac.in/storage/sbuBanners/10/banner_1744356345_dept of Humanities outer.jpg');">
+                            
+                            
+                        </div>
+                                            <div class="single-banner-slide"
+                            style="background-image: url('https://hss.nits.ac.in/storage/sbuBanners/10/banner_1744356062_language lab inside 1.jpg');">
+                            
+                            
+                        </div>
+                                            <div class="single-banner-slide"
+                            style="background-image: url('https://hss.nits.ac.in/storage/sbuBanners/10/banner_1744356422_language lab outer.jpg');">
+                            
+                            
+                        </div>
+                                    </div>
+                    </section>
+
+                    <section class="about space-ptb">
+<div class="container">
+<div class="align-items-center justify-content-md-center row">
+<div class="col-md-6">
+<div class="about__content position-relative">
+<h1>About the Department</h1>
+
+<div class="stroke__text v__1">EST. 1977</div>
+<a class="rts-nbg-btn btn-arrow" href="/about-the-department-of-humanities-and-social-sciences">About Us <span class="fa-arrow-right fas"></span></a></div>
+</div>
+
+<div class="col-md-6">
+<div class="about__content text-justify">
+<p>Situated in the rolling landscapes of Assam, the Department of Humanities and Social Sciences at NIT Silchar offers a rich intellectual environment for exploring the many dimensions of human experience. Since its inception in 1967, the department has been devoted to academic inquiry, committed to understanding the intricacies of human thought, culture, economy, and society. Immersed in the cultural richness of Northeast India, the department integrates the domains of humanities and social sciences to create intense, contemplative inquiry into the world.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+        
+
+        <div class="rts-funfact v__2 mb-5" id="counter">
+            <!--                <div class="item">
+<div class="single-cta-item">
+<h2>2</h2>
+
+<p>JRF<span class="count percent"></span></p>
+</div>
+</div>
+
+<div class="item">
+<div class="single-cta-item">
+<h2>35</h2>
+
+<p>PhD Students</p>
+</div>
+</div>
+            -->
+            <!---09-04-25-->
+        <div class="container">
+            <div class="justify-content-center row">
+                <div class="col-lg-10">
+                    <div class="rts-funfact-wrapper">
+                        <div class="counting-slider owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="single-cta-item">
+                                    <h2><span class="count percent"> 57 </span></h2>
+
+                                    
+                                    <p>Journals</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="single-cta-item">
+                                    <h2><span class="count percent"> 10 </span></h2>
+
+                                    <p>Projects</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="single-cta-item">
+                                    <h2><span class="count percent"> 0 </span></h2>
+
+                                    
+                                    <p>Patents</p>
+                                </div>
+                            </div>
+
+
+                            <div class="item">
+                                <div class="single-cta-item">
+                                    <h2><span class="count percent"> 8 </span></h2>
+
+                                    
+                                    <p>Conference</p>
+                                </div>
+                            </div>
+
+                                                            <div class="item">
+<div class="single-cta-item">
+<h2>2</h2>
+
+<p>JRF<span class="count percent"></span></p>
+</div>
+</div>
+
+<div class="item">
+<div class="single-cta-item">
+<h2>35</h2>
+
+<p>PhD Students</p>
+</div>
+</div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--end-->
+        </div>
+        <section class="rts-about-university rts-section-padding  mb-5">
+            <div class="container">
+                <div class="row">
+
+                                            <div class="col-md-8">
+<div class="rts-section">
+<div class="col-lg-4 col-md-5">
+<h3 class="rts-section-title" style="font-family: Yrsa, Bangla459, serif;">Our Vision</h3>
+</div>
+
+<div class="col-lg-8 col-md-7">
+<p>To be a nationally and globally recognised centre of excellence in Humanities and Social Sciences, fostering interdisciplinary education and research that promotes ethical values, cultural understanding, sustainable development, and societal well-being in alignment with the National Education Policy 2020 and the dynamic needs of the twenty-first century.</p>
+</div>
+</div>
+
+<div class="rts-section">
+<div class="col-lg-8 col-md-7">
+<p>The aim of the department is fourfold. First, it aspires to cultivate critical thinking and effective communication skills through holistic education; second, it encourages research that addresses contemporary social, cultural, economic, and environmental challenges; third, it promotes values of inclusivity, sustainability, and lifelong learning; fourth, it trains scholars to contribute meaningfully towards shaping society, industry, and academia with a deep understanding of human values, societal dynamics, and global interconnections.</p>
+
+
+</div>
+
+<div class="col-lg-4 col-md-5">
+<h3 class="rts-section-title text-right" style="font-family: Yrsa, Bangla459, serif;">Our Mission</h3>
+</div>
+</div>
+</div>
+                                        <div class="col-md-4">
+                        <div class="top-features-box h-100 text-center bg-gradient-16">
+                            <h5 class="rts-section-title text-white">Important Notice
+                            </h5>
+                                                        <marquee width="100%" direction="up" height="100%" scrollamount="4">
+                                                                                                                                                        <a href="https://hss.nits.ac.in/storage/notice-documents/notice_69bb8d7d6cbd31773899133.pdf"
+                                                target="_blank">The Department of HSS is organising a Two-Day National Conference titled &#039;The Decolonisation Project and Tribal Ethnic Identities in India Through The Times&#039; on 28-29 March 2026.</a>
+                                                                                                                                                               <a href="">PhD admission in the Department of HSS for the Jan.-June 2026 session is over. Candidates are requested to check the website for the result.</a>
+                                                                                                                                                                <a href="https://hss.nits.ac.in/storage/notice-documents/notice_69514cf387d291766935795.pdf"
+                                                target="_blank">Two-Day National Conference titled “Bharatiya Bhasha Pariwar”, was organised by the Dept. of Humanities and Social Sciences, NIT, under the aegis of Bharatiya Bhasha Samiti, MOI in December 2025.</a>
+                                                                                                                                                               <a href="">The Econometrics Computational Lab., Dept. of HSS (NITS) organised a Two-Day Talk Series on Applications of Spatial Econometrics delivered by Prof. Sushil Kumar Haldar, Dept. of Economics, Jadavpur University (9-10 Oct., 2025).</a>
+                                                                                                                                        </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="program rts-section-padding mb-5">
+                            <section class="program rts-section-padding mb-5">
+<div class="container">
+<div class="row rt-center">
+<div class="col-sm-12">
+<div class="rts__section--wrapper v__5">
+<h2>Academics &amp; Program</h2>
+</div>
+</div>
+</div>
+
+<div class="g-0 justify-content-md-center row">
+
+
+<div class="col-lg-4 col-md-10">
+<div class="program__single--item v__2">
+<div class="program__single--item--bg"><img alt="" src="images/about-banner01.jpg"></div>
+
+<h5 style="font-family: Yrsa, Bangla459, serif;">DOCTOR OF PHILOSOPHY</h5>
+
+<p>The Department of Humanities and Social Sciences at the National Institute of Technology Silchar offers a doctoral (PhD) program with research opportunities in both Economics and English. The program begins with a coursework period that introduces scholars to fundamental topics in the humanities and social sciences, equipping them with a strong foundation before they embark on their research. The department’s primary research areas include Macro and Microeconomics; Financial, Environmental, Agricultural &amp; Behavioural Economics; Sports Studies; Literary and Translation Studies; Translation and Colonialism; Literary Historiography; 1947 Partition Studies; Eco-literature; Folklore Studies; Indigenous Studies; Women's Writing; North East Literature; Critical Media Studies; and Digital Humanities, among others. 
+
+</p>
+
+<ul class="program__single--item--list">
+	<li><a class="link__list" href="/humanities-academic-programs">Ph.D. in Humanities <span><span class="fa-arrow-right fas"></span></span> </a></li>
+</ul>
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+                    </section>
+        <section class="bg-light py-4 faculty-advisory-committee">
+            <div class="container">
+                            </div>
+        </section>
+
+
+        <section class="rts-notice py-5">
+
+            <div class="container">
+                                                    <div class="row">
+<div class="rts__section--wrapper v__8">
+<h2>Sponsored Projects</h2>
+
+<div class="rts__section--link"><a class="rts-nbg-btn btn-arrow" href="/humanities-research/research-humanities/humanities-funded-project">View All <span class="fa-arrow-right fas"></span></a></div>
+</div>
+</div>
+                                                    <div class="g-0 justify-content-md-center row">
+                        <div class="col-lg-7 col-md-11">
+                            <div class="rts-event-section">
+                                <div class="rts-event-section-content">
+                                    <ul class="list-unstyled rts-counter">
+                                                                                    <li>
+                                                <div class="single-event-counter">
+                                                    <div class="count-number rt-clip-text">&nbsp;</div>
+                                                </div>
+
+                                                <div class="single-event-content">
+                                                    <h5>Climate Change, Coastal Erosion, and Livelihood Transitions: A Study of Kendrapara District, Odisha</h5>
+
+                                                    <div class="single-event-content-meta">
+                                                        <p>Sponsored by AASSERC</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                                                                    <li>
+                                                <div class="single-event-counter">
+                                                    <div class="count-number rt-clip-text">&nbsp;</div>
+                                                </div>
+
+                                                <div class="single-event-content">
+                                                    <h5>Assessing the Impact of the Jal Jeevan Mission: A Comprehensive Study of Water Accessibility, Quality, and Socio-Economic Outcomes in Rural Assam</h5>
+
+                                                    <div class="single-event-content-meta">
+                                                        <p>Sponsored by ICSSR</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                                                                    <li>
+                                                <div class="single-event-counter">
+                                                    <div class="count-number rt-clip-text">&nbsp;</div>
+                                                </div>
+
+                                                <div class="single-event-content">
+                                                    <h5>Exploring Consumer Willingness to Utilize Solar Energy: An Empirical Study in Selected Districts of Assam</h5>
+
+                                                    <div class="single-event-content-meta">
+                                                        <p>Sponsored by ICSSR</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-11">
+                            <div class="event__background"><img alt="" class="h-100"
+                                    src="https://hss.nits.ac.in/storage/files/civil-mat.jpg" /></div>
+                        </div>
+                    </div>
+                            </div>
+        </section>
+        <section class="rts__section bg-light py-5">
+            <div class="container">
+                                    <div class="row">
+<div class="rts__section--wrapper">
+<h2>Faculty Members</h2>
+
+<div class="rts__section--link"><a class="rts-nbg-bssstn btn-arrow" href="https://hss.nits.ac.in/faculty-humanities-and-social-sciences">Find More Professor<span><span class="fa-arrow-right fa-regular fas"></span> </span></a></div>
+</div>
+</div>
+                
+                <div class="owl-carousel owl-theme profesor-carousel">
+                                                                                            <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://hss.nits.ac.in/faculties/n-b-singh">
+                                                <img src="https://hss.nits.ac.in/storage/FacultyDetails/IMG_174428014667f79a52120aa.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://hss.nits.ac.in/faculties/n-b-singh">Prof. N. B. Singh</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://hss.nits.ac.in/faculties/reena-sanasam">
+                                                <img src="https://hss.nits.ac.in/storage/FacultyDetails/IMG_174298208267e3cbc2ac81d.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://hss.nits.ac.in/faculties/reena-sanasam">Dr. Reena Sanasam</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Associate Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://hss.nits.ac.in/faculties/avishek-ray">
+                                                <img src="https://hss.nits.ac.in/storage/FacultyDetails/IMG_174161102967cee0159320b.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://hss.nits.ac.in/faculties/avishek-ray">Dr. Avishek Ray</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Associate Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://hss.nits.ac.in/faculties/panchali-bhattacharya">
+                                                <img src="https://hss.nits.ac.in/storage/FacultyDetails/IMG_174247563467dc117289ca6.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://hss.nits.ac.in/faculties/panchali-bhattacharya">Dr. Panchali Bhattacharya</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Assistant Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://hss.nits.ac.in/faculties/dinamani-biswal">
+                                                <img src="https://hss.nits.ac.in/storage/FacultyDetails/IMG_1751902299686be85b91b7e.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://hss.nits.ac.in/faculties/dinamani-biswal">Dr. Dinamani Biswal</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Assistant Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://hss.nits.ac.in/faculties/shashi-kumar-g-k">
+                                                <img src="https://hss.nits.ac.in/storage/FacultyDetails/IMG_174116766967c81c357e874.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://hss.nits.ac.in/faculties/shashi-kumar-g-k">Dr. Shashi Kumar G K</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Assistant Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://hss.nits.ac.in/faculties/ujjal-protim-dutta">
+                                                <img src="https://hss.nits.ac.in/storage/FacultyDetails/IMG_174247432167dc0c5162f22.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://hss.nits.ac.in/faculties/ujjal-protim-dutta">Dr. Ujjal Protim Dutta</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Assistant Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://hss.nits.ac.in/faculties/sumallya-mukhopadhyay">
+                                                <img src="https://hss.nits.ac.in/storage/FacultyDetails/IMG_17513451846863682083d3f.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://hss.nits.ac.in/faculties/sumallya-mukhopadhyay">Dr. Sumallya Mukhopadhyay</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Assistant Professor
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://hss.nits.ac.in/faculties/neha-kumari">
+                                                <img src="https://hss.nits.ac.in/storage/FacultyDetails/IMG_17681956426964863aa51f7.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://hss.nits.ac.in/faculties/neha-kumari">Dr. Neha Kumari</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Assistant Professor (Gr. II)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="rts__single--member">
+                                    <div class="rts__single--member--thumb">
+                                                                                    <a href="https://hss.nits.ac.in/faculties/aayushi-lyngwa">
+                                                <img src="https://hss.nits.ac.in/storage/FacultyDetails/IMG_6967007aa4a4d.jpg"
+                                                    alt="Images">
+                                            </a>
+                                                                            </div>
+                                    <div class="rts__single--member--meta">
+                                        <h5 class="rts__single--member--meta--title">
+                                            <a
+                                                href="https://hss.nits.ac.in/faculties/aayushi-lyngwa">Dr. Aayushi Lyngwa</a>
+                                        </h5>
+                                        <span class="rts__single--member--meta--designation">
+                                            Assistant Professor (Gr- II)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                                            </div>
+
+            </div>
+        </section>
+                        <div class="rts-campus pt--100 rts-campus-bg mobile-padding moving">
+                            <div class="mobile-padding moving pt--100 rts-campus rts-campus-bg">
+<div class="container">
+<div class="justify-content-lg-start justify-content-sm-center row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xl-5">
+<div class="rts-left-section">
+<h2>Head of the Department</h2>
+
+<p>Welcome to the Department of Humanities and Social Sciences (HSS) at the National Institute of Technology Silchar! As a vibrant and multidisciplinary academic unit, the department is dedicated to enriching the intellectual and professional development of students across disciplines. Our faculty members bring expertise in Economics, English, and Cultural Studies, contributing to both foundational learning and advanced research. The department’s research spans a wide range of contemporary areas—Development Economics, Environmental Economics, Gender Studies, Postcolonial Literature, Digital Humanities, Northeast Indian Literature and Culture, and Ethnographic Studies. Our academic programs are designed not only to cultivate analytical and communication skills but also to foster an understanding of the ethical, cultural, and social dimensions of a rapidly changing world. We aim to prepare students to think deeply, act ethically, and engage meaningfully with society. We invite you to explore our programs, research, and outreach activities. Join us in our journey of knowledge, creativity, and inclusive development!&nbsp;</p>
+
+<address><strong>HOD:&nbsp;</strong>Dr. Reena Sanasam&nbsp;<br />
+<strong>E-mail:</strong>hod@hum.nits.ac.in</address>
+</div>
+</div>
+
+<div class="col-lg-6 col-md-6 col-sm-12 col-xl-7">
+<div class="rt-relative rts-right-section"><img alt="campus images" class="round" src="/storage/files/88224472-2996456573707488-3722830244323786752-n_1.jpg" />
+<div class="rts-round-shape">&nbsp;</div>
+</div>
+</div>
+</div>
+
+<div class="rt-shape"><img alt="" class="rt-shape__1" src="/storage/files/01.png" /> <img alt="" class="rt-shape__2 shape" src="/storage/files/02.png" /> <img alt="" class="rt-shape__3 shape" src="/storage/files/03.png" /> <img alt="" class="rt-shape__4 shape" src="/storage/files/04.png" /></div>
+</div>
+</div>
+                    </div>
+        <section class="mt-5 mb-3">
+
+            <div class="container">
+
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6">
+                                                    <h2 class="mb-3 mb-lg-0 rts-section-title">News and Updates</h2>
+                                            </div>
+                                            <div class="col-lg-6 text-lg-end">
+<div class="rts__section--link"><a class="rts-nbg-btn btn-arrow" href="/humanities-others">View All <span><span class="fa-arrow-right fas"></span> </span></a></div>
+</div>
+                                    </div>
+                                                    <div class="row mt-4">
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="blog-post">
+                                    <div class="blog-post-image">
+                                        <img class="img-fluid"
+                                            src="https://hss.nits.ac.in/storage/NewsIcon/News_69c3646ddb69d.jpeg"
+                                            alt="">
+                                    </div>
+                                    <div class="blog-post-content px-0">
+                                        <div class="blog-post-info">
+
+                                            <div class="blog-post-date px-0">
+                                                <a
+                                                    href="#">25/03/2026</a>
+                                            </div>
+                                        </div>
+                                        <div class="blog-post-details">
+                                            
+                                            <h5 class="blog-post-title">
+                                                                            <a href="javascript:void(0);"
+                                        target="_blank">The Department of HSS, in collaboration with the Adi Karmayogi Students’ Chapter (2025–26), hosted Dr. Sanjib Kumar Majhi (Associate Professor, Tripura University) to speak on “Reimagining the Tribal Economy of North-East India: Tribal Rights and Inclusive Development&quot; on 23 March 2026.
+                                    </a>
+                                    
+                                </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="blog-post">
+                                    <div class="blog-post-image">
+                                        <img class="img-fluid"
+                                            src="https://hss.nits.ac.in/storage/NewsIcon/News_69c3638fb288b.jpeg"
+                                            alt="">
+                                    </div>
+                                    <div class="blog-post-content px-0">
+                                        <div class="blog-post-info">
+
+                                            <div class="blog-post-date px-0">
+                                                <a
+                                                    href="#">24/03/2026</a>
+                                            </div>
+                                        </div>
+                                        <div class="blog-post-details">
+                                            
+                                            <h5 class="blog-post-title">
+                                                                            <a href="javascript:void(0);"
+                                        target="_blank">Dr. Sumallya Mukhopadhyay (Assistant Professor, English) delivered a public lecture at the Department of Cultural Studies, Tezpur University, Assam as part of the conference, &#039;Public Histories in the Digital Age&#039; on 16-17 March 2026.
+                                    </a>
+                                    
+                                </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="blog-post">
+                                    <div class="blog-post-image">
+                                        <img class="img-fluid"
+                                            src="https://hss.nits.ac.in/storage/NewsIcon/News_69b2a084ef344.jpeg"
+                                            alt="">
+                                    </div>
+                                    <div class="blog-post-content px-0">
+                                        <div class="blog-post-info">
+
+                                            <div class="blog-post-date px-0">
+                                                <a
+                                                    href="#">12/03/2026</a>
+                                            </div>
+                                        </div>
+                                        <div class="blog-post-details">
+                                            
+                                            <h5 class="blog-post-title">
+                                                                        <a href="https://hss.nits.ac.in/storage/news_events/upload_file_1773314001_ICSSR-NATIONAL SEMINAR-HSS-NIT Silchar Brochure.pdf (6).pdf"
+                                        target="_blank">The Department of HSS is organising a Two-Day National Conference titled &#039;The Decolonisation Project and Tribal Ethnic Identities in India Through The Times&#039; on 28-29 March 2026.
+                                    </a>
+                                    
+                                </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                            </div>
+        </section>
+    </main>
+        <div class="logo-img-scroll">
+            <div class="container">
+
+                <div class="owl-carousel owl-theme owl-carousel-4">
+                    <div class="item"> <img src="https://hss.nits.ac.in/images/Ministry-of-education.jpg"
+                            alt="Ministry-of-education" /></div>
+                    <div class="item"> <img src="https://hss.nits.ac.in/images/Skill-India.jpg" alt="Skill-India" /></div>
+                    <div class="item"> <img src="https://hss.nits.ac.in/images/Digital-India.jpg" alt="Digital-India" />
+                    </div>
+                    <div class="item"><img src="https://hss.nits.ac.in/images/India.gov.in.jpg" alt="India.gov.in" />
+                    </div>
+                    <div class="item"><img src="https://hss.nits.ac.in/images/Swachh-Bharat.jpg" alt="Swachh-Bharat" />
+                    </div>
+                    <div class="item"><img src="https://hss.nits.ac.in/images/Data-gov.in.jpg" alt="Data-gov.in" /></div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <footer>
+            <!-- Top Footer Start -->
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="logo-desc">
+                                <div class="logo">
+                                    <img src="https://hss.nits.ac.in/images/nit_silchar_logo02.png"
+                                        alt="institute-logo NIT silchar" />
+                                </div>
+                                <div class="desc">
+                                    <!-- from Facebook page -->
+                                    <p>National Institute of Technology Silchar, Cachar, Silchar, Assam ,India</p>
+                                    <!-- from Facebook page -->
+                                    <p><a href="#"> Tel : +91 3842-224-797 </a></p>
+                                    <!-- from Facebook page -->
+                                    <p><a href="#">Contact: director@nits.ac.in </a></p>
+                                </div>
+                            </div>
+                            <div class="footer-links social-links mt-4">
+                                <!-- <h5>Social Links</h5> -->
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/NITSilcharofficial/" class="facebook"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <!-- <li><a href="https://x.com/IITISM_DHANBAD" class="twitter"><i class="fa-brands fa-twitter"></i></a></li> -->
+                                    <li>
+                                        <a href="https://www.linkedin.com/school/national-institute-of-technology-silchar/"
+                                            class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                    <!-- <li><a href="https://www.youtube.com/channel/UCt9UKgRsW3EMM9eCrERTTAA" class="youtube"><i class="fa-brands fa-youtube"></i></a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                            <div class="footer-links hover-links">
+                                <h5>Academic</h5>
+                                                                                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/academic/academic-calendar"
+                        >Academic Calendar</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/academic/academic-notices"
+                        >Academics Notices</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/conferences-event"
+                        >Conferences</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/academic/results"
+                        >Results</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://www.nits.ac.in/ranking?rank=Mw=="
+                        >NIRF Documents</a>
+    </li>
+</ul>
+                                                                                                </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                            <div class="footer-links hover-links">
+                                <h5>Explore NITS</h5>
+                                                                                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/campus-life/gymkhana"
+                        >Gymkhana</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/campus-life/gyansagar"
+                        >Gyansagar</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/campus-life/health-centre"
+                        >Health Centre</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/campus-life/hostels"
+                        >Hostels</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/campus-life/campus-facilities"
+                        >Campus Facilities</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/campus-life/festivals"
+                        >Festivals</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/campus-life/societies"
+                        >Societies</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/admission-details/scholarship-details"
+                        >Scholarships</a>
+    </li>
+</ul>
+                                                                                                </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                            <div class="footer-links hover-links">
+                                <h5>Other Links</h5>
+                                                                                                                                            <ul>
+    <li> <a href="https://alumni.nits.ac.in"
+             target="_blank" rel="noopener noreferrer"             >Alumni</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/more/annual-reports"
+                        >Annual Reports / Annual Accounts</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/more/anti-ragging-policies"
+                        >Anti-Ragging Policies / Committee</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/more/grievance-cell"
+                        >Grievance Cell</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://forms.gle/a74Sg4NSyWQ4Htb2A"
+                        >Online Electrical Complaint</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/internet-related-complaints"
+                        >Internet related complaints</a>
+    </li>
+</ul>
+                                                                            <ul>
+    <li> <a href="https://hss.nits.ac.in/more/nba-cell"
+                        >NBA Cell</a>
+    </li>
+</ul>
+                                                                                                </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-links">
+                                <h5>Website Statistics:</h5>
+                                <div class="count">
+                                    
+                                    <script type="text/javascript" src="https://counter.websiteout.com/js/7/7/1283551/0"></script>
+                                </div>
+                            </div>
+                            <div class="footer-links last-update-section">
+                                                                <h6>Last Update : 31/03/2026
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex pt-5">
+                        <div class="btn-3 btn-three">
+                            <a href="https://www.nits.ac.in/faculty/login" target="_blank">Faculty
+                                Login</a>
+                        </div>
+                        <div class="btn-3 btn-three">
+                            <a href="https://nitsilchar.samarth.ac.in/index.php/site/login" target="_blank">NITS
+                                ERP</a>
+                        </div>
+                        <div class="btn-3 btn-three">
+                            <a href="https://www.nits.ac.in/ranking?rank=Mw=="
+                                target="_blank">Ranking</a>
+                        </div>
+                        <div class="btn-3 btn-three">
+                            <a href="https://www.nits.ac.in/academic/results"
+                                target="_blank">Results</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Footer End -->
+
+            <!-- Bottom Footer Start -->
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="text">
+                        <p>Copyright © 2026 National Institute of Technology Silchar</p>
+                        <p>All rights reserved || Designed & Developed by - <a href="https://www.webstep.in/"
+                                target="_blank"> WEBSTEP TECHNOLOGIES PRIVATE LIMITED </a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom Footer End -->
+        </footer>
+    </div>
+
+
+    <!-- Jquery CDN link -->
+    <script src="https://hss.nits.ac.in/js/department/jquery.min.js"></script>
+    <script src="https://hss.nits.ac.in/js/department/owl.carousel.js"></script>
+    <script src="https://hss.nits.ac.in/js/lightbox.min.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://hss.nits.ac.in/js/department/bootstrap.bundle.min.js"></script>
+
+    <!-- homepage latest news -->
+    <script src="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/breaking-news-ticker.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $("#newsTicker1").breakingNews();
+        });
+    </script>
+
+    <!-- partner carousel -->
+    <script src="https://hss.nits.ac.in/js/department/partner_carousel.js"></script>
+
+    <!-- owl carousel Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Scroll Animation JS link -->
+    <!-- <script src="js/scroll-animation.js"></script> -->
+
+    <!-- Typed JS link -->
+    <script src="https://hss.nits.ac.in/js/department/typed.min.js"></script>
+
+    <!-- custom js -->
+    <script src="https://hss.nits.ac.in/js/department/custom.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+    <!-- Chart code -->
+    <script>
+        am5.ready(function() {
+
+
+            // Create root element
+            // https://www.amcharts.com/docs/v5/getting-started/#Root_element
+            var root = am5.Root.new("chartdiv");
+
+
+            // Set themes
+            // https://www.amcharts.com/docs/v5/concepts/themes/
+            root.setThemes([
+                am5themes_Animated.new(root)
+            ]);
+
+
+            // Create chart
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/
+            var chart = root.container.children.push(am5xy.XYChart.new(root, {
+                panX: false,
+                panY: false,
+                paddingLeft: 0,
+                wheelX: "panX",
+                wheelY: "zoomX",
+                layout: root.verticalLayout
+            }));
+
+
+            // Add legend
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/legend-xy-series/
+            var legend = chart.children.push(
+                am5.Legend.new(root, {
+                    centerX: am5.p50,
+                    x: am5.p50
+                })
+            );
+
+            // var data = [{
+            //     "year": "2021",
+            //     "M-tech": 2.5,
+            //     "Btech": 2.5,
+
+
+            // }, {
+            //     "year": "2022",
+            //     "M-tech": 2.6,
+            //     "Btech": 2.7,
+
+
+            // }, {
+            //     "year": "2023",
+            //     "M-tech": 2.8,
+            //     "Btech": 2.9,
+
+
+            // }]
+
+            var data = [];
+
+
+
+            //console.log(data);
+            // Create axes
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+            var xRenderer = am5xy.AxisRendererX.new(root, {
+                cellStartLocation: 0.1,
+                cellEndLocation: 0.9,
+                minorGridEnabled: true
+            })
+
+            var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+                categoryField: "year",
+                renderer: xRenderer,
+                tooltip: am5.Tooltip.new(root, {})
+            }));
+
+            xRenderer.grid.template.setAll({
+                location: 1
+            })
+
+            xAxis.data.setAll(data);
+
+            var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+                renderer: am5xy.AxisRendererY.new(root, {
+                    strokeOpacity: 0.1
+                })
+            }));
+
+
+            // Add series
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+            function makeSeries(name, fieldName) {
+                var series = chart.series.push(am5xy.ColumnSeries.new(root, {
+                    name: name,
+                    xAxis: xAxis,
+                    yAxis: yAxis,
+                    valueYField: fieldName,
+                    categoryXField: "year"
+                }));
+
+                series.columns.template.setAll({
+                    tooltipText: "{name}, {categoryX}:{valueY}",
+                    width: am5.percent(90),
+                    tooltipY: 0,
+                    strokeOpacity: 0
+                });
+
+                series.data.setAll(data);
+
+                // Make stuff animate on load
+                // https://www.amcharts.com/docs/v5/concepts/animations/
+                series.appear();
+
+                series.bullets.push(function() {
+                    return am5.Bullet.new(root, {
+                        locationY: 0,
+                        sprite: am5.Label.new(root, {
+                            text: "{valueY}",
+                            fill: root.interfaceColors.get("alternativeText"),
+                            centerY: 0,
+                            centerX: am5.p50,
+                            populateText: true
+                        })
+                    });
+                });
+
+                legend.data.push(series);
+            }
+
+
+            const keys = Object.keys(data[0]);
+
+            keys.forEach((key, index) => {
+                if (key !== "year") {
+                    makeSeries(key, key);
+                }
+            });
+            //makeSeries("Ph.D", "Ph.D");
+            //makeSeries("M.Tech./M.Sc", "M.Tech./M.Sc");
+
+
+
+            chart.appear(1000, 100);
+
+        }); // end am5.ready()
+    </script>
+    <script>
+        function updateDateTime() {
+            const date = new Date();
+            const formattedDate = date.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            }).replace(',', '');
+
+            const currentTime = date.toLocaleTimeString('en-US', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: true
+            });
+            //alert(currentTime)
+
+            document.getElementById('spanDate').innerText = formattedDate;
+            document.getElementById('time').innerText = currentTime + " IST";
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 60000);
+    </script>
+    <script>
+        /* owl carousel */
+        $(".owl-carousel-4").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            // autoplay: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav:false,
+                },
+                600: {
+                    items: 3,
+                     nav:false,
+                },
+                1000: {
+                    items: 6,
+                },
+            },
+        });
+    </script>
+    <script>
+        var $affectedElements = $("p, h1, h2, h3, h4, h5, h6");
+
+        $affectedElements.each(function() {
+            var $this = $(this);
+            $this.data("orig-size", $this.css("font-size"));
+        });
+
+        $("#btn-increase").click(function() {
+            changeFontSize(1);
+        });
+
+        $("#btn-decrease").click(function() {
+            changeFontSize(-1);
+        });
+
+        $("#btn-orig").click(function() {
+            $affectedElements.each(function() {
+                var $this = $(this);
+                $this.css("font-size", $this.data("orig-size"));
+            });
+        });
+
+        function changeFontSize(direction) {
+            $affectedElements.each(function() {
+                var $this = $(this);
+                $this.css("font-size", parseInt($this.css("font-size")) + direction);
+            });
+        }
+    </script>
+    <script>
+        $('body').toggleClass(localStorage.toggled);
+ 
+        if (localStorage.toggled === 'background-black') {
+            $("#radio2").prop("checked", true);
+            $('body').addClass('background-black');
+        } else {
+            $("#radio1").prop("checked", true);
+            $('body').removeClass('background-black');
+        }
+ 
+        $("#radio1").on('change', function() {
+            if ($("#radio1").is(":checked")) {
+                $('body').removeClass('background-black');
+                localStorage.toggled = "";
+            }
+        });
+ 
+        $("#radio2").on('change', function() {
+            if ($("#radio2").is(":checked")) {
+                $('body').addClass('background-black');
+                localStorage.toggled = "background-black";
+            }
+        });
+ 
+ 
+        // $("#radio1").on("change", function() {
+        //     if ($("#radio1").is(":checked")) {
+        //         $(".main").removeClass("background-black");
+        //         $(".main").addClass("background-white");
+        //     }
+        // });
+ 
+        // $("#radio2").on("change", function() {
+        //     if ($("#radio2").is(":checked")) {
+        //         $(".main").removeClass("background-white");
+        //         $(".main").addClass("background-black");
+        //     }
+        // });
+</script>
+    <script>
+        $('.counting-slider').owlCarousel({
+            loop: true,
+            items: 4,
+            margin: 10,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+
+        $(".academic-slider").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 1,
+                },
+                1000: {
+                    items: 1,
+                },
+            },
+        });
+        $('.profesor-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+
+    <script type="text/javascript">
+        (function($) {
+            "use strict";
+            $(".event-news").owlCarousel({
+                loop: true,
+                margin: 15,
+                autoplay: true,
+                nav: false,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                },
+            });
+
+            jQuery(".event-news  .owl-prev").html('<i class="fas fa-arrow-left"></i>');
+
+            jQuery(".event-news  .owl-next").html('<i class="fas fa-arrow-right"></i>');
+        })(jQuery);
+    </script>
+
+    <!------- counter --------->
+
+    <script>
+        $(".about-me-img").hover(
+            function() {
+                $(".authorWindowWrapper").stop().fadeIn("fast").find("p").addClass("trans");
+            },
+            function() {
+                $(".authorWindowWrapper").stop().fadeOut("fast").find("p").removeClass("trans");
+            }
+        );
+    </script>
+
+    <!-- lightbox Start -->
+    <script>
+        $(document).ready(function() {
+            var itemSelector = ".grid-item";
+
+            var $container = $("#container").isotope({
+                itemSelector: itemSelector,
+                masonry: {
+                    columnWidth: itemSelector,
+                    isFitWidth: true,
+                },
+            });
+
+            //Ascending order
+            var responsiveIsotope = [
+                [480, 7],
+                [720, 10],
+            ];
+
+            var itemsPerPageDefault = 12;
+            var itemsPerPage = defineItemsPerPage();
+            var currentNumberPages = 1;
+            var currentPage = 1;
+            var currentFilter = "*";
+            var filterAtribute = "data-filter";
+            var pageAtribute = "data-page";
+            var pagerClass = "isotope-pager";
+
+            function changeFilter(selector) {
+                $container.isotope({
+                    filter: selector,
+                });
+            }
+
+            function goToPage(n) {
+                currentPage = n;
+
+                var selector = itemSelector;
+                selector += currentFilter != "*" ? "[" + filterAtribute + '="' + currentFilter + '"]' : "";
+                selector += "[" + pageAtribute + '="' + currentPage + '"]';
+
+                changeFilter(selector);
+            }
+
+            function defineItemsPerPage() {
+                var pages = itemsPerPageDefault;
+
+                for (var i = 0; i < responsiveIsotope.length; i++) {
+                    if ($(window).width() <= responsiveIsotope[i][0]) {
+                        pages = responsiveIsotope[i][1];
+                        break;
+                    }
+                }
+
+                return pages;
+            }
+
+            function setPagination() {
+                var SettingsPagesOnItems = (function() {
+                    var itemsLength = $container.children(itemSelector).length;
+
+                    var pages = Math.ceil(itemsLength / itemsPerPage);
+                    var item = 1;
+                    var page = 1;
+                    var selector = itemSelector;
+                    selector += currentFilter != "*" ? "[" + filterAtribute + '="' + currentFilter + '"]' :
+                        "";
+
+                    $container.children(selector).each(function() {
+                        if (item > itemsPerPage) {
+                            page++;
+                            item = 1;
+                        }
+                        $(this).attr(pageAtribute, page);
+                        item++;
+                    });
+
+                    currentNumberPages = page;
+                })();
+
+                var CreatePagers = (function() {
+                    var $isotopePager = $("." + pagerClass).length == 0 ? $('<div class="' + pagerClass +
+                        '"></div>') : $("." + pagerClass);
+
+                    $isotopePager.html("");
+
+                    for (var i = 0; i < currentNumberPages; i++) {
+                        var $pager = $('<a href="javascript:void(0);" class="pager" ' + pageAtribute +
+                            '="' + (i + 1) + '"></a>');
+                        $pager.html(i + 1);
+
+                        $pager.click(function() {
+                            var page = $(this).eq(0).attr(pageAtribute);
+                            goToPage(page);
+                        });
+
+                        $pager.appendTo($isotopePager);
+                    }
+
+                    $container.after($isotopePager);
+                })();
+            }
+
+            setPagination();
+            goToPage(1);
+
+            //Adicionando Event de Click para as categorias
+            $(".filters a").click(function() {
+                var filter = $(this).attr(filterAtribute);
+                currentFilter = filter;
+
+                setPagination();
+                goToPage(1);
+            });
+
+            //Evento Responsivo
+            $(window).resize(function() {
+                itemsPerPage = defineItemsPerPage();
+                setPagination();
+            });
+        });
+
+        $(document).ready(function() {
+            // filter items on button click
+            $(".filter-button-group").on("click", "li", function() {
+                var filterValue = $(this).attr("data-filter");
+                $(".grid").isotope({
+                    filter: filterValue
+                });
+                $(".filter-button-group li").removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+
+        $(document).ready(function() {
+            // filter items on button click
+            $(".isotope-pager").on("click", "a", function() {
+                var filterValue = $(this).attr("data-page");
+
+                $(".isotope-pager a").removeClass("active");
+                $(this).addClass("active");
+            });
+            $(".all-banner-slide").owlCarousel({
+                items: 1,
+                loop: true,
+                smartSpeed: 1000,
+                autoplay: true,
+                lazyLoad: true,
+                dots: false,
+                autoplayTimeout: 3000,
+            });
+        });
+
+        $(document).ready(function() {
+            $(".popupimg").magnificPopup({
+                type: "image",
+                mainClass: "mfp-with-zoom",
+                gallery: {
+                    enabled: true,
+                },
+
+                zoom: {
+                    enabled: true,
+
+                    duration: 300, // duration of the effect, in milliseconds
+                    easing: "ease-in-out", // CSS transition easing function
+
+                    opener: function(openerElement) {
+                        return openerElement.is("img") ? openerElement : openerElement.find("img");
+                    },
+                },
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+
+
+    <script>
+        $(".portfolio-menu ul li").click(function() {
+            $(".portfolio-menu ul li").removeClass("active");
+            $(this).addClass("active");
+
+            var selector = $(this).attr("data-filter");
+            $(".portfolio-item").isotope({
+                filter: selector,
+            });
+            return false;
+        });
+        $(document).ready(function() {
+            var popup_btn = $(".popup-btn");
+            popup_btn.magnificPopup({
+                type: "image",
+                gallery: {
+                    enabled: true,
+                },
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        (function($) {
+            "use strict";
+            $(".courses-slider").owlCarousel({
+                loop: true,
+                margin: 15,
+                nav: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 3,
+                    },
+                    1000: {
+                        items: 4,
+                    },
+                },
+            });
+        })(jQuery);
+    </script>
+
+    <script>
+        var counted = 0;
+        $(window).scroll(function() {
+
+            var oTop = $('#counter').offset().top - window.innerHeight;
+            if (counted == 0 && $(window).scrollTop() > oTop) {
+                $('.count').each(function() {
+                    var $this = $(this),
+                        countTo = $this.attr('data-count');
+                    $({
+                        countNum: $this.text()
+                    }).animate({
+                            countNum: countTo
+                        },
+
+                        {
+
+                            duration: 2000,
+                            easing: 'swing',
+                            step: function() {
+                                $this.text(Math.floor(this.countNum));
+                            },
+                            complete: function() {
+                                $this.text(this.countNum);
+                                //alert('finished');
+                            }
+
+                        });
+                });
+                counted = 1;
+            }
+
+        });
+    </script>
+
+    <!-- Resources -->
+    <!-- https://circletype.labwire.ca/ -->
+    <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+
+    <script>
+        const text = document.getElementById('text')
+        const rotate = new CircleType(text).radius(50)
+
+        window.addEventListener('scroll', function() {
+            text.style.transform = 'rotate(' + (window.scrollY * 0.15) + 'deg)'
+        })
+    </script>
+</body>
+
+</html>

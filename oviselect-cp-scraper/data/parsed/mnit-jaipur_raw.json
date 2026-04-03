@@ -1,0 +1,160 @@
+{
+  "institute": "MNIT Jaipur",
+  "also_known_as": "MNIT",
+  "institute_type": "NIT",
+  "established_year": 1963,
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "address": "Malaviya National Institute of Technology, Jawaharlal Nehru Marg, Malviya Nagar, Jaipur, Rajasthan \u2013 302017",
+  "nearest_airport": "Jaipur International Airport",
+  "nearest_airport_km": 6.5,
+  "nearest_railway_station": "Gandhinagar Jaipur Railway Station",
+  "nearest_railway_km": 3.5,
+  "nirf_overall_rank": 77,
+  "nirf_engineering_rank": 42,
+  "nirf_research_rank": 50,
+  "nirf_innovation_rank": "151-300 (2023)",
+  "india_today_rank": 18,
+  "the_week_rank": 23,
+  "caution_money": 15000,
+  "one_time_fees": 1600,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 765,
+  "total_institute_fee": 102315,
+  "hostel_fee_per_sem": 6000,
+  "mess_advance_per_sem": 20000,
+  "total_hostel_fee": 47000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 63.09,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 62.5,
+    "Civil Engineering": 50.0,
+    "Computer Science and Engineering": 58.2,
+    "Electrical Engineering": 67.57,
+    "Electronics and Communication Engineering": 51.79,
+    "Mechanical Engineering": 79.81,
+    "Metallurgical and Materials Engineering": 72.92,
+    "Architecture": 64.62,
+    "Overall (UG)": 63.09
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 8.95,
+    "Civil Engineering": 8.1,
+    "Computer Science and Engineering": 18.0,
+    "Electrical Engineering": 14.1,
+    "Electronics and Communication Engineering": 15.0,
+    "Mechanical Engineering": 9.67,
+    "Metallurgical and Materials Engineering": 9.45,
+    "Architecture": 3.99,
+    "Overall (UG)": 11.0
+  },
+  "median_package_lpa": 10.92,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 10.23,
+    "Civil Engineering": 8.5,
+    "Computer Science and Engineering": 20.96,
+    "Electrical Engineering": 15.66,
+    "Electronics and Communication Engineering": 17.19,
+    "Mechanical Engineering": 10.74,
+    "Metallurgical and Materials Engineering": 10.18,
+    "Architecture": 4.75,
+    "Overall (UG)": 13.2
+  },
+  "avg_package_lpa": 12.38,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years"
+  ],
+  "_slug": "mnit-jaipur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/mnit-jaipur",
+  "last_scraped_at": "2026-03-31T16:09:52.317521",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.mnit.ac.in",
+  "placement_officer": {
+    "phone": "1 2025-26 2 20"
+  },
+  "year_wise_placements": [
+    {
+      "year": 2025
+    },
+    {
+      "year": 2024
+    },
+    {
+      "year": 2023
+    },
+    {
+      "year": 2022
+    }
+  ],
+  "top_recruiters": [
+    "Home",
+    "Our Team",
+    "Why MNIT",
+    "Placement Statistics",
+    "Recruitment Process",
+    "Our Recruiters",
+    "Contact Us",
+    "Sign In",
+    "Placement Procedure for Companies"
+  ],
+  "research": {
+    "active_projects": 5,
+    "phds_awarded": 7,
+    "research_centres": [
+      "Welcome to Materials Research Centre",
+      "Centre by the Numbers"
+    ]
+  },
+  "phd_available": true,
+  "infrastructure": {
+    "library": {
+      "volumes": 133600,
+      "journals_subscribed": null
+    },
+    "medical_centre": {
+      "full_time_doctor": true
+    },
+    "has_bank_atm": true,
+    "has_post_office": true
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Institute Functionaries",
+        "country": null
+      },
+      {
+        "university": "Institute Authorities",
+        "country": null
+      },
+      {
+        "university": "Institute Digital Repository",
+        "country": null
+      },
+      {
+        "university": "Industry Institute Interaction (I3)",
+        "country": null
+      },
+      {
+        "university": "Institute Lecture Series",
+        "country": null
+      },
+      {
+        "university": "To foster and strengthen the bond between alumni, students, and the institute by leveraging the relationships for an effective Outcome for the benefit of all MNIT\u2019s Fraternity and the Society.",
+        "country": null
+      }
+    ]
+  },
+  "nirf_overall_rank_history": {
+    "2024": 2025
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "institute": "NIT, Mizoram",
+  "also_known_as": "NITMZ",
+  "institute_type": "NIT",
+  "established_year": 2010,
+  "city": "Aizawl",
+  "state": "Mizoram",
+  "address": "National Institute of Technology, Chaltlang, Dawrkawn, Aizawl, Mizoram - 796012",
+  "nearest_airport": "Lengpui Airport, Aizawl",
+  "nearest_airport_km": 32.0,
+  "nearest_railway_station": "Silchar Railway Station",
+  "nearest_railway_km": 171.0,
+  "nirf_engineering_rank": 101,
+  "caution_money": 2000,
+  "one_time_fees": 200,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 2696,
+  "total_institute_fee": 77896,
+  "hostel_fee_per_sem": 2500,
+  "mess_advance_per_sem": 22000,
+  "total_hostel_fee": 49500,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 90.67,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 100.0,
+    "Computer Science and Engineering": 81.25,
+    "Electrical and Electronics Engineering": 100.0,
+    "Electronics and Communication Engineering": 80.0,
+    "Mechanical Engineering": 100.0,
+    "Overall": 90.67
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 6.0,
+    "Computer Science and Engineering": 12.5,
+    "Electrical and Electronics Engineering": 6.8,
+    "Electronics and Communication Engineering": 7.0,
+    "Mechanical Engineering": 7.6,
+    "Overall": 7.5
+  },
+  "median_package_lpa": 7.9,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 7.5,
+    "Computer Science and Engineering": 13.02,
+    "Electrical and Electronics Engineering": 8.89,
+    "Electronics and Communication Engineering": 8.24,
+    "Mechanical Engineering": 9.65,
+    "Overall": 9.8
+  },
+  "avg_package_lpa": 9.52,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-mizoram",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-mizoram",
+  "last_scraped_at": "2026-03-31T16:08:13.241686",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitmz.ac.in",
+  "research": {
+    "research_centres": [
+      "NIT Mizoram is collaborating with Japan to advance academic and research activities"
+    ]
+  },
+  "phd_available": true,
+  "student_activities": {
+    "clubs": [
+      "IPR Cell",
+      "Photography Club:"
+    ],
+    "technical_fests": [
+      "National Institute of Technology Mizoram, Aizawl - 796012, Mizoram, India",
+      "\u00a9 2026 National Institute of Technology Mizoram"
+    ],
+    "has_nss": true,
+    "has_ncc": false
+  }
+}

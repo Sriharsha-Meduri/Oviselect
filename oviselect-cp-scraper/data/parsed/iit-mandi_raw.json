@@ -1,0 +1,1542 @@
+{
+  "institute": "IIT Mandi",
+  "also_known_as": "IIT Mandi",
+  "institute_type": "IIT",
+  "established_year": 2009,
+  "city": "Mandi",
+  "state": "Himachal Pradesh",
+  "address": "Indian Institute of Technology, VPO Kamand, Tehsil Sadar, Near Kataula, Parashar Road, Mandi, Himachal Pradesh - 175005",
+  "nearest_airport": "Kullu Manali Airport, Bhuntar",
+  "nearest_airport_km": 40.5,
+  "nearest_railway_station": "Kiratpur Sahib Railway Station",
+  "nearest_railway_km": 108.0,
+  "qs_asia_rank": "564 (2026)",
+  "nirf_overall_rank": 58,
+  "nirf_engineering_rank": 26,
+  "nirf_innovation_rank": "10 (2025)",
+  "outlook_rank": 14,
+  "india_today_rank": 13,
+  "caution_money": 12000,
+  "one_time_fees": 10000,
+  "tuition_fee_per_sem": 100000,
+  "annual_fees": 750,
+  "total_institute_fee": 128950,
+  "hostel_fee_per_sem": 9600,
+  "mess_advance_per_sem": 15360,
+  "total_hostel_fee": 24960,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 72.39,
+  "branch_wise_placement_pct": {
+    "Bio Engineering": 70.0,
+    "Civil Engineering": 31.25,
+    "Computer Science and Engineering": 89.32,
+    "Data Science and Engineering": 85.71,
+    "Electrical Engineering": 61.67,
+    "Engineering Physics": 29.41,
+    "Mechanical Engineering": 66.67,
+    "Overall (B.Tech.)": 72.39
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Bio Engineering": 16.0,
+    "Civil Engineering": 10.95,
+    "Computer Science and Engineering": 27.0,
+    "Data Science and Engineering": 32.22,
+    "Electrical Engineering": 19.75,
+    "Engineering Physics": 14.1,
+    "Mechanical Engineering": 14.1,
+    "Overall": 22.0
+  },
+  "median_package_lpa": 19.52,
+  "branch_wise_avg_ctc": {
+    "Bio Engineering": 21.6,
+    "Civil Engineering": 12.65,
+    "Computer Science and Engineering": 34.46,
+    "Data Science and Engineering": 32.3,
+    "Electrical Engineering": 24.58,
+    "Engineering Physics": 20.9,
+    "Mechanical Engineering": 15.96
+  },
+  "avg_package_lpa": 23.21,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Sc. - 4 Years"
+  ],
+  "_slug": "iit-mandi",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-mandi",
+  "last_scraped_at": "2026-03-31T16:01:43.763059",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitmandi.ac.in",
+  "departments": [
+    {
+      "name": "General",
+      "faculty_count": 208,
+      "faculty": [
+        {
+          "name": "Aditya Nigam",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Adarsh patel",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Amit Kumar Singha",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Akhilanand Pati Tiwari",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Ankush Mittal",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Animesh Biswas",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Arnav Bhavsar Vinayak",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dinesh Singh",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Himanshu Misra",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Hitesh Shrimali",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Jinesh Machchhar",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Kunal Ghosh",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Kaushik Halder",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Moumita Das",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Narendra Kumar Dhar",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Padmanabhan Rajan",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Pratim Kundu",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Parimala kancharla",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Satinder Sharma",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rahul Shrestha",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rohit Saluja",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Robin Khosla",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Satyajitsinh A. Thakor",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Shubhajit Roy Chowdhury",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Siddhartha Sarma",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Siddharth Panwar",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sneha Singh",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sreelakshmi Manjunath",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Samar",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Srikanth Sugavanam",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Srinivasu Bodapati",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Tushar Jain",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Varunkumar Jayapaul",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Varun Dutt",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Venkata Ratnam Vakacharla",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Indu Joshi",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prateek Vishnoi",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Bikram Paul",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Gaurav Sood",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Abhishek Sharma",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Preti Kumari",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Yanumula Venkata Karteek",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sourav Dutta",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dwijasish Das",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Neeraj Sharma",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Mohit Mishra",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Yvonne Dittrich",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Pavan Kumar Reddy Manne",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Riya Tapwal",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rajan Kapur",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Bijnan Bandyopadhyay",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Subrata Ghosh(Chairperson)",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Aniruddha Chakraborty",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prem Felix Siril",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Pradeep Parameswaran",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Chayan K. Nandi",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Venkata Krishnan",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Aditi Halder",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Amit Balkrishna Pawar",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Bhaskar Mondal",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Abhimanew Dhir",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Abhishek Dewanji",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Garima Agrawal",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Moupriya Das",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Narayan Sinha",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Indu Bala",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Bindu Radhamany(Chairperson)",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Ajay Soni",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Arko Roy",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Hari Varma",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Suman Kalyan Pal",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prasanth P. Jose",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Kaustav Mukherjee",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Pradyuman K Pathak",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Arti Kashyap",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Pradeep Kumar",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "C. S. Yadav",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Nirmalya Kajuri",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Harsh Soni",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Amal Sarkar",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Krishna Mohan Parattu",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rahul Kumar Kothari",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prabhakar Palni",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Ravindra Kumar Yadav",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Tanushree Roy",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rajendra Kr. Ray(Chairperson)",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Manoj Thakur",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Nitu Kumari",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Muslim",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Preeti",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sarita Azad",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Syed Abbas",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Qaiser Jahan",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Samir Shukla",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sampat Kumar Sharma",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Saswata Adhikari",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Mirza Galib Anwarul Husain Baig",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Vikash Tripathi",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Tanmay Kayal",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rishikesh Yadav",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rakesh Kumar",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Doyel Pandey",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Tulika Srivastava(Chairperson)",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Shyam Kumar Masakapalli",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Amit Jaiswal",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Amit Prasad",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Baskar Bakthavachalu",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Kharerin Hungyo",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prasad Kasturi",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sumit Murab",
+          "designation": "Assistant professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Trayambak Basak",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Ekta Makhija",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sanjeev Nara",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Lokeshkumar Pisaram Ramteke",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "P. Anil Kishan",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Atul Dhar",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rahul Vaish",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rajeev Kumar",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Himanshu Pathak",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Jaspreet Kaur Randhawa",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Mohammad Talha",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rajesh Ghosh",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Satvasheel Ramesh Powar",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rik Rani Koner",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sarthak Nag",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dube Dheeraj Prakashchand",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Vishal Singh Chauhan",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Viswanath Balakrishnan",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Gajendra Singh",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Gaurav Bhutani",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Parmod Kumar",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Prateek Saxena",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sudhir Kumar Pandey",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sunny Zafar",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Ranbir Singh",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Swati Sharma",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Deepak Sachan",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Raj Kiran",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Shashwat Bhattacharya",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Neha Shukla",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sandeep Sahu",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Suntharavel Muthaiah V.M",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sanasam Sunderlal Singh",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sandip Chatterjee",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Deepak Deelip Patil",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Raj S Dave",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Vikas Kumar",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rajneesh Sharma",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dericks Praise Shukla",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Deepak Swami",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Kala Venkata Uday",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Kaustav Sarkar",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Ashutosh Kumar",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dhanya J",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Maheshreddy Gade",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Harshad Kulkarni",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Mousumi Mukherjee",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sandip Kumar Saha",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Sayantan Sarkar",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Shashank Pathak",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Shivang Shekhar",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Subhamoy Sen",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Thainswemong Choudhury",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Vivek Gupta",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Ranjeet Kumar Jha",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Aliva Nanda",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Anshu Bamney",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Narendra Kumar Goel",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Surya Prakash Upadhyay",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Shyamasree Dasgupta",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Manu V Devadevan",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Aruna Bommareddi",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Devika Sethi",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Neha Kaushik",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Nilamber Chhetri",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Neethi Vadakkan Alexander",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Aparna Malviya",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Rajeshwari Dutt",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Ramna Thakur",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Suman",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Saumya Malviya",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Thirthankar Chakraborty",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Masudul Hasan Adil",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Juan Luis Toribio Vazquez",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Anjan Kumar Swain",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Puran Singh",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Saumya Dixit",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Ashish Bollimbala",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dechen Angmo",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Ridhi Arora",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Arun Kumar Gupta",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Amit Shukla",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Dipankar Deb",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Radhe Shyam Sharma",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Jagadeesh Kadiyam",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Praful Tejerao Hambarde",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Deepak Raina",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Amit Dattatraya Lad",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Jaskaran Singh Nirankari",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Vaibhav Gupta",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Priyank Singh",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Ramajayam Govindaraji",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Venkatesh Hanumant Rao Chembrolu",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Pushpendra Singh",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Neha Thakur",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Archi Banerjee",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Krishna Gajendra Panda",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "P. Nirmal Harish",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        }
+      ]
+    }
+  ],
+  "total_faculty_count": 208
+}

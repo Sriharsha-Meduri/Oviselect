@@ -1,0 +1,130 @@
+{
+  "institute": "IIT Kharagpur",
+  "also_known_as": "IIT-KGP",
+  "institute_type": "IIT",
+  "established_year": 1951,
+  "city": "Kharagpur",
+  "state": "West Bengal",
+  "address": "Indian Institute of Technology, Post Technology, Paschim Midnapur, Kharagpur, West Bengal - 721302",
+  "nearest_airport": "Netaji Subhas Chandra Bose International Airport, Kolkata",
+  "nearest_airport_km": 140.0,
+  "nearest_railway_station": "Kharagpur Junction Railway Station",
+  "nearest_railway_km": 4.0,
+  "qs_world_rank": "215 (2026)",
+  "qs_asia_rank": "77 (2026)",
+  "nirf_overall_rank": 6,
+  "nirf_engineering_rank": 5,
+  "nirf_research_rank": 5,
+  "nirf_innovation_rank": "4 (2025)",
+  "outlook_rank": 6,
+  "india_today_rank": 4,
+  "caution_money": 2000,
+  "one_time_fees": 4700,
+  "tuition_fee_per_sem": 100000,
+  "annual_fees": 2700,
+  "total_institute_fee": 113400,
+  "hostel_fee_per_sem": 750,
+  "mess_advance_per_sem": 14500,
+  "total_hostel_fee": 43350,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "branch_wise_placement_pct": {
+    "B.Tech.": 77.7,
+    "Dual Degree (B.Tech + M.Tech.)": 68.8,
+    "Integrated M.Sc.": 62.5,
+    "B.Arch.": 51.35
+  },
+  "placement_year": 2022,
+  "branch_wise_median_ctc": {
+    "Aerospace Engineering": 13.54,
+    "Agricultural and Food Engineering": 14.05,
+    "Biotechnology and Biochemical Engineering": 14.1,
+    "Chemical Engineering": 16.1,
+    "Civil Engineering": 14.1,
+    "Computer Science and Engineering": 28.99,
+    "Electrical Engineering": 21.14,
+    "Electronics and Electrical Communication Engineering": 21.28,
+    "Industrial and Systems Engineering": 20.4,
+    "Instrumentation Engineering": 20.65,
+    "Manufacturing Science and Engineering": 16.0,
+    "Mechanical Engineering": 15.53,
+    "Metallurgical and Materials Engineering": 15.5,
+    "Mining Engineering": 17.5,
+    "Ocean Engineering and Naval Architecture": 15.5,
+    "Architecture": 13.01,
+    "Applied Geology": 18.0,
+    "Chemistry": 16.5,
+    "Economics": 18.35,
+    "Exploration Geophysics": 18.0,
+    "Mathematics and Computing": 22.34,
+    "Physics": 16.0,
+    "Overall (UG)": 18.0
+  },
+  "median_package_lpa": 17.59,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Sc. - 4 Years",
+    "B.Arch. - 5 Years"
+  ],
+  "_slug": "iit-kharagpur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-kharagpur",
+  "last_scraped_at": "2026-03-31T16:01:35.812479",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitkgp.ac.in",
+  "placement_officer": {
+    "phone": "+91-3222-25522"
+  },
+  "top_recruiters": [
+    "About",
+    "Administration",
+    "Students",
+    "Faculty and Staff",
+    "Visitors",
+    "Outreach and Alumni Affairs",
+    "Platinum Jubilee",
+    "Jobs",
+    "Indian Institute of Technology Kharagpur",
+    "Abhijnana Logo",
+    "Logo",
+    "ARIIA",
+    "NIRF",
+    "VOTERS' SERVICE PORTAL",
+    "Vidya Lakshmi Portal",
+    "National Commision for Women (NCW)"
+  ],
+  "research": {
+    "funding_agencies": [
+      "DRDO"
+    ]
+  },
+  "phd_available": false,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "technical_fests": [
+      "Indian Institute of Technology Kharagpur"
+    ],
+    "has_nss": false,
+    "has_ncc": false
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Indian Institute of Technology Kharagpur",
+        "country": null
+      },
+      {
+        "university": "Policy for Institute IT Infrastructure",
+        "country": null
+      }
+    ]
+  }
+}

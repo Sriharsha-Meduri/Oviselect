@@ -1,0 +1,3263 @@
+{
+  "institute": "SVNIT, Surat",
+  "institute_type": "NIT",
+  "also_known_as": "SVNIT",
+  "established_year": 1961,
+  "city": "Surat",
+  "state": "Gujarat",
+  "address": "Sardar Vallabhbhai National Institute of Technology, Ichchhanath, Surat, Gujarat - 395007",
+  "nearest_airport": "Surat International Airport",
+  "nearest_airport_km": 8.5,
+  "nearest_railway_station": "Surat Railway Station",
+  "nearest_railway_km": 9.5,
+  "nirf_overall_rank": 101,
+  "nirf_engineering_rank": 66,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": "791-800 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": 30,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "Integrated M.Sc. - 5 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 6000,
+  "mess_advance_per_sem": 39000,
+  "one_time_fees": 18000,
+  "caution_money": 5000,
+  "annual_fees": 8500,
+  "total_institute_fee": 93000,
+  "total_hostel_fee": 63880,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 71.55,
+  "avg_package_lpa": 9.59,
+  "median_package_lpa": null,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 73.87,
+    "Civil Engineering": 51.49,
+    "Computer Science and Engineering": 85.83,
+    "Electrical Engineering": 77.98,
+    "Electronics and Communication Engineering": 62.89,
+    "Mechanical Engineering": 74.63,
+    "Overall (B.Tech.)": 71.55,
+    "Chemistry": 56.25,
+    "Mathematics": 42.86,
+    "Physics": 38.1,
+    "Overall (Int. MSc.)": 46.21
+  },
+  "branch_wise_median_ctc": null,
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 9.58,
+    "Civil Engineering": 6.32,
+    "Computer Science and Engineering": 18.26,
+    "Electrical Engineering": 11.13,
+    "Electronics and Communication Engineering": 14.28,
+    "Mechanical Engineering": 9.32,
+    "Chemistry": 5.27,
+    "Mathematics": 6.0,
+    "Physics": 6.12
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": 204,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Artificial Intelligence",
+      "faculty": [
+        {
+          "name": "Dr. Rahul Dixit",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Machine learning",
+            "Computer Vison",
+            "Digital Image Processing",
+            "Document Authentication",
+            "Medical Image Authentication",
+            "Signature Authentication",
+            "Digital Image and Video Forensics",
+            "Information Retrieval",
+            "Natural Language Processing."
+          ],
+          "email": "rahuldixit@aid.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Tanmoy Hazra",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Machine Learning",
+            "Deep Learning",
+            "Applications of Game Theory"
+          ],
+          "email": "tanmoyhazra@aid.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Nitesh A. Funde",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Data Science",
+            "Machine Learning",
+            "Classical Optimization Techniques",
+            "Smart Grids",
+            "Sustainable Cities",
+            "Cyber-Physical Systems"
+          ],
+          "email": "nitesh.funde@aid.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Praveen Kumar Chandaliya",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Biometrics",
+            "Face Recognition",
+            "Medical Imaging",
+            "Computer Vision",
+            "Generative AI"
+          ],
+          "email": "pkc@aid.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Pruthwik Mishra",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Natural Language Processing",
+            "Word Problem Solving",
+            "Machine Translation",
+            "Summarization",
+            "Sentiment Analysis",
+            "Large Language Models",
+            "Tool Development in Indian Languages"
+          ],
+          "email": "pruthwikmishra@aid.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Rohit Kumar",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Theoretical Computer Science",
+            "Wireless Sensor Networks"
+          ],
+          "email": "rohitkumar@aid.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Rahul Shrivastava",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Recommender System",
+            "Multi-Stakeholder",
+            "Multi-Criteria and Multi-Objective Personalized Recommendation System",
+            "Machine Learning"
+          ],
+          "email": "rahulshrivastava@aid.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sankhadeep Chatterjee",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Generative AI",
+            "Class Imbalance",
+            "Explainable AI",
+            "Multimodal Deep Learning",
+            "Representation Learning",
+            "Federated Learning",
+            "Active Learning",
+            "Affective Computing",
+            "Biomedical Data Analysis",
+            "Nature Inspired Computing",
+            "Metaheuristics"
+          ],
+          "email": "sankhadeep@aid.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sudhakar Mishra",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Human-Computer Interaction",
+            "Brain Computer Interface",
+            "Neuroimaging (EEG",
+            "MEG)",
+            "Neurophysiological and Physiological Signal Processing",
+            "Artificial Intelligence & Machine Learning",
+            "Reinforcement learning",
+            "User Experience and Usability",
+            "Cognitive Modeling",
+            "Cognitive and Affective Computing",
+            "Application of AI in Mental Health."
+          ],
+          "email": "sudhakarm@aid.svnit.ac.in",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 9,
+      "hod_name": "Dr. Tanmoy Hazra",
+      "hod_designation": "Assistant Professor",
+      "labs": [
+        "Laboratories",
+        "High Performance Computing Lab",
+        "Data Science Lab",
+        "Curriculum & Syllabus"
+      ]
+    },
+    {
+      "name": "Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Z. V. P. Murthy",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Wastewater Treatment",
+            "Separation Processes (membrane separations",
+            "Adsorption",
+            "Electrocoagulation etc.)",
+            "Nanoscience/Nanotechnology"
+          ],
+          "email": "zvpm@ched.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. P. A. Parikh",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Catalysis in Refining and Petrochemical Processes",
+            "Fuels",
+            "Biofuels"
+          ],
+          "email": "pap@ched.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. M.Chakraborty",
+          "specializations": [
+            "Professor",
+            "Ph. D. Green Chemistry (Ionic Liquid",
+            "Microwave synthesis)",
+            "Separation Processes (Emulsion liquid membrane",
+            "Supported liquid membrane etc)",
+            "Nanomaterials (Synthesis and application)"
+          ],
+          "email": "mch@ched.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Jigisha Kamal Parikh",
+          "specializations": [
+            "Professor",
+            "Ph. D. Energy & Environment",
+            "Energy Conservation and Efficiency Upgradation",
+            "Waste to Energy",
+            "Process Design & Evaluation",
+            "Environment Audit",
+            "Environmanagement System",
+            "Colloidal Science & Surface Engineering"
+          ],
+          "email": "jk_parikh@yahoo.co.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Meghal A. Desai",
+          "specializations": [
+            "Professor",
+            "Ph. D. Process intensified approach in Chemical and Allied Technology",
+            "Chemicals derived from biomass (New Materials and technology development and engineering)",
+            "Application of Neoteric solvents",
+            "Waste valorization using greener concepts",
+            "Optimization of process parameters using statistical techniques – Design of Experiment"
+          ],
+          "email": "mad@ched.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. V. N. Lad",
+          "specializations": [
+            "Professor",
+            "Ph. D. Interfacial Engineering",
+            "Microfluidics",
+            "Complex Fluids",
+            "Soft Materials",
+            "Nanomaterials",
+            "Thin Film",
+            "Langmuir Monolayer and Langmuir-Blodgett Films"
+          ],
+          "email": "vnl@ched.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Sanjay R. Patel",
+          "specializations": [
+            "Professor",
+            "Ph. D. Microfluidics",
+            "Nano medicine",
+            "Drug Delivery systems",
+            "Process intensification using microreactors",
+            "ultrasound",
+            "and membrane. Quality by Design in Pharmaceutics",
+            "Optimization of Processes using Design of experiments. Waste water treatment",
+            "Modelling and Simulation"
+          ],
+          "email": "srp@ched.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. A. K. Mungray",
+          "specializations": [
+            "Professor",
+            "Ph. D. Wastewater Treatment (biological treatment)",
+            "sludge treatment",
+            "aerobic",
+            "anaerobic processes"
+          ],
+          "email": "akm@ched.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Jignasa V. Gohel",
+          "specializations": [
+            "Professor",
+            "Ph. D. Advanced thin film Solar cells",
+            "Nanomaterials/Nanocomposite",
+            "Nanocatalytic degradation"
+          ],
+          "email": "sjn@ched.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. (Mrs.) Alka A. Mungray",
+          "specializations": [
+            "Professor",
+            "Ph. D. Membrane separation process",
+            "Membrane bio reactor and wastewater treatment"
+          ],
+          "email": "bag@ched.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr.Chetan M. Patel",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Large scale nanomaterials production by stirred media milling",
+            "Nanomaterials for Industrial minerals",
+            "pigments",
+            "drugs",
+            "lithium-ion batteries",
+            "2-Dimensional Materials",
+            "DEM simulations of particulate processes",
+            "Molecular simulation of nanocomposites",
+            "Advanced separation processes"
+          ],
+          "email": "cmp@ched.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Arun Kumar Jana",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. CFD Based Modelling and Simulation",
+            "Liquid-liquid and gas-liquid multiphase flows",
+            "Drag Reduction in Pipeline Transportation",
+            "Heterogeneous catalysis in Petroleum Refining and Petrochemicals",
+            "Packed and Expanded Bed Operations"
+          ],
+          "email": "akj@ched.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. G. C. Jadeja",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Neoteric Green Extraction Techniques",
+            "(Sub/Supercritical and Pressurized Fluid",
+            "Extractions Valuable Chemicals from Renewable Resources (Bio-refinery Concepts)"
+          ],
+          "email": "jgc@ched.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Smita Gupta",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Membrane separation techniques",
+            "WastewaterTreatment",
+            "Biochemical Engineering"
+          ],
+          "email": "g.smita@ched.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Sarita Kalla",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Membrane Separation Process and Membrane Fabrication",
+            "Process Modeling and Simulation",
+            "Desalination and Waste Water Treatment",
+            "Process Optimization",
+            "Adsorption"
+          ],
+          "email": "sarita_kalla@ched.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. S.K. Sundar",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Encapsulation & controlled release of bioactive compounds for applications in food",
+            "pharma",
+            "cosmetics",
+            "agriculture",
+            "textile",
+            "etc.",
+            "Nanofluids/Nanomaterials",
+            "Colloids and Interfaces",
+            "Rheology",
+            "Biochemical Engineering (Fermentation/Enzyme Technology)",
+            "Wastewater treatment"
+          ],
+          "email": "sundarsk@ched.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Jogender Singh",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Process Intensification",
+            "Heat Transfer and Fluid flow",
+            "Microfluidics",
+            "Micro-flow ExtractionProcesses",
+            "Separation Processes",
+            "CFD",
+            "Modelling and Simulation",
+            "Industrial Safety and Hazards Management"
+          ],
+          "email": "jogendersingh@ched.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Vineet Kumar Rathore",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Contaminated Groundwater Treatment",
+            "Nanotechnology",
+            "Electrochemical Processes",
+            "Solid Waste Management",
+            "LCA and Sustainability Studies."
+          ],
+          "email": "vkrathore@ched.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Parag Pralhad Thakur",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Nanotechnology",
+            "Nanofluidics",
+            "Microfluidics",
+            "Nanocomposites."
+          ],
+          "email": "paragthakur@ched.svnit.ac.in",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 19,
+      "hod_name": "Dr. V. N. Lad",
+      "hod_designation": "Professor",
+      "labs": [
+        "LABORATORIES AND EQUIPMENT",
+        "Instrumentation and Process Control Laboratory",
+        "Mechanical Operations Laboratory",
+        "List of Lab Equipments and Lab Experiments",
+        "Curriculum & Syllabus",
+        "Laboratories"
+      ],
+      "research_projects": [
+        "About UsAbout the InstituteVision & MissionNIT StatutesAmendment in Statues 2015NIT ActRegistration CertificateReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRFCouncil of NITs",
+        "About the Institute",
+        "Vision & Mission",
+        "NIT Statutes",
+        "Amendment in Statues 2015",
+        "Registration Certificate",
+        "ReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRF",
+        "Annual Report",
+        "Annual Account Report",
+        "Accrediation Report: UG",
+        "Accreditation report - CED & MED",
+        "Council of NITs",
+        "Board of Governors",
+        "Senate Members",
+        "Finance Committee",
+        "Building and Works Committee",
+        "Chairperson BoG",
+        "Chief Vigilance Officer",
+        "Deans / Associate Deans",
+        "Heads of Departments",
+        "Incharges of Support Centres",
+        "Office Administration",
+        "SectionsAcademic SectionAccounts SectionEstablishment SectionEstate & Store SectionCentral Store & Purchase Section",
+        "Academic Section",
+        "Accounts Section",
+        "Establishment Section",
+        "Estate & Store Section",
+        "Central Store & Purchase Section",
+        "Rules & Regulations",
+        "Fee StructureInstitute Fee StructureHostel Fee Structure(2025-26)",
+        "Institute Fee Structure",
+        "Hostel Fee Structure(2025-26)",
+        "Academic CalenderAcademic Calendar (Year 2026-27)Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)Academic Calendar (Year 2025-26)Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)Academic Calendar 2024-25(Revised)",
+        "Academic Calendar (Year 2026-27)",
+        "Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)",
+        "Academic Calendar (Year 2025-26)",
+        "Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)",
+        "Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)",
+        "Academic Calendar 2024-25(Revised)",
+        "Academic Certificates",
+        "List of Holidays 2025",
+        "List of Holidays 2026",
+        "Institute Policy for Prevention of Plagiarism",
+        "Scholarship",
+        "DepartmentsArtificial IntelligenceChemical EngineeringChemistryCivil EngineeringComputer Science and EngineeringElectrical EngineeringElectronics EngineeringHumanities and Social SciencesManagement StudiesMathematicsMechanical EngineeringPhysics",
+        "Artificial Intelligence",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering"
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [
+        {
+          "name": "Dr. Smita Jauhari",
+          "specializations": [
+            "Professor",
+            "Ph. D. Synthetic Organic Chemistry",
+            "Corrosion",
+            "Phytochemistry"
+          ],
+          "email": "sj@chem.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Bharatkumar Dholakiya",
+          "specializations": [
+            "Professor",
+            "Ph. D. Biofuels",
+            "Biopolymers for specialty applications"
+          ],
+          "email": "bzdholakiya@chem.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Suresh Kumar",
+          "specializations": [
+            "Professor",
+            "Ph. D. Functional   nanomaterials",
+            "Nano sensors",
+            "Mass Spectrometry and Biomarkers detection."
+          ],
+          "email": "skk@chem.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Kalpana Maheria",
+          "specializations": [
+            "Professor",
+            "Ph. D. Heterogeneous catalysis",
+            "Parous inorganic & hybrid materials",
+            "Catalysed MCRS and biomass derived chemical synthesis",
+            "Water treatment through ion exchange."
+          ],
+          "email": "kcm@chem.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Suban K. Sahoo",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Supramolecular Chemistry",
+            "Molecular Recognition & Chemo sensor",
+            "Computational Chemistry."
+          ],
+          "email": "sks@chem.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Naved Malek I.",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Ionic liquids",
+            "MOF",
+            "Hydrogels drug delivery",
+            "soft matter",
+            "Material Chemistry."
+          ],
+          "email": "navedmalek@chem.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Premlata Kumari",
+          "specializations": [
+            "Associate Professor",
+            "M. Tech. Design and synthesis of bioactive drug candidates",
+            "Synthetic Organic chemistry",
+            "Extraction of Phytochemicals and their applications Identification and Quantification & Qualification of Chemical markers by HPLC/UHPLC."
+          ],
+          "email": "pl@chem.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ketan C. Kuperkar",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Surfactants",
+            "Polymer Chemistry",
+            "Deep Eutectic Solvents",
+            "Soft condensed matter",
+            "Colloids."
+          ],
+          "email": "kck@chem.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ritambhara Jangir",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Materials Development: COFs",
+            "MOFs",
+            "POMs and composites for various Application."
+          ],
+          "email": "ritambhara.jangir@chem.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Togati Naveen",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. C-H functionalization",
+            "Heterocycles. Synthesis",
+            "Synthetic Organic Chemistry."
+          ],
+          "email": "t.naveen@chem.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. A. Sivaiah",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Organic Synthesis",
+            "Supramolecular Chemistry",
+            "Inorganic Chemistry",
+            "Chiroptical materials",
+            "Nano/Bio Sensors applications."
+          ],
+          "email": "areti@chem.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Lata Rana",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Synthetic Inorganic Chemistry",
+            "Coordination Chemistry & Catalysis."
+          ],
+          "email": "latarana@chem.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Jigneshkumar V. Rohit",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Nanochemistry",
+            "Designing of Nanomaterials for Agriculture",
+            "Medical and Environmental Applications",
+            "Analytical Method Development",
+            "Organic Synthesis"
+          ],
+          "email": "jignesh@chem.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Subrata Dutta",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Synthetic Organic Chemistry",
+            "Fluorescence dye for bio imaging applications",
+            "DNA and Peptide based catalysis."
+          ],
+          "email": "subrata.d@chem.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Arup Kumar Ghosh",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Theoretical Chemistry",
+            "Photochemistry",
+            "Atmospheric & Environmental Chemistry."
+          ],
+          "email": "akg@chem.svnit.ac.in",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 15,
+      "hod_name": "Dr. Suresh Kumar",
+      "hod_designation": "Professor",
+      "labs": [
+        "Curriculum & Syllabus",
+        "Laboratories"
+      ],
+      "research_projects": [
+        "About UsAbout the InstituteVision & MissionNIT StatutesAmendment in Statues 2015NIT ActRegistration CertificateReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRFCouncil of NITs",
+        "About the Institute",
+        "Vision & Mission",
+        "NIT Statutes",
+        "Amendment in Statues 2015",
+        "Registration Certificate",
+        "ReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRF",
+        "Annual Report",
+        "Annual Account Report",
+        "Accrediation Report: UG",
+        "Accreditation report - CED & MED",
+        "Council of NITs",
+        "Board of Governors",
+        "Senate Members",
+        "Finance Committee",
+        "Building and Works Committee",
+        "Chairperson BoG",
+        "Chief Vigilance Officer",
+        "Deans / Associate Deans",
+        "Heads of Departments",
+        "Incharges of Support Centres",
+        "Office Administration",
+        "SectionsAcademic SectionAccounts SectionEstablishment SectionEstate & Store SectionCentral Store & Purchase Section",
+        "Academic Section",
+        "Accounts Section",
+        "Establishment Section",
+        "Estate & Store Section",
+        "Central Store & Purchase Section",
+        "Rules & Regulations",
+        "Fee StructureInstitute Fee StructureHostel Fee Structure(2025-26)",
+        "Institute Fee Structure",
+        "Hostel Fee Structure(2025-26)",
+        "Academic CalenderAcademic Calendar (Year 2026-27)Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)Academic Calendar (Year 2025-26)Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)Academic Calendar 2024-25(Revised)",
+        "Academic Calendar (Year 2026-27)",
+        "Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)",
+        "Academic Calendar (Year 2025-26)",
+        "Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)",
+        "Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)",
+        "Academic Calendar 2024-25(Revised)",
+        "Academic Certificates",
+        "List of Holidays 2025",
+        "List of Holidays 2026",
+        "Institute Policy for Prevention of Plagiarism",
+        "Scholarship",
+        "DepartmentsArtificial IntelligenceChemical EngineeringChemistryCivil EngineeringComputer Science and EngineeringElectrical EngineeringElectronics EngineeringHumanities and Social SciencesManagement StudiesMathematicsMechanical EngineeringPhysics",
+        "Artificial Intelligence",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering"
+      ]
+    },
+    {
+      "name": "Civil Engineering",
+      "hod_name": "Dr. V. L. Manekar",
+      "hod_designation": "Head of Department",
+      "faculty": [
+        {
+          "name": "Dr. J. N. Patel",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Water Resources Engineering",
+            "Geo-spatial Technologies",
+            "Computational Techniques"
+          ],
+          "email": "jnp@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. P. L. Patel (On Deputation to V.N.I.T. Nagpur as Director)",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Experimental and numerical investigations on transport of sediments and bed level variations in Alluvial rivers",
+            "Prediction of sediment yield and morphological studies of Alluvial rivers",
+            "Hydrodynamics of natural rivers",
+            "Stochastic approaches in modelling of turbulence in rigid and mobile boundary channels",
+            "Hydrodynamic modelling of floods",
+            "Hydrological modelling in assessment of water availability in the basin",
+            "Multi-objective approaches in optimal irrigation planning",
+            "Spatial and temporal variability of climatic and hydrological parameters in river basins",
+            "Inflow prediction into reservoirs."
+          ],
+          "email": "plpatel@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. C. D. Modhera",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Concrete Technology",
+            "Structural dynamics",
+            "Earthquake engineering and monitoring health of structural concrete",
+            "Special concrete and relevant applications to the field"
+          ],
+          "email": "cdm@amd.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Atul K. Desai",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Structural Dynamics",
+            "Soil Structure Interaction",
+            "Fiber reinforced soil",
+            "Machine Foundations",
+            "Geo Textile",
+            "Roller compacted concrete for Rural Road development",
+            "Turbo Machinery Frame Foundation",
+            "Fiber Reinforced concrete & its damping",
+            "Bridge engineering",
+            "Wind induced oscillation in structure",
+            "energy dissipation",
+            "Earthquake engineering & structural forensic",
+            "Pile raft foundation",
+            "Beam-column joint",
+            "Bridges subject to seismic loading",
+            "Synthetic time history analysis",
+            "Analysis and designing of tall structure (such as microwave towers",
+            "chimney",
+            "cooling tower",
+            "steel structure)"
+          ],
+          "email": "akd@amd.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. C. H. Solanki",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Sub Soil Characteristics",
+            "Prediction in Geo-technical Engineering",
+            "Ground improvement techniques",
+            "Geo-environmental Engineering"
+          ],
+          "email": "chs@amd.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. G. J. Joshi",
+          "specializations": [
+            "Professor",
+            "Ph. D. Urban Transportation Planning",
+            "Traffic Flow Modeling",
+            "Public Transport Planning",
+            "Regional Planning"
+          ],
+          "email": "gj@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Krupesh A. Chauhan",
+          "specializations": [
+            "Professor",
+            "Ph. D. Urban Planning",
+            "Urban design",
+            "Urban infrastructer planning",
+            "Housing Road Safty and Pavment Design"
+          ],
+          "email": "kac@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. M. Mansoor Ahammed",
+          "specializations": [
+            "Professor",
+            "Ph. D. Environmental Engineering",
+            "Househod water treatment",
+            "Anaerobic waste treatment",
+            "Health-related water microbiology"
+          ],
+          "email": "mma@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "DR. P. G. Agnihotri",
+          "specializations": [
+            "Professor",
+            "Ph. D. Application of Geospatial",
+            "Technology Flood Mitigation",
+            "Water Resources Engineering"
+          ],
+          "email": "pga@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Rakesh Kumar",
+          "specializations": [
+            "Professor",
+            "Ph. D. Utilization of Slags",
+            "Geosynthetic",
+            "Chemical Stabilizers",
+            "Cement",
+            "Flyash",
+            "lime and Others Non-Conventional Materials for Subgrade",
+            "Subbase and Base Engineering Use of LWD",
+            "FWD",
+            "and others NDT instruments for QA & QC of Pavement. Planning",
+            "design",
+            "and implementation of Public Bus Transit (BRTS)",
+            "Pavement Engineering (Design",
+            "Construction",
+            "Evaluation",
+            "Maintenace",
+            "and Rehabilitation)",
+            "Highway Economics Analysis using HDM-IV and others Software’s"
+          ],
+          "email": "krakesh@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Sandip A. Vasanwala",
+          "specializations": [
+            "Professor",
+            "Ph. D. Computer aided structural analysis Engineering",
+            "mechanics Structural analysis",
+            "Computer applications in civil engineering",
+            "Neural network application in structural engineering",
+            "Earthquake resistance design of structures",
+            "Performance evaluation & capacity based design of concrete structures",
+            "Preliminary design of structures",
+            "Neural application for preliminary design of space structures"
+          ],
+          "email": "sav@amd.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. S. M. Yadav",
+          "specializations": [
+            "Professor",
+            "Ph. D. Fluvial Hydraulics",
+            "Reservoir Operation",
+            "Sediments & Sediment Yield and Hydro Power",
+            "Hydrology and climate change",
+            "Construction Management",
+            "Application of Soft Computing Techniques in WRE"
+          ],
+          "email": "smy@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. V. L. Manekar",
+          "specializations": [
+            "Professor",
+            "Ph. D. Sediment Laden Flow Modelling and Simulation",
+            "Ago-Climatic Modelling",
+            "Hydrodynamic Flood Modelling",
+            "Impact of LULC &Climate Change on Water Resources"
+          ],
+          "email": "vlm@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Ashish Dhamaniya",
+          "specializations": [
+            "Professor",
+            "Ph. D. Dynamic Traffic Flow Modeling",
+            "Highway Capacity and Level of Service",
+            "GIS and GPS applications in Transportation Engineering",
+            "Pedestrian Flow Modelling and Facility",
+            "Design Road Safety",
+            "Pedestrians and Motorists"
+          ],
+          "email": "adhamaniya@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Dilip A. Patel",
+          "specializations": [
+            "Professor",
+            "Ph. D",
+            "LLB. Construction Project Management",
+            "Construction Safety",
+            "Welfare of Worker",
+            "Application of Building Information Modelling",
+            "Contract Management",
+            "Valuation",
+            "Heritage Conservation",
+            "Resilient   Infrastructure Management",
+            "Sustainable Construction"
+          ],
+          "email": "dap@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. K. D. Yadav",
+          "specializations": [
+            "Professor",
+            "Ph. D. Human Excreta Management",
+            "Solid Waste Management",
+            "Organic Waste Management by Composting",
+            "Vermicomposting"
+          ],
+          "email": "kdy@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Shriniwas S. Arkatkar",
+          "specializations": [
+            "Professor",
+            "Ph. D. Heterogeneous Traffic Flow Modeling and Simulation",
+            "Traffic Operation and Management",
+            "Transportation Systems Planning",
+            "Design and Operation",
+            "Public Transportation and Sustainable",
+            "Transportation Road Safety and Simulation"
+          ],
+          "email": "sarkatkar@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Yogesh D. Patil",
+          "specializations": [
+            "Professor",
+            "Ph. D. Earthquake engineering",
+            "Fiber reinforced concreteSteel & reinforced concrete beam-column joint and design of steel structures"
+          ],
+          "email": "ydp@amd.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Gaurang R. Vesmawala",
+          "specializations": [
+            "Professor",
+            "Ph. D. Earthquake Engineering",
+            "Structural Health Monitoring",
+            "Optimum design of space structures",
+            "Neural network applications in structural engineering and computer analysis & design of structures"
+          ],
+          "email": "grv@amd.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. P. V. Timbadiya",
+          "specializations": [
+            "Professor",
+            "Ph. D. Surface water hydrology",
+            "River analysis system",
+            "Hydrodynamic modeling"
+          ],
+          "email": "pvtimbadiya@ced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Satyajit Patel",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Utilization of Industrial solid wastes in Civil Engineering Constructions",
+            "Geo-environmental Issues",
+            "Soil stabilization",
+            "Ground improvement",
+            "Geo-synthetics for road pavements"
+          ],
+          "email": "spatel@amd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. S. R. Suryawanshi",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Computational Mechanics",
+            "Analytical Modelling of Structural Concrete",
+            "Flexural and Non-Flexural Behaviour of Concrete Structures"
+          ],
+          "email": "ssr@amd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Anant Parghi",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Seismic analysis and design smart materials and their structural application (Shape memory alloys",
+            "Nano materials)",
+            "seismic retrofitting of steel and masonry structures recycle/reuse of industrial wastes for structural applications",
+            "finite element analysis structural dynamics",
+            "constitutive relationship application of advanced composites materials-fiber reinforced polymer(FRP) and sprayed-Fiber reinforced polymer multi-criteria optimization and statistics."
+          ],
+          "email": "amp@amd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Bhaven N. Tandel",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Noise pollution modelling and mapping",
+            "Health impact of noise pollution",
+            "Air quality modelling and mapping",
+            "Indoor air quality",
+            "Odour pollution",
+            "EIA & Environmental legislation"
+          ],
+          "email": "bnt@ced.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Patel Chetankumar Ramanlal",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Active relation of Physical planning",
+            "Climate change and Urban Sprawl in Indian context",
+            "Active Transportation and policies for Carbon free cities.\nHousing Redevelopment Policy to defragment urban slums: an initiative for Housing Stock",
+            "Urban Freight Trip Generation Modelling with special reference to Urban logistic sprawl",
+            "Public Bicycle Sharing System: an alternative Sustainable mode of transport in large and medium cities of India.\nQuantification of Urban Sprawl and land use.\nBig data and IoT in Urban Planning and Transportation Planning"
+          ],
+          "email": "crp@ced.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ganesh D. Kale",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Effect of Climate Change on Hydrology",
+            "Rainfall Runoff Modelling",
+            "Application of GIS and Remote Sensing in Water Resources Engineering",
+            "Application of GA",
+            "Fuzzy-Logic and ANN in Water Resources Engineering",
+            "Optimization in Water Resources Engineering"
+          ],
+          "email": "gdk@ced.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. B. Kondraivendhan",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Pore structure characterization and modeling of pore size distribution of cement based materials. Effect of pozzolanic materials addition/replacement in cement based system. Strength and durability studies on cement based material. Studies on reinforced concrete corrosion. Repair and rehabilitation of concrete structures"
+          ],
+          "email": "bkv@amd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Namrata D. Jariwala",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Helth related issues in solid waste mangement practice",
+            "Environmetal Education",
+            "Environmet and health",
+            "Air pollution"
+          ],
+          "email": "ndj@ced.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Shailendra kumar",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Ground Improvement Techniques",
+            "Soil Stabilization",
+            "Reinforced Earth & Geosynthetics and Geotechnical Earthquake Engineering"
+          ],
+          "email": "skumar@amd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. (Mrs.) Shruti J. Shukla",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Geo-technical engineering and soil improvement techniquesPursuing research in the field of piled raft foundation"
+          ],
+          "email": "sdv@amd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Tailor Ravin Maheshkumar",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Urban Infrastructure Planning",
+            "Pavement Design and Assessment"
+          ],
+          "email": "ravin@ced.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. J. B. Patel",
+          "specializations": [
+            "Associate Professor",
+            "M.Tech. Ground Improvement"
+          ],
+          "email": "pjb@amd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Jitesh T. Chavda",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Computational Geomechanics",
+            "Deep Foundations",
+            "Deep Excavations",
+            "Use of PIV Technique in Geotechnical Engineering",
+            "Physical Modelling in Geotechnical Engineering",
+            "Seismic Hazard Analysis",
+            "Dynamic Soil Properties",
+            "Constitutive Modelling in Geotechnics",
+            "Conservation of Heritage Structures"
+          ],
+          "email": "jtc@amd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Kashyap A. Patel",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Structural Engineering",
+            "Steel-concrete Composite Structures",
+            "Reinforced Concrete Structures",
+            "Bridge Engineering",
+            "Structural Health Monitoring",
+            "Rehabilitation and Retrofitting"
+          ],
+          "email": "kapatel@amd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Banti A. Gedam",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Fire effects on RC structures",
+            "Heat transfer evaluations",
+            "Performance-based fire-resistant design of RC member",
+            "Spalling mitigation of high-performance concrete and high-strength concrete at the catastrophic fire",
+            "Steel fibres in concretes",
+            "Post-fire investigations",
+            "Active and Passive Fire Protection - Designing and Planning",
+            "Shrinkage and creep modeling for concretes",
+            "Time-dependent behavior evaluation HPC bridges",
+            "Artificial intelligence programming for concrete materials and mechanical properties"
+          ],
+          "email": "bantiagedam@ced.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Shri. Amit J. Solanki",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M.E."
+            }
+          ],
+          "email": "ajs@ced.svnit.ac.in"
+        },
+        {
+          "name": "Dr. Smaranika Panda",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Air Quality Management",
+            "Air Quality Modelling",
+            "Urban and Industrial Air Quality Monitoring",
+            "Carrying Capacity Studies",
+            "Chemical characterization of Particulates",
+            "Indoor Air Pollution",
+            "Exposure Analysis",
+            "Health Risk Assessment",
+            "Source Apportionment",
+            "Receptor Modelling"
+          ],
+          "email": "smp@ced.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Tamizharasi G",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Earthquake Engineering",
+            "Structural Dynamics"
+          ],
+          "email": "gtamizh@amd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Vishisht Bhaiya",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Seismic Vibration Control and Anti-Seismic Devices",
+            "Probabilistic Framework for Seismic Design and Performance Assessment Uncertainty Modelling in Dynamical System",
+            "Discrete Element Modelling",
+            "Rehabilitation & Retrofitting",
+            "Disaster Mitigation and Management with respect to Multihazard events"
+          ],
+          "email": "vishisht@amd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 39,
+      "labs": [
+        "Laboratories",
+        "Environmental Engineering LaboratorySolid Waste Management LaboratoryEnvironmental Audit Laboratory",
+        "Urban StudioUrban Cartography LaboratoryUrban Informatics Laboratory",
+        "Construction Management Laboratory",
+        "Curriculum & Syllabus"
+      ],
+      "research_projects": [
+        "About UsAbout the InstituteVision & MissionNIT StatutesAmendment in Statues 2015NIT ActRegistration CertificateReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRFCouncil of NITs",
+        "About the Institute",
+        "Vision & Mission",
+        "NIT Statutes",
+        "Amendment in Statues 2015",
+        "Registration Certificate",
+        "ReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRF",
+        "Annual Report",
+        "Annual Account Report",
+        "Accrediation Report: UG",
+        "Accreditation report - CED & MED",
+        "Council of NITs",
+        "Board of Governors",
+        "Senate Members",
+        "Finance Committee",
+        "Building and Works Committee",
+        "Chairperson BoG",
+        "Chief Vigilance Officer",
+        "Deans / Associate Deans",
+        "Heads of Departments",
+        "Incharges of Support Centres",
+        "Office Administration",
+        "SectionsAcademic SectionAccounts SectionEstablishment SectionEstate & Store SectionCentral Store & Purchase Section",
+        "Academic Section",
+        "Accounts Section",
+        "Establishment Section",
+        "Estate & Store Section",
+        "Central Store & Purchase Section",
+        "Rules & Regulations",
+        "Fee StructureInstitute Fee StructureHostel Fee Structure(2025-26)",
+        "Institute Fee Structure",
+        "Hostel Fee Structure(2025-26)",
+        "Academic CalenderAcademic Calendar (Year 2026-27)Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)Academic Calendar (Year 2025-26)Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)Academic Calendar 2024-25(Revised)",
+        "Academic Calendar (Year 2026-27)",
+        "Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)",
+        "Academic Calendar (Year 2025-26)",
+        "Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)",
+        "Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)",
+        "Academic Calendar 2024-25(Revised)",
+        "Academic Certificates",
+        "List of Holidays 2025",
+        "List of Holidays 2026",
+        "Institute Policy for Prevention of Plagiarism",
+        "Scholarship",
+        "DepartmentsArtificial IntelligenceChemical EngineeringChemistryCivil EngineeringComputer Science and EngineeringElectrical EngineeringElectronics EngineeringHumanities and Social SciencesManagement StudiesMathematicsMechanical EngineeringPhysics",
+        "Artificial Intelligence",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering"
+      ]
+    },
+    {
+      "name": "Computer Science and Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Devesh C. Jinwala",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Information  Security & Privacy Issues in Resource Constrained Environments",
+            "Machine Learning Applications in Security",
+            "Software Security",
+            "Secure Software Engineering and Software  Requirements Specifications."
+          ],
+          "email": "dcj@svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Dhiren R. Patel",
+          "profile_url": "https://scholar.google.com/citations?user=rIdRniwAAAAJ&hl=en&oi=ao",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Information Security",
+            "Blockchain and DLT",
+            "AI for Global Good"
+          ],
+          "email": "dhiren@coed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Mukesh A. Zaveri",
+          "specializations": [
+            "Professor",
+            "Ph. D. Computer Vision",
+            "Image Processing",
+            "Machine Learning &Soft Computing",
+            "Wireless Sensor Network Tracking and Localization"
+          ],
+          "email": "mazaveri@coed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Ritu Tiwari (On Lien to IIITDM, Gwalior)",
+          "specializations": [
+            "Professor",
+            "Ph. D. Robotics",
+            "Artificial intelligence",
+            "Swarm Intelligence",
+            "Machine learning",
+            "Deep learning."
+          ],
+          "email": "ritutiwari@coed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Rupa G. Mehta",
+          "specializations": [
+            "Professor",
+            "Ph. D. Database Managemnt Systems",
+            "Advance Data Structure",
+            "Data Mining",
+            "Fuzzy Classification discritization"
+          ],
+          "email": "rgm@coed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Bhavesh N. Gohil",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Compiler Design",
+            "Distributed/Cloud/Fog/Edge Computing",
+            "Distributed System",
+            "Information/Network Security"
+          ],
+          "email": "bng@coed.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Dipti P. Rana",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Big Data Analytics",
+            "Data Mining (DM)",
+            "Imbalanced Data Mining",
+            "Machine Learning",
+            "Information Extraction",
+            "Recommendation System",
+            "Influence Identification",
+            "Social DM",
+            "Legal DM",
+            "Scholarly Platform DM",
+            "Environmental DM",
+            "Computer Organization",
+            "Database Management System",
+            "Unmanned Aerial Vehicle (DRONE) Technology and Applications"
+          ],
+          "email": "dpr@coed.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Sankita J. Patel",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Information Security and Privacy",
+            "Online Social Networks",
+            "Cyber Physical Systems/Internet of Things",
+            "Blockchain Technology",
+            "Privacy Preserving Techniques",
+            "Software Requirements Analysis",
+            "Cloud/Edge Computing",
+            "Applied Machine Learning."
+          ],
+          "email": "sjp@coed.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Shri. R. P. Gohil",
+          "specializations": [
+            "Associate Professor",
+            "M. Tech. Image and Video Processing",
+            "Multi-core Programming and Optimization",
+            "System Programming",
+            "Advanced Computer Architecture"
+          ],
+          "email": "rpg@coed.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Krupa N. Jariwala",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Machine Learning",
+            "Deep Learning"
+          ],
+          "email": "knj@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Balu L. Parne",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Information Security and Privacy",
+            "Internet of Things/Cyber Physical Systems",
+            "Security for Smart Grids & V2G Systems",
+            "Machine Learning for Security."
+          ],
+          "email": "blparne@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Chandra Prakash",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Artificial Intelligence",
+            "Motion Analysis",
+            "Robotics",
+            "Machine Learning",
+            "Deep Learning",
+            "Healthcare",
+            "NLP"
+          ],
+          "email": "cprakash@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Keyur Parmar",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Cyber Security and Information Security",
+            "Cryptography and Network Security",
+            "Security and Privacy Issues in Wireless Sensor Networks (WSN) and Internet of Things (IoT)",
+            "Cyber Physical System Security",
+            "Blockchain and Distributed Ledger Technology"
+          ],
+          "email": "keyur@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Alok Kumar",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Wireless Sensor Networks",
+            "IoT",
+            "Information/Network Security",
+            "Blockchain"
+          ],
+          "email": "akumar@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Abhilasha Chaudhuri",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Machine Learning",
+            "Feature Engineering",
+            "Dimensionality Reduction",
+            "Meta-heuristic Optimization",
+            "Classification of High-dimensional datasetsNamed Data Networking"
+          ],
+          "email": "abhilasha@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Anugrah Jain",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Advanced Computer Architecture",
+            "High-Performance Computing",
+            "Parallel Computing",
+            "Machine Learning",
+            "Deep Learning"
+          ],
+          "email": "ajain@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Naveen Kumar",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Named Data Networking",
+            "Network Security",
+            "P2P computing",
+            "Machine Learning",
+            "Meta-heuristics"
+          ],
+          "email": "naveenkumar@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr.Vishesh P.Gaikwad",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Information Security",
+            "Authentication and Key Agreement protocols in Telecare Medicine information system",
+            "Privacy Preserving in E-Healthcare",
+            "Machine Learning",
+            "Deep Learning."
+          ],
+          "email": "vgaikwad@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Anirban Bhattacharjee",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Design and Optimization of Quantum Circuits",
+            "Testing of Reversible Circuits",
+            "Quantum Machine Learning"
+          ],
+          "email": "anirban@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sourajit Behera",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Predictive Maintenance",
+            "Prognostics and Health Management",
+            "Industry 4.0",
+            "Artificial Intelligence of Things",
+            "Deep Learning"
+          ],
+          "email": "sourajit@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Siba Sankar Sahu",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Natural language processing",
+            "Information Retrieval",
+            "Machine learning and deep learning and application to information retrieval."
+          ],
+          "email": "siba.sankar222@gmail.com",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Shrikant Malviya",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Natural Language Processing",
+            "Misinformation Detection",
+            "Applications on Indic Languages"
+          ],
+          "email": "shrikant@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Abhinav Malviya",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Robotics",
+            "Crowd Simulation",
+            "Autonomous Vehicle Navigation",
+            "Artificial Intelligence"
+          ],
+          "email": "abhinav@coed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 23,
+      "hod_name": "Dr. Sankita J. Patel",
+      "hod_designation": "Associate Professor",
+      "labs": [
+        "B.Tech And M.Tech Laboratories",
+        "Computing Lab 1",
+        "Computing Lab 2",
+        "M.Tech Project Lab",
+        "Microprocessor Lab",
+        "Research Laboratories",
+        "High Performance Computing Lab",
+        "Data Science Lab",
+        "Digital Forensics Lab",
+        "Computational Intelligence and Smart Motion Robotics (CISMR) Lab",
+        "Graphics and Vision Lab",
+        "Network Security Lab",
+        "Avionics Lab(Jointly with Electronics Department)",
+        "Curriculum & Syllabus",
+        "Laboratories"
+      ],
+      "research_projects": [
+        "About UsAbout the InstituteVision & MissionNIT StatutesAmendment in Statues 2015NIT ActRegistration CertificateReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRFCouncil of NITs",
+        "About the Institute",
+        "Vision & Mission",
+        "NIT Statutes",
+        "Amendment in Statues 2015",
+        "Registration Certificate",
+        "ReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRF",
+        "Annual Report",
+        "Annual Account Report",
+        "Accrediation Report: UG",
+        "Accreditation report - CED & MED",
+        "Council of NITs",
+        "Board of Governors",
+        "Senate Members",
+        "Finance Committee",
+        "Building and Works Committee",
+        "Chairperson BoG",
+        "Chief Vigilance Officer",
+        "Deans / Associate Deans",
+        "Heads of Departments",
+        "Incharges of Support Centres",
+        "Office Administration",
+        "SectionsAcademic SectionAccounts SectionEstablishment SectionEstate & Store SectionCentral Store & Purchase Section",
+        "Academic Section",
+        "Accounts Section",
+        "Establishment Section",
+        "Estate & Store Section",
+        "Central Store & Purchase Section",
+        "Rules & Regulations",
+        "Fee StructureInstitute Fee StructureHostel Fee Structure(2025-26)",
+        "Institute Fee Structure",
+        "Hostel Fee Structure(2025-26)",
+        "Academic CalenderAcademic Calendar (Year 2026-27)Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)Academic Calendar (Year 2025-26)Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)Academic Calendar 2024-25(Revised)",
+        "Academic Calendar (Year 2026-27)",
+        "Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)",
+        "Academic Calendar (Year 2025-26)",
+        "Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)",
+        "Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)",
+        "Academic Calendar 2024-25(Revised)",
+        "Academic Certificates",
+        "List of Holidays 2025",
+        "List of Holidays 2026",
+        "Institute Policy for Prevention of Plagiarism",
+        "Scholarship",
+        "DepartmentsArtificial IntelligenceChemical EngineeringChemistryCivil EngineeringComputer Science and EngineeringElectrical EngineeringElectronics EngineeringHumanities and Social SciencesManagement StudiesMathematicsMechanical EngineeringPhysics",
+        "Artificial Intelligence",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering"
+      ]
+    },
+    {
+      "name": "Electrical Engineering",
+      "hod_name": "Dr. Pranav B. Darji",
+      "hod_designation": "Head of Department",
+      "faculty": [
+        {
+          "name": "Dr. S.N.Sharma",
+          "specializations": [
+            "Professor",
+            "Ph. D. System theory",
+            "control theory"
+          ],
+          "email": "sns@eed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. A.Chowdhury",
+          "specializations": [
+            "Professor",
+            "Ph. D. Electrical Machines\n                                                            Drives\n                                                            Power system"
+          ],
+          "email": "ac@eed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. R.Chudamani",
+          "specializations": [
+            "Professor",
+            "Ph. D. Power Quality",
+            "Electrical Drives"
+          ],
+          "email": "rc@eed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. A.K.Panchal",
+          "specializations": [
+            "Professor",
+            "Ph. D. Photovoltaic System Modeling & Simulation",
+            "Photovoltaic Power Converters and Control",
+            "Novel Photovoltaic Maximum Power Point Tracking Algorithms",
+            "PV Power Applications for battery Charging and Grid interface",
+            "PV to EV- photovoltaic to electrical vehicles",
+            "PV Third generation silicon thin films deposition and characterizations",
+            "Novel Algorithms for Power Flow Analysis and Power System Stability"
+          ],
+          "email": "akp@eed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. V.A.Shah",
+          "specializations": [
+            "Professor",
+            "Ph. D. Power Electronics & its applications\n                                                Power system\n                                                Hybride Electric Vehicles\n                                                Micro controller & its applications"
+          ],
+          "email": "vas@eed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. H.R.Jariwala",
+          "specializations": [
+            "Professor",
+            "Ph. D. Power system"
+          ],
+          "email": "hrj@eed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Pranav B. Darji",
+          "specializations": [
+            "Professor",
+            "Ph. D. Power System Dynamics\n                                        HVDC\n                                        FACTS Controllers"
+          ],
+          "email": "pranav@eed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. S.R.Arya",
+          "specializations": [
+            "Professor",
+            "Ph. D. Custom Power Devices and its Application",
+            "Power Electronic Converters for high performance system",
+            "Electric Vehicles Technology",
+            "Control of Electric Drives system",
+            "DC/DC Converters and Soft Switching Technique",
+            "]Power Quality and Optimization Algorithms",
+            "Soft Computing and Adaptive Algorithms",
+            "Distributed Power Generation System and Smart Grid Technology."
+          ],
+          "email": "sra@eed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Mahmadasraf A. Mulla",
+          "specializations": [
+            "Professor",
+            "Ph. D. Electrical Drives",
+            "Power Converters",
+            "Power Quality",
+            "Renewable Energy Mobile No. 9825113488 Office No. (O)0261-2201581 Webpage Office Email mam[at]eed[dot]svnit[dot]ac[dot]in Personal Email mamulla[at]ieee[dot]org"
+          ],
+          "email": "mam@eed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Rakesh Maurya",
+          "specializations": [
+            "Professor",
+            "Ph. D. Multi-phase Induction Motor Drive",
+            "High Power Factor Converters",
+            "Power converters for EV battery charging",
+            "Resonant DC-DC Converters",
+            "Custom Power Devices",
+            "Power Converters for Power Quality Improvement"
+          ],
+          "email": "rmaurya@eed.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. P.Kundu",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Application of Digital Signal Processing in High Voltage Engineering\n                                        Partial Discharge and Condition Monitoring\n                                        Electromagnetic Field Computation using Finite Element Method"
+          ],
+          "email": "pk@eed.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. V.Mahajan",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. power system reliability",
+            "cyber security of smart grid",
+            "restructuring/deregulation",
+            "energy market",
+            "congestion management",
+            "power quality improvement",
+            "active power filters",
+            "FACTS Power system operation",
+            "planning and management Forecasting",
+            "Renewables in power systems artificial intelligence",
+            "machine/deep learning"
+          ],
+          "email": "vmahajan@eed.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. H.G.Patel",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Control systems\n                                        Automation\n                                        Stochastic process"
+          ],
+          "email": "hgp@eed.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. K.D.Mistry",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Power system"
+          ],
+          "email": "kkp@eed.svnit.ac.inin",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Rajasekharareddy Chilipi",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Self-excited induction generators",
+            "power electronics",
+            "wireless power transfer",
+            "power quality",
+            "renewable energy (solar",
+            "hydro)",
+            "distributed generation",
+            "and active power filters"
+          ],
+          "email": "rsreddy@eed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sanjay Tolani",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Digital Control of Power Electronic Converters\n                                        Microgrid and Power Quality\n                                        Electric Drives"
+          ],
+          "email": "sanjay.tolani@eed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. C.P.Gor",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Multiphase Machines and Drives and applications to Electric Vehicles",
+            "Space Vector based Switching Control Techniques for Multiphase Inverters",
+            "Fault Tolerance and Detection",
+            "Artificial Intelligent Control Techniques",
+            "Power Converters for Electric Vehicles"
+          ],
+          "email": "cpg@eed.svnit.ac.ins",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Mahesh Aeidapu",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Power Electronics\n                                            Hybrid Renewable Energy Systems\n                                            Optimization"
+          ],
+          "email": "aeidapumahesh@eed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. J. Venkataramanaiah",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Advanced Switching Techniques",
+            "Multilevel Inverters",
+            "FACTs Devices",
+            "Grid Tie Inverters",
+            "High power Converters"
+          ],
+          "email": "ramana@eed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Suresh Lakhimsetty",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Multilevel inverters",
+            "Speed control Techniques: AC & DC Drives",
+            "High gain converters"
+          ],
+          "email": "suresh@eed.svnit.ac.in;",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Gangireddy Sushnigdha",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Control systems",
+            "Optimal control theory",
+            "Meta heuristic algorithms"
+          ],
+          "email": "sushnigdha@eed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Akanksha Shukla",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Load modelling for power flow analysis",
+            "modelling of distribution system",
+            "impact of renewable integration on power system",
+            "Electric Vehicle (EV) integration to the grid."
+          ],
+          "email": "ashukla@eed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Basant Kumar Sethi",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Energy Management System for Smart Distribution Systems such as Smart\nBuildings and Smart Homes",
+            "Power System Cyber-Security",
+            "Power System State Estimation",
+            "Optimal Scheduling of loads and Resources",
+            "Machine Learning Application in Power System Cyber Attacks."
+          ],
+          "email": "bks@eed.svnit.ac.in",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 23,
+      "labs": [
+        "LABORATORIES",
+        "Computer Lab",
+        "Control Lab",
+        "Testing Lab",
+        "Measurement Lab",
+        "Power System Lab",
+        "Advanceed Power System Lab",
+        "Power Electronics Lab",
+        "Advanced Power Electronics Lab",
+        "Electrotechniques Lab",
+        "PG Project Lab",
+        "UG Project Lab",
+        "Advance Micro - Processor Lab",
+        "Electrical Machine Lab",
+        "Drives Lab",
+        "Advanced Drives Lab",
+        "Renewable Energy Lab",
+        "High Voltage Lab",
+        "DSP Lab",
+        "Instrumentation Lab",
+        "Robotics Lab",
+        "Vehicle Lab",
+        "Power & Control Research Lab",
+        "Lab View",
+        "To obtain the PID controller using MATLAB.",
+        "To Design a PID controller for a DC motor using MATLAB",
+        "Power Systems Lab",
+        "RT Lab.",
+        "OPAL RT LAB",
+        "MATLAB",
+        "Electrotechnique Lab",
+        "Project Lab",
+        "SI Lab Microcontroller Development Tools with accessories",
+        "Micro Processor Lab",
+        "Electrical Machines Lab",
+        "MFRD Lab",
+        "Curriculum & Syllabus",
+        "Laboratories"
+      ],
+      "research_projects": [
+        "About UsAbout the InstituteVision & MissionNIT StatutesAmendment in Statues 2015NIT ActRegistration CertificateReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRFCouncil of NITs",
+        "About the Institute",
+        "Vision & Mission",
+        "NIT Statutes",
+        "Amendment in Statues 2015",
+        "Registration Certificate",
+        "ReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRF",
+        "Annual Report",
+        "Annual Account Report",
+        "Accrediation Report: UG",
+        "Accreditation report - CED & MED",
+        "Council of NITs",
+        "Board of Governors",
+        "Senate Members",
+        "Finance Committee",
+        "Building and Works Committee",
+        "Chairperson BoG",
+        "Chief Vigilance Officer",
+        "Deans / Associate Deans",
+        "Heads of Departments",
+        "Incharges of Support Centres",
+        "Office Administration",
+        "SectionsAcademic SectionAccounts SectionEstablishment SectionEstate & Store SectionCentral Store & Purchase Section",
+        "Academic Section",
+        "Accounts Section",
+        "Establishment Section",
+        "Estate & Store Section",
+        "Central Store & Purchase Section",
+        "Rules & Regulations",
+        "Fee StructureInstitute Fee StructureHostel Fee Structure(2025-26)",
+        "Institute Fee Structure",
+        "Hostel Fee Structure(2025-26)",
+        "Academic CalenderAcademic Calendar (Year 2026-27)Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)Academic Calendar (Year 2025-26)Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)Academic Calendar 2024-25(Revised)",
+        "Academic Calendar (Year 2026-27)",
+        "Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)",
+        "Academic Calendar (Year 2025-26)",
+        "Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)",
+        "Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)",
+        "Academic Calendar 2024-25(Revised)",
+        "Academic Certificates",
+        "List of Holidays 2025",
+        "List of Holidays 2026",
+        "Institute Policy for Prevention of Plagiarism",
+        "Scholarship",
+        "DepartmentsArtificial IntelligenceChemical EngineeringChemistryCivil EngineeringComputer Science and EngineeringElectrical EngineeringElectronics EngineeringHumanities and Social SciencesManagement StudiesMathematicsMechanical EngineeringPhysics",
+        "Artificial Intelligence",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering"
+      ]
+    },
+    {
+      "name": "Electronics Engineering",
+      "hod_name": "Dr. Shilpi Gupta",
+      "hod_designation": "Head of Department",
+      "faculty": [
+        {
+          "name": "Dr. Jignesh N. Sarvaiya",
+          "specializations": [
+            "Professor Image Processing",
+            "Medical Instrumentation"
+          ],
+          "email": "jns@eced.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Abhishek Acharya",
+          "specializations": [
+            "Associate Professor Physics & Modeling of Nano-Scale Devices",
+            "Device-Circuit Interactions in Nano-Scale Transistors",
+            "Wide Bandgap Semiconductors and 2D Materials for Devices & Circuits"
+          ],
+          "email": "abhishek@eced.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Kirti Inamdar",
+          "specializations": [
+            "Assistant Professor Microstrip Patch Antenna design using Metamaterials",
+            "Wearable Antennas"
+          ],
+          "email": "kki@eced.svnit.ac.in",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 3,
+      "labs": [
+        "Laboratories",
+        "B.Tech And M.Tech Laboratories",
+        "Basic Electronics Lab",
+        "Electronics System Design Lab",
+        "Digital Electronics Lab",
+        "Embedded System Lab",
+        "Basic Communication Lab",
+        "Microwave & Optical Communication Lab",
+        "Multimedia Lab",
+        "IoT and Networking Lab",
+        "Research Laboratories",
+        "Communication Research Lab",
+        "VLSI Design Lab",
+        "TCAD Lab",
+        "Sensor Research Lab",
+        "Machine Learning & Computer Vision Lab",
+        "UAV Avionics Lab",
+        "5G Use Case Lab",
+        "Quantum Research Lab",
+        "Laboratory"
+      ],
+      "research_projects": [
+        "About UsAbout the InstituteVision & MissionNIT StatutesAmendment in Statues 2015NIT ActRegistration CertificateReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRFCouncil of NITs",
+        "About the Institute",
+        "Vision & Mission",
+        "NIT Statutes",
+        "Amendment in Statues 2015",
+        "Registration Certificate",
+        "ReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRF",
+        "Annual Report",
+        "Annual Account Report",
+        "Accrediation Report: UG",
+        "Accreditation report - CED & MED",
+        "Council of NITs",
+        "Board of Governors",
+        "Senate Members",
+        "Finance Committee",
+        "Building and Works Committee",
+        "Chairperson BoG",
+        "Chief Vigilance Officer",
+        "Deans / Associate Deans",
+        "Heads of Departments",
+        "Incharges of Support Centres",
+        "Office Administration",
+        "SectionsAcademic SectionAccounts SectionEstablishment SectionEstate & Store SectionCentral Store & Purchase Section",
+        "Academic Section",
+        "Accounts Section",
+        "Establishment Section",
+        "Estate & Store Section",
+        "Central Store & Purchase Section",
+        "Rules & Regulations",
+        "Fee StructureInstitute Fee StructureHostel Fee Structure(2025-26)",
+        "Institute Fee Structure",
+        "Hostel Fee Structure(2025-26)",
+        "Academic CalenderAcademic Calendar (Year 2026-27)Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)Academic Calendar (Year 2025-26)Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)Academic Calendar 2024-25(Revised)",
+        "Academic Calendar (Year 2026-27)",
+        "Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)",
+        "Academic Calendar (Year 2025-26)",
+        "Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)",
+        "Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)",
+        "Academic Calendar 2024-25(Revised)",
+        "Academic Certificates",
+        "List of Holidays 2025",
+        "List of Holidays 2026",
+        "Institute Policy for Prevention of Plagiarism",
+        "Scholarship",
+        "DepartmentsArtificial IntelligenceChemical EngineeringChemistryCivil EngineeringComputer Science and EngineeringElectrical EngineeringElectronics EngineeringHumanities and Social SciencesManagement StudiesMathematicsMechanical EngineeringPhysics",
+        "Artificial Intelligence",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering"
+      ]
+    },
+    {
+      "name": "Humanities and Social Sciences",
+      "hod_name": "Dr. Urvashi Kaushal",
+      "hod_designation": "Head of Department",
+      "faculty": [
+        {
+          "name": "Dr. Urvashi Kaushal",
+          "specializations": [
+            "Associate Professor (English & Communication Skills)",
+            "Ph. D. Post Modern Fiction",
+            "Indian English Fiction and Feminist Literature",
+            "Themes in Diaspora literature"
+          ],
+          "email": "k.urvashi@amhd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Vaidurya Jain",
+          "specializations": [
+            "Assistant Professor (English & Communication Skills)",
+            "Ph. D. English Language Teaching",
+            "Phonetics",
+            "Linguistics and Cultural Studies"
+          ],
+          "email": "vaiduryajain@dohss.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Vagisha Mishra",
+          "specializations": [
+            "Assistant Professor (English & Communication Skills)",
+            "Ph. D. English Literature",
+            "British Literature",
+            "Modern Literature",
+            "Feminist Literature",
+            "Cultural Studies",
+            "Film Studies"
+          ],
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 3
+    },
+    {
+      "name": "Management Studies",
+      "hod_name": "Prof. Ashish K Panchal",
+      "hod_designation": "Head of Department",
+      "faculty": [
+        {
+          "name": "Prof. Ritu Tiwari",
+          "designation": "Professor (Department of Computer Science)",
+          "qualifications": [
+            {
+              "degree": "Ph. D. Robotics"
+            }
+          ],
+          "email": "ritutiwari@coed.svnit.ac.in"
+        },
+        {
+          "name": "Prof. Ravi Kant,",
+          "designation": "Professor (Department of Mechanical Engg.)",
+          "qualifications": [
+            {
+              "degree": "Ph. D. Supply Chain Management Sustainable and Green Supply Chain Management Reverse Logistics Lean Six Sigma Knowledge Management Multi Criteria Decision Making Methods"
+            }
+          ],
+          "email": "ravi.kant@med.svnit.ac.in"
+        },
+        {
+          "name": "Prof. D. A. Patel",
+          "designation": "Professor (Department of Civil Engg.)",
+          "qualifications": [
+            {
+              "degree": "Ph. D. Construction Project Management and Contract Management"
+            }
+          ],
+          "email": "dap@ced.svnit.ac.in"
+        },
+        {
+          "name": "Dr. Hemantkumar P Bulsara",
+          "designation": "Associate Professor (Management) (Department of Mathematics)",
+          "qualifications": [
+            {
+              "degree": "Ph. D. Techno innovation to Techno entrepreneurship through Techno Business incubation"
+            }
+          ],
+          "email": "hbulsara@amhd.svnit.ac.in"
+        },
+        {
+          "name": "Dr. Vaishali S Dhingra",
+          "designation": "Assistant Professor (Management) (Department of Mathematics)",
+          "qualifications": [
+            {
+              "degree": "Ph. D. Time Series Analysis"
+            }
+          ],
+          "email": "vsdhingra@amhd.svnit.ac.in"
+        },
+        {
+          "name": "Dr. Rahul Dixit",
+          "designation": "Assistant Professor (Department of Artificial Intelligence)",
+          "qualifications": [
+            {
+              "degree": "Ph. D. Machine learning"
+            }
+          ],
+          "email": "rahuldixit@aid.svnit.ac.in"
+        },
+        {
+          "name": "Dr. Tanmoy Hazra",
+          "designation": "Assistant Professor (Department of Artificial Intelligence)",
+          "qualifications": [
+            {
+              "degree": "Ph. D. Machine learning"
+            }
+          ],
+          "email": "tanmoyhazra@aid.svnit.ac.in"
+        },
+        {
+          "name": "Dr. Vaidurya Jain",
+          "designation": "Assistant Professor (Department of Artificial Intelligence)",
+          "qualifications": [
+            {
+              "degree": "Ph. D. English Language Teaching"
+            }
+          ],
+          "email": "vaiduryajain@dohss.svnit.ac.in"
+        }
+      ],
+      "faculty_count": 8
+    },
+    {
+      "name": "Mathematics",
+      "hod_name": "Dr. Jayesh M. Dhodiya",
+      "hod_designation": "Head of Department",
+      "faculty": [
+        {
+          "name": "Dr. A. K. Shukla",
+          "specializations": [
+            "Professor (Mathematics)",
+            "Ph. D. Special functions",
+            "Integral transforms & Fractional Calculus"
+          ],
+          "email": "aks@amhd.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. V. H. Pradhan",
+          "specializations": [
+            "Professor (Mathematics)",
+            "Ph. D. Fluid dynamics in porous media with relevance to ground water flow and petroleum recovery",
+            "Numerical techniques"
+          ],
+          "email": "pvh@amhd.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Neeru Adlakha",
+          "specializations": [
+            "Professor (Mathematics)",
+            "Ph. D. Mathematical and Computational Biology",
+            "Bioinformatics/ Biomathematics / Biocomputing",
+            "Data mining",
+            "Finite element modeling"
+          ],
+          "email": "neeru.adlakha21@gmail.com",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Sushil Kumar",
+          "specializations": [
+            "Professor (Mathematics)",
+            "Ph. D. Mathematical modeling",
+            "Bio-mechanics",
+            "Fractional Differential equations",
+            "Moving Boundary Problems",
+            "Bio-mechanics",
+            "Numerical Techniques",
+            "Radial Basis Functions",
+            "Chebyshev Polynomials"
+          ],
+          "email": "sushilk@amhd.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Hemantkumar P. Bulsara",
+          "specializations": [
+            "Associate Professor (Management)",
+            "Ph. D. Techno innovation to Techno entrepreneurship through Techno Business incubation",
+            "Marketing Entrepreneurship Strategy",
+            "Supply Chain Management(SCM)",
+            "General Management"
+          ],
+          "email": "hbulsara@amhd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Jayesh M. Dhodiya",
+          "specializations": [
+            "Associate Professor (Mathematics)",
+            "Ph. D. Advance Operation Research",
+            "Optimization Technique",
+            "Mathematical Modeling and Simulation",
+            "Knowledge Based System",
+            "Data Mining"
+          ],
+          "email": "jmd@amhd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ranjan Kumar Jana",
+          "specializations": [
+            "Associate Professor (Mathematics)",
+            "Ph. D. Special Functions and Integral Transform",
+            "Operations Research. Mathematical Physics",
+            "Fractional Calculus",
+            "Mittag-Leffler function",
+            "Numerical Weather Prediction",
+            "Ramanujan’s Mathematics."
+          ],
+          "email": "rkj@amhd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Twinkle R. Singh",
+          "specializations": [
+            "Associate Professor (Mathematics)",
+            "Ph. D. Fluid flow through Porous media",
+            "Non-linear partial differential equations",
+            "Burger's equation",
+            "Groundwater recharge phenomenon",
+            "Analytical approximate Methods",
+            "Mathematical Modeling"
+          ],
+          "email": "trpatel@amhd.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ramakanta Meher",
+          "specializations": [
+            "Associate Professor (Mathematics)",
+            "Ph. D. Differential Equations",
+            "Fractional Differential Equations",
+            "Fluid Dynamics",
+            "Fluid flow through Porous Media",
+            "Approximation theory",
+            "Numerical Analysis"
+          ],
+          "email": "rm@amhd.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Urvashi Kaushal",
+          "specializations": [
+            "Assistant Professor (English & Communication Skills)",
+            "Ph. D. Post Modern Fiction",
+            "Indian English Fiction and Feminist Literature",
+            "Themes in Diaspora literature"
+          ],
+          "email": "k.urvashi@amhd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Indira P. Tripathi",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Mathematical Programming Problems",
+            "Non-smooth Optimization",
+            "Fractional Programming problems",
+            "Interval-Valued Optimization",
+            "Generalized Convexity",
+            "I-fuzzy/Fuzzy Optimization",
+            "Variational Control Problems"
+          ],
+          "email": "ipd@amhd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Shailesh Kumar Srivastava",
+          "specializations": [
+            "Assistant Professor (Mathematics)",
+            "Ph. D. Trigonometric Fourier Approximation"
+          ],
+          "email": "shailesh@amhd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Raj Kamal Maurya",
+          "specializations": [
+            "Assistant Professor (Mathematics)",
+            "Ph. D. Reliability Theory and Survival Analysis",
+            "Estimation under various Censoring",
+            "Competing Risk",
+            "Optimum Plan"
+          ],
+          "email": "rkm@amhd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Amit Sharma",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Algebraic Coding Theory: Constructions of error-correcting codes such as linear codes over finite rings",
+            "skew codes",
+            "quantum codes."
+          ],
+          "email": "amitsharma@amhd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sudeep Singh Sanga",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Queueing Theory."
+          ],
+          "email": "ssanga@amhd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Saroj R. Yadav",
+          "designation": "Assistant Professor (Mathematics)",
+          "qualifications": [
+            {
+              "degree": "Ph. D."
+            }
+          ],
+          "email": "sry@amhd.svnit.ac.in"
+        },
+        {
+          "name": "Dr. Vaishali S Dhingra",
+          "specializations": [
+            "Assistant Professor (Management)",
+            "Ph. D. Time Series Analysis",
+            "Econometrics",
+            "Quantitative Analysis",
+            "Stock Market",
+            "Portfolio Management",
+            "Financial Management"
+          ],
+          "email": "vsdhingra@amhd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sourav Gupta",
+          "specializations": [
+            "Assistant Professor (Mathematics)",
+            "Ph. D. Linear Water Wave Theory",
+            "Integral Equations",
+            "Numerical Analysis"
+          ],
+          "email": "sgupta@amhd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr Shivam Bajpeyi",
+          "specializations": [
+            "Assistant Professor (Mathematics)",
+            "Ph. D. Functional Analysis",
+            "Applied Harmonic Aalysis",
+            "Sampling-Reconstruction Problems",
+            "Neural Network Approximation"
+          ],
+          "email": "shivambajpeyi@amhd.svnit.ac.in",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 19,
+      "labs": [
+        "Laboratories",
+        "Curriculum & Syllabus"
+      ],
+      "research_projects": [
+        "About UsAbout the InstituteVision & MissionNIT StatutesAmendment in Statues 2015NIT ActRegistration CertificateReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRFCouncil of NITs",
+        "About the Institute",
+        "Vision & Mission",
+        "NIT Statutes",
+        "Amendment in Statues 2015",
+        "Registration Certificate",
+        "ReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRF",
+        "Annual Report",
+        "Annual Account Report",
+        "Accrediation Report: UG",
+        "Accreditation report - CED & MED",
+        "Council of NITs",
+        "Board of Governors",
+        "Senate Members",
+        "Finance Committee",
+        "Building and Works Committee",
+        "Chairperson BoG",
+        "Chief Vigilance Officer",
+        "Deans / Associate Deans",
+        "Heads of Departments",
+        "Incharges of Support Centres",
+        "Office Administration",
+        "SectionsAcademic SectionAccounts SectionEstablishment SectionEstate & Store SectionCentral Store & Purchase Section",
+        "Academic Section",
+        "Accounts Section",
+        "Establishment Section",
+        "Estate & Store Section",
+        "Central Store & Purchase Section",
+        "Rules & Regulations",
+        "Fee StructureInstitute Fee StructureHostel Fee Structure(2025-26)",
+        "Institute Fee Structure",
+        "Hostel Fee Structure(2025-26)",
+        "Academic CalenderAcademic Calendar (Year 2026-27)Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)Academic Calendar (Year 2025-26)Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)Academic Calendar 2024-25(Revised)",
+        "Academic Calendar (Year 2026-27)",
+        "Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)",
+        "Academic Calendar (Year 2025-26)",
+        "Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)",
+        "Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)",
+        "Academic Calendar 2024-25(Revised)",
+        "Academic Certificates",
+        "List of Holidays 2025",
+        "List of Holidays 2026",
+        "Institute Policy for Prevention of Plagiarism",
+        "Scholarship",
+        "DepartmentsArtificial IntelligenceChemical EngineeringChemistryCivil EngineeringComputer Science and EngineeringElectrical EngineeringElectronics EngineeringHumanities and Social SciencesManagement StudiesMathematicsMechanical EngineeringPhysics",
+        "Artificial Intelligence",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering"
+      ]
+    },
+    {
+      "name": "Mechanical Engineering",
+      "hod_name": "Dr. Purnanand V. Bhale",
+      "hod_designation": "Head of Department",
+      "faculty": [
+        {
+          "name": "Dr. H. K. Raval",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Metal Forming Analysis\nMetal Cutting\nAdvance Manufacturing Processes\nComputer Aided Manufacturing & C.I.M."
+          ],
+          "email": "hkr@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. K. P. Desai",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Cryogenics Manufacturing Science Unconventional Machining Processes"
+          ],
+          "email": "kpd@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. R. Venkata Rao",
+          "specializations": [
+            "Professor (HAG)",
+            "Ph. D. Advanced engineering optimization techniques and their applications to the problems of design\nManufacturing and thermal engineering\nCAD/CAM/FMS/CIMS\nConcurrent Engineering\nSustainable Manufacturing\nDesign of Mechanisms"
+          ],
+          "email": "rvr@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. A. A. Shaikh",
+          "specializations": [
+            "Professor",
+            "Ph. D. Composite Material\nCAD/CAE\nReverse Engineering"
+          ],
+          "email": "aas@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. A. D. Parekh",
+          "specializations": [
+            "Professor",
+            "Ph. D. Refrigeration & Air Conditioning\nFluid flow & Heat Transfer\nTurbo machines"
+          ],
+          "email": "adp@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. B. M. Sutaria",
+          "specializations": [
+            "Professor",
+            "Ph. D. Tribology\nHeat Transfer\nI.C.Engine\nThermal Engineering"
+          ],
+          "email": "bms@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. D. P. Vakharia",
+          "specializations": [
+            "Professor",
+            "Ph. D. CAD-CAM\nTribology and Machine Design"
+          ],
+          "email": "vakharia@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Harshit K. Dave",
+          "specializations": [
+            "Professor",
+            "Ph. D. Additive Manufacturing Professes",
+            "3D printing filaments & raw materials",
+            "hybrid composites",
+            "unconventional machining processes",
+            "micro machining processes",
+            "modeling & optimization of manufacturing processes"
+          ],
+          "email": "hkd@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Hemantkumar B. Mehta",
+          "specializations": [
+            "Professor",
+            "Ph. D. Battery Thermal Management System (BTMS)",
+            "Heat pipe",
+            "Pulsating Heat Pipe",
+            "Loop Heat Pipe",
+            "Thermosyphon",
+            "flow boiling in Microchannel Heat Sink (MCHS)",
+            "Cryogenics",
+            "Nanofluids",
+            "NE/ME PCM slurry"
+          ],
+          "email": "hbm@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Jyotirmay Banerjee",
+          "specializations": [
+            "Professor",
+            "Ph. D. Computational Fluid Flow and Heat Transfer\nMultiphase Flow and phase change applications\nTurbomachine"
+          ],
+          "email": "jbaner@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Purnanand V. Bhale",
+          "specializations": [
+            "Professor",
+            "Ph. D. Alternative Fuels\nI.C. Engines\nEnergy Conservation Management and audit\nNon Conventional Energy Systems"
+          ],
+          "email": "pvbhale@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Ravi Kant",
+          "specializations": [
+            "Professor",
+            "Ph. D. Supply Chain Management\nSustainable and Green Supply Chain Management\nReverse Logistics\nLean Six Sigma\nKnowledge Management\nMulti Criteria Decision Making Methods"
+          ],
+          "email": "ravi.kant@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. R. D. Shah",
+          "specializations": [
+            "Professor",
+            "Ph. D. Fluid Flow\nHeat Transfer\nNumerical Methods"
+          ],
+          "email": "rds@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Shailendra Kumar",
+          "specializations": [
+            "Professor",
+            "Ph. D. Additive manufacturing",
+            "Incremental Forming",
+            "Non-Conventional Machining",
+            "AI Applications in Sheet Metal Forming",
+            "Press Tool Design",
+            "CIM"
+          ],
+          "email": "skbudhwar@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Achchhe Lal",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Deterministic Finite Element Analysis and Stochastic Analysis and Modeling of Aerospace Engineering Structures\nFunctionally Graded Material Structures\nSmart Material Structures\nDeterministic FEM and Stochastic analysis of Free and forced vibration\nBuckling\nBending\nStability\nFailure and Dynamic Analysis of Laminated\nComposite and Sandwitch Structures Deterministic Finite Element Analysis and Stochastic Analysis of Pressure Vessel modeling\nStructural Analysis and Modeling of Nanomaterial and Structures"
+          ],
+          "email": "achchhelal@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. A. V. Doshi",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Micro Hydro Turbine Fluid Machines"
+          ],
+          "email": "avd@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Bade Mukund H.",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Energy Management & Efficiency\nEnergy Modelling\nProcess Integration\nPinch Analysis\nFluid Mechanics & Fluid Machines\nThermal System Analysis\nFuel Cell Technology"
+          ],
+          "email": "bmh@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Beena D. Baloni.",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Turbomachiens\nJet propulsion\nCompressible fluid flow"
+          ],
+          "email": "pbr@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. D. I. Lalwani",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Machining\nOptimization\nCondition Monitoring"
+          ],
+          "email": "dil@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Dinesh Singh",
+          "specializations": [
+            "Assoociate Professor",
+            "Ph. D. Decision Making in the manufacturing environment"
+          ],
+          "email": "dsingh@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Jyoti Menghani",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Corrosion Engg. Thin films\nPhysical Metallurgy of Al alloys\nTribology"
+          ],
+          "email": "jvm@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. M. B. Maisuria",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Thermal Engg.\nEnergy system\nHeat exchanger"
+          ],
+          "email": "mbm@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Manish Rathod",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Heat & Mass Transfer\nPhase Change Process\nHeat Exchanger"
+          ],
+          "email": "mkr@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Sandeep Soni",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Machine Design\nTribology and Bearing Design\nHydrodynamic/Hydrostatic Lubrication\nFinite Element Analysis\nCAD-CAM\nAnalysis of Steam Turbine\nWear of Machine Components."
+          ],
+          "email": "s.soni@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Vimal Patel",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Machine design and dynamics\nFluid machines\nRefrigeration and air conditioning\nMetal forming – Tailor welded blanks"
+          ],
+          "email": "vkp@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Vivek D. Kalyankar",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Weldability of advanced materials",
+            "surface engineering",
+            "welding metallurgy",
+            "application of advanced optimization techniques to engineering problems."
+          ],
+          "email": "vkalyankar@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Shri. D. B. Gohil",
+          "specializations": [
+            "Associate Professor",
+            "M.E. Mechatronics\nRobotics\nAdvanced Manufacturing Process"
+          ],
+          "email": "dbg@med.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Amit Kumar",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Solar Energy",
+            "Solar Thermal Systems",
+            "Desiccant Air Conditioning",
+            "Solar Thermal Desalination",
+            "Atmospheric Water Harvesting using Solar Energy",
+            "and Energy",
+            "Exergy and Economic Analysis of Solar Thermal Systems"
+          ],
+          "email": "amit.kumar@med.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Mulay Amrut Shrikant",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Sheet metal forming",
+            "CNC technology",
+            "Incremental sheet metal forming",
+            "Optimisation studies in manufacturing",
+            "CAD/CAM/CAE",
+            "Design Modelling and Simulation",
+            "Solid Mechanics",
+            "Multi Criterion Decision Making",
+            "Digital Image Co-relation",
+            "Forming applications in Biomedical fields etc."
+          ],
+          "email": "mas@med.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Biranchi Narayan Sahoo",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Casting",
+            "Metal matrix composite/ Nano composite",
+            "Lightweight materials",
+            "Plasticity and deformation behavior of materials",
+            "Microwave Processing",
+            "Forming",
+            "Machining",
+            "Tribology."
+          ],
+          "email": "bnsahoo@med.svnit.ac.in",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 30,
+      "research_projects": [
+        "About UsAbout the InstituteVision & MissionNIT StatutesAmendment in Statues 2015NIT ActRegistration CertificateReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRFCouncil of NITs",
+        "About the Institute",
+        "Vision & Mission",
+        "NIT Statutes",
+        "Amendment in Statues 2015",
+        "Registration Certificate",
+        "ReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRF",
+        "Annual Report",
+        "Annual Account Report",
+        "Accrediation Report: UG",
+        "Accreditation report - CED & MED",
+        "Council of NITs",
+        "Board of Governors",
+        "Senate Members",
+        "Finance Committee",
+        "Building and Works Committee",
+        "Chairperson BoG",
+        "Chief Vigilance Officer",
+        "Deans / Associate Deans",
+        "Heads of Departments",
+        "Incharges of Support Centres",
+        "Office Administration",
+        "SectionsAcademic SectionAccounts SectionEstablishment SectionEstate & Store SectionCentral Store & Purchase Section",
+        "Academic Section",
+        "Accounts Section",
+        "Establishment Section",
+        "Estate & Store Section",
+        "Central Store & Purchase Section",
+        "Rules & Regulations",
+        "Fee StructureInstitute Fee StructureHostel Fee Structure(2025-26)",
+        "Institute Fee Structure",
+        "Hostel Fee Structure(2025-26)",
+        "Academic CalenderAcademic Calendar (Year 2026-27)Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)Academic Calendar (Year 2025-26)Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)Academic Calendar 2024-25(Revised)",
+        "Academic Calendar (Year 2026-27)",
+        "Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)",
+        "Academic Calendar (Year 2025-26)",
+        "Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)",
+        "Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)",
+        "Academic Calendar 2024-25(Revised)",
+        "Academic Certificates",
+        "List of Holidays 2025",
+        "List of Holidays 2026",
+        "Institute Policy for Prevention of Plagiarism",
+        "Scholarship",
+        "DepartmentsArtificial IntelligenceChemical EngineeringChemistryCivil EngineeringComputer Science and EngineeringElectrical EngineeringElectronics EngineeringHumanities and Social SciencesManagement StudiesMathematicsMechanical EngineeringPhysics",
+        "Artificial Intelligence",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering"
+      ]
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "Dr. Kamlesh N. Pathak",
+          "specializations": [
+            "Professor",
+            "Ph. D. Upper Atmospheric Science",
+            "Earthquake Prediction",
+            "GPS Technology"
+          ],
+          "email": "knp@phy.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Ajay Kumar Rai",
+          "specializations": [
+            "Professor",
+            "Ph. D.. High Energy Physics",
+            "Hadron Spectroscopy"
+          ],
+          "email": "akr@phy.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Debesh R. Roy",
+          "specializations": [
+            "Professor",
+            "Ph. D. Density Functional Theory",
+            "Atomic Clusters & Nanostructures",
+            "Physics of the Materials",
+            "Nano-Biophysics"
+          ],
+          "email": "drr@phy.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Vipul Kheraj",
+          "specializations": [
+            "Professor",
+            "Ph. D. Thin Films and Materials Science",
+            "Semiconductor Optoelectronic Devices"
+          ],
+          "email": "vk@phy.svnit.ac.in",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Dimple V. Shah",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Semiconductor",
+            "Crystal growth",
+            "Thin Films",
+            "Photovoltaic Materials"
+          ],
+          "email": "dshah@phy.svnit.ac.in;",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Lt. (Dr.) Y. A. Sonvane",
+          "specializations": [
+            "Associate Professor",
+            "Ph. D. Computational Nanoscience",
+            "Density functional Theory",
+            "2D Materials",
+            "Nanomaterials & Nanofluids",
+            "Biological Materials"
+          ],
+          "email": "yas@phy.svnit.ac.in",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Lalit Kumar Saini",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Theoretical Condensed Matter",
+            "Physics Strongly Correlated Electronic Materials",
+            "Topological quantum nano Materials"
+          ],
+          "email": "lks@phy.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Himanshu Pandey",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Band Structural Calculation",
+            "Thin films and their Hetrostructures",
+            "Heusler alloys and their exploration",
+            "Thermoelectric Materials"
+          ],
+          "email": "hp@phy.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Shail Pandey",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Pulsed microwave generated plasma",
+            "Plasma diagnostics: Electrical method and Optical Emission Spectroscopy",
+            "Cold atmospheric pressure plasma physics and interaction with various surfaces"
+          ],
+          "email": "sp@phy.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Sharad Kumar Yadav",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Magnetohydrodynamics (MHD) Plasma Turbulence",
+            "Soft"
+          ],
+          "email": "sharadky@gmail.com",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Ms Dipika Patel",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Nuclear reaction study at near the Coulomb barrier energies",
+            "Study of Break-up and Transfer effects on the fusion fission and scattering mechanisms using weakly bound nuclei",
+            "Continuum Discretized Coupled Channels (CDCC) and Coupled Reaction Channels (CRC) Calculations"
+          ],
+          "email": "dipikapatel@phy.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr Vikash Kumar Ojha",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Theoretical High Energy Physics",
+            "Quantum Chromodynamics",
+            "Proton Spin Puzzle"
+          ],
+          "email": "vko@phy.svnit.ac.in",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr Mithun Karmakar",
+          "specializations": [
+            "Assistant Professor",
+            "Ph. D. Plasma Wave Breaking",
+            "Plasma Based Particle Accelerator",
+            "Whistler Waves",
+            "Particle in Cell (PIC) simulation"
+          ],
+          "email": "mithun.k@phy.svnit.ac.in",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 13,
+      "hod_name": "Dr. Debesh R. Roy",
+      "hod_designation": "Professor",
+      "labs": [
+        "Laboratories",
+        "Integrated M.Sc. Laboratories"
+      ],
+      "research_projects": [
+        "About UsAbout the InstituteVision & MissionNIT StatutesAmendment in Statues 2015NIT ActRegistration CertificateReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRFCouncil of NITs",
+        "About the Institute",
+        "Vision & Mission",
+        "NIT Statutes",
+        "Amendment in Statues 2015",
+        "Registration Certificate",
+        "ReportsAnnual ReportAnnual Account ReportAccrediation Report: UGAccreditation report - CED & MEDNIRF",
+        "Annual Report",
+        "Annual Account Report",
+        "Accrediation Report: UG",
+        "Accreditation report - CED & MED",
+        "Council of NITs",
+        "Board of Governors",
+        "Senate Members",
+        "Finance Committee",
+        "Building and Works Committee",
+        "Chairperson BoG",
+        "Chief Vigilance Officer",
+        "Deans / Associate Deans",
+        "Heads of Departments",
+        "Incharges of Support Centres",
+        "Office Administration",
+        "SectionsAcademic SectionAccounts SectionEstablishment SectionEstate & Store SectionCentral Store & Purchase Section",
+        "Academic Section",
+        "Accounts Section",
+        "Establishment Section",
+        "Estate & Store Section",
+        "Central Store & Purchase Section",
+        "Rules & Regulations",
+        "Fee StructureInstitute Fee StructureHostel Fee Structure(2025-26)",
+        "Institute Fee Structure",
+        "Hostel Fee Structure(2025-26)",
+        "Academic CalenderAcademic Calendar (Year 2026-27)Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)Academic Calendar (Year 2025-26)Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)Academic Calendar 2024-25(Revised)",
+        "Academic Calendar (Year 2026-27)",
+        "Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)",
+        "Academic Calendar (Year 2025-26)",
+        "Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)",
+        "Academic Calendar 2024-25 (M.Tech-I and Ph.D.-I)",
+        "Academic Calendar 2024-25(Revised)",
+        "Academic Certificates",
+        "List of Holidays 2025",
+        "List of Holidays 2026",
+        "Institute Policy for Prevention of Plagiarism",
+        "Scholarship",
+        "DepartmentsArtificial IntelligenceChemical EngineeringChemistryCivil EngineeringComputer Science and EngineeringElectrical EngineeringElectronics EngineeringHumanities and Social SciencesManagement StudiesMathematicsMechanical EngineeringPhysics",
+        "Artificial Intelligence",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering"
+      ]
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": null,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.svnit.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website",
+    "svnit_deep_scrape"
+  ],
+  "data_confidence_score": 67,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-surat",
+  "last_scraped_at": "2026-04-01T07:10:02.496515+00:00"
+}

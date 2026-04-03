@@ -1,0 +1,1798 @@
+{
+  "institute": "NIT, Tiruchirappalli",
+  "institute_type": "NIT",
+  "also_known_as": "NITT",
+  "established_year": 1964,
+  "city": "Tiruchirappalli",
+  "state": "Tamil Nadu",
+  "address": "National Institute of Technology, Tanjore Main Road, National Highway 67, Tiruchirappalli, Tamil Nadu - 620015",
+  "nearest_airport": "Tiruchirappalli International Airport",
+  "nearest_airport_km": 18.0,
+  "nearest_railway_station": "Tiruchirappalli Junction Railway Station",
+  "nearest_railway_km": 19.5,
+  "nirf_overall_rank": 30,
+  "nirf_engineering_rank": 9,
+  "nirf_research_rank": 33,
+  "nirf_innovation_rank": "11-50 (2025)",
+  "qs_world_rank": "731-740 (2026)",
+  "qs_asia_rank": "393 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": 9,
+  "the_week_rank": 9,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 14650,
+  "mess_advance_per_sem": 22500,
+  "one_time_fees": 23650,
+  "caution_money": 8500,
+  "annual_fees": 22850,
+  "total_institute_fee": 117500,
+  "total_hostel_fee": 53000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 89.03,
+  "avg_package_lpa": 17.22,
+  "median_package_lpa": 15.81,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 92.0,
+    "Civil Engineering": 76.19,
+    "Computer Science and Engineering": 96.92,
+    "Electrical and Electronics Engineering": 92.23,
+    "Electronics and Communication Engineering": 88.6,
+    "Instrumentation and Control Engineering": 90.72,
+    "Mechanical Engineering": 90.63,
+    "Metallurgical and Materials Engineering": 79.03,
+    "Production Engineering": 87.23,
+    "Architecture": 90.0,
+    "Overall (UG)": 89.03
+  },
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 11.67,
+    "Civil Engineering": 10.83,
+    "Computer Science and Engineering": 29.0,
+    "Electrical and Electronics Engineering": 16.5,
+    "Electronics and Communication Engineering": 23.0,
+    "Instrumentation and Control Engineering": 17.0,
+    "Mechanical Engineering": 11.68,
+    "Metallurgical and Materials Engineering": 10.0,
+    "Production Engineering": 12.6
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 12.54,
+    "Civil Engineering": 13.0,
+    "Computer Science and Engineering": 27.27,
+    "Electrical and Electronics Engineering": 19.3,
+    "Electronics and Communication Engineering": 23.0,
+    "Instrumentation and Control Engineering": 18.46,
+    "Mechanical Engineering": 13.55,
+    "Metallurgical and Materials Engineering": 13.58,
+    "Production Engineering": 14.31
+  },
+  "top_recruiters": [
+    "Computer Support Group",
+    "Faculty",
+    "Campus Placement Procedure",
+    "Why recruit at NITT",
+    "Guidelines to recruiters",
+    "Companies that visit us",
+    "Guidance for students",
+    "Download",
+    "CENTRAL LIBRARY",
+    "Hostels and Mess",
+    "Hospital",
+    "Shopping Center",
+    "Transport",
+    "Physical Education / Sports Center / SAS Office",
+    "Security",
+    "Campus Communication Services",
+    "Estate Maintenance",
+    "Office of the First year Coordinator",
+    "Lecture Hall Complex",
+    "Guest House",
+    "Quarters",
+    "Central Workshop",
+    "Census Data Research Workstation"
+  ],
+  "placement_year": 2023,
+  "placement_officer": {
+    "name": null,
+    "designation": null,
+    "email": "tp@nitt.edu",
+    "phone": "9486001174"
+  },
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Architecture"
+    },
+    {
+      "name": "Chemical Engineering"
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [
+        {
+          "name": "Dr. (Mrs.) L.Cindrella",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/Cindrella",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Karvembu",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/Karvembu",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Anandan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/Anandan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. (Mrs).S. Velmathi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/Velmathi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. M. Biju",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/Biju",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A. Sreekanth",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/Sreekanth",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ganesh Chandra Nandi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/nandi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sunandan Sarkar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/ssarkar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sarthak Mandal",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/smandal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Baby Viswambharan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/babyv",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jothi Lakshmi Nallasivam",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/jothilakshmi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Arivazhagan C",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/arivazhagan",
+          "designation": "Assistant Professor",
+          "email": "arivazhagan@nitt.edu, organicarivu@gmail.com",
+          "specializations": [
+            "Multi-Stimuli Responsive Inorganic and Organic Hybrid Materials",
+            "Main Group Containing Fluorescent Polymers",
+            "Organic Light Emitting Diodes",
+            "Coordination Cages"
+          ]
+        },
+        {
+          "name": "Dr. Projesh Kumar Roy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/projesh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Velmurugan Gunasekaran",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/velmurugan",
+          "email": "velmurugan@nitt.edu",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vijayakanth T",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/faculty/vijayakantht",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. (Mrs).L. Cindrella",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/chemistry/Faculty/Cindrella/",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 16
+    },
+    {
+      "name": "Civil Engineering",
+      "faculty": [
+        {
+          "name": "Dr. G. Swaminathan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/gs",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Samson Mathew",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/sm",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S.T.Ramesh",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/str",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K. Muthukkumaran",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/km",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Jayalekshmi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/jaya",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Gandhimathi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/gandhimathi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Nisha Radhakrishnan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/dr_nisha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. Sunitha",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/vs",
+          "designation": "Organisation"
+        },
+        {
+          "name": "Dr. R. Manjula",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/rm",
+          "qualifications": [
+            {
+              "degree": "University/ Board"
+            }
+          ],
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Deendayal Rathod",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/deen",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Saravanan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/sa",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Senthil Kumar R",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/senthilr",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Marisamynathan S",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/marisamy",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jeevan Joseph",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/jeevan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Raghavan Ramalingam",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/raghavanr",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Prabha Mohandoss",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/prabha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Darshana O",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/darshana",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Greegar George",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/greegar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Aneesh Mathew",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/aneesh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Kamal Krishna Bera",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/kamalkrishna",
+          "designation": "Assistant Professor",
+          "specializations": [
+            "Structural Dynamics and Vibration Control"
+          ]
+        },
+        {
+          "name": "Dr. Laiju A.R.",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/laiju",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Mrs. R. Arachelvi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/ra",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.Chandaluri Vinaykumar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/chandaluri",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.Sevugan Rajkannu J",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/sevugan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vanama Raghava Kumar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/vanama",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Makendran C",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/makendran",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Chauhan Ritvik Dhanraj",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/chauhan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Prabu P",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/prabu",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Santhosh L",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/lsanthosh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Lekshmi Mohan V",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/lekshmi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Laveti N V Satish",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/laveti",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Manthiram Karthik R",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/manthiramkarthik",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Prabhakar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/prabhakar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K. Baskar",
+          "profile_url": "http://www.nitt.edu/home/academics/departments/civil/faculty/kb/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. T. Ramesh",
+          "profile_url": "http://www.nitt.edu/home/academics/departments/civil/faculty/str/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Deendayal",
+          "profile_url": "http://www.nitt.edu/home/academics/departments/civil/faculty/deen/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Senthil Kumar",
+          "profile_url": "http://www.nitt.edu/home/academics/departments/civil/faculty/senthilr/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Marisamynathan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/marisamy/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Mashudha Sulthana U",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/mashudha_sulthana",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.Kamal Krishna Bera",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/civil/faculty/kamalkrishna",
+          "designation": "Assistant Professor",
+          "specializations": [
+            "Structural Dynamics and Vibration Control"
+          ]
+        }
+      ],
+      "faculty_count": 40
+    },
+    {
+      "name": "Computer Applications"
+    },
+    {
+      "name": "Computer Science & Engineering",
+      "faculty": [
+        {
+          "name": "Dr. S. Selvakumar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/ssk",
+          "designation": "Professor (HAG)",
+          "specializations": [
+            "Computer Networks",
+            "Group communication in High-Speed Networks",
+            "Routing",
+            "Multimedia Communication",
+            "Scheduling for QoS guarantee",
+            "Mobile Networks",
+            "Network Computing",
+            "Distributed Systems",
+            "Collaborative Computing",
+            "Wireless Sensor Networks",
+            "and Network Security"
+          ]
+        },
+        {
+          "name": "Dr. N Ramasubramanian",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/nrs",
+          "designation": "Professor (HAG)",
+          "specializations": [
+            "Multi-core Computer Architecture",
+            "Advanced Digital Design",
+            "Reconfigurable computing",
+            "Processor Design for ML and AI",
+            "Security Hardware"
+          ]
+        },
+        {
+          "name": "Dr. C. Mala",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/mala",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Mary Saira Bhanu",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/msb",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. (Mrs.) R. Leela Velusamy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/leela",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Mohan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/mohan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Jaya Nirmala",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/jnirmala",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Kunwar Singh",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/kunwar",
+          "designation": "Associate Professor",
+          "specializations": [
+            "Cryptography"
+          ]
+        },
+        {
+          "name": "Dr. E. Sivasankar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/sivas",
+          "designation": "Associate Professor",
+          "specializations": [
+            "Databases",
+            "Data Mining",
+            "Artificial Intelligence",
+            "Big Data Analytics"
+          ]
+        },
+        {
+          "name": "Dr. B. Nithya",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/nithya",
+          "designation": "Associate Professor",
+          "specializations": [
+            "Wireless Networks (Mobile Adhoc Network",
+            "Wireless Sensor Network",
+            "Internet of Things",
+            "Wireless Body Area Network",
+            "Unmanned Aerial Vehicle",
+            "Internet of Vehicles)",
+            "Advanced Data Structures and Optimization Algorithms"
+          ]
+        },
+        {
+          "name": "Dr. B. Shameedha Begum",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/sameedha",
+          "designation": "Assistant Professor",
+          "specializations": [
+            "Computer Architecture",
+            "Brain Computer Interface",
+            "Human Computer Interaction",
+            "Embedded Systems",
+            "Real Time Systems"
+          ]
+        },
+        {
+          "name": "Dr. M. Sridevi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/sridevi",
+          "designation": "Associate Professor",
+          "specializations": [
+            "Computer Vision & Image Processing",
+            "Virtual Reality",
+            "Parallel Processing",
+            "Machine & Deep Learning Algorithms"
+          ]
+        },
+        {
+          "name": "Dr. A. Santhanavijayan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/vijayan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M. Brindha",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/brindham",
+          "designation": "Associate Professor",
+          "specializations": [
+            "Multimedia security",
+            "Image Quality Assessment",
+            "Computer Vision",
+            "Data Science",
+            "Database",
+            "Full Stack Development",
+            "Deep learning"
+          ]
+        },
+        {
+          "name": "Dr.(Ms.) Rajeswari Sridhar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/srajeswari",
+          "designation": "Professor",
+          "specializations": [
+            "Compilers",
+            "Algorithms",
+            "Machine learning",
+            "NLP",
+            "Cloud Computing",
+            "Social Media analysis"
+          ]
+        },
+        {
+          "name": "Dr. Sitara K",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/sitara",
+          "designation": "Assistant Professor",
+          "specializations": [
+            "Cyber Forensics",
+            "Video Surveillance",
+            "Multimedia Forensics"
+          ]
+        },
+        {
+          "name": "Dr. R. Bala Krishnan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/balakrishnan",
+          "designation": "Assistant Professor",
+          "specializations": [
+            "Text Steganography",
+            "Information Security",
+            "Network Security",
+            "Network Protocols",
+            "Android Security",
+            "Android Apps",
+            "Machine Learning",
+            "Deep Learning",
+            "Natural Language Processing."
+          ]
+        },
+        {
+          "name": "Dr.Jakkepalli Pavan Kumar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/pavan",
+          "specializations": [
+            "Graph Theory and Algorithms",
+            "Computer Networks"
+          ],
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.Oswald C",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/oswald",
+          "email": "Email (Secondary) : oswald.mecse@gmail.com",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Usha Kiruthika S",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/usha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Chandra Priya J",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/jchandrapriya",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Priyanka Panigrahi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/ppriyanka",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. SathyaNarayanan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/satviv",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. Ramasubramanian",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/nrs/",
+          "designation": "Professor (HAG)",
+          "specializations": [
+            "Multi-core Computer Architecture",
+            "Advanced Digital Design",
+            "Reconfigurable computing",
+            "Processor Design for ML and AI",
+            "Security Hardware"
+          ]
+        },
+        {
+          "name": "Dr.(Mrs.) R. Leela Velusamy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/leela/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A. Santhana Vijayan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/vijayan/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sathyanarayanan S",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/cse/faculty/sathyanarayanan/",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 27
+    },
+    {
+      "name": "Electrical & Electronics Engineering"
+    },
+    {
+      "name": "Electronics & Communication Engineering",
+      "faculty": [
+        {
+          "name": "Prof. G. Lakshminarayanan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/gln",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P.Palanisamy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/pp",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R.Thilagavathy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/thila",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. E. S. Gopi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/gopi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. Gunavathi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/ng",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. B.Rebekka",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/beki",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. G. Thavasi Raja",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/gtr",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Pandeeswari",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/pandi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. K. Kavitha",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/rkk",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. K. Jeyachitra",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/jeyachitra",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. Sudha",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/vsudha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S .Deivalakshmi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/deiva",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Malmathanraj",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/mal",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.B.Malarkodi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/malark",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.P.Muthuchidambaranathan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/pmc",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M.Bhaskar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/mb",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. D. Sriram Kumar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/srk",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Varun Gopi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/varun",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.Maheswaran P",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/maheswaran",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P. Sudharsan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/sudharsan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Karthikeyan S.S",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/sskarthikeyan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.Bukke Chandrababu Naik",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/bukke",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.Bibin Francis",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/bibin",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Srinivasulu Jogi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/srinivasulu",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Parthasarathy R",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/parthasarathy",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. B. Naresh Kumar Reddy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/bnkreddy",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. AVIK HATI",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/avikhati",
+          "designation": "Assistant Professor",
+          "email": "avikhati@nitt.edu",
+          "specializations": [
+            "Image Processing",
+            "Computer Vision",
+            "Machine Learning"
+          ]
+        },
+        {
+          "name": "Dr. Murali krishna",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/mkr",
+          "email": "Email (Secondary) : muyalkrishna@gmail.com",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sovanjyoti Giri",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/sovanjyoti",
+          "designation": "Assistant Professor",
+          "email": "sgiri1990@live.com, sovanjyoti@gmail.com",
+          "specializations": [
+            "Information Theory and Coding",
+            "Wireless Communication and Network"
+          ]
+        },
+        {
+          "name": "Dr. R R Manikandan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/manirr",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Surya Teja Naga Srinivas Padala",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/surya",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.G.Lakshminarayanan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/gln",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. B.Malarkodi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/malark",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. E.S. Gopi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/gopi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Varun P. Gopi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/varun",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Thilagavathy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/thila",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Maheswaran P",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/maheswaran/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sudharsan P",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/sudharsan/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.AVIK HATI",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/avikhati/",
+          "designation": "Assistant Professor",
+          "email": "avikhati@nitt.edu",
+          "specializations": [
+            "Image Processing",
+            "Computer Vision",
+            "Machine Learning"
+          ]
+        },
+        {
+          "name": "Dr.Murali krishna",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ece/faculty/mkr/",
+          "email": "Email (Secondary) : muyalkrishna@gmail.com",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 40
+    },
+    {
+      "name": "Humanities",
+      "faculty": [
+        {
+          "name": "Dr. R. Murugesan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/murugesan/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. Vinod Balakrishnan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/vinod/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Joseph Ponniah",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/joseph/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sathyaraj Venkatesan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/sathyaraj/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. G. Nagasubramaniyan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/naga/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Mekala",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/mekala/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. R. Gururaj",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/gururaj/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Karthika V.K.",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/karthika/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Padmaja M",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/padmaja/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Nisha Viswanathan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/nisha/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.Anu Kuriakose",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/anuk/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S.Yogeshwari",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/yogeshwari/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. Maneesha",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/humanities/faculty/maneesha/",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 13
+    },
+    {
+      "name": "Instrumentation & Control Engineering",
+      "faculty": [
+        {
+          "name": "Dr. M. Umapathy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/umapathy",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ramakalyan Ayyagari",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/dr_rkalyan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.G.Uma",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/guma",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. Sivakumaran",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/dr_NSK",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K. Dhanalakshmi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/dhanalakshmi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. B. Vasuki",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/dr_bv",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. Goldin R Bennet",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/bennet",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K. Srinivasan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/Dr_Srinivasan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. D. Ezhilarasi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/ezhil",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Narayanan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/Dr_SN",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. Sridevi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/Dr_VS",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.R.Periyasamy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/periyasamyr",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P.A. Karthick",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/Dr_PAK",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. C. Geetha",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/geethac",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Shiraz Sohail",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/Dr_SS",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sri Ram Shankar R.",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/Srir",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rahul Kumar Sharma",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/Dr_RKS",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. G. Uma",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/guma/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Geetha C",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/geethac/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Periyasamy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/periyasamyr/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P. A. Karthick",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/Dr_PAK/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sri Ram Shankar R",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/ice/faculty/Srir",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 22
+    },
+    {
+      "name": "Management Studies"
+    },
+    {
+      "name": "Mathematics",
+      "faculty": [
+        {
+          "name": "Prof. K. Murugesan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/murugesan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. V. Kumaran",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/kumaran",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. V. Ravichandran",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/ravichandran",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. P. Saikrishnan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/saikrishnan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. V. Lakshmana Gomathi Nayagam",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/lakshamana",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. V. Shanthi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/vshanthi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Tamil Selvi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/tamil",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. I. Jeyaraman",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/jeyaraman",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. Prakash",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/dr_n_prakash",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Jitraj Saha",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/dr_jitraj_saha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vamsinadh Thota",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/vamsinadhthota",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. Shivaranjani",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/ranjani",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Abhijit Das",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/abhijit",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.Gowthami R",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/gowthami",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Balasubramani N",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/balasubramani",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Gautam Singh",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/gautam",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Nishant Rathee",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/nishant",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Krishnarjun Krishnamoorthy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/krishnarjun",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. V. Shanthi (On Child Care Leave)",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/vshanthi/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Gowthami",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/maths/faculty/gowthami",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 20
+    },
+    {
+      "name": "Mechanical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Pradeep N",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/pradeepn",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sarvesh Kashyap",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/skashyap",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Rahul Roy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/rahulroy",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.Tara Chand Kumar Maurya",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/tmaurya",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Dudul Das",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/duduldas",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Hemachandran E",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/hemachandran",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Suresh",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/s_suresh/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S.P. Sivapirakasam",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/sivap/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Venkatachalapathy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/svc/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. AR. Veerappan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/veer/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R.B.Anand",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/rbanand/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Anand",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/r_anand/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K.R. Balasubramanian",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/krbalasubramanian/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. T. Ramesh",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/tramesh/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. Arul Mozhi Selvan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/arulmozhiselvan/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. Siva Shanmugam",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/nsiva/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. Mariappan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/vmariappan/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K. Pannirselvam",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/kpannir/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M. Shahul Hameed",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/shahul/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Nanda Naik Korra",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/n_korra/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.-Ing. Ashok Kumar Nallathambi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/nashok/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K S S Harish",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/harish/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vedharaj Sivasankaralingam",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/vedha/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Prakash",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/rprakash/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. G. Rajasekaran",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/rajasekaran/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Sreejith Mohan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/sreejith/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Raghu Ram Karthik Desu",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/raghuram/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Bishweshwar Babu",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/bishweshwar/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Saurav Kumar Dutta",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/sauravkdutta/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Suman Dutta",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/suman/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Tara Chand Kumar Maurya",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/mech/faculty/tmaruya/",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 31
+    },
+    {
+      "name": "Metallurgical & Materials Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Umasankar Chintada",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/umasankar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Khilesh Kumar Bhandari",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/khileshbha",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. Ramesh Babu",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/nrb/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Raman Sankaranarayanan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/sramansankaranarayanan/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. P. Kumaresh Babu",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/spkb/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Kumaran",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/skumaran/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. B. Ravisankar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/brs/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Muthukumaran",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/smuthu/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K. Siva Prasad",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/ksp/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Jerome",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/sjerome/",
+          "designation": "Associate Professor",
+          "specializations": [
+            "Welding Engineering",
+            "Wire Arc Additive Manufacturing"
+          ]
+        },
+        {
+          "name": "Dr. D. Nagarajan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/nagarajand/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. Karthik",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/karthikv/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A. Muthuchamy",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/amuthuchamy/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. -Ing Prince Gideon Kubendran Amos",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/prince/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Nimu Chand Reger",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/nimuchand/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Illa Mani Pujitha",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/pujitha/",
+          "specializations": [
+            "Energy storage Batteries",
+            "Bacterial Cellulose",
+            "Solid-State Electrolytes",
+            "Carbon Nanomaterials"
+          ],
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Anand S",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/anands/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vinothkumar G",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/vinothkumar/",
+          "designation": "Assistant Professor",
+          "email": "vinothkumar@nitt.edu, vino.rhino88@gmail.com",
+          "specializations": [
+            "Phase transformation",
+            "Grain boundary engineering",
+            "Alloy development",
+            "Material characterization",
+            "Structure-property correlation",
+            "Additive manufacturing",
+            "Industrial heat treatment"
+          ]
+        },
+        {
+          "name": "Dr. P. Anbarasi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/anbarasi/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Puppala Laxman ManiKanta",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/meta/faculty/laxmanmanikanta/",
+          "designation": "Assistant Professor",
+          "email": "laxmanmanikanta@nitt.edu, laxmanmaniram@gmail.com"
+        }
+      ],
+      "faculty_count": 20
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "Dr. D. Sastikumar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/sasti",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. A. Chandra Bose",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/bose",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. Gopalakrishnan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/ngops",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. J. Hemalatha",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/Hema",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. Baskaran",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/baskaran",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M. Ashok",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/ashok",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. B. Karthikeyan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/karthi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Justin Joseyphus",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/justin",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Nagalakshmi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/nagalakshmi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Sankaranarayanan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/sankar",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M. C. Santhoshkumar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/Santhosh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N. V. Giridharan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/giri",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Manivannan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/manivannan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.ANNAPUREDDY VENKATESHWARLU",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/annp",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. T. Sonamani Singh",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/sonamani",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Venkata Suryanarayana Mummidi",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/venkata",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Somnath Mukhopadhyay",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/somnath",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Joy Prakash Das",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/joyprakash",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Thirukkumaran K",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/faculty/kkumaran",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M.C. Santhosh Kumar",
+          "profile_url": "http://www.nitt.edu/academics/departments/physics/faculty/santhosh/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. N.V. Giridharan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/Faculty/giri/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.Annapureddy Venkateshwarlu",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/physics/Faculty/annp",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 22
+    },
+    {
+      "name": "Production Engineering",
+      "faculty": [
+        {
+          "name": "Dr. P. Parthiban",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/parthi",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P. Asokan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/asokan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Kumanan Somasundaram",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/kumanan",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. M. Duraiselvam",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/mdurai",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P. Sathiya",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/psathiya",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. R. Jeyapaul",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/jeya",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. C. Sathiya narayanan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/csathiya",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. J. Jerald",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/jerald",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. Senthilkumar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/vsenthil",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. V. Anandakrishnan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/anandakrishnan",
+          "qualifications": [
+            {
+              "degree": "University / Board"
+            }
+          ],
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Vinodh",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/vinodh",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S. Prasanna Venkatesan",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/prasanna",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. K. Panneerselvam",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/paneer",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. D. Lenin Singaravelu",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/lenin",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. P. Senthil",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/senthil",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vineet Kumar Yadav",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/vineet/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. T. Jagadesh",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/jagadesh/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vasu M",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/vasu/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Santosh Kumar Mishra",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/santosh/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Prakash Kumar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/prakashkumar/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Matruprasad Rout",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/matruprasad/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Pintu Kumar",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/pintu/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Mallikarjuna",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/mallik/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Vimal K.E.K",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/vimal/",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Alwin Varghese",
+          "profile_url": "https://www.nitt.edu/home/academics/departments/prod/faculty/alwin/",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 25
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": null,
+  "student_activities": {
+    "clubs": [
+      "Computer Support Group"
+    ],
+    "technical_societies": null,
+    "technical_fests": [
+      "National Institute of Technology Tiruchirappalli - 620015 Tamil Nadu, INDIA Fax: +91-431-2500133"
+    ],
+    "cultural_fests": null,
+    "has_nss": true,
+    "has_ncc": true,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": {
+    "mous": null,
+    "mou_count": 7,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.nitt.edu",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 79,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-trichy",
+  "last_scraped_at": "2026-03-31T16:01:55.528324",
+  "department_count": 16,
+  "total_faculty": 276
+}

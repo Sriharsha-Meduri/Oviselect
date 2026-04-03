@@ -1,0 +1,45 @@
+{
+  "institute": "IIIT (IIIT) Ranchi",
+  "also_known_as": "IIITR",
+  "institute_type": "IIIT",
+  "established_year": 2016,
+  "city": "Ranchi",
+  "state": "Jharkhand",
+  "address": "Indian Institute of Information Technology Ranchi, ARTTC BSNL Campus, Getlatu, Near Jumar River Bridge, Hazaribagh Road, Ranchi, Jharkhand - 835217",
+  "nearest_airport": "Birsa Munda Airport, Ranchi",
+  "nearest_airport_km": 17.0,
+  "nearest_railway_station": "Ranchi Junction Railway Station",
+  "nearest_railway_km": 10.5,
+  "caution_money": 10000,
+  "one_time_fees": 3000,
+  "tuition_fee_per_sem": 110000,
+  "total_institute_fee": 138000,
+  "hostel_fee_per_sem": 18000,
+  "mess_advance_per_sem": 18000,
+  "total_hostel_fee": 36000,
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 13.32,
+    "Electronics and Communication Engineering": 13.32,
+    "Overall": 13.32
+  },
+  "median_package_lpa": 13.32,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 17.01,
+    "Electronics and Communication Engineering": 16.42,
+    "Overall": 16.7
+  },
+  "avg_package_lpa": 16.71,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-ranchi",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-ranchi",
+  "last_scraped_at": "2026-03-31T16:17:17.857595",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitranchi.ac.in",
+  "phd_available": true
+}

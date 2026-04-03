@@ -1,0 +1,68 @@
+{
+  "institute": "IIIT Design & Manufacturing Kurnool, Andhra Pradesh",
+  "also_known_as": "IIITDMKL",
+  "institute_type": "IIIT",
+  "established_year": 2015,
+  "city": "Kurnool",
+  "state": "Andhra Pradesh",
+  "address": "Indian Institute of Information Technology Design and Manufacturing, Jagannatha Gattu Hill, Kurnool, Andhra Pradesh \u2013 518007",
+  "nearest_airport": "Kurnool Airport",
+  "nearest_airport_km": 21.5,
+  "nearest_railway_station": "Kurnool City Railway Station",
+  "nearest_railway_km": 11.0,
+  "india_today_rank": 57,
+  "caution_money": 4000,
+  "one_time_fees": 12500,
+  "tuition_fee_per_sem": 80000,
+  "total_institute_fee": 104400,
+  "hostel_fee_per_sem": 3500,
+  "mess_advance_per_sem": 19000,
+  "total_hostel_fee": 34500,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students."
+  ],
+  "overall_placement_pct": 71.05,
+  "branch_wise_placement_pct": {
+    "Artificial Intelligence and Data Science": 68.0,
+    "Computer Science and Engineering": 76.92,
+    "Electronics and Communication Engineering with specialization in Design and Manufacturing": 63.33,
+    "Mechanical Engineering with specialization in Design and Manufacturing": 75.0,
+    "Overall": 71.05
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 28.0,
+    "Electronics and Communication Engineering": 14.0,
+    "Mechanical Engineering": 9.0,
+    "Overall": 28.0
+  },
+  "median_package_lpa": 19.75,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 12.13,
+    "Electronics and Communication Engineering": 9.08,
+    "Mechanical Engineering": 5.77,
+    "Overall": 10.86
+  },
+  "avg_package_lpa": 9.46,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
+  ],
+  "_slug": "iiitdm-kurnool",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiitdm-kurnool",
+  "last_scraped_at": "2026-03-31T16:13:39.910956",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitk.ac.in",
+  "research": {
+    "active_projects": null,
+    "funding_agencies": [
+      "DST",
+      "SERB",
+      "DRDO",
+      "CSIR"
+    ]
+  }
+}

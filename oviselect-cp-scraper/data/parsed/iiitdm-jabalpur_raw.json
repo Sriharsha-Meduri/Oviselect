@@ -1,0 +1,77 @@
+{
+  "institute": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+  "also_known_as": "IIITDMJ",
+  "institute_type": "IIIT",
+  "established_year": 2005,
+  "city": "Jabalpur",
+  "state": "Madhya Pradesh",
+  "address": "Pandit Dwarka Prasad Mishra Indian Institute of Information Technology Design & Manufacturing, Dumna Airport Road, Khamaria, Jabalpur, Madhya Pradesh - 482005",
+  "nearest_airport": "Jabalpur Airport",
+  "nearest_airport_km": 5.0,
+  "nearest_railway_station": "Jabalpur Junction Railway Station",
+  "nearest_railway_km": 10.5,
+  "qs_asia_rank": "791-800 (2026)",
+  "nirf_engineering_rank": 101,
+  "caution_money": 5000,
+  "one_time_fees": 10500,
+  "tuition_fee_per_sem": 71750,
+  "total_institute_fee": 94750,
+  "hostel_fee_per_sem": 11000,
+  "mess_advance_per_sem": 15000,
+  "total_hostel_fee": 26000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students."
+  ],
+  "overall_placement_pct": 63.07,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 74.47,
+    "Electronics and Communication Engineering": 53.72,
+    "Mechanical Engineering": 38.3,
+    "Smart Manufacturing": 51.52,
+    "Overall": 63.07
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 18.27,
+    "Electronics and Communication Engineering": 18.27,
+    "Mechanical Engineering": 9.08,
+    "Overall": 17.78
+  },
+  "median_package_lpa": 15.85,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 25.08,
+    "Electronics and Communication Engineering": 23.48,
+    "Mechanical Engineering": 11.91,
+    "Overall": 21.72
+  },
+  "avg_package_lpa": 20.55,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiitdm-jabalpur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiitdm-jabalpur",
+  "last_scraped_at": "2026-03-31T16:16:30.548512",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitdmj.ac.in",
+  "pg_programmes": [
+    {
+      "name": "Mechanical Engineering (ME)",
+      "level": "PG",
+      "intake_seats": 10
+    },
+    {
+      "name": "Total (ME)",
+      "level": "PG",
+      "intake_seats": 30
+    },
+    {
+      "name": "Total Seats for M.Tech. Programme",
+      "level": "PG",
+      "intake_seats": 110
+    }
+  ],
+  "phd_available": true
+}

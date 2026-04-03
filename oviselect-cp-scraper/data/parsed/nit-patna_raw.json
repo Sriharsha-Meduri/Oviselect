@@ -1,0 +1,64 @@
+{
+  "institute": "NIT Patna",
+  "also_known_as": "NITP",
+  "institute_type": "NIT",
+  "established_year": 1886,
+  "city": "Patna",
+  "state": "Bihar",
+  "address": "National Institute of Technology, Ashok Rajpath, Mahendru, Patna, Bihar - 800005",
+  "nearest_airport": "Jay Prakash Narayan International Airport, Patna",
+  "nearest_airport_km": 13.0,
+  "nearest_railway_station": "Patna Junction Railway Station",
+  "nearest_railway_km": 5.5,
+  "qs_asia_rank": "851-900 (2026)",
+  "nirf_overall_rank": 101,
+  "nirf_engineering_rank": 53,
+  "caution_money": 10000,
+  "one_time_fees": 36200,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 800,
+  "total_institute_fee": 116750,
+  "hostel_fee_per_sem": 12000,
+  "mess_advance_per_sem": 20000,
+  "total_hostel_fee": 40000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 7.55,
+    "Computer Science and Engineering": 14.49,
+    "Electrical Engineering": 7.85,
+    "Electronics and Communication Engineering": 8.5,
+    "Mechanical Engineering": 7.5
+  },
+  "median_package_lpa": 9.18,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 8.42,
+    "Computer Science and Engineering": 15.98,
+    "Electrical Engineering": 10.41,
+    "Electronics and Communication Engineering": 12.52,
+    "Mechanical Engineering": 8.76
+  },
+  "avg_package_lpa": 11.22,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
+  ],
+  "_slug": "nit-patna",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-patna",
+  "last_scraped_at": "2026-03-31T16:02:28.427197",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitp.ac.in",
+  "phd_available": true,
+  "infrastructure": {
+    "has_bank_atm": true,
+    "has_post_office": false
+  }
+}

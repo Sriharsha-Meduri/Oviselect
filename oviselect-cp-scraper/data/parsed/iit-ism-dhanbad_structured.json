@@ -1,0 +1,2352 @@
+{
+  "institute": "IIT (ISM) Dhanbad",
+  "institute_type": "IIT",
+  "also_known_as": "IIT (ISM)",
+  "established_year": 1926,
+  "city": "Dhanbad",
+  "state": "Jharkhand",
+  "address": "Indian Institute of Technology (Indian School of Mines), Sardar Patel Nagar, Dhanbad, Jharkhand - 826004",
+  "nearest_airport": "Kazi Nazrul Islam Airport, Durgapur",
+  "nearest_airport_km": 96.5,
+  "nearest_railway_station": "Dhanbad Junction Railway Station",
+  "nearest_railway_km": 3.5,
+  "nirf_overall_rank": 35,
+  "nirf_engineering_rank": 15,
+  "nirf_research_rank": 27,
+  "nirf_innovation_rank": "11-50 (2025)",
+  "qs_world_rank": null,
+  "qs_asia_rank": "424 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": 12,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "Integrated M.Tech. - 5 Years"
+  ],
+  "tuition_fee_per_sem": 100000,
+  "hostel_fee_per_sem": 3300,
+  "mess_advance_per_sem": 18000,
+  "one_time_fees": 8400,
+  "caution_money": 5000,
+  "annual_fees": 10468,
+  "total_institute_fee": 150268,
+  "total_hostel_fee": null,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 73.69,
+  "avg_package_lpa": 18.28,
+  "median_package_lpa": 15.78,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 73.17,
+    "Civil Engineering": 50.91,
+    "Computer Science and Engineering": 84.87,
+    "Electrical Engineering": 69.12,
+    "Electronics and Communication Engineering": 72.59,
+    "Engineering Physics": 39.29,
+    "Environmental Engineering": 77.42,
+    "Mechanical Engineering": 69.23,
+    "Mineral and Metallurgical Engineering": 67.74,
+    "Mining Engineering": 77.65,
+    "Mining Machinery Engineering": 80.0,
+    "Petroleum Engineering": 89.74,
+    "Overall (B.Tech.)": 73.69,
+    "Applied Geology": 83.33,
+    "Applied Geophysics": 66.67,
+    "Mathematics and Computing": 80.39,
+    "Overall (Int. M.Tech.)": 78.21
+  },
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 13.1,
+    "Civil Engineering": 9.0,
+    "Computer Science and Engineering": 21.49,
+    "Electrical Engineering": 16.5,
+    "Electronics and Communication Engineering": 19.02,
+    "Engineering Physics": 17.0,
+    "Environmental Engineering": 11.88,
+    "Mechanical Engineering": 13.18,
+    "Mineral Engineering": 11.88,
+    "Mining Engineering": 13.37,
+    "Mining Machinery Engineering": 13.95,
+    "Petroleum Engineering": 17.74,
+    "Overall B.Tech.": 15.95,
+    "Int. M.Tech. – Applied Geology": 9.5,
+    "Int. M.Tech. – Applied Geophysics": 13.64,
+    "Int. M.Tech. – Mathematics and Computing": 29.0,
+    "Overall Int. M.Tech.": 22.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 13.11,
+    "Civil Engineering": 12.88,
+    "Computer Science and Engineering": 27.29,
+    "Electrical Engineering": 20.49,
+    "Electronics and Communication Engineering": 24.02,
+    "Engineering Physics": 22.48,
+    "Environmental Engineering": 12.61,
+    "Mechanical Engineering": 14.91,
+    "Mineral Engineering": 13.55,
+    "Mining Engineering": 14.46,
+    "Mining Machinery Engineering": 15.12,
+    "Petroleum Engineering": 18.32,
+    "Overall B.Tech.": 19.44,
+    "Int. M.Tech. – Applied Geology": 10.03,
+    "Int. M.Tech. – Applied Geophysics": 17.62,
+    "Int. M.Tech. – Mathematics and Computing": 29.6,
+    "Overall Int. M.Tech.": 24.79
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Mathematics & Computing",
+      "faculty": [
+        {
+          "name": "A Antony Selvan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=antony"
+        },
+        {
+          "name": "Abhay Kumar Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=abhay"
+        },
+        {
+          "name": "Abhishek Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=abhishek"
+        },
+        {
+          "name": "Ajit Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ajit94"
+        },
+        {
+          "name": "Akhilesh Prasad",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=aprasad"
+        },
+        {
+          "name": "Alakesh Kalita",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=alakesh"
+        },
+        {
+          "name": "Anurag Jayswal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=anurag"
+        },
+        {
+          "name": "Ashok Das",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ashokdas"
+        },
+        {
+          "name": "Atul Kumar Verma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=atulverma"
+        },
+        {
+          "name": "Badam Singh Kushvah",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=bskush"
+        },
+        {
+          "name": "Dinabandhu Pradhan",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=dina"
+        },
+        {
+          "name": "Gajendra K. Vishwakarma",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vishwagk"
+        },
+        {
+          "name": "Garib Nath Singh",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=gnsingh"
+        },
+        {
+          "name": "Hemant Kumar Mishra",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=hemantmishra1124"
+        },
+        {
+          "name": "Jyoti Dasgupta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=jyotidasgupta"
+        },
+        {
+          "name": "KARTIKAY GUPTA",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kartikay"
+        },
+        {
+          "name": "Manisha Verma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=manisha"
+        },
+        {
+          "name": "Mritunjay Kumar Singh",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=drmks29"
+        },
+        {
+          "name": "Neeru Bala",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=neerubala"
+        },
+        {
+          "name": "Pramod Kumar Kewat",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pramodk"
+        },
+        {
+          "name": "Ramanababu Kaligatla",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ramana"
+        },
+        {
+          "name": "Ranjit Kumar Upadhyay",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ranjit"
+        },
+        {
+          "name": "S. P. Tiwari",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sptiwari"
+        },
+        {
+          "name": "Sanjeev Anand Sahu",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sanjeev"
+        },
+        {
+          "name": "Santimoy Kundu",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=santimoykundu"
+        },
+        {
+          "name": "Scindhiya Laxmi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=scindhiya"
+        },
+        {
+          "name": "Shuvashree Mondal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shuvasri29"
+        },
+        {
+          "name": "Snehajit Misra",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=snehajitm"
+        },
+        {
+          "name": "Srinivasa Rao Pentyala",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=psrao"
+        },
+        {
+          "name": "Subhashis Chatterjee",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=subhashis"
+        },
+        {
+          "name": "Sudhakar Kumawat",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sudhakar"
+        },
+        {
+          "name": "Tamoghna Ojha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=tamoghnaojha"
+        }
+      ],
+      "faculty_count": 32
+    },
+    {
+      "name": "Applied Geology",
+      "faculty": [
+        {
+          "name": "A S Venkatesh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=venkatesh"
+        },
+        {
+          "name": "Ajoy Kumar Bhaumik",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ajoy"
+        },
+        {
+          "name": "Alik Sundar Majumdar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=asmajumdar"
+        },
+        {
+          "name": "Anand Rajagopal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=anandr"
+        },
+        {
+          "name": "Anup Krishna Prasad",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=anup"
+        },
+        {
+          "name": "Ashutosh Tripathy",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=Ashutosh"
+        },
+        {
+          "name": "Bodhisatwa Hazra",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=bodhisatwa"
+        },
+        {
+          "name": "Deepak Kumar Jha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=deepakgeo"
+        },
+        {
+          "name": "Joseph Rohan D'souza",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=joseph"
+        },
+        {
+          "name": "Kripamoy Sarkar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kripamoy"
+        },
+        {
+          "name": "Mrinal Kanti Mukherjee",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mrinal"
+        },
+        {
+          "name": "Pintu Prusty",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pintuprusty"
+        },
+        {
+          "name": "Prabodha Ranjan Sahoo",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=prabodha"
+        },
+        {
+          "name": "Pranab Das",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pranab"
+        },
+        {
+          "name": "Rajendra Kumar Dubey",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=dubey"
+        },
+        {
+          "name": "Sahendra Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sahendra"
+        },
+        {
+          "name": "Shushanta Sarangi",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shushanta"
+        },
+        {
+          "name": "Udita Bansal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ubansal"
+        },
+        {
+          "name": "Upama Dutta",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=upama"
+        }
+      ],
+      "faculty_count": 19
+    },
+    {
+      "name": "Management Studies and Industrial Engineering",
+      "faculty": [
+        {
+          "name": "Aamna Khan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=aamna"
+        },
+        {
+          "name": "APARNA KRISHNA",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=aparna"
+        },
+        {
+          "name": "Bibhas Chandra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=bibhaschandra"
+        },
+        {
+          "name": "Esha Saha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=eshasaha"
+        },
+        {
+          "name": "Govind Swaroop Pathak",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=gspathak"
+        },
+        {
+          "name": "Himanshu Gupta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=himanshug"
+        },
+        {
+          "name": "J K Pattanayak",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=jkpattanayak"
+        },
+        {
+          "name": "Kampan Mukherjee",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kampan_m"
+        },
+        {
+          "name": "Krishnendu Shaw",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=krishnendu"
+        },
+        {
+          "name": "Kuthambalayan Sridhar Thyagaraj",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=thyagaraj"
+        },
+        {
+          "name": "Mohd. Irfan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=irfan"
+        },
+        {
+          "name": "Mrinalini Pandey",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mrinalini"
+        },
+        {
+          "name": "Niladri Das",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=niladri"
+        },
+        {
+          "name": "Pramod Pathak",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ppathak.ism"
+        },
+        {
+          "name": "Preeti Roy",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=preetir"
+        },
+        {
+          "name": "Rashmi Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rashmis"
+        },
+        {
+          "name": "SABNAM BASU",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sabnambasu"
+        },
+        {
+          "name": "Sandeep Mondal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sandeepmondal"
+        },
+        {
+          "name": "Saumya Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=saumya"
+        },
+        {
+          "name": "SHASHANK BANSAL",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shashank"
+        },
+        {
+          "name": "Shikha Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shikhas"
+        }
+      ],
+      "faculty_count": 21
+    },
+    {
+      "name": "Fuel, Minerals and Metallurgical Engineering",
+      "faculty": [
+        {
+          "name": "Aarti Kumari",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=Aarti"
+        },
+        {
+          "name": "Anand Anupam",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=anand"
+        },
+        {
+          "name": "Asim Kumar Mukherjee",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=asimmuk"
+        },
+        {
+          "name": "Avanish Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=avanish"
+        },
+        {
+          "name": "Barun Kumar Nandi",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=barun"
+        },
+        {
+          "name": "Dhruva Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=dksingh"
+        },
+        {
+          "name": "Gaurav Jha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=gauravjha"
+        },
+        {
+          "name": "Kasturi Sala",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kasturi"
+        },
+        {
+          "name": "Kesavan Ravi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kesavanravi"
+        },
+        {
+          "name": "Madhumanti Bhattacharyya",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=madhumanti"
+        },
+        {
+          "name": "Nitesh Kumar Sahu",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=nitesh"
+        },
+        {
+          "name": "Pankaj Kumar Jain",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=panku"
+        },
+        {
+          "name": "Pradeep Sahu",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pradeepsahu"
+        },
+        {
+          "name": "Rahul M R",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rahulmr"
+        },
+        {
+          "name": "Raj Kumar Dishwar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rajkumardishwar"
+        },
+        {
+          "name": "Rajasekhar Reddy Busigari",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rajasekhar"
+        },
+        {
+          "name": "Ritesh Prakash",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ritesh"
+        },
+        {
+          "name": "Shalini Gautam",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shalinigautam"
+        },
+        {
+          "name": "Shatrughan Soren",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ssoren"
+        },
+        {
+          "name": "Shravan Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shravan"
+        },
+        {
+          "name": "Shubhi Gupta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shubhi"
+        },
+        {
+          "name": "Vishnu Teja Mantripragada",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vishnuteja"
+        },
+        {
+          "name": "Vivek Kumar Sahu",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=viveksahu"
+        }
+      ],
+      "faculty_count": 23
+    },
+    {
+      "name": "Mechanical Engineering",
+      "faculty": [
+        {
+          "name": "Abhijeet Sethi",
+          "designation": "Inspire Faculty",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=abhijeetsethi"
+        },
+        {
+          "name": "Aditi Sengupta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=aditi"
+        },
+        {
+          "name": "Ajay Bhandari",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ajayb"
+        },
+        {
+          "name": "Ajit Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ajit"
+        },
+        {
+          "name": "Alok Kumar Das",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=alokmech"
+        },
+        {
+          "name": "Aman Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=amankumar"
+        },
+        {
+          "name": "Amit Rai Dixit",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=amitraidixit"
+        },
+        {
+          "name": "Amitava Mandal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=amitava"
+        },
+        {
+          "name": "Antarip Poddar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=antarip"
+        },
+        {
+          "name": "Arun Dayal Udai",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=arunudai"
+        },
+        {
+          "name": "Ashis Mallick",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mallick"
+        },
+        {
+          "name": "Deepak Kumar Mandal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=deepak"
+        },
+        {
+          "name": "Jayanta Das",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=jayantadas"
+        },
+        {
+          "name": "K Priya Ajit",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ajitkp"
+        },
+        {
+          "name": "KABILAN B",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=Kabilan"
+        },
+        {
+          "name": "Kailash Jha",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kjha"
+        },
+        {
+          "name": "Kalyan Kumar Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kksingh"
+        },
+        {
+          "name": "L A Kumaraswamidhas",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=lakdhas1978"
+        },
+        {
+          "name": "Madan Lal Chandravanshi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=madan"
+        },
+        {
+          "name": "Md Sikandar Azam",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mdsazam"
+        },
+        {
+          "name": "Niranjan Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=niranjan"
+        },
+        {
+          "name": "Nirmal Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=nirmal"
+        },
+        {
+          "name": "Omkar Mypati",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=omkarmypati"
+        },
+        {
+          "name": "Pawan Kumar Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pawan"
+        },
+        {
+          "name": "Prashanta Kr Mahato",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pkmahato"
+        },
+        {
+          "name": "Rabindra Nath Hota",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rnhota"
+        },
+        {
+          "name": "Rakesh Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rakesh"
+        },
+        {
+          "name": "Randip Kumar Das",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=randip"
+        },
+        {
+          "name": "Rashmi Ranjan Das",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=drrrdas"
+        },
+        {
+          "name": "Sachin Kumar Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sachinks"
+        },
+        {
+          "name": "Sandipan Kumar Das",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sandipan"
+        },
+        {
+          "name": "Sanjoy K Ghoshal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sanjoykghoshal"
+        },
+        {
+          "name": "Sarthak Sambit Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sarthakssingh"
+        },
+        {
+          "name": "Satyabrata Sahoo",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=satya"
+        },
+        {
+          "name": "Shailena Narayan Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=snsingh"
+        },
+        {
+          "name": "Shibayan Sarkar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shibayan"
+        },
+        {
+          "name": "Somnath Chattopadhyaya",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=somnathchattopadhyaya"
+        },
+        {
+          "name": "Subhankar Sen",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ssen"
+        },
+        {
+          "name": "Subramanian Narayan",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=narayan"
+        },
+        {
+          "name": "Subrata Kumar Ghosh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=subrata"
+        },
+        {
+          "name": "Suman Saha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sumansaha"
+        },
+        {
+          "name": "Suparno Bhattacharyya",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=suparno"
+        },
+        {
+          "name": "Swagata Bhaumik",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=swagatabhaumik"
+        },
+        {
+          "name": "Tanmay Dutta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=tanmay"
+        },
+        {
+          "name": "Tanweer Alam",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=tanweer"
+        },
+        {
+          "name": "Vivek Bajpai",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vivek"
+        },
+        {
+          "name": "Zafar Alam",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=zafar"
+        }
+      ],
+      "faculty_count": 47
+    },
+    {
+      "name": "Civil Engineering",
+      "faculty": [
+        {
+          "name": "Abhishek Kumar Pandey",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=akpandey"
+        },
+        {
+          "name": "Ankti Srivastava",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ankti"
+        },
+        {
+          "name": "Avinash Kumar Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=aksingh"
+        },
+        {
+          "name": "Bandita Barman",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=bandita"
+        },
+        {
+          "name": "Biswajeet Pradhan",
+          "designation": "Adjunct Faculty",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=Biswajeet.Pradhan"
+        },
+        {
+          "name": "Chandrashekhar Lakavath",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=chandrashekhar"
+        },
+        {
+          "name": "Dharmananda Sarangi",
+          "designation": "Adjunct Faculty",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=d.sarangi"
+        },
+        {
+          "name": "Kironmala Chanda",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kironmala"
+        },
+        {
+          "name": "Leeza Malik",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=leeza"
+        },
+        {
+          "name": "Lijith K P",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=lijith"
+        },
+        {
+          "name": "Piyali Sengupta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=piyali"
+        },
+        {
+          "name": "Pranesh Roy",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pranesh"
+        },
+        {
+          "name": "Punyabeet Sarangi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=punyabeet"
+        },
+        {
+          "name": "Rahul Bhartiya",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rahulb"
+        },
+        {
+          "name": "Rajib Sarkar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rajib"
+        },
+        {
+          "name": "Renu V",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=renuvalsala"
+        },
+        {
+          "name": "Sanket Nayak",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sanket"
+        },
+        {
+          "name": "Sarat Kumar Das",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=saratdas"
+        },
+        {
+          "name": "Satadru Das Adhikary",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=satadru"
+        },
+        {
+          "name": "Sekhar Chandra Dutta",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sekhar"
+        },
+        {
+          "name": "Shushobhit Chaudhary",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shushobhit"
+        },
+        {
+          "name": "Smruti Sourava Mohapatra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=smruti"
+        },
+        {
+          "name": "Sowmiya Chawla",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sowmiya"
+        },
+        {
+          "name": "Srinivas Pasupuleti",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=srinivas"
+        },
+        {
+          "name": "Sukanta Chakraborty",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sukanta"
+        },
+        {
+          "name": "Tanish Dey",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=tanish"
+        },
+        {
+          "name": "Vishwas Nandkishor Khatri",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vishwas"
+        }
+      ],
+      "faculty_count": 27
+    },
+    {
+      "name": "Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Aditya Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=aditya"
+        },
+        {
+          "name": "Aritra Santra",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=aritrasantra"
+        },
+        {
+          "name": "Arunkumar Samanta",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=asamanta"
+        },
+        {
+          "name": "BIDHAN CHANDRA",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=BIDHAN"
+        },
+        {
+          "name": "Ejaz Ahmad",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ejaz"
+        },
+        {
+          "name": "Khantesh Agrawal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=khantesh"
+        },
+        {
+          "name": "Krishna Sandilya Durbha",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sandilya"
+        },
+        {
+          "name": "Lutukurthi D N V V Konda",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=dnvvkonda"
+        },
+        {
+          "name": "MAHENDRA NAKTUJI NANDANWAR",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=nandanwar"
+        },
+        {
+          "name": "Paidinaidu Paluri",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=naidu"
+        },
+        {
+          "name": "PANTULA DEVI PRIYANKA",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pantula"
+        },
+        {
+          "name": "Ramakrishna R Sonde",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rrsonde57"
+        },
+        {
+          "name": "Sandip Mandal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=Sandip"
+        },
+        {
+          "name": "Siddhartha Sengupta",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=siddhartha"
+        },
+        {
+          "name": "Soubhik Kumar Bhaumik",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=soubhikge"
+        },
+        {
+          "name": "Soumyajit Sen Gupta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=soumyajit"
+        },
+        {
+          "name": "SOURAV SENGUPTA",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=souravsengupta"
+        },
+        {
+          "name": "Suman Dutta",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=suman"
+        },
+        {
+          "name": "Suresh Kumar Yatirajula",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=suresh"
+        }
+      ],
+      "faculty_count": 19
+    },
+    {
+      "name": "Humanities and Social Sciences",
+      "faculty": [
+        {
+          "name": "Ahmed Sameer",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sameer"
+        },
+        {
+          "name": "Ajit Kumar Behura",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ajitbehura"
+        },
+        {
+          "name": "Debashrita Dey",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=debashrita"
+        },
+        {
+          "name": "Deepika Sharma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=deepika"
+        },
+        {
+          "name": "Dipannita Chand",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=dipannita"
+        },
+        {
+          "name": "Gyan Prakash",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=gyan"
+        },
+        {
+          "name": "Indumathy J",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=indumathy"
+        },
+        {
+          "name": "Md Mojibur Rahman",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mrahmanelt"
+        },
+        {
+          "name": "Nirban Manna",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=nirban"
+        },
+        {
+          "name": "Rahul D R",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rahuldr"
+        },
+        {
+          "name": "Rajni Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rajnisingh18"
+        },
+        {
+          "name": "Sanatan Mandal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sanatanmandal"
+        },
+        {
+          "name": "Sangay Tamang",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sangayt"
+        },
+        {
+          "name": "Sathya Narayana Sharma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=SATHYA"
+        },
+        {
+          "name": "Shanmugapriya T",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shanmugapriya"
+        },
+        {
+          "name": "Shonkholen Mate",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shonkholen"
+        },
+        {
+          "name": "Sruti Kanungo",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sruti"
+        },
+        {
+          "name": "Sucharita Maji",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sucharita"
+        }
+      ],
+      "faculty_count": 18
+    },
+    {
+      "name": "Petroleum Engineering",
+      "faculty": [
+        {
+          "name": "Ajay Mandal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ajay"
+        },
+        {
+          "name": "Ajay Suri",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ajaysuri"
+        },
+        {
+          "name": "Archana",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=archanabalikram"
+        },
+        {
+          "name": "Ashutosh Kumar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=akumar"
+        },
+        {
+          "name": "Baroruchi Mishra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=baroruchi.mishra"
+        },
+        {
+          "name": "Chandan Guria",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=cguria"
+        },
+        {
+          "name": "Chandan Sahu",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=chandansahu"
+        },
+        {
+          "name": "Dr. Neetish Kumar Maurya",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=neetish"
+        },
+        {
+          "name": "Keka Ojha",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kekaojha"
+        },
+        {
+          "name": "Mohammed Hamid Siddique",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mhsiddique"
+        },
+        {
+          "name": "Om Prakash Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=opsingh151264"
+        },
+        {
+          "name": "Pawan Gupta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pawang"
+        },
+        {
+          "name": "Raj Kiran",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rajkiran"
+        },
+        {
+          "name": "Rajeev Upadhyay",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=RajeevUpadhyay"
+        },
+        {
+          "name": "SAYANTAN GHOSH",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=Sayantan"
+        },
+        {
+          "name": "Tarun Kumar Naiya",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=tarunnaiya"
+        },
+        {
+          "name": "Vikas Mahto",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vikas"
+        },
+        {
+          "name": "Vinay Kumar Rajak",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vinayrajak"
+        }
+      ],
+      "faculty_count": 18
+    },
+    {
+      "name": "Mining Engineering",
+      "faculty": [
+        {
+          "name": "Ajeet Yadav",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ajeet"
+        },
+        {
+          "name": "Anindya Sinha",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=anindya"
+        },
+        {
+          "name": "Ankush Galav",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ankushgalav"
+        },
+        {
+          "name": "Arka Jyoti Das",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=arkajyoti"
+        },
+        {
+          "name": "Arvind Kumar Mishra",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=arvindmishra"
+        },
+        {
+          "name": "Ashok Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ashokmin"
+        },
+        {
+          "name": "Bhanwar Singh Choudhary",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=bhanwarschoudhary"
+        },
+        {
+          "name": "Bhaskara Behera",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=bhaskara"
+        },
+        {
+          "name": "Devi Prasad Mishra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=dpmishra"
+        },
+        {
+          "name": "Dheeraj Kumar",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=dheeraj"
+        },
+        {
+          "name": "Dondapati Gopi Krishna",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=gopikrishna"
+        },
+        {
+          "name": "Gnananandh Budi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=anandbudi"
+        },
+        {
+          "name": "Kashinath Pal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kashinath"
+        },
+        {
+          "name": "Maitreya Mohan Sahoo",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=maitreyamohan"
+        },
+        {
+          "name": "Mohammad Soyeb Alam",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=msalam"
+        },
+        {
+          "name": "Partha Sarathi Paul",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=drpspaul"
+        },
+        {
+          "name": "Patitapaban Sahu",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=patitapaban"
+        },
+        {
+          "name": "R M Bhattacharjee",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rmbhattacharjee"
+        },
+        {
+          "name": "Rabindra Kumar Sinha",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rksinha"
+        },
+        {
+          "name": "Radhakanta Koner",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rkoner"
+        },
+        {
+          "name": "Santosh Kumar Behera",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=skbehera"
+        },
+        {
+          "name": "Siddhartha Agarwal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sagarwal"
+        },
+        {
+          "name": "Swapnil Mishra",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=swapnil"
+        },
+        {
+          "name": "V M S R Murthy",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vmsrmurthy"
+        },
+        {
+          "name": "Vasanta Govind Kumar Villuri",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vgkvilluri"
+        }
+      ],
+      "faculty_count": 25
+    },
+    {
+      "name": "Environmental Science and Engineering",
+      "faculty": [
+        {
+          "name": "Alok Sinha",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=Alok"
+        },
+        {
+          "name": "Anshumali",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=anshumali"
+        },
+        {
+          "name": "Biswajit Paul",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=biswajit"
+        },
+        {
+          "name": "Brijesh Kumar Mishra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=brijesh"
+        },
+        {
+          "name": "Madhumita Patel",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=madhumita"
+        },
+        {
+          "name": "Manish Kumar Jain",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=manish"
+        },
+        {
+          "name": "P.Saravanan",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=saravananpichiah"
+        },
+        {
+          "name": "Prasoon Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pks0506"
+        },
+        {
+          "name": "Riya Dutta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=riyadutta"
+        },
+        {
+          "name": "Saifi Izhar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=saifi"
+        },
+        {
+          "name": "Sheeja Jagadevan",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sheejaj"
+        },
+        {
+          "name": "Shubhasikha Das",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shubhasikha"
+        },
+        {
+          "name": "Subodh Kumar Maiti",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=subodh"
+        },
+        {
+          "name": "Sukha Ranjan Samadder",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=samadder"
+        },
+        {
+          "name": "Sunil Kumar Gupta",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sunil"
+        },
+        {
+          "name": "Suresh Pandian Elumalai",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=espandian"
+        },
+        {
+          "name": "Tinesh Pathania",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=tineshpathania"
+        },
+        {
+          "name": "Vipin Kumar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vipinmicro1"
+        },
+        {
+          "name": "Vittal H",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vittal"
+        }
+      ],
+      "faculty_count": 19
+    },
+    {
+      "name": "Electronics Engineering",
+      "faculty": [
+        {
+          "name": "Aman Sikri",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=amansikri"
+        },
+        {
+          "name": "Amitesh Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=amitesh"
+        },
+        {
+          "name": "Debjani Mitra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=debjanim"
+        },
+        {
+          "name": "Devendra Chack",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=devendra"
+        },
+        {
+          "name": "Govind Murmu",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=govind"
+        },
+        {
+          "name": "Himanshu Bhusan Mishra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=himanshu"
+        },
+        {
+          "name": "Jaisingh Thangaraj",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=jaisingh"
+        },
+        {
+          "name": "Jeevesh Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=jeevesh"
+        },
+        {
+          "name": "Jitendra Kumar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=jitendra"
+        },
+        {
+          "name": "Kaushik Mazumdar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kaushik"
+        },
+        {
+          "name": "Manodipan Sahoo",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=manodipan"
+        },
+        {
+          "name": "Manoj Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=manojkr"
+        },
+        {
+          "name": "Mrinal Sen",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mrinalsen"
+        },
+        {
+          "name": "Mukul Kumar Das",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mukulkdas"
+        },
+        {
+          "name": "Naresh Sharma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=nareshsharma"
+        },
+        {
+          "name": "Nirupama Mandal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=nirupama"
+        },
+        {
+          "name": "PRASHANT KUMAR VARSHNEY",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pkvarshney"
+        },
+        {
+          "name": "Preety Priya",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=preetypriya"
+        },
+        {
+          "name": "Rahul Bhattacharya",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rahul"
+        },
+        {
+          "name": "Rajeev Kumar Ranjan",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rajeev"
+        },
+        {
+          "name": "Ravi Kumar Gangwar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ravi"
+        },
+        {
+          "name": "Samrat Mukhopadhyay",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=samrat"
+        },
+        {
+          "name": "Sanjeev Kumar Raghuwanshi",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sanjeevrus77"
+        },
+        {
+          "name": "Santanu Dwari",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=santanu"
+        },
+        {
+          "name": "Shalu Rani",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shalu"
+        },
+        {
+          "name": "Subindu Kumar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=subindu"
+        },
+        {
+          "name": "Sushrut Das",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sushrut"
+        },
+        {
+          "name": "Swati Rajput",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=swatirajput"
+        },
+        {
+          "name": "Ugrasen Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ugrasen"
+        },
+        {
+          "name": "Y. M. Asha Latha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ymashalatha"
+        }
+      ],
+      "faculty_count": 30
+    },
+    {
+      "name": "Computer Science and Engineering",
+      "faculty": [
+        {
+          "name": "Amgoth Tarachand",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=tarachand"
+        },
+        {
+          "name": "Anjan Chowdhury",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=anjanchowdhury"
+        },
+        {
+          "name": "ANNAVARAPU CHANDRA SEKHARA RAO",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=acsrao"
+        },
+        {
+          "name": "Arup Kumar Pal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=arupkrpal"
+        },
+        {
+          "name": "Ayan Das",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ayandas"
+        },
+        {
+          "name": "Banshidhar Majhi",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vc"
+        },
+        {
+          "name": "Chiranjeev Kumar",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=chiranjeev"
+        },
+        {
+          "name": "Dharavath Ramesh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=drramesh"
+        },
+        {
+          "name": "Haider Banka",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=haider"
+        },
+        {
+          "name": "Hari Om",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=hari"
+        },
+        {
+          "name": "Jaishree Mayank",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=jaishreem"
+        },
+        {
+          "name": "Mauajama Firdaus",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mauajama"
+        },
+        {
+          "name": "Nikhil Tripathi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=nikhiltripathi"
+        },
+        {
+          "name": "Partha Pratim Roy",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=parthapratim"
+        },
+        {
+          "name": "Pranav Bisht",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pranav"
+        },
+        {
+          "name": "Pranay Kumar Saha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pranay"
+        },
+        {
+          "name": "Prasanta K. Jana",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=prasantajana"
+        },
+        {
+          "name": "Rahul Gangopadhyay",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rahulgangopadhyay"
+        },
+        {
+          "name": "Rajendra Pamula",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rajendra"
+        },
+        {
+          "name": "Sachin Tripathi",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sachin2781"
+        },
+        {
+          "name": "Saurabh Srivastava",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ssrivastava"
+        },
+        {
+          "name": "Soumen Bag",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=soumen"
+        },
+        {
+          "name": "Subhrangsu Mandal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=subhrangsu"
+        },
+        {
+          "name": "Sushanta Mukhopadhyay",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=msushanta2001"
+        },
+        {
+          "name": "Tanusree Kaibartta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=tanusree2013"
+        }
+      ],
+      "faculty_count": 25
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "Amitava Adak",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=amitavaadak"
+        },
+        {
+          "name": "Anil Kumar Nirala",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=aknirala"
+        },
+        {
+          "name": "Asit Kumar Kar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=asit"
+        },
+        {
+          "name": "Avijit Misra",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=avijitmisra"
+        },
+        {
+          "name": "Binata Panda",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=binata"
+        },
+        {
+          "name": "Bobby Kachappilly Antony",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=bobby"
+        },
+        {
+          "name": "Esha Kundu",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=eshakundu"
+        },
+        {
+          "name": "Jhasaketan Nayak",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=nayakj"
+        },
+        {
+          "name": "Kaushal Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kkumar"
+        },
+        {
+          "name": "Mandlik Mangesh Mohan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mandlik"
+        },
+        {
+          "name": "Manu Kurian",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=manukurian"
+        },
+        {
+          "name": "Pankaj Mishra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pankaj"
+        },
+        {
+          "name": "Prashant Kumar Sharma",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=prashant"
+        },
+        {
+          "name": "Prof. Ram Bilash Choudhary",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rbchoudhary"
+        },
+        {
+          "name": "R. Thangavel",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rthangavel"
+        },
+        {
+          "name": "Rajendra Prasad Giri",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rpgiri"
+        },
+        {
+          "name": "Ritwik Mondal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ritwik"
+        },
+        {
+          "name": "Samapika Mallik",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=samapika"
+        },
+        {
+          "name": "Sarun P M",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sarun"
+        },
+        {
+          "name": "Shailendra Kumar Sharma",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sksharma"
+        },
+        {
+          "name": "Shreya Banerjee",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shreya"
+        },
+        {
+          "name": "Sk Riyajuddin",
+          "designation": "Inspire Faculty",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=skriyajuddin"
+        },
+        {
+          "name": "Soumya Bagchi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sbagchi"
+        },
+        {
+          "name": "Sridhar Sahu",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sridharsahu"
+        },
+        {
+          "name": "Sudeshna Sen",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sudeshna"
+        },
+        {
+          "name": "Sudipto Singha Roy",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sudipto"
+        },
+        {
+          "name": "Tusharkanti Dey",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=tushar"
+        },
+        {
+          "name": "Umakanta Tripathy",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=utripathy"
+        },
+        {
+          "name": "Vineet Kumar Rai",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vineetkrrai"
+        },
+        {
+          "name": "Vinod Kumar Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vksingh"
+        }
+      ],
+      "faculty_count": 30
+    },
+    {
+      "name": "Electrical Engineering",
+      "faculty": [
+        {
+          "name": "Ananda Shankar Hati",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=anandashati"
+        },
+        {
+          "name": "Anirban Ghoshal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=anirbanghoshal"
+        },
+        {
+          "name": "Arijit Baral",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=arijit"
+        },
+        {
+          "name": "Ashok Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=krashok"
+        },
+        {
+          "name": "Bhawana Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=bhawana"
+        },
+        {
+          "name": "Bhukya Krishna Naick",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=krishna2bk2ee"
+        },
+        {
+          "name": "Biplab Bhattacharyya",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=biplab"
+        },
+        {
+          "name": "Devara Vijaya Bhaskar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=devara"
+        },
+        {
+          "name": "Dushyant Sharma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=dushyant"
+        },
+        {
+          "name": "Gauri Shankar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=gaurishankar"
+        },
+        {
+          "name": "Haswanth Vundavilli",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=haswanth"
+        },
+        {
+          "name": "Kalyan Chatterjee",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kalyanchatterjee"
+        },
+        {
+          "name": "Kartick Chandra Jana",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=kartick"
+        },
+        {
+          "name": "Nitai Pal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=nitai"
+        },
+        {
+          "name": "Paresh Kumar Nayak",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=paresh"
+        },
+        {
+          "name": "Pradip Kumar Sadhu",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pradip"
+        },
+        {
+          "name": "Priyatosh Mahish",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=priyatosh"
+        },
+        {
+          "name": "Sanjoy Mandal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sanjoymandal"
+        },
+        {
+          "name": "Sethupathy S",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sethupathy"
+        },
+        {
+          "name": "Shyam A B",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shyamab"
+        },
+        {
+          "name": "Somnath Pan",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=somnathpan"
+        },
+        {
+          "name": "Sonam Acharya",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sonamacharya"
+        },
+        {
+          "name": "Soumyabrata Barik",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=soumyabrata"
+        },
+        {
+          "name": "Sukanta Das",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=asksukanta"
+        },
+        {
+          "name": "Sukanta Halder",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sukanta.ee"
+        },
+        {
+          "name": "Sukumar Mishra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty="
+        },
+        {
+          "name": "Tanmoy Maity",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=tanmoy"
+        },
+        {
+          "name": "Vedantham Lakshmi Srinivas",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vlsrinivas"
+        },
+        {
+          "name": "Vivekananda Mukherjee",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=vivekananda"
+        }
+      ],
+      "faculty_count": 29
+    },
+    {
+      "name": "Chemistry and Chemical Biology",
+      "faculty": [
+        {
+          "name": "Ananya Banik",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ananyabanik"
+        },
+        {
+          "name": "Asmita Singha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=asmita"
+        },
+        {
+          "name": "Bikash Garai",
+          "designation": "ANRF-Ramanujan Fellow",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=bikashgarai"
+        },
+        {
+          "name": "Biswajit Chowdhury",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=biswajit72"
+        },
+        {
+          "name": "Chanchal Haldar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=chanchal"
+        },
+        {
+          "name": "Devena Deo Pathak",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ddpathak"
+        },
+        {
+          "name": "Ganesh Chandra Nayak",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=gcnayak"
+        },
+        {
+          "name": "Hari Pada Nayek",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=hpnayek"
+        },
+        {
+          "name": "Jadab Majhi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=jadab"
+        },
+        {
+          "name": "Madhulika Gupta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=madhulikagupta"
+        },
+        {
+          "name": "Mahendra Yadav",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mahendra"
+        },
+        {
+          "name": "NAGA RAJIV LAKKANIGA",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=nagarajiv"
+        },
+        {
+          "name": "Niladri Patra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=npatra2"
+        },
+        {
+          "name": "Parthasarathi Das",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=partha"
+        },
+        {
+          "name": "Rashmi Madhuri",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rashmi"
+        },
+        {
+          "name": "Rohith P John",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=rohithjohn"
+        },
+        {
+          "name": "Sagar Pal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sagarpal"
+        },
+        {
+          "name": "Somnath Yadav",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=somnath"
+        },
+        {
+          "name": "Soumit Chatterjee",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=soumit"
+        },
+        {
+          "name": "Soumitra Maity",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=smaity"
+        },
+        {
+          "name": "Sourav Kumar Dey",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=souravdey"
+        },
+        {
+          "name": "Sumanta Kumar Padhi",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sumanta"
+        },
+        {
+          "name": "Sumanta Kumar Sahu",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sksahu"
+        },
+        {
+          "name": "Sunil Pulletikurti",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=pulletikurtis"
+        },
+        {
+          "name": "Swapan Dey",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=swapan"
+        },
+        {
+          "name": "Tapas Kumar Sahoo",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=tapask.sahoo"
+        }
+      ],
+      "faculty_count": 26
+    },
+    {
+      "name": "Applied Geophysics",
+      "faculty": [
+        {
+          "name": "Mohit Agrawal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=mohit"
+        },
+        {
+          "name": "Niptika Jana",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=niptikaj"
+        },
+        {
+          "name": "Partha Pratim Mandal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=partham"
+        },
+        {
+          "name": "Prosanta Kumar Khan",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=khanprosanta1966"
+        },
+        {
+          "name": "Sanjit Kumar Pal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=sanjitismagp"
+        },
+        {
+          "name": "Saumen Maiti",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=saumen"
+        },
+        {
+          "name": "Saurabh Datta Gupta",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=saurabh"
+        },
+        {
+          "name": "Shalivahan",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=shalivahan"
+        },
+        {
+          "name": "Swarandeep Sahoo",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=swarandeep"
+        },
+        {
+          "name": "Ujjal Kumar Borah",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=ujjalborah"
+        },
+        {
+          "name": "Upendra K. Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitism.ac.in/faculty-details?faculty=upendra"
+        }
+      ],
+      "faculty_count": 11
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": null,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "research_centres": [
+      "Centers",
+      "Centres",
+      "Health Centre"
+    ]
+  },
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iitism.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 71,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-ism-dhanbad",
+  "last_scraped_at": "2026-03-31T16:00:21.376237",
+  "department_count": 17,
+  "total_faculty": 419
+}

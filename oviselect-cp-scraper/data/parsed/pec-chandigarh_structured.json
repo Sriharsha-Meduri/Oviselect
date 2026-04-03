@@ -1,0 +1,234 @@
+{
+  "institute": "PEC, Chandigarh",
+  "institute_type": "GFTI",
+  "also_known_as": "PEC Chandigarh",
+  "established_year": 1921,
+  "city": "Chandigarh",
+  "state": "Chandigarh",
+  "address": "Punjab Engineering College, Sector-12, Chandigarh - 160012",
+  "nearest_airport": "Shaheed Bhagat Singh International Airport, Chandigarh",
+  "nearest_airport_km": 19.2,
+  "nearest_railway_station": "Chandigarh Junction Railway Station",
+  "nearest_railway_km": 9.2,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": 101,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": "851-900 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": null,
+  "hostel_fee_per_sem": 72000,
+  "mess_advance_per_sem": 3500,
+  "one_time_fees": 11000,
+  "caution_money": 8000,
+  "annual_fees": null,
+  "total_institute_fee": 113000,
+  "total_hostel_fee": null,
+  "fee_waivers": null,
+  "overall_placement_pct": null,
+  "avg_package_lpa": 13.22,
+  "median_package_lpa": 12.44,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": null,
+  "branch_wise_median_ctc": {
+    "Aerospace Engineering": 12.0,
+    "Civil Engineering": 11.0,
+    "Computer Science and Engineering": 14.0,
+    "Electrical Engineering": 12.0,
+    "Electronics and Communication Engineering": 14.0,
+    "Mechanical Engineering": 11.0,
+    "Metallurgical and Materials Engineering": 13.0,
+    "Production and Industrial Engineering": 12.0,
+    "Overall": 13.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Aerospace Engineering": 13.0,
+    "Civil Engineering": 11.0,
+    "Computer Science and Engineering": 17.0,
+    "Electrical Engineering": 14.0,
+    "Electronics and Communication Engineering": 15.0,
+    "Mechanical Engineering": 11.0,
+    "Metallurgical and Materials Engineering": 12.0,
+    "Production and Industrial Engineering": 12.0,
+    "Overall": 14.0
+  },
+  "top_recruiters": [
+    "Decrease Text Size",
+    "Normal Text Size",
+    "Increase Text Size",
+    "Black Theme",
+    "Default Theme",
+    "Screen Reader Access",
+    "Department Logo",
+    "Indian Emblem",
+    "Home",
+    "Academic Units Departments Centres",
+    "Overview",
+    "Sponsored Research",
+    "Consultancy",
+    "Research Highlights",
+    "Research Facilities",
+    "MOUs",
+    "Norms and Forms",
+    "Contacts",
+    "Placements",
+    "About the Centre",
+    "Invitation",
+    "Message from the Director",
+    "Message from the Head",
+    "Placement Procedure",
+    "Placement Policy",
+    "Placement Statistics",
+    "Why Recruit @ PEC?",
+    "Training and Placement Portal",
+    "Downloads",
+    "Facilities for Recruiters",
+    "Past Recruiters",
+    "How to Reach PEC",
+    "Testimonials from Companies",
+    "Student Placement Committee",
+    "Important Links",
+    "FAQ's",
+    "Contact Us",
+    "tnp-img"
+  ],
+  "placement_year": 2024,
+  "placement_officer": {
+    "name": null,
+    "designation": null,
+    "email": "webmaster@pec.edu.in",
+    "phone": "2020-2021"
+  },
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Aerospace Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Tejinder Kumar Jindal",
+          "designation": "Professor & Head Aerospace Engineering B.E",
+          "email": null
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Civil Engineering",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Computer Science and Engineering",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Electrical Engineering",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Electronics and Communication",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Mathematics",
+      "faculty": [],
+      "faculty_count": 0
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "Dr. Shilpi Chaudhary Shilpi Chaudhary",
+          "designation": "Assistant Professor Physics M. Tech. (IIT Delhi)",
+          "email": null
+        }
+      ],
+      "faculty_count": 1
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": null,
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": false,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": {
+    "clubs": [
+      "Campus Life Students Facilities Entrepreneurship and Incubation Cell Online Fee Payment",
+      "Entrepreneurship and Incubation Cell"
+    ],
+    "technical_societies": null,
+    "technical_fests": null,
+    "cultural_fests": null,
+    "has_nss": false,
+    "has_ncc": false,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.pec.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 58,
+  "needs_review": true,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/pec-chandigarh",
+  "last_scraped_at": "2026-03-31T16:25:39.427924",
+  "department_count": 8,
+  "total_faculty": 2
+}

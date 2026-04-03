@@ -1,0 +1,852 @@
+{
+  "institute": "NIT Calicut",
+  "institute_type": "NIT",
+  "also_known_as": "NITC",
+  "established_year": 1961,
+  "city": "Calicut",
+  "state": "Kerala",
+  "address": "National Institute of Technology, Chathamangalam, Kozhikode, Kerala - 673601",
+  "nearest_airport": "Kozhikode International Airport",
+  "nearest_airport_km": 29.0,
+  "nearest_railway_station": "Kozhikode Railway Station",
+  "nearest_railway_km": 21.5,
+  "nirf_overall_rank": 45,
+  "nirf_engineering_rank": 21,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": "11-50 (2025)",
+  "qs_world_rank": null,
+  "qs_asia_rank": "580 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": 17,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 9000,
+  "mess_advance_per_sem": 25000,
+  "one_time_fees": 33000,
+  "caution_money": 20000,
+  "annual_fees": 7786,
+  "total_institute_fee": 127286,
+  "total_hostel_fee": 69000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 85.38,
+  "avg_package_lpa": 12.26,
+  "median_package_lpa": 30.58,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Bio Technology": 66.67,
+    "Chemical Engineering": 86.67,
+    "Civil Engineering": 84.27,
+    "Computer Science and Engineering": 96.77,
+    "Electrical and Electronics Engineering": 97.01,
+    "Electronics and Communication Engineering": 88.59,
+    "Engineering Physics": 42.86,
+    "Materials Science and Engineering": 52.94,
+    "Mechanical Engineering": 88.39,
+    "Production Engineering": 82.35,
+    "Architecture": 2.63,
+    "Overall (UG)": 85.38
+  },
+  "branch_wise_median_ctc": {
+    "Bio Technology": 20.0,
+    "Chemical Engineering": 26.0,
+    "Civil Engineering": 33.21,
+    "Computer Science and Engineering": 47.0,
+    "Electrical and Electronics Engineering": 38.04,
+    "Electronics and Communication Engineering": 38.04,
+    "Engineering Physics": 43.45,
+    "Materials Science and Engineering": 17.73,
+    "Mechanical Engineering": 36.5,
+    "Production Engineering": 12.0,
+    "Architecture": 8.0,
+    "Overall (UG)": 47.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Bio Technology": 10.27,
+    "Chemical Engineering": 9.99,
+    "Civil Engineering": 8.75,
+    "Computer Science and Engineering": 21.92,
+    "Electrical and Electronics Engineering": 14.74,
+    "Electronics and Communication Engineering": 18.75,
+    "Engineering Physics": 13.71,
+    "Materials Science and Engineering": 9.87,
+    "Mechanical Engineering": 9.78,
+    "Production Engineering": 8.44,
+    "Architecture": 6.53,
+    "Overall (UG)": 14.36
+  },
+  "top_recruiters": [
+    "Language",
+    "NITC",
+    "NITC Campus",
+    "Overview",
+    "Governing Body",
+    "Organizational Structure",
+    "Visitor",
+    "Chairperson",
+    "Director",
+    "Registrar",
+    "Heads of Departments",
+    "Deputy Director",
+    "Summer Internship Programme 2026 at NIT Calicut",
+    "Regional Investor Awareness Programme at NIT Calicut",
+    "NIT Calicut Wins All India Inter NIT Hockey Tournament 2026",
+    "Renovated Guest House “Sukrtam” Inaugurated at NIT Calicut",
+    "NIT Calicut Celebrated Its First Alumni Day",
+    "77th Republic Day Celebrations",
+    "National Conclave 2026 (SRC) – NCTE at NIT Calicut",
+    "NIT Calicut Celebrates its 65th Foundation Day",
+    "21st Convocation of NIT Calicut",
+    "21st Convocation @ NITC",
+    "65th FOUNDATION DAY @ NITC",
+    "UG Orientation Programme at NIT Calicut",
+    "NIT Calicut Celebrates 79th Independence Day 2025",
+    "PG Orientation Programme at NIT Calicut",
+    "NIT Calicut Celebrating Independence Day 2025",
+    "First Sports Achievement of the Academic Year 2025–26!",
+    "NIT Calicut Becomes India’s First I-STEM Catalyst Center",
+    "Flag-Off of New Institute Buses by Director at NIT Calicut",
+    "Inauguration of Amul Snacks Parlour at NIT Calicut",
+    "Cochin Bakery Inaugurated at NIT Calicut Campus",
+    "Smart Laundry Facility Inaugurated at NIT Calicut Hostels",
+    "Van Mahotsav Celebrated at NIT Calicut with",
+    "Electricity Safety Awareness Programme – Phase 2",
+    "NIT Calicut Joins the Prestigious HERITAGE Network",
+    "Ek Ped Maa Ke Naam",
+    "NITC repeats outstanding achievement in NBA Accreditation",
+    "ADMISSIONS",
+    "PLACEMENTS",
+    "RECRUITMENTS",
+    "CONFERENCES & WORKSHOPS",
+    "CONTACT US",
+    "NITC Logo",
+    "NITCAA - Alumni of B.Tech 1993-97 Batch",
+    "About NITC",
+    "Mission",
+    "Vision",
+    "Legacy",
+    "NIT Acts/Statutes",
+    "NITC Rules/Proceedings",
+    "Departments",
+    "Multidisciplinary Centres",
+    "Thematic Centres",
+    "Students Conduct and Disciplinary Code 2022",
+    "Office of the Dean Planning and Development",
+    "NITC Calendar",
+    "Outreach",
+    "NITC Brochure",
+    "Institute Newsletter"
+  ],
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Architecture and Planning",
+      "faculty": [
+        {
+          "name": "Dr. Naseer M. A.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Kasthurba A. K.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. P. P. Anil Kumar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Chithra K.",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Mohammed Firoz",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Ar. Abhishek Kumar",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Ar. Chenna Vivek Kumar",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Ar. Kiriti Sahoo",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Ar. Ritesh Ranjan",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Ar.Kuladeep Kumar Sadevi",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 10
+    },
+    {
+      "name": "Bioscience and Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Suresh P. S.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. A. Santhiagu",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Md. Anaul Kabir",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Rajanikant G. K.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Rathinasamy K.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Suchithra T. V.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Baiju G. Nair",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Cecil Antony",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Ilanila I. P.",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Indumathi Sathisaran",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 10
+    },
+    {
+      "name": "Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Malladi V. Pavan Kumar",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Lity Alen Varghese",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Shiny Joseph",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Aparna K.",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. K. Haribabu",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Noel Jacob Kaleekkal",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Panneerselvam Ranganathan",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. S. Bhuvaneshwari",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Ahammed Sherief K. Y.",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 9
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [
+        {
+          "name": "Dr. G. Unnikrishnan",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. A. Sujith",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Lakshmi C.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Lisa Sreejith",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Parameswaran Pattiyil",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Anuj A. Vargeese",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Janardhan Banothu",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Mini Mol Menamparambath",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Muniyandi Sankaralingam",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Chinna Ayya Swamy P.",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 10
+    },
+    {
+      "name": "Civil Engineering",
+      "faculty": [
+        {
+          "name": "Dr. K. Krishnamurthy",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. M. V. L. R. Anjaneyulu",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. Santosh G. Thampi",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. T. M. Madhavan Pillai",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. A. S. Sajith",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. George. K. Varghese",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Kodi Ranga Swamy",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Mohammed Ameen",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Praveen Nagarajan",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Anantha Singh T. S.",
+          "designation": "Associate Professor"
+        }
+      ],
+      "faculty_count": 10
+    },
+    {
+      "name": "Computer Science & Engineering",
+      "faculty": [
+        {
+          "name": "Subashini R.",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Abdul Nazeer K. A.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Abidha V P",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Amit Praseed",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Anand Babu. N. B.",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Anil Pinapati",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Anu Mary Chacko",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Arun Raj Kumar P.",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Ashwin Jacob",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "B. Umamaheswara Sharma",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 10
+    },
+    {
+      "name": "Electrical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Jagadanand G.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Jeevamma Jacob",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. Kumaravel S.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Mukti Barai",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Preetha P.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Rijil Ramchand",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Sindhu T. K.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Sunitha K.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. S. N. Deepa",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Mija S. J.",
+          "designation": "Associate Professor"
+        }
+      ],
+      "faculty_count": 10
+    },
+    {
+      "name": "Electronics & Communication Engineering",
+      "faculty": [
+        {
+          "name": "Dr. G. Sreelekha",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. P. S. Sathidevi",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. A. V. Babu",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. P. P. Deepthi",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. S. M. Sameer",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Sudhish N. George",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. Ameer P. M.",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Bindiya T. S.",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. C. Periasamy",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Dhanaraj K. J.",
+          "designation": "Associate Professor"
+        }
+      ],
+      "faculty_count": 10
+    },
+    {
+      "name": "Humanities, Arts and Social Sciences",
+      "faculty": [
+        {
+          "name": "Dr. Preeti Navneeth",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. T. K. Suresh Babu",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Sunitha S",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Mohamad Aslam",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Reju George Mathew",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Tiasa Bal",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Vrinda Varma",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 7
+    },
+    {
+      "name": "Materials Science and Engineering",
+      "faculty": [
+        {
+          "name": "Dr. V. Sajith",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. C. B. Sobhan",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. N. Sandhyarani",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Soney Varghese",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Hanas T.",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Shijo Thomas",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Aparna Zagabathuni",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. C. N. Shyam Kumar",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Jeetu S. Babu",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Telagathoti Suresh Kumar",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 10
+    },
+    {
+      "name": "Mathematics",
+      "faculty": [
+        {
+          "name": "Dr. Sunil Mathew",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Chithra A. V.",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. M. S. Sunitha",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Satyananda Panda",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Sunil Jacob John",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Ashish Awasthi",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Krishnan Paramasivam",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Lineesh M. C.",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Mahesh Kumar",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Sanjay P. K.",
+          "designation": "Associate Professor"
+        }
+      ],
+      "faculty_count": 10
+    },
+    {
+      "name": "Management Studies"
+    },
+    {
+      "name": "Mechanical Engineering"
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "Dr. Vari Sivaji Reddy",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Chandrasekharan K.",
+          "designation": "Professor (HAG)"
+        },
+        {
+          "name": "Dr. Aji A. Anappara",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Raghu Chatanathodi",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Ravi Varma Mundakkara Kovilakam",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Saurabh Gupta",
+          "designation": "Associate Professor"
+        },
+        {
+          "name": "Dr. Anirban Sarkar",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Anoop Varghese",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Aswathi. G.",
+          "designation": "Assistant Professor"
+        },
+        {
+          "name": "Dr. Biswajit Mandal",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 10
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "active_projects": null,
+    "funding_agencies": [
+      "DRDO"
+    ],
+    "total_funding_crores": 5.0,
+    "consultancy_projects": null,
+    "patents_filed": null,
+    "patents_granted": null,
+    "publications_per_year": null,
+    "phd_students_enrolled": null,
+    "phds_awarded": null,
+    "research_centres": null,
+    "international_collaborations": null
+  },
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": null,
+    "sports_facilities": [
+      "Badminton",
+      "Hockey"
+    ],
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": true,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": {
+    "clubs": [
+      "Media Cell",
+      "Students Guidance Cell",
+      "Faculty Club",
+      "Staff Recreation Club",
+      "FACULTY CLUB",
+      "Grievance Cell",
+      "Students’ Guidance Cell",
+      "Student Grievance Redressal Cell",
+      "Equal Opportunities Cell",
+      "Anti-Ragging Cell",
+      "Anti-Narcotics Cell"
+    ],
+    "technical_societies": null,
+    "technical_fests": [
+      "Innovation Innovative Projects Patents Technology Transfer Technology Business Incubator (TBI) Design Innovation Centre (DIC) Institute Innovation Council (IIC) Centre for Innovation, Entrepreneurship and Incubation (CIEI) Innovations in the Media",
+      "Technology Transfer",
+      "Technology Business Incubator (TBI)",
+      "Life at NITC STUDENT LIFE Hostels Students Affairs Council Students Guidance Cell Clubs and Associations Sports and Games Technical Fest – Tathva Cultural Fest – Ragam Management Fest – Tarang Faculty Club Staff Recreation Club Day Care Centre Campus School NITC Multipurpose Cooperative Society",
+      "Technical Fest – Tathva",
+      "Centre for Information Technology, Research, and Automation (CITRA)",
+      "Centre for Sustainable Technologies",
+      "Centre for Space Science and Technology (CSST)",
+      "Innovation Innovative Projects Patents Technology Transfer Technology Business Incubator (TBI) Design Innovation Centre (DIC) Institute Innovation Council (IIC) Centre for Centre for Innovation, Entrepreneurship and Incubation (CIEI) Innovations in the Media",
+      "STUDENT LIFE Hostels Students Affairs Council Students Guidance Cell Clubs and Associations Sports and Games Technical Fest – Tathva Cultural Fest – Ragam Management Fest – Tarang"
+    ],
+    "cultural_fests": [
+      "Cultural Fest – Ragam"
+    ],
+    "has_nss": false,
+    "has_ncc": false,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Institute Newsletter",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Slot System",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Innovation Council (IIC)",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Slot System",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Communique - Institute Newsletter",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Newsletter",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Slot System",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Innovation Council (IIC)",
+        "country": null,
+        "focus_area": null
+      }
+    ],
+    "mou_count": 73,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.nitc.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 88,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-calicut",
+  "last_scraped_at": "2026-03-31T16:02:00.237153",
+  "department_count": 14,
+  "total_faculty": 116
+}

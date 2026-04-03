@@ -3,26 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>OviSelect - AI Counselling OS for Engineering Admissions</title>
-    <meta name="description" content="OviSelect is an AI-powered counselling operating system for JEE students. Get personalized college recommendations, optimized choice lists, and round-by-round AI guidance for JoSAA, state CETs, COMEDK and more." />
+    <title>OviGuide - AI Counselling OS for Engineering Admissions</title>
+    <meta name="description" content="OviGuide is an AI-powered counselling operating system for JEE students. Get personalized college recommendations, optimized choice lists, and round-by-round AI guidance for JoSAA, state CETs, COMEDK and more." />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <script>
       tailwind.config = {
-        darkMode: 'class',
         theme: {
           extend: {
             fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-              display: ['Space Grotesk', 'sans-serif'],
+              sans: ['Instrument Sans', 'Inter', 'sans-serif'],
+              display: ['DM Serif Display', 'Georgia', 'serif'],
+              mono: ['DM Mono', 'monospace'],
             },
             colors: {
-              brand: {
-                black: '#0a0a0a',
-                accent: '#2563eb'
-              }
+              ink:    { DEFAULT: '#F5F0E8', 2: '#F5F0E8', 3: '#D4CFC8', 4: '#D4CFC8' },
+              paper:  { DEFAULT: 'rgba(26,26,26,0.55)', 2: 'rgba(26,26,26,0.45)', 3: 'rgba(255,255,255,0.1)' },
+              accent: { DEFAULT: '#FFFFFF', light: 'rgba(255,255,255,0.12)' },
+              cblue:  { DEFAULT: '#7eb8da', light: 'rgba(126,184,218,0.15)' },
+              cgreen: { DEFAULT: '#73bfc4', light: 'rgba(115,191,196,0.15)' },
+              camber: { DEFAULT: '#ff810a', light: 'rgba(255,129,10,0.15)' },
             },
           }
         }
@@ -30,26 +32,54 @@
     </script>
     <style>
       body {
-        font-family: 'Inter', sans-serif;
-        background-color: #ffffff;
-        color: #0a0a0a;
+        font-family: 'Instrument Sans', 'Inter', sans-serif;
+        background-color: transparent;
+        color: #F5F0E8;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
       .scrollbar-hide::-webkit-scrollbar { display: none; }
       .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
 
-      /* Scroll reveal */
+      /* Scroll reveal — fade-up */
       .fade-up {
         opacity: 0;
-        transform: translateY(22px);
+        transform: translateY(28px);
         transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1), transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
       }
       .fade-up.is-visible { opacity: 1; transform: translateY(0); }
+
+      /* Scroll reveal — fade-left (slide in from left) */
+      .fade-left {
+        opacity: 0;
+        transform: translateX(-28px);
+        transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1), transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      .fade-left.is-visible { opacity: 1; transform: translateX(0); }
+
+      /* Scroll reveal — fade-right (slide in from right) */
+      .fade-right {
+        opacity: 0;
+        transform: translateX(28px);
+        transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1), transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      .fade-right.is-visible { opacity: 1; transform: translateX(0); }
+
+      /* Scroll reveal — fade-scale (scale up, for hero visuals) */
+      .fade-scale {
+        opacity: 0;
+        transform: scale(0.96) translateY(16px);
+        transition: opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1), transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      .fade-scale.is-visible { opacity: 1; transform: scale(1) translateY(0); }
+
+      /* Staggered delay chain */
       .fade-up-d1 { transition-delay: 100ms; }
       .fade-up-d2 { transition-delay: 200ms; }
       .fade-up-d3 { transition-delay: 300ms; }
       .fade-up-d4 { transition-delay: 400ms; }
+      .fade-up-d5 { transition-delay: 400ms; }
+      .fade-up-d6 { transition-delay: 480ms; }
 
       /* College ticker marquee */
       @keyframes marquee {
@@ -59,17 +89,7 @@
       .marquee-track { animation: marquee 35s linear infinite; }
       .marquee-track:hover { animation-play-state: paused; }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "react": "https://esm.sh/react@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
+
 </head>
   <body>
     <div id="root"></div>

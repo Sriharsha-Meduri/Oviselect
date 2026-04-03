@@ -1,0 +1,664 @@
+{
+  "institute": "IIIT(IIIT) Kalyani, West Bengal",
+  "institute_type": "IIIT",
+  "also_known_as": "IIIT Kalyani",
+  "established_year": 2014,
+  "city": "Kalyani",
+  "state": "West Bengal",
+  "address": "Indian Institute of Information Technology, Webel IT Park, Near Buddha Park, Kalyani, Nadia, West Bengal - 741235",
+  "nearest_airport": "Netaji Subhas Chandra Bose International Airport, Kolkata",
+  "nearest_airport_km": 44.0,
+  "nearest_railway_station": "Kalyani Railway Station",
+  "nearest_railway_km": 5.0,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": null,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 110000,
+  "hostel_fee_per_sem": 24420,
+  "mess_advance_per_sem": 20000,
+  "one_time_fees": 7700,
+  "caution_money": 3000,
+  "annual_fees": null,
+  "total_institute_fee": 124380,
+  "total_hostel_fee": 61620,
+  "fee_waivers": null,
+  "overall_placement_pct": null,
+  "avg_package_lpa": 81.33,
+  "median_package_lpa": 81.33,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Students Registered": 75.0,
+    "Students Placed": 67.0,
+    "Placed (%)": 89.33
+  },
+  "branch_wise_median_ctc": {
+    "Students Registered": 72.0,
+    "Students Placed": 72.0,
+    "Placed (%)": 100.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Students Registered": 72.0,
+    "Students Placed": 72.0,
+    "Placed (%)": 100.0
+  },
+  "top_recruiters": [
+    "IIIT Kalyani",
+    "Achievements Faculty achievements Students Achievements",
+    "Sponsored Consultancy",
+    "IPR",
+    "IIC",
+    "SRIC Cell",
+    "NISP",
+    "Publications",
+    "Portals",
+    "Sponsored Projects",
+    "CEP",
+    "NIRF",
+    "Placements Placement Portal",
+    "Career",
+    "Notifications E-Notice Board Downloads",
+    "Contact Contact Us How to Reach",
+    "Old Website",
+    "Visitor counter: 90,403,556",
+    "Visitor counter:",
+    "Visitor today: 855",
+    "Visitor today:",
+    "Last Updated on: 31/03/2026"
+  ],
+  "placement_year": 2023,
+  "placement_officer": {
+    "name": null,
+    "designation": null,
+    "email": "iiitkalyani.office@gmail.com",
+    "phone": null
+  },
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": 19,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "General",
+      "hod_name": null,
+      "hod_designation": null,
+      "faculty_count": 19,
+      "faculty": [
+        {
+          "name": "Professors",
+          "designation": "Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/santanu-chattopadhyay",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Prof. Santanu Chattopadhyay Professor and Director",
+          "designation": "Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/santanu-chattopadhyay",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/amit-ranjan-azad",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Amit Ranjan Azad Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/amit-ranjan-azad",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Anirban Lakshman Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/anirban-lakshman",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Bhaskar Biswas Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/bhaskar-biswas",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Dalia Nandi (Das) Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/dalia-nandi-das",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Debasish Bera Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/debasish-bera",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Imon Mukherjee Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/imon-mukherjee",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Oishila Bandyopadhyay Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/oishila-bandyopadhyay",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Pratik Chakraborty Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/pratik-chakraborty",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Prof. Dr. Rabindranath Bera (Visiting Professor) Professor",
+          "designation": "Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/rabindranath-bera-visiting-professor",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Rinky Sha Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/rinky-sha",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Sanjay Chatterji Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/sanjay-chatterji",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Sanjoy Pratihar Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/sanjoy-pratihar",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. SK Hafizul Islam Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/sk-hafizul-islam",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Soumen Pandit Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/soumen-pandit",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Sudeshna Mondal Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/sudeshna-mondal",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        },
+        {
+          "name": "Dr. Uma Das Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": "https://iiitkalyani.ac.in/faculty/uma-das",
+          "publications": [
+            "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes"
+          ],
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        }
+      ]
+    },
+    {
+      "name": "Computer Science and Engineering",
+      "hod": null,
+      "faculty_count": 16,
+      "faculty": [
+        {
+          "name": "Prof. Santanu Chattopadhyay Professor",
+          "designation": "Professor",
+          "department": "",
+          "email": "director@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Amit Ranjan Azad Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "amitranjanazad@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Anirban Lakshman Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "anirban@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Bhaskar Biswas Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "bhaskar@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Dalia Nandi",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "dalia@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Debasish Bera Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "debasish@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Imon Mukherjee Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "imon@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Oishila Bandyopadhyay Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "oishila@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Pratik Chakraborty Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "pratik@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rabindranath Bera",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "rbera@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rinky Sha Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "rinky@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Sanjay Chatterji Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "sanjayc@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Sanjoy Pratihar Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "sanjoy@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Soumen Pandit Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "soumen@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Sudeshna Mondal Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "sudeshna@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Uma Das Assistant Professor",
+          "designation": "Assistant Professor",
+          "department": "",
+          "email": "uma@iiitkalyani.ac.in",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        }
+      ]
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "research_centres": [
+      "Institute Innovation Council"
+    ]
+  },
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": null,
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": false,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": {
+    "clubs": [
+      "Film and Media Club",
+      "Symphony (Music Club)",
+      "Algoholic (Technical Club)",
+      "SRIC Cell"
+    ],
+    "technical_societies": null,
+    "technical_fests": null,
+    "cultural_fests": null,
+    "has_nss": false,
+    "has_ncc": false,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Academics Faculty Admissions Academic Calendar Course Structure New National Education Policy-2020 Fee Structure Regulations NPTEL Collaboration Institute Innovation Council Programmes",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Innovation Council",
+        "country": null,
+        "focus_area": null
+      }
+    ],
+    "mou_count": null,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iiitkalyani.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 71,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-kalyani",
+  "last_scraped_at": "2026-03-31T16:18:41.804770",
+  "department_count": 2,
+  "total_faculty": 35
+}

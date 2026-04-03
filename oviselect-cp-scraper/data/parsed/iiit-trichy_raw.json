@@ -1,0 +1,47 @@
+{
+  "institute": "IIIT Tiruchirappalli",
+  "also_known_as": "IIITT",
+  "institute_type": "IIIT",
+  "established_year": 2013,
+  "city": "Tiruchirappalli",
+  "state": "Tamil Nadu",
+  "address": "Indian Institute of Information Technology, Sethurapatti, Trichy-Madurai Highway, Tiruchirappalli, Tamil Nadu - 620012",
+  "nearest_airport": "Tiruchirappalli International Airport",
+  "nearest_airport_km": 20.5,
+  "nearest_railway_station": "Tiruchirappalli Junction Railway Station",
+  "nearest_railway_km": 18.5,
+  "caution_money": 7200,
+  "one_time_fees": 13200,
+  "tuition_fee_per_sem": 115200,
+  "total_institute_fee": 151200,
+  "hostel_fee_per_sem": 13200,
+  "mess_advance_per_sem": 24000,
+  "total_hostel_fee": 50400,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST students."
+  ],
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 8.9,
+    "Electronics and Communication Engineering": 8.0,
+    "Overall": 8.45
+  },
+  "median_package_lpa": 8.45,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 10.0,
+    "Electronics and Communication Engineering": 9.7,
+    "Overall": 9.85
+  },
+  "avg_package_lpa": 9.85,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-trichy",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-trichy",
+  "last_scraped_at": "2026-03-31T16:17:59.298284",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitt.ac.in"
+}

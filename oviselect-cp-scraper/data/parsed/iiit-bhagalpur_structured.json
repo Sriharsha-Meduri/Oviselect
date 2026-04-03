@@ -1,0 +1,152 @@
+{
+  "institute": "IIIT Bhagalpur",
+  "institute_type": "IIIT",
+  "also_known_as": "IIIT Bhagalpur",
+  "established_year": 2017,
+  "city": "Bhagalpur",
+  "state": "Bihar",
+  "address": "Indian Institute of Information Technology Bhagalpur, Bhagalpur College of Engineering (BCE), Sabour, Bhagalpur, Bihar - 813210",
+  "nearest_airport": "Bagdogra International Airport",
+  "nearest_airport_km": 245.0,
+  "nearest_railway_station": "Bhagalpur Junction Railway Station",
+  "nearest_railway_km": 7.5,
+  "nirf_overall_rank": 813210,
+  "nirf_engineering_rank": null,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 119790,
+  "hostel_fee_per_sem": 22000,
+  "mess_advance_per_sem": 16000,
+  "one_time_fees": 8700,
+  "caution_money": 10000,
+  "annual_fees": 1000,
+  "total_institute_fee": 150740,
+  "total_hostel_fee": 38000,
+  "fee_waivers": null,
+  "overall_placement_pct": null,
+  "avg_package_lpa": 13.91,
+  "median_package_lpa": 9.75,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": null,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 10.0,
+    "Electronics and Communication Engineering": 9.0,
+    "Mechatronics Engineering": 10.0,
+    "Overall": 10.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 14.11,
+    "Electronics and Communication Engineering": 15.91,
+    "Mechatronics Engineering": 11.21,
+    "Overall": 14.43
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": null,
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "research_centres": [
+      "Curriculum & Syllabus"
+    ]
+  },
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": null,
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": true,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": {
+    "clubs": [
+      "Women Cell",
+      "Grievance Cell"
+    ],
+    "technical_societies": null,
+    "technical_fests": null,
+    "cultural_fests": null,
+    "has_nss": true,
+    "has_ncc": false,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "institute About Institute Vision and Mission Director's Message About Logo FAQs",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "About Institute",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Hotels Near The Institute",
+        "country": null,
+        "focus_area": null
+      }
+    ],
+    "mou_count": null,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iiitbh.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 62,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-bhagalpur",
+  "last_scraped_at": "2026-03-31T16:17:49.223576"
+}

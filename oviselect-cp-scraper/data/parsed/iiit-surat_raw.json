@@ -1,0 +1,44 @@
+{
+  "institute": "IIIT Surat",
+  "also_known_as": "IIIT Surat",
+  "institute_type": "IIIT",
+  "established_year": 2017,
+  "city": "Surat",
+  "state": "Gujarat",
+  "address": "Indian Institute of Information Technology Surat, Kholvad, Kamrej, Surat, Gujarat - 394190",
+  "nearest_airport": "Surat International Airport",
+  "nearest_airport_km": 31.5,
+  "nearest_railway_station": "Surat Railway Station",
+  "nearest_railway_km": 15.0,
+  "one_time_fees": 12000,
+  "tuition_fee_per_sem": 75000,
+  "total_institute_fee": 89000,
+  "overall_placement_pct": 65.79,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 63.41,
+    "Electronics and Communication Engineering": 68.57,
+    "Overall": 65.79
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 10.47,
+    "Electronics and Communication Engineering": 7.87
+  },
+  "median_package_lpa": 9.17,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 14.21,
+    "Electronics and Communication Engineering": 9.87
+  },
+  "avg_package_lpa": 12.04,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-surat",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-surat",
+  "last_scraped_at": "2026-03-31T16:17:59.188544",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitsurat.ac.in"
+}

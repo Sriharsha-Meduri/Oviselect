@@ -1,0 +1,2463 @@
+{
+  "institute": "IIT (BHU) Varanasi",
+  "institute_type": "IIT",
+  "also_known_as": "IIT (BHU)",
+  "established_year": 1919,
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "address": "Indian Institute of Technology (Banaras Hindu University), Varanasi, Uttar Pradesh – 221005",
+  "nearest_airport": "Lal Bahadur Shastri International Airport, Varanasi",
+  "nearest_airport_km": 32.0,
+  "nearest_railway_station": "Varanasi Junction Railway Station",
+  "nearest_railway_km": 11.0,
+  "nirf_overall_rank": 31,
+  "nirf_engineering_rank": 10,
+  "nirf_research_rank": 22,
+  "nirf_innovation_rank": "11-50 (2025)",
+  "qs_world_rank": "566 (2026)",
+  "qs_asia_rank": "237 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": 8,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
+  ],
+  "tuition_fee_per_sem": 100000,
+  "hostel_fee_per_sem": null,
+  "mess_advance_per_sem": 15000,
+  "one_time_fees": 5750,
+  "caution_money": 9000,
+  "annual_fees": 365,
+  "total_institute_fee": 136465,
+  "total_hostel_fee": null,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": null,
+  "avg_package_lpa": 23.17,
+  "median_package_lpa": 20.33,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Students Registered": 1499.0,
+    "Students Placed": 1169.0,
+    "Placed (%)": 77.99
+  },
+  "branch_wise_median_ctc": {
+    "Bio Chemical": 16.15,
+    "Bio Medical": 16.0,
+    "Ceramic": 19.5,
+    "Chemical": 16.18,
+    "Chemistry": 15.3,
+    "Civil": 15.75,
+    "Computer Science": 30.0,
+    "Electrical": 29.72,
+    "Electronics": 30.0,
+    "Material Sceince": 17.2,
+    "Mathematics": 30.37,
+    "Mechanical": 18.12,
+    "Metallurgy": 15.0,
+    "Mining": 15.0,
+    "Pharmacy": 17.25,
+    "Physics": 24.0,
+    "Overall (UG)": 20.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Bio Chemical": 21.04,
+    "Bio Medical": 18.37,
+    "Ceramic": 24.49,
+    "Chemical": 19.52,
+    "Chemistry": 16.61,
+    "Civil": 19.09,
+    "Computer Science": 34.43,
+    "Electrical": 30.25,
+    "Electronics": 29.56,
+    "Material Sceince": 18.28,
+    "Mathematics": 34.31,
+    "Mechanical": 21.95,
+    "Metallurgy": 17.7,
+    "Mining": 16.87,
+    "Pharmacy": 21.96,
+    "Physics": 25.21,
+    "Overall (UG)": 24.31
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": 1,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "General",
+      "hod_name": null,
+      "hod_designation": null,
+      "faculty_count": 1,
+      "faculty": [
+        {
+          "name": "Dr. Bidya Binay Karak 2019, INSA Medal for Young Scientist form Indian National Science Academy, Government of India",
+          "designation": "Scientist",
+          "department": null,
+          "qualifications": null,
+          "specializations": null,
+          "experience_years": null,
+          "awards": null,
+          "profile_url": null,
+          "publications": null,
+          "patents": null,
+          "funded_projects": null,
+          "phd_students_supervised": null,
+          "courses_taught": null
+        }
+      ]
+    },
+    {
+      "name": "Applied Physics",
+      "faculty": [
+        {
+          "name": "Dr. Amita Sinha",
+          "designation": "Professor",
+          "profile_url": "https://amitasinhaprofile.com/"
+        },
+        {
+          "name": "Ar. Indra Kumar Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/apd/people/indraapd"
+        },
+        {
+          "name": "Dr. Aaditya Pratap Sanyal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/apd/people/apsanyalapd"
+        },
+        {
+          "name": "Dr. Atul Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/apd/people/atulapd"
+        },
+        {
+          "name": "Dr. Harsimran Kaur",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/apd/people/harsimranapd"
+        },
+        {
+          "name": "Dr. Kumar Abhishek",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/apd/people/abhishekapd"
+        },
+        {
+          "name": "Dr. E. V. S. Kiran Kumar Donthu",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/apd/people/kirankumardevsapd"
+        },
+        {
+          "name": "Dr. Nikhil Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/apd/people/nikhilapd"
+        },
+        {
+          "name": "Dr. Rabi Narayan Mohanty",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/apd/people/rnmohantyapd"
+        },
+        {
+          "name": "Dr. Sneha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/apd/people/snehaapd"
+        },
+        {
+          "name": "Dr. Vishal Chettry",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/apd/people/vishalapd"
+        },
+        {
+          "name": "Dr. Rabi Narayan Mohanty",
+          "designation": "Head of Department",
+          "profile_url": "https://www.iitbhu.ac.in/dept/apd/people/rnmohantyapd"
+        }
+      ],
+      "faculty_count": 12
+    },
+    {
+      "name": "Biochemical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Abha Mishra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/abhambce"
+        },
+        {
+          "name": "Dr. Pradeep Srivastava",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/pksrivastavabce"
+        },
+        {
+          "name": "Dr. Vikash Kumar Dubey",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/vkdubeybce"
+        },
+        {
+          "name": "Dr. Abhishek Suresh Dhoble",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/asdhoblebce"
+        },
+        {
+          "name": "Dr. Pranjal Chandra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/pranjalbce"
+        },
+        {
+          "name": "Dr. Prodyut Dhar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/prodyutbce"
+        },
+        {
+          "name": "Dr. Sanjay Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/sanjaykrbce"
+        },
+        {
+          "name": "Dr. Vishal Mishra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/vishalbce"
+        },
+        {
+          "name": "Dr. Aditya Kumar Padhi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/adityabce"
+        },
+        {
+          "name": "Dr. Rajendra Prasad",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/rajendrabce"
+        },
+        {
+          "name": "Dr. Sharon Mano Pappu J",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/sharonjbce"
+        },
+        {
+          "name": "Dr. Sumit Kumar Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/sumitbce"
+        },
+        {
+          "name": "Dr. Pranjal Chandra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bce/people/pranjalbce"
+        }
+      ],
+      "faculty_count": 13
+    },
+    {
+      "name": "Biomedical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Neeraj Sharma",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/neerajbme"
+        },
+        {
+          "name": "Dr. Pradip Paik",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/paikbme"
+        },
+        {
+          "name": "Dr. Sanjay Kumar Rai",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/skraibme"
+        },
+        {
+          "name": "Dr. Shiru Sharma",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/shirubme"
+        },
+        {
+          "name": "Dr. A. R. Jac Fredo",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/jackbme"
+        },
+        {
+          "name": "Dr. Sanjeev Kumar Mahto",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/skmahtobme"
+        },
+        {
+          "name": "Dr. Brijesh Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/brijeshbme"
+        },
+        {
+          "name": "Dr. Bhrigu Kumar Lahkar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/bhrigulahkarbme"
+        },
+        {
+          "name": "Dr. Deepesh Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/deepeshbme"
+        },
+        {
+          "name": "Dr. Gowri Balachander",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/gowribalachanderbme"
+        },
+        {
+          "name": "Dr. Sudip Mukherjee",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/sudipbme"
+        },
+        {
+          "name": "Dr. Sanjay Kumar Rai",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/skraibme"
+        },
+        {
+          "name": "Dr. Amit Kumar Ray",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Nira Misra",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Marshal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/bme/people/marshalbme"
+        },
+        {
+          "name": "Dr. Prasun Kumar Roy",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Ranjana Patnaik",
+          "designation": "Professor"
+        }
+      ],
+      "faculty_count": 17
+    },
+    {
+      "name": "Ceramic Engineering",
+      "faculty": [
+        {
+          "name": "Prof. Vinay Kumar Singh",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/vksinghcer"
+        },
+        {
+          "name": "Dr. Manas Ranjan Majhi",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/mrmajhicer"
+        },
+        {
+          "name": "Dr. Pradip Kumar Roy",
+          "designation": "Faculty",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/pkroycer",
+          "email": "Email: pkroy.cer@iitbhu.ac.in"
+        },
+        {
+          "name": "Dr. Ashutosh Kumar Dubey",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/akdubeycer"
+        },
+        {
+          "name": "Dr. Mohammad Imteyaz Ahmad",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/imteyazahmadcer"
+        },
+        {
+          "name": "Dr. Preetam Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/preetamsinghcer"
+        },
+        {
+          "name": "Dr. Santanu Das",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/santanudascer"
+        },
+        {
+          "name": "Dr. Kundan Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/kundancer"
+        },
+        {
+          "name": "Dr. Kaushik Sarkar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/kaushikcer"
+        },
+        {
+          "name": "Dr. Pavan Pujar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/pavancer"
+        },
+        {
+          "name": "Dr. Subrata Panda",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/pandascer"
+        },
+        {
+          "name": "Dr. Ashutosh Kumar Dubey",
+          "designation": "Head of the Department",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cer/people/akdubeycer"
+        }
+      ],
+      "faculty_count": 12
+    },
+    {
+      "name": "Chemical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Hiralal Pramanik",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/hpramanikche"
+        },
+        {
+          "name": "Dr. Monoj Kumar Mondal",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/mkmondalche"
+        },
+        {
+          "name": "Dr. Pradeep Ahuja",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/pahujache"
+        },
+        {
+          "name": "Dr. Pradeep Kumar Mishra",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/pkmishrache"
+        },
+        {
+          "name": "Dr. Rajesh Kumar Upadhyay",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/rkuche"
+        },
+        {
+          "name": "Dr. Ram Sharan Singh",
+          "designation": "Professor (HAG)",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/rssinghche"
+        },
+        {
+          "name": "Dr. Satya Vir Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/svsinghche"
+        },
+        {
+          "name": "Dr. Vijay Laxmi Yadav",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/vlyadavche"
+        },
+        {
+          "name": "Dr. Ankur Verma",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/ankurvche"
+        },
+        {
+          "name": "Dr. Bhawna Verma",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/bvermache"
+        },
+        {
+          "name": "Dr. Jyoti Prasad Chakraborty",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/jpcche"
+        },
+        {
+          "name": "Dr. Manoj Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/manojkche"
+        },
+        {
+          "name": "Dr. Pradeep Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/pkumarche"
+        },
+        {
+          "name": "Dr. Ravi P. Jaiswal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/raviche"
+        },
+        {
+          "name": "Dr. Sweta",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/shwetache"
+        },
+        {
+          "name": "Dr. Abir Ghosh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/abirche"
+        },
+        {
+          "name": "Dr. Debdip Bhandary",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/debdipche"
+        },
+        {
+          "name": "Dr. Dinesh Bhagavatula",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/dineshche"
+        },
+        {
+          "name": "Dr. Durga Prasad",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/dprasadche"
+        },
+        {
+          "name": "Dr. Ganesh Madabattula",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/ganeshche"
+        },
+        {
+          "name": "Dr. Nitai C. Maji",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/nitaiche"
+        },
+        {
+          "name": "Dr. Raveendra Gundlapalli",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/ravendrache"
+        },
+        {
+          "name": "Dr. Rohit Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/rohitche"
+        },
+        {
+          "name": "Dr. Sanjay Katheria",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/sanjayche"
+        },
+        {
+          "name": "Dr. Satarupa Dutta",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/satarupadche"
+        },
+        {
+          "name": "Dr. Udita Uday Ghosh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/uditache"
+        },
+        {
+          "name": "Dr. Vijay Shinde",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/vijayche"
+        },
+        {
+          "name": "Dr. Ram Sharan Singh, FBRS, FIE",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/che/people/rssinghche"
+        },
+        {
+          "name": "Dr. Siddh Nath Upadhyay",
+          "designation": "Faculty",
+          "email": "Email: snupadhyay.che@iitbhu.ac.in"
+        },
+        {
+          "name": "Dr. Ram Prasad",
+          "designation": "Faculty",
+          "email": "Email: rprasad.che@iitbhu.ac.in"
+        },
+        {
+          "name": "Dr. Kaushal Kumar Srivastava",
+          "designation": "Faculty",
+          "email": "Email: kksrivastava.che@iitbhu.ac.in"
+        },
+        {
+          "name": "Dr. Ashok Kumar Verma",
+          "designation": "Faculty",
+          "email": "Email: akverma.che@iitbhu.ac.in"
+        },
+        {
+          "name": "Dr. A. S. K. Sinha",
+          "designation": "Faculty",
+          "email": "Email: asksinha.che@iitbhu.ac.in"
+        },
+        {
+          "name": "Mr. A. C. Mohan",
+          "designation": "Faculty",
+          "email": "Email: acmohan.che@iitbhu.ac.in"
+        },
+        {
+          "name": "Dr. B. N. Rai",
+          "designation": "Faculty",
+          "email": "Email: bnrai.che@iitbhu.ac.in"
+        },
+        {
+          "name": "Dr. Surendra Kumar",
+          "designation": "Faculty",
+          "email": "Email: sktiwari.che@iitbhu.ac.in"
+        }
+      ],
+      "faculty_count": 36
+    },
+    {
+      "name": "Chemistry",
+      "faculty": [
+        {
+          "name": "Dr. Dhanesh Tiwari",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/dtiwariapc"
+        },
+        {
+          "name": "Dr. Indrajit Sinha",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/isinhaapc"
+        },
+        {
+          "name": "Dr. Kamdeo Mandal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/kdmandalapc"
+        },
+        {
+          "name": "Dr. Sundaram Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/sundaramapc"
+        },
+        {
+          "name": "Dr. Yogesh Chandra Sharma",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/ysharmaapc"
+        },
+        {
+          "name": "Dr. Arindam Indra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/arindamchy"
+        },
+        {
+          "name": "Dr. Asha Gupta",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/ashachy"
+        },
+        {
+          "name": "Dr. Manisha Malviya",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/manishaapc"
+        },
+        {
+          "name": "Dr. Pandeeswar Makam",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/pandeeswarchy"
+        },
+        {
+          "name": "Dr. Rosy",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/rosychy"
+        },
+        {
+          "name": "Dr. Samya Banerjee",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/samyachy"
+        },
+        {
+          "name": "Dr. V. Ramanathan",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/vramanchy"
+        },
+        {
+          "name": "Dr. Bhuvaneshwari B",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/bhuvaneshwarichy"
+        },
+        {
+          "name": "Dr. Bikash Kumar Shaw",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/bikashkchy"
+        },
+        {
+          "name": "Dr. Debotra Sarkar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/debotrachy"
+        },
+        {
+          "name": "Dr. Prabhat Tripathi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/prabhatchy"
+        },
+        {
+          "name": "Dr. Saravanakumar Elangovan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/saravanachy"
+        },
+        {
+          "name": "Prof. Sundaram Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/chy/people/sundaramapc"
+        }
+      ],
+      "faculty_count": 18
+    },
+    {
+      "name": "Civil Engineering",
+      "faculty": [
+        {
+          "name": "Prof. Arun Prasad",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/aprasadciv"
+        },
+        {
+          "name": "Prof. Anurag Ohri",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/aohriciv"
+        },
+        {
+          "name": "Dr. Ankit Gupta",
+          "designation": "Faculty",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/ankitciv",
+          "email": "Email: ankit.civ@iitbhu.ac.in"
+        },
+        {
+          "name": "Prof. Bala Ramudu Paramkusam",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/pbramuduciv"
+        },
+        {
+          "name": "Prof. Brind Kumar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/kumarbrindciv"
+        },
+        {
+          "name": "Prof. Devendra Mohan",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/devendraciv"
+        },
+        {
+          "name": "Prof. Krishna Kant Pathak",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/kkpathakciv"
+        },
+        {
+          "name": "Dr. Medha Jha",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/mjhaciv"
+        },
+        {
+          "name": "Prof. Prabhat Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/psinghciv"
+        },
+        {
+          "name": "Prof. Prabhat Kumar Singh Dikshit",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/pksdikshitciv"
+        },
+        {
+          "name": "Prof. Pabitra Ranjan Maiti",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/prmaiticiv"
+        },
+        {
+          "name": "Prof. Rajesh Kumar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/rkumarciv"
+        },
+        {
+          "name": "Prof. Sasankasekhar Mandal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/smandalciv"
+        },
+        {
+          "name": "Prof. Shyam Bihari Dwivedi",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/sbdciv"
+        },
+        {
+          "name": "Dr. Kamlesh Kumar Pandey",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/kkpciv"
+        },
+        {
+          "name": "Dr. Manash Chakraborty",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/manashchakraciv"
+        },
+        {
+          "name": "Dr. Rosalin Sahoo",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/rosalinciv"
+        },
+        {
+          "name": "Dr. Shishir Gaur",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/shishirgciv"
+        },
+        {
+          "name": "Dr. Suresh Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/skumarciv"
+        },
+        {
+          "name": "Dr. Supriya Mohanty",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/supriyaciv"
+        },
+        {
+          "name": "Dr. Abhisek Mudgal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/abhisekciv"
+        },
+        {
+          "name": "Dr. Agnivesh P",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/agniveshciv"
+        },
+        {
+          "name": "Dr. Anshuman Sharma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/anshumanciv"
+        },
+        {
+          "name": "Dr. Anshuman Satpathy",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/asatpathyciv"
+        },
+        {
+          "name": "Dr. Ayan Haldar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/ayanciv"
+        },
+        {
+          "name": "Dr. Basuraj Bhowmik",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/basurajciv"
+        },
+        {
+          "name": "Dr. Kesheo Prasad",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/kprasadciv"
+        },
+        {
+          "name": "Dr. Kshitij Kumar Yadav",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/kshitijciv"
+        },
+        {
+          "name": "Dr. Mahendra Kumar Pal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/mahendraciv"
+        },
+        {
+          "name": "Dr. Pramod Soni",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/pramodciv"
+        },
+        {
+          "name": "Dr. Pottipati Suryateja",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/pottipaticiv"
+        },
+        {
+          "name": "Dr. Rahul Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/rahulciv"
+        },
+        {
+          "name": "Dr. Rajhans Negi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/rajhansciv"
+        },
+        {
+          "name": "Dr Ropesh Goyal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/ropeshciv"
+        },
+        {
+          "name": "Dr. Samim Mustafa",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/samimciv"
+        },
+        {
+          "name": "Dr. Shweta Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/shwetaciv"
+        },
+        {
+          "name": "Dr. Vishwajit Anand",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/anandciv"
+        },
+        {
+          "name": "Dr. Krishna Kant Pathak",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/kkpathakciv"
+        },
+        {
+          "name": "Dr. Pramod Kumar Singh",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Ramji Agrawal",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Veerendra Kumar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Gautam Banerjee",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/civ/people/gbanerjeeciv"
+        }
+      ],
+      "faculty_count": 42
+    },
+    {
+      "name": "Computer Science & Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Bhaskar Biswas",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/bhaskarcse"
+        },
+        {
+          "name": "Dr. Rajeev Srivastava",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/rajeevcse"
+        },
+        {
+          "name": "Dr. Ravi Shankar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/ravicse"
+        },
+        {
+          "name": "Dr. Ruchir Gupta",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/rguptacse"
+        },
+        {
+          "name": "Dr. Sanjay Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/skscse"
+        },
+        {
+          "name": "Dr. Amrita Chaturvedi",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/amritacse"
+        },
+        {
+          "name": "Dr. Anil Kumar Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/aksinghcse"
+        },
+        {
+          "name": "Dr. Ajay Pratap",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/ajaycse"
+        },
+        {
+          "name": "Dr. Bidyut Kumar Patra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/bidyutcse"
+        },
+        {
+          "name": "Dr. Hari Prabhat Gupta",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/hariprabhatcse"
+        },
+        {
+          "name": "Dr. Lakshmanan Kailasam",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/lakshmanankcse"
+        },
+        {
+          "name": "Dr. Mayank Swarnkar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/mayankcse"
+        },
+        {
+          "name": "Dr. Pratik Chattopadhyay",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/pratikcse"
+        },
+        {
+          "name": "Dr. Prasenjit Chanak",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/prasenjitcse"
+        },
+        {
+          "name": "Dr. Ravindranath Chowdary C",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/rchowdarycse"
+        },
+        {
+          "name": "Dr. Sukomal Pal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/spalcse"
+        },
+        {
+          "name": "Dr. Tanima Dutta",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/tanimacse"
+        },
+        {
+          "name": "Dr. Aparajita Khan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/aparajitacse"
+        },
+        {
+          "name": "Dr. Harsh Kasyap",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/hkasyapcse"
+        },
+        {
+          "name": "Dr. Indra Deep Mastan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/indracse"
+        },
+        {
+          "name": "Dr. Obbattu Sai Lakshmi Bhavana",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/oslbhavanacse"
+        },
+        {
+          "name": "Dr. Vignesh Sivaraman",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/vigneshcse"
+        },
+        {
+          "name": "Dr. Vinayak Shrivastava",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/vsrivastavacse"
+        },
+        {
+          "name": "Dr. Bhaskar Biswas",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/bhaskarcse"
+        },
+        {
+          "name": "Dr. Anil Kumar Tripathi",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/cse/people/aktripathicse"
+        },
+        {
+          "name": "Prof. A. K. Agrawal",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Ravi Bhushan Mishra",
+          "designation": "Professor"
+        },
+        {
+          "name": "Prof. Kaushal Kumar Shukla",
+          "designation": "Professor",
+          "profile_url": "https://profkkshukla.in/"
+        }
+      ],
+      "faculty_count": 28
+    },
+    {
+      "name": "Data Science & Engineering"
+    },
+    {
+      "name": "Electronics Engineering",
+      "faculty": [
+        {
+          "name": "Dr. M. Thottappan",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/mthottappanece"
+        },
+        {
+          "name": "Dr. Manoj Kumar Meshram",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/mkmeshramece"
+        },
+        {
+          "name": "Dr. Navin Singh Rajput",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/nsrajputece"
+        },
+        {
+          "name": "Dr. Satyabrata Jit",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/sjitece"
+        },
+        {
+          "name": "Dr. Vishwambhar Nath Mishra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/vnmishraece"
+        },
+        {
+          "name": "Dr. Amit Kumar Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/aksinghece"
+        },
+        {
+          "name": "Dr. Amritanshu Pandey",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/apandeyece"
+        },
+        {
+          "name": "Dr. Kishor P. Sarawadekar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/skishorece"
+        },
+        {
+          "name": "Dr. Sanjeev Sharma",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/sanjeevece"
+        },
+        {
+          "name": "Dr. Smrity Dwivedi",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/sdwivediece"
+        },
+        {
+          "name": "Dr. Shivam Verma",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/shivamece"
+        },
+        {
+          "name": "Dr. Somak Bhattacharyya",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/somakbhattacharyyaece"
+        },
+        {
+          "name": "Dr. Ankit Arora",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/ankitece"
+        },
+        {
+          "name": "Dr. Atul Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/atulece"
+        },
+        {
+          "name": "Dr. Ananda Y R",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/anandaece"
+        },
+        {
+          "name": "Dr. Jaya Jha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/jayaece"
+        },
+        {
+          "name": "Mr. Manoj Kumar Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/mksinghece"
+        },
+        {
+          "name": "Dr. Muralikrishnan Srinivasan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/muralikrishnanece"
+        },
+        {
+          "name": "Dr. Om Jee Pandey",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/omjeeece"
+        },
+        {
+          "name": "Dr. Oppili Prasad L",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/oppiliece"
+        },
+        {
+          "name": "Dr. Priya Ranjan Muduli",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/prmuduliece"
+        },
+        {
+          "name": "Dr. Sonam Jain",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/sonamece"
+        },
+        {
+          "name": "Dr. Vimal Kumar Singh Yadav",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/vimalece"
+        },
+        {
+          "name": "Dr. Amritanshu Pandey",
+          "designation": "Head of Department",
+          "profile_url": "https://www.iitbhu.ac.in/dept/ece/people/apandeyece"
+        }
+      ],
+      "faculty_count": 24
+    },
+    {
+      "name": "Electrical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Amit Patra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/amitdir"
+        },
+        {
+          "name": "Dr. Devender Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/dsingheee"
+        },
+        {
+          "name": "Dr. Kalpana Chaudhary",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/kchaudharyeee"
+        },
+        {
+          "name": "Dr. Mitresh Kumar Verma",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/mkvermaeee"
+        },
+        {
+          "name": "Dr. Rakesh Kumar Misra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/rkmishraeee"
+        },
+        {
+          "name": "Dr. Ranjit Mahanty",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/rmahantyeee"
+        },
+        {
+          "name": "Dr. R. K. Saket",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/rksaketeee"
+        },
+        {
+          "name": "Dr. Rajeev Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/rksingheee"
+        },
+        {
+          "name": "Dr. Santosh Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/sksingheee"
+        },
+        {
+          "name": "Dr. Sandip Ghosh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/sghosheee"
+        },
+        {
+          "name": "Dr. Soumya R Mohanty",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/soumyaeee"
+        },
+        {
+          "name": "Dr. Vivek Nandan Lal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/vnlaleee"
+        },
+        {
+          "name": "Dr. Chinmaya K A",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/chinmayaeee"
+        },
+        {
+          "name": "Dr. Jeewan Chandra Pandey",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/jcpandeyeee"
+        },
+        {
+          "name": "Dr. N. K. Swami Naidu",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/nksnaidueee"
+        },
+        {
+          "name": "Dr. Shyam Kamal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/shyamkamaleee"
+        },
+        {
+          "name": "Dr. Avirup Maulik",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/avirupmaulikeee"
+        },
+        {
+          "name": "Dr. Anubrata Das",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/anubrataeee"
+        },
+        {
+          "name": "Dr. Arup Kumar Das",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/arupdaseee"
+        },
+        {
+          "name": "Dr. Naveen Yalla",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/naveeneee"
+        },
+        {
+          "name": "Ms. Sobhita Meher",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/smehereee"
+        },
+        {
+          "name": "Dr. Subho Paul",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/subhoeee"
+        },
+        {
+          "name": "Prof. S. C Srivastava",
+          "designation": "Adjunct Faculty",
+          "profile_url": "https://home.iitk.ac.in/~scs/"
+        },
+        {
+          "name": "Prof. Rajeev Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/rksingheee"
+        },
+        {
+          "name": "Dr. R. K. Pandey",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/rkpandeyeee"
+        },
+        {
+          "name": "Dr. R. K. Srivastava",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/rksrivastavaeee"
+        },
+        {
+          "name": "Dr. Arun Kumar Kapoor",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. D. N. Vishwakarma",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Gopal Sharma",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. S. K. Nagar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Shiv Pujan Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/eee/people/spsingheee"
+        },
+        {
+          "name": "Dr. Rabindra Mohanty",
+          "designation": "Assistant Professor"
+        }
+      ],
+      "faculty_count": 32
+    },
+    {
+      "name": "Humanities & Social Sciences",
+      "faculty": [
+        {
+          "name": "Dr. Ajit Kumar Mishra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/akmishrahss"
+        },
+        {
+          "name": "Dr. Prasanta Kumar Panda",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/panpandahss"
+        },
+        {
+          "name": "Dr. Vinita Chandra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/vinitachandrahss"
+        },
+        {
+          "name": "Dr. Anil Kumar Thakur",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/anilhss"
+        },
+        {
+          "name": "Dr. K V Cybil",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/kvcybilhss"
+        },
+        {
+          "name": "Dr. Nirmalya Guha",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/guhanhss"
+        },
+        {
+          "name": "Dr. Sanjukta Ghosh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/sanjuktahss"
+        },
+        {
+          "name": "Dr. Amrita Dwivedi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/amritahss"
+        },
+        {
+          "name": "Dr. Kavya Krishna K. R.",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/kavyahss"
+        },
+        {
+          "name": "Dr. Manhar Charan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/manharhss"
+        },
+        {
+          "name": "Dr. Satish Kanaujia",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/skanaujiahss"
+        },
+        {
+          "name": "Dr. Shail Shankar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/shailshankarhss"
+        },
+        {
+          "name": "Dr. Sukhada",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/sukhadahss"
+        },
+        {
+          "name": "Dr. Swasti Mishra",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/swastihss"
+        },
+        {
+          "name": "Dr. Tara Chand",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/tarachandhss"
+        },
+        {
+          "name": "Dr. Prasanta Kumar Panda​",
+          "designation": "Head of the Department",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/panpandahss"
+        },
+        {
+          "name": "Dr. Sanjaya Kumar Lenka",
+          "designation": "Visiting Faculty",
+          "profile_url": "https://www.iitbhu.ac.in/dept/hss/people/slenkahss"
+        }
+      ],
+      "faculty_count": 17
+    },
+    {
+      "name": "Mathematics",
+      "faculty": [
+        {
+          "name": "Dr. Ashok Ji Gupta",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/aguptaapm"
+        },
+        {
+          "name": "Dr. Lal Pratap Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/lpsinghapm"
+        },
+        {
+          "name": "Dr. Murali Krishna Vemuri",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/mkvemurimat"
+        },
+        {
+          "name": "Dr. Rajeev",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/rajeevapm"
+        },
+        {
+          "name": "Dr. Rajesh Kumar Pandey",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/rkpandeymat"
+        },
+        {
+          "name": "Dr. Sanjay Kumar Pandey",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/skpandeyapm"
+        },
+        {
+          "name": "Dr. Santosh Kumar Upadhyay",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/skupadhyayapm"
+        },
+        {
+          "name": "Dr. Santwana Mukhopadhyay",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/mukhosantapm"
+        },
+        {
+          "name": "Dr. Subir Das",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/sdasapm"
+        },
+        {
+          "name": "Dr. Vineet Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/vksinghmat"
+        },
+        {
+          "name": "Dr. Abhash Kumar Jha",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/abhashmat"
+        },
+        {
+          "name": "Dr. Anuradha Banerjee",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/anuradhamat"
+        },
+        {
+          "name": "Dr. Debdas Ghosh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/debdasmat"
+        },
+        {
+          "name": "Dr. Lavanya Selvaganesh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/lavanyasmat"
+        },
+        {
+          "name": "Dr. Sunil Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/skumarmat"
+        },
+        {
+          "name": "Dr. Amit Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/amitmat"
+        },
+        {
+          "name": "Dr. Anoop Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/anoopsinghmat"
+        },
+        {
+          "name": "Dr. Bivas Khan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/bivasmat"
+        },
+        {
+          "name": "Dr. Divya Goel",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/divyamat"
+        },
+        {
+          "name": "Dr. Kousik Dhara",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/kousikmat"
+        },
+        {
+          "name": "Dr. Manish Kumar Khandelwal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/manishmat"
+        },
+        {
+          "name": "Dr. Rakesh Arora",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/rakeshmat"
+        },
+        {
+          "name": "Dr. Sheela Verma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/sheelamat"
+        },
+        {
+          "name": "Dr. Satyendra Kumar Mishra",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/satyendrakrmat"
+        },
+        {
+          "name": "Dr. Vishvesh Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/vishveshmat"
+        },
+        {
+          "name": "Prof. Subir Das",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mat/people/sdasapm"
+        }
+      ],
+      "faculty_count": 26
+    },
+    {
+      "name": "Mechanical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Arakere Puttaswamy Harsha",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/apharshamec"
+        },
+        {
+          "name": "Dr. Amit Tyagi",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/atyagimec"
+        },
+        {
+          "name": "Dr. Arnab Sarkar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/arnabmec"
+        },
+        {
+          "name": "Dr. Debashis Khan",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/dkhanmec"
+        },
+        {
+          "name": "Dr. Jahar Sarkar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/jsarkarmec"
+        },
+        {
+          "name": "Dr. Jeewan Vachan Tirkey",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/jvtirkeymec"
+        },
+        {
+          "name": "Dr. Meghanshu Vashista",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/mvashistamec"
+        },
+        {
+          "name": "Dr. Mohd Zaheer Khan Yusufzai",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/mzkhanmec"
+        },
+        {
+          "name": "Dr. Om Prakash Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/opsinghmec"
+        },
+        {
+          "name": "Dr. Prabhash Bhardwaj",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/pbhardwajmec"
+        },
+        {
+          "name": "Dr. Prashant Shukla",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/pshuklamec"
+        },
+        {
+          "name": "Dr. Pradyumna Ghosh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/pghoshmec"
+        },
+        {
+          "name": "Dr. Rajesh Kumar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/rkumarmec"
+        },
+        {
+          "name": "Dr. Rajnesh Tyagi",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/rtyagimec"
+        },
+        {
+          "name": "Dr. Rakesh Kumar Gautam",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/rkgmec"
+        },
+        {
+          "name": "Dr. Sandeep Kumar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/sandeepmec"
+        },
+        {
+          "name": "Dr. Sanjay Kumar Sinha",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/sksinhamec"
+        },
+        {
+          "name": "Dr. Santosh Kumar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/santoshkumarmec"
+        },
+        {
+          "name": "Dr. Saroja Kanta Panda",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/skpandamec"
+        },
+        {
+          "name": "Dr. Shailendra K. Shukla",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/skshuklamec"
+        },
+        {
+          "name": "Dr. Amitesh Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/amiteshmec"
+        },
+        {
+          "name": "Dr. Cherian Samuel",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/csamuelmec"
+        },
+        {
+          "name": "Dr. Joy Prakash Misra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/jpmisramec"
+        },
+        {
+          "name": "Dr. Nilanjan Mallik",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/nmallikmec"
+        },
+        {
+          "name": "Dr. Rashmi Rekha Sahoo",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/rrsahoomec"
+        },
+        {
+          "name": "Dr. Saurabh Pratap",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/saurabhmec"
+        },
+        {
+          "name": "Dr. Swasti Sundar Mondal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/ssmondalmec"
+        },
+        {
+          "name": "Dr. Uppu Srinivas Rao",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/sruppumec"
+        },
+        {
+          "name": "Dr. Akhilendra Pratap Singh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/akhilendramec"
+        },
+        {
+          "name": "Dr. Anubhav Sinha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/anubhavmec"
+        },
+        {
+          "name": "Dr. Binita Pathak",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/binitamec"
+        },
+        {
+          "name": "Dr. Deepak Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/deepakkrmec"
+        },
+        {
+          "name": "Dr. Lakshay",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/lakshaymec"
+        },
+        {
+          "name": "Dr. Manogna Karthik Gangaraju",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/mkarthikmec"
+        },
+        {
+          "name": "Dr. Pawan Sharma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/pawanmec"
+        },
+        {
+          "name": "Dr. Prakash Chandra Mani",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/pcmanimec"
+        },
+        {
+          "name": "Dr. R Santhosh",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/rsanthoshmec"
+        },
+        {
+          "name": "Dr. Srihari Dodla",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/sdodlamec"
+        },
+        {
+          "name": "Dr. Surendra Verma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/surendramec"
+        },
+        {
+          "name": "Dr. Vyas Mani Sharma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/vyasmanimec"
+        },
+        {
+          "name": "Dr. Yadwinder Singh Joshan",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/yadwindermec"
+        },
+        {
+          "name": "Dr. Sandeep Kumar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mec/people/sandeepmec"
+        }
+      ],
+      "faculty_count": 42
+    },
+    {
+      "name": "Metallurgical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. B. Nageswara Sarma",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/bnsarmamet"
+        },
+        {
+          "name": "Dr. Chhail Kumar Behera",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/ckbeheramet"
+        },
+        {
+          "name": "Dr. Girija Shankar Mahobia",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/gsmmet"
+        },
+        {
+          "name": "Dr. Joysurya Basu",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/jbasumet"
+        },
+        {
+          "name": "Dr. Kamalesh Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/kksinghmet"
+        },
+        {
+          "name": "Dr. Kausik Chattopadhyay",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/kausikmet"
+        },
+        {
+          "name": "Dr. Nand Kishore Prasad",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/nandkpmet"
+        },
+        {
+          "name": "Dr. N.C. Santhi Srinivas",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/ncssrinivasmet"
+        },
+        {
+          "name": "Dr. Nilay Krishna Mukhopadhyay",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/mukhomet"
+        },
+        {
+          "name": "Dr. Rampada Manna",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/rmannamet"
+        },
+        {
+          "name": "Dr. Vikas Jindal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/vjindalmet"
+        },
+        {
+          "name": "Dr. Ashok Kumar Mondal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/akmondalmet"
+        },
+        {
+          "name": "Dr. Jayant Kumar Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/jksinghmet"
+        },
+        {
+          "name": "Dr. Randhir Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/randhirmet"
+        },
+        {
+          "name": "Dr. Ameya Krishna Kadrolkar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/akadrolkarmet"
+        },
+        {
+          "name": "Dr. Bratindranath Mukherjee",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/bratindramet"
+        },
+        {
+          "name": "Dr. Deepak K",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/deepakmet"
+        },
+        {
+          "name": "Dr. Lakhindra Marandi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/lakhindramet"
+        },
+        {
+          "name": "Dr. Praveen Sathiyamoorthi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/praveenmet"
+        },
+        {
+          "name": "Dr. Subhasis Sinha",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/ssinhamet"
+        },
+        {
+          "name": "Dr. Sudipta Patra",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/sudiptamet"
+        },
+        {
+          "name": "Dr. Sree Harsha Nandam",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/harshamet"
+        },
+        {
+          "name": "Dr. Surya Deo Yadav",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/suryamet"
+        },
+        {
+          "name": "Dr. Sake Narayanaswamy",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/snswamymet"
+        },
+        {
+          "name": "Dr. Shrey Agrawal",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/shreymet"
+        },
+        {
+          "name": "Dr. Sumanth Nani Enugala",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/sumanthmet"
+        },
+        {
+          "name": "Dr. N.C. Santhi Srinivas",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/met/people/ncssrinivasmet"
+        }
+      ],
+      "faculty_count": 27
+    },
+    {
+      "name": "Mining Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Aarif Jamal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/ajamalmin"
+        },
+        {
+          "name": "Dr. Gauri S. Prasad Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/gspsinghmin"
+        },
+        {
+          "name": "Dr. Piyush Rai",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/praimin"
+        },
+        {
+          "name": "Dr. Rajesh Rai",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/rajeshraimin"
+        },
+        {
+          "name": "Dr. Sanjay K. Sharma",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/sksharmamin"
+        },
+        {
+          "name": "Dr. Suprakash Gupta",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/sguptamin"
+        },
+        {
+          "name": "Dr. Amrendra Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/amrendramin"
+        },
+        {
+          "name": "Dr. Ashok Jaiswal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/ajaiswalmin"
+        },
+        {
+          "name": "Dr. Nawal Kishore",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/nawalkishoremin"
+        },
+        {
+          "name": "Dr. R. P. Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/rpsinghmin"
+        },
+        {
+          "name": "Dr. Sanjay Kumar Palei",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/skpaleimin"
+        },
+        {
+          "name": "Dr. Suresh Kumar Sharma",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/sureshsharmamin"
+        },
+        {
+          "name": "Dr. Tarun Verma",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/tvermamin"
+        },
+        {
+          "name": "Dr. Aishwarya Mishra",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/aishwaryamin"
+        },
+        {
+          "name": "Dr. Bhardwaj Pandit",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/bhardwajpmin"
+        },
+        {
+          "name": "Dr. Rahul Upadhyay",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/rahulmin"
+        },
+        {
+          "name": "Dr. Satyabrata Behera",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/sbeheramin"
+        },
+        {
+          "name": "Dr. Siva Prasad B N V",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/sivaprasadbnvmin"
+        },
+        {
+          "name": "Prof. Rajesh Rai",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/rajeshraimin"
+        },
+        {
+          "name": "Dr. B. K. Shrivastav",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Netai Chandra Karmakar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/min/people/karmakarncmin"
+        }
+      ],
+      "faculty_count": 21
+    },
+    {
+      "name": "Materials Science & Technology",
+      "faculty": [
+        {
+          "name": "Dr. Akhilesh Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/aksinghmst"
+        },
+        {
+          "name": "Dr. Bhola Nath Pal",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/bnpalmst"
+        },
+        {
+          "name": "Dr. Chandana Rath",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/crathmst"
+        },
+        {
+          "name": "Dr. Chandan Upadhyay",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/cupadhyaymst"
+        },
+        {
+          "name": "Dr. Pralay Maiti",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/pmaitimst"
+        },
+        {
+          "name": "Dr. Rajiv Prakash",
+          "designation": "Faculty",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/rprakashmst",
+          "email": "rprakash.mst@iitbhu.ac.in"
+        },
+        {
+          "name": "Dr. Ashish Kumar Mishra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/akmishramst"
+        },
+        {
+          "name": "Dr. Nikhil Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/nikhilmst"
+        },
+        {
+          "name": "Dr. Ravi Panwar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/ravimst"
+        },
+        {
+          "name": "Dr. Sanjay Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/ssinghmst"
+        },
+        {
+          "name": "Dr. Shrawan Kr Mishra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/shrawanmst"
+        },
+        {
+          "name": "Dr. Gautam Anand",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/gautamanandmst"
+        },
+        {
+          "name": "Dr. Uday Shankar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/udayshankarmst"
+        },
+        {
+          "name": "Dr. Chandan Upadhyay​",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/cupadhyaymst"
+        },
+        {
+          "name": "Dr. Dhananjai Pandey",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Shri Ram Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/srsmst"
+        },
+        {
+          "name": "Prof. Jitendra Kumar",
+          "designation": "Professor"
+        },
+        {
+          "name": "Dr. Anuj Kumar",
+          "designation": "Faculty",
+          "profile_url": "https://www.iitbhu.ac.in/dept/mst/people/anujmst",
+          "email": "anuj.mst@itbhu.ac.in"
+        }
+      ],
+      "faculty_count": 18
+    },
+    {
+      "name": "Pharmaceutical Engineering",
+      "faculty": [
+        {
+          "name": "Dr. Alakh Niranjan Sahu",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/ansahuphe"
+        },
+        {
+          "name": "Dr. Brahmeshwar Mishra",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/bmishraphe"
+        },
+        {
+          "name": "Dr. M. S. Muthu",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/msmuthuphe"
+        },
+        {
+          "name": "Dr. Sairam Krishnamurthy",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/ksairamphe"
+        },
+        {
+          "name": "Dr. Sanjay Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/ssinghphe"
+        },
+        {
+          "name": "Dr. Senthil Raja A.",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/asrajaphe"
+        },
+        {
+          "name": "Dr. Siva Hemalatha",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/shemalathaphe"
+        },
+        {
+          "name": "Dr. Sushant Kumar Shrivastava",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/skshrivastavaphe"
+        },
+        {
+          "name": "Dr. Ashish Kumar Agrawal",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/ashishphe"
+        },
+        {
+          "name": "Dr. Deepak Kumar",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/deepakphe"
+        },
+        {
+          "name": "Dr. Gyan Prakash Modi",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/gpmodiphe"
+        },
+        {
+          "name": "Dr. Rajnish",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/rajnishphe"
+        },
+        {
+          "name": "Dr. Ruchi Chawla",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/rchawlaphe"
+        },
+        {
+          "name": "Dr. Shreyans Kumar Jain",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/sjainphe"
+        },
+        {
+          "name": "Dr. Sunil Kumar Mishra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/skmishraphe"
+        },
+        {
+          "name": "Dr. Vinod Tiwari",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/vtiwariphe"
+        },
+        {
+          "name": "Dr. Dinesh Kumar",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/dineshphe"
+        },
+        {
+          "name": "Dr. Jairam Meena",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/Jairamphe"
+        },
+        {
+          "name": "Dr. Prasanta Kumar Nayak",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/pknayakphe"
+        },
+        {
+          "name": "Prof. Sairam Krishnamurthy",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/ksairamphe"
+        },
+        {
+          "name": "Dr. Sushil Kumar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phe/people/sksinghphe"
+        },
+        {
+          "name": "Dr. Anand Kumar Srivastava",
+          "designation": "Associate Professor"
+        }
+      ],
+      "faculty_count": 22
+    },
+    {
+      "name": "Physics",
+      "faculty": [
+        {
+          "name": "Dr. Abhishekh Kumar Srivastava",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/asrivastavaapp"
+        },
+        {
+          "name": "Dr. Anita Mohan",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/amohanapp"
+        },
+        {
+          "name": "Dr. Avanish Singh Parmar",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/asparmarphy"
+        },
+        {
+          "name": "Dr. Deba Prasad Giri",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/dgiriapp"
+        },
+        {
+          "name": "Dr. Prabhakar Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/psinghapp"
+        },
+        {
+          "name": "Dr. Praveen Chandra Pandey",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/pcpandeyapp"
+        },
+        {
+          "name": "Dr. Rajendra Prasad",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/rprasadapp"
+        },
+        {
+          "name": "Dr. Rakesh K Singh",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/krakeshsinghphy"
+        },
+        {
+          "name": "Dr. Sandip Chatterjee",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/schatterjiapp"
+        },
+        {
+          "name": "Dr. Shail Upadhyay",
+          "designation": "Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/supadhyayapp"
+        },
+        {
+          "name": "Dr. Awaneesh Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/awaneeshphy"
+        },
+        {
+          "name": "Dr. Bidya Binay Karak",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/karakapp"
+        },
+        {
+          "name": "Dr. Prasun Dutta",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/pduttaphy"
+        },
+        {
+          "name": "Dr. Rajeev Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/rajeevsphy"
+        },
+        {
+          "name": "Dr. Shradha Mishra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/smishraphy"
+        },
+        {
+          "name": "Dr. Sunil Kumar Mishra",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/sunilkmapp"
+        },
+        {
+          "name": "Dr. Saurabh Tripathi",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/stripathiphy"
+        },
+        {
+          "name": "Dr. Somnath Nag",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/somnathnphy"
+        },
+        {
+          "name": "Dr. Swapnil Patil",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/spatilphy"
+        },
+        {
+          "name": "Dr. Sunil Kumar Singh",
+          "designation": "Associate Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/sunilksapp"
+        },
+        {
+          "name": "Dr. Biswanath Bhoi",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/biswanathphy"
+        },
+        {
+          "name": "Dr. Gauhar Abbas",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/gauharphy"
+        },
+        {
+          "name": "Dr. Kuldeep Verma",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/kuldeepphy"
+        },
+        {
+          "name": "Dr. Newton Nath",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/nnathphy"
+        },
+        {
+          "name": "Dr. Pavan Kumar Aluri",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/pavanaluriphy"
+        },
+        {
+          "name": "Dr. Panch Ram",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/panchramphy"
+        },
+        {
+          "name": "Dr. Soumita Pramanick",
+          "designation": "Assistant Professor",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/soumitaphy"
+        },
+        {
+          "name": "Prof. Rajendra Prasad",
+          "designation": "Head of Department",
+          "profile_url": "https://www.iitbhu.ac.in/dept/phy/people/rprasadapp"
+        }
+      ],
+      "faculty_count": 28
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "active_projects": 575,
+    "funding_agencies": [
+      "ISRO"
+    ],
+    "total_funding_crores": 31.03,
+    "consultancy_projects": null,
+    "patents_filed": null,
+    "patents_granted": null,
+    "publications_per_year": null,
+    "phd_students_enrolled": null,
+    "phds_awarded": null,
+    "research_centres": [
+      "QIP Center",
+      "Design Innovation Centre",
+      "Collaborations",
+      "» Centre for Computing and Information Services",
+      "» Supercomputing Center",
+      "» Gandhi Technology Alumni Centre",
+      "» Centre for Faculty Development & Educational Tech",
+      "» Jay Chaudhry Software Innovation Centre",
+      "» Joint Incubation Center",
+      "» Coforge Data & AI Lab",
+      "» Vinod Ghai Center",
+      "» Sustainable Development Centre",
+      "Supercomputing Center",
+      "Centre for Faculty Dev. & Edu. Tech.",
+      "Collaboration",
+      "R&D Centre",
+      "ISRO Regional Acacdemic Centre for space"
+    ],
+    "international_collaborations": null
+  },
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iitbhu.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 71,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-bhu-varanasi",
+  "last_scraped_at": "2026-03-31T16:00:21.245174",
+  "department_count": 20,
+  "total_faculty": 436
+}

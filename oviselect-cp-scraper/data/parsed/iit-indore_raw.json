@@ -1,0 +1,81 @@
+{
+  "institute": "IIT Indore",
+  "also_known_as": "IITI",
+  "institute_type": "IIT",
+  "established_year": 2009,
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "address": "Indian Institute of Technology, Khandwa Road, Simrol, Indore, Madhya Pradesh - 453552",
+  "nearest_airport": "Devi Ahilya Bai Holkar Airport, Indore",
+  "nearest_airport_km": 32.0,
+  "nearest_railway_station": "Indore Junction Railway Station",
+  "nearest_railway_km": 25.0,
+  "qs_world_rank": "556 (2026)",
+  "qs_asia_rank": "229 (2026)",
+  "nirf_overall_rank": 27,
+  "nirf_engineering_rank": 12,
+  "nirf_research_rank": 24,
+  "nirf_innovation_rank": "11-50 (2025)",
+  "outlook_rank": 10,
+  "caution_money": 10000,
+  "one_time_fees": 8100,
+  "tuition_fee_per_sem": 100000,
+  "hostel_fee_per_sem": 16000,
+  "mess_advance_per_sem": 17550,
+  "annual_fees": 1600,
+  "total_institute_fee": 159550,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 82.19,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 75.0,
+    "Computer Science and Engineering": 96.39,
+    "Electrical Engineering": 87.69,
+    "Mechanical Engineering": 80.88,
+    "Metallurgical Engineering and Materials Science": 52.5,
+    "Overall": 82.19
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 13.1,
+    "Computer Science and Engineering": 28.57,
+    "Electrical Engineering": 21.6,
+    "Mechanical Engineering": 18.12,
+    "Metallurgical Engineering and Materials Science": 13.1,
+    "Overall": 19.1
+  },
+  "median_package_lpa": 18.93,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 19.35,
+    "Computer Science and Engineering": 30.89,
+    "Electrical Engineering": 26.04,
+    "Mechanical Engineering": 22.17,
+    "Metallurgical Engineering and Materials Science": 18.22,
+    "Overall": 25.0
+  },
+  "avg_package_lpa": 23.61,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iit-indore",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-indore",
+  "last_scraped_at": "2026-03-31T16:01:23.047737",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiti.ac.in",
+  "infrastructure": {
+    "labs": [
+      "Construction of Shed and Utility space for CRDT Lab at IIT Indore"
+    ],
+    "sports_facilities": [
+      "Swimming Pool"
+    ],
+    "has_bank_atm": false,
+    "has_post_office": false
+  }
+}

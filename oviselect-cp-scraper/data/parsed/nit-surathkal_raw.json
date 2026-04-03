@@ -1,0 +1,173 @@
+{
+  "institute": "NIT Karnataka, Surathkal",
+  "also_known_as": "NITK",
+  "institute_type": "NIT",
+  "established_year": 1960,
+  "city": "Mangalore",
+  "state": "Karnataka",
+  "address": "National Institute of Technology Karnataka, Srinivasnagar PO, Surathkal, Mangalore, Karnataka - 575025",
+  "nearest_airport": "Mangalore International Airport",
+  "nearest_airport_km": 19.0,
+  "nearest_railway_station": "Surathkal Railway Station",
+  "nearest_railway_km": 5.0,
+  "qs_asia_rank": "443 (2026)",
+  "nirf_overall_rank": 13,
+  "nirf_engineering_rank": 17,
+  "nirf_research_rank": 42,
+  "nirf_innovation_rank": "151-300 (2023)",
+  "outlook_rank": 8,
+  "the_week_rank": 10,
+  "caution_money": 6390,
+  "one_time_fees": 9990,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 15430,
+  "total_institute_fee": 96870,
+  "hostel_fee_per_sem": 8400,
+  "mess_advance_per_sem": 22000,
+  "total_hostel_fee": 43710,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 74.29,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 85.71,
+    "Civil Engineering": 47.01,
+    "Computer Science and Engineering": 83.59,
+    "Electrical and Electronics Engineering": 68.8,
+    "Electronics and Communication Engineering": 74.22,
+    "Information Technology": 81.75,
+    "Mechanical Engineering": 79.1,
+    "Metallurgical and Materials Engineering": 83.67,
+    "Mining Engineering": 69.77,
+    "Overall (B.Tech.)": 74.29
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 12.0,
+    "Civil Engineering": 12.0,
+    "Computer Science and Engineering": 28.19,
+    "Electrical and Electronics Engineering": 15.0,
+    "Electronics and Communication Engineering": 16.0,
+    "Information Technology": 20.0,
+    "Mechanical Engineering": 12.0,
+    "Metallurgical and Materials Engineering": 9.0,
+    "Mining Engineering": 12.0,
+    "Overall (B.Tech.)": 15.0
+  },
+  "median_package_lpa": 15.12,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 13.24,
+    "Civil Engineering": 11.93,
+    "Computer Science and Engineering": 27.68,
+    "Electrical and Electronics Engineering": 18.62,
+    "Electronics and Communication Engineering": 20.62,
+    "Information Technology": 24.97,
+    "Mechanical Engineering": 13.0,
+    "Metallurgical and Materials Engineering": 10.76,
+    "Mining Engineering": 11.62,
+    "Overall (B.Tech.)": 18.26
+  },
+  "avg_package_lpa": 17.07,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-surathkal",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-surathkal",
+  "last_scraped_at": "2026-03-31T16:01:56.784562",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitk.ac.in",
+  "research": {
+    "active_projects": null,
+    "total_funding_crores": 66.0,
+    "funding_agencies": [
+      "MHRD"
+    ]
+  },
+  "phd_available": true,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "clubs": [
+      "Best Paper Award to Dr. Mahendra Pratap Singh and the CSRL team",
+      "Prof. Prasanna Belur & Team received a project grant of \u20b9 1.39 Crore",
+      "Dr. Shyam Lal and Team published a research Paper in Scientific Reports",
+      "Dr.Mahendra Pratap Singh & his team received Best Paper Award at MANIT",
+      "Dr. Partha P Das and team conferred Best Poster Award at IIT Guwahati",
+      "Best Paper Award to Dr. Sowmya Kamath & Team",
+      "Best Paper Award to Dr Biswajit R Bhowmik & Team",
+      "Dr. Mandeep Singh & team have got the Best Paper Award",
+      "Indian Patent Granted to Prof. M. S. Bhat and & team",
+      "Students Group Medical Insurance Circular",
+      "Notification for Ongoing Group A staff recruitment",
+      "Rebuttal Notification - Recruitment for Group A Staff posts",
+      "Results of final selection - Group B&C positions",
+      "Cancellation Notice - Group 'A' Non-teaching positions",
+      "Final list of Shortlisted, Prov Shortlisted&Not Shortlisted-Group A Post",
+      "Provisionally shortlisted & not shortlisted candidates for Group A posts",
+      "Advertisement for the post of JRF Position in PEM Fuel Cell Research",
+      "Recruitment Cancellation Notice for Group 'B' posts - refund of fee",
+      "Cancellation Notice of Group \u2018A\u2019 positions at NITK, Surathkal",
+      "Notification regarding recruitment cancellation of Group B & C posts",
+      "Notification regarding recruitment cancellation of Group A posts",
+      "Hearty Congratulations to NITK racing Team Formula Bharat 2021 winners",
+      "JRF Position in PEM Fuel Cell Research in the Dept of Mechanical Engg.",
+      "Tender Notifications for Group Medical Insurance Scheme",
+      "Dept of Mech: Two JRF Positions in PEM Fuel Cell Research"
+    ],
+    "technical_fests": [
+      "Research Overview Research Areas Centres Centre for Continuing Education Central Research Facility Industry Institute Partnership Centre for Disaster Management STEP Center for Sustainable Development Centre for System Design Centre of Excellence in Smart Grid Technologies Sponsored Research Visvesvaraya PhD Scheme Publications Research Facility Institutional Relations Technologies for Transfer",
+      "Centres Centre for Continuing Education Central Research Facility Industry Institute Partnership Centre for Disaster Management STEP Center for Sustainable Development Centre for System Design Centre of Excellence in Smart Grid Technologies",
+      "Centre of Excellence in Smart Grid Technologies",
+      "Technologies for Transfer",
+      "Make up exam Circular - Information Technology department",
+      "Advanced Treatment Technologies for Fluoride Removal in Water",
+      "First Workshop on Speech & Language Technologies for Dravidian Language",
+      "MakeUp Exam Even Sem 2019-20 - Dept. of Information Technology"
+    ],
+    "has_nss": true,
+    "has_ncc": true
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Institute Brochure",
+        "country": null
+      },
+      {
+        "university": "Institute Newsletter Institute Newsletter",
+        "country": null
+      },
+      {
+        "university": "Institute Newsletter",
+        "country": null
+      },
+      {
+        "university": "Industry Institute Partnership",
+        "country": null
+      },
+      {
+        "university": "Institute Brochure",
+        "country": null
+      },
+      {
+        "university": "Institute Newsletter Institute Newsletter",
+        "country": null
+      },
+      {
+        "university": "Institute Newsletter",
+        "country": null
+      },
+      {
+        "university": "Industry Institute Partnership",
+        "country": null
+      }
+    ]
+  }
+}

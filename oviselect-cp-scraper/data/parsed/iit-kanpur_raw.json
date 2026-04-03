@@ -1,0 +1,130 @@
+{
+  "institute": "IIT Kanpur",
+  "also_known_as": "IITK",
+  "institute_type": "IIT",
+  "established_year": 1960,
+  "city": "Kanpur",
+  "state": "Uttar Pradesh",
+  "address": "Indian Institute of Technology, Kalyanpur, Kanpur, Uttar Pradesh - 208016",
+  "nearest_airport": "Kanpur Airport",
+  "nearest_airport_km": 30.0,
+  "nearest_railway_station": "Kanpur Central Railway Station",
+  "nearest_railway_km": 14.0,
+  "qs_world_rank": "222 (2026)",
+  "qs_asia_rank": "77 (2026)",
+  "nirf_overall_rank": 5,
+  "nirf_engineering_rank": 4,
+  "nirf_research_rank": 6,
+  "nirf_innovation_rank": "5 (2025)",
+  "outlook_rank": 5,
+  "india_today_rank": 3,
+  "the_week_rank": 4,
+  "caution_money": 17000,
+  "one_time_fees": 2950,
+  "tuition_fee_per_sem": 100000,
+  "hostel_fee_per_sem": 14425,
+  "total_institute_fee": 138110,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 82.48,
+  "branch_wise_placement_pct": {
+    "Aerospace Engineering": 80.56,
+    "Biological Sciences and Bioengineering": 65.22,
+    "Chemical Engineering": 82.95,
+    "Civil Engineering": 72.12,
+    "Computer Science and Engineering": 95.87,
+    "Electrical Engineering": 87.65,
+    "Materials Science and Engineering": 74.65,
+    "Mechanical Engineering": 78.95,
+    "Overall (B.Tech.)": 82.48,
+    "Chemistry": 40.0,
+    "Earth Sciences": 42.86,
+    "Economics": 84.0,
+    "Mathematics and Scientific Computing": 85.0,
+    "Physics": 66.67,
+    "Overall (B.S.)": 72.45
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Aerospace Engineering": 18.0,
+    "Biological Sciences and Bioengineering": 17.4,
+    "Chemical Engineering": 20.0,
+    "Civil Engineering": 16.0,
+    "Computer Science and Engineering": 35.45,
+    "Electrical Engineering": 27.24,
+    "Materials Science and Engineering": 18.65,
+    "Mechanical Engineering": 19.5,
+    "Chemistry": 11.5,
+    "Earth Sciences": 17.2,
+    "Economics": 17.65,
+    "Mathematics and Scientific Computing": 32.85,
+    "Physics": 14.0,
+    "Overall (UG)": 23.64
+  },
+  "median_package_lpa": 20.65,
+  "branch_wise_highest_ctc": {
+    "Aerospace Engineering": 21.39,
+    "Biological Sciences and Bioengineering": 19.01,
+    "Chemical Engineering": 22.6,
+    "Civil Engineering": 20.44,
+    "Computer Science and Engineering": 57.35,
+    "Electrical Engineering": 31.05,
+    "Materials Science and Engineering": 20.61,
+    "Mechanical Engineering": 22.14,
+    "Chemistry": 14.89,
+    "Earth Sciences": 20.1,
+    "Economics": 19.37,
+    "Mathematics and Scientific Computing": 46.46,
+    "Physics": 17.02,
+    "Overall (UG)": 30.86
+  },
+  "highest_package_lpa": 57.35,
+  "branch_wise_avg_ctc": {
+    "Aerospace Engineering": 21.39,
+    "Biological Sciences and Bioengineering": 19.01,
+    "Chemical Engineering": 22.6,
+    "Civil Engineering": 20.44,
+    "Computer Science and Engineering": 57.35,
+    "Electrical Engineering": 31.05,
+    "Materials Science and Engineering": 20.61,
+    "Mechanical Engineering": 22.14,
+    "Chemistry": 14.89,
+    "Earth Sciences": 20.1,
+    "Economics": 19.37,
+    "Mathematics and Scientific Computing": 46.46,
+    "Physics": 17.02,
+    "Overall (UG)": 30.86
+  },
+  "avg_package_lpa": 25.95,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Sc. - 4 Years"
+  ],
+  "_slug": "iit-kanpur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-kanpur",
+  "last_scraped_at": "2026-03-31T16:01:35.696274",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitk.ac.in",
+  "phd_available": true,
+  "infrastructure": {
+    "labs": [
+      "Imagineering Lab"
+    ],
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "University of Alberta -IITK Seed Grant Fund",
+        "country": null
+      }
+    ]
+  }
+}

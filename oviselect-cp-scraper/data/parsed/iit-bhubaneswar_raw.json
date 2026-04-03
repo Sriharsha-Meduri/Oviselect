@@ -1,0 +1,139 @@
+{
+  "institute": "IIT Bhubaneswar",
+  "also_known_as": "IIT BBS",
+  "institute_type": "IIT",
+  "established_year": 2008,
+  "city": "Bhubaneswar",
+  "state": "Odisha",
+  "address": "Indian Institute of Technology, Argul Campus, Jatani, Khordha, Bhubaneswar, Odisha - 752050",
+  "nearest_airport": "Biju Patnaik International Airport, Bhubaneswar",
+  "nearest_airport_km": 29.0,
+  "nearest_railway_station": "Khurda Road Junction",
+  "nearest_railway_km": 6.0,
+  "qs_world_rank": "951-1000 (2026)",
+  "qs_asia_rank": "412 (2026)",
+  "nirf_overall_rank": 80,
+  "nirf_engineering_rank": 39,
+  "caution_money": 12000,
+  "one_time_fees": 8000,
+  "tuition_fee_per_sem": 100000,
+  "annual_fees": 2390,
+  "mess_advance_per_sem": 18000,
+  "total_institute_fee": 159390,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 84.53,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 57.89,
+    "Computer Science and Engineering": 100.0,
+    "Electrical Engineering": 60.0,
+    "Electronics and Communication Engineering": 78.0,
+    "Mechanical Engineering": 65.79,
+    "Metallurgical and Materials Engineering": 44.44,
+    "Overall (B.Tech.)": 84.53,
+    "Overall (Dual Degree)": 65.91
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 10.0,
+    "Computer Science and Engineering": 22.14,
+    "Electrical Engineering": 19.92,
+    "Electronics and Communication Engineering": 18.0,
+    "Mechanical Engineering": 12.0,
+    "Metallurgical and Materials Engineering": 15.28
+  },
+  "median_package_lpa": 16.22,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 13.12,
+    "Computer Science and Engineering": 24.76,
+    "Electrical Engineering": 18.44,
+    "Electronics and Communication Engineering": 22.85,
+    "Mechanical Engineering": 14.23,
+    "Metallurgical and Materials Engineering": 16.0,
+    "Overall": 17.68
+  },
+  "avg_package_lpa": 18.15,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iit-bhubaneswar",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-bhubaneswar",
+  "last_scraped_at": "2026-03-31T16:00:21.872828",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitbbs.ac.in",
+  "placement_officer": {
+    "email": "registrar.office@iitbbs.ac.in",
+    "phone": "2026-27 23"
+  },
+  "top_recruiters": [
+    "Sponsored Research & Industrial Consultancy (SRIC)",
+    "Research & Entrepreneurship Park (REP)",
+    "AI & HPC Research Center (AHRC)",
+    "Intellectual Property Rights",
+    "Central Research Instrumentation Facility(CRIF)",
+    "Centers",
+    "Career Development Cell",
+    "Coordinators Student Coordinators Faculty Coordinators",
+    "Placement Procedure",
+    "Placement Gallery",
+    "Recruiters",
+    "Facilities for Recruiters",
+    "Placement Brouchure",
+    "Company Registration",
+    "Student Resources",
+    "Jobs",
+    "Central Library",
+    "director",
+    "High performance RF inductors and on-chip VNA testset",
+    "14-Mar-2026:  UMEED 6.0  Boold Donation Camp",
+    "26-Jan-2026: Republic Day Celebration 2026",
+    "26-Nov-2025: Constitution Day 2025 Celebration",
+    "30-Oct-2025: Vigilance Awareness Week 2025 Talk",
+    "30-Aug-2025: Industry-Academia Conclave 2025",
+    "13-Aug-2025: Har Ghar Tiranga",
+    "12-Aug-2025: Nasha Mukt Bharat Abhiyan",
+    "12-Aug-2025: Anti-Ragging Campaign",
+    "student-life-1",
+    "student-life-2",
+    "student-life-4",
+    "student-life-5",
+    "student-life-6"
+  ],
+  "research": {
+    "total_funding_crores": 2026.0,
+    "research_centres": [
+      "\u2022 Media Coverage- IIT Bhubaneswar Hosts Aspire Programme in Collaboration with UltraTech Cement",
+      "Indian Institute of Technology Bhubaneswar"
+    ]
+  },
+  "phd_available": true,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "clubs": [
+      "Career Development Cell"
+    ],
+    "has_nss": true,
+    "has_ncc": false
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Home Home About IIT BBS About Campus How to Reach Act & Statutes Board of Governors Senate Circlulars/ Orders/ Polices Ranking Institute Committees History of the Campus Reports",
+        "country": null
+      },
+      {
+        "university": "Institute Committees",
+        "country": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "institute": "IIIT(IIIT) Una, Himachal Pradesh",
+  "also_known_as": "IIITU",
+  "institute_type": "IIIT",
+  "established_year": 2014,
+  "city": "Una",
+  "state": "Himachal Pradesh",
+  "address": "Indian Institute of Information Technology, Saloh, Una, Himachal Pradesh - 177209",
+  "nearest_airport": "Adampur Airport, Jalandhar",
+  "nearest_airport_km": 60.5,
+  "nearest_railway_station": "Una Himachal Railway Station",
+  "nearest_railway_km": 11.0,
+  "caution_money": 5000,
+  "tuition_fee_per_sem": 100000,
+  "total_institute_fee": 135000,
+  "hostel_fee_per_sem": 20390,
+  "mess_advance_per_sem": 22800,
+  "total_hostel_fee": 43190,
+  "overall_placement_pct": 82.95,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 87.8,
+    "Electronics and Communication Engineering": 83.33,
+    "Information Technology": 73.91,
+    "Overall": 82.95
+  },
+  "placement_year": 2024,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 8.0,
+    "Electronics and Communication Engineering": 9.25,
+    "Information Technology": 8.0,
+    "Overall": 8.0
+  },
+  "median_package_lpa": 8.31,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 10.44,
+    "Electronics and Communication Engineering": 8.49,
+    "Information Technology": 9.15,
+    "Overall": 9.36
+  },
+  "avg_package_lpa": 9.36,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-una",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-una",
+  "last_scraped_at": "2026-03-31T16:18:52.372921",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiituna.ac.in"
+}

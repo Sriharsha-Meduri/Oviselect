@@ -1,0 +1,80 @@
+{
+  "institute": "IIT Jodhpur",
+  "also_known_as": "IITJ",
+  "institute_type": "IIT",
+  "established_year": 2008,
+  "city": "Jodhpur",
+  "state": "Rajasthan",
+  "address": "Indian Institute of Technology, N.H. 62, Nagaur Road, Karwar, Jodhpur, Rajasthan - 342030",
+  "nearest_airport": "Jodhpur Airport",
+  "nearest_airport_km": 29.0,
+  "nearest_railway_station": "Jodhpur Junction Railway Station",
+  "nearest_railway_km": 26.0,
+  "qs_asia_rank": "666 (2026)",
+  "nirf_overall_rank": 66,
+  "nirf_engineering_rank": 27,
+  "caution_money": 8000,
+  "one_time_fees": 6800,
+  "tuition_fee_per_sem": 100000,
+  "mess_advance_per_sem": 19000,
+  "total_institute_fee": 161050,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 92.98,
+  "branch_wise_placement_pct": {
+    "Artificial Intelligence and Data Science": 97.92,
+    "Bio Engineering": 88.89,
+    "Chemical Engineering": 71.43,
+    "Civil and Infrastructure Engineering": 68.18,
+    "Computer Science and Engineering": 100.0,
+    "Electrical Engineering": 95.45,
+    "Engineering Sciences": 100.0,
+    "Materials Engineering": 84.62,
+    "Mechanical Engineering": 97.78,
+    "Overall (B.Tech.)": 92.98
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Bio-Engineering": 16.0,
+    "Computer Science and Engineering": 22.0,
+    "Electrical Engineering": 17.0,
+    "Mechanical Engineering": 13.0,
+    "Overall": 16.5
+  },
+  "median_package_lpa": 16.9,
+  "branch_wise_avg_ctc": {
+    "Bio-Engineering": 18.0,
+    "Computer Science and Engineering": 23.0,
+    "Electrical Engineering": 22.0,
+    "Mechanical Engineering": 19.0,
+    "Overall": 21.5
+  },
+  "avg_package_lpa": 20.7,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Sc. - 4 Years"
+  ],
+  "_slug": "iit-jodhpur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-jodhpur",
+  "last_scraped_at": "2026-03-31T16:01:23.186664",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitj.ac.in",
+  "research": {
+    "total_funding_crores": 3.0
+  },
+  "phd_available": true,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "has_nss": false,
+    "has_ncc": false
+  }
+}

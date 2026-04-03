@@ -1,0 +1,2677 @@
+{
+  "institute": "NIT Raipur",
+  "institute_type": "NIT",
+  "also_known_as": "NITRR",
+  "established_year": 1956,
+  "city": "Raipur",
+  "state": "Chhattisgarh",
+  "address": "National Institute of Technology, Opposite Ayurvedic College, GE Road, Raipur, Chhattisgarh - 492010",
+  "nearest_airport": "Swami Vivekananda Airport, Raipur",
+  "nearest_airport_km": 18.5,
+  "nearest_railway_station": "Raipur Junction Railway Station",
+  "nearest_railway_km": 4.5,
+  "nirf_overall_rank": 151,
+  "nirf_engineering_rank": 86,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": "851-900 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 5515,
+  "mess_advance_per_sem": 17500,
+  "one_time_fees": 2750,
+  "caution_money": 1500,
+  "annual_fees": 540,
+  "total_institute_fee": 71680,
+  "total_hostel_fee": 37015,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 69.34,
+  "avg_package_lpa": 11.59,
+  "median_package_lpa": 9.98,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Bio Medical Engineering": 15.38,
+    "Bio Technology": 29.55,
+    "Chemical Engineering": 93.06,
+    "Civil Engineering": 63.16,
+    "Computer Science and Engineering": 80.58,
+    "Electrical Engineering": 86.32,
+    "Electronics and Communication Engineering": 62.89,
+    "Information Technology": 72.73,
+    "Mechanical Engineering": 87.88,
+    "Metallurgical and Materials Engineering": 94.85,
+    "Mining Engineering": 65.38,
+    "B.Arch.": 4.08,
+    "Overall (UG)": 69.34
+  },
+  "branch_wise_median_ctc": {
+    "Bio Medical Engineering": 7.5,
+    "Bio Technology": 8.5,
+    "Chemical Engineering": 7.6,
+    "Civil Engineering": 9.08,
+    "Computer Science and Engineering": 14.5,
+    "Electrical Engineering": 9.0,
+    "Electronics and Communication Engineering": 10.0,
+    "Information Technology": 15.11,
+    "Mechanical Engineering": 8.9,
+    "Metallurgical and Materials Engineering": 8.0,
+    "Mining Engineering": 10.0,
+    "Overall (B.Tech.)": 11.6
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Bio Medical Engineering": 8.69,
+    "Bio Technology": 8.09,
+    "Chemical Engineering": 8.8,
+    "Civil Engineering": 10.02,
+    "Computer Science and Engineering": 16.49,
+    "Electrical Engineering": 11.38,
+    "Electronics and Communication Engineering": 12.48,
+    "Information Technology": 18.42,
+    "Mechanical Engineering": 9.66,
+    "Metallurgical and Materials Engineering": 9.95,
+    "Mining Engineering": 11.43,
+    "Overall (B.Tech.)": 13.67
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "APPLIED GEOLOGY",
+      "faculty": [
+        {
+          "name": "Dr. N. Vishwakarma",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=aplgeo.nvishwakarma",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M.Tech. Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Prabhat Diwan",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=aplgeo.pdiwan",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M.Tech. (1989); Ph.D. (1994)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. D. C. Jhariya",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=aplgeo.djhariya",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "M.Tech"
+            },
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Himanshu Govil",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=aplgeo.hgovil",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. PGDG (ITC Netherlands & IIRS Dehradun)"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 4
+    },
+    {
+      "name": "ARCHITECTURE",
+      "faculty": [
+        {
+          "name": "Dr.Debashis Sanyal",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=arch.dsanyal",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "PhD."
+            },
+            {
+              "degree": "M.Arch."
+            },
+            {
+              "degree": "P.G. Dip.(English)"
+            },
+            {
+              "degree": "B.Arch."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Abir Bandyopadhyay",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=arch.abandyopadhyay",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "B.Arch(Calcutta University);Masters in Planning(with specialization in Urban Planning) (SPA"
+            },
+            {
+              "degree": "New Delhi);Ph.D.(IIT Kharagpur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr.(Mrs)Swasti Sthapak",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=arch.ssthapak",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D;A.I.T.P.;B.Arch"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Himanshu Poptani",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=arch.hpoptani",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.Arch (Nagpur University)"
+            },
+            {
+              "degree": "M.Arch (IIT Roorkee)"
+            },
+            {
+              "degree": "Professional Certificate in Environmental Planning & Management (CEPT"
+            },
+            {
+              "degree": "Ahmedabad)"
+            },
+            {
+              "degree": "PhD (NIT Raipur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. (Mrs.) Vandana Agrawal",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=arch.vagrawal%20",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.Arch. A.I.T.P.I."
+            },
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sachin Kumar Sahu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=arch.sksahu",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD (NIT Raipur) ; Masters of City Planning (IIT Kharagpur); B.Arch"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Vivek Agnihotri",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=arch.vagnihotri",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "MCP - PhD (IIT Kharagpur)"
+            },
+            {
+              "degree": "B.Arch. (NIT Patna)"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 7
+    },
+    {
+      "name": "BIO MEDICAL ENGINEERING",
+      "faculty": [
+        {
+          "name": "Dr. Arindam Bit",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bme.abit",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "M.E (Jadavpur University)"
+            },
+            {
+              "degree": "Ph D (Jadavpur University)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Bikesh Kumar Singh",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bme.bsingh",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Saurabh Gupta",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bme.sgupta",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "PhD (Inverse Problems)"
+            },
+            {
+              "degree": "IISc Bangalore (2014); MS (Medical Software)"
+            },
+            {
+              "degree": "Manipal University (2008); B Tech (BME)"
+            },
+            {
+              "degree": "Bundelkhand University (2006)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sudip Paul",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bme.spaul",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "PDF (Computer Sc. and Softeare Engg)"
+            },
+            {
+              "degree": "The University of Western Australia"
+            },
+            {
+              "degree": "Perth ; Ph.D (Biomedical Engg.)"
+            },
+            {
+              "degree": "IIT (BHU)"
+            },
+            {
+              "degree": "Varanasi; M.Tech (Biomedical Engg.)"
+            },
+            {
+              "degree": "IT-BHU"
+            },
+            {
+              "degree": "Varanasi; B.Tech (Biomedical Engg.)"
+            },
+            {
+              "degree": "WBUT"
+            }
+          ],
+          "specializations": [
+            "Online International Faculty Development Program on Bridging Research &Innovation in Biomedical Sciences and Engineering",
+            "Galgotias University",
+            "Greater Nodia"
+          ]
+        },
+        {
+          "name": "Mrs. Neelamshobha Nirala",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bme.nsnirala",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Nishant Kumar Singh",
+          "profile_url": "http://www.nitrr.ac.in/viewdetails.php?q=bme.nksingh",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. M. Marieswaran",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bme.mmarieswaran",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.E."
+            },
+            {
+              "degree": "M.Tech."
+            },
+            {
+              "degree": "PhD."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Mainak Basu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bme.mbasu",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Postdoc - ETH Zurich"
+            },
+            {
+              "degree": "Ph.D. – MEMS and Microfluidics"
+            },
+            {
+              "degree": "IIT Kharagpur (2022); M.Tech – Biomedical Engineering"
+            },
+            {
+              "degree": "VIT University (2014); B.Tech – Biomedical Engineering"
+            },
+            {
+              "degree": "WBUT (2012)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Souvik Biswas",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bme.sbiswas",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PDF (Chalmers University of Tech.)"
+            },
+            {
+              "degree": "PhD (Biosensor) - IIT KGP"
+            },
+            {
+              "degree": "M.Engg. (Biomedical Engg.) - JU"
+            },
+            {
+              "degree": "B.Tech (Biomedical Engg.) - MAKAUT"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 9
+    },
+    {
+      "name": "BIO TECHNOLOGY",
+      "faculty": [
+        {
+          "name": "Dr.Pratima Gupta",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bt.pgupta",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. in Microbiology"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Lata Sheo Bachan Upadhyay",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bt.lupadhyay",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr.Awanish Kumar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bt.akumar",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D Biotechnology (JNU New Delhi & CSIR-CDRI"
+            },
+            {
+              "degree": "Lucknow); PDF (McGill University"
+            },
+            {
+              "degree": "Canada)"
+            }
+          ],
+          "specializations": [
+            "Teaching Experience (Post-Ph.D)"
+          ]
+        },
+        {
+          "name": "Dr. J. Satya Eswari",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bme.jseswari",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. D. Vasanth",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bt.dvasanth",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M.Tech"
+            },
+            {
+              "degree": "Ph.D (IITG)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Dijendra Nath Roy",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bt.dnroy",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD (CSIR-Indian Institute of Chemical Biology)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Chinmaya Mahapatra",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bt.cmahapatra",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M.Tech"
+            },
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sharda Bharti",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bt.sbharti",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M. Tech."
+            },
+            {
+              "degree": "Ph.D. (IIT Bombay)"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 8
+    },
+    {
+      "name": "BT",
+      "faculty": [
+        {
+          "name": "Dr. Manishekhar Kumar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=bt.mkumar",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "CHEMICAL ENGINEERING",
+      "faculty": [
+        {
+          "name": "Dr. A. K. Poonia",
+          "profile_url": "https://nitrr.ac.in/textboxio/viewdetails.php?q=chem.akpoonia",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "DEPARTMENT OF CHEMISTRY",
+      "faculty": [
+        {
+          "name": "Dr. Shyama Prasad Mahapatra",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=chy.spmahapatra",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M. Sc.: NIT RKL"
+            },
+            {
+              "degree": "Ph.D. (IIT Kharagpur)"
+            },
+            {
+              "degree": "Post Doctor: UOIT"
+            },
+            {
+              "degree": "Canada & CAU Seoul"
+            },
+            {
+              "degree": "South Korea"
+            }
+          ]
+        },
+        {
+          "name": "Dr. (Mrs.) Kavita Tapadia",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=chy.ktapadia",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc. PhD"
+            },
+            {
+              "degree": "Post-Doc Fellow (Taiwan)"
+            }
+          ]
+        },
+        {
+          "name": "Dr.(Mrs.) Tungabidya Maharana",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=chy.tmaharana",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc."
+            },
+            {
+              "degree": "M.Phil"
+            },
+            {
+              "degree": "Ph.D. (IIT ROORKEE)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. KAFEEL AHMAD SIDDIQUI",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=chy.asiddiqui",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc. ; Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Alekha Kumar Sutar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=chy.aksutar",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc."
+            },
+            {
+              "degree": "Ph.D."
+            },
+            {
+              "degree": "Post-Doc"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sagarika Bhattacharya",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=chy.sbhattacharya",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Atanu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=chy.aghosh",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc (IIT Madras)"
+            },
+            {
+              "degree": "PhD (IIT Madras)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Santhosh Penta",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=chy.spenta",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D (NIT-Warangal)"
+            }
+          ]
+        },
+        {
+          "name": "Dr.(Mrs.) Fahmida Khan",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=chy.fkhan",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc."
+            },
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 9
+    },
+    {
+      "name": "CIVIL ENGINEERING",
+      "faculty": [
+        {
+          "name": "Dr. M.K. Verma (on Deputation- VC CSVTU)",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ce.mkverma",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "BE (Civil) M. Tech. (FM- Hydro Power) Ph.D. (Water Resources Engg.)"
+            }
+          ]
+        },
+        {
+          "name": "Dr.Ishtiyaq Ahmad",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ce.iahmad",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "B.E. (Civil)"
+            },
+            {
+              "degree": "M.Tech. (WRD&IE) & Ph.D. (Water Resources)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Mani Kant Verma",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ce.manikverma",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (Water Resources"
+            },
+            {
+              "degree": "Climate Change); M.E. in Water Resources and Environmental Engineering with Distinction (IISC Bangalore); B.Tech. in Civil Engineering with Distinction (GBPUA&T"
+            },
+            {
+              "degree": "Pantnagar)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Govardhan Bhat",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ce.govardhan",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "PhD IITROORKEE"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sandeep Kumar Chouksey",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ce.skchouksey",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.E (Civil)"
+            },
+            {
+              "degree": "MSc. Engg."
+            },
+            {
+              "degree": "Ph.D IISc Bangalore"
+            }
+          ]
+        },
+        {
+          "name": "Dr. A. D. Prasad",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ce.adprasad",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "P.hD"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Vikas Kumar Vidyarthi",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ce.vkvidyarthi",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.Sc. Engg.(MIT Muzaffarpur)"
+            },
+            {
+              "degree": "M.Tech. (IIT Kanpur)"
+            },
+            {
+              "degree": "PhD. (IIT Kanpur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Ritesh S.",
+          "profile_url": "https://www.nitrr.ac.in/viewdetails.php?q=ce.ringale",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B. Eng (Civil)"
+            },
+            {
+              "degree": "M.Tech. (SMFE)"
+            },
+            {
+              "degree": "Ph.D. (Geotechnical Engineering)"
+            }
+          ]
+        },
+        {
+          "name": "Dr.Chandan Kumar Singh",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ce.cksingh",
+          "designation": "Assistant Prof Grade I",
+          "qualifications": [
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Atin Roy",
+          "profile_url": "https://www.nitrr.ac.in/viewdetails.php?q=ce.aroy",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.E. (Civil Engineering)"
+            },
+            {
+              "degree": "M.Tech (Structural Engineering)"
+            },
+            {
+              "degree": "PhD from IIEST"
+            },
+            {
+              "degree": "Shibpur"
+            },
+            {
+              "degree": "Postdoc (University of Glasgow"
+            },
+            {
+              "degree": "UK)"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 10
+    },
+    {
+      "name": "COMPUTER SCIENCE & ENGINEERING",
+      "faculty": [
+        {
+          "name": "Dr. Dilip Singh Sisodia",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cs.dsisodia",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (Computer Science & Engineering)"
+            },
+            {
+              "degree": "M.Tech. (Information Technology with Specialization in Artificial Intelligence)"
+            },
+            {
+              "degree": "B.E. (Computer Science & Engineering)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Naresh Kumar Nagwani",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cs.nnagwani",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "B.E. (Hons - CS&E)"
+            },
+            {
+              "degree": "M.Tech. - IT (ABV-IIITM Gwalior)"
+            },
+            {
+              "degree": "Ph.D. - CS&E (NIT Raipur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Pradeep Singh",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cs.psingh",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph. D (Computer Science & Engineering)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Aakanksha Sharaff",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cs.asharaff",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (Computer Science & Engineering)"
+            },
+            {
+              "degree": "M.Tech. (Honours- Computer Science & Engineering)"
+            },
+            {
+              "degree": "B.E. (Honours-Computer Science & Engineering)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Manu Vardhan",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cs.mvardhan",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Preeti Chandrakar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cse.pchandrakar",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph. D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. K. Jairam Naik",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cse.jnaik",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D(C.S.E)"
+            },
+            {
+              "degree": "M.Tech(C.S.E)"
+            },
+            {
+              "degree": "B.Tech(C.S.E)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Deepak Singh",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cse.dsingh",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD Computer Science and Engineering"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sonal Yadav",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cse.syadav",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Postdoc (CSE"
+            },
+            {
+              "degree": "IIT Guwahati)"
+            },
+            {
+              "degree": "PhD (CSE"
+            },
+            {
+              "degree": "MNIT Jaipur)"
+            },
+            {
+              "degree": "MTech (CSE"
+            },
+            {
+              "degree": "MNIT Jaipur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Jitendra Kumar Rout",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cse.jkrout",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Karnati",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cse.kmohan",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            },
+            {
+              "degree": "M.Tech"
+            },
+            {
+              "degree": "B.Tech"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Nitesh K",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cse.nkbharadwaj",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (CSE)"
+            },
+            {
+              "degree": "M.Tech. (CSE)[Specialization VLSI Design]"
+            },
+            {
+              "degree": "B.E. (CSE)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Shailendra",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cse.sktripathi",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD"
+            },
+            {
+              "degree": "M.Tech"
+            },
+            {
+              "degree": "B.E."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Madhukrishna Priyadarsini",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cse.mpriyadarsini",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            },
+            {
+              "degree": "M. TECH"
+            },
+            {
+              "degree": "B. TECH"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Bunil Kumar Balabantaray",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cse.bkbalabantaray",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.Tech."
+            },
+            {
+              "degree": "M.Tech."
+            },
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Anita Murmu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=cse.amurmu",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (Computer Science and Engineering)"
+            },
+            {
+              "degree": "M.Tech (Information Technology)"
+            },
+            {
+              "degree": "B.Tech (Computer Science and Engineering)"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 16
+    },
+    {
+      "name": "ELECTRICAL ENGINEERING",
+      "faculty": [
+        {
+          "name": "Dr. Sachin Jain",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.sjain",
+          "designation": "Company/Organization",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. (Mrs.) S. Gupta",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.sgupta",
+          "designation": "Professor (HAG)",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. P. D. Dewangan",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.pddewangan",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph. D.(NIT"
+            },
+            {
+              "degree": "Raipur)"
+            },
+            {
+              "degree": "M. Tech.(VNIT"
+            },
+            {
+              "degree": "Nagpur)"
+            },
+            {
+              "degree": "B.E.(GEC/NIT"
+            },
+            {
+              "degree": "Raipur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. (Mrs.) A. Yadav",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.ayadav",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M.Tech. (Integrated Power System)"
+            },
+            {
+              "degree": "Ph.D. (Electrical Engg.)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. N. D. Londhe",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.ndlondhe",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. & M.Tech (IIT ROORKEE)"
+            },
+            {
+              "degree": "B.E. (SSGMCE Shegaon)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. S. Ghosh",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.sghosh",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M.E (BIT Mesra)"
+            },
+            {
+              "degree": "Ph.D (IIT Kharagpur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. R N Patel",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.rnpatel",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph D (IIT Delhi)"
+            },
+            {
+              "degree": "M Tech (IIT Delhi)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Ebha Koley",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.ekoley",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (NIT Raipur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. S. Patnaik",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.spatnaik",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr.(Mrs.) Varsha Singh",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.vsingh",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.E. M.Tech"
+            },
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. M. Biswal",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.mbiswal",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D (Sambalpur University)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Lalit Kumar Sahu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.lkumar",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "BE (Electrical Engg.) M. Tech (Electrical Drives)"
+            },
+            {
+              "degree": "PhD (MANIT Bhopal)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sonti Venu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.svenu",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD (NIT Warangal)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Ramya Selvaraj",
+          "profile_url": "http://www.nitrr.ac.in/viewdetails.php?q=ee.rselvaraj",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD (IIT Madras)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. D. Suresh",
+          "profile_url": "http://www.nitrr.ac.in/viewdetails.php?q=ee.dsuresh",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Hari priya Vemuganti",
+          "profile_url": "http://www.nitrr.ac.in/viewdetails.php?q=ee.hpvemugant",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Rajan Kumar",
+          "profile_url": "http://www.nitrr.ac.in/viewdetails.php?q=ee.rkumar",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (IIT Delhi)"
+            },
+            {
+              "degree": "M.Tech. (MNNIT Allahabad)"
+            },
+            {
+              "degree": "B.E. (CSVTU Bhilai)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Surajit Sannigrahi",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.ssannigrahi",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Saurav Raj",
+          "profile_url": "https://www.nitrr.ac.in/viewdetails.php?q=ee.sraj",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD (IIT Dhanbad)"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 19
+    },
+    {
+      "name": "SMART CITY",
+      "faculty": [
+        {
+          "name": "Dr. B. Shaw",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.bshaw",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.E.(NIT"
+            },
+            {
+              "degree": "Bhopal)"
+            },
+            {
+              "degree": "M.Tech.(CU)"
+            },
+            {
+              "degree": "Ph.D [IIT(ISM)"
+            },
+            {
+              "degree": "Dhanbad]"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "EE",
+      "faculty": [
+        {
+          "name": "Dr. K Chandrasekaran",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.kchandrasekaran",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr.B. N. Bag",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.bnbag",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "COORDINATOR, NBA WORK, NIT RAIPUR COORDINATOR, ELECTRICAL ENGINEERING ASSOCIATION, NIT RAIPUR COORDINATOR ACADEMIC AUDIT, STRATEGIC PLAN, NIT RAIPUR FIRST YEAR COORDINATOR, ELECTRICAL ENGINEERING DEPARTMENT, NIT RAIPUR COORDINATOR, 8TH SEMESTER, ELECTRICAL ENGINEERING, NIT SRINAGAR DY. O/C HIGH VOLTAGE LAB, NIT SRINAGAR NBA ACCREDITATION WORK (CRITERIA-5), NIT SRINAGAR AMI COURSE EVALUATOR, NIT SRINAGAR DEPARTMENTAL ADMISSION COMMITTEE (DAC) MEMBER, NIT SRINAGAR MEMBER DCC, NIT SRINAGAR MEMBER IN PH.D. STUDENT PRP, NIT SRINAGAR MENTOR FOR PH.D. STUDENTS, NIT SRINAGAR MENTOR FOR M.TECH STUDENTS, NIT SRINAGAR MENTOR FOR B.TECH STUDENTS, NIT SRINAGAR MEMBER IN ACCOMMODATION AND CATERING COMMITEES (STC), NIT SRINAGAR INVIGILATION DUTY FOR PH.D. ENTRANCE EXAM & EVALUATION, NIT SRINAGAR MEMBER WRITE-OFF COMMITTEE, NIT SRINAGAR FACULTY ADVISER FOR M.TECH FIRST YEAR STUDENTS, NIT SRINAGAR MEMBER, BID EVALUATION COMMITTEE FOR VARIOUS LABS, NIT SRINAGAR MEMBER, PH.D. (SPONSORED) CANDIDATES SCREENING COMMITTEE, NIT SRINAGAR ANNUAL REPORT COMPILATION,2019-20, 2020-21., NIT SRINAGAR MEMBER, PHYSICAL VERIFICATION OF FIXED ASSETS, NIT SRINAGAR INDUSTRIAL VISIT TO MARWA THERMAL POWER PLANT, CHATTISGARGH",
+      "faculty": [
+        {
+          "name": "Dr. Chilaka Ranga",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ee.cranga",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ],
+          "specializations": [
+            "‘Real-Time AI Driven Monitoring and Preventive Maintenance to Prevent Transformer Explosions during Extreme Summer Heat in Chhattisgarh’",
+            "Rs. 35.6 lakhs",
+            "Anusandhan National Research Foundation (ANRF) – Inclusive Researcg Grant (IRG)",
+            "ANRF/IRG/2025/001608/ENS",
+            "Mar. 2026 to Jan. 2029 (Ongoing). ‘Performance Evaluation of Advanced Dielectric Materials in Transformers’",
+            "sponsored by Department of Scientific and Industrial Research",
+            "Rs. 9.964 lakh",
+            "A2KS-11011/11/2021-IRD(SC)-DSIR (Feb. 2022 – Jan. 2024) (Completed). ‘Experimental Characterization for Alternate Dielectrics for Power Transformers’ sponsored by NIT Raipur"
+          ]
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "faculty": [
+        {
+          "name": "Dr. Bijayananda Patnaik",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=etc.bpatnaik",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "B.E"
+            },
+            {
+              "degree": "MTech"
+            },
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Shrish Verma",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=elx.sverma",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M.Tech (Computer Engineering)"
+            },
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Guru Prasad Subas Chandra Mishra",
+          "profile_url": "http://www.nitrr.ac.in/viewdetails.php?q=etc.gpscmishra",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. B Acharya",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=elx.bacharya",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "B.E (Elec. & Tele. Engg.)"
+            },
+            {
+              "degree": "M.Tech (Telematics & Signal Processing)"
+            },
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr.Toshanlal Meenpal",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=elx.tmeenpal",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "MTech (IIT Kharagpur)"
+            },
+            {
+              "degree": "PhD (HBNI (BARC) Mumbai)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Ajay Singh Raghuvanshi",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=etc.asraghuvanshi",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Chitrakant Sahu",
+          "profile_url": "http://www.nitrr.ac.in/viewdetails.php?q=etc.csahu",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Saikat Majumder",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=elx.smajumdar",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Anshul Gupta",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=elx.agupta",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M.Tech (IIT-BHU)"
+            },
+            {
+              "degree": "PhD (IIT DHANBAD)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Suman Kumar Saha",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=elx.sksaha",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Deboraj Muchahary",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=etc.dmuchahary",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD (NIT Arunachal)"
+            },
+            {
+              "degree": "M. Tech (NIT Arunachal)"
+            },
+            {
+              "degree": "B. Tech (CIT Kokrajhar)"
+            }
+          ]
+        },
+        {
+          "name": "Dr.Ashish Kumar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=etc.akumar",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.Tech"
+            },
+            {
+              "degree": "M.Tech"
+            },
+            {
+              "degree": "PhD ( MNIT Jaipur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Mayur Katwe",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ece.mvkatwe",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 13
+    },
+    {
+      "name": "S. NO.",
+      "faculty": [
+        {
+          "name": "Dr. Alok Naugarhiya",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=elx.anaugarhiya",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "BE (EC)"
+            },
+            {
+              "degree": "M.Tech (Microelectronics and VLSI Design)"
+            },
+            {
+              "degree": "Ph.D. (ECE)"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "ELECTRONICS & TELECOM. ENGINEERING",
+      "faculty": [
+        {
+          "name": "Dr. Kaushal Nigam",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=etc.kknigam",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sukeshni Tirkey",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=ece.stirkey",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D (PDPM-IIITDM Jabalpur)"
+            },
+            {
+              "degree": "M.Tech. (MANIT Bhopal)"
+            },
+            {
+              "degree": "B.Tech. (GEC Bilaspur)"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 2
+    },
+    {
+      "name": "HUMANITIES & SOCIAL SCIENCES",
+      "faculty": [
+        {
+          "name": "Dr.Jaya Dwivedi",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=hum.jdwivedi",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D.(American English Literature)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Anoop Tiwari",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=hum.aktiwari",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. CAPS University RewaMP"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Shashikanta Tarai",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=hum.starai",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. ( IIT Madras )"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sandip Sarkar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=hum.ssarkar",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD (IIT Kharagpur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Moksha Singh",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=hum.msingh",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "PhD (IIT Kanpur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Y. Vijaya Babu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=hum.yvijayababu",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (English)"
+            },
+            {
+              "degree": "M.A. (English)"
+            },
+            {
+              "degree": "SET(English)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Chetna",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=hum.csrajput",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD"
+            },
+            {
+              "degree": "MPA"
+            },
+            {
+              "degree": "MBA(Hons.) Marketing & Retail"
+            },
+            {
+              "degree": "BBA"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Anil Manjhi",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=hum.amanjhi",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (NIT Raipur)"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 8
+    },
+    {
+      "name": "INFORMATION TECHNOLOGY",
+      "faculty": [
+        {
+          "name": "Dr. Sudhakar Pandey",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.spandey",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "B.E."
+            },
+            {
+              "degree": "M.Tech."
+            },
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Satya Prakash Sahu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.ssahu",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "B.E.(CSE)"
+            },
+            {
+              "degree": "M.Tech.(CSE)"
+            },
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Rakesh Tripathi",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.rtripathi",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sanjay Kumar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.skumar",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "B.E.(CSE) M.Tech.(CSE) Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Suvendu Rup",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.srup",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Pavan Kumar Mishra",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.pmishra",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD"
+            },
+            {
+              "degree": "M.Tech"
+            },
+            {
+              "degree": "B.Tech"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Rajesh Doriya",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.rdoriya",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. from IIIT-Allahabad"
+            },
+            {
+              "degree": "M.Tech.(IT) from IIIT-Allahabad"
+            },
+            {
+              "degree": "B.E.(IT) from MITS-Gwalior."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Rekh Ram Janghel",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.rrjanghel",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "BE(IT)"
+            },
+            {
+              "degree": "M.Tech (NIT Raipur)"
+            },
+            {
+              "degree": "Ph.D.(IT) (ABV-IIITM Gwalior)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Govind P. Gupta",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.gpgupta",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "B.E."
+            },
+            {
+              "degree": "M.Tech"
+            },
+            {
+              "degree": "Ph.D.(I.I.T."
+            },
+            {
+              "degree": "Roorkee)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Rupesh",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.rkdewang",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Mridu Sahu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.msahu",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M.Tech."
+            },
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Tirath Prasad Sahu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.tpsahu",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            },
+            {
+              "degree": "M.Tech"
+            },
+            {
+              "degree": "B.Tech"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Gyanendra Kumar Verma",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.gkverma",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD (IT)"
+            },
+            {
+              "degree": "M.Tech (IT)"
+            },
+            {
+              "degree": "B.Tech (IT)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Chandrashekar Jatoth",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.jchandrashekar",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.E"
+            },
+            {
+              "degree": "M.Tech (AI"
+            },
+            {
+              "degree": "University of Hyderabad)"
+            },
+            {
+              "degree": "Ph.D. (University of Hyderabad)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Rayanoothala Praneetha Sree",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.rpraneethasree",
+          "designation": "From",
+          "qualifications": [
+            {
+              "degree": "Ph.D (NIT-W)"
+            },
+            {
+              "degree": "MTech (NIT-A)"
+            },
+            {
+              "degree": "BTech (JNTU-Hyd)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Deepika Agrawal",
+          "profile_url": "http://www.nitrr.ac.in/viewdetails.php?q=it.dagrawal",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (NIT Raipur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Kapil Kumar Soni",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=it.kksoni",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "B.E. (IT)"
+            },
+            {
+              "degree": "M.Tech. (CSE)"
+            },
+            {
+              "degree": "Ph.D. (CSE) - MANIT"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 17
+    },
+    {
+      "name": "DEPARTMENT OF MATHEMATICS",
+      "faculty": [
+        {
+          "name": "Dr. Sujit Kumar Samanta",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.ssamanta",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (2006) IIT Kharagpur"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Arvind Kumar Sinha",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.aksinha",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "Ph. D. (Mathematics)"
+            },
+            {
+              "degree": "M. Phil. (Mathematics)"
+            },
+            {
+              "degree": "M. Sc. (Mathematics)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Debasisha Mishra",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.dmishra",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "PhD (IIT Madras)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sharada Nandan Raw",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.snraw",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph. D. (IIT-ISM Dhanbad)"
+            },
+            {
+              "degree": "M. Sc. (BHU)"
+            },
+            {
+              "degree": "B. Sc. Hons. (BHU)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Madasu Krishna Prasad",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.mkprasad",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (NIT Warangal)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Nilesh Kumar Thakur",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.nthakur",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "M. Phil."
+            },
+            {
+              "degree": "Ph. D. (IIT (ISM) Dhanbad)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Deepmala Sharma",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.dmsharma",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (IIT Roorkee)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Anup Kumar Sharma",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.aksharma",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD"
+            },
+            {
+              "degree": "MPhil & MSc IIT(ISM) Dhanbad"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Neeraj Manhas",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.nmanhas",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            },
+            {
+              "degree": "Post doc."
+            }
+          ]
+        },
+        {
+          "name": "Dr.L. Bhaskar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.lbhaskar",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc."
+            },
+            {
+              "degree": "B.Ed & Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Ranjan Kumar Das",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.rkdas",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (IIT Guwahati)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Nabin Kumar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=math.nkmeher",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc. (IIT Kanpur)"
+            },
+            {
+              "degree": "Ph.D. (HRI"
+            },
+            {
+              "degree": "Allahabad)"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 12
+    },
+    {
+      "name": "MASTER IN COMPUTER APPLICATION",
+      "faculty": [
+        {
+          "name": "Dr.Tripti Swarnkar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mca.tswarnkar",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "MCA"
+            },
+            {
+              "degree": "MTech(CS)"
+            },
+            {
+              "degree": "PhD IITKgp"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Mithilesh Atulkar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mca.matulkar",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "B.E. (COMP. TECH.)"
+            },
+            {
+              "degree": "M.Tech. (INFO. TECH.)"
+            },
+            {
+              "degree": "Ph.D.(CS &ENGG.)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Manju Pandey",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mca.mpandey",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (C.S.)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Mou Dasgupta",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mca.mdgupta",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. - IIT(ISM) Dhanbad"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Shyam Sundar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mca.ssundar",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (CS)"
+            },
+            {
+              "degree": "University of Hyderabad"
+            },
+            {
+              "degree": "India"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Tanmoy Kanti Das",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mca.tkdas",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D.(Engg)"
+            },
+            {
+              "degree": "Jadavpur University"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Dibakar Saha",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mca.dsaha",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "MCA"
+            },
+            {
+              "degree": "Ph. D"
+            },
+            {
+              "degree": "Post-Doctorate"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Naeem Ahmad",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mca.nahmad",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "MCA"
+            },
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sharbani Purkayastha",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mca.spurkayastha",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 9
+    },
+    {
+      "name": "MECHANICAL ENGINEERING",
+      "faculty": [
+        {
+          "name": "Dr. R Salhotra",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mech.rsalhotra",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S D Patle",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mech.sdpatle",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Dr. S P S Matharu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mech.spsmatharu",
+          "designation": "Faculty"
+        },
+        {
+          "name": "Prof. G K Sahu",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mech.gksahu",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 4
+    },
+    {
+      "name": "METALLURGICAL ENGINEERING",
+      "faculty": [
+        {
+          "name": "Dr. Subhas Ganguly",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=met.sganguly",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Manoj KumarChopkar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=met.mchopkar",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. ( IIT Kharagpur)"
+            },
+            {
+              "degree": "M. Tech. ( IIT Kharagpur)"
+            },
+            {
+              "degree": "B.E. ( Govt. Engg. College now known as NIT Raipur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Manwendra K.Tripathi",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=met.manav",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "B.Tech. (NIT Rourkela) M.Tech. (IT-BHU"
+            },
+            {
+              "degree": "Varanasi) PhD (IIEST Shibpur)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Manoranjan Kumar Manoj",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=met.mkmanoj",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (IIT Roorkee)"
+            },
+            {
+              "degree": "M.Tech. (IIT Roorkee)"
+            },
+            {
+              "degree": "B. Sc. Engg. (BIT Sindri)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sudip Kumar Sinha",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=met.sksinha",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "B.Tech"
+            },
+            {
+              "degree": "M.Tech"
+            },
+            {
+              "degree": "M.S."
+            },
+            {
+              "degree": "PhD"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sanjeev Das",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=met.sdas",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (IIT Kharagpur)"
+            },
+            {
+              "degree": "M.E. (IIEST"
+            },
+            {
+              "degree": "formerly BESU)"
+            },
+            {
+              "degree": "B.E. (IIEST"
+            },
+            {
+              "degree": "formerly BESU)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Mukesh Raushan Kumar",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=met.mrkumar",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Ramavath Bheekya Naik",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=met.rbnaik",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Naga Sruthi",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mme.nsneelam",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Bhargavi Rani Anne",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mme.branne",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (MEXT Scholar"
+            },
+            {
+              "degree": "Kyushu University"
+            },
+            {
+              "degree": "Japan); M.Tech. (University of Hyderabad"
+            },
+            {
+              "degree": "Gold medalist); B.Tech. (RGUKT-APIIIT"
+            },
+            {
+              "degree": "Nuzvid)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Deependra Kumar Singh",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=mme.dksingh",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (Indian Institute of Science"
+            },
+            {
+              "degree": "Bangalore"
+            },
+            {
+              "degree": "2021); M.S. (Indian Institute of Science"
+            },
+            {
+              "degree": "Bangalore"
+            },
+            {
+              "degree": "2021); B.Tech. (Indian Institute of Technology Roorkee"
+            },
+            {
+              "degree": "2015)"
+            }
+          ]
+        }
+      ],
+      "faculty_count": 11
+    },
+    {
+      "name": "MET",
+      "faculty": [
+        {
+          "name": "Dr. Neha Gupta",
+          "profile_url": "https://nitrr.ac.in/nitrr.ac.in/viewdetails.php?q=met.ngupta",
+          "designation": "Faculty"
+        }
+      ],
+      "faculty_count": 1
+    },
+    {
+      "name": "MINING ENGINEERING",
+      "faculty": [
+        {
+          "name": "Prof. B R Parate",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=min.bparate",
+          "designation": "Reader",
+          "qualifications": [
+            {
+              "degree": "B.E."
+            },
+            {
+              "degree": "M.Tech."
+            }
+          ]
+        },
+        {
+          "name": "Dr. P.Y.Dhekne",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=min.pdhekne",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "B.E."
+            },
+            {
+              "degree": "M.Tech."
+            },
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. A. K. Dash",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=min.akdash",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph. D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Ashish Kumar Vishwakarma",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=min.akvishwakarma",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            },
+            {
+              "degree": "M.Tech."
+            },
+            {
+              "degree": "B.E."
+            }
+          ]
+        }
+      ],
+      "faculty_count": 4
+    },
+    {
+      "name": "DEPARTMENT OF PHYSICS",
+      "faculty": [
+        {
+          "name": "Dr. Sapan Mohan Saini",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=phy.smsaini",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc M.Phil. (I.I.T Roorkee) Ph.D.(I.I.T Roorkee)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Ayush Khare",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=phy.akhare",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Bijay Kumar Sahoo",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=phy.bksahoo",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc (Physics)"
+            },
+            {
+              "degree": "Ph.D; P.D.F National Center for Radio Astrophysics (TIFR"
+            },
+            {
+              "degree": "Mumbai"
+            },
+            {
+              "degree": "2004-2005)"
+            }
+          ]
+        },
+        {
+          "name": "Dr.Kanhaiya Shanker Ojha",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=phy.ksojha",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph. D.; Postdoc (K. U. Leuven"
+            },
+            {
+              "degree": "Belgium)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Harikrishnan M.P.",
+          "profile_url": "https://www.nitrr.ac.in/viewdetails.php?q=phy.harikrishnanmp",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PhD in Physics (National Institute of Technology Tiruchirappalli"
+            },
+            {
+              "degree": "2018-2023; Supervisor Name: Prof. A. Chandra Bose)"
+            },
+            {
+              "degree": "Postdoc (IISER Thiruvananthapuram"
+            },
+            {
+              "degree": "2023-2024; Supervisor Name: Prof. M.M. Shaijumon)"
+            },
+            {
+              "degree": "Podoctoral Scientist"
+            },
+            {
+              "degree": "India Innovation Centre for Graphene"
+            },
+            {
+              "degree": "Digital University Kerala 2024-2025; Supervisor Name: Prof. Alex P. James)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Raju Chetty",
+          "profile_url": "https://www.nitrr.ac.in/viewdetails.php?q=phy.craju",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D (IISc"
+            },
+            {
+              "degree": "Bangalore"
+            },
+            {
+              "degree": "2009-2015; Postdoc (AGH-Poland"
+            },
+            {
+              "degree": "Oct 2015-Dec 2016; AIST-Japan"
+            },
+            {
+              "degree": "Sep 2017-July 2020; NIMS-Japan"
+            },
+            {
+              "degree": "Aug 2020-July 2025)"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Ashok Kumar Shrivastav",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=phy.ashrivastav",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc.(Physics)"
+            },
+            {
+              "degree": "M.Sc.(Maths)"
+            },
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        },
+        {
+          "name": "Dr. Sadhana Agrawal",
+          "profile_url": "https://nitrr.ac.in/viewdetails.php?q=phy.sagrawal",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc."
+            },
+            {
+              "degree": "M.Phil."
+            },
+            {
+              "degree": "Ph.D."
+            }
+          ]
+        }
+      ],
+      "faculty_count": 8
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": null,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.nitrr.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 75,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-raipur",
+  "last_scraped_at": "2026-03-31T16:06:40.267878",
+  "department_count": 25,
+  "total_faculty": 178
+}

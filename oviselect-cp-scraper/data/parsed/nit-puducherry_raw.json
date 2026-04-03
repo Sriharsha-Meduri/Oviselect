@@ -1,0 +1,67 @@
+{
+  "institute": "NIT Puducherry",
+  "also_known_as": "NITPY",
+  "institute_type": "NIT",
+  "established_year": 2010,
+  "city": "Karaikal",
+  "state": "Puducherry",
+  "address": "National Institute of Technology, Thiruvettakudy, Karaikal, Puducherry - 609609",
+  "nearest_airport": "Pondicherry Airport",
+  "nearest_airport_km": 130.0,
+  "nearest_railway_station": "Karaikal Railway Station",
+  "nearest_railway_km": 10.0,
+  "qs_asia_rank": "951-1000 (2026)",
+  "nirf_engineering_rank": 99,
+  "india_today_rank": 44,
+  "caution_money": 3500,
+  "one_time_fees": 950,
+  "tuition_fee_per_sem": 62500,
+  "total_institute_fee": 72400,
+  "hostel_fee_per_sem": 6000,
+  "mess_advance_per_sem": 18600,
+  "total_hostel_fee": 34600,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 58.5,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 45.45,
+    "Computer Science and Engineering": 69.81,
+    "Electrical and Electronics Engineering": 62.5,
+    "Electronics and Communication Engineering": 48.0,
+    "Mechanical Engineering": 57.89,
+    "Overall": 58.5
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 6.0,
+    "Computer Science and Engineering": 13.0,
+    "Electrical and Electronics Engineering": 6.0,
+    "Electronics and Communication Engineering": 9.5,
+    "Mechanical Engineering": 6.0,
+    "Overall": 9.0
+  },
+  "median_package_lpa": 8.25,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 6.7,
+    "Computer Science and Engineering": 13.42,
+    "Electrical and Electronics Engineering": 7.28,
+    "Electronics and Communication Engineering": 11.33,
+    "Mechanical Engineering": 6.49,
+    "Overall": 9.0
+  },
+  "avg_package_lpa": 9.04,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-puducherry",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-puducherry",
+  "last_scraped_at": "2026-03-31T16:06:40.037222",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitpy.ac.in"
+}

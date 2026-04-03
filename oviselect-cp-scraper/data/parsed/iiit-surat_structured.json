@@ -1,0 +1,425 @@
+{
+  "institute": "IIIT Surat",
+  "institute_type": "IIIT",
+  "also_known_as": "IIIT Surat",
+  "established_year": 2017,
+  "city": "Surat",
+  "state": "Gujarat",
+  "address": "Indian Institute of Information Technology Surat, Kholvad, Kamrej, Surat, Gujarat - 394190",
+  "nearest_airport": "Surat International Airport",
+  "nearest_airport_km": 31.5,
+  "nearest_railway_station": "Surat Railway Station",
+  "nearest_railway_km": 15.0,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": null,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 75000,
+  "hostel_fee_per_sem": null,
+  "mess_advance_per_sem": null,
+  "one_time_fees": 12000,
+  "caution_money": null,
+  "annual_fees": null,
+  "total_institute_fee": 89000,
+  "total_hostel_fee": null,
+  "fee_waivers": null,
+  "overall_placement_pct": 65.79,
+  "avg_package_lpa": 12.04,
+  "median_package_lpa": 9.17,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 63.41,
+    "Electronics and Communication Engineering": 68.57,
+    "Overall": 65.79
+  },
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 10.47,
+    "Electronics and Communication Engineering": 7.87
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 14.21,
+    "Electronics and Communication Engineering": 9.87
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "UGECE",
+      "hod": null,
+      "faculty_count": 14,
+      "faculty": [
+        {
+          "name": "Mr. Rahul K Patel",
+          "designation": "Faculty",
+          "department": "UGECE",
+          "email": "rkpatel@iiitsurat.ac.in",
+          "specialization": "Wireless Communication system & networks",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Dhiraj Kumar Patel",
+          "designation": "Assistant Professor",
+          "department": "UGECE",
+          "email": "dhiraj.patel@iiitsurat.ac.in",
+          "specialization": "Analog and Digital Communication, Free Space Optical communication, Optical communication",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Ms. Sejal K Rathod",
+          "designation": "Faculty",
+          "department": "UGECE",
+          "email": "sejalrathod@iiitsurat.ac.in",
+          "specialization": "Image processing",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rahul Dev Mishra",
+          "designation": "Assistant Professor",
+          "department": "UGECE",
+          "email": "rahul.mishra@iiitsurat.ac.in",
+          "specialization": "Microelectronics, Semiconductor Devices, Optoelectronics, Integrated Photonics",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Mr. Anandatheertan Srinivasan",
+          "designation": "Faculty",
+          "department": "UGECE",
+          "email": "anandatheertan@iiitsurat.ac.in",
+          "specialization": "Wearable Computing, Internet of Medical Things (IoMT), Signal Processing, Explainable AI in Healthcare, Medical Devices",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Hemantkumar Sahijram Goklani",
+          "designation": "Assistant Professor",
+          "department": "UGECE",
+          "email": "hsgoklani@iiitsurat.ac.in",
+          "specialization": "Digital Image Processing, Signal Processing, Internet of Things.",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Tanmay Dubey",
+          "designation": "Assistant Professor",
+          "department": "UGECE",
+          "email": "dubey.tanmay@iiitsurat.ac.in",
+          "specialization": "Analog Circuit Design, VLSI Design",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Sudeep Sharma",
+          "designation": "Assistant Professor",
+          "department": "UGECE",
+          "email": "sudeep.sharma@iiitsurat.ac.in",
+          "specialization": "System Identification and Control, Robotics, Internet of Things, AI & ML",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Shriman Narayana",
+          "designation": "Assistant Professor",
+          "department": "UGECE",
+          "email": "shrimAN.narayana@iiitsurat.ac.in",
+          "specialization": "RF & Microwave Engineering, Communication Systems",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Sivavenkateswara Rao V.",
+          "designation": "Assistant Professor",
+          "department": "UGECE",
+          "email": "svrao@iiitsurat.ac.in",
+          "specialization": "RF&Microwave,Meta Materials, THz Structures ,Communications, Digital Signal/ Image Processing",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Neelima Agrawal",
+          "designation": "Assistant Professor",
+          "department": "UGECE",
+          "email": "aneelima@iiitsurat.ac.in",
+          "specialization": "Wireless Communication system & networks",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Venkata Annapurna Priyadarshini Chavali",
+          "designation": "Assistant Professor",
+          "department": "UGECE",
+          "email": "venkata.chavali@iiitsurat.ac.in",
+          "specialization": "Antennas, RF & Microwave",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Manish Kumar Rai",
+          "designation": "Assistant Professor",
+          "department": "UGECE",
+          "email": "manish.rai@iiitsurat.ac.in",
+          "specialization": "Microelectronics, Semiconductor Devices, Junctionless Transistor, Negative Capacitance, Nanowire",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Shikha Maurya",
+          "designation": "Assistant Professor",
+          "department": "UGECE",
+          "email": "shikha.maurya@iiitsurat.ac.in",
+          "specialization": "Wireless Communication, AI, Green communication",
+          "phd": null,
+          "experience_years": null
+        }
+      ]
+    },
+    {
+      "name": "UGCSE",
+      "hod": null,
+      "faculty_count": 12,
+      "faculty": [
+        {
+          "name": "Mr. Rishi Kumar Sharma",
+          "designation": "Faculty",
+          "department": "UGCSE",
+          "email": "rishi_sharma@iiitsurat.ac.in",
+          "specialization": "Machine Learning, Image Processing",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Ms. Nancy Bharatkumar Sukhadia",
+          "designation": "Faculty",
+          "department": "UGCSE",
+          "email": "-",
+          "specialization": "Machine Learning, Deep Learning, Natural Language Processing",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Nidhi Nitin Desai",
+          "designation": "Assistant Professor",
+          "department": "UGCSE",
+          "email": "nidhidesai@iiitsurat.ac.in",
+          "specialization": "Data Privacy, Blockchain, Security",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rahul Singh",
+          "designation": "Assistant Professor",
+          "department": "UGCSE",
+          "email": "rahul.singh@iiitsurat.ac.in",
+          "specialization": "reinforcement learning, machine learning, online learning, control, networks",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Ms. Trupti Gondaliya",
+          "designation": "Faculty",
+          "department": "UGCSE",
+          "email": "trupti.gondaliya@iiitsurat.ac.in",
+          "specialization": "Machine Learning, Image Recognition, XAI",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Shreya Agarwal",
+          "designation": "Assistant Professor",
+          "department": "UGCSE",
+          "email": "shreya.agarwal@iiitsurat.ac.in",
+          "specialization": "Natural Language Processing: Discourse analysis, anaphora resolution",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Reema Patel",
+          "designation": "Assistant Professor",
+          "department": "UGCSE",
+          "email": "reema.patel@iiitsurat.ac.in",
+          "specialization": "Information Security, Blockchain Technology",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Sachin Dattatraya Patil",
+          "designation": "Assistant Professor",
+          "department": "UGCSE",
+          "email": "sachindpatil@iiitsurat.ac.in",
+          "specialization": "Computer Networks, Internet Performance and Optimization, Internet of Things",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ritesh Kumar",
+          "designation": "Assistant Professor",
+          "department": "UGCSE",
+          "email": "riteshkumar@iiitsurat.ac.in",
+          "specialization": "Information Retrieval, Text Mining, NLP",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Kaustubh Dhondge",
+          "designation": "Associate Professor",
+          "department": "UGCSE",
+          "email": "kaustubh.dhondge@iiitsurat.ac.in",
+          "specialization": "Computer Networks, Mobile Systems, Mobile Sensing, IoT, Security",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rachit Nimavat",
+          "designation": "Assistant Professor",
+          "department": "UGCSE",
+          "email": "rachit.nimavat@iiitsurat.ac.in",
+          "specialization": "Theoretical Computer Science, mainly Approximation Algorithms and Hardness of Approximation.",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Pradeep Primary Dept. : MCS Singh",
+          "designation": "Assistant Professor",
+          "department": "UGCSE",
+          "email": "pradeep.singh@iiitsurat.ac.in",
+          "specialization": "Machine Learning, Geometric Deep Learning, Dynamical Systems, Neuroscience inspired AI",
+          "phd": null,
+          "experience_years": null
+        }
+      ]
+    },
+    {
+      "name": "UGPAS",
+      "hod": null,
+      "faculty_count": 3,
+      "faculty": [
+        {
+          "name": "Dr. Khamosh Yadav",
+          "designation": "Assistant Professor",
+          "department": "UGPAS",
+          "email": "khamosh.yadav@iiitsurat.ac.in",
+          "specialization": "Nuclear Structure Physics, Gamma-ray Spectroscopy, Nuclear isomers & nuclear lifetime measurements using fast-timing LaBr3 detectors, Nuclear Instrumentation, detectors",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Nishad Gopal Deshpande",
+          "designation": "Assistant Professor",
+          "department": "UGPAS",
+          "email": "nishad.deshpande@iiitsurat.ac.in",
+          "specialization": "Nanomagnetism, Spintronics, Magnetocalorics, Hyperthermia, H2 production, photocatalysis",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Bikash Patra",
+          "designation": "Assistant Professor",
+          "department": "UGPAS",
+          "email": "bikash.patra@iiitsurat.ac.in",
+          "specialization": "Density Functional Theory, Computational Material Science, Topological Materials",
+          "phd": null,
+          "experience_years": null
+        }
+      ]
+    },
+    {
+      "name": "UGMCS",
+      "hod": null,
+      "faculty_count": 4,
+      "faculty": [
+        {
+          "name": "Dr. Aarti Patle",
+          "designation": "Assistant Professor",
+          "department": "UGMCS",
+          "email": "aarti.patle@iiitsurat.ac.in",
+          "specialization": "Commutative Algebra, Algebraic Graph Theory",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Vijay Kumar Patel",
+          "designation": "Assistant Professor",
+          "department": "UGMCS",
+          "email": "vijay.patel@iiitsurat.ac.in",
+          "specialization": "Fractional Partial Differential Equations, Operational Matrices, Finite Difference Schemes, Neural Network Methods for solving Differential Equations",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Anand Pratap Singh",
+          "designation": "Assistant Professor",
+          "department": "UGMCS",
+          "email": "apsingh@iiitsurat.ac.in",
+          "specialization": "Fuzzy Sets and Systems, Category Theory, Fuzzy Automata, Rough Set.",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Pradeep Joint Affiliation : CSE Dept. Singh",
+          "designation": "Assistant Professor",
+          "department": "UGMCS",
+          "email": "pradeep.singh@iiitsurat.ac.in",
+          "specialization": "Machine Learning, Geometric Deep Learning, Dynamical Systems, Neuroscience inspired AI",
+          "phd": null,
+          "experience_years": null
+        }
+      ]
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": null,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iiitsurat.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 54,
+  "needs_review": true,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-surat",
+  "last_scraped_at": "2026-03-31T16:17:59.188544",
+  "department_count": 4,
+  "total_faculty": 33
+}

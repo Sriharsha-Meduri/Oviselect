@@ -1,0 +1,69 @@
+{
+  "institute": "SVNIT, Surat",
+  "also_known_as": "SVNIT",
+  "institute_type": "NIT",
+  "established_year": 1961,
+  "city": "Surat",
+  "state": "Gujarat",
+  "address": "Sardar Vallabhbhai National Institute of Technology, Ichchhanath, Surat, Gujarat - 395007",
+  "nearest_airport": "Surat International Airport",
+  "nearest_airport_km": 8.5,
+  "nearest_railway_station": "Surat Railway Station",
+  "nearest_railway_km": 9.5,
+  "qs_asia_rank": "791-800 (2026)",
+  "nirf_overall_rank": 101,
+  "nirf_engineering_rank": 66,
+  "the_week_rank": 30,
+  "caution_money": 5000,
+  "one_time_fees": 18000,
+  "tuition_fee_per_sem": 62500,
+  "total_institute_fee": 93000,
+  "hostel_fee_per_sem": 6000,
+  "annual_fees": 8500,
+  "mess_advance_per_sem": 39000,
+  "total_hostel_fee": 63880,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 71.55,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 73.87,
+    "Civil Engineering": 51.49,
+    "Computer Science and Engineering": 85.83,
+    "Electrical Engineering": 77.98,
+    "Electronics and Communication Engineering": 62.89,
+    "Mechanical Engineering": 74.63,
+    "Overall (B.Tech.)": 71.55,
+    "Chemistry": 56.25,
+    "Mathematics": 42.86,
+    "Physics": 38.1,
+    "Overall (Int. MSc.)": 46.21
+  },
+  "placement_year": 2023,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 9.58,
+    "Civil Engineering": 6.32,
+    "Computer Science and Engineering": 18.26,
+    "Electrical Engineering": 11.13,
+    "Electronics and Communication Engineering": 14.28,
+    "Mechanical Engineering": 9.32,
+    "Chemistry": 5.27,
+    "Mathematics": 6.0,
+    "Physics": 6.12
+  },
+  "avg_package_lpa": 9.59,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "Integrated M.Sc. - 5 Years"
+  ],
+  "_slug": "nit-surat",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-surat",
+  "last_scraped_at": "2026-03-31T16:11:51.915756",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.svnit.ac.in"
+}

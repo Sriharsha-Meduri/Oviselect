@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Home</title>
+<link rel="stylesheet" href="styles.css" />
+
+<style>
+
+/* ================= GENERAL LAYOUT ================= */
+
+.main-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1 1 70%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.main-content h2 {
+  color: #004080;
+  margin-top: 0;
+}
+
+.main-content p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.sidebar {
+  flex: 1 1 25%;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  height: fit-content;
+}
+
+/* ================= HEADER ================= */
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 60px; 
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.header-logo {
+  height: 90px;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.center-logo {
+  height: 110px;
+}
+
+/* ================= NAVIGATION ================= */
+
+nav {
+  background: #004080;
+}
+
+.menu-toggle {
+  display: none;
+  background: #004080;
+  color: white;
+  font-size: 26px;
+  border: none;
+  padding: 12px 15px;
+  cursor: pointer;
+  width: 100%;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: #002f5e;
+}
+
+/* Dropdown */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  min-width: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.submenu li a {
+  color: #000;
+  padding: 10px 15px;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+/* ================= VIDEO ================= */
+
+.video-slideshow {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-slideshow video {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  display: none;
+}
+
+.video-slideshow video.active {
+  display: block;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .header-container {
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px 10px;
+  }
+
+  .header-logo,
+  .center-logo {
+    height: auto;
+    max-height: 70px;
+    max-width: 80%;
+  }
+
+  nav.mobile ul {
+    display: none;
+    flex-direction: column;
+    background: #004080;
+  }
+
+  nav.mobile ul.show {
+    display: flex;
+  }
+
+  nav.mobile .menu-toggle {
+    display: block;
+  }
+
+  nav.mobile ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav.mobile ul li a {
+    border-top: 1px solid rgba(255,255,255,0.2);
+  }
+
+  .submenu {
+    position: static;
+    box-shadow: none;
+  }
+
+  .dropdown:hover .submenu {
+    display: none;
+  }
+
+  .video-slideshow video {
+    height: 290px;
+  }
+
+  .main-layout {
+    flex-direction: column;
+  }
+
+  .main-content, .sidebar {
+    flex: 1 1 100%;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-container">
+
+    <img src="images/7.png" alt="NIT Goa Logo" class="header-logo">
+    <img src="images/Picture1.png" alt="Conference Logo" class="header-logo center-logo">
+    <img src="images/nserb.jpg" alt="NIT Warangal Logo" class="header-logo">
+    <img src="images/6.png" alt="NIT Warangal Logo" class="header-logo">
+
+  </div>
+
+  <nav>
+    <button class="menu-toggle" onclick="toggleMenu()">â°</button>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li class="dropdown">
+        <a href="#">Committees</a>
+        <ul class="submenu">
+          <li><a href="advisorycommittee.html">Advisory Committee</a></li>
+          <li><a href="organizingcommittee.html">Organizing Committee</a></li>
+        </ul>
+      </li>
+      <li><a href="speakers.html">Speakers</a></li>
+      <li><a href="sponsorship.html">Sponsorship</a></li>
+      <li><a href="registration.html">Registration</a></li>
+      <li><a href="abstract.html">Abstract Submission</a></li>
+      <li><a href="accommodation.html">Travel & Accommodation</a></li>  
+      <li><a href="goa.html">In & Around Goa</a></li>  
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="video-slideshow">
+
+  <div class="video-overlay">
+    <div>
+      <h1>IEMDST-2026</h1>
+      <h2>2<sup>nd</sup> International Conference on Emerging Materials & Devices for Sustainable Technologies</h2>
+      <h2>8 - 9 June, 2026</h2>
+    </div>
+  </div>
+
+  <video class="active" autoplay muted loop playsinline>
+    <source src="video/video1.mp4" type="video/mp4">
+  </video>
+
+</div>
+
+<br/>
+
+<marquee>ð¢ Announcement : Call for Abstracts Starts from 5<sup>th</sup> March, 2026 onwards. | <a href="iemdst2026brochure.pdf" target="_blank">Click here to download the conference brochure</a></marquee>
+
+<div class="main-layout">
+  <div class="main-content">
+
+    <section>
+      <h2>About the Conference</h2>
+      <p>
+        The main objective of this conference is to showcase the advancements in materials and devices for applicability in sustainable technologies. The conference is intended to provide a platform for researchers, scientists, engineers, industrialists and other professionals to present their work, discuss and network with the international experts in the proposed theme areas. Faculty, research scholars and post graduate students will get a good exposure and will be benefitted from this conference. This conference is conducted at NIT Goa in association with NIT Warangal and is intended to be continued as a biennial event in the associating institute in the near future. 
+      </p>
+    </section>
+
+    <section>
+      <h2>About NIT Goa</h2>
+      <p>
+        The National Institute of Technology Goa (NIT Goa) is a premier national-level technical institute in India established in 2010 by an act of parliament (NIT Act, 2007 and NIT (Amendment) Act, 2012). NIT Goa is an autonomous institute functioning under the aegis of Ministry of Education (MoE), Government of India, and has been declared an âInstitute of National Importanceâ. The Institute is dedicated to its academic excellence and aims to produce quality Engineers and Scientists. The Institute offers five undergraduate programmes and three postgraduate programmes in Engineering Departments. The Institute also offers Ph.D. degree in various stream of Engineering, Applied Sciences, Technology and Humanities & Social Sciences.
+      </p>
+
+      <p>
+        All the faculty members are dedicated to training the students with a world-class education. Faculty members are actively engaged in cutting-edge research and have successfully executed numerous sponsored R&D projects. Their work has resulted in the publication of several research articles, book chapters, and books, as well as several patents.
+      </p>
+    </section>
+
+    <section>
+      <h2>About NIT Warangal</h2>
+      <p>
+        National Institute of Technology Warangal, formerly known as Regional Engineering College was established in 1959. Over the years it has developed into a premier institute of higher learning and is ranked among the top technical education institutions in India. There are 14 departments offering 8 undergraduate and 35 post-graduate programs besides doctoral programs. About 6000 students across the country and about 500 international students stay in the campus. It is a fully residential campus sprawling over 250 acres with excellent infrastructure in the form of state-of-the-art library, seminar halls, guest houses and research laboratories. The institute has demonstrated remarkable foresight in securing substantial high-quality research and consultancy projects during the last few years.
+      </p>
+      <p>
+        The Department of Physics of NIT-Waranagal has highly qualified, motivated and experienced faculty, who are involved in teaching UG & PG courses and guiding Ph.D Scholars in various topics of current technological interests. The department offers a three-year M.Sc (Tech) Engineering Physics program, integrated M.Sc (05 years) and integrated B.Sc B.Ed (04 years) courses. The faculty are actively engaged in research and are having a number of sponsored R&D projects.
+      </p>
+    </section>
+
+    <section>
+      <h2>About Goa State</h2>
+      <p>
+        Goa, often called the âPearl of the Orientâ, is a tropical paradise on Indiaâs western coast, renowned for its stunning natural beauty and vibrant tourism scene. Beaches with golden sand offer a perfect blend of relaxation and adventure. Those seeking peace can rejuvenate at yoga retreats or simply watch the sunset from the shore of the Arabian Sea, which will melt you into the sea. Goa reveals lush landscapes dotted with swaying coconut palms, spice plantations, and majestic waterfalls cascading through dense forests. Its rivers and backwaters, lined with mangroves, invite peaceful boat rides and birdwatching.
+      </p>
+      <p>
+        The charm of Goa is further enriched by its unique Portuguese heritage, visible in centuries-old churches and colorful colonial villas that echo stories of the past. Goa attracts travelers from all walks of life, whether they come for relaxation, exploration, or cultural immersion. Altogether, Goa is the place where natural beauty meets history, spirituality, and a carefree spirit.
+      </p>
+    </section>
+
+  </div>
+
+  <div class="sidebar">
+    <h3>ð Important Dates</h3>
+    <ul>
+      <li>ð Abstract Submission Opening: <b>05 Mar 2026</b></li>
+      <li>â Closing of Abstract Submission: <b>15 May 2026</b></li>
+      <li>ð³ Conference registration Opening: <b>01 Apr 2026</b></li>
+      <li>ð³ Early Registration deadline: <b>15 May 2026</b></li>
+      <li>ð³ Late Registration deadline: <b>30 May 2026</b></li>
+      <li>ð³ Full paper submission to Journals: <b>15 June 2026</b></li>
+      <li>ð¤ Conference Dates: <b>8â9 Jun 2026</b></li>
+      <li><b><a href="iemdst2026brochure.pdf" target="_blank">Conference Brochure</a></b></li>
+    </ul>
+  </div>
+</div>
+
+<script>
+function toggleMenu() {
+  document.querySelector("nav ul").classList.toggle("show");
+}
+
+function checkScreen() {
+  const nav = document.querySelector("nav");
+  if (window.innerWidth <= 768) {
+    nav.classList.add("mobile");
+  } else {
+    nav.classList.remove("mobile");
+    document.querySelector("nav ul").classList.remove("show");
+  }
+}
+
+window.addEventListener("load", checkScreen);
+window.addEventListener("resize", checkScreen);
+
+let videos = document.querySelectorAll(".video-slideshow video");
+let current = 0;
+setInterval(() => {
+  videos[current].classList.remove("active");
+  current = (current + 1) % videos.length;
+  videos[current].classList.add("active");
+}, 6000);
+</script>
+
+<footer>
+  <p>&copy; 2026 IEMDST 2026. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

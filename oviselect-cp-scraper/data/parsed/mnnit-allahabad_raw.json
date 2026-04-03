@@ -1,0 +1,798 @@
+{
+  "institute": "MNNIT Allahabad",
+  "also_known_as": "MNNIT",
+  "institute_type": "NIT",
+  "established_year": 1961,
+  "city": "Allahabad",
+  "state": "Uttar Pradesh",
+  "address": "Motilal Nehru National Institute of Technology Allahabad, Prayagraj, Uttar Pradesh \u2013 211004",
+  "nearest_airport": "Prayagraj Airport",
+  "nearest_airport_km": 18.5,
+  "nearest_railway_station": "Prayagraj Junction Railway Station",
+  "nearest_railway_km": 8.5,
+  "qs_asia_rank": "627 (2026)",
+  "nirf_overall_rank": 151,
+  "nirf_engineering_rank": 62,
+  "outlook_rank": 13,
+  "the_week_rank": 22,
+  "caution_money": 3000,
+  "tuition_fee_per_sem": 62500,
+  "total_institute_fee": 84500,
+  "hostel_fee_per_sem": 12000,
+  "mess_advance_per_sem": 25000,
+  "total_hostel_fee": 39000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 71.86,
+  "branch_wise_placement_pct": {
+    "Bio Technology": 66.67,
+    "Chemical Engineering": 72.92,
+    "Civil Engineering": 69.7,
+    "Computer Science and Engineering": 73.56,
+    "Electrical Engineering": 71.62,
+    "Electronics and Communication Engineering": 67.97,
+    "Information Technology": 64.66,
+    "Mechanical Engineering": 79.31,
+    "Production and Industrial Engineering": 80.0,
+    "Overall (B.Tech.)": 71.86
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Bio Technology": 8.5,
+    "Chemical Engineering": 10.0,
+    "Civil Engineering": 8.23,
+    "Computer Science and Engineering": 25.0,
+    "Electrical Engineering": 15.5,
+    "Electronics and Communication Engineering": 20.0,
+    "Information Technology": 20.0,
+    "Mechanical Engineering": 9.5,
+    "Production and Industrial Engineering": 9.0
+  },
+  "median_package_lpa": 13.97,
+  "branch_wise_avg_ctc": {
+    "Bio Technology": 12.25,
+    "Chemical Engineering": 13.55,
+    "Civil Engineering": 11.84,
+    "Computer Science and Engineering": 27.57,
+    "Electrical Engineering": 21.22,
+    "Electronics and Communication Engineering": 23.18,
+    "Information Technology": 24.43,
+    "Mechanical Engineering": 12.51,
+    "Production and Industrial Engineering": 10.98,
+    "Overall (B.Tech.)": 20.34
+  },
+  "avg_package_lpa": 17.79,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "mnnit-allahabad",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/mnnit-allahabad",
+  "last_scraped_at": "2026-03-31T16:11:36.609343",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.mnnit.ac.in",
+  "placement_officer": {
+    "email": "yatish.joshi@mnnit.ac.in",
+    "phone": "8299813 595"
+  },
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": true
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "First Statutes of the National Institutes of Technology (Amendment) Statutes, 2017",
+        "country": null
+      },
+      {
+        "university": "First Statutes of the National Institutes of Technology (Amendment) Statutes, 2023",
+        "country": null
+      },
+      {
+        "university": "Statutes of the Motilal Nehru National Institutes of Technology, Allahabad (Amendment) Statute, 2025",
+        "country": null
+      },
+      {
+        "university": "First Statutes of the National Institutes of Technology (Amendment) Statutes, 2017",
+        "country": null
+      },
+      {
+        "university": "First Statutes of the National Institutes of Technology (Amendment) Statutes, 2023",
+        "country": null
+      },
+      {
+        "university": "Statutes of the Motilal Nehru National Institutes of Technology, Allahabad (Amendment) Statute, 2025",
+        "country": null
+      },
+      {
+        "university": "Institute >",
+        "country": null
+      }
+    ]
+  },
+  "departments": [
+    {
+      "name": "General",
+      "faculty_count": 28,
+      "faculty": [
+        {
+          "name": "Designation:",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "M.E."
+            },
+            {
+              "degree": "Ph.D. Area of Interest: Solid Mechanics"
+            },
+            {
+              "degree": "Smart Structures & Materials"
+            },
+            {
+              "degree": "Composite Plates and Shells"
+            },
+            {
+              "degree": "Retrofitting & Strengthening of RCC Structures"
+            },
+            {
+              "degree": "Computational Mechanics"
+            },
+            {
+              "degree": "Stability & Dynamics of Structures"
+            },
+            {
+              "degree": "Multi-scale Composites. Phone No.: +91-532-2271203(0)+91-532-2271618(R) Email: kkshukla@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Solid Mechanics",
+            "Smart Structures & Materials",
+            "Composite Plates and Shells",
+            "Retrofitting & Strengthening of RCC Structures",
+            "Computational Mechanics",
+            "Stability & Dynamics of Structures",
+            "Multi-scale Composites. Phone No.: +91-532-2271203(0)+91-532-2271618(R) Email: kkshukla@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/kkshukla"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Ph.D. (IIT Roorkee), M.Tech (IIT Rooorkee), B.Tech (NIT Jalandhar) Area of Interest: Smart Materials & Structures, Membrane Structures, Inflatable Structures, Vibration, Continuum Mechanics, Modelling & Simulation. Phone No.: + 91-98977-26881, +91-74174-35119 Email: satistme@mnnit.ac.in , skumarnitj@gmail.com View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (IIT Roorkee)"
+            },
+            {
+              "degree": "M.Tech (IIT Rooorkee)"
+            },
+            {
+              "degree": "B.Tech (NIT Jalandhar) Area of Interest: Smart Materials & Structures"
+            },
+            {
+              "degree": "Membrane Structures"
+            },
+            {
+              "degree": "Inflatable Structures"
+            },
+            {
+              "degree": "Vibration"
+            },
+            {
+              "degree": "Continuum Mechanics"
+            },
+            {
+              "degree": "Modelling & Simulation. Phone No.: + 91-98977-26881"
+            },
+            {
+              "degree": "+91-74174-35119 Email: satistme@mnnit.ac.in"
+            },
+            {
+              "degree": "skumarnitj@gmail.com View Profile"
+            }
+          ],
+          "specializations": [
+            "Smart Materials & Structures",
+            "Membrane Structures",
+            "Inflatable Structures",
+            "Vibration",
+            "Continuum Mechanics",
+            "Modelling & Simulation. Phone No.: + 91-98977-26881",
+            "+91-74174-35119 Email: satistme@mnnit.ac.in",
+            "skumarnitj@gmail.com View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/satistme"
+        },
+        {
+          "name": "Designation: Assistant Professor",
+          "designation": "Assistant Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Ph.D. Area of Interest: Compressible Computational Fluid Dynamics, High speed flow, High Resolution CFD Solver. Phone No.: + 91 9432391294 Email: abhishekkunduamd@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. Area of Interest: Compressible Computational Fluid Dynamics"
+            },
+            {
+              "degree": "High speed flow"
+            },
+            {
+              "degree": "High Resolution CFD Solver. Phone No.: + 91 9432391294 Email: abhishekkunduamd@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Compressible Computational Fluid Dynamics",
+            "High speed flow",
+            "High Resolution CFD Solver. Phone No.: + 91 9432391294 Email: abhishekkunduamd@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/abhishekkunduamd"
+        },
+        {
+          "name": "Designation: Associate Professor Qualification: Ph.D. -IIT BHU, Varanasi and Johannes Gutenberg University Mainz, Germany; Post PhD. University of Nottingham, United Kingdom. Area of Interest: Industrial Biotechnology, Algal Biorefinery, Biofuels, Bioremediation, Value-added products, Nanobiotechnology. Phone No.: +91-9313887818 Email: mprai@mnnit.ac.in ; monika1778@gmail.com View Profile",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. -IIT BHU"
+            },
+            {
+              "degree": "Varanasi and Johannes Gutenberg University Mainz"
+            },
+            {
+              "degree": "Germany"
+            },
+            {
+              "degree": "Post PhD. University of Nottingham"
+            },
+            {
+              "degree": "United Kingdom. Area of Interest: Industrial Biotechnology"
+            },
+            {
+              "degree": "Algal Biorefinery"
+            },
+            {
+              "degree": "Biofuels"
+            },
+            {
+              "degree": "Bioremediation"
+            },
+            {
+              "degree": "Value-added products"
+            },
+            {
+              "degree": "Nanobiotechnology. Phone No.: +91-9313887818 Email: mprai@mnnit.ac.in"
+            },
+            {
+              "degree": "monika1778@gmail.com View Profile"
+            }
+          ],
+          "specializations": [
+            "Industrial Biotechnology",
+            "Algal Biorefinery",
+            "Biofuels",
+            "Bioremediation",
+            "Value-added products",
+            "Nanobiotechnology. Phone No.: +91-9313887818 Email: mprai@mnnit.ac.in",
+            "monika1778@gmail.com View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/mprai"
+        },
+        {
+          "name": "Designation: Associate Professor",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: M.Tech (IIT G), Ph.D (UNESCO-IHE, Netherlands) Area of Interest: Environmental Biotechnology, Applications of Bioreactor for Wastewater treatment, Bioremediation and Resource recovery, Environmental nanotechnology Phone No.: +91 7044284075 Email: joyabrata@mnnit.ac.in, joyabrata2006@gmail.com View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M.Tech (IIT G)"
+            },
+            {
+              "degree": "Ph.D (UNESCO-IHE"
+            },
+            {
+              "degree": "Netherlands) Area of Interest: Environmental Biotechnology"
+            },
+            {
+              "degree": "Applications of Bioreactor for Wastewater treatment"
+            },
+            {
+              "degree": "Bioremediation and Resource recovery"
+            },
+            {
+              "degree": "Environmental nanotechnology Phone No.: +91 7044284075 Email: joyabrata@mnnit.ac.in"
+            },
+            {
+              "degree": "joyabrata2006@gmail.com View Profile"
+            }
+          ],
+          "specializations": [
+            "Environmental Biotechnology",
+            "Applications of Bioreactor for Wastewater treatment",
+            "Bioremediation and Resource recovery",
+            "Environmental nanotechnology Phone No.: +91 7044284075 Email: joyabrata@mnnit.ac.in",
+            "joyabrata2006@gmail.com View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/joyabrata"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Ph.D. Area of Interest: Fermentation Technology, Bioprocess Engineering, Bioremediation. Phone No.: +91-7376952628 Email: rupika@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. Area of Interest: Fermentation Technology"
+            },
+            {
+              "degree": "Bioprocess Engineering"
+            },
+            {
+              "degree": "Bioremediation. Phone No.: +91-7376952628 Email: rupika@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Fermentation Technology",
+            "Bioprocess Engineering",
+            "Bioremediation. Phone No.: +91-7376952628 Email: rupika@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/rupika"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: M.Sc., Ph.D. (IIT Roorkee), and Postdoctoral appointments: OSU, OR; USA-MCI, AL and TTUHSC, TX, USA. Area of Interest: Dr. Patel's lab is engaged in the uncovering of novel targets and the development of biomarker(s) for the early detection of cancer using different \u201comics\u201d platforms. The core of their research delves into unraveling the intricate molecular mechanisms that drive cancer progression, lineage plasticity, cancer cell stemness, metastasis, and therapy resistance. Furthermore, Dr. Patel's team is delving into the role of extracellular vesicles, particularly exosomes, in facilitating intercellular communication within the intricate landscape of the tumor microenvironment (TME) and harnessing their potential in cancer diagnostic, prognostic, and therapeutic interventions. Phone No.: +91-532-227-1231 Email: gkpatel@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "M.Sc."
+            },
+            {
+              "degree": "Ph.D. (IIT Roorkee)"
+            },
+            {
+              "degree": "and Postdoctoral appointments: OSU"
+            },
+            {
+              "degree": "OR"
+            },
+            {
+              "degree": "USA-MCI"
+            },
+            {
+              "degree": "AL and TTUHSC"
+            },
+            {
+              "degree": "TX"
+            },
+            {
+              "degree": "USA. Area of Interest: Dr. Patel's lab is engaged in the uncovering of novel targets and the development of biomarker(s) for the early detection of cancer using different \u201comics\u201d platforms. The core of their research delves into unraveling the intricate molecular mechanisms that drive cancer progression"
+            },
+            {
+              "degree": "lineage plasticity"
+            },
+            {
+              "degree": "cancer cell stemness"
+            },
+            {
+              "degree": "metastasis"
+            },
+            {
+              "degree": "and therapy resistance. Furthermore"
+            },
+            {
+              "degree": "Dr. Patel's team is delving into the role of extracellular vesicles"
+            },
+            {
+              "degree": "particularly exosomes"
+            },
+            {
+              "degree": "in facilitating intercellular communication within the intricate landscape of the tumor microenvironment (TME) and harnessing their potential in cancer diagnostic"
+            },
+            {
+              "degree": "prognostic"
+            },
+            {
+              "degree": "and therapeutic interventions. Phone No.: +91-532-227-1231 Email: gkpatel@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Dr. Patel's lab is engaged in the uncovering of novel targets and the development of biomarker(s) for the early detection of cancer using different \u201comics\u201d platforms. The core of their research delves into unraveling the intricate molecular mechanisms that drive cancer progression",
+            "lineage plasticity",
+            "cancer cell stemness",
+            "metastasis",
+            "and therapy resistance. Furthermore",
+            "Dr. Patel's team is delving into the role of extracellular vesicles",
+            "particularly exosomes",
+            "in facilitating intercellular communication within the intricate landscape of the tumor microenvironment (TME) and harnessing their potential in cancer diagnostic",
+            "prognostic",
+            "and therapeutic interventions. Phone No.: +91-532-227-1231 Email: gkpatel@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/gkpatel"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Area of Interest: Phone No.: Email: pkg@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Area of Interest: Phone No.: Email: pkg@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Phone No.: Email: pkg@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/pkg",
+          "awards": [
+            "Fellow, The Linnean Society of London, United Kingdom (Membership No"
+          ]
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Area of Interest: Phone No.: Email: ektasr@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Area of Interest: Phone No.: Email: ektasr@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Phone No.: Email: ektasr@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/ektasr"
+        },
+        {
+          "name": "Elisa Reader Water purification system",
+          "designation": "Reader",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "CHNO analyser",
+          "designation": "reader",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "View Profile",
+          "designation": "Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. Area of Interest: Process Intensification"
+            },
+            {
+              "degree": "Separation Processes Polymer Technology"
+            },
+            {
+              "degree": "Biochemical Engineering"
+            },
+            {
+              "degree": "Modeling and Simulation. Phone No.: +91- 9455421398 Email: sushilk@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Process Intensification",
+            "Separation Processes Polymer Technology",
+            "Biochemical Engineering",
+            "Modeling and Simulation. Phone No.: +91- 9455421398 Email: sushilk@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/sushilk",
+          "awards": [
+            "Fellowship, Indian Institute of Chemical Engineers (FIIChE) \u00e2\u20ac\u201c (F 31849) Fellow Membe",
+            "Fellow, Institute of Engineers, India (FIEI-1287717)"
+          ]
+        },
+        {
+          "name": "Designation: Professor",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Designation: Associate Professor Qualification: Ph.D Area of Interest: Carbon Capture, Waste Water Treatment, Thermodynamics Phone No.: +91- 9910068765 Email: ankur@mnnit.ac.in , chemankur@mnnit.ac.in View Profile",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D Area of Interest: Carbon Capture"
+            },
+            {
+              "degree": "Waste Water Treatment"
+            },
+            {
+              "degree": "Thermodynamics Phone No.: +91- 9910068765 Email: ankur@mnnit.ac.in"
+            },
+            {
+              "degree": "chemankur@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Carbon Capture",
+            "Waste Water Treatment",
+            "Thermodynamics Phone No.: +91- 9910068765 Email: ankur@mnnit.ac.in",
+            "chemankur@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/ankur"
+        },
+        {
+          "name": "Designation: Associate Professor Qualification: Ph.D. Area of Interest: Food Technology, Metabolic Disorders, Nutrition, Air and Water Pollution, Bioplastics, Natural Products Phone No.: +91 - 9936393111 Email: hsingh@mnnit.ac.in View Profile",
+          "designation": "Associate Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. Area of Interest: Food Technology"
+            },
+            {
+              "degree": "Metabolic Disorders"
+            },
+            {
+              "degree": "Nutrition"
+            },
+            {
+              "degree": "Air and Water Pollution"
+            },
+            {
+              "degree": "Bioplastics"
+            },
+            {
+              "degree": "Natural Products Phone No.: +91 - 9936393111 Email: hsingh@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Food Technology",
+            "Metabolic Disorders",
+            "Nutrition",
+            "Air and Water Pollution",
+            "Bioplastics",
+            "Natural Products Phone No.: +91 - 9936393111 Email: hsingh@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/hsingh"
+        },
+        {
+          "name": "Designation: Associate\u00a0Professor",
+          "designation": "Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Designation: Associate Professor & Head",
+          "designation": "Associate Professor",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Ph.D. (IIT Kharagpur) Area of Interest: Computational Chemistry, Computational material Science, Molecular Simulation. Phone No.: 05322271592(O) Email: manju@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (IIT Kharagpur) Area of Interest: Computational Chemistry"
+            },
+            {
+              "degree": "Computational material Science"
+            },
+            {
+              "degree": "Molecular Simulation. Phone No.: 05322271592(O) Email: manju@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Computational Chemistry",
+            "Computational material Science",
+            "Molecular Simulation. Phone No.: 05322271592(O) Email: manju@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/manju"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Ph.D. (IIT Kanpur) Area of Interest: Molecular Simulations, Adsorption and self-assembly of nanoparticles. Phone No.: 0532 227 1581(O) Email: parulk@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (IIT Kanpur) Area of Interest: Molecular Simulations"
+            },
+            {
+              "degree": "Adsorption and self-assembly of nanoparticles. Phone No.: 0532 227 1581(O) Email: parulk@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Molecular Simulations",
+            "Adsorption and self-assembly of nanoparticles. Phone No.: 0532 227 1581(O) Email: parulk@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/parulk"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Ph.D. (Panjab University,Chandigarh) Area of Interest: Bioprocess Technology & Biomass Conversion,\u00a0 Polymer Nanocomposite & Bionanocomposite, Biodegradable\u00a0 Polymers Biomaterials, Waste water treatment. Phone No.: +91-9467826650 Email: dheerajahuja@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (Panjab University"
+            },
+            {
+              "degree": "Chandigarh) Area of Interest: Bioprocess Technology & Biomass Conversion"
+            },
+            {
+              "degree": "Polymer Nanocomposite & Bionanocomposite"
+            },
+            {
+              "degree": "Biodegradable Polymers Biomaterials"
+            },
+            {
+              "degree": "Waste water treatment. Phone No.: +91-9467826650 Email: dheerajahuja@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Bioprocess Technology & Biomass Conversion",
+            "Polymer Nanocomposite & Bionanocomposite",
+            "Biodegradable\u00a0 Polymers Biomaterials",
+            "Waste water treatment. Phone No.: +91-9467826650 Email: dheerajahuja@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/dheerajahuja"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: PDF (IIT Bombay), Ph.D. (NIT Calicut) Area of Interest: Bioelectrochemistry, Microbial Fuel Cell, Wastewater Treatment, Electrocatalysts Synthesis, Environmental Nanotechnology. Phone No.: +91- 8248954090 Email: karthicks@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "PDF (IIT Bombay)"
+            },
+            {
+              "degree": "Ph.D. (NIT Calicut) Area of Interest: Bioelectrochemistry"
+            },
+            {
+              "degree": "Microbial Fuel Cell"
+            },
+            {
+              "degree": "Wastewater Treatment"
+            },
+            {
+              "degree": "Electrocatalysts Synthesis"
+            },
+            {
+              "degree": "Environmental Nanotechnology. Phone No.: +91- 8248954090 Email: karthicks@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Bioelectrochemistry",
+            "Microbial Fuel Cell",
+            "Wastewater Treatment",
+            "Electrocatalysts Synthesis",
+            "Environmental Nanotechnology. Phone No.: +91- 8248954090 Email: karthicks@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/karthicks"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Ph.D. (IIT Guwahati) Area of Interest: General: Density functional theory, computational heterogeneous- and electro-catalysis, reaction mechanisms, microkinetic modelling, and machine learning. Specific: Thermocatalytic/electrocatalytic CO2 reduction, Bio-oils/Biofuels upgrading, polyol oxidation, advanced 2D materials, and water splitting. Phone No.: +91-7663 070 315(O) Email: amverma@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (IIT Guwahati) Area of Interest: General: Density functional theory"
+            },
+            {
+              "degree": "computational heterogeneous- and electro-catalysis"
+            },
+            {
+              "degree": "reaction mechanisms"
+            },
+            {
+              "degree": "microkinetic modelling"
+            },
+            {
+              "degree": "and machine learning. Specific: Thermocatalytic/electrocatalytic CO2 reduction"
+            },
+            {
+              "degree": "Bio-oils/Biofuels upgrading"
+            },
+            {
+              "degree": "polyol oxidation"
+            },
+            {
+              "degree": "advanced 2D materials"
+            },
+            {
+              "degree": "and water splitting. Phone No.: +91-7663 070 315(O) Email: amverma@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "General: Density functional theory",
+            "computational heterogeneous- and electro-catalysis",
+            "reaction mechanisms",
+            "microkinetic modelling",
+            "and machine learning. Specific: Thermocatalytic/electrocatalytic CO2 reduction",
+            "Bio-oils/Biofuels upgrading",
+            "polyol oxidation",
+            "advanced 2D materials",
+            "and water splitting. Phone No.: +91-7663 070 315(O) Email: amverma@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/amverma"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Area of Interest: Phone No.: Email: asmita.mishra@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Area of Interest: Phone No.: Email: asmita.mishra@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Phone No.: Email: asmita.mishra@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/asmita.mishra"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Ph.D. (IIT Guwahati), MTech (NIT Rourkela) Area of Interest: Membrane Technology, Ceramic Membranes, Polymeric Membranes, Wastewater Treatment, Gas Separation, CO2 Separation, Techno economic Analysis Phone No.: +91 9101100500 Email: ankit.agarwalla@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Ph.D. (IIT Guwahati)"
+            },
+            {
+              "degree": "MTech (NIT Rourkela) Area of Interest: Membrane Technology"
+            },
+            {
+              "degree": "Ceramic Membranes"
+            },
+            {
+              "degree": "Polymeric Membranes"
+            },
+            {
+              "degree": "Wastewater Treatment"
+            },
+            {
+              "degree": "Gas Separation"
+            },
+            {
+              "degree": "CO2 Separation"
+            },
+            {
+              "degree": "Techno economic Analysis Phone No.: +91 9101100500 Email: ankit.agarwalla@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Membrane Technology",
+            "Ceramic Membranes",
+            "Polymeric Membranes",
+            "Wastewater Treatment",
+            "Gas Separation",
+            "CO2 Separation",
+            "Techno economic Analysis Phone No.: +91 9101100500 Email: ankit.agarwalla@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/ankit.agarwalla"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Area of Interest: Phone No.: Email: snehapuri@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Area of Interest: Phone No.: Email: snehapuri@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Phone No.: Email: snehapuri@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/snehapuri"
+        },
+        {
+          "name": "Designation: Assistant Professor Qualification: Area of Interest: Phone No.: Email: kruthi.doriya@mnnit.ac.in View Profile",
+          "designation": "Assistant Professor",
+          "qualifications": [
+            {
+              "degree": "Area of Interest: Phone No.: Email: kruthi.doriya@mnnit.ac.in View Profile"
+            }
+          ],
+          "specializations": [
+            "Phone No.: Email: kruthi.doriya@mnnit.ac.in View Profile"
+          ],
+          "profile_url": "http://mnnit.ac.in/profile/kruthi.doriya"
+        }
+      ]
+    }
+  ],
+  "total_faculty_count": 28
+}

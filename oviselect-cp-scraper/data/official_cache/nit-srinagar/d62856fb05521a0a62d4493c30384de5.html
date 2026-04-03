@@ -1,0 +1,665 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1"><title>
+	National Institute of Technology Srinagar
+</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="../css/bootstrap.css" rel="stylesheet" type="text/css" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" /><link href="../css/css/layout.css" rel="stylesheet" type="text/css" /><link rel="shortcut icon" href="../Images/nit-logo.png" /><link type="text/css" rel="stylesheet" media="all" href="../css/css/dynamic_menu.css" /><link type="text/css" rel="stylesheet" media="all" href="../css/css/system-menus.css" /><link href="../css/slider.css" rel="stylesheet" type="text/css" media="all" /><link href="css/NewThemesDept.css" rel="stylesheet" type="text/css" media="all" />
+
+    <style type="text/css">
+        .pnlheight {
+            height: 300px;
+            overflow: hidden;
+        }
+
+        .mrqheight {
+            height: 250px;
+        }
+    </style>
+
+    <!-- start plugins -->
+    <script src="../JS/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/js/drupal.js"></script>
+    <script type="text/javascript" src="../js/js/dynamic_menu.js"></script>
+    <script src="../JS/common.js"></script>
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+    jQuery.extend(Drupal.settings, { "basePath": "/", "jcarousel": { "ajaxPath": "/jcarousel/ajax/views", "carousels": { "jcarousel-view--Carousel--block-1": { "wrap": "both", "skin": "tango", "visible": 2, "scroll": 1, "auto": 5, "animation": 100, "start": 1, "ajax": true, "size": 6, "selector": ".jcarousel-view--Carousel--block-1" } } }, "dynamicMenu": { "nav": "open", "animation": { "effects": { "height": "height", "opacity": "opacity", "width": 0 }, "speed": "500" }, "effects": { "siblings": "close-same-tree", "children": "none", "remember": "0" }, "filter": { "type": "blacklist", "list": { "menu-about-iitd": 0, "menu-academics-exams": 0, "menu-academics": 0, "menu-educational-programs": 0, "menu-impact": 0, "menu-iitd-links": 0, "navigation": 0, "menu-others": 0, "primary-links": 0, "menu-research": 0, "secondary-links": 0, "menu-web-admin": 0 } } }, "views": { "ajax_path": "/views/ajax", "ajaxViews": [{ "view_name": "Carousel", "view_display_id": "block_1", "view_args": "", "view_path": "node/mainpage/new", "view_base_path": null, "view_dom_id": 1, "pager_element": 0 }] }, "views_nivo_slider": { "views-nivo-slider-new_joinee-Events": { "startSlide": 0, "effect": "random", "slices": 15, "animSpeed": 500, "pauseTime": 5000, "directionNav": false, "directionNavHide": true, "controlNav": true, "controlNavThumbs": false, "controlNavThumbsFromRel": false, "keyboardNav": true, "pauseOnHover": true, "manualAdvance": false, "captionOpacity": 0.8 }, "views-nivo-slider-scheduled_phd_viva_n1-Events": { "startSlide": 0, "effect": "random", "slices": 15, "animSpeed": 500, "pauseTime": 5000, "directionNav": false, "directionNavHide": true, "controlNav": true, "controlNavThumbs": false, "controlNavThumbsFromRel": false, "keyboardNav": true, "pauseOnHover": true, "manualAdvance": false, "captionOpacity": 0.8 }, "views-nivo-slider-research_at_iit_delhi-Research": { "startSlide": 0, "effect": "random", "slices": 15, "animSpeed": 500, "pauseTime": 10000, "directionNav": false, "directionNavHide": true, "controlNav": true, "controlNavThumbs": false, "controlNavThumbsFromRel": false, "keyboardNav": true, "pauseOnHover": true, "manualAdvance": false, "captionOpacity": 0.8 } } });
+    //--><!]]>
+    </script>
+    <script type="text/javascript">
+        $(function () {
+
+            $('#da-slider').cslider({
+                autoplay: true,
+                bgincrement: 450
+            });
+
+        });
+    </script>
+    <!-- Owl Carousel Assets -->
+    <link href="../css/owl.carousel.css" rel="stylesheet" />
+    <script src="../js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#owl-demo").owlCarousel({
+                items: 4,
+                lazyLoad: true,
+                autoPlay: true,
+                navigation: true,
+                navigationText: ["", ""],
+                rewindNav: false,
+                scrollPerPage: false,
+                pagination: false,
+                paginationNumbers: false,
+            });
+
+            $("#ImageButton_SiteSearch").click(function () {
+                if (("#TextBox_SiteSearch").val() == "") {
+                    alert("Please enter text");
+                    return false;
+                }
+            })
+
+        });
+    </script>
+    <!-- //Owl Carousel Assets -->
+    <script type="text/javascript" src="../JS/nav.js"></script>
+    
+    <!----font-Awesome----->
+    <link rel="stylesheet" href="../fonts/css/font-awesome.min.css" />
+    <link href="css/styleinner.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	/* <![CDATA[ */
+	#NavigationMenu img.icon { border-style:none;vertical-align:middle; }
+	#NavigationMenu img.separator { border-style:none;display:block; }
+	#NavigationMenu img.horizontal-separator { border-style:none;vertical-align:middle; }
+	#NavigationMenu ul { list-style:none;margin:0;padding:0;width:auto; }
+	#NavigationMenu ul.dynamic { z-index:1; }
+	#NavigationMenu a { text-decoration:none;white-space:nowrap;display:block; }
+	#NavigationMenu a.static { text-decoration:none;border-style:none;padding-left:0.15em;padding-right:0.15em; }
+	#NavigationMenu a.popout { background-image:url("/WebResource.axd?d=YAYach_zykzn7tRotFpEUohWG5XuyKT2B6ysAmye4JLfH1_J-u2-CFtwNmw6b0yx0aLJhHnAocBfAfYtNHmfIpsoHQw6UIU9yBEv9D7VZL01&t=637034349586910676");background-repeat:no-repeat;background-position:right center;padding-right:14px; }
+	#NavigationMenu a.dynamic { text-decoration:none;border-style:none; }
+	/* ]]> */
+</style><style type="text/css">
+	/* <![CDATA[ */
+	#Menu1 img.icon { border-style:none;vertical-align:middle; }
+	#Menu1 img.separator { border-style:none;display:block; }
+	#Menu1 ul { list-style:none;margin:0;padding:0;width:auto; }
+	#Menu1 ul.dynamic { z-index:1; }
+	#Menu1 a { text-decoration:none;white-space:nowrap;display:block; }
+	#Menu1 a.popout { background-image:url("/WebResource.axd?d=YAYach_zykzn7tRotFpEUohWG5XuyKT2B6ysAmye4JLfH1_J-u2-CFtwNmw6b0yx0aLJhHnAocBfAfYtNHmfIpsoHQw6UIU9yBEv9D7VZL01&t=637034349586910676");background-repeat:no-repeat;background-position:right center;padding-right:14px; }
+	/* ]]> */
+</style><style type="text/css">
+	.tvLinks_0 { text-decoration:none; }
+	.tvLinks_1 { color:Black;font-family:Tahoma;font-size:10pt;border-style:none; }
+	.tvLinks_2 { padding:0px 0px 0px 0px; }
+	.tvLinks_3 { font-weight:normal; }
+	.tvLinks_4 {  }
+	.tvLinks_5 { color:#5555DD;text-decoration:underline; }
+	.tvLinks_6 { padding:0px 0px 0px 0px; }
+	.tvLinks_7 { color:#5555DD;text-decoration:underline; }
+	.tvLinks_8 { color:#5555DD;text-decoration:underline; }
+	.TreeView1_0 { text-decoration:none; }
+	.TreeView1_1 { border-style:none; }
+	.TreeView1_2 {  }
+	.TreeView1_3 { color:#165B87; }
+	.TreeView1_4 { padding:0px 0px 0px 0px; }
+	.TreeView1_5 { color:#32759F;text-decoration:underline; }
+	.TreeView1_6 { color:#32759F;text-decoration:underline; }
+
+</style></head>
+<body>
+    <form method="post" action="./DisplayDeptPage.aspx?page=eacci&amp;ItemID=eaccs&amp;nDeptID=cm" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="tvLinks_ExpandState" id="tvLinks_ExpandState" value="nnnnnnnnncn" />
+<input type="hidden" name="tvLinks_SelectedNode" id="tvLinks_SelectedNode" value="" />
+<input type="hidden" name="tvLinks_PopulateLog" id="tvLinks_PopulateLog" value="" />
+<input type="hidden" name="TreeView1_ExpandState" id="TreeView1_ExpandState" value="" />
+<input type="hidden" name="TreeView1_SelectedNode" id="TreeView1_SelectedNode" value="" />
+<input type="hidden" name="TreeView1_PopulateLog" id="TreeView1_PopulateLog" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="O/vec2jBYFghL7d8GgWyxti0Udx6op/iQq7LMg/f2OTZ3nEi/60n8MVx0uU9HGGESicYYuluF1PY+S9W77SQZ7DfKitaetMI8qbtBDLpbltkgglWcwCqP37nguvB0IRtQjscI7pwFwn7enBiVmgAVkWHpRxj2ZpNkdK2FOUmtGokZJcV/wDwP6vFT4TKKffvgTGNHVk/sQgrmW49hm9H7fH6HvHGGASadtB7GCkzfkQpeqsIF9i2aKCGmkjwKBEQtvlPy+tYBedMln/K89rwI/2p9xK9x43r4qmDEwuelxR1siF3fVdUcdk+wRxPzdk5BxOIyBZs6jhtNutY5uNKMSa3DkfCzn3tn11EUWk4jQydHMSVCjO68BCr+ZzkSfYF452dA5ePcL1+7X6TWHdSx8YwT0FlnWmJ5gFyTtlQxCKsEQOiKZIoYwis3sBO6vTk3ie6dVLQPWBUsgE/YXpmyKCAfcGpTp0OwFXkoTMXUh2s9EE/ER3BtcJb7BGwX/4JKffiJGolfTKDunnnTJ/6dRE+6RP3Rk7lUaFG8bFShnYdKdBhHpVUprbMhnenBTrfPONYNjMoJej3YSSBDo1pe0AP9iTCzSarcqe1ozgJR6YdKMCjqd1v8KnhraCrqFpmNZNB7J13KA07RiUtJBhqZ4eycbIhiCXZ6vP6DGmZ6UO+cdonfY3xGUC/2yOKfT5u10YrFOlMDErV4Ez/DxYyCEfc4Uw8JxfnVXJ11UV/cihyPd9NcBWh2Hrl2kk5FUN7yG17V/SPVBWPFcuDN25SA9MbhGLXxDiUhuSIAAeRJy1KHFrJUpUv5IoUJe3+5YaoxxNwsFaVaR855Ykf/VBgx4mTFqaexCUeKzQ27OpO6YrkJhAuADvaPrtRY1XwLclp4JallzulXOnizfumlu9jNe0xS5C6v7o0HbPOAsTvhp0GvHbAJflMBItIEoGzZmqk7Sj5y1I4co2iXbVRETxnvrZncO/7iSgYHOMMeG/J5+jBXcVBiZMpuxhvFoAqSkQHdtuvOMFnqSxAy1a+vjcl7Mcfv1GKvyTbz56jWyTrfRatThg1lPpqjvCjduSy6t5Q2rZLdByewVv+jhUC+IvaPOXoC8QGMi21gzLS+bmkw/zzEeRjcGJgP5GJANy1lXkfBm8fyQ3GG0zsbAobLePk/8szriK+djENnpgg0rpArh6W4cIH7RAAqP7zx77uS+bnYS3CxmZM/lx3Xir3SBVBQkViGXt+gZL+YZCUTSvo6YCmA9t6/Bhui/gb+xCzeoqIT4w9xJVNzidCoB7nUW+Tt8zhnP1uteGnmAEGtMgmYAxO7nxq7LUXkC8rATmce8ibcpWymG5jP52Bh0ijNR+X/ihC5BhrQC4lsxunes6K9zIP+36m0nNYPTk2dIfZpyT/UP4x3JB9F+lX3TInMtbZzPK05J7P3Ir5ChrDPHjVgau87N1oTq41iHyMNeXPkPqE+q/OfBhgZ6MJadZ6c7PcWJXP9OzU3+dMHbppyNKF9M58LppHdq8NbhoA8vQXspI69IG3kTreQWqyMC8ESik9zZOLXJ4w6UGYTWZQKTVPqTJI/NKVUIqIHjXxO2RA0DePNIjbsALxUpRxs9OmGPIBMJT4kT9d3b+rubp1kUhB15m+C+OUkinhOGfm7lpHJy6e0JOgr5q8BnwabPd7fk7Ske3iUSmX32Zd+g5lXX/QWgQto4DnadKUO2Tt3zmOOMYEUyUAhtlxBXmISq26v4tzaaY4OJCxUlgJsH16udenUGhoHGsh52flkICwnDMmews3X//eVir0kmB5BzM1IxK/ZG2w5rarRmjlkwPhZjM5TV6+3dA6/gfnrs4PhYZ/0ciurt7BaerXkeYGS7/eNvia3gItT5N1zkifZd7KdKFIlj79ssO58o+VhkwFVycFZonSHwNwDVIESq0krHnw+Os+eyg+f0Yf2tCyfYUG3yiSufvJF6v6VUs/5mZVUiKHluyDI8F0tU/yOXvqSe3OPjIWJ5om7n82KyQDQN8ndPljvCA3NMudqRuWxPKy8wrcNwc/1BLPS8ufLNJ0z6qcQ+361RMN0pxuSIUe6zEdde6R9EMN5SpfLFoDVk0h7XIL/tclAbVNUqrrtJKUcSiIW+cQ1ojl5vEmfkfBTyOtsPAz9J/qnYCDXiVvnD7NNN+YiixK4pxMD83GILFOoByqdx10kHo4H4vE6nhRkzdPvSi7EYGTMGcoxJ4Q1/H/eAhdeDKccRSUzj4JQf8wJuZIIkg0IMsfZH34mHLH1GpI768A7pHEKz8msKMFKB41YUmi8CWcA+WkBsl9OgjcadUL/LQlYVfx+fLPjI57XNJKS5HpFwE7slAz26ZS7tuSQbaWHDi1D857AYKj6dlA+uAzbiYEz+gTb+gDUDXAQuGxKiwSxxbEnDVGh6GeeZiQw8BqqqNNLljYzjbrZn/3IkMdIet1haDzxJ2hFaFLWesssuEzKIVbzMr4zGoLH1zw4KiIkUEii8AKQrux8vmbFJwnFQc6LeA7kVIKWloI6i/WasiUtSL2fISRUT22anCp4/c7M69AWc5Hy7i1MqkXiW2KsA6gqh9MmRhCCHrKztV7k5rFgbpnmU/V9qzKt/mukGK0Fd6+vWP04QUD2OaKUu/7NGJD/Z7etrIqrfZQVAyyAQfTgXpxGtTF3J24xD2owRnDDnIyhDhXBpIox9gmzCXiVzc9ueDYAwGhp4j9M18LtuoLtpF++N9W5fEXjBRGD0/Z8Am9GmSYJKNzfS+5WuxIYCsPNAXrHCBS4JN7yg3dQjPInBM4bMR5thSvWKf0ZF5mFFMxuYjCZUaopZW4ehwdqCuILBztrtePqSPNH5lUHB7sKos4cbc9YgrD30ERFWaXZwmasARWxS5IkPcphSy9nRW6Mbh8twJ7MSDctOMyf8PgynPkevD15wyZdkYajItdhWYpoHVwQb1a0BIg0NXLX/2OYobEfrVOsX7Q4lLCAIzj78gLdQfxo4afmuMyj78xZKjj4TBiWpZThgpIfBulNOawhtGj4rJnLyM1Yc53RnQnPKO0XTML2EOMCWjgUeGzwcWCXDIbFJb3phY2RA1SsO7YJZHONM0DPSm1jEdYRmSd62RbaS75cA/qC/FTA9kZpQJQY1KHo+OpMIPUdZ4Z87UDHleUrK/M9XzvEB6pVPch4MGXUssYt6i1SYo4hsEIk9VY3PPeGb1jj5ptfiF3sUCDt41MS+dfofhCs094k0WkUnQSEoboWi7SlrOtA3464z3FdehGaWGLuGvMuMJFGrDkiXVTUTSKtvauPLieAdY1pxBJi+d1gWEdv0S4uQeDSq96UorEPTfLUXWF36GeEjAbcfYBbWTrWaKBr6cDOV0cQOLDXxw5VYc1Ubdt6611Dx5/9xQ6pgmCj+5/v2v5/+6Wm2i3JEazlKL9FGdT0GA0eyLRquyDg1bvTXwCj2+pXfPVhjvkWdn8g1zPKDq7TflE60GRok8FLRWoCFYRyOMxErxD3CNdG/8OlmkR0Cj3sU3J5Wam/eKSRS7HD8WPTEjkmSi71NaLW22rxDWHLm4e0e6XNIf7Da10A/ycfDO9/h3acc+RfPxLhrOPhHbZvGFscQRE+j6V6soqnynqRI27b0puBhgnEEgzu102JLe4NrV/i83Iq36N0zMa354IyoC0+KjKTNPqgyaFacDWUbXHN+9/wxG9R0Fz7GCZ/FBUDpbITtEBL/2rxYwXK4iMJu36heb+RTTM6uB0wP4KIo5UxksY7AaIv5ZaK3i2A5x2IYROKZ5WlO8uFmy4nJGs6bajRxCvPMC/YOLg8ilX+DaTn83STEs6pN1vUHysGqnrQJzZ9VnpPxY8VY2TRX6WxnhMPWe4IUHaSpoOb5P4Do0Mk4+WPU57Od7r9Fx4GCfZT6enZLGIk7BYzrS9PXhUKqzBzdfpy4/MKVhwosf0NfdYlX72z/Rvrq1rXy39Yzfc5Un76tVlLyW8sdeRff0+1ctVJtOfb6KTnOD4orMJ/0sACplTZXm3k6H4zrYgx2ghUNpQUOOoLMfivQlXzs2wU7lVM4jEbo7QRA4srJC3fmuealJIBolgv85LNEXMr5HlPtlTanI6l9XrT/4NK+t2Cyi0dkLDypg8XLUpYRC5jbdm9UNzX1xbgO34mfYNtc5TM3uOfQ+jKlUgiRd+GhcdD43YriAqzoQ0BVOiEqIMOUMzHDD/lPwj3yvg3KFNx7X5OPFIlmD5N+7K0jAlfPSm134TqLzlm0laJs8/LfN9d9slOFsCAj1nuxhwMFIza6nZx+WAmfKFGwkSCvZrAoSFU1BxWYSFw6c6NKvm++mE5XL3Q8LxOqIlFuNdeeKF1Mk+n4nzBErqnSdKkN41n2bJJIO4qqzII/q1Nyc1orz75KluYVc2G7ACbtflMUeEl0+gWg3iL+FeUM3ilRqsmtqr6f6Rv7GHpcifBtpHpqa8PVdsgdActu11O0F0g7V7ZspOm1kYwDgXveo7RuvTCCSccv7Fb7LrGaD7hEVC8KNj5nGzYyO5TJgWS+gEoCl4cQHxiGIVtWnyLVzHZ6GIyZQi1hLVFbudtTOTmaW1Tx2VgObYitv68E1v8SYCpQcrtfBlRTWkwN2Zeu5n+tAm6TNHef4Hc4uRsKbBd+u1pLa9Pui5NEil1RCCvO9oE1LWq/O4qBSsQO73TbTdMi9ppZqRQbeyRXG8W6IKiDsAEZTImOjvwx3MaGWqBKKXQqEwsRgvhvcKsViSYcV910s7BSpQinxcMp1pi7p5JJm/cLMW0Q0Gjm67Nyj8FZAoP86qenRmWUZ49iL4xB0LVJCIOKT27twlU6LXfd7sops2WIEVn5+5Q0J0B/rvGk+KvuzC8bd/d+xNPjlPDx4aMnTlhTz90Nz8YJZl90A8PtF+UXPycW5Cy8OkmyHMykqYgEX5aUhDNZ7FARSG9LBQRphIxWyOmWiU9QixWy/ttaEJ8CAb/GTk3bKOrZ+SBivqRP1snARFd4RoBMbhti9nTlMQX1y/dRK63PCuV6W8ab9G0Dj1xpcMQXf4kevyk5B/8NICOusb5GBpkzHQ49Sj0fHx6MQ9GiW6h0p3PXc5Rh5i94JqejStCLIzpoYRxMJNkYL8N+melMaQDuC44OGQrtsUclSTiSGeM6CH8IDzqJEuxLpIxs3nQpxeoO64i77ix9jUvshXBWypt2dwu51MY39XDudMYJkkWwxMa8XKTqTv2V1lQV3bxooKNhH7t/Y0W/Qx9lM/OLFm9oPaMMw5sSPsnt5zGji/ClwQmP9W2HnXA5+Bgw4kO1i8eZ3/dLVL9f45Ze+g+O+z3iD13i5IggYGyE+IvQmA/r9uULJ6wiNMURBmMhpnq6ZVwpseXji66hxanrVlonnXf2J19yyg23xb7Z/TFPn79BiNIjpR6salDK33iTYB8Y1zOdvUG8n0R8FFvXK0Z5THlCgRzyARWs90pqoV8fz2iBX6Zv+iY8zyNxpbhcj7nkfhCbQvEJHCQ2kVpnipj27RPMqXNu4R3SENI/IZsEogf4biIgmpCuISmvqCJssSQO0FC9eeD6a6RcT0g0MurRp7b0k/xuuf/YAnVjMRZUIHxiQYzbdpzoePBCZ29TfyrpLZQParLFdslFRgptqRKG/SXml8HTqTgHiEHnnLEYTKWtJ/auMQ9zhMO/GfJByignbZDR7pyQ/sDGfmIfy3MPxJTzJ+J1Q9gw5PeF0xwePW1HI2dmwq4Fc2mXzjQcdvV7DlPk8122dyXqsHdhrSYiFHQtZkMr18zHgdqf93v+xqfvWhEuT40rSzbxnjxZLh7GHvho8iyLSRyZguuZ+d8osgRb7fsH7DysYp1on6fG1Jc4y2g8DR1CGvIOK+evSFijcosWd+BYOkxCrXFvlnX6uXsSe2tFj/uUELcaBcN7hBi7DO4QH4cthOIXVE7xsTSR+y2y1dhPud+WHshgvOU9jISkOALnqiTjKXjYGQ8yzNCf71V3EeGcpLYjhF9vBkYk1qXX/U7MTAsR+Se6uNb8bamGpkn7tnBbu3tCYrKwRgrNkhlvN5F2FPsC4m54zqGz6cqHWffkQsg6H4z8e+M2qM" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZBGvxcHXH1ozIiSmyxuD3O-GvFLCNcN0NeiJ_6elqm9H4kY2CM9CQAoo8lrBHElXOg2&amp;t=637034349586910676" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=dFngPw9usiMjV_4VRejwURdCurpifQ41vMuOuxze9bAHVsA4V7WAoUiZNShds3WamuWdNmtSHjHhKs4kqIO_L2puWct2NwVxZQhDaA6skqwFpwXBfEIISwVdrsTN5xp3GE3dxPk6vsHXk06tt73cLw2&amp;t=4e518d44" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+    function TreeView_PopulateNodeDoCallBack(context,param) {
+        WebForm_DoCallback(context.data.treeViewID,param,TreeView_ProcessNodeData,context,TreeView_ProcessNodeData,false);
+    }
+var tvLinks_Data = null;var TreeView1_Data = null;//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=YJCxcK2hI-bLBJXUFvzl1wfynVpS8cLNQOcmOKsID5GuyPPZWj-CrB3fVMyqeN3E10ip_cBEBsDDeRPwgEnIPdvXyIGpiha28xDJUWT8Rg7v49hAVxLHZwrxJxvzFywzbIdisjmgb70esO6nHHmlTQ2&amp;t=4e518d44" type="text/javascript"></script>
+<script src="../Scripts/WebForms/MsAjax/MicrosoftAjax.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="../Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E97C7F" />
+	<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="u1slx3D-sEnXBwEeHOGthfUs5BzEHNuIqkRpf4CrwzBBPflC3F1LJCjKMGRMHsOog6YDhIeoA6-YqT654IJQAsDRvDy6TzUtbo4IZIqTUr-HGfJRPSt_yhyqHf_HvtYu0" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="07HBl/+qpeDeqC3WHQmUt/o2OM76ov5eM7rCXvoH5u4NibeCeomJW6sbqO8Y9H6mWuh2u/lFj+3HrCdad9qofChxiGY0aa7DKT0dS/jtttKvIdZBPI8h4cggLw5OV8jc6aXXHwe9cVX/EBprTWJO7XFbmNNWwMcidLvOl3wDiN8=" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager_Main', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <div>
+            <section style="min-height: 185px;">
+                <nav class="navbar navbar-inverse navbar-fixed-top first-navbar"  id="deptTopNavigation"  style="background-color:#192f59;">
+                    <div class="container" >
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-5">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="container-fluid collapse navbar-collapse" id="bs-example-navbar-collapse-5" >
+                            <ul class="nav navbar-nav">
+                                <li class="" style="background-color:none;">
+                                    <a href="../Default.aspx" >Home</a>
+                                </li>
+                               
+
+                                <li>
+                                    <a id="LinkButton_Dept_Name_Login" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$LinkButton_Dept_Name_Login&quot;, &quot;&quot;, false, &quot;&quot;, &quot;DeptWiseLogin.aspx?nDeptID=cm&quot;, false, true))" style="font-family:Arial;background-color:#3db166;">Training and Placements Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="header_bg">
+                    <div class="container">
+                        <div class="header">
+                            <div class="row">
+                                <div class="logo navbar-left col-md-8">
+                                    <h1 class="departmentLogo"><a href="../Default.aspx">
+                                        <img src="../images/nit-logo.png" class="img-responsive" style="display: inline-block;"></a>
+                                        
+                                        <span id="Label_Dept_Name">Training and Placements</span>
+                                        <span class="coll-name">National Institute of Technology Srinagar</span>
+                                    </h1>
+                                </div>
+                                <div class="h_search navbar-right col-md-4">
+                                    <div class="font-size-changer">
+                                        <a href="javascript:void(0);" class="text-size-decrease change-txt-size">-A</a>
+                                        <a href="javascript:void(0);" class="text-size-reset change-txt-size">A</a>
+                                        <a href="javascript:void(0);" class="text-size-increase change-txt-size">+A</a>
+                                        <a href="javascript:void(0);" class="whitebg">A</a>
+                                        <a href="javascript:void(0);" class="blackbg">A</a>
+                                    </div>
+                                    <input name="ctl00$TextBox_SiteSearch" type="text" id="TextBox_SiteSearch" placeholder="Enter text here" />
+                                 <input type="submit" name="ctl00$ImageButton_SiteSearch" value="Search" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ImageButton_SiteSearch&quot;, &quot;&quot;, false, &quot;&quot;, &quot;SiteSearch.aspx&quot;, false, false))" id="ImageButton_SiteSearch" style="background-color:#3db166;" />
+                                    <p><span><a href="#stmc"> Skip to Main Content</a></span> | <span style="margin-left:2px;"><a href="#stn"> Skip to Navigation</a></span></p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-navigation" id="stn">
+                    <div class="h_menu" >
+                        <nav class="navbar navbar-default" role="navigation" id="mainav"  >
+                            <div class="navbar-header"  >
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                            </div>
+                            <div class="collapse navbar-collapse top-nav" id="bs-example-navbar-collapse-1" style="background-color:#192f59;">
+                                <div class="container" style="background-color:#192f59;">
+                                    <div style="display: none;">
+                                        <div id="Panel_TreeVew">
+	
+                                            <a href="#tvLinks_SkipLink" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Skip Navigation Links.</a><div id="tvLinks" class="TreeViewNode">
+		<table cellpadding="0" cellspacing="0" style="border-width:0;">
+			<tr>
+				<td><img src="/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&amp;t=637034349586910676" alt="" /></td><td class="nav tvLinks_2" onmouseover="TreeView_HoverNode(tvLinks_Data, this)" onmouseout="TreeView_UnhoverNode(this)" style="white-space:nowrap;"><a class="tvLinks_0 nav tvLinks_1" href="Deptindex.aspx?page=a&amp;ItemID=g&amp;nDeptID=c" title="Home" id="tvLinkst0" style="border-style:none;font-size:1em;">Home</a></td>
+			</tr><tr style="height:0px;">
+				<td></td>
+			</tr>
+		</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+			<tr style="height:0px;">
+				<td></td>
+			</tr><tr>
+				<td><img src="/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&amp;t=637034349586910676" alt="" /></td><td class="nav tvLinks_2" onmouseover="TreeView_HoverNode(tvLinks_Data, this)" onmouseout="TreeView_UnhoverNode(this)" style="white-space:nowrap;"><a class="tvLinks_0 nav tvLinks_1" href="Deptindex.aspx?page=maigk&amp;ItemID=caaeq&amp;nDeptID=c" title="Vision &amp; Mission" id="tvLinkst1" style="border-style:none;font-size:1em;">Vision & Mission</a></td>
+			</tr><tr style="height:0px;">
+				<td></td>
+			</tr>
+		</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+			<tr style="height:0px;">
+				<td></td>
+			</tr><tr>
+				<td><img src="/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&amp;t=637034349586910676" alt="" /></td><td class="nav tvLinks_2" onmouseover="TreeView_HoverNode(tvLinks_Data, this)" onmouseout="TreeView_UnhoverNode(this)" style="white-space:nowrap;"><a class="tvLinks_0 nav tvLinks_1" href="Deptindex.aspx?page=maigm&amp;ItemID=caaes&amp;nDeptID=c" title="Program Educational Objectives" id="tvLinkst2" style="border-style:none;font-size:1em;">PEOs</a></td>
+			</tr><tr style="height:0px;">
+				<td></td>
+			</tr>
+		</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+			<tr style="height:0px;">
+				<td></td>
+			</tr><tr>
+				<td><img src="/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&amp;t=637034349586910676" alt="" /></td><td class="nav tvLinks_2" onmouseover="TreeView_HoverNode(tvLinks_Data, this)" onmouseout="TreeView_UnhoverNode(this)" style="white-space:nowrap;"><a class="tvLinks_0 nav tvLinks_1" href="Deptindex.aspx?page=maigo&amp;ItemID=ee&amp;nDeptID=c" title="Program Outcomes" id="tvLinkst3" style="border-style:none;font-size:1em;">POs</a></td>
+			</tr><tr style="height:0px;">
+				<td></td>
+			</tr>
+		</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+			<tr style="height:0px;">
+				<td></td>
+			</tr><tr>
+				<td><img src="/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&amp;t=637034349586910676" alt="" /></td><td class="nav tvLinks_2" onmouseover="TreeView_HoverNode(tvLinks_Data, this)" onmouseout="TreeView_UnhoverNode(this)" style="white-space:nowrap;"><a class="tvLinks_0 nav tvLinks_1" href="Deptindex.aspx?page=oakoa&amp;ItemID=oaqki&amp;nDeptID=c" title="PSOs" id="tvLinkst4" style="border-style:none;font-size:1em;">PSOs</a></td>
+			</tr><tr style="height:0px;">
+				<td></td>
+			</tr>
+		</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+			<tr style="height:0px;">
+				<td></td>
+			</tr><tr>
+				<td><img src="/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&amp;t=637034349586910676" alt="" /></td><td class="nav tvLinks_2" onmouseover="TreeView_HoverNode(tvLinks_Data, this)" onmouseout="TreeView_UnhoverNode(this)" style="white-space:nowrap;"><a class="tvLinks_0 nav tvLinks_1" href="Deptindex.aspx?page=oaoia&amp;ItemID=ocgqe&amp;nDeptID=c" id="tvLinkst5" style="border-style:none;font-size:1em;">e-SAR</a></td>
+			</tr><tr style="height:0px;">
+				<td></td>
+			</tr>
+		</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+			<tr style="height:0px;">
+				<td></td>
+			</tr><tr>
+				<td><img src="/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&amp;t=637034349586910676" alt="" /></td><td class="nav tvLinks_2" onmouseover="TreeView_HoverNode(tvLinks_Data, this)" onmouseout="TreeView_UnhoverNode(this)" style="white-space:nowrap;"><a class="tvLinks_0 nav tvLinks_1" href="Deptindex.aspx?page=oaoeo&amp;ItemID=ocgam&amp;nDeptID=c" id="tvLinkst6" style="border-style:none;font-size:1em;">MOUs</a></td>
+			</tr><tr style="height:0px;">
+				<td></td>
+			</tr>
+		</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+			<tr style="height:0px;">
+				<td></td>
+			</tr><tr>
+				<td><img src="/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&amp;t=637034349586910676" alt="" /></td><td class="nav tvLinks_2" onmouseover="TreeView_HoverNode(tvLinks_Data, this)" onmouseout="TreeView_UnhoverNode(this)" style="white-space:nowrap;"><a class="tvLinks_0 nav tvLinks_1" href="Deptindex.aspx?page=a&amp;ItemID=ocgsq&amp;nDeptID=c" id="tvLinkst7" style="border-style:none;font-size:1em;">Central Facilities</a></td>
+			</tr><tr style="height:0px;">
+				<td></td>
+			</tr>
+		</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+			<tr style="height:0px;">
+				<td></td>
+			</tr><tr>
+				<td><img src="/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&amp;t=637034349586910676" alt="" /></td><td class="nav tvLinks_2" onmouseover="TreeView_HoverNode(tvLinks_Data, this)" onmouseout="TreeView_UnhoverNode(this)" style="white-space:nowrap;"><a class="tvLinks_0 nav tvLinks_1" href="Deptindex.aspx?page=a&amp;ItemID=ociai&amp;nDeptID=c" id="tvLinkst8" style="border-style:none;font-size:1em;">Departmental Committees</a></td>
+			</tr><tr style="height:0px;">
+				<td></td>
+			</tr>
+		</table><table cellpadding="0" cellspacing="0" style="border-width:0;">
+			<tr style="height:0px;">
+				<td></td>
+			</tr><tr>
+				<td><a id="tvLinksn9" href="javascript:TreeView_ToggleNode(tvLinks_Data,9,document.getElementById(&#39;tvLinksn9&#39;),&#39; &#39;,document.getElementById(&#39;tvLinksn9Nodes&#39;))"><img src="/WebResource.axd?d=Wt-oJLHV-dsfkxJN06L-WfQyMkG3jovntxREUajDsQQRD_7iz2GJG7BBivff8TOqUtGFD1HYJLxFpj9fSK_EQr0DAf9AeqK_3b_3GZW18qs1&amp;t=637034349586910676" alt="Expand People" style="border-width:0;" /></a></td><td class="nav tvLinks_2" onmouseover="TreeView_HoverNode(tvLinks_Data, this)" onmouseout="TreeView_UnhoverNode(this)" style="white-space:nowrap;"><a class="tvLinks_0 nav tvLinks_1" href="Deptindex.aspx?page=a&amp;ItemID=kaeqc&amp;nDeptID=c" title="People" id="tvLinkst9" style="border-style:none;font-size:1em;">People</a></td>
+			</tr><tr style="height:0px;">
+				<td></td>
+			</tr>
+		</table><div id="tvLinksn9Nodes" style="display:none;">
+			<table cellpadding="0" cellspacing="0" style="border-width:0;">
+				<tr style="height:0px;">
+					<td></td>
+				</tr><tr>
+					<td><div style="width:20px;height:1px"></div></td><td><img src="/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&amp;t=637034349586910676" alt="" /></td><td class="nav tvLinks_2" onmouseover="TreeView_HoverNode(tvLinks_Data, this)" onmouseout="TreeView_UnhoverNode(this)" style="white-space:nowrap;"><a class="tvLinks_0 nav tvLinks_1" href="../Pages/FacultyList.aspx" title="Faculty" id="tvLinkst10" style="border-style:none;font-size:1em;">Faculty</a></td>
+				</tr><tr style="height:0px;">
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><a id="tvLinks_SkipLink"></a>
+                                        
+</div>
+                                    </div>
+                                    <div style="display: none;">
+                                        <div id="Panel1">
+	
+                                            <a href="#TreeView1_SkipLink" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Skip Navigation Links.</a><div id="TreeView1" class="TreeViewNode">
+
+	</div><a id="TreeView1_SkipLink"></a>
+                                        
+</div>
+                                    </div>
+                                    <a href="#NavigationMenu_SkipLink" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Skip Navigation Links</a><div class="mainnav-menu" id="NavigationMenu" style="z-index: 1; width:100%; float:left !important;">
+	<ul class="level1">
+		<li><a title="Home" class="level1 MenuItem" href="DisplayDeptPage.aspx?page=eacci&amp;ItemID=eaccs&amp;nDeptID=cm">Home</a></li><li><a title="Placement" class="popout level1 MenuItem" href="javascript:void(0);">Placement</a><ul class="level2">
+			<li><a class="level2 DynamicMenuItem" href="DisplayDeptPage.aspx?page=oaqsm&amp;ItemID=eacea&amp;nDeptID=cm">Recruiters</a></li><li><a class="level2 DynamicMenuItem" href="DisplayDeptPage.aspx?page=oaqsk&amp;ItemID=eacea&amp;nDeptID=cm">TNP Policy</a></li><li><a class="level2 DynamicMenuItem" href="DisplayDeptPage.aspx?page=eaccg&amp;ItemID=eacea&amp;nDeptID=cm">Training and Placement</a></li><li><a class="level2 DynamicMenuItem" href="DisplayDeptPage.aspx?page=eacie&amp;ItemID=eacea&amp;nDeptID=cm">Company Response Sheet</a></li><li><a class="level2 DynamicMenuItem" href="DisplayDeptPage.aspx?page=eacck&amp;ItemID=eacea&amp;nDeptID=cm">Placement Statistics</a></li>
+		</ul></li><li><a title="TNP Brochure" class="level1 MenuItem" href="DisplayDeptPage.aspx?page=oaqsa&amp;ItemID=ocmce&amp;nDeptID=cm">TNP Brochure</a></li><li><a class="level1 MenuItem" href="DisplayDeptPage.aspx?page=oasck&amp;ItemID=ocmio&amp;nDeptID=cm">Distinguished Alumni</a></li><li><a title="Contact Us" class="level1 MenuItem" href="DisplayDeptPage.aspx?page=oaqsi&amp;ItemID=ocmcm&amp;nDeptID=cm">Contact Us</a></li>
+	</ul>
+</div><a id="NavigationMenu_SkipLink"></a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </section>
+            
+            <div class="container" id="stmc">
+                <div class="row">
+                    <div class="col-sm-2 col-md-2">
+                        <div class="quicklink">
+                            <h2 style="margin-top: 0px;background-color:#3db166; margin-top:15px;">About Dept.</h2>
+                            <a href="#Menu1_SkipLink" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Skip Navigation Links</a><div class="mainnav-menu left-menu" id="Menu1">
+	<ul class="level1">
+		<li><a class="level1" href="DisplayDeptPage.aspx?page=oasci&amp;ItemID=ocmim&amp;nDeptID=cm">Vision and Mission of NIT Srinagar</a></li><li><a class="level1" href="DisplayDeptPage.aspx?page=oascm&amp;ItemID=ocmiq&amp;nDeptID=cm">Message from Director</a></li><li><a title="Message from HoD" class="level1" href="DisplayDeptPage.aspx?page=oaqsc&amp;ItemID=ocmcc&amp;nDeptID=cm">Message from HoD</a></li><li><a title="Department" class="popout level1" href="javascript:void(0);">People</a><ul class="level2">
+			<li><a class="popout level2" href="javascript:void(0);">Employee</a><ul class="level3">
+				<li><a class="level3" href="DisplayDeptPage.aspx?page=oasom&amp;ItemID=ockoa&amp;nDeptID=cm">Assistant TPOs</a></li><li><a class="level3" href="DisplayDeptPage.aspx?page=oaqoe&amp;ItemID=ockoa&amp;nDeptID=cm">Staff</a></li>
+			</ul></li><li><a class="level2" href="DisplayDeptPage.aspx?page=oaqse&amp;ItemID=ocmck&amp;nDeptID=cm">Campus Recruitment Coordinator</a></li><li><a class="level2" href="DisplayDeptPage.aspx?page=oaqsg&amp;ItemID=ocmck&amp;nDeptID=cm">Internship Coordinator</a></li>
+		</ul></li>
+	</ul>
+</div><a id="Menu1_SkipLink"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 col-md-7">
+                        <div class="main-page">
+                            
+                            
+      
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom:10px;">
+                    
+                    <div class="carousel-inner">
+                            
+                                <div class="item">
+                                    <img id="ContentPlaceHolder1_RptSlider_Image_Photo_0" class="img-responsive" src="../SliderPhoto/3326.jpg" style="width: 100%; height:300px;" />
+                                </div>
+                            
+                                <div class="item">
+                                    <img id="ContentPlaceHolder1_RptSlider_Image_Photo_1" class="img-responsive" src="../SliderPhoto/3325.jpg" style="width: 100%; height:300px;" />
+                                </div>
+                            
+                                <div class="item">
+                                    <img id="ContentPlaceHolder1_RptSlider_Image_Photo_2" class="img-responsive" src="../SliderPhoto/3295.png" style="width: 100%; height:300px;" />
+                                </div>
+                            
+                                <div class="item">
+                                    <img id="ContentPlaceHolder1_RptSlider_Image_Photo_3" class="img-responsive" src="../SliderPhoto/3224.jpg" style="width: 100%; height:300px;" />
+                                </div>
+                            
+                                <div class="item">
+                                    <img id="ContentPlaceHolder1_RptSlider_Image_Photo_4" class="img-responsive" src="../SliderPhoto/3222.jpg" style="width: 100%; height:300px;" />
+                                </div>
+                            
+                                <div class="item">
+                                    <img id="ContentPlaceHolder1_RptSlider_Image_Photo_5" class="img-responsive" src="../SliderPhoto/3221.jpg" style="width: 100%; height:300px;" />
+                                </div>
+                            
+                                <div class="item">
+                                    <img id="ContentPlaceHolder1_RptSlider_Image_Photo_6" class="img-responsive" src="../SliderPhoto/3175.JPG" style="width: 100%; height:300px;" />
+                                </div>
+                            
+                                <div class="item">
+                                    <img id="ContentPlaceHolder1_RptSlider_Image_Photo_7" class="img-responsive" src="../SliderPhoto/3176.jpg" style="width: 100%; height:300px;" />
+                                </div>
+                            
+                                <div class="item">
+                                    <img id="ContentPlaceHolder1_RptSlider_Image_Photo_8" class="img-responsive" src="../SliderPhoto/3177.png" style="width: 100%; height:300px;" />
+                                </div>
+                            
+                                <div class="item">
+                                    <img id="ContentPlaceHolder1_RptSlider_Image_Photo_9" class="img-responsive" src="../SliderPhoto/3178.jpg" style="width: 100%; height:300px;" />
+                                </div>
+                            
+                                </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                            
+
+    <div class="main-page">
+        <div style="text-align: center; color: #a90e09;">
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="color: #000000; font-size: medium; font-family: arial, helvetica, sans-serif;">The Department of Training &amp; Placement at NIT Srinagar has an unflinching devotion in sprucing up consummate professionalism in the students, besides honing their technical dexterity, thanks to the team of our dedicated professors. It strives for developing the students into adept and cognizant individuals, seeded to be the technical vanguards of the nation and the world at large, sailing through the turpitude of stark economic recession that the world faces at different times.</span></p>
+<p style="text-align: left;"><span style="color: #000000; font-size: medium; font-family: arial, helvetica, sans-serif;"><br /></span></p>
+<p class="_04xlpA direction-ltr align-justify para-style-body" style="text-align: left;"><span class="S1PPyQ" style="color: #000000; font-size: medium; font-family: arial, helvetica, sans-serif;">The Department has received accolades from all the visiting corporate firms for its commendable work and its heart winning hospitality. The ultimate aim of the Department is to provide quality engineers to the visiting firms and responsible citizens to the nation. At present the T&amp;P Department is headed by Prof. Aijaz Ahmad Mir, with Dr. Amandeep Singh, Dr. Harkirat Singh, Dr. Shoeib Hussain, Dr. Mohammad Rafiq and Dr. Tahir Ahmad Wani as Associate TPOs.</span></p>
+<p class="_04xlpA direction-ltr align-justify para-style-body" style="text-align: left;"><span class="S1PPyQ" style="color: #000000; font-size: medium; font-family: arial, helvetica, sans-serif;"><br /></span></p>
+<p class="_04xlpA direction-ltr align-justify para-style-body" style="text-align: left;"><span style="color: #000000; font-size: medium; font-family: arial, helvetica, sans-serif;"><span class="S1PPyQ">Apart from the Training &amp; Placement officials, a highly effective group of Campus Recruitment Coordinators (CRCs) &amp; Internship Coordinators (IC's) selected through a rigorous process, assist the Department in the conduct of On-Campus Recruitment Drives.</span><span class="S1PPyQ white-space-prewrap">&nbsp;</span></span></p>
+<p class="_04xlpA direction-ltr align-justify para-style-body" style="text-align: left;"><span style="color: #000000; font-size: medium; font-family: arial, helvetica, sans-serif;"><span class="S1PPyQ white-space-prewrap"><br /></span></span></p>
+</div>
+    </div>
+    <script src="../JS/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $("#myCarousel div.item:nth-of-type(1)").addClass("active");
+        });
+    </script>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                        <div class="quicklink">
+                            <h2 style="margin-bottom: 0; background-color:#3db166;">News & Announcement</h2>
+                            
+                                    <ul class="marquee" style="border: 1px solid #ccc; padding: 10px; height: 230px; overflow: hidden;">
+                                        <marquee behavior="scroll" direction="up" scrollamount="2" onmouseover="this.setAttribute('scrollamount', 0, 0);"
+                                            onmouseout="this.setAttribute('scrollamount', 2, 0);" style="height: 230px;">
+                                
+                                    <li>
+                                        <p>Increff Drive (Ofline) 6th &amp; 7th August 2025</p>
+                                        
+                                    </li>
+                                
+                                    <li>
+                                        <p>HPCL On Campus Placement Drive for Batch 2022-26</p>
+                                        
+                                    </li>
+                                
+                                    </marquee>
+                                    </ul>
+                                
+                        </div>
+                        <div class="quicklink">
+                            <h2 style="margin-top: 0; background-color:#3db166;">Quick Links</h2>
+                            <ul>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        
+        <div  class="foo" id="footerLast">
+		<div class="container foo">
+            <div class="row foo" style="margin-top:10px" >  
+                           <div class="col-xs-12 col-sm-12 col-md-7">
+                            <ul class="list-inline twitter-widget">
+                                <li class="link1"><a class="colch" href="../Pages/DisplayPages.aspx?page=cacckc" style="color: white; font-size: 13px;">Website Policies | </a></li>
+                                <li class="link1"><a class="colch" href="#" style="color: white; font-size: 13px;">Copyright All Right Reserved 2021, CSC Web Team , NIT Srinagar </a></li>
+
+                                
+                                <!--<li id="update" style="font-weight:bolder"></li>-->
+                            </ul>
+                        </div>                     
+                            
+            </div>
+          </div>
+        </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var tvLinks_ImageArray =  new Array('', '', '', '/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&t=637034349586910676', '/WebResource.axd?d=Wt-oJLHV-dsfkxJN06L-WfQyMkG3jovntxREUajDsQQRD_7iz2GJG7BBivff8TOqUtGFD1HYJLxFpj9fSK_EQr0DAf9AeqK_3b_3GZW18qs1&t=637034349586910676', '/WebResource.axd?d=-n2KnhPEOy8tY2UhU96Dm_vpt52z_4dXxsZ2330QsYMMGVz4VTvlZcLQo9Bvmzol3iX0kCvyUu6dtBZgw4wn1vBLP77jLnWYT8bgzrA4rRU1&t=637034349586910676');
+var TreeView1_ImageArray =  new Array('', '', '', '/WebResource.axd?d=ZHpnp_x8Zz53Vv6sKQwpPoBA9nHxx_6V0VQ9DBu_IV9HsD-UhXcTbX0xHYXs6fIRDOiph5iwd46NAZgUW33tf7Qp4Y34XwrluVhcBcFR3bc1&t=637034349586910676', '/WebResource.axd?d=Wt-oJLHV-dsfkxJN06L-WfQyMkG3jovntxREUajDsQQRD_7iz2GJG7BBivff8TOqUtGFD1HYJLxFpj9fSK_EQr0DAf9AeqK_3b_3GZW18qs1&t=637034349586910676', '/WebResource.axd?d=-n2KnhPEOy8tY2UhU96Dm_vpt52z_4dXxsZ2330QsYMMGVz4VTvlZcLQo9Bvmzol3iX0kCvyUu6dtBZgw4wn1vBLP77jLnWYT8bgzrA4rRU1&t=637034349586910676');
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var callBackFrameUrl='/WebResource.axd?d=beToSAE3vdsL1QUQUxjWdb-QTbjSgyvhxwMVJ5oVeAhC7-62TEzFvqSSp02TdM19Fs3TS6Aotu-mMjqrEeNq3w2&t=637034349586910676';
+WebForm_InitCallback();var tvLinks_Data = new Object();
+tvLinks_Data.images = tvLinks_ImageArray;
+tvLinks_Data.collapseToolTip = "Collapse {0}";
+tvLinks_Data.expandToolTip = "Expand {0}";
+tvLinks_Data.expandState = theForm.elements['tvLinks_ExpandState'];
+tvLinks_Data.selectedNodeID = theForm.elements['tvLinks_SelectedNode'];
+tvLinks_Data.hoverClass = 'tvLinks_8';
+tvLinks_Data.hoverHyperLinkClass = 'tvLinks_7';
+(function() {
+  for (var i=0;i<6;i++) {
+  var preLoad = new Image();
+  if (tvLinks_ImageArray[i].length > 0)
+    preLoad.src = tvLinks_ImageArray[i];
+  }
+})();
+tvLinks_Data.lastIndex = 11;
+tvLinks_Data.populateLog = theForm.elements['tvLinks_PopulateLog'];
+tvLinks_Data.treeViewID = 'ctl00$tvLinks';
+tvLinks_Data.name = 'tvLinks_Data';
+var TreeView1_Data = new Object();
+TreeView1_Data.images = TreeView1_ImageArray;
+TreeView1_Data.collapseToolTip = "Collapse {0}";
+TreeView1_Data.expandToolTip = "Expand {0}";
+TreeView1_Data.expandState = theForm.elements['TreeView1_ExpandState'];
+TreeView1_Data.selectedNodeID = theForm.elements['TreeView1_SelectedNode'];
+TreeView1_Data.hoverClass = 'TreeView1_6';
+TreeView1_Data.hoverHyperLinkClass = 'TreeView1_5';
+(function() {
+  for (var i=0;i<6;i++) {
+  var preLoad = new Image();
+  if (TreeView1_ImageArray[i].length > 0)
+    preLoad.src = TreeView1_ImageArray[i];
+  }
+})();
+TreeView1_Data.lastIndex = 0;
+TreeView1_Data.populateLog = theForm.elements['TreeView1_PopulateLog'];
+TreeView1_Data.treeViewID = 'ctl00$TreeView1';
+TreeView1_Data.name = 'TreeView1_Data';
+//]]>
+</script>
+<script type='text/javascript'>new Sys.WebForms.Menu({ element: 'NavigationMenu', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script><script type='text/javascript'>new Sys.WebForms.Menu({ element: 'Menu1', disappearAfter: 500, orientation: 'vertical', tabIndex: 0, disabled: false });</script></form>
+           <script src="../JS/jquery.min.js"></script>
+        <script src="../JS/bootstrap.min.js"></script>
+      <script>
+          $('#demo1_menu').easytree();
+        </script>
+        <script type="text/javascript">
+            $(window).load(function () {
+                $(".content .menu ul").addClass("menu");
+                $(".content .menu ul li").removeClass("collapsed start-collapsed ");
+                $(".content .menu ul li").addClass("leaf");
+                i = 0;
+                $(".menu li").each(function () {
+                    //  alert("1")
+                    $(this).find("a").attr("id", "dynamic_" + i);
+                    i++
+                });
+            });
+        </script>
+
+        <script type="text/javascript">
+            jQuery(document).ready(function () {
+                jQuery("marquee").hover(function () {
+                    this.stop();
+
+                }, function () {
+                    this.start();
+                });
+
+                $("section").each(function () {
+                    var heit = $(this).height();
+                    // alert(heit);
+                    if ($(this).height() == "185") {
+                        $(this).css('min-height', '195px');
+                    }
+                });
+
+
+                // Code to show/hide dynamic menu on left & right section of home page 
+                $(".dynamic-menu .level1 .level2 > li.has-popup").mouseover(function () {
+                    $(this).children('.menu').hide();
+                });
+
+                $(".dynamic-menu .level1 .level2 > li.has-popup").mouseleave(function () {
+                    if ($(this).hasClass('active-subnav')) {
+                        $(this).children('.menu').show();
+                    }
+                    else {
+                        $(this).children('.menu').hide();
+                    }
+                });
+
+                $(".dynamic-menu .level1 .level2 > li.has-popup").click(function () {
+                    if ($(this).hasClass('active-subnav')) {
+                        $(this).removeClass('active-subnav');
+                    }
+                    else {
+                        $(".dynamic-menu .level1 .level2 > li.has-popup").removeClass('active-subnav');
+                        $(this).addClass('active-subnav');
+                    }
+                });
+                //--------------------------------------------//
+            });
+        </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // $('.Table-FormData tr').each(function () {
+            var text = $(".departmentLogo .hidText").text();
+            if ($(this).find(".departmentLogo span").text() == 'Innovation, Incubation & Entrepreneur Development Centre (IIEDC)') {
+                alert(text)
+            } else {
+                //  $(".hideRow").css('display', 'block');
+            }
+            //  });
+
+            $(".ThumbDiv li a").click(function () {
+                // alert("1");
+                var nameurl = $(this).attr("name");
+                var titleurl = $(this).attr("title");
+                //alert(nameurl);
+                //alert(titleurl);
+                $(".iframdiv #fame360").attr("src", nameurl);
+                $(".iframdiv #fame360").attr("data-token", titleurl);
+                $(".ThumbDiv li a").removeClass("active");
+                $(this).addClass("active");
+            });
+
+            $("#ImageButton_SiteSearch").click(function () {
+
+                if ($("#TextBox_SiteSearch").val() == "") {
+                    alert("Please enter text for search");
+                    return false;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

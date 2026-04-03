@@ -1,0 +1,114 @@
+{
+  "institute": "IIIT Lucknow",
+  "also_known_as": "IIITL",
+  "institute_type": "IIIT",
+  "established_year": 2015,
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "address": "Indian Institute of Information Technology Lucknow, Chak Ganjaria (C.G. City), Lucknow, Uttar Pradesh - 226002",
+  "nearest_airport": "Chaudhary Charan Singh International Airport, Lucknow",
+  "nearest_airport_km": 18.0,
+  "nearest_railway_station": "Lucknow Junction Railway Station",
+  "nearest_railway_km": 14.5,
+  "caution_money": 2000,
+  "one_time_fees": 16500,
+  "tuition_fee_per_sem": 120000,
+  "annual_fees": 3800,
+  "total_institute_fee": 146000,
+  "hostel_fee_per_sem": 13000,
+  "mess_advance_per_sem": 15000,
+  "total_hostel_fee": 30500,
+  "placement_year": 2024,
+  "branch_wise_median_ctc": {
+    "Core IT": 26.4,
+    "Consultancy": 25.9,
+    "Travel Network": 11.1,
+    "Finance": 11.0,
+    "Others": 10.8,
+    "Analytics": 7.4,
+    "Engineering & Technology": 7.4
+  },
+  "median_package_lpa": 14.29,
+  "branch_wise_avg_ctc": {
+    "Core IT": 26.4,
+    "Consultancy": 25.9,
+    "Travel Network": 11.1,
+    "Finance": 11.0,
+    "Others": 10.8,
+    "Analytics": 7.4,
+    "Engineering & Technology": 7.4
+  },
+  "avg_package_lpa": 14.29,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-lucknow",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-lucknow",
+  "last_scraped_at": "2026-03-31T16:16:53.094361",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitl.ac.in",
+  "placement_officer": {
+    "email": "tpo@iiitl.ac.in",
+    "phone": "2025-2026"
+  },
+  "top_recruiters": [
+    "IIIT Lucknow Logo",
+    "IIIT Lucknow Campus 1",
+    "IIIT Lucknow Campus 2",
+    "IIIT Lucknow Campus 3",
+    "IIIT Lucknow Campus 4",
+    "Dr. Arun Mohan Sherry",
+    "Read More",
+    "Dr. Abhinesh Kaushik",
+    "B.Tech Statistics",
+    "Anikate Koul profile photo",
+    "Dilip Patnana profile photo",
+    "Ashish Singh profile photo",
+    "Amazon",
+    "Flipkart",
+    "Google",
+    "LinkedIn",
+    "Microsoft",
+    "Zomato",
+    "Uber",
+    "Acko",
+    "Paytm",
+    "Oracle",
+    "DEShaw",
+    "MorganStanley",
+    "Cisco",
+    "Atlassian",
+    "Rubrik",
+    "Parag Dadhich profile",
+    "Lakshya Khandelwal profile",
+    "Gyandeep Katiyar profile",
+    "Jukuri Shashank profile",
+    "Akhilesh Jyotishi profile",
+    "Harshita Gupta profile"
+  ],
+  "research": {
+    "active_projects": 2025,
+    "research_centres": [
+      "About the Institute"
+    ]
+  },
+  "phd_available": false,
+  "student_activities": {
+    "clubs": [
+      "Incubation Cell (CREATE)",
+      "Technical Club",
+      "Entrepreneurship Cell",
+      "E-Cell",
+      "CULTURAL CLUB"
+    ],
+    "technical_fests": [
+      "Events MUNX Equinox World MUN Enspire Centres Equinox-Technical Fest Eduthon",
+      "Equinox-Technical Fest"
+    ],
+    "has_nss": false,
+    "has_ncc": false
+  }
+}

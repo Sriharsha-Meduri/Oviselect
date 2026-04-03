@@ -1,0 +1,147 @@
+{
+  "institute": "NIT, Rourkela",
+  "also_known_as": "NITRKL",
+  "institute_type": "NIT",
+  "established_year": 1961,
+  "city": "Rourkela",
+  "state": "Odisha",
+  "address": "National Institute of Technology, Jagda, Rourkela, Orissa \u2013 769008",
+  "nearest_airport": "Veer Surendra Sai Airport, Jharsuguda",
+  "nearest_airport_km": 125.0,
+  "nearest_railway_station": "Rourkela Junction Railway Station",
+  "nearest_railway_km": 6.0,
+  "qs_asia_rank": "396 (2026)",
+  "nirf_overall_rank": 2025,
+  "nirf_engineering_rank": 13,
+  "nirf_research_rank": 30,
+  "nirf_innovation_rank": "11-50 (2025)",
+  "caution_money": 10000,
+  "one_time_fees": 15000,
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 5000,
+  "mess_advance_per_sem": 30000,
+  "total_institute_fee": 136500,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Biotechnology and Medical Engineering": 10.29,
+    "Ceramic Engineering": 8.58,
+    "Chemical Engineering": 9.0,
+    "Civil Engineering": 9.0,
+    "Computer Science and Engineering": 20.63,
+    "Electrical Engineering": 14.0,
+    "Electronics and Communication Engineering": 16.1,
+    "Food Process Engineering": 10.5,
+    "Industrial Design": 11.4,
+    "Mechanical Engineering": 10.9,
+    "Metallurgical and Materials Engineering": 8.75,
+    "Mining Engineering": 8.5,
+    "Overall (B.Tech.)": 12.59,
+    "Architecture": 4.0,
+    "Overall (B.Arch.)": 4.0,
+    "Overall (Dual Degree)": 7.5,
+    "Chemistry": 7.68,
+    "Life Science": 5.7,
+    "Mathematics": 8.1,
+    "Physics and Astronomy": 12.0,
+    "Overall (Int MSc.)": 8.1
+  },
+  "median_package_lpa": 9.87,
+  "branch_wise_avg_ctc": {
+    "Biotechnology and Medical Engineering": 10.55,
+    "Ceramic Engineering": 10.13,
+    "Chemical Engineering": 10.54,
+    "Civil Engineering": 9.82,
+    "Computer Science and Engineering": 24.07,
+    "Electrical Engineering": 18.19,
+    "Electronics and Communication Engineering": 19.89,
+    "Food Process Engineering": 10.91,
+    "Industrial Design": 14.0,
+    "Mechanical Engineering": 11.07,
+    "Metallurgical and Materials Engineering": 9.43,
+    "Mining Engineering": 9.37,
+    "Overall (B.Tech.)": 15.74,
+    "Architecture": 4.0,
+    "Overall (B.Arch.)": 4.0,
+    "Overall (Dual Degree)": 9.72,
+    "Chemistry": 8.23,
+    "Life Science": 6.52,
+    "Mathematics": 9.76,
+    "Physics and Astronomy": 10.61,
+    "Overall (Int MSc.)": 9.0
+  },
+  "avg_package_lpa": 11.22,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years",
+    "Integrated M.Sc. - 5 Years"
+  ],
+  "_slug": "nit-rourkela",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-rourkela",
+  "last_scraped_at": "2026-03-31T16:01:59.696995",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitrkl.ac.in",
+  "placement_officer": {
+    "email": "registrar@nitrkl.ac.in",
+    "phone": "769008 0661-24"
+  },
+  "top_recruiters": [
+    "NIT Rourkela Font Increase",
+    "NIT Rourkela Font Decrease",
+    "NIT Rourkela Logo",
+    "Publications and Patents",
+    "Sponsored Projects",
+    "Consultancy Projects",
+    "Continuing Education",
+    "Conferences",
+    "Workshops",
+    "Seminars",
+    "Centre for Intellectual Property Rights",
+    "Alumni Alumni Relations Transcripts",
+    "NIT Rourkela Inside Page Banner",
+    "Teaching Career Photo",
+    "Non-Teaching Career Photo",
+    "Project Staff Career Photo",
+    "Visitor : 104904354",
+    "NIT Rourkela Gallery Image",
+    "Education Ministry Photo",
+    "My Gov Website Photo",
+    "Digital India Website Photo",
+    "Govt Site Photo"
+  ],
+  "research": {
+    "active_projects": 1028,
+    "funding_agencies": [
+      "DST"
+    ],
+    "research_centres": [
+      "Academic Centres",
+      "Centres of Research",
+      "About the Institute"
+    ]
+  },
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Institute Counselling Service",
+        "country": null
+      },
+      {
+        "university": "Institute Counselling Service",
+        "country": null
+      }
+    ]
+  }
+}

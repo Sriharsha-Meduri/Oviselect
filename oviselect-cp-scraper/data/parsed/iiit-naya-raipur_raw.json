@@ -1,0 +1,53 @@
+{
+  "institute": "IntIIIT, Naya Raipur",
+  "also_known_as": "IIITNR",
+  "institute_type": "IIIT",
+  "established_year": 2015,
+  "city": "Naya Raipur",
+  "state": "Chhattisgarh",
+  "address": "Dr. Shyama Prasad Mukherjee International Institute of Information Technology, Plot No. 7, Sector 24, Near Purkhoti Muktangan, Atal Nagar-Nava Raipur, Chhattisgarh - 493661",
+  "nearest_airport": "Swami Vivekananda Airport, Raipur",
+  "nearest_airport_km": 13.0,
+  "nearest_railway_station": "Raipur Junction Railway Station",
+  "nearest_railway_km": 23.0,
+  "caution_money": 5000,
+  "one_time_fees": 5450,
+  "tuition_fee_per_sem": 75000,
+  "total_institute_fee": 90800,
+  "hostel_fee_per_sem": 1500,
+  "mess_advance_per_sem": 20850,
+  "total_hostel_fee": 36350,
+  "overall_placement_pct": 76.67,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 81.25,
+    "Data Science and Artificial Intelligence": 70.97,
+    "Electronics and Communication Engineering": 77.78,
+    "Overall": 76.67
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 16.0,
+    "Data Science and Artificial Intelligence": 13.2,
+    "Electronics and Communication Engineering": 13.0,
+    "Overall": 13.23
+  },
+  "median_package_lpa": 13.86,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 19.64,
+    "Data Science and Artificial Intelligence": 14.66,
+    "Electronics and Communication Engineering": 14.87,
+    "Overall": 16.39
+  },
+  "avg_package_lpa": 16.39,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-naya-raipur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-naya-raipur",
+  "last_scraped_at": "2026-03-31T16:25:13.233260",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitnr.ac.in"
+}

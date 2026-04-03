@@ -1,0 +1,83 @@
+{
+  "institute": "BIT, Mesra, Ranchi",
+  "also_known_as": "BIT Mesra",
+  "institute_type": "GFTI",
+  "established_year": 1955,
+  "city": "Ranchi",
+  "state": "Jharkhand",
+  "address": "Birla Institute of Technology, Mesra, Ranchi, Jharkhand \u2013 835215",
+  "nearest_airport": "Birsa Munda Airport, Ranchi",
+  "nearest_airport_km": 20.5,
+  "nearest_railway_station": "Ranchi Junction Railway Station",
+  "nearest_railway_km": 14.5,
+  "qs_asia_rank": "463 (2026)",
+  "nirf_overall_rank": 101,
+  "nirf_engineering_rank": 51,
+  "nirf_innovation_rank": "11-50 (2024)",
+  "outlook_rank": 4,
+  "india_today_rank": 17,
+  "the_week_rank": 21,
+  "caution_money": 10000,
+  "one_time_fees": 85000,
+  "tuition_fee_per_sem": 153000,
+  "total_institute_fee": 266500,
+  "hostel_fee_per_sem": 21000,
+  "mess_advance_per_sem": 30000,
+  "total_hostel_fee": 56000,
+  "placement_year": 2022,
+  "overall_placement_pct": 84.42,
+  "branch_wise_avg_ctc": {
+    "Bio Technology": 9.49,
+    "Chemical Engineering": 8.44,
+    "Chemical Engineering (Plastic and Polymer)": 7.64,
+    "Civil Engineering": 7.09,
+    "Computer Science and Engineering": 19.28,
+    "Electrical and Electronics Engineering": 11.91,
+    "Electronics and Communication Engineering": 13.13,
+    "Information Technology": 20.59,
+    "Mechanical Engineering": 8.06,
+    "Production Engineering": 7.52,
+    "Overall (B.Tech.)": 13.01
+  },
+  "avg_package_lpa": 11.47,
+  "branch_wise_median_ctc": {
+    "Bio Technology": 8.95,
+    "Chemical Engineering": 8.1,
+    "Chemical Engineering (Plastic and Polymer)": 7.5,
+    "Civil Engineering": 6.5,
+    "Computer Science and Engineering": 16.0,
+    "Electrical and Electronics Engineering": 8.13,
+    "Electronics and Communication Engineering": 11.0,
+    "Information Technology": 16.0,
+    "Mechanical Engineering": 8.01,
+    "Production Engineering": 7.5,
+    "Overall (B.Tech.)": 9.22
+  },
+  "median_package_lpa": 9.72,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years",
+    "Integrated M.Sc. - 5 Years"
+  ],
+  "_slug": "bit-mesra",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/bit-mesra",
+  "last_scraped_at": "2026-03-31T16:24:00.157989",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.bitmesra.ac.in",
+  "research": {
+    "funding_agencies": [
+      "DST",
+      "DRDO",
+      "ISRO",
+      "DBT",
+      "CSIR"
+    ],
+    "research_centres": [
+      "Central Animal Facility",
+      "Central Animal Facility"
+    ]
+  }
+}

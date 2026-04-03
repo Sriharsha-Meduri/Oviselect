@@ -1,0 +1,76 @@
+{
+  "institute": "MANIT Bhopal",
+  "also_known_as": "MANIT",
+  "institute_type": "NIT",
+  "established_year": 1960,
+  "city": "Bhopal",
+  "state": "Madhya Pradesh",
+  "address": "Maulana Azad National Institute of Technology, Link Road Number 3, Bhopal, Madhya Pradesh - 462003",
+  "nearest_airport": "Raja Bhoj Airport, Bhopal",
+  "nearest_airport_km": 16.0,
+  "nearest_railway_station": "Habibganj Railway Station",
+  "nearest_railway_km": 5.5,
+  "nirf_overall_rank": 151,
+  "nirf_engineering_rank": 81,
+  "the_week_rank": 28,
+  "caution_money": 5000,
+  "one_time_fees": 8000,
+  "tuition_fee_per_sem": 62500,
+  "total_institute_fee": 83900,
+  "hostel_fee_per_sem": 5000,
+  "mess_advance_per_sem": 27500,
+  "total_hostel_fee": 48000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 90.45,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 98.61,
+    "Civil Engineering": 73.58,
+    "Computer Science and Engineering": 95.74,
+    "Electrical Engineering": 91.73,
+    "Electronics and Communication Engineering": 89.02,
+    "Materials Science and Metallurgical Engineering": 93.44,
+    "Mechanical Engineering": 89.58,
+    "Overall (B.Tech.)": 90.45,
+    "Planning": 34.15,
+    "Architecture": 50.63
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 9.0,
+    "Civil Engineering": 9.08,
+    "Computer Science and Engineering": 19.63,
+    "Electrical Engineering": 13.32,
+    "Electronics and Communication Engineering": 14.5,
+    "Materials Science and Metallurgical Engineering": 8.5,
+    "Mechanical Engineering": 9.08
+  },
+  "median_package_lpa": 11.87,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 9.53,
+    "Civil Engineering": 8.76,
+    "Computer Science and Engineering": 25.46,
+    "Electrical Engineering": 13.71,
+    "Electronics and Communication Engineering": 17.35,
+    "Materials Science and Metallurgical Engineering": 10.17,
+    "Mechanical Engineering": 9.69
+  },
+  "avg_package_lpa": 13.52,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Plan. - 4 Years",
+    "B.Arch. - 5 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
+  ],
+  "_slug": "manit-bhopal",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/manit-bhopal",
+  "last_scraped_at": "2026-03-31T16:09:52.450261",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.manit.ac.in"
+}

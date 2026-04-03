@@ -1,0 +1,182 @@
+{
+  "institute": "IIT Palakkad",
+  "institute_type": "IIT",
+  "also_known_as": "IIT-PKD",
+  "established_year": 2015,
+  "city": "Palakkad",
+  "state": "Kerala",
+  "address": "Indian Institute of Technology Palakkad, Kanjikode, Kerala - 678623",
+  "nearest_airport": "Coimbatore International Airport",
+  "nearest_airport_km": 74.0,
+  "nearest_railway_station": "Palakkad Junction Railway Station",
+  "nearest_railway_km": 14.0,
+  "nirf_overall_rank": 101,
+  "nirf_engineering_rank": 64,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 100000,
+  "hostel_fee_per_sem": 6500,
+  "mess_advance_per_sem": 20000,
+  "one_time_fees": 5500,
+  "caution_money": 2000,
+  "annual_fees": null,
+  "total_institute_fee": 112100,
+  "total_hostel_fee": 38400,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 82.03,
+  "avg_package_lpa": 14.34,
+  "median_package_lpa": 12.72,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 84.21,
+    "Computer Science and Engineering": 93.02,
+    "Electrical Engineering": 69.44,
+    "Mechanical Engineering": 80.0,
+    "Overall": 82.03
+  },
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 10.0,
+    "Computer Science and Engineering": 18.0,
+    "Electrical Engineering": 14.1,
+    "Mechanical Engineering": 10.0,
+    "Overall": 11.5
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 10.22,
+    "Computer Science and Engineering": 21.16,
+    "Electrical Engineering": 14.77,
+    "Mechanical Engineering": 11.6,
+    "Overall": 13.93
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": null,
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "research_centres": [
+      "Career Development Center",
+      "Environmental Sciences and Sustainable Engineering Centre",
+      "Central Labs",
+      "Technology Innovation Foundation",
+      "CSquare Innovation Lab",
+      "Collaboration",
+      "Academic Collaboration",
+      "Industrial Collaboration",
+      "NIRF - Innovation 2022"
+    ]
+  },
+  "infrastructure": {
+    "labs": [
+      "Innovation Technology Innovation Foundation Technology IHub Foundation CSquare Innovation Lab",
+      "CSquare Innovation Lab"
+    ],
+    "central_instruments": null,
+    "library": null,
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": false,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": null,
+  "international_relations": {
+    "mous": [
+      {
+        "university": "The Institute Journey so far Chairman BoG Director Director's Message Governance Advisory Council Senate",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Infrastructure & Support Hostels Guest House Career Development Center Institute Clinic Wellness Hub English Language Support",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Clinic",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "The Institute Journey so far Chairman BoG Director Director's Message Governance Advisory Council Senate",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Infrastructure & Support Hostels Guest House Career Development Center Institute Clinic Wellness Hub English Language Support",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Clinic",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Hostel Accommodation Request",
+        "country": null,
+        "focus_area": null
+      }
+    ],
+    "mou_count": null,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iitpkd.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 79,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-palakkad",
+  "last_scraped_at": "2026-03-31T16:01:47.854482"
+}

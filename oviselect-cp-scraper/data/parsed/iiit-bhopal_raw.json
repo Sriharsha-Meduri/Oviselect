@@ -1,0 +1,52 @@
+{
+  "institute": "IIIT Bhopal",
+  "also_known_as": "IIITB",
+  "institute_type": "IIIT",
+  "established_year": 2017,
+  "city": "Bhopal",
+  "state": "Madhya Pradesh",
+  "address": "Indian Institute of Information Technology Bhopal, MANIT Campus, Link Road Number 3, Near River Town, Harshvardhan Nagar, Bhopal, Madhya Pradesh - 462003",
+  "nearest_airport": "Raja Bhoj Airport, Bhopal",
+  "nearest_airport_km": 16.0,
+  "nearest_railway_station": "Habibganj Railway Station",
+  "nearest_railway_km": 5.5,
+  "caution_money": 12000,
+  "one_time_fees": 6840,
+  "tuition_fee_per_sem": 108000,
+  "annual_fees": 35040,
+  "total_institute_fee": 161880,
+  "hostel_fee_per_sem": 55200,
+  "mess_advance_per_sem": 35000,
+  "overall_placement_pct": 84.44,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 88.68,
+    "Electronics and Communication Engineering": 86.67,
+    "Information Technology": 78.85,
+    "Overall": 84.44
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 12.0,
+    "Electronics and Communication Engineering": 8.5,
+    "Information Technology": 12.0
+  },
+  "median_package_lpa": 10.83,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 22.56,
+    "Electronics and Communication Engineering": 18.03,
+    "Information Technology": 23.42,
+    "Overall": 20.51
+  },
+  "avg_package_lpa": 21.13,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-bhopal",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-bhopal",
+  "last_scraped_at": "2026-03-31T16:17:49.388642",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitbhopal.ac.in"
+}

@@ -1,0 +1,113 @@
+{
+  "institute": "IIT (BHU) Varanasi",
+  "also_known_as": "IIT (BHU)",
+  "institute_type": "IIT",
+  "established_year": 1919,
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "address": "Indian Institute of Technology (Banaras Hindu University), Varanasi, Uttar Pradesh \u2013 221005",
+  "nearest_airport": "Lal Bahadur Shastri International Airport, Varanasi",
+  "nearest_airport_km": 32.0,
+  "nearest_railway_station": "Varanasi Junction Railway Station",
+  "nearest_railway_km": 11.0,
+  "qs_world_rank": "566 (2026)",
+  "qs_asia_rank": "237 (2026)",
+  "nirf_overall_rank": 31,
+  "nirf_engineering_rank": 10,
+  "nirf_research_rank": 22,
+  "nirf_innovation_rank": "11-50 (2025)",
+  "the_week_rank": 8,
+  "caution_money": 9000,
+  "one_time_fees": 5750,
+  "tuition_fee_per_sem": 100000,
+  "mess_advance_per_sem": 15000,
+  "annual_fees": 365,
+  "total_institute_fee": 136465,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "branch_wise_placement_pct": {
+    "Students Registered": 1499.0,
+    "Students Placed": 1169.0,
+    "Placed (%)": 77.99
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Bio Chemical": 16.15,
+    "Bio Medical": 16.0,
+    "Ceramic": 19.5,
+    "Chemical": 16.18,
+    "Chemistry": 15.3,
+    "Civil": 15.75,
+    "Computer Science": 30.0,
+    "Electrical": 29.72,
+    "Electronics": 30.0,
+    "Material Sceince": 17.2,
+    "Mathematics": 30.37,
+    "Mechanical": 18.12,
+    "Metallurgy": 15.0,
+    "Mining": 15.0,
+    "Pharmacy": 17.25,
+    "Physics": 24.0,
+    "Overall (UG)": 20.0
+  },
+  "median_package_lpa": 20.33,
+  "branch_wise_avg_ctc": {
+    "Bio Chemical": 21.04,
+    "Bio Medical": 18.37,
+    "Ceramic": 24.49,
+    "Chemical": 19.52,
+    "Chemistry": 16.61,
+    "Civil": 19.09,
+    "Computer Science": 34.43,
+    "Electrical": 30.25,
+    "Electronics": 29.56,
+    "Material Sceince": 18.28,
+    "Mathematics": 34.31,
+    "Mechanical": 21.95,
+    "Metallurgy": 17.7,
+    "Mining": 16.87,
+    "Pharmacy": 21.96,
+    "Physics": 25.21,
+    "Overall (UG)": 24.31
+  },
+  "avg_package_lpa": 23.17,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
+  ],
+  "_slug": "iit-bhu-varanasi",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-bhu-varanasi",
+  "last_scraped_at": "2026-03-31T16:00:21.245174",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitbhu.ac.in",
+  "research": {
+    "total_funding_crores": 31.03,
+    "funding_agencies": [
+      "ISRO"
+    ]
+  },
+  "phd_available": true,
+  "departments": [
+    {
+      "name": "General",
+      "faculty_count": 1,
+      "faculty": [
+        {
+          "name": "Dr. Bidya Binay Karak 2019, INSA Medal for Young Scientist form Indian National Science Academy, Government of India",
+          "designation": "Scientist",
+          "qualifications": null,
+          "specializations": null,
+          "profile_url": null
+        }
+      ]
+    }
+  ],
+  "total_faculty_count": 1
+}

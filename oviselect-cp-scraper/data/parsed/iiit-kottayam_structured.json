@@ -1,0 +1,127 @@
+{
+  "institute": "IIIT(IIIT) Kottayam",
+  "institute_type": "IIIT",
+  "also_known_as": "IIIT Kottayam",
+  "established_year": 2015,
+  "city": "Kottayam",
+  "state": "Kerala",
+  "address": "Indian Institute of Information Technology Kottayam, Valavoor P.O, Pala, Kottayam, Kerala - 686635",
+  "nearest_airport": "Cochin International Airport",
+  "nearest_airport_km": 65.0,
+  "nearest_railway_station": "Kottayam Railway Station",
+  "nearest_railway_km": 32.5,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": null,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 132000,
+  "hostel_fee_per_sem": 30900,
+  "mess_advance_per_sem": 27950,
+  "one_time_fees": 1000,
+  "caution_money": 12000,
+  "annual_fees": 1750,
+  "total_institute_fee": 146750,
+  "total_hostel_fee": 60125,
+  "fee_waivers": null,
+  "overall_placement_pct": null,
+  "avg_package_lpa": null,
+  "median_package_lpa": null,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": null,
+  "branch_wise_median_ctc": null,
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": null,
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": null,
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": {
+    "research_centres": [
+      "Innovation Cell",
+      "Research Groups",
+      "Innovations & Startups",
+      "Group Mail ID's"
+    ]
+  },
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Institute Institute Admission Academics Scholarship/Educational Loans",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Institute Admission Academics Scholarship/Educational Loans",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute arrow_drop_down",
+        "country": null,
+        "focus_area": null
+      },
+      {
+        "university": "Institute Email",
+        "country": null,
+        "focus_area": null
+      }
+    ],
+    "mou_count": null,
+    "exchange_students_outgoing": null,
+    "foreign_students_on_campus": null,
+    "faculty_exchange_programmes": null,
+    "joint_phd_programmes": null
+  },
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iiitkottayam.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 42,
+  "needs_review": true,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-kottayam",
+  "last_scraped_at": "2026-03-31T16:18:52.349745"
+}

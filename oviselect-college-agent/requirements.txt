@@ -1,0 +1,12 @@
+supabase>=2.9.0
+requests>=2.32.0
+beautifulsoup4>=4.12.3
+loguru>=0.7.3
+pydantic>=2.10.0
+tenacity>=9.0.0
+python-dotenv>=1.0.1
+pandas>=2.2.0
+openpyxl>=3.1.0
+thefuzz>=0.22.0
+tqdm>=4.66.0
+

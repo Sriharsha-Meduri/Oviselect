@@ -1,0 +1,1786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script  id="debugbar_loader" data-time="1774973889.058907" src="https://iiitkalyani.ac.in/?debugbar"></script><script  id="debugbar_dynamic_script"></script><style  id="debugbar_dynamic_style"></style><script class="kint-rich-script">"use strict";(()=>{function m(n){if(!(n instanceof Element))throw new Error("Invalid argument to dedupeElement()");let t=n.ownerDocument,e=E(n);for(let s of t.querySelectorAll(e))n!==s&&s.parentNode.removeChild(s)}function d(n){return n instanceof Element?n.ownerDocument.contains(n):!1}function E(n){if(!(n instanceof Element))throw new Error("Invalid argument to buildClassSelector()");return[n.nodeName,...n.classList].join(".")}function f(n){if(!(n instanceof Element))throw new Error("Invalid argument to selectText()");let t=n.ownerDocument,e=t.getSelection(),s=t.createRange();s.selectNodeContents(n),e.removeAllRanges(),e.addRange(s)}function I(n,t){let e;return function(...s){clearTimeout(e),e=setTimeout(function(){n(...s)},t)}}function x(n){if(!(n instanceof Element))throw new Error("Invalid argument to offsetTop()");return n.offsetTop+(n.offsetParent?x(n.offsetParent):0)}var u=class n{static#e=new Set;static toggleSearchBox(t,e){let s=t.querySelector(".kint-search"),i=t.parentNode;if(s)if(s.classList.toggle("kint-show",e)){if(s.focus(),s.select(),!n.#e.has(s)){let r=i.querySelectorAll("dl").length,o=200;r>1e4&&(o=700),s.addEventListener("keyup",I(n.#t.bind(null,s),o)),n.#e.add(s)}n.#t(s)}else i.classList.remove("kint-search-root")}static#t(t){let e=t.closest(".kint-parent")?.parentNode;if(e)if(t.classList.contains("kint-show")&&t.value.length){let s=e.dataset.lastSearch;if(e.classList.add("kint-search-root"),s!==t.value){e.dataset.lastSearch=t.value,e.classList.remove("kint-search-match");for(let i of e.querySelectorAll(".kint-search-match"))i.classList.remove("kint-search-match");n.#s(e,t.value.toUpperCase())}}else e.classList.remove("kint-search-root")}static#s(t,e){let s=t.cloneNode(!0);for(let c of s.querySelectorAll(".access-path"))c.remove();if(!s.textContent.toUpperCase().includes(e))return;t.classList.add("kint-search-match");let i=t.firstElementChild;for(;i&&i.tagName!=="DT";)i=i.nextElementSibling;if(!i)return;let r=a.getChildContainer(i);if(!r)return;let o,l;for(let c of r.children)c.tagName==="DL"?n.#s(c,e):c.tagName==="UL"&&(c.classList.contains("kint-tabs")?o=c.children:c.classList.contains("kint-tab-contents")&&(l=c.children));if(!(!o||o.length!==l?.length))for(let c=o.length;c--;){let k=!1,F=!1;o[c].textContent.toUpperCase().includes(e)&&(k=!0);let O=l[c].cloneNode(!0);for(let v of O.querySelectorAll(".access-path"))v.remove();if(O.textContent.toUpperCase().includes(e)&&(k=!0,F=!0),k&&o[c].classList.add("kint-search-match"),F)for(let v of l[c].children)v.tagName==="DL"&&n.#s(v,e)}}};var g=class{static sort(t,e){let s=t.dataset.kintTableSort,i=parseInt(s)===e?-1:1,r=t.tBodies[0];[...r.rows].sort(function(o,l){o=o.cells[e].textContent.trim().toLocaleLowerCase(),l=l.cells[e].textContent.trim().toLocaleLowerCase();let c=0;return!isNaN(o)&&!isNaN(l)?(o=parseFloat(o),l=parseFloat(l),c=o-l):isNaN(o)&&!isNaN(l)?c=1:isNaN(l)&&!isNaN(o)?c=-1:c=(""+o).localeCompare(""+l),c*i}).forEach(o=>r.appendChild(o)),i<0?t.dataset.kintTableSort=null:t.dataset.kintTableSort=e}};var a=class n{#e;#t;#s;constructor(t){if(!(t instanceof h))throw new Error("Invalid argument to Rich.constructor()");this.#e=t,this.#e.runOnInit(this.#i.bind(this));let e=new q(this,t);new b(this,t.window,e)}#i(){let t=this.#e.window.document;if(d(this.#t)||(this.#t=t.querySelector("style.kint-rich-style")),this.#t&&m(this.#t),t.querySelector(".kint-rich.kint-file")){this.setupFolder(t);let e=this.#s.querySelector("dd.kint-foldout"),s=Array.from(t.querySelectorAll(".kint-rich.kint-file"));for(let i of s)i.parentNode!==e&&e.appendChild(i);this.#s.classList.add("kint-show")}}addToFolder(t){let e=t.closest(".kint-rich");if(!e)throw new Error("Bad addToFolder");let s=this.#e.window.document;if(this.setupFolder(s),this.folder.contains(t))throw new Error("Bad addToFolder");let i=this.#s.querySelector("dd.kint-foldout"),r=t.closest(".kint-parent, .kint-rich"),o=Array.from(e.querySelectorAll(".kint-folder-trigger"));if(e===r||e.querySelectorAll(".kint-rich > dl").length===1){for(let l of o)l.remove();e.classList.add("kint-file"),i.insertBefore(e,i.firstChild)}else{let l=s.createElement("div");l.classList.add("kint-rich"),l.classList.add("kint-file"),l.appendChild(r.closest(".kint-rich > dl"));let c=e.lastElementChild;c.matches(".kint-rich > footer")&&l.appendChild(c.cloneNode(!0));for(let k of o)k.remove();i.insertBefore(l,i.firstChild)}n.toggle(this.#s.querySelector(".kint-parent"),!0)}setupFolder(t){if(this.#s)d(this.#s)||(this.#s=t.querySelector(".kint-rich.kint-folder"));else{let e=t.createElement("template");e.innerHTML='<div class="kint-rich kint-folder"><dl><dt class="kint-parent"><nav></nav>Kint</dt><dd class="kint-foldout"></dd></dl></div>',this.#s=e.content.firstChild,t.body.appendChild(this.#s)}}get folder(){return d(this.#s)||(this.#s=this.#e.window.document.querySelector(".kint-rich.kint-folder")),this.#s&&m(this.#s),this.#s}isFolderOpen(){let t=this.#s?.querySelector("dd.kint-foldout");if(t)return t.previousSibling.classList.contains("kint-show")}static getChildContainer(t){let e=t.nextElementSibling;for(;e&&!e.matches("dd");)e=e.nextElementSibling;return e}static toggle(t,e){let s=n.getChildContainer(t);s&&(e=t.classList.toggle("kint-show",e),n.#n(s,e))}static switchTab(t){t.parentNode.getElementsByClassName("kint-active-tab")[0].classList.remove("kint-active-tab"),t.classList.add("kint-active-tab");let e=t,s=0;for(;e=e.previousElementSibling;)s++;let i=t.parentNode.nextSibling.children;for(let r=i.length;r--;)r===s?(i[r].classList.add("kint-show"),n.#n(i[r],!0)):i[r].classList.remove("kint-show")}static toggleChildren(t,e){let s=n.getChildContainer(t);if(!s)return;e===void 0&&(e=t.classList.contains("kint-show"));let i=Array.from(s.getElementsByClassName("kint-parent"));for(let r of i)r.classList.toggle("kint-show",e)}static toggleAccessPath(t,e){let s=t.querySelector(".access-path");s?.classList.toggle("kint-show",e)&&f(s)}static#n(t,e){if(t.children.length===2&&t.lastElementChild.matches("ul.kint-tab-contents"))for(let s of t.lastElementChild.children)s.matches("li.kint-show")&&(t=s);if(t.children.length===1&&t.firstElementChild.matches("dl")){let s=t.firstElementChild.firstElementChild;s?.classList?.contains("kint-parent")&&n.toggle(s,e)}}},b=class{#e;#t;#s;#i=null;#n=null;#o=0;constructor(t,e,s){this.#e=t,this.#t=s,this.#s=e,this.#s.addEventListener("click",this.#a.bind(this),!0)}#r(){clearTimeout(this.#i),this.#i=setTimeout(this.#l.bind(this),250)}#l(){clearTimeout(this.#i),this.#i=null,this.#n=null,this.#o=0}#c(){let t=this.#n;if(!t.matches(".kint-parent > nav"))return;let e=t.parentNode;if(this.#o===1)a.toggleChildren(e),this.#t.onTreeChanged(),this.#r(),this.#o=2;else if(this.#o===2){this.#l();let s=e.classList.contains("kint-show"),i=this.#e.folder?.querySelector(".kint-parent"),r=Array.from(this.#s.document.getElementsByClassName("kint-parent"));for(let o of r)o!==i&&o.classList.toggle("kint-show",s);this.#t.onTreeChanged(),this.#t.scrollToFocus()}}#a(t){if(this.#o){this.#c();return}let e=t.target;if(!e.closest(".kint-rich"))return;if(e.tagName==="DFN"&&f(e),e.tagName==="TH"){t.ctrlKey||g.sort(e.closest("table"),e.cellIndex);return}if(e.tagName==="LI"&&e.parentNode.className==="kint-tabs"){if(e.className!=="kint-active-tab"){let i=e.closest("dl")?.querySelector(".kint-parent > nav")??e;a.switchTab(e),this.#t.onTreeChanged(),this.#t.setCursor(i)}return}let s=e.closest("dt");if(e.tagName==="NAV")e.parentNode.tagName==="FOOTER"?(this.#t.setCursor(e),e.parentNode.classList.toggle("kint-show")):s?.classList.contains("kint-parent")&&(a.toggle(s),this.#t.onTreeChanged(),this.#t.setCursor(e),this.#r(),this.#o=1,this.#n=e);else if(e.classList.contains("kint-access-path-trigger"))s&&a.toggleAccessPath(s);else if(e.classList.contains("kint-search-trigger"))s?.matches(".kint-rich > dl > dt.kint-parent")&&u.toggleSearchBox(s);else if(e.classList.contains("kint-folder-trigger")){if(s?.matches(".kint-rich > dl > dt.kint-parent"))this.#e.addToFolder(e),this.#t.onTreeChanged(),this.#t.setCursor(s.querySelector("nav")),this.#t.scrollToFocus();else if(e.parentNode.tagName==="FOOTER"){let i=e.closest(".kint-rich").querySelector(".kint-parent > nav, .kint-rich > footer > nav");this.#e.addToFolder(e),this.#t.onTreeChanged(),this.#t.setCursor(i),this.#t.scrollToFocus()}}else e.classList.contains("kint-search")||(e.tagName==="PRE"&&t.detail===3?f(e):e.closest(".kint-source")&&t.detail===3?f(e.closest(".kint-source")):e.classList.contains("access-path")?f(e):e.tagName!=="A"&&s?.classList.contains("kint-parent")&&(a.toggle(s),this.#t.onTreeChanged(),this.#t.setCursor(s.querySelector("nav"))))}},j=65,G=68,A=70,S=72,K=74,D=75,p=76,V=83,P=9,T=13,B=27,L=32,N=37,R=38,C=39,H=40,M=".kint-rich .kint-parent > nav, .kint-rich > footer > nav, .kint-rich .kint-tabs > li:not(.kint-active-tab)",q=class{#e=[];#t=0;#s=!1;#i;#n;constructor(t,e){this.#i=t,this.#n=e.window,this.#n.addEventListener("keydown",this.#c.bind(this),!0),e.runOnInit(this.onTreeChanged.bind(this))}scrollToFocus(){let t=this.#e[this.#t];if(!t)return;let e=this.#i.folder;if(t===e?.querySelector(".kint-parent > nav"))return;let s=x(t);if(this.#i.isFolderOpen()){let i=e.querySelector("dd.kint-foldout");i.scrollTo(0,s-i.clientHeight/2)}else this.#n.scrollTo(0,s-this.#n.innerHeight/2)}onTreeChanged(){let t=this.#e[this.#t];this.#e=[];let e=this.#i.folder,s=e?.querySelector(".kint-parent > nav"),i=this.#n.document;this.#i.isFolderOpen()&&(i=e,this.#e.push(s));let r=Array.from(i.querySelectorAll(M));for(let o of r)o.offsetParent!==null&&o!==s&&this.#e.push(o);if(s&&!this.#i.isFolderOpen()&&this.#e.push(s),this.#e.length===0){this.#s=!1,this.#r();return}t&&this.#e.indexOf(t)!==-1?this.#t=this.#e.indexOf(t):this.#r()}setCursor(t){if(this.#i.isFolderOpen()&&!this.#i.folder.contains(t)||!t.matches(M))return!1;let e=this.#e.indexOf(t);if(e===-1&&(this.onTreeChanged(),e=this.#e.indexOf(t)),e!==-1){if(e!==this.#t)return this.#t=e,this.#r(),!0;this.#e[e]?.classList.remove("kint-weak-focus")}else console.error("setCursor failed to find target in list",t),console.info("Please report this as a bug in Kint at https://github.com/kint-php/kint");return!1}#o(t){if(this.#e.length===0)return this.#t=0,null;for(this.#t+=t;this.#t<0;)this.#t+=this.#e.length;for(;this.#t>=this.#e.length;)this.#t-=this.#e.length;return this.#r(),this.#t}#r(){let t=this.#n.document.querySelector(".kint-focused");t&&(t.classList.remove("kint-focused"),t.classList.remove("kint-weak-focus")),this.#s&&this.#e[this.#t]?.classList.add("kint-focused")}#l(t){let e=t.closest(".kint-rich .kint-parent ~ dd")?.parentNode.querySelector(".kint-parent > nav");e&&(this.setCursor(e),this.scrollToFocus())}#c(t){if(this.#s&&t.keyCode===B&&t.target.matches(".kint-search")){t.target.blur(),this.#r();return}if(t.target!==this.#n.document.body||t.altKey||t.ctrlKey)return;if(t.keyCode===G){if(this.#s)this.#s=!1;else{if(this.#s=!0,this.onTreeChanged(),this.#e.length===0){this.#s=!1;return}this.scrollToFocus()}this.#r(),t.preventDefault();return}else if(t.keyCode===B){this.#s&&(this.#s=!1,this.#r(),t.preventDefault());return}else if(!this.#s)return;t.preventDefault(),d(this.#e[this.#t])||this.onTreeChanged();let e=this.#e[this.#t];if([P,R,D,H,K].includes(t.keyCode)){t.keyCode===P?this.#o(t.shiftKey?-1:1):t.keyCode===R||t.keyCode===D?this.#o(-1):(t.keyCode===H||t.keyCode===K)&&this.#o(1),this.scrollToFocus();return}if(e.tagName==="LI"&&[L,T,C,p,N,S].includes(t.keyCode)){t.keyCode===L||t.keyCode===T?(a.switchTab(e),this.onTreeChanged()):t.keyCode===C||t.keyCode===p?this.#o(1):(t.keyCode===N||t.keyCode===S)&&this.#o(-1),this.scrollToFocus();return}if(e.parentNode.tagName==="FOOTER"&&e.closest(".kint-rich")){if(t.keyCode===L||t.keyCode===T)e.parentNode.classList.toggle("kint-show");else if(t.keyCode===N||t.keyCode===S)if(e.parentNode.classList.contains("kint-show"))e.parentNode.classList.remove("kint-show");else{this.#l(e.closest(".kint-rich"));return}else if(t.keyCode===C||t.keyCode===p)e.parentNode.classList.add("kint-show");else if(t.keyCode===A&&!this.#i.isFolderOpen()&&e.matches(".kint-rich > footer > nav")){let i=e.closest(".kint-rich").querySelector(".kint-parent > nav, .kint-rich > footer > nav");this.#i.addToFolder(e),this.onTreeChanged(),this.setCursor(i),this.scrollToFocus()}return}let s=e.closest(".kint-parent");if(s){if(t.keyCode===j){a.toggleAccessPath(s);return}if(t.keyCode===A){!this.#i.isFolderOpen()&&s.matches(".kint-rich:not(.kint-folder) > dl > .kint-parent")&&(this.#i.addToFolder(e),this.onTreeChanged(),this.setCursor(e),this.scrollToFocus());return}if(t.keyCode===V){let i=s.closest(".kint-rich > dl")?.querySelector(".kint-search")?.closest(".kint-parent");if(i){e.classList.add("kint-weak-focus"),u.toggleSearchBox(i,!0);return}}if(t.keyCode===L||t.keyCode===T){a.toggle(s),this.onTreeChanged();return}if([C,p,N,S].includes(t.keyCode)){let i=s.classList.contains("kint-show");if(t.keyCode===C||t.keyCode===p){i&&a.toggleChildren(s,!0),a.toggle(s,!0),this.onTreeChanged();return}else if(i){a.toggleChildren(s,!1),a.toggle(s,!1),this.onTreeChanged();return}else{this.#l(s);return}}}}};var y=class{#e;#t;constructor(t){if(!(t instanceof h))throw new Error("Invalid argument to Plain.constructor()");this.#e=t.window,t.runOnInit(this.#s.bind(this))}#s(){d(this.#t)||(this.#t=this.#e.document.querySelector("style.kint-plain-style")),this.#t&&m(this.#t)}};var w=class{#e;constructor(t){if(!(t instanceof h))throw new Error("Invalid argument to Microtime.constructor()");this.#e=t.window,t.runOnInit(this.#t.bind(this))}#t(){let t={},e=this.#e.document.querySelectorAll("[data-kint-microtime-group]");for(let s of e){let i=s.querySelector(".kint-microtime-lap");if(!i)continue;let r=s.dataset.kintMicrotimeGroup,o=parseFloat(i.textContent),l=parseFloat(s.querySelector(".kint-microtime-avg").textContent);t[r]??={min:o,max:o,avg:l},t[r].min>o&&(t[r].min=o),t[r].max<o&&(t[r].max=o),t[r].avg=l}for(let s of e){let i=s.querySelector(".kint-microtime-lap");if(!i)continue;let r=parseFloat(i.textContent),o=t[s.dataset.kintMicrotimeGroup];if(s.querySelector(".kint-microtime-avg").textContent=o.avg,!(r===o.min&&r===o.max))if(s.classList.add("kint-microtime-js"),r>o.avg){let l=(r-o.avg)/(o.max-o.avg);i.style.background="hsl("+(40-40*l)+", 100%, 65%)"}else{let l=0;o.avg!==o.min&&(l=(o.avg-r)/(o.avg-o.min)),i.style.background="hsl("+(40+80*l)+", 100%, 65%)"}}}};var U=Symbol(),h=class n{static#e=null;#t;#s=[];#i=new Set;static init(t){return n.#e??=new n(t,U),n.#e.#n(),n.#e.runOnLoad(n.#r),n.#e}get window(){return this.#t}constructor(t,e){if(U!==e)throw new Error("Kint constructor is private. Use Kint.init()");if(!(t instanceof Window))throw new Error("Invalid argument to Kint.init()");this.#t=t,this.runOnInit(this.#o.bind(this)),new y(this),new a(this),new w(this)}runOnLoad(t){if(this.#t.document.readyState==="complete")try{t()}catch{}else this.#t.addEventListener("load",t)}runOnInit(t){this.#s.push(t)}#n(){this.#t.document.currentScript&&(this.#i.add(E(window.document.currentScript)),window.document.currentScript.remove())}#o(){for(let t of this.#i.keys())for(let e of this.#t.document.querySelectorAll(t))e.remove()}static#r(){for(let t of n.#e.#s)t()}};window.Kint||(window.Kint=h);window.Kint.init(window);})();
+</script><style class="kint-rich-style">.kint-rich{--spacing: 4px;--nav-size: 15px;--backdrop-color: rgba(255, 255, 255, 0.9);--main-background: #e0eaef;--secondary-background: #c1d4df;--text-color: #1d1e1e;--variable-name-color: #1d1e1e;--variable-type-color: #0092db;--variable-type-color-hover: #5cb730;--border-color: #b6cedb;--border-color-hover: #0092db;--border: 1px solid var(--border-color);--foldout-max-size: calc(100vh - 100px);--foldout-zindex: 999999;--caret-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 150'><g stroke-width='2' fill='%23FFF'><path d='M1 1h28v28H1zm5 14h18m-9 9V6M1 61h28v28H1zm5 14h18' stroke='%23379'/><path d='M1 31h28v28H1zm5 14h18m-9 9V36M1 91h28v28H1zm5 14h18' stroke='%235A3'/><path d='M1 121h28v28H1zm5 5l18 18m-18 0l18-18' stroke='%23CCC'/></g></svg>");--ap-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><g stroke='%23000' fill='transparent'><path d='M2 8h3m3 3v3M8 2v3m3 3h3M3 8' stroke-width='2' stroke-linecap='round'/><circle stroke-width='1.5' r='4.5' cx='8' cy='8'/></g></svg>");--folder-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M2 2h4l2 2h6v9H2V2h2' stroke-width='2' stroke='%23000' fill='transparent' stroke-linejoin='round'/></svg>");--search-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><g stroke='%23000' fill='transparent'><path d='M2 14l3-3' stroke-linecap='round' stroke-width='3'/><circle stroke-width='2' r='5' cx='9' cy='7'/></g></svg>");font-size:13px;overflow-x:auto;white-space:nowrap;background:var(--backdrop-color);direction:ltr;contain:content}.kint-rich.kint-folder{position:fixed;bottom:0;left:0;right:0;z-index:var(--foldout-zindex);width:100%;margin:0;display:block}.kint-rich.kint-folder dd.kint-foldout{max-height:var(--foldout-max-size);padding-right:calc(var(--spacing)*2);overflow-y:scroll;display:none}.kint-rich.kint-folder dd.kint-foldout.kint-show{display:block}.kint-rich::selection{background:var(--border-color-hover);color:var(--text-color)}.kint-rich .kint-focused{box-shadow:0 0 3px 3px var(--variable-type-color-hover)}.kint-rich .kint-focused.kint-weak-focus{box-shadow:0 0 3px 1px color-mix(in srgb, var(--variable-type-color-hover) 50%, transparent)}.kint-rich,.kint-rich::before,.kint-rich::after,.kint-rich *,.kint-rich *::before,.kint-rich *::after{box-sizing:border-box;border-radius:0;color:var(--text-color);float:none !important;font-family:Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;line-height:15px;margin:0;padding:0;text-align:left}.kint-rich{margin:calc(var(--spacing)*2) 0}.kint-rich dt,.kint-rich dl{width:auto}.kint-rich dt,.kint-rich div.access-path{background:var(--main-background);border:var(--border);color:var(--text-color);display:block;font-weight:bold;list-style:none outside none;overflow:auto;padding:var(--spacing)}.kint-rich dt:hover,.kint-rich div.access-path:hover{border-color:var(--border-color-hover)}.kint-rich>dl dl{padding:0 0 0 calc(var(--spacing)*3)}.kint-rich dt.kint-parent>nav,.kint-rich>footer>nav{background:var(--caret-image) no-repeat scroll 0 0/var(--nav-size) 75px rgba(0,0,0,0);cursor:pointer;display:inline-block;height:var(--nav-size);width:var(--nav-size);margin-right:3px;vertical-align:middle}.kint-rich dt.kint-parent:hover>nav,.kint-rich>footer>nav:hover{background-position:0 25%}.kint-rich dt.kint-parent.kint-show>nav,.kint-rich>footer.kint-show>nav{background-position:0 50%}.kint-rich dt.kint-parent.kint-show:hover>nav,.kint-rich>footer.kint-show>nav:hover{background-position:0 75%}.kint-rich dt.kint-parent.kint-locked>nav{background-position:0 100%}.kint-rich dt.kint-parent+dd{display:none;border-left:1px dashed var(--border-color);contain:strict}.kint-rich dt.kint-parent.kint-show+dd{display:block;contain:content}.kint-rich var,.kint-rich var a{color:var(--variable-type-color);font-style:normal}.kint-rich dt:hover var,.kint-rich dt:hover var a{color:var(--variable-type-color-hover)}.kint-rich dfn{font-style:normal;font-family:monospace;color:var(--variable-name-color)}.kint-rich pre{color:var(--text-color);margin:0 0 0 calc(var(--spacing)*3);padding:5px;overflow-y:hidden;border-top:0;border:var(--border);background:var(--main-background);display:block;word-break:normal}.kint-rich .kint-access-path-trigger,.kint-rich .kint-folder-trigger,.kint-rich .kint-search-trigger{background:color-mix(in srgb, var(--text-color) 80%, transparent);border-radius:3px;padding:2px;height:var(--nav-size);width:var(--nav-size);font-size:var(--nav-size);margin-left:5px;font-weight:bold;text-align:center;line-height:1;float:right !important;cursor:pointer;position:relative;overflow:hidden}.kint-rich .kint-access-path-trigger::before,.kint-rich .kint-folder-trigger::before,.kint-rich .kint-search-trigger::before{display:block;content:"";width:100%;height:100%;background:var(--main-background);mask:center/contain no-repeat alpha}.kint-rich .kint-access-path-trigger:hover,.kint-rich .kint-folder-trigger:hover,.kint-rich .kint-search-trigger:hover{background:var(--main-background)}.kint-rich .kint-access-path-trigger:hover::before,.kint-rich .kint-folder-trigger:hover::before,.kint-rich .kint-search-trigger:hover::before{background:var(--text-color)}.kint-rich .kint-access-path-trigger::before{mask-image:var(--ap-image)}.kint-rich .kint-folder-trigger::before{mask-image:var(--folder-image)}.kint-rich .kint-search-trigger::before{mask-image:var(--search-image)}.kint-rich input.kint-search{display:none;border:var(--border);border-top-width:0;border-bottom-width:0;padding:var(--spacing);float:right !important;margin:calc(var(--spacing)*-1) 0;color:var(--variable-name-color);background:var(--secondary-background);height:calc(var(--nav-size) + var(--spacing)*2);width:calc(var(--nav-size)*10);position:relative;z-index:100}.kint-rich input.kint-search.kint-show{display:block}.kint-rich .kint-search-root ul.kint-tabs>li:not(.kint-search-match){background:var(--secondary-background);filter:saturate(0);opacity:.5}.kint-rich .kint-search-root dl:not(.kint-search-match){opacity:.5}.kint-rich .kint-search-root dl:not(.kint-search-match)>dt{background:var(--main-background);filter:saturate(0)}.kint-rich .kint-search-root dl:not(.kint-search-match) dl,.kint-rich .kint-search-root dl:not(.kint-search-match) ul.kint-tabs>li:not(.kint-search-match){opacity:1}.kint-rich div.access-path{background:var(--secondary-background);display:none;margin-top:5px;padding:4px;white-space:pre}.kint-rich div.access-path.kint-show{display:block}.kint-rich footer{padding:0 3px 3px;font-size:9px;background:rgba(0,0,0,0)}.kint-rich footer>.kint-folder-trigger{background:rgba(0,0,0,0)}.kint-rich footer>.kint-folder-trigger::before{background:var(--text-color)}.kint-rich footer nav{height:10px;width:10px;background-size:10px 50px}.kint-rich footer>ol{display:none;margin-left:32px}.kint-rich footer.kint-show>ol{display:block}.kint-rich a{color:var(--text-color);text-shadow:none;text-decoration:underline}.kint-rich a:hover{color:var(--variable-name-color);border-bottom:1px dotted var(--variable-name-color)}.kint-rich ul{list-style:none;padding-left:calc(var(--spacing)*3)}.kint-rich ul:not(.kint-tabs) li{border-left:1px dashed var(--border-color)}.kint-rich ul:not(.kint-tabs) li>dl{border-left:none}.kint-rich ul.kint-tabs{margin:0 0 0 calc(var(--spacing)*3);padding-left:0;background:var(--main-background);border:var(--border);border-top:0}.kint-rich ul.kint-tabs>li{background:var(--secondary-background);border:var(--border);cursor:pointer;display:inline-block;height:calc(var(--spacing)*6);margin:calc(var(--spacing)/2);padding:0 calc(2px + var(--spacing)*2.5);vertical-align:top}.kint-rich ul.kint-tabs>li:hover,.kint-rich ul.kint-tabs>li.kint-active-tab:hover{border-color:var(--border-color-hover);color:var(--variable-type-color-hover)}.kint-rich ul.kint-tabs>li.kint-active-tab{background:var(--main-background);border-top:0;margin-top:-1px;height:27px;line-height:24px}.kint-rich ul.kint-tabs>li:not(.kint-active-tab){line-height:calc(var(--spacing)*5)}.kint-rich ul.kint-tabs li+li{margin-left:0}.kint-rich ul.kint-tab-contents>li{display:none;contain:strict}.kint-rich ul.kint-tab-contents>li.kint-show{display:block;contain:content}.kint-rich dt:hover+dd>ul>li.kint-active-tab{border-color:var(--border-color-hover);color:var(--variable-type-color-hover)}.kint-rich dt>.kint-color-preview{width:var(--nav-size);height:var(--nav-size);display:inline-block;vertical-align:middle;margin-left:10px;border:var(--border);background-color:#ccc;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 2"><path fill="%23FFF" d="M0 0h1v2h1V1H0z"/></svg>');background-size:min(20px,100%)}.kint-rich dt>.kint-color-preview:hover{border-color:var(--border-color-hover)}.kint-rich dt>.kint-color-preview>div{width:100%;height:100%}.kint-rich table{border-collapse:collapse;empty-cells:show;border-spacing:0}.kint-rich table *{font-size:12px}.kint-rich table dt{background:none;padding:calc(var(--spacing)/2)}.kint-rich table dt .kint-parent{min-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.kint-rich table td,.kint-rich table th{border:var(--border);padding:calc(var(--spacing)/2);vertical-align:center}.kint-rich table th{cursor:alias}.kint-rich table td:first-child,.kint-rich table th{font-weight:bold;background:var(--secondary-background);color:var(--variable-name-color)}.kint-rich table td{background:var(--main-background);white-space:pre}.kint-rich table td>dl{padding:0}.kint-rich table pre{border-top:0;border-right:0}.kint-rich table thead th:first-child{background:none;border:0}.kint-rich table tr:hover>td{box-shadow:0 0 1px 0 var(--border-color-hover) inset}.kint-rich table tr:hover var{color:var(--variable-type-color-hover)}.kint-rich table ul.kint-tabs li.kint-active-tab{height:20px;line-height:17px}.kint-rich pre.kint-source{margin-left:-1px}.kint-rich pre.kint-source[data-kint-filename]:before{display:block;content:attr(data-kint-filename);margin-bottom:var(--spacing);padding-bottom:var(--spacing);border-bottom:1px solid var(--secondary-background)}.kint-rich pre.kint-source>div:before{display:inline-block;content:counter(kint-l);counter-increment:kint-l;border-right:1px solid var(--border-color-hover);padding-right:calc(var(--spacing)*2);margin-right:calc(var(--spacing)*2)}.kint-rich pre.kint-source>div.kint-highlight{background:var(--secondary-background)}.kint-rich .kint-microtime-js .kint-microtime-lap{text-shadow:-1px 0 var(--border-color-hover),0 1px var(--border-color-hover),1px 0 var(--border-color-hover),0 -1px var(--border-color-hover);color:var(--main-background);font-weight:bold}input.kint-note-input{width:100%}.kint-rich{--main-background: #f8f8f8;--secondary-background: #f8f8f8;--variable-type-color: #06f;--variable-type-color-hover: #f00;--border-color: #d7d7d7;--border-color-hover: #aaa;--alternative-background: #fff;--highlight-color: #cfc;--caret-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 150'><path d='M6 7h18l-9 15zm0 30h18l-9 15zm0 45h18l-9-15zm0 30h18l-9-15zm0 12l18 18m-18 0l18-18' fill='%23555'/><path d='M6 126l18 18m-18 0l18-18' stroke-width='2' stroke='%23555'/></svg>")}.kint-rich .kint-focused{box-shadow:0 0 3px 2px var(--variable-type-color-hover)}.kint-rich dt{font-weight:normal}.kint-rich dt.kint-parent{margin-top:4px}.kint-rich dl dl{margin-top:4px;padding-left:25px;border-left:none}.kint-rich>dl>dt{background:var(--secondary-background)}.kint-rich ul{margin:0;padding-left:0}.kint-rich ul:not(.kint-tabs)>li{border-left:0}.kint-rich ul.kint-tabs{background:var(--secondary-background);border:var(--border);border-width:0 1px 1px 1px;padding:4px 0 0 12px;margin-left:-1px;margin-top:-1px}.kint-rich ul.kint-tabs li,.kint-rich ul.kint-tabs li+li{margin:0 0 0 4px}.kint-rich ul.kint-tabs li{border-bottom-width:0;height:calc(var(--spacing)*6 + 1px)}.kint-rich ul.kint-tabs li:first-child{margin-left:0}.kint-rich ul.kint-tabs li.kint-active-tab{border-top:var(--border);background:var(--alternative-background);font-weight:bold;padding-top:0;border-bottom:1px solid var(--alternative-background) !important;margin-bottom:-1px}.kint-rich ul.kint-tabs li.kint-active-tab:hover{border-bottom:1px solid var(--alternative-background)}.kint-rich ul>li>pre{border:var(--border)}.kint-rich dt:hover+dd>ul{border-color:var(--border-color-hover)}.kint-rich pre{background:var(--alternative-background);margin-top:4px;margin-left:25px}.kint-rich .kint-source{margin-left:-1px}.kint-rich .kint-source .kint-highlight{background:var(--highlight-color)}.kint-rich .kint-parent.kint-show>.kint-search{border-bottom-width:1px}.kint-rich table td{background:var(--alternative-background)}.kint-rich table td>dl{padding:0;margin:0}.kint-rich table td>dl>dt.kint-parent{margin:0}.kint-rich table td:first-child,.kint-rich table td,.kint-rich table th{padding:2px 4px}.kint-rich table dd,.kint-rich table dt{background:var(--alternative-background)}.kint-rich table tr:hover>td{box-shadow:none;background:var(--highlight-color)}
+</style>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- SEO Meta Tags -->
+        <title>IIIT Kalyani</title>
+    
+    <!-- Core CSS -->
+    <link rel="stylesheet"
+        href="https://iiitkalyani.ac.in/design/front/assets/fonts/bootstrap-icons/bootstrap-icons.min.css" />
+    <link href="https://iiitkalyani.ac.in/design/front/assets/laibray/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <!-- Animated css -->
+    <link rel="stylesheet" href="https://iiitkalyani.ac.in/design/front/assets/css/animate.min.css" />
+    <link rel="stylesheet" href="https://iiitkalyani.ac.in/design/front/assets/css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://iiitkalyani.ac.in/design/front/assets/laibray/owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://iiitkalyani.ac.in/design/front/assets/laibray/owlcarousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://iiitkalyani.ac.in/design/front/assets/css/theme-style.min.css" />
+    <link rel="stylesheet" href="https://iiitkalyani.ac.in/design/front/assets/css/dev.css" />
+
+    <!-- Additional CSS (like Fancybox) -->
+    
+    <!-- Page Specific CSS -->
+    
+    <!-- Additional Sections CSS -->
+    </head>
+
+<body id="content">
+    <button id="backToTop" title="Back to Top">↑</button>
+
+    
+<header>
+    <div class="logo-box">
+        <div class="setting">
+            <div class="increase-decrease">
+                <ul>
+                    <li><a href="javascript:void(0)" id="decrease-font">-</a></li>
+                    <li><a href="javascript:void(0)" id="reset-font">A</a></li>
+                    <li><a href="javascript:void(0)" id="increase-font">+</a></li>
+                </ul>
+            </div>
+            <div class="search" id="header-search-wrapper">
+                <form action="https://iiitkalyani.ac.in/en/search" method="GET" id="header-search-form">
+                    <input type="text" 
+                           name="q" 
+                           placeholder="Search" 
+                           id="header-search-input"
+                           autocomplete="off"
+                           aria-label="Search" />
+                    <button type="submit" aria-label="Submit search">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+                <div id="search-suggestions" class="search-suggestions-dropdown"></div>
+            </div>
+        </div>
+        <a href="https://iiitkalyani.ac.in/">
+            <div class="container">
+                <img src="https://iiitkalyani.ac.in/api/serve/2025/09/03/logo-4.png" 
+                     alt="IIIT Kalyani" class="img-fluid m-auto d-block pb-3" />
+            </div>
+        </a>
+    </div>
+    <div class="menu">
+        <nav id="navigation1" class="navigation navigation-landscape">
+            <div class="nav-header">
+                <div class="nav-toggle"></div>
+            </div>
+
+            <div class="nav-menus-wrapper" style="transition-property: none">
+                <ul class="nav-menu align-to-right"><li><a href="https://iiitkalyani.ac.in/about" >About</a><ul class="nav-dropdown"><li><a href="https://iiitkalyani.ac.in/about-us" >About Us</a></li><li><a href="https://iiitkalyani.ac.in/api/serve/2026/01/06/NIRF-kalyani_1767682982_17eb0300.pdf" target="_blank">NIRF</a></li><li><a href="https://iiitkalyani.ac.in/why-iiit-kalyani" >Why IIIT Kalyani</a></li><li><a href="https://iiitkalyani.ac.in/staff" >Staff</a></li><li><a href="https://iiitkalyani.ac.in/gallery" >Gallery</a></li><li><a href="https://iiitkalyani.ac.in/all-facilities" >All Facilities </a></li><li><a href="https://iiitkalyani.ac.in/sports" >Sports</a></li><li><a href="https://old.iiitkalyani.ac.in/fmc/index.html" >Film and Media Club</a></li><li><a href="https://iiitkalyani.ac.in/symphony-music-club-" >Symphony (Music Club)</a></li><li><a href="https://iiitkalyani.ac.in/algoholic-technical-club-" >Algoholic (Technical Club) </a></li></ul></li><li><a href="https://iiitkalyani.ac.in/administration" >Administration</a><ul class="nav-dropdown"><li><a href="https://iiitkalyani.ac.in/administrative-body" >Administrative body</a></li><li><a href="https://iiitkalyani.ac.in/board-of-governors" >Board of Governors</a></li><li><a href="https://iiitkalyani.ac.in/finance-committee" >Finance Committee</a></li><li><a href="https://iiitkalyani.ac.in/senate" >Senate</a></li><li><a href="https://iiitkalyani.ac.in/api/serve/2026/02/13/iiit-act_1770986384_c09ee306.pdf" target="_blank">IIIT Act </a></li><li><a href="https://iiitkalyani.ac.in/api/serve/2026/02/13/statues_IIIT_Kalyani_1770988738_3cdd9ad4.pdf" target="_blank">Statutes</a></li><li><a href="https://iiitkalyani.ac.in/internal-complaint-committee" >Internal Complaint Committee</a></li><li><a href="https://iiitkalyani.ac.in/api/serve/2026/02/16/Office_Order-96_RTI__1__1771217899_b7a0af1d.pdf" target="_blank">Right to Information</a></li><li><a href="https://iiitkalyani.ac.in/awareness-campaigns-and-disseminating-information-on-three-new-criminal-laws" >Awareness campaigns and disseminating information on three new Criminal Laws</a></li></ul></li><li><a href="https://iiitkalyani.ac.in/academics" >Academics</a><ul class="nav-dropdown"><li><a href="https://iiitkalyani.ac.in/faculty" >Faculty</a></li><li><a href="https://iiitkalyani.ac.in/admissions-" >Admissions </a></li><li><a href="https://iiitkalyani.ac.in/academic-calendar" >Academic Calendar</a></li><li><a href="https://iiitkalyani.ac.in/course-structure" >Course Structure</a></li><li><a href="https://iiitkalyani.ac.in/new-national-education-policy-2020-" >New National Education Policy-2020 </a></li><li><a href="https://iiitkalyani.ac.in/fee-structure" >Fee Structure</a></li><li><a href="https://iiitkalyani.ac.in/regulations" >Regulations</a></li><li><a href="https://iiitkalyani.ac.in/nptel-collaboration" >NPTEL Collaboration</a></li><li><a href="https://iiitkalyani.ac.in/institute-innovation-council" >Institute Innovation Council</a></li><li><a href="https://iiitkalyani.ac.in/programmes" >Programmes</a></li></ul></li><li><a href="https://iiitkalyani.ac.in/research" >Research</a><ul class="nav-dropdown"><li><a href="https://iiitkalyani.ac.in/" >Achievements</a><ul class="nav-dropdown"><li><a href="https://iiitkalyani.ac.in/faculty-achievements" >Faculty achievements</a></li><li><a href="https://iiitkalyani.ac.in/students-achievement-1" >Students Achievements</a></li></ul></li><li><a href="https://iiitkalyani.ac.in/sponsored-consultancy" >Sponsored Consultancy</a></li><li><a href="https://iiitkalyani.ac.in/ipr" >IPR</a></li><li><a href="https://iiitkalyani.ac.in/iic" >IIC</a></li><li><a href="https://iiitkalyani.ac.in/sric-cell" >SRIC Cell</a></li><li><a href="https://iiitkalyani.ac.in/nisp" >NISP</a></li><li><a href="https://iiitkalyani.ac.in/publications" >Publications</a></li><li><a href="https://iiitkalyani.ac.in/portals" >Portals</a></li><li><a href="https://iiitkalyani.ac.in/sponsored-projects" >Sponsored Projects</a></li></ul></li><li><a href="https://iiitkalyani.ac.in/cep" >CEP</a></li><li><a href="https://iiitkalyani.ac.in/api/serve/2026/02/13/INDIAN_INSTITUTE_OF_INFORMATION_TECHNOLOGY__KALYANI20250110-nirf_1770984981_7ccec06e.pdf" target="_blank">NIRF</a></li><li><a href="https://iiitkalyani.ac.in/students" >Students</a><ul class="nav-dropdown"><li><a href="https://iiitkalyani.ac.in/students-achievement-b-tech-" >Students Achievement[B.Tech]</a></li><li><a href="https://iiitkalyani.ac.in/students-achievement" >Students Achievement[PhD]</a></li><li><a href="https://iiitkalyani.ac.in/api/serve/2026/02/16/StudentList_2021_1771229516_44438956.pdf" target="_blank">Current students</a></li><li><a href="https://iiitkalyani.ac.in/current-ph-d-students" >Current Ph.D. Students</a></li><li><a href="https://iiitkalyani.ac.in/regulatory-rules" >Regulatory Rules</a></li><li><a href="https://iiitkalyani.ac.in/anti-ragging" >Anti Ragging </a></li><li><a href="https://iiitkalyani.ac.in/students-corner" >Students Corner</a></li><li><a href="https://iiitkalyani.ac.in/life-iiitk" >Life@IIITK</a></li></ul></li><li><a href="https://iiitkalyani.ac.in/placements" >Placements</a><ul class="nav-dropdown"><li><a href="https://old.iiitkalyani.ac.in/placement/" >Placement Portal</a></li></ul></li><li><a href="https://iiitkalyani.ac.in/career" >Career</a></li><li><a href="https://iiitkalyani.ac.in/notifications" >Notifications</a><ul class="nav-dropdown"><li><a href="https://iiitkalyani.ac.in/e-notice-board" >E-Notice Board</a></li><li><a href="https://iiitkalyani.ac.in/downloads" >Downloads</a></li></ul></li><li><a href="https://iiitkalyani.ac.in/contact" >Contact</a><ul class="nav-dropdown"><li><a href="https://iiitkalyani.ac.in/contact-us" >Contact Us</a></li><li><a href="https://iiitkalyani.ac.in/how-to-reach" >How to Reach</a></li></ul></li><li><a href="https://old.iiitkalyani.ac.in/index.php" >Old Website</a></li></ul>            </div>
+
+            <div class="clearfix"></div>
+        </nav>
+    </div>
+</header>
+    <!-- Page Banner (if not homepage) -->
+    
+    <main id="main">
+        
+<!-- Image Slider Section -->
+<section class="slider-section">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="3000">
+        <div class="carousel-inner">
+            
+                        <div class="carousel-item active">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner1_1771827995_6210ec28.jpg" class="d-block w-100"
+                    alt="4th Annual Convocation of IIIT Kalyani" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>4th Annual Convocation of IIIT Kalyani</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner2_1771827906_dda37770.jpg" class="d-block w-100"
+                    alt="Dr. Satya Gupta, President of VLSI Society of India, as a chief guest" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>Dr. Satya Gupta, President of VLSI Society of India, as a chief guest</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner3_1771830297_ac9322a2.jpg" class="d-block w-100"
+                    alt="World Environment Day 2025 celebrations @ IIIT Kalyani" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>World Environment Day 2025 celebrations @ IIIT Kalyani</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner4_1771839271_346ca21c.jpg" class="d-block w-100"
+                    alt="4th Annual Convocation of IIIT Kalyani" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>4th Annual Convocation of IIIT Kalyani</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner5_1771832789_5d687d2a.jpg" class="d-block w-100"
+                    alt="4th Annual Convocation of IIIT Kalyani" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>4th Annual Convocation of IIIT Kalyani</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner6_1771832804_4cc7b934.jpg" class="d-block w-100"
+                    alt="4th Annual Convocation of IIIT Kalyani" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>4th Annual Convocation of IIIT Kalyani</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner7_1771832818_2b252e6b.jpg" class="d-block w-100"
+                    alt="4th Annual Convocation of IIIT Kalyani" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>4th Annual Convocation of IIIT Kalyani</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner8_1771832822_c34d5dab.jpg" class="d-block w-100"
+                    alt="4th Annual Convocation of IIIT Kalyani" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>4th Annual Convocation of IIIT Kalyani</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner9_1771832827_950aae43.jpg" class="d-block w-100"
+                    alt="4th Annual Convocation of IIIT Kalyani" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>4th Annual Convocation of IIIT Kalyani</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner10_1771832830_f5aa88ef.jpg" class="d-block w-100"
+                    alt="First Alumni Meet 2025" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>First Alumni Meet 2025</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner11_1771832834_3a47b082.jpg" class="d-block w-100"
+                    alt="Inter-IIIT sports Meet 2024" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>Inter-IIIT sports Meet 2024</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/25/12_1772001027_f9d0f736.png" class="d-block w-100"
+                    alt="First Alumni Meet 2025" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>First Alumni Meet 2025</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner12-Director_Welcomes_Chairman_BoG-IIIT_Kalyani_1771832838_e2395b8d.jpg" class="d-block w-100"
+                    alt="Director Welcomes Chairman BoG-IIIT Kalyani" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>Director Welcomes Chairman BoG-IIIT Kalyani</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/25/14_1772001081_8eb02d11.png" class="d-block w-100"
+                    alt="Mr. Sanjay Churiwala, delivering speech to Faculties, Researchers, and Students" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>Mr. Sanjay Churiwala, delivering speech to Faculties, Researchers, and Students</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/25/15_1772001121_c6d6534c.png" class="d-block w-100"
+                    alt="First Alumni Meet 2025" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>First Alumni Meet 2025</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/25/16__1__1772001330_7b2ab21a.png" class="d-block w-100"
+                    alt="Status Code 1" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>Status Code 1</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner16_1771833998_59344fe5.jpg" class="d-block w-100"
+                    alt="Our Institute has been selected under the 100 5G Labs Initiative by the Department of Telecommunications (DoT) with the objective of building competencies and engagement in 5G and beyond technologies." />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>Our Institute has been selected under the 100 5G Labs Initiative by the Department of Telecommunications (DoT) with the objective of building competencies and engagement in 5G and beyond technologies.</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner17_1771835229_ac4eec5a.jpg" class="d-block w-100"
+                    alt="Status Code 0" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>Status Code 0</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner14_1771833425_82cbe2e4.jpg" class="d-block w-100"
+                    alt="Inter-IIIT sports Meet 2024" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>Inter-IIIT sports Meet 2024</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner18_1771835232_e618e38d.jpg" class="d-block w-100"
+                    alt="Inter-IIIT sports Meet 2024" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>Inter-IIIT sports Meet 2024</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner14_1771833624_0965862f.jpg" class="d-block w-100"
+                    alt="Past Recruiters" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>Past Recruiters</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                        <div class="carousel-item ">
+                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/banner15-Inter-IIIT_sports_Meet_2024_1771833642_11068088.jpg" class="d-block w-100"
+                    alt="Inter-IIIT sports Meet 2024" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                        <div class="slider-description">
+                        <h2>Inter-IIIT sports Meet 2024</h2>
+                    </div>
+                    
+                                                                            </div>
+                            </div>
+                    </div>
+
+        <!-- Navigation Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+   
+            </div>
+</section>
+
+<!-- Flash News Marquee Section -->
+<section class="flash-news-marquee">
+    <div class="container-fluid">
+        <div class="marquee-container">
+            <div class="marquee-label">
+                <span class="flash-text">Flash News</span>
+            </div>
+            <div class="marquee-content">
+                <div class="marquee-scroll">
+                                        <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Flyer_BlockchainCyber_AICTE_QIP-PG_2026V2_1771047273_fc44e0f6.pdf" target="_blank">
+                            AICTE QIP PG Certificate Programme 2026 in Blockchain and Cybersecurity                        </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Advertisement-for-Non-Faculty-Positions_1771048474_7d0ca4b3.pdf" target="_blank">
+                            Advertisement for Non Faculty Positions                        </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Advertisement-for-Non-Faculty-Positions_1771048522_b918f814.pdf" target="_blank">
+                            Cancellation of the Advertisement for the post of Senior Technical Officer (Contractual basis) under Advt. No. IIITK/Rectt/NF/2025/02, dated 07.01.2025                        </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Shortlisted_students_for_interview_CSE_1771049003_06874782.pdf" target="_blank">
+                            (CSE) List of Provisionally Shortlisted Candidates for Interview for the post of   Assistant Professor (Level 10 on Contract/ Level 11 on Contract / Level 12)                          </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Shortlisted_students_for_interview_ECE_1771049071_6ab106ea.pdf" target="_blank">
+                            (ECE) List of Provisionally Shortlisted Candidates for Interview for the post of   Assistant Professor (Level 10 on Contract/ Level 11 on Contract / Level 12)                        </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Shortlisted_students_for_interview_Mathematics_1771049119_c5392d66.pdf" target="_blank">
+                            (Mathematics) List of Provisionally Shortlisted Candidates for Interview for the post of Assistant Professor (Level 10 on Contract/ Level 11 on Contract / Level 12)                        </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/bog_1771049228_1e6da61a.pdf" target="_blank">
+                            CHARGE OF CHAIRPERSON, BoG, IIIT KALYANI                        </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Shortlisted_students_for_interview_Physics_1771049183_b622c794.pdf" target="_blank">
+                            (PHYSICS) List of Provisionally Shortlisted Candidates for Interview for the post of Assistant Professor (Level 10 on Contract/ Level 11 on Contract / Level 12)                        </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Associate_Professor_CSE_1771049303_c2f13117.pdf" target="_blank">
+                            List of Provisionally shortlisted and not shortlisted candidates for the post of Associate Professor against advertisement No. IIITK/Rectt/F/2025/07, dated 13.03.2025 (CSE)                        </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Associate_Professor_ECE_1771049447_4f39b349.pdf" target="_blank">
+                            List of Provisionally shortlisted and not shortlisted candidates for the post of Associate Professor against advertisement No. IIITK/Rectt/F/2025/07, dated 13.03.2025 (ECE)                        </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Associate_Professor_Physics_1771049531_0515b6b3.pdf" target="_blank">
+                            List of Provisionally shortlisted and not shortlisted candidates for the post of Associate Professor against advertisement No. IIITK/Rectt/F/2025/07, dated 13.03.2025(PHYSICS)                        </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Associate_Professor_Mathematics_1771049583_f4bfbec1.pdf" target="_blank">
+                            List of Provisionally shortlisted and not shortlisted candidates for the post of Associate Professor against advertisement No. IIITK/Rectt/F/2025/07, dated 13.03.2025(MATH)                        </a>
+                    </span>
+                                        <span class="separator"> • </span>
+                                                            <span class="news-item">
+                                                <a href="https://iiitkalyani.ac.in/api/serve/2026/02/14/Advertisement_for_the_Post_of_Research_Assistant-1_1771047004_9a4200b8.pdf" target="_blank">
+                            Advertisement for Research Assistant position funded by Oxford University                        </a>
+                    </span>
+                                                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Academic Features Section -->
+<section class="academic-section">
+    <div class="container-fluid">
+        <div class="features-grid">
+                        <!-- Academic Box -->
+            <div class="feature-box">
+                <div class="icon">
+                    <i class="bi bi-mortarboard-fill"></i>
+                </div>
+                <a href="https://iiitkalyani.ac.in/en/programmes">
+                    Academics                </a>
+            </div>
+
+            <!-- Research Box -->
+            <div class="feature-box">
+                <div class="icon">
+                    <i class="bi bi-search"></i>
+                </div>
+                <a href="https://iiitkalyani.ac.in/en/research">
+                    Research                </a>
+            </div>
+
+            <!-- Placement Box -->
+            <div class="feature-box">
+                <div class="icon">
+                    <i class="bi bi-briefcase-fill"></i>
+                </div>
+                <a href="https://old.iiitkalyani.ac.in/placement/">
+                    Placement                </a>
+            </div>
+
+            <!-- CEP Box -->
+            <div class="feature-box">
+                <div class="icon">
+                    <i class="bi bi-award-fill"></i>
+                </div>
+                <a href="https://iiitkalyani.ac.in/en/cep">
+                    CEP                </a>
+            </div>
+                    </div>
+    </div>
+</section>
+<!-- About Section -->
+<section class="about-section-details">
+    <div class="container-fluid">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>About IIIT Kalyani</h2>
+                <div class="description">
+                    <p>IIIT Kalyani is committed to becoming a Center of Excellence in IT education and research, preparing students to meet the industry’s evolving demands with innovation and expertise. The institute actively fosters an entrepreneurial ecosystem, driving new technological solutions and intellectual property development within the State.</p><p>Established through a Not-for-Profit Public-Private Partnership (N-PPP), IIIT Kalyani is funded by the Government of India (Ministry of Education), the Government of West Bengal, and industry partners in a 50:35:15 ratio. The West Bengal government has also contributed 50 acres of land for its permanent campus. Current industry partners include Coal India Ltd. and the Rolta Foundation.</p>                </div>
+                <div class="btn-box">
+                    <a href="/about-us"
+                        class="know_more">
+                        <span class="text">Explore Now</span>
+                        <span class="arrow"><i class="bi bi-chevron-double-right"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="about-image">
+                                <img src="https://iiitkalyani.ac.in/api/serve/2025/08/15/abt.png"
+                    alt="About IIIT Kalyani" />
+                            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Directors/Research/announcement Section -->
+<section class="directors-research-announcements-section">
+    <div class="container-fluid">
+                <div class="card director-card">
+            <h2>Director&#039;s Message</h2>
+            <div class="director-content">
+                <div class="director-img">
+                                        <img src="https://iiitkalyani.ac.in/api/serve/2026/02/20/director_1771565877_2d47423f.jpg"
+                        alt="Director Image" class="img-fluid" />
+                                    </div>
+                <div class="description">
+                    <p>It is my pleasure to be associated with the Indian Institute of Information Technology, Kalyani as its Director. Before taking up this assignment, I have been a Professor in the Dept. of Electronics and Electrical Communication Engineering, Indian Institute of Technology, Kharagpur and also Associate Dean, Faculty of Engineering and Architecture of the institute. From my undergraduate studies till PhD I have been in the Computer Science and Engineering specialization. In this background, I joining IIIT Kalyani give the opportunity to explore both the software and hardware challenges of Information...</p>                </div>
+            </div>
+            <div class="description">
+                <strong>Prof. Santanu Chattopadhyay</strong><br />
+                Director, IIIT Kalyani            </div>
+            <div class="btn-box">
+                <a href="/director-message"
+                    class="know_more">
+                    <span class="text">Explore Now</span>
+                    <span class="arrow"><i class="bi bi-chevron-double-right"></i></span>
+                </a>
+            </div>
+        </div>
+        
+      <div class="card research-card">
+            <h2>Research Facilities</h2>
+            <!--             <div class="research-description">
+                            </div>
+             -->
+
+                          <ul>
+                
+                        <li>
+                           
+                                                  <a href="https://iiitkalyani.ac.in/api/serve/2026/02/23/Computing_Lab__4___1__1771851807_67c200bf.jpg" target="_blank" class="text-decoration-none text-reset">
+                            <span class="circle-icon"></span> Computing Lab 
+                         </a>
+                        </li>
+                    
+                
+                        <li>
+                           
+                                                  <a href="https://iiitkalyani.ac.in/api/serve/2026/02/19/SHE_Lab_brochure_for_inst_website_1771489718_e8f4e70e.pdf" target="_blank" class="text-decoration-none text-reset">
+                            <span class="circle-icon"></span> Sensors for Health-care and Environmental monitoring (SHE) Lab                      
+                         </a>
+                        </li>
+                    
+                
+                        <li>
+                           
+                                                  <a href="https://iiitkalyani.ac.in/visvesvaraya-phd-scheme-1" target="_blank" class="text-decoration-none text-reset">
+                            <span class="circle-icon"></span> Full-time, part-time PhD, Post-Doctoral candidates and  Young Faculty Research Fellowship (YFRF) under “Visvesvaraya PhD Scheme&quot; 
+                         </a>
+                        </li>
+                    
+                
+                        <li>
+                           
+                                                  <a href="https://iiitkalyani.ac.in/api/serve/2025/08/27/5glab.pdf" target="_blank" class="text-decoration-none text-reset">
+                            <span class="circle-icon"></span> The 5G Lab 
+                         </a>
+                        </li>
+                    
+                
+                        <li>
+                           
+                                                  <a href="https://iiitkalyani.ac.in/api/serve/2025/08/27/VLSI-LAb-Brochure.pdf" target="_blank" class="text-decoration-none text-reset">
+                            <span class="circle-icon"></span> The VLSI Lab 
+                         </a>
+                        </li>
+                    
+                
+                        <li>
+                           
+                                                  <a href="https://phd.dic.gov.in/" target="_blank" class="text-decoration-none text-reset">
+                            <span class="circle-icon"></span> Visvesvaraya PhD and Post-Doctoral Scheme 
+                         </a>
+                        </li>
+                    
+                             </ul>
+                        <div class="btn-box">
+                <a href="https://iiitkalyani.ac.in/en/research-facility"
+                    class="know_more">
+                    <span class="text">Explore Now</span>
+                    <span class="arrow"><i class="bi bi-chevron-double-right"></i></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="card announcements-card">
+            <h2>Announcements</h2>
+            <ul>
+                                                <li>
+                                        <a href="https://iiitkalyani.ac.in/en/e-notice/order-of-revised-hra-27" target="_self">
+                        Order of Revised HRA-27%                    </a><br />
+                    <span>18 Feb 2026</span>
+                </li>
+                                <li>
+                                        <a href="https://iiitkalyani.ac.in/en/e-notice/grant-of-status-of-centrally-funded-institutes-of-moe-to-iiit-ppp" target="_self">
+                        Grant of status of Centrally Funded Institutes of MoE to IIIT PPP                    </a><br />
+                    <span>18 Feb 2026</span>
+                </li>
+                                <li>
+                                        <a href="https://iiitkalyani.ac.in/list-of-candidates-shortlisted-for-phd-admission-test-and-interview" target="_blank">
+                        Advertisement for PhD Admission_2024-2025 Spring Semester- GForm                    </a><br />
+                    <span>18 Feb 2026</span>
+                </li>
+                                            </ul>
+            <div class="btn-box">
+                <a href="https://iiitkalyani.ac.in/en/announcement"
+                    class="know_more">
+                    <span class="text">Explore Now</span>
+                    <span class="arrow"><i class="bi bi-chevron-double-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Discover Section -->
+<section class="discover-section" style="display:none">
+    <div class="container-fluid">
+        <h2>Discover</h2>
+                <div class="no-data-message">
+            <p style="text-align: center; padding: 40px; color: #666; font-size: 16px;">
+                <em>No discover data available at the moment.</em>
+            </p>
+        </div>
+            </div>
+</section>
+
+<!-- Events Section -->
+<section class="event-section">
+    <div class="container-fluid">
+        <h2>Events</h2>
+        <div class="event-box owl-carousel">
+                                    <div class="item">
+                                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/13/NSD4_1770963615_74b697b8.jpeg" alt="National Space Day" />
+                <div class="event-info">
+                    <a href="https://iiitkalyani.ac.in/events/national-space-day"
+                        target="_self">National Space Day</a>
+                                        <div class="event-date">Feb 13, 2026</div>
+                                    </div>
+            </div>
+                        <div class="item">
+                                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/13/NVD41_1770963674_84a5fcee.jpeg" alt="National Voters Day" />
+                <div class="event-info">
+                    <a href="https://iiitkalyani.ac.in/events/national-voters-day"
+                        target="_self">National Voters Day</a>
+                                        <div class="event-date">Feb 13, 2026</div>
+                                    </div>
+            </div>
+                        <div class="item">
+                                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/13/7a_1770965875_8de593d8.jpg" alt="GIAN Workshop" />
+                <div class="event-info">
+                    <a href="https://iiitkalyani.ac.in/events/gian-workshop"
+                        target="_self">GIAN Workshop</a>
+                                        <div class="event-date">Feb 13, 2026</div>
+                                    </div>
+            </div>
+                        <div class="item">
+                                <img src="https://iiitkalyani.ac.in/api/serve/2026/02/13/essay-compitition1_1770966783_9a48391e.png" alt="Winners of the photo competition and the essay competition" />
+                <div class="event-info">
+                    <a href="https://iiitkalyani.ac.in/events/winners-of-the-photo-competition-and-the-essay-competition"
+                        target="_self">Winners of the photo competition and the essay competition</a>
+                                        <div class="event-date">Feb 13, 2026</div>
+                                    </div>
+            </div>
+                                </div>
+
+        <div class="btn-box explore-now">
+            <a href="/events"
+                class="know_more">
+                <span class="text">Explore Now</span>
+                <span class="arrow"><i class="bi bi-chevron-double-right"></i></span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- Achievements-Sponsored Projects-Portals Section -->
+<section class="achievements-section">
+    <div class="container-fluid">
+
+    <div class="achievements-box">
+        <h2>Achievements</h2>
+                <div class="achievements-list">
+            <ul>
+                
+                                             
+                   <li>
+                            Mr. Sourabh Biswas received Best Paper award in 5th Intl. Conf. IEEE PKIA-24, Bangalore, 5-6, Sept, 2024 for the paper “On The Comparative Study of Recent Information Set Decoding (ISD) attacks for QC-LDPC Codebased McEliece Cryptosystem”                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Ms. Sreeparna Ganguly (Senior Research Fellow under the supervision of Dr. Imon Mukherjee) was awarded Travel Grant to the Fifth Indian Symposium on Machine Learning (IndoML) 2024, sponsored by Directorate of Higher Education, Government of Goa.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Ms. Sreeparna Ganguly won Best Paper Award for “Disjunctive Edge Map based Image Sterilization for Destruction of Steganograms in Spatial Domain” in IEEE Silchar Subsection Conference (IEEE SILCON), 2023, under the supervision of Dr. Imon Mukherjee.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Ms. Sreeparna Ganguly won Best Presentation Award for “Annihilation of Image Stegogram through Deep Texture Extraction based Sterilization” in IEEE CIS Workshop on Women in Artificial Intelligence 2024, organized by IIT Indore, under the supervision                       
+                  </li>
+
+                
+                                             
+                   <li>
+                            Mr. Sourav Das, a PhD Scholar in the Dept. of CSE (Supervised by Dr. Sanjay Chatterji and Co-supervised by Dr. Imon Mukherjee), has been successfully selected for a Remote Research Internship Program at the Indian Institute of Science Education and R                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Mr. Sourav Das has been selected for the prestigious National-level ACM Anveshan Setu Ph.D. Fellowship Program in January 2023.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Mr. Soumen Bajpayee (Supervised by Dr. Imon Mukherjee) published one chapter in the Springer CCIS book series in ICSP&amp;amp;#039;2024.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Abhik Maji (2025 batch) was a finalist in Flipkart Grid 6.0 and secured a Pre-Placement Offer (PPO) for his outstanding performance.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Ayushman Bhatt secured AIR 64 in GATE 2024.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Mr. Sourav Das received the Best Doctoral Research award at the 10th International Conference on Pattern Recognition and Machine Intelligence (PReMI&amp;#039;23) by the Indian Statistical Institute, Kolkata, in December 2023.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Mr. Sourav Das received the Diversity &amp;amp;amp; Inclusion Award for the flagship joint conference of the 59th Annual Meeting of the Association for Computational Linguistics (ACL 2021) in 2021.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Mr. Soumen Bajpayee served as a resource person in an ATAL FDP (2024) organized at Supreme Knowledge Foundation and in a workshop organized by Amity University, Kolkata (2025).                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Mr. Sayan De published a journal paper, titled &amp;amp;quot;Fine-tuned encoder models with data augmentation beat ChatGPT in agricultural named entity recognition and relation extraction&amp;amp;quot; in Expert Systems with Applications, SCIE, Impact Factor 7.5, under the su                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Mr. Sourav Karmakar published a journal paper, titled &amp;amp;quot;2D V2C MXene Based Flexible Gas Sensor for Highly Selective and Sensitive Toluene Detection at Room Temperature&amp;amp;quot; in ACS Applied Electronic Materials, under the supervision of Dr. Rinky Sha.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Arindo Mondal secured AIR 665 in GATE 2025.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Rahul Dewangan secured AIR 1023 in GATE 2025.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Nikhil Laxminarayan completed a Summer Research Internship at IIT Delhi in hybrid mode.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Pranjali Sirari (2027 batch) secured 2 Gold and 1 Silver medal in Swimming at the INTER IIIT SPORTS MEET 2025.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Sahil Kumar (2026 batch) secured 2 Bronze medals in Swimming at the INTER IIIT SPORTS MEET 2025.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Pritwish Dey’s paper on quantum public key cryptography was accepted at ICSP 2024 and published as a Springer book chapter. He also interned at IISc Bangalore (CPDM), working on mixed reality with Unity and HoloLens 2.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Team Mecha Wafers (Subradeep Mondol, Satadru Haldar, Soumyadeep Kundu and Soumyajit Pradhan) was selected among the top ideas at IDEAPOOL during TechBiz 2024, organized by RISE Foundation IISER in collaboration with IKP PRIME and IISER Kolkata.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Team Coding Pirates (Mohit Kumar Shaw, Aditya Arya, Ankit Kumar Soni, Aman Kumar, and Tanishka Jain) secured 4th rank out of 402 teams in the Cyber Hackathon 2025, Govt. of Bihar.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Competitive Programming Achievements: - LeetCode: Guardian (2125), Top 1.4%, 1200+ problems - Codeforces: Expert (1634), 800+ problems - CodeChef: 4★ (1914), Rank 94/30,000+ - Meta Hacker Cup 2024: Round 2, Global Rank 2896/22,495 - 10+ students earn                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Three teams from the 2026 batch were selected as finalists for the Smart India Hackathon – 2 teams under Software and 1 team under Hardware category.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Team Hacking Commission (Aditya Agarwal, Akash Parua, Subham Maji) reached the final round (Top 30) in Electhon 2023.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Team XYZ (Sagar Mankoti, Bhaskar Metiya, Subhadeep Mondal) was a Regionalist in ACM ICPC Amritapuri 2023, securing Rank 133 out of 3731 teams.                      
+                  </li>
+
+                
+                                             
+                   <li>
+                            Google Summer of Code Achievers: Rishi Kumar (GSoC 2023), Shubham Kumar (GSoC 2023), Akshit Choudhari (GSoC 2023), Aditya Agarwal (GSoC 2023), Prayag Biswas (GSoC 2023), Ankit Gupta (GSoC 2022).                      
+                  </li>
+
+                            </ul>
+        </div>
+         <div class="btn-box">
+                <a class="btn btn-info" href="https://iiitkalyani.ac.in/en/students-achievement" style="background-color:#1ab2aa" target="_blank">
+                    <span class="text">Explore Now</span>
+                    <span class="arrow"><i class="bi bi-chevron-double-right"></i></span>
+                </a>
+           </div>
+           </div>
+
+
+ <div class="sponsored-projects-box">
+    <h2>Sponsored Projects</h2>
+            <div class="sponsored-projects-list">
+          
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Wave Propagation in  Thermoelastic Media  </b><br>
+                                                        <i>Sponsor:</i> Science and Engineering Research Board (SERB), Department of Science and Technology, Government of India <b> — 1920200</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Investigation on the propagation characteristic of  thermo-elastic wave  in piezothermoelastic media  </b><br>
+                                                        <i>Sponsor:</i> Science and Engineering Research Board (SERB), Department of Science and Technology, Government of India <b> — 1586560</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Prediction of Walking Imbalance and Performance Improvement of Designed Prosthetic Lower Limb  </b><br>
+                                                         <b> — 30.56</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Development of code-based PQC algorithms and its security analysis.  </b><br>
+                                                        <i>Sponsor:</i> Sponsored by CAIR, DRDO, Bangalore, India <b> — 49.98</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Ongoing Development of code-based PQC signature scheme and its security analysis. (As Co-PI)  </b><br>
+                                                        <i>Sponsor:</i> Sponsored by CAIR, DRDO, Bangalore, India) (Cost: ₹48.96 L <b> — 48.96</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b>  Development of Cryptanalytic Tools for Hamming Metric Post-quantum and Design of selected Post-Quantum Code-Based Cryptosystem.  </b><br>
+                                                        <i>Sponsor:</i> Sponsored by SAG, DRDO, New Delhi, India <b> — 46</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Study of Quantum Attacks on Stream Ciphers and Its Counter-Measures  </b><br>
+                                                        <i>Sponsor:</i> DRDO, Govt. of India. <b> — 42.25</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Extraction, Organization and Query of Scholarly Information   </b><br>
+                                                        <i>Sponsor:</i> SERB (CRG), Govt. of India <b> — 45.61</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> AI in Agriculture &amp;amp;amp;amp;amp; Food Sustainability  </b><br>
+                                                        <i>Sponsor:</i> MeitY, Govt. of India <b> — 16.18</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Implementation of Security in eGovernance through Steganography  </b><br>
+                                                        <i>Sponsor:</i> DST, Govt. of West Bengal <b> — 1.85</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Automated helmet detection for motorcyclists from traffic surveillance videos using deep convolutional neural network  </b><br>
+                                                        <i>Sponsor:</i> Women Scientists Scheme-A (WOS-A), Department of Science &amp;amp; Technology (DST), Ministry of Science &amp;amp; Technology Government of India <b> — 3322560</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> VLSI Implementation of Crypto-Hardware targeting Classical and Post-Quantum Cryptography  </b><br>
+                                                        <i>Sponsor:</i> MeitY, Chips to Startup (C2S) Programme <b> — 84.40</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Fabrication of artificial intelligence-enabled 2D-MXenes based label-free electrochemical immunosensor for detection of CA15-3, a novel biomarker for breast cancer  </b><br>
+                                                        <i>Sponsor:</i> Indian Council of Medical Research (ICMR) <b> — 131.00</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> AI for Agriculture &amp;amp; Food Sustainability  </b><br>
+                                                        <i>Sponsor:</i> MeiTY, Government of India <b> — 1680000</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Automatic Image-based Crop Disease Detection and Severity Estimation  </b><br>
+                                                        <i>Sponsor:</i> DST, Government of West Bengal <b> — 1220000</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Real Time Prediction of Signal Strength and Atmospheric Losses using Machine Learning for 4G LTE and 5G Communication  </b><br>
+                                                        <i>Sponsor:</i> DST, Government of West Bengal <b> — 1270000</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Quantum Cryptanalysis and Resource Estimation using Grover Search for Symmetric Key Ciphers  </b><br>
+                                                        <i>Sponsor:</i> SAG Laboratory, Defence Research and Development Organisation (DRDO), New Delhi, India <b> — 37.09</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> VLSI Implementation of Crypto-Hardware targeting Classical and Post- Quantum Cryptography  </b><br>
+                                                        <i>Sponsor:</i> Ministry of Electronics &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Information Technology (MeitY), Chips to Startup (C2S) Programme <b></b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Design and Implementation of 2PAKA Protocol for IoT Devices using Post-Quantum Cryptography  </b><br>
+                                                        <i>Sponsor:</i> National Centre of Excellence (NCoE) &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Data Security Council of India (DSCI)  <b> — 4.90</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Outstanding Potential for Excellence in Research and Academics (OPERA) Research Grant  </b><br>
+                                                        <i>Sponsor:</i> BITS Pilani <b></b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                            
+           
+                 
+
+          
+                                    
+                      <ul>
+                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Long Short Term Memory based Neural Network Approach for Prediction of Wintertime Fog over Northern India  </b><br>
+                                                        <i>Sponsor:</i> Ministry of Earth Sciences (MoES) <b> — 24.37</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Cyclone Intensity and Track Prediction using Deep Learning  </b><br>
+                                                        <i>Sponsor:</i> Science and Engineering Research Board (SERB), Department of Science and Technology (DST), Govt. of India, Grant Type: SERB Power Grant (SPG) <b> — 26.43</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Short-term Variability in Sun-Synchronous and Non-Sun Synchronous Tides in the Middle Atmosphere from Investigations of Contemporaneous Satellite, Model and Reanalysis Data’  </b><br>
+                                                        <i>Sponsor:</i> Govt. of India sponsored project ECR/2017/002258 <b> — 20.30</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                            
+
+                                                                                        
+                                                <li>
+                                                        <b> Small scale and transient features in the Mesosphere Lower Thermosphere (MLT) region using airglow technique  </b><br>
+                                                        <i>Sponsor:</i> Indian Space Research Organisation (ISRO) <b> — 27.53</b>
+                                               </li>
+                                            
+                                            
+          
+
+
+                                                                                </ul>
+
+                    
+           
+                    </div>
+
+            <div class="btn-box">
+                <a class="btn btn-info" href="https://iiitkalyani.ac.in/en/sponsored-projects" style="background-color:#1ab2aa" target="_blank">
+                    <span class="text">Explore Now</span>
+                    <span class="arrow"><i class="bi bi-chevron-double-right"></i></span>
+                </a>
+           </div>
+     
+
+</div>
+
+
+
+<div class="portals-box">
+    <h2>Portals</h2>
+            <div class="portals-list">
+            <ul>
+                                               
+                   <li> <a href="https://main.trai.gov.in/" target="_blank" style="text-decoration:none">
+                            TRAI                        </a>
+                  </li>
+
+                                               
+                   <li> <a href="https://pmrf.in/" target="_blank" style="text-decoration:none">
+                            Prime Minister Research Fellowship                        </a>
+                  </li>
+
+                                               
+                   <li> <a href="https://unnatbharatabhiyan.gov.in/" target="_blank" style="text-decoration:none">
+                            Unnat Bharat Abhiyan                        </a>
+                  </li>
+
+                                               
+                   <li> <a href="http://www.vidyalakshmi.co.in/Students/" target="_blank" style="text-decoration:none">
+                            Vidya Lakshmi                        </a>
+                  </li>
+
+                        </ul>
+        </div>
+
+        <div class="btn-box">
+        <a class="btn btn-info" href="https://iiitkalyani.ac.in/en/portals" style="background-color:#1ab2aa" target="_blank">
+            <span class="text">Explore Now</span>
+            <span class="arrow"><i class="bi bi-chevron-double-right"></i></span>
+        </a>
+      </div>
+     
+      
+</div> 
+
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Life Gallery Section -->
+<section class="life-gallery-section">
+    <div class="life-gallery-grid gallery">
+        
+                <!-- First Column -->
+        <div class="item">
+                        <div class="img_box">
+                                        <a href="https://old.iiitkalyani.ac.in/index.php" target="_blank">
+                                    <img src="https://iiitkalyani.ac.in/api/serve/2026/02/23/ev1_1771833086_42be85d2.png"
+                        alt="" />
+                 </a>
+            
+            </div>
+            
+                        <div class="img_box">
+                                         <a href="https://iiitkalyani.ac.in/api/serve/2025/08/14/y1_1.png"
+                            data-fancybox="gallery">
+                                    <img src="https://iiitkalyani.ac.in/api/serve/2025/08/14/y1_1.png"
+                        alt="" />
+                </a>
+               
+            </div>
+                    </div>
+
+        <!-- Second Column with Title -->
+        <div class="item">
+                        <div class="img_box">
+                                         <a href="https://iiitkalyani.ac.in/api/serve/2025/08/14/VIEW-FROM-THE-ENTRANCE-21-1_2.png"
+                            data-fancybox="gallery">
+                                    <img src="https://iiitkalyani.ac.in/api/serve/2025/08/14/VIEW-FROM-THE-ENTRANCE-21-1_2.png"
+                        alt="" />
+                </a>
+            
+            </div>
+            
+            <div class="item-box">
+                <h2 class="gallery-title">
+                    Life @ IIIT Kalyani                    <hr />
+                </h2>
+            </div>
+
+                        <div class="img_box">
+                                        <a href="https://iiitkalyani.ac.in/api/serve/2025/08/14/VIEW-FROM-THE-ENTRANCE-21-1_3.png"
+                            data-fancybox="gallery">
+                                    <img src="https://iiitkalyani.ac.in/api/serve/2025/08/14/VIEW-FROM-THE-ENTRANCE-21-1_3.png"
+                        alt="" />
+                </a>
+               
+            </div>
+                    </div>
+
+        <!-- Third Column -->
+        <div class="item">
+                        <div class="img_box">
+                                       <a href="https://iiitkalyani.ac.in/api/serve/2025/08/14/VIEW-FROM-THE-ENTRANCE-22-2_1.png"
+                            data-fancybox="gallery">
+                                    <img src="https://iiitkalyani.ac.in/api/serve/2025/08/14/VIEW-FROM-THE-ENTRANCE-22-2_1.png"
+                        alt="" />
+                </a>
+              
+            </div>
+            
+                        <div class="img_box">
+                                             <a href="https://iiitkalyani.ac.in/api/serve/2025/08/14/VIEW-FROM-THE-ENTRANCE-18-1.png"
+                                    data-fancybox="gallery">
+                                            <img src="https://iiitkalyani.ac.in/api/serve/2025/08/14/VIEW-FROM-THE-ENTRANCE-18-1.png"
+                        alt="" />
+                   
+                   </a>
+               
+            </div>
+                    </div>
+            </div>
+</section>
+
+    </main>
+
+    
+<footer>
+    <div class="container-fluid">
+        <div class="footer-grid">
+            <div class="contact-address">
+                <a href="https://iiitkalyani.ac.in/">
+                                            <img src="https://iiitkalyani.ac.in/api/serve/2025/08/08/footer-image.png" 
+                             alt="IIIT Kalyani" class="img-fluid footer_logo" />
+                                    </a>
+                <div class="contact-list">
+                    <ul>
+                                                                                    <li class="email">iiitkalyani.office@gmail.com</li>
+                                                            <li class="email">office@iiitkalyani.ac.in</li>
+                                                            <li class="email">website@iiitkalyani.ac.in</li>
+                                                                        </ul>
+                </div>
+            </div>
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <div class="footer-links">
+                    <ul><li><a href="https://iiitkalyani.ac.in/gallery-1" >Gallery</a></li><li><a href="https://old.iiitkalyani.ac.in/placement/" >Placement portal</a></li><li><a href="https://iiitkalyani.ac.in/e-notice-board-1" >e-Notice Board</a></li></ul>                </div>
+            </div>
+            <div class="important-links">
+                <h4>Contact Us</h4>
+                <div class="social-icon">
+                    <ul>
+                                                                                    <li>
+                                    <a href="https://www.linkedin.com/school/indian-institute-of-information-technology-kalyani/">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.facebook.com/iiitkalyani">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="https://x.com/iiit_kalyani?s=20">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </li>
+                                                                        </ul>
+                </div>
+                <div class="footer-links">
+                                        <ul>
+                        <li><span>Visitor counter: </span>90,403,556</li>
+                        <li><span>Visitor today: </span>855</li>
+                        <li><span>Last Updated on: </span>31/03/2026</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Government Logo Carousel -->
+        
+                                <div class="owl-carousel owl-theme small-links-carousel">
+                            <div class="item">
+                    <a href="">
+                        <img src="https://iiitkalyani.ac.in/api/serve/2025/08/08/imasges.png" alt="" />
+                    </a>
+                </div>
+                            <div class="item">
+                    <a href="">
+                        <img src="https://iiitkalyani.ac.in/api/serve/2025/08/08/fitindia.png" alt="" />
+                    </a>
+                </div>
+                            <div class="item">
+                    <a href="">
+                        <img src="https://iiitkalyani.ac.in/api/serve/2025/08/08/fitindsssia.png" alt="" />
+                    </a>
+                </div>
+                    </div>
+            </div>
+    <hr />
+    <div class="footer-bottom container-fluid">
+        <div class="des">
+              © 2026 Indian Institute of Information Technology Kalyani        </div>
+    </div>
+</footer>
+    <!-- Core JS -->
+    <script src="https://iiitkalyani.ac.in/design/front/assets/laibray/jquery/jquery-3.7.1.min.js"></script>
+    <script src="https://iiitkalyani.ac.in/design/front/assets/laibray/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://iiitkalyani.ac.in/design/front/assets/laibray/owlcarousel/owl.carousel.js"></script>
+    <script src="https://iiitkalyani.ac.in/design/front/assets/js/jquery.fancybox.min.js"></script>
+    <script src="https://iiitkalyani.ac.in/design/front/assets/laibray/bootstrap/jquery.bootstrap.newsbox.js"></script>
+    <script src="https://iiitkalyani.ac.in/design/front/assets/js/menu-script.js"></script>
+    <script src="https://iiitkalyani.ac.in/design/front/assets/js/custom-script.js"></script>
+
+    <!-- Search Autocomplete Script -->
+    <script>
+    (function() {
+        const searchInput = document.getElementById('header-search-input');
+        const suggestionsBox = document.getElementById('search-suggestions');
+        const searchWrapper = document.getElementById('header-search-wrapper');
+        let debounceTimer;
+        let currentFocus = -1;
+        const currentLang = 'en';
+
+        if (!searchInput || !suggestionsBox) return;
+
+        searchInput.addEventListener('input', function() {
+            const query = this.value.trim();
+            clearTimeout(debounceTimer);
+
+            if (query.length < 2) {
+                hideSuggestions();
+                return;
+            }
+
+            debounceTimer = setTimeout(() => fetchSuggestions(query), 300);
+        });
+
+        searchInput.addEventListener('keydown', function(e) {
+            const items = suggestionsBox.querySelectorAll('.suggestion-item');
+
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                currentFocus++;
+                setActive(items);
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                currentFocus--;
+                setActive(items);
+            } else if (e.key === 'Enter' && currentFocus > -1) {
+                e.preventDefault();
+                if (items[currentFocus]) {
+                    items[currentFocus].click();
+                }
+            } else if (e.key === 'Escape') {
+                hideSuggestions();
+            }
+        });
+
+        searchInput.addEventListener('focus', function() {
+            if (suggestionsBox.innerHTML.trim()) {
+                suggestionsBox.style.display = 'block';
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!searchWrapper.contains(e.target)) {
+                hideSuggestions();
+            }
+        });
+
+        function fetchSuggestions(query) {
+            fetch(`https://iiitkalyani.ac.in/${currentLang}/search/suggest?q=${encodeURIComponent(query)}`)
+                .then(res => res.json())
+                .then(data => {
+                    if (data.suggestions && data.suggestions.length > 0) {
+                        showSuggestions(data.suggestions);
+                    } else {
+                        hideSuggestions();
+                    }
+                })
+                .catch(() => hideSuggestions());
+        }
+
+        function showSuggestions(suggestions) {
+            currentFocus = -1;
+            let html = '';
+
+            suggestions.forEach((item, index) => {
+                html += `<a href="${item.url}" class="suggestion-item" data-index="${index}">
+                    <span class="suggestion-title">${escapeHtml(item.title)}</span>
+                    <span class="suggestion-type">${escapeHtml(item.type_label)}</span>
+                </a>`;
+            });
+
+            html += `<a href="https://iiitkalyani.ac.in/${currentLang}/search?q=${encodeURIComponent(searchInput.value)}" class="suggestion-item suggestion-all">
+                <i class="bi bi-search"></i> Search for "${escapeHtml(searchInput.value)}"
+            </a>`;
+
+            suggestionsBox.innerHTML = html;
+            suggestionsBox.style.display = 'block';
+        }
+
+        function hideSuggestions() {
+            suggestionsBox.style.display = 'none';
+            currentFocus = -1;
+        }
+
+        function setActive(items) {
+            if (!items.length) return;
+
+            items.forEach(item => item.classList.remove('active'));
+
+            if (currentFocus >= items.length) currentFocus = 0;
+            if (currentFocus < 0) currentFocus = items.length - 1;
+
+            items[currentFocus].classList.add('active');
+            items[currentFocus].scrollIntoView({
+                block: 'nearest'
+            });
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    })();
+    </script>
+
+    <!-- Additional JS (like Fancybox) -->
+    
+    <!-- Page Specific JS -->
+    
+    <!-- Additional Sections JS -->
+    
+<script>
+(function() {
+    "use strict";
+    
+    // jQuery Security Loader
+    var jQuerySecurity = {
+        version: "3.7.1",
+        checkVersion: function() {
+            if (window.jQuery) {
+                var currentVersion = jQuery.fn.jquery;
+                if (this.isVulnerable(currentVersion)) {
+                    console.warn("jQuery Security Warning: Vulnerable version detected (" + currentVersion + "). Please upgrade to " + this.version + " or later.");
+                    this.showSecurityWarning(currentVersion);
+                }
+            }
+        },
+        isVulnerable: function(version) {
+            var vulnerableVersions = ["3.7.0", "3.6.4", "3.6.3", "3.6.2", "3.6.1", "3.6.0"];
+            return vulnerableVersions.indexOf(version) !== -1;
+        },
+        showSecurityWarning: function(version) {
+            if (console && console.warn) {
+                console.warn("Security Advisory: jQuery " + version + " has known vulnerabilities. Update to " + this.version);
+            }
+        }
+    };
+    
+    // Check on DOM ready
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", function() {
+            jQuerySecurity.checkVersion();
+        });
+    } else {
+        jQuerySecurity.checkVersion();
+    }
+})();
+</script></body>
+
+</html>

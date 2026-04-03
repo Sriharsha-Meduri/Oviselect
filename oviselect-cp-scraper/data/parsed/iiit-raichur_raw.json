@@ -1,0 +1,33 @@
+{
+  "institute": "Indian institute of information technology, Raichur, Karnataka",
+  "also_known_as": "IIIT Raichur",
+  "institute_type": "IIIT",
+  "established_year": 2019,
+  "city": "Raichur",
+  "state": "Karnataka",
+  "address": "Indian Institute of Information Technology Raichur - Transit Campus, Government Engineering College, Yermarus, Yegnur, Raichur, Karnataka - 584134",
+  "nearest_airport": "Rajiv Gandhi International Airport, Hyderabad",
+  "nearest_airport_km": 191.0,
+  "nearest_railway_station": "Raichur Junction Railway Station",
+  "nearest_railway_km": 9.5,
+  "caution_money": 15000,
+  "one_time_fees": 20000,
+  "tuition_fee_per_sem": 110000,
+  "annual_fees": 1550,
+  "total_institute_fee": 172550,
+  "hostel_fee_per_sem": 7000,
+  "mess_advance_per_sem": 30000,
+  "total_hostel_fee": 47000,
+  "placement_year": 2023,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iiit-raichur",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-raichur",
+  "last_scraped_at": "2026-03-31T16:19:26.915782",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iiitrl.ac.in"
+}

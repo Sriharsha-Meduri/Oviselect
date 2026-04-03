@@ -1,0 +1,128 @@
+{
+  "institute": "NIT, Tiruchirappalli",
+  "also_known_as": "NITT",
+  "institute_type": "NIT",
+  "established_year": 1964,
+  "city": "Tiruchirappalli",
+  "state": "Tamil Nadu",
+  "address": "National Institute of Technology, Tanjore Main Road, National Highway 67, Tiruchirappalli, Tamil Nadu - 620015",
+  "nearest_airport": "Tiruchirappalli International Airport",
+  "nearest_airport_km": 18.0,
+  "nearest_railway_station": "Tiruchirappalli Junction Railway Station",
+  "nearest_railway_km": 19.5,
+  "qs_world_rank": "731-740 (2026)",
+  "qs_asia_rank": "393 (2026)",
+  "nirf_overall_rank": 30,
+  "nirf_engineering_rank": 9,
+  "nirf_research_rank": 33,
+  "nirf_innovation_rank": "11-50 (2025)",
+  "outlook_rank": 9,
+  "the_week_rank": 9,
+  "caution_money": 8500,
+  "one_time_fees": 23650,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 22850,
+  "total_institute_fee": 117500,
+  "hostel_fee_per_sem": 14650,
+  "mess_advance_per_sem": 22500,
+  "total_hostel_fee": 53000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 89.03,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 92.0,
+    "Civil Engineering": 76.19,
+    "Computer Science and Engineering": 96.92,
+    "Electrical and Electronics Engineering": 92.23,
+    "Electronics and Communication Engineering": 88.6,
+    "Instrumentation and Control Engineering": 90.72,
+    "Mechanical Engineering": 90.63,
+    "Metallurgical and Materials Engineering": 79.03,
+    "Production Engineering": 87.23,
+    "Architecture": 90.0,
+    "Overall (UG)": 89.03
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 11.67,
+    "Civil Engineering": 10.83,
+    "Computer Science and Engineering": 29.0,
+    "Electrical and Electronics Engineering": 16.5,
+    "Electronics and Communication Engineering": 23.0,
+    "Instrumentation and Control Engineering": 17.0,
+    "Mechanical Engineering": 11.68,
+    "Metallurgical and Materials Engineering": 10.0,
+    "Production Engineering": 12.6
+  },
+  "median_package_lpa": 15.81,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 12.54,
+    "Civil Engineering": 13.0,
+    "Computer Science and Engineering": 27.27,
+    "Electrical and Electronics Engineering": 19.3,
+    "Electronics and Communication Engineering": 23.0,
+    "Instrumentation and Control Engineering": 18.46,
+    "Mechanical Engineering": 13.55,
+    "Metallurgical and Materials Engineering": 13.58,
+    "Production Engineering": 14.31
+  },
+  "avg_package_lpa": 17.22,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "B.Arch. - 5 Years"
+  ],
+  "_slug": "nit-trichy",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-trichy",
+  "last_scraped_at": "2026-03-31T16:01:55.528324",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitt.edu",
+  "placement_officer": {
+    "email": "tp@nitt.edu",
+    "phone": "9486001174"
+  },
+  "top_recruiters": [
+    "Computer Support Group",
+    "Faculty",
+    "Campus Placement Procedure",
+    "Why recruit at NITT",
+    "Guidelines to recruiters",
+    "Companies that visit us",
+    "Guidance for students",
+    "Download",
+    "CENTRAL LIBRARY",
+    "Hostels and Mess",
+    "Hospital",
+    "Shopping Center",
+    "Transport",
+    "Physical Education / Sports Center / SAS Office",
+    "Security",
+    "Campus Communication Services",
+    "Estate Maintenance",
+    "Office of the First year Coordinator",
+    "Lecture Hall Complex",
+    "Guest House",
+    "Quarters",
+    "Central Workshop",
+    "Census Data Research Workstation"
+  ],
+  "phd_available": true,
+  "student_activities": {
+    "clubs": [
+      "Computer Support Group"
+    ],
+    "technical_fests": [
+      "National Institute of Technology Tiruchirappalli - 620015 Tamil Nadu, INDIA Fax: +91-431-2500133"
+    ],
+    "has_nss": true,
+    "has_ncc": true
+  },
+  "international_relations": {
+    "mou_count": 7
+  }
+}

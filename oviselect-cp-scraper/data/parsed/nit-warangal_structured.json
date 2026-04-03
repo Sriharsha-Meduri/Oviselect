@@ -1,0 +1,189 @@
+{
+  "institute": "NIT, Warangal",
+  "institute_type": "NIT",
+  "also_known_as": "NITW",
+  "established_year": 1959,
+  "city": "Warangal",
+  "state": "Telangana",
+  "address": "National Institute of Technology, Hanumkonda, Warangal, Telangana - 506004",
+  "nearest_airport": "Rajiv Gandhi International Airport, Hyderabad",
+  "nearest_airport_km": 164.0,
+  "nearest_railway_station": "Kazipet Junction Railway Station",
+  "nearest_railway_km": 5.0,
+  "nirf_overall_rank": 63,
+  "nirf_engineering_rank": 28,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": "771-780 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": 14,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years",
+    "Integrated M.Sc. - 5 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 3000,
+  "mess_advance_per_sem": 15000,
+  "one_time_fees": 30000,
+  "caution_money": 15000,
+  "annual_fees": 12500,
+  "total_institute_fee": 105000,
+  "total_hostel_fee": 46000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 79.64,
+  "avg_package_lpa": 17.9,
+  "median_package_lpa": 15.95,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Bio Technology": 44.45,
+    "Chemical Engineering": 87.21,
+    "Civil Engineering": 73.42,
+    "Computer Science and Engineering": 89.55,
+    "Electrical and Electronics Engineering": 81.09,
+    "Electronics and Communication Engineering": 85.6,
+    "Mechanical Engineering": 82.79,
+    "Metallurgical and Materials Engineering": 66.67,
+    "Overall": 79.64
+  },
+  "branch_wise_median_ctc": {
+    "Bio Technology": 14.0,
+    "Chemical Engineering": 11.77,
+    "Civil Engineering": 10.0,
+    "Computer Science and Engineering": 30.5,
+    "Electrical and Electronics Engineering": 20.0,
+    "Electronics and Communication Engineering": 21.4,
+    "Mechanical Engineering": 11.5,
+    "Metallurgical and Materials Engineering": 11.91,
+    "Overall": 12.5
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Bio Technology": 15.35,
+    "Chemical Engineering": 14.8,
+    "Civil Engineering": 13.0,
+    "Computer Science and Engineering": 30.8,
+    "Electrical and Electronics Engineering": 21.19,
+    "Electronics and Communication Engineering": 23.6,
+    "Mechanical Engineering": 12.4,
+    "Metallurgical and Materials Engineering": 13.0,
+    "Overall": 17.0
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Biotechnology"
+    },
+    {
+      "name": "Chemical Engineering"
+    },
+    {
+      "name": "Chemistry"
+    },
+    {
+      "name": "Civil Engineering"
+    },
+    {
+      "name": "Computer Science & Engineering"
+    },
+    {
+      "name": "Electrical Engineering"
+    },
+    {
+      "name": "Electronics & Communication Engineering"
+    },
+    {
+      "name": "Humanities & Social Sciences"
+    },
+    {
+      "name": "Mathematics"
+    },
+    {
+      "name": "Mechanical Engineering"
+    },
+    {
+      "name": "Metallurgical & Materials Engineering"
+    },
+    {
+      "name": "Physics"
+    },
+    {
+      "name": "Management Studies"
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": false,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": null,
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": false,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": {
+    "clubs": null,
+    "technical_societies": null,
+    "technical_fests": null,
+    "cultural_fests": null,
+    "has_nss": false,
+    "has_ncc": false,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.nitw.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 79,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-warangal",
+  "last_scraped_at": "2026-03-31T16:01:55.552276",
+  "department_count": 13,
+  "total_faculty": 0
+}

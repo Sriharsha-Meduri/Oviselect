@@ -1,0 +1,108 @@
+{
+  "institute": "IIT Guwahati",
+  "also_known_as": "IITG",
+  "institute_type": "IIT",
+  "established_year": 1994,
+  "city": "Guwahati",
+  "state": "Assam",
+  "address": "Indian Institute of Technology, Near Doul Gobinda Road, Amingaon, North Guwahati, Guwahati, Assam - 781039",
+  "nearest_airport": "Lokpriya Gopinath Bordoloi International Airport, Guwahati",
+  "nearest_airport_km": 23.0,
+  "nearest_railway_station": "Guwahati Railway Station",
+  "nearest_railway_km": 19.5,
+  "qs_world_rank": "334 (2026)",
+  "qs_asia_rank": "115 (2026)",
+  "nirf_overall_rank": 2025,
+  "nirf_engineering_rank": 8,
+  "nirf_research_rank": 10,
+  "nirf_innovation_rank": "11-50 (2025)",
+  "outlook_rank": 8,
+  "india_today_rank": 5,
+  "the_week_rank": 7,
+  "caution_money": 2000,
+  "one_time_fees": 5150,
+  "tuition_fee_per_sem": 100000,
+  "annual_fees": 1800,
+  "total_institute_fee": 114150,
+  "hostel_fee_per_sem": 1000,
+  "mess_advance_per_sem": 20000,
+  "total_hostel_fee": 40000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 79.1,
+  "branch_wise_placement_pct": {
+    "Biosciences and Bioengineering": 69.23,
+    "Chemical Engineering": 79.07,
+    "Chemical Science and Technology": 82.69,
+    "Civil Engineering": 65.59,
+    "Computer Science and Engineering": 90.76,
+    "Electronics and Communication Engineering": 84.91,
+    "Electronics and Electrical Engineering": 84.38,
+    "Engineering Physics": 45.24,
+    "Mathematics and Computing": 86.84,
+    "Mechanical Engineering": 79.82,
+    "Overall (B.Tech.)": 79.1
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Bio Technology": 16.32,
+    "Chemical Engineering": 16.25,
+    "Chemical Science and Technology": 16.42,
+    "Civil Engineering": 16.0,
+    "Computer Science and Engineering": 34.48,
+    "Electronics and Communication Engineering Electronics and Electrical Engineering": 25.17,
+    "Engineering Physics": 23.79,
+    "Mathematics and Computing": 28.1,
+    "Mechanical Engineering": 17.23,
+    "Overall (UG)": 21.63
+  },
+  "median_package_lpa": 21.54,
+  "branch_wise_highest_ctc": {
+    "Bio Technology": 39.31,
+    "Chemical Engineering": 51.65,
+    "Chemical Science and Technology": 106.0,
+    "Civil Engineering": 32.0,
+    "Computer Science and Engineering": 240.0,
+    "Electronics and Communication Engineering Electronics and Electrical Engineering": 51.32,
+    "Engineering Physics": 40.93,
+    "Mathematics and Computing": 62.75,
+    "Mechanical Engineering": 51.65,
+    "Overall (UG)": 240.0
+  },
+  "highest_package_lpa": 240.0,
+  "branch_wise_avg_ctc": {
+    "Bio Technology": 18.07,
+    "Chemical Engineering": 19.33,
+    "Chemical Science and Technology": 21.46,
+    "Civil Engineering": 17.74,
+    "Computer Science and Engineering": 42.11,
+    "Electronics and Communication Engineering Electronics and Electrical Engineering": 26.21,
+    "Engineering Physics": 22.66,
+    "Mathematics and Computing": 29.0,
+    "Mechanical Engineering": 19.81,
+    "Overall (UG)": 25.75
+  },
+  "avg_package_lpa": 24.21,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iit-guwahati",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-guwahati",
+  "last_scraped_at": "2026-03-31T16:01:17.715374",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitg.ac.in",
+  "research": {
+    "research_centres": [
+      "Centres",
+      "Centre for Disaster Management and Research",
+      "Head of the Centre",
+      "About Centre for Disaster Management and Research"
+    ]
+  }
+}

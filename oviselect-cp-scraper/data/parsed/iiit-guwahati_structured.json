@@ -1,0 +1,186 @@
+{
+  "institute": "IIIT Guwahati",
+  "institute_type": "IIIT",
+  "also_known_as": "IIITG",
+  "established_year": 2013,
+  "city": "Guwahati",
+  "state": "Assam",
+  "address": "Indian Institute of Information Technology, Bongara, Guwahati, Assam - 781015",
+  "nearest_airport": "Lokpriya Gopinath Bordoloi International Airport, Guwahati",
+  "nearest_airport_km": 7.0,
+  "nearest_railway_station": "Guwahati Railway Station",
+  "nearest_railway_km": 26.5,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": 201,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 137500,
+  "hostel_fee_per_sem": 13750,
+  "mess_advance_per_sem": 16000,
+  "one_time_fees": null,
+  "caution_money": 5000,
+  "annual_fees": null,
+  "total_institute_fee": 142500,
+  "total_hostel_fee": 29750,
+  "fee_waivers": null,
+  "overall_placement_pct": 58.23,
+  "avg_package_lpa": 14.5,
+  "median_package_lpa": 12.83,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 62.6,
+    "Electronics and Communication Engineering": 42.86,
+    "Overall": 58.23
+  },
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 14.5,
+    "Electronics and Communication Engineering": 10.0,
+    "Overall": 14.0
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 17.0,
+    "Electronics and Communication Engineering": 11.0,
+    "Overall": 15.5
+  },
+  "top_recruiters": [
+    "logo",
+    "Home",
+    "Why recruit? About IIITG Academics Research",
+    "Placement status Past Recruiters Past stats",
+    "Past Recruiters",
+    "Past stats",
+    "Placement procedure",
+    "Brochure",
+    "Company registration",
+    "Facilities",
+    "Life at IIITG Clubs Festival Sports",
+    "FAQ FAQs Accommodation Transportation",
+    "Contact Us Team Placement office Reaching IIITG",
+    "...",
+    "Chairman",
+    "Director"
+  ],
+  "placement_year": 2023,
+  "placement_officer": {
+    "name": null,
+    "designation": null,
+    "email": "placement@iiitg.ac.in",
+    "phone": "2022-2025"
+  },
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "General",
+      "hod": null,
+      "faculty_count": 2,
+      "faculty": [
+        {
+          "name": "Mr. Satyabrata Dey",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Prof. Sarat Kumar Patra",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        }
+      ]
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": true,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": {
+      "volumes": null,
+      "journals_subscribed": 218,
+      "digital_databases": [
+        "JSTOR",
+        "ACM"
+      ]
+    },
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": false,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": {
+    "clubs": [
+      "I&E Cell Events Team",
+      "Team"
+    ],
+    "technical_societies": null,
+    "technical_fests": null,
+    "cultural_fests": null,
+    "has_nss": false,
+    "has_ncc": false,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": null,
+  "nirf_overall_rank_history": {
+    "2013": 2017
+  },
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iiitg.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 75,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-guwahati",
+  "last_scraped_at": "2026-03-31T16:16:35.650733",
+  "department_count": 1,
+  "total_faculty": 2
+}

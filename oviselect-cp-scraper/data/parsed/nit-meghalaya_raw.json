@@ -1,0 +1,93 @@
+{
+  "institute": "NIT Meghalaya",
+  "also_known_as": "NITM",
+  "institute_type": "NIT",
+  "established_year": 2010,
+  "city": "Shillong",
+  "state": "Meghalaya",
+  "address": "National Institute of Technology, Saitsohpen, Sohra (Cherrapunji), East Khasi Hills District, Meghalaya - 793108",
+  "nearest_airport": "Shillong Airport",
+  "nearest_airport_km": 81.0,
+  "nearest_railway_station": "Guwahati Railway Station",
+  "nearest_railway_km": 147.0,
+  "qs_asia_rank": "791-800 (2026)",
+  "nirf_engineering_rank": 83,
+  "outlook_rank": 16,
+  "india_today_rank": 56,
+  "caution_money": 5000,
+  "one_time_fees": 5150,
+  "tuition_fee_per_sem": 62500,
+  "annual_fees": 1046,
+  "total_institute_fee": 81696,
+  "hostel_fee_per_sem": 7500,
+  "mess_advance_per_sem": 25000,
+  "total_hostel_fee": 46500,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 62.2,
+  "branch_wise_placement_pct": {
+    "Civil Engineering": 40.91,
+    "Computer Science and Engineering": 51.85,
+    "Electrical and Electronics Engineering": 81.82,
+    "Electronics and Communication Engineering": 65.63,
+    "Mechanical Engineering": 70.83,
+    "Overall": 62.2
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Civil Engineering": 7.5,
+    "Computer Science and Engineering": 14.75,
+    "Electrical and Electronics Engineering": 8.25,
+    "Electronics and Communication Engineering": 9.0,
+    "Mechanical Engineering": 11.0,
+    "Overall": 10.0
+  },
+  "median_package_lpa": 10.08,
+  "branch_wise_avg_ctc": {
+    "Civil Engineering": 9.33,
+    "Computer Science and Engineering": 14.53,
+    "Electrical and Electronics Engineering": 9.15,
+    "Electronics and Communication Engineering": 10.07,
+    "Mechanical Engineering": 10.08,
+    "Overall": 10.99
+  },
+  "avg_package_lpa": 10.69,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "nit-meghalaya",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-meghalaya",
+  "last_scraped_at": "2026-03-31T16:06:18.750762",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.nitm.ac.in",
+  "research": {
+    "research_centres": [
+      "Institutes Facilities",
+      "Centres",
+      "Institute Links"
+    ]
+  },
+  "phd_available": true,
+  "international_relations": {
+    "mous": [
+      {
+        "university": "Institute Ethics Committee",
+        "country": null
+      },
+      {
+        "university": "National Institute of Technology Meghalaya",
+        "country": null
+      },
+      {
+        "university": "Institute Magazine",
+        "country": null
+      }
+    ]
+  }
+}

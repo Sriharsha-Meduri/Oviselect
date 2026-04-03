@@ -1,0 +1,159 @@
+{
+  "institute": "Dr.BRAMNIT, Jalandhar",
+  "institute_type": "NIT",
+  "also_known_as": "NITJ",
+  "established_year": 1987,
+  "city": "Jalandhar",
+  "state": "Punjab",
+  "address": "Dr. B. R. Ambedkar National Institute of Technology, GT Road, Amritsar Bypass Road, Jalandhar, Punjab – 144011",
+  "nearest_airport": "Adampur Airport, Jalandhar",
+  "nearest_airport_km": 32.5,
+  "nearest_railway_station": "Jalandhar City Junction Railway Station",
+  "nearest_railway_km": 14.0,
+  "nirf_overall_rank": 101,
+  "nirf_engineering_rank": 55,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": "11-50 (2023)",
+  "qs_world_rank": null,
+  "qs_asia_rank": "666 (2026)",
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": 15,
+  "the_week_rank": 25,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 62500,
+  "hostel_fee_per_sem": 6000,
+  "mess_advance_per_sem": 25000,
+  "one_time_fees": 500,
+  "caution_money": 5000,
+  "annual_fees": null,
+  "total_institute_fee": 84500,
+  "total_hostel_fee": 44000,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than ₹1 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between ₹1 lakh to ₹5 lakh per annum."
+  ],
+  "overall_placement_pct": 88.78,
+  "avg_package_lpa": 10.62,
+  "median_package_lpa": null,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Bio Technology": 50.0,
+    "Chemical Engineering": 98.11,
+    "Civil Engineering": 80.33,
+    "Computer Science and Engineering": 94.03,
+    "Electrical Engineering": 93.88,
+    "Electronics and Communication Engineering": 80.68,
+    "Industrial and Production Engineering": 94.03,
+    "Information Technology": 90.83,
+    "Instrumentation and Control Engineering": 94.05,
+    "Mechanical Engineering": 100.0,
+    "Textile Technology": 64.0,
+    "Overall": 88.78
+  },
+  "branch_wise_median_ctc": null,
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Bio Technology": 8.34,
+    "Chemical Engineering": 7.35,
+    "Civil Engineering": 7.5,
+    "Computer Science and Engineering": 16.74,
+    "Electrical Engineering": 10.86,
+    "Electronics and Communication Engineering": 16.75,
+    "Industrial and Production Engineering": 8.82,
+    "Information Technology": 12.95,
+    "Instrumentation and Control Engineering": 9.61,
+    "Mechanical Engineering": 8.3,
+    "Textile Technology": 7.75,
+    "Overall": 12.44
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": null,
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "Biotechnology"
+    },
+    {
+      "name": "Chemical Engineering"
+    },
+    {
+      "name": "Chemistry"
+    },
+    {
+      "name": "Civil Engineering"
+    },
+    {
+      "name": "Computer Science & Engineering"
+    },
+    {
+      "name": "Electrical Engineering"
+    },
+    {
+      "name": "Electronics & Communication Engineering"
+    },
+    {
+      "name": "Humanities & Social Sciences"
+    },
+    {
+      "name": "Industrial & Production Engineering"
+    },
+    {
+      "name": "Mathematics"
+    },
+    {
+      "name": "Mechanical Engineering"
+    },
+    {
+      "name": "Physics"
+    },
+    {
+      "name": "Textile Technology"
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": null,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": null,
+  "student_activities": null,
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.nitj.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 67,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/nit-jalandhar",
+  "last_scraped_at": "2026-03-31T16:12:05.802527",
+  "department_count": 13,
+  "total_faculty": 0
+}

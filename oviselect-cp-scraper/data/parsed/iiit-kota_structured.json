@@ -1,0 +1,816 @@
+{
+  "institute": "IIIT (IIIT)Kota, Rajasthan",
+  "institute_type": "IIIT",
+  "also_known_as": "IIITK",
+  "established_year": 2013,
+  "city": "Kota",
+  "state": "Rajasthan",
+  "address": "Indian Institute of Information Technology, SPL-269, RIICO Industrial Area, Kuber Extension, Ranpur, Kota, Rajasthan – 325003",
+  "nearest_airport": "Jaipur International Airport",
+  "nearest_airport_km": 262.0,
+  "nearest_railway_station": "Kota Junction Railway Station",
+  "nearest_railway_km": 24.0,
+  "nirf_overall_rank": null,
+  "nirf_engineering_rank": null,
+  "nirf_research_rank": null,
+  "nirf_innovation_rank": null,
+  "qs_world_rank": null,
+  "qs_asia_rank": null,
+  "the_world_rank": null,
+  "the_asia_rank": null,
+  "outlook_rank": null,
+  "the_week_rank": null,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "tuition_fee_per_sem": 90000,
+  "hostel_fee_per_sem": 12000,
+  "mess_advance_per_sem": 20000,
+  "one_time_fees": 13625,
+  "caution_money": 10000,
+  "annual_fees": 800,
+  "total_institute_fee": 135425,
+  "total_hostel_fee": 53000,
+  "fee_waivers": [
+    "20% Tuition Fee waiver for SC/ST/PwD students."
+  ],
+  "overall_placement_pct": 75.93,
+  "avg_package_lpa": 13.89,
+  "median_package_lpa": 11.58,
+  "highest_package_lpa": null,
+  "branch_wise_placement_pct": {
+    "Computer Science and Engineering": 77.06,
+    "Electronics and Communication Engineering": 73.58,
+    "Overall": 75.93
+  },
+  "branch_wise_median_ctc": {
+    "Computer Science and Engineering": 13.75,
+    "Electronics and Communication Engineering": 8.5,
+    "Overall": 12.5
+  },
+  "branch_wise_highest_ctc": null,
+  "branch_wise_avg_ctc": {
+    "Computer Science and Engineering": 15.76,
+    "Electronics and Communication Engineering": 11.31,
+    "Overall": 14.6
+  },
+  "top_recruiters": null,
+  "placement_year": 2023,
+  "placement_officer": {
+    "name": null,
+    "designation": null,
+    "email": null,
+    "phone": "0744-2667000"
+  },
+  "year_wise_placements": null,
+  "internship_placement_pct": null,
+  "internship_avg_stipend": null,
+  "sector_wise_placement": null,
+  "total_faculty_count": null,
+  "faculty_with_phd_pct": null,
+  "faculty_student_ratio": null,
+  "departments": [
+    {
+      "name": "General",
+      "hod": null,
+      "faculty_count": 75,
+      "faculty": [
+        {
+          "name": "Dr. Abhay Upadhyay Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Adarsh Kumar Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ajay Kumar Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ajay Nehra Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Amit Kumar Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Amit Kumar Garg Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Anand Agrawal Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Anil Sharma Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ankita Birla Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ashok Kumar Kherodia Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Bhavna Bajpai Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Chetna Sharma Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Gyan Singh Yadav Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Isha Pathak Tripathi Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Kapil Kumar Choudhary Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Monika Dubey Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Parikshit Singh Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Pintu Kumar Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Pooja Sharma Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Pragnya Das Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Prashant Goyal Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Priyanka Agrawal Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rahul Makkar Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rajendra Kachhava Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rajiv Ranjan Mahto Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ritam Sharma Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Shekhar Pratap Singh Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Shivang Tripathi Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Veena Khandelwal Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Vinita Tiwari Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Abhay Upadhyay Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ajay Kumar Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Amit Kumar Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Anand Agrawal Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ankita Birla Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Bhavna Bajpai Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Gyan Singh Yadav Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Kapil Kumar Choudhary Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Parikshit Singh Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Pooja Sharma Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Prashant Goyal Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rahul Makkar Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rajiv Ranjan Mahto Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Shekhar Pratap Singh Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Veena Khandelwal Dr",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Abhay Upadhyay Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Adarsh Kumar Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ajay Kumar Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ajay Nehra Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Amit Kumar Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Amit Kumar Garg Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Anand Agrawal Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Anil Sharma Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ankita Birla Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ashok Kumar Kherodia Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Bhavna Bajpai Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Chetna Sharma Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Gyan Singh Yadav Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Isha Pathak Tripathi Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Kapil Kumar Choudhary Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Monika Dubey Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Parikshit Singh Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Pintu Kumar Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Pooja Sharma Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Pragnya Das Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Prashant Goyal Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Priyanka Agrawal Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rahul Makkar Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rajendra Kachhava Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Rajiv Ranjan Mahto Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Ritam Sharma Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Shekhar Pratap Singh Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Shivang Tripathi Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Veena Khandelwal Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        },
+        {
+          "name": "Dr. Vinita Tiwari Department",
+          "designation": "Faculty",
+          "department": "General",
+          "email": "",
+          "specialization": "",
+          "phd": null,
+          "experience_years": null
+        }
+      ]
+    }
+  ],
+  "ug_programmes": null,
+  "pg_programmes": null,
+  "phd_available": false,
+  "phd_seats": null,
+  "dual_degree_programmes": null,
+  "jee_advanced_cutoff_year": null,
+  "gate_cutoff_year": null,
+  "admission_documents_required": null,
+  "refund_policy": null,
+  "registration_fee_per_sem": null,
+  "exam_fee_per_sem": null,
+  "library_fee_per_sem": null,
+  "sports_fee_per_sem": null,
+  "medical_fee_per_sem": null,
+  "internet_charges_per_sem": null,
+  "development_fund_per_sem": null,
+  "alumni_fund_one_time": null,
+  "research": null,
+  "infrastructure": {
+    "labs": null,
+    "central_instruments": null,
+    "library": null,
+    "sports_facilities": null,
+    "hostels": null,
+    "hostel_count_boys": null,
+    "hostel_count_girls": null,
+    "total_hostel_capacity": null,
+    "medical_centre": null,
+    "has_bank_atm": false,
+    "has_post_office": false,
+    "cafeteria_messes": null,
+    "guest_house": null,
+    "transport_buses": null
+  },
+  "student_activities": {
+    "clubs": null,
+    "technical_societies": null,
+    "technical_fests": null,
+    "cultural_fests": null,
+    "has_nss": false,
+    "has_ncc": false,
+    "sports_teams": null,
+    "student_publications": null,
+    "student_council_positions": null
+  },
+  "international_relations": null,
+  "nirf_overall_rank_history": null,
+  "nirf_management_rank": null,
+  "nirf_law_rank": null,
+  "official_website": "https://www.iiitkota.ac.in",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "data_confidence_score": 71,
+  "needs_review": false,
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iiit-kota",
+  "last_scraped_at": "2026-03-31T16:17:25.491006",
+  "department_count": 1,
+  "total_faculty": 75
+}

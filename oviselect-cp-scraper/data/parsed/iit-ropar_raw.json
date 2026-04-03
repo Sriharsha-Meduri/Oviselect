@@ -1,0 +1,89 @@
+{
+  "institute": "IIT Ropar",
+  "also_known_as": "IIT-RPR",
+  "institute_type": "IIT",
+  "established_year": 2008,
+  "city": "Ropar",
+  "state": "Punjab",
+  "address": "Indian Institute of Technology, Nangal Road, Rupnagar, Punjab - 140001",
+  "nearest_airport": "Shaheed Bhagat Singh International Airport, Chandigarh",
+  "nearest_airport_km": 56.5,
+  "nearest_railway_station": "Rupnagar Railway Station",
+  "nearest_railway_km": 8.0,
+  "qs_asia_rank": "623 (2026)",
+  "nirf_overall_rank": 56,
+  "nirf_engineering_rank": 32,
+  "nirf_research_rank": 47,
+  "nirf_innovation_rank": "11-50 (2024)",
+  "outlook_rank": 11,
+  "the_week_rank": 20,
+  "caution_money": 10000,
+  "one_time_fees": 5800,
+  "tuition_fee_per_sem": 100000,
+  "annual_fees": 750,
+  "total_institute_fee": 123850,
+  "hostel_fee_per_sem": 6300,
+  "mess_advance_per_sem": 22260,
+  "total_hostel_fee": 42560,
+  "fee_waivers": [
+    "100% Tuition Fee waiver for SC/ST/PwD students.",
+    "100% Tuition Fee remission for Most Economically Backward students with family income less than \u20b91 lakh per annum.",
+    "2/3rd Tuition Fee remission for Other Economically Backward students with family income between \u20b91 lakh to \u20b95 lakh per annum."
+  ],
+  "overall_placement_pct": 70.47,
+  "branch_wise_placement_pct": {
+    "Chemical Engineering": 29.41,
+    "Civil Engineering": 57.69,
+    "Computer Science and Engineering": 82.56,
+    "Electrical Engineering": 75.76,
+    "Mathematics and Computing": 85.71,
+    "Mechanical Engineering": 64.91,
+    "Metallurgical and Materials Engineering": 44.44,
+    "Overall B.Tech.": 70.47
+  },
+  "placement_year": 2023,
+  "branch_wise_median_ctc": {
+    "Chemical Engineering": 15.76,
+    "Civil Engineering": 13.6,
+    "Computer Science and Engineering": 28.86,
+    "Electrical Engineering": 16.81,
+    "Mathematics and Computing": 14.0,
+    "Mechanical Engineering": 15.0,
+    "Metallurgical and Materials Engineering": 12.88,
+    "Overall B.Tech.": 16.62,
+    "Overall Dual Degree": 15.0
+  },
+  "median_package_lpa": 16.5,
+  "branch_wise_avg_ctc": {
+    "Chemical Engineering": 19.7,
+    "Civil Engineering": 17.43,
+    "Computer Science and Engineering": 28.72,
+    "Electrical Engineering": 23.12,
+    "Mathematics and Computing": 18.2,
+    "Mechanical Engineering": 19.85,
+    "Metallurgical and Materials Engineering": 12.55,
+    "Overall B.Tech.": 22.49,
+    "Overall Dual Degree": 19.85
+  },
+  "avg_package_lpa": 20.21,
+  "courses_offered": [
+    "B.E./B.Tech. - 4 Years"
+  ],
+  "_slug": "iit-ropar",
+  "collegepravesh_url": "https://www.collegepravesh.com/engineering-colleges/iit-ropar",
+  "last_scraped_at": "2026-03-31T16:01:54.534741",
+  "data_sources": [
+    "collegepravesh",
+    "official_website"
+  ],
+  "official_website": "https://www.iitrpr.ac.in",
+  "phd_available": false,
+  "infrastructure": {
+    "has_bank_atm": false,
+    "has_post_office": false
+  },
+  "student_activities": {
+    "has_nss": false,
+    "has_ncc": false
+  }
+}
